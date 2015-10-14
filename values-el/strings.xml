@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Application ##################################################################### -->
+    <string name="app_name">Οι Κωδικοί μου</string>
+    <string name="app_version">έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">Οι Κωδικοί μου έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
+    <string name="app_download_message">Κατεβάστε το τώρα δωρεάν από το Play Google store</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- General ######################################################################### -->
+    <string name="target_folder">Φάκελος<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Αρχείο<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Τοποθεσία</string>
+    <string name="master_password">κύριος κωδικός πρόσβασης</string>
+    <string name="password_is_too_short">Ο κωδικός είναι πολύ μικρός</string>
+    <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
+    <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
+    <string name="required">Υποχρεωτικό</string>
+    <string name="title">Τίτλος</string>
+    <string name="account">Λογαριασμός</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="username">Όνομα χρήστη</string>
+    <string name="website">Ιστοσελίδα</string>
+    <string name="description">Περιγραφή</string>
+    <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
+    <string name="last_updated">Τελευταία ενημέρωση</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Buttons ######################################################################### -->
+    <string name="button_register">ΚΑΤΑΧΩΡΗΣΗ</string>
+    <string name="button_enter">ΕΙΣΟΔΟΣ</string>
+    <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
+    <string name="button_update">ΑΛΛΑΓΗ</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Activities ###################################################################### -->
+    <!-- welcome -->
+    <string name="welcome_info_title">Καλώς ήρθατε</string>
+    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Αυτή η εφαρμογή θα σας βοηθήσει να αποθηκεύσετε όλους τους κωδικούς σας εύκολα και με ασφάλεια<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Το μόνο που έχετε να κάνετε είναι να θυμάστε έναν και μόνο κωδικό πρόσβασης</string>
+    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
+    <!-- upgrade -->
+    <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
+    <string name="upgrade_title_list">Με την αγορά της έκδοσης PRO:</string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα εισαγωγής και εξαγωγής csv αρχείων<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα αυτόματης δημιουργίας αντιγράφων ασφαλείας<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα επιλογής theme<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Δείχνετε την υποστήριξή σας στον προγραμματιστή<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">όρους</string>
+    <!-- change master password -->
+    <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
+    <string name="change_mp_new_master_password">νέος κωδικός πρόσβασης</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Menus ########################################################################### -->
+    <string name="menu_search">Αναζήτηση</string>
+    <string name="menu_overflow">Περισσότερα</string>
+    <string name="menu_appearance">Εμφάνιση</string>
+    <string name="menu_database">Βάση δεδομένων</string>
+    <string name="menu_security">Ασφάλεια</string>
+    <string name="menu_about">Σχετικά</string>
+    <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
+    <string name="menu_new">Νέα καταχώρηση</string>
+    <string name="menu_edit">Επεξεργασία</string>
+    <string name="menu_delete">Διαγραφή</string>
+    <string name="menu_color">Χρώμα</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Toasts ########################################################################## -->
+    <string name="toast_tap_again_to_exit">Πατήστε ξανά για να βγείτε</string>
+    <string name="toast_entry_deleted">Η καταχώρηση διαγράφικε</string>
+    <string name="toast_entries_deleted">Οι καταχωρήσεις διαγράφηκαν</string>
+    <string name="toast_entry_saved">Η καταχώρηση αποθηκεύτηκε</string>
+    <string name="toast_entry_discarded">Η καταχώρηση απορρίφθηκε</string>
+    <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
+    <string name="toast_no_browser">Δεν βρέθηκε κάποιο πρόγραμμα περιήγησης</string>
+    <string name="toast_no_playstore">Η εφαρμογή Google Play δεν είναι εγκατεστημένη</string>
+    <string name="toast_tap_to_copy_text">Πατήστε στο κείμενο για να αντιγράψετε το περιεχόμενο</string>
+    <string name="toast_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="toast_master_password_updated">Ο κύριος κωδικός πρόσβασης ενημερώθηκε με επιτυχία</string>
+    <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
+    <string name="toast_storage_permission_granted">Η άδεια παραχωρήθηκε</string>
+    <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
+    <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
+    <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
+    <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>
+    <string name="toast_error_restore">Αποτυχία αποκατάστασης βάσης δεδομένων</string>
+    <string name="toast_successful_csv_export">Το αρχείο csv έχει εξαχθεί με επιτυχία</string>
+    <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
+    <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
+    <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Dialogs ######################################################################### -->
+    <string name="dialog_button_ok">ΕΝΤΑΞΕΙ</string>
+    <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
+    <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
+    <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
+    <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
+    <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
+    <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
+    <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
+    <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
+    <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
+    <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
+    <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
+    <string name="dialog_msg_error_occurred">Παρουσιάστηκε σφάλμα:\u0020</string>
+    <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
+    <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
+    <string name="dialog_msg_error_writing_file">Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου.</string>
+    <string name="dialog_msg_error_reading_file">Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου.</string>
+    <string name="dialog_msg_invalid_csv_format">Το επιλεγμένο csv αρχείο δεν έχει έγκυρη μορφή και δεν μπορεί να εισαχθεί.</string>
+    <string name="dialog_msg_invalid_db_format">Το επιλεγμένο αντίγραφο ασφαλείας δημιουργήθηκε χρησιμοποιώντας έναν διαφορετικό κύριο κωδικό πρόσβασης και δεν μπορεί να αποκατασταθεί.</string>
+    <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Notifications ################################################################### -->
+    <string name="notification_text_app_running">Η εφαρμογή εκτελείται</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Preferences ##################################################################### -->
+    <!-- appearance -->
+    <string name="pref_appearance_title_sort_entries">Ταξινόμηση καταχωρήσεων</string>
+    <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
+    <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
+    <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
+    <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
+    <string name="pref_appearance_summary_show_passwords">Οι κωδικοί πρόσβασης θα εμφανίζονται πάντα, ώστε να μην χρειάζεται να πατήσετε στο εικονίδιο του ματιού</string>
+    <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
+    <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
+    <string name="pref_appearance_title_change_theme">Αλλαγή theme</string>
+    <string name="pref_appearance_theme_light">Light</string>
+    <string name="pref_appearance_theme_dark">Dark</string>
+    <!-- database -->
+    <string name="pref_database_title_backup">Δημιουργία αντιγράφου ασφαλείας</string>
+    <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
+    <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
+    <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
+    <string name="pref_database_title_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="pref_database_summary_auto_backup">Δημιουργεί ένα αντίγραφο ασφαλείας της βάσης κάθε φορά που εξέρχεστε από την εφαρμογή (μέγιστος αριθμός αρχείων 10)</string>
+    <string name="pref_database_title_auto_backup_folder">Φάκελος</string>
+    <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
+    <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
+    <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>
+    <string name="pref_database_summary_import">Εισαγωγή καταχωρήσεων από ένα μη-κρυπτογραφημένο αρχείο csv</string>
+    <!-- security -->
+    <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
+    <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
+    <string name="pref_security_summary_fast_enter">Καθιστά πιο γρήγορη την είσοδο στην εφαρμογή χωρίς να χρειάζεται να πατάτε το κουμπί ΕΙΣΟΔΟΣ εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
+    <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
+    <string name="pref_security_summary_auto_exit">Η εφαρμογή θα κλείνει αυτόματα όταν κλείνει η οθόνη</string>
+    <!-- about -->
+    <string name="pref_about_title_contact">Αναφορά σφάλματος</string>
+    <string name="pref_about_title_support">Αξιολόγηση</string>
+    <string name="pref_about_title_more_apps">Περισσότερες εφαρμογές</string>
+    <string name="pref_about_title_share">Πείτε το στους φίλους σας</string>
+    <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
+    <string name="pref_about_title_build_version">Έκδοση</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Preference Categories ########################################################### -->
+    <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
+    <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> ΑΥΤΟΜΑΤΟ BACKUP</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <!-- ################################################################################# -->
+
+</resources>

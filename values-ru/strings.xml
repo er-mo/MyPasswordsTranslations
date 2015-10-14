@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Application ##################################################################### -->
+    <string name="app_name">Мои Пароли</string>
+    <string name="app_version">версия <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">Мои Пароли приложение версия <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Надежное и простое в использовании менеджер паролей для устройств Android</string>
+    <string name="app_download_message">Получить ее бесплатно прямо сейчас из магазина Google Play для</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- General ######################################################################### -->
+    <string name="target_folder">Папка<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Файл<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Место нахождения</string>
+    <string name="master_password">мастер-пароль</string>
+    <string name="password_is_too_short">Пароль слишком короткий</string>
+    <string name="passwords_not_matching">Пароли не соответствуют</string>
+    <string name="password_not_correct">Пароль не правильно</string>
+    <string name="required">необходимый</string>
+    <string name="title">Заглавие</string>
+    <string name="account">Счет</string>
+    <string name="password">Пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="website">Веб-сайт</string>
+    <string name="description">Описание</string>
+    <string name="list_is_empty">Там нет записей</string>
+    <string name="last_updated">Последнее обновление</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Buttons ######################################################################### -->
+    <string name="button_register">РЕГИСТР</string>
+    <string name="button_enter">Вводить</string>
+    <string name="button_upgrade_now">ОБНОВИ СЕЙЧАС</string>
+    <string name="button_update">ОБНОВИТЬ</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Activities ###################################################################### -->
+    <!-- welcome -->
+    <string name="welcome_info_title">Добро пожаловат</string>
+    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Надежное и простое в использовании менеджер паролей для Android устройства</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Это приложение было разработано, чтобы помочь вам хранить все ваши пароли легко и безопасно<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Единственное, что вам нужно сделать, это помнить мастер-пароль</string>
+    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Пожалуйста, обратите внимание, что, если мастер-пароль потерял сохраненные данные не могут быть восстановлены из-за недостающего опции синхронизации<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Настоятельно рекомендуется сделать резервную копию ваших данных на регулярной основе</string>
+    <!-- upgrade -->
+    <string name="upgrade_thank_you">Спасибо за покупку PRO версии.</string>
+    <string name="upgrade_title_list">Приобретая PRO версия:</string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Открой csv импорт и экспорт функции<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Разблокировать функцию автоматического резервного копирования<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Разблокировать настройку тему<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Показать свою верность разработчика<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Примите следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">условия</string>
+    <!-- change master password -->
+    <string name="change_mp_old_master_password">старый мастер-пароль</string>
+    <string name="change_mp_new_master_password">новый мастер-пароль</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Menus ########################################################################### -->
+    <string name="menu_search">поисковый</string>
+    <string name="menu_overflow">Больше</string>
+    <string name="menu_appearance">Внешность</string>
+    <string name="menu_database">База данных</string>
+    <string name="menu_security">Безопасность</string>
+    <string name="menu_about">Около</string>
+    <string name="menu_upgrade">Обновление до PRO</string>
+    <string name="menu_new">Hовый</string>
+    <string name="menu_edit">Pедактировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_color">Цвет</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Toasts ########################################################################## -->
+    <string name="toast_tap_again_to_exit">Нажмите снова, чтобы выйти</string>
+    <string name="toast_entry_deleted">Вступление удален</string>
+    <string name="toast_entries_deleted">Записи удаляются</string>
+    <string name="toast_entry_saved">Вступление сохраняются</string>
+    <string name="toast_entry_discarded">Вступление отбрасываются</string>
+    <string name="toast_try_again_shortly">Пожалуйста, попробуйте еще раз в несколько секунд</string>
+    <string name="toast_no_browser">Нет веб-браузер приложение нашли</string>
+    <string name="toast_no_playstore">Google Play магазин приложений не установлен</string>
+    <string name="toast_tap_to_copy_text">Нажмите на представлении текста, чтобы скопировать содержимое</string>
+    <string name="toast_copied_to_clipboard">Скопировать в буфер обмена</string>
+    <string name="toast_master_password_updated">Успешно обновлено мастер-пароль</string>
+    <string name="toast_master_password_not_updated">Не удалось обновить мастер-пароль</string>
+    <string name="toast_storage_permission_granted">Разрешение получено</string>
+    <string name="toast_storage_permission_denied">Доступ запрещен. Не можете читать или записывать файлы.</string>
+    <string name="toast_no_file_selected">Файл не был выбран</string>
+    <string name="toast_successful_backup">Успешно создано резервного копирования</string>
+    <string name="toast_successful_restore">Успешно восстановленная база данных</string>
+    <string name="toast_error_restore">Не удалось восстановить базу данных</string>
+    <string name="toast_successful_csv_export">Успешно экспортируются csv файл</string>
+    <string name="toast_successful_csv_import">Успешно импортированы csv файл</string>
+    <string name="toast_error_csv_import">Не удалось импортировать csv файл</string>
+    <string name="toast_database_server_error">В базе данных не доступна в данный момент.</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Dialogs ######################################################################### -->
+    <string name="dialog_button_ok">хорошо́</string>
+    <string name="dialog_button_continue">продолжа́ть</string>
+    <string name="dialog_button_cancel">отмена</string>
+    <string name="dialog_button_delete">удаля́ть</string>
+    <string name="dialog_title_restore_backup">Восстановление резервной копии?</string>
+    <string name="dialog_title_import_csv">Импорт csv?</string>
+    <string name="dialog_title_change_master_password">Изменить пароль?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
+    <string name="dialog_msg_changing_master_password">Изменяя мастер-пароль, вы не сможете восстановить резервные копии баз данных, которые были созданы с текущей мастер-пароль.</string>
+    <string name="dialog_msg_delete_previous_password">Удалить предыдущий пароль?</string>
+    <string name="dialog_msg_delete_selected_entries">Удалить выбранные записи?</string>
+    <string name="dialog_msg_delete_entry">Удалить запись?</string>
+    <string name="dialog_msg_cannot_open_folder">Папка не доступен.</string>
+    <string name="dialog_msg_error_occurred">Произошла ошибка:\u0020</string>
+    <string name="dialog_msg_payload_failed">Полезная нагрузка проверка не удалась.</string>
+    <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
+    <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла.</string>
+    <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла.</string>
+    <string name="dialog_msg_invalid_csv_format">Выбранный csv файл имеет неверный формат и не могут быть импортированы.</string>
+    <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другой мастер-пароль и не может быть восстановлен.</string>
+    <string name="dialog_progress_please_wait">Пожалуйста подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Notifications ################################################################### -->
+    <string name="notification_text_app_running">Приложение работает</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Preferences ##################################################################### -->
+    <!-- appearance -->
+    <string name="pref_appearance_title_sort_entries">Cортирова́ть</string>
+    <string name="pref_appearance_sorting_choise_alpha">По алфавиту</string>
+    <string name="pref_appearance_sorting_choise_time">По дате</string>
+    <string name="pref_appearance_sorting_choise_color">По цвету</string>
+    <string name="pref_appearance_title_show_passwords">Показать пароли</string>
+    <string name="pref_appearance_summary_show_passwords">Пароли всегда будет отображаться так что вы не должны явно нажмите на иконку глаза</string>
+    <string name="pref_appearance_title_show_notification">Показывать значок уведомления</string>
+    <string name="pref_appearance_summary_show_notification">Значок уведомления отображается, когда приложение работает</string>
+    <string name="pref_appearance_title_change_theme">Менять theme</string>
+    <string name="pref_appearance_theme_light">Light</string>
+    <string name="pref_appearance_theme_dark">Dark</string>
+    <!-- database -->
+    <string name="pref_database_title_backup">Резервное копирование</string>
+    <string name="pref_database_summary_backup">Создать резервную копию зашифрованной базе данных</string>
+    <string name="pref_database_title_restore">Востановление</string>
+    <string name="pref_database_summary_restore">Восстановить резервную копию зашифрованной базе данных</string>
+    <string name="pref_database_title_auto_backup">Автобэкап</string>
+    <string name="pref_database_summary_auto_backup">Создает резервную копию базы данных каждый раз, когда вы выйти из приложения (максимальное количество файлов 10)</string>
+    <string name="pref_database_title_auto_backup_folder">Папка назначения</string>
+    <string name="pref_database_title_export">Экспорт файла csv</string>
+    <string name="pref_database_summary_export">Экспорт записи в файл незашифрованном формате csv</string>
+    <string name="pref_database_title_import">Импорт csv файла</string>
+    <string name="pref_database_summary_import">Импортировать данные из файла незашифрованном формате csv</string>
+    <!-- security -->
+    <string name="pref_security_title_change_password">Изменить мастер-пароль</string>
+    <string name="pref_security_title_fast_enter">Быстрый вход</string>
+    <string name="pref_security_summary_fast_enter">Делает это быстрее, чтобы войти в приложение без необходимости нажмите кнопку Вводить, если мастер-пароль правильно</string>
+    <string name="pref_security_title_auto_exit">Авто выход</string>
+    <string name="pref_security_summary_auto_exit">Приложение автоматически закроется, когда экран потухнет</string>
+    <!-- about -->
+    <string name="pref_about_title_contact">Сообщить об ошибке</string>
+    <string name="pref_about_title_support">Оценка и отзыв</string>
+    <string name="pref_about_title_more_apps">Больше приложений</string>
+    <string name="pref_about_title_share">Рассказать друзьям</string>
+    <string name="pref_about_title_licenses">Лицензии с открытым исходным кодом</string>
+    <string name="pref_about_title_build_version">Версия сборки</string>
+    <!-- ################################################################################# -->
+
+
+    <!-- Preference Categories ########################################################### -->
+    <string name="pref_category_appearance">ПОЯВЛЕНИЕ</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
+    <string name="pref_category_database">БАЗА ДАННЫХ</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> АВТОБЭКАП</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <!-- ################################################################################# -->
+
+</resources>
