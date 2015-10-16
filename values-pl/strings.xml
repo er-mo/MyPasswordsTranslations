@@ -2,176 +2,176 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_version">version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">Moje Hasła</string>
+    <string name="app_version">wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">Moje Hasła, wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
+    <string name="app_download_message">Pobierz ze Sklepu Play.</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
-    <string name="master_password">master password</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="description">Description</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="target_folder">Katalog<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Plik<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Lokacja</string>
+    <string name="master_password">hasło główne</string>
+    <string name="password_is_too_short">Zakrótkie hasło!</string>
+    <string name="passwords_not_matching">Hasła się różnią</string>
+    <string name="password_not_correct">Hasło jest niepoprawne!</string>
+    <string name="required">Wymagane</string>
+    <string name="title">Nazwa</string>
+    <string name="account">Konto</string>
+    <string name="password">Hasło</string>
+    <string name="username">Użytkownik</string>
+    <string name="website">Strona WWW</string>
+    <string name="description">Opis</string>
+    <string name="list_is_empty">Nie ma wpisów!</string>
+    <string name="last_updated">Aktualizacja</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
+    <string name="button_register">ZAREJESTRUJ</string>
+    <string name="button_enter">WEJDŹ</string>
+    <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
+    <string name="button_update">AKTUALIZUJ</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> This application was designed to help you store all your passwords easily and safely<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> It is strongly recommended that you backup your data at regular intervals</string>
+    <string name="welcome_info_title">Moje Hasła</string>
+    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Bezpieczna i łatwa w obsłudze aplikacja dla twojego Androida.</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Została stworzona byś mógł bezpiecznie przechowywać swoje hasła.<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Wystarczy, że będziesz pamiętał hasło główne</string>
+    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Regularnie rób kopię zapasową swojej bazy!</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_title_list">By purchasing the PRO version you:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the csv import &amp; export features<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the auto backup feature<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the theme setting<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Show your loyalty to the developer<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">terms</string>
+    <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
+    <string name="upgrade_title_list">Kupując wersję PRO:</string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Uzyskujesz możliwość eksportu do CSV oraz wykonywania kopii zapasowej.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Aktywujesz opcję automatycznej kopii zapasowej.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Będziesz mógł zmienić motyw na ciemny.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Sprawiasz, że autor będzie mógł sobie coś kupić.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Akeceptujesz te<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">postanowienia</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old master password</string>
-    <string name="change_mp_new_master_password">new master password</string>
+    <string name="change_mp_old_master_password">stare hasło główne</string>
+    <string name="change_mp_new_master_password">nowe hasło główne</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_overflow">More</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_new">New</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_color">Color</string>
+    <string name="menu_search">Szukaj</string>
+    <string name="menu_overflow">Więcej</string>
+    <string name="menu_appearance">Wygląd</string>
+    <string name="menu_database">Baza danych</string>
+    <string name="menu_security">Bezpieczeństwo</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="menu_upgrade">Przejdź na PRO</string>
+    <string name="menu_new">Nowy</string>
+    <string name="menu_edit">Edytuj</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="menu_color">Kolor</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
     <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_entry_discarded">Entry discarded</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_error_restore">Failed to restore database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment.</string>
+    <string name="toast_entry_deleted">Wpis usunięty</string>
+    <string name="toast_entries_deleted">Wpisy usunięte</string>
+    <string name="toast_entry_saved">Zapisano</string>
+    <string name="toast_entry_discarded">Wpis odrzucony</string>
+    <string name="toast_try_again_shortly">Spróbuj ponownie za kilka sekund </string>
+    <string name="toast_no_browser">Nie znaleziono przeglądarki</string>
+    <string name="toast_no_playstore">Sklep Google Play jest niezainstalowany</string>
+    <string name="toast_tap_to_copy_text">Dotknij teksty aby go skopiować</string>
+    <string name="toast_copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="toast_master_password_updated">Uaktualniono hasło główne</string>
+    <string name="toast_master_password_not_updated">Nie udało się zaktualizować hasła głównego</string>
+    <string name="toast_storage_permission_granted">Przyznano dostęp</string>
+    <string name="toast_storage_permission_denied">Odmowa dostępu. Nie będzie można zapisywać i odczytywać plików.</string>
+    <string name="toast_no_file_selected">Nie wybrano pliku.</string>
+    <string name="toast_successful_backup">Utworzono kopię zapasową</string>
+    <string name="toast_successful_restore">Przywrócono bazę danych</string>
+    <string name="toast_error_restore">Nie udało się przywrócić bazy danych</string>
+    <string name="toast_successful_csv_export">Wyeksportowano plik CSV</string>
+    <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
+    <string name="toast_error_csv_import">Nie udało się zaimportować pliku CSV</string>
+    <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_error_occurred">An error occurred:\u0020</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file.</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file.</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_continue">Dalej</string>
+    <string name="dialog_button_cancel">Anuluj</string>
+    <string name="dialog_button_delete">Usuń</string>
+    <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
+    <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
+    <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
+    <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
+    <string name="dialog_msg_delete_previous_password">Zmienić stare hasło?</string>
+    <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
+    <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
+    <string name="dialog_msg_cannot_open_folder">Katalog nie	 jest dostępny.</string>
+    <string name="dialog_msg_error_occurred">Błąd: \u0020</string>
+    <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
+    <string name="dialog_msg_cannot_read_file">NIe można odczytac wybranego pliku.</string>
+    <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku.</string>
+    <string name="dialog_msg_error_reading_file">Błąd przy odczycie pliku.</string>
+    <string name="dialog_msg_invalid_csv_format">Wybrany plik CSV ma niepoprawny format i nie zostanie zaimportowany.</string>
+    <string name="dialog_msg_invalid_db_format">Wybrana kopia zapasowa została utworzona z innym hasłem i nie zostanie przywrócona.</string>
+    <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Aplikacja uruchomiona</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">The passwords will be always shown so you do not have to explicitly press the eye icon</string>
-    <string name="pref_appearance_title_show_notification">Show notification icon</string>
-    <string name="pref_appearance_summary_show_notification">The notification icon will be shown to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">Sortuj wpisy</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
+    <string name="pref_appearance_sorting_choise_time">Po dacie</string>
+    <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
+    <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
+    <string name="pref_appearance_summary_show_passwords">Hasła będą zawsze widoczne</string>
+    <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
+    <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
+    <string name="pref_appearance_title_change_theme">Zmień styl</string>
+    <string name="pref_appearance_theme_light">Jasny</string>
+    <string name="pref_appearance_theme_dark">Ciemny</string>
     <!-- database -->
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_auto_backup">Auto backup</string>
-    <string name="pref_database_summary_auto_backup">Creates a backup of the database each time you exit the application (maximum backup files kept 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Destination folder</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup">Kopia zapasowa bazy danych.</string>
+    <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
+    <string name="pref_database_title_restore">Przywróć bazę danych</string>
+    <string name="pref_database_summary_restore">Przywraca kopię zapasową bazy danych</string>
+    <string name="pref_database_title_auto_backup">Automatyczna kopia zapasowa</string>
+    <string name="pref_database_summary_auto_backup">Tworzy kopię zapasową bazy danych przy każdym wyjściu z aplikacji (maks. 10 kopii)</string>
+    <string name="pref_database_title_auto_backup_folder">Katalog kopii</string>
+    <string name="pref_database_title_export">Eksportuj plik CSV</string>
+    <string name="pref_database_summary_export">Eksportuj dane do niezaszyfrowanego pliku CSV</string>
+    <string name="pref_database_title_import">Importuj plik CSV</string>
+    <string name="pref_database_summary_import">Importuje dane z pliku CSV</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
+    <string name="pref_security_title_change_password">Zmień hasło główne</string>
+    <string name="pref_security_title_fast_enter">Szybkie otwarcie</string>
+    <string name="pref_security_summary_fast_enter">Jeśli główne hasło jest poprawne, automatycznie otwiera aplikację.</string>
+    <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
+    <string name="pref_security_summary_auto_exit">Wyłączenie ekranu zamknie aplikację.</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Zgłoś błąd</string>
+    <string name="pref_about_title_support">Oceń</string>
+    <string name="pref_about_title_more_apps">Więcej aplikacji</string>
+    <string name="pref_about_title_share">Poleć znajomym</string>
+    <string name="pref_about_title_licenses">Licence open source</string>
+    <string name="pref_about_title_build_version">Build</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> AUTO BACKUP</string>
+    <string name="pref_category_appearance">WYGLĄD</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> STYL</string>
+    <string name="pref_category_database">BAZA DANYCH</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> AUTOMATYCZNA KOPIA ZAPASOWA</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
     <!-- ################################################################################# -->
 
