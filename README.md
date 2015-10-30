@@ -7,7 +7,7 @@ Any feedback, help and new language translations are greatly appreciated.
 So basically you fork the project, make the translation to your language and then send a pull request.
 I will then take the updated translation files and put them into the main application repository.
 
-### Download now
+### Download
 <a href="https://play.google.com/store/apps/details?id=com.er.mo.apps.mypasswords">
 <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
 </a>
