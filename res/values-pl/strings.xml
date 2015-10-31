@@ -110,7 +110,7 @@
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog nie	 jest dostępny.</string>
-    <string name="dialog_msg_error_occurred">Błąd: \u0020</string>
+    <string name="dialog_msg_error_occurred">Błąd:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">NIe można odczytac wybranego pliku.</string>
     <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku.</string>

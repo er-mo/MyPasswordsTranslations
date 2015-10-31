@@ -110,7 +110,7 @@
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
-    <string name="dialog_msg_error_occurred">Παρουσιάστηκε σφάλμα:\u0020</string>
+    <string name="dialog_msg_error_occurred">Παρουσιάστηκε σφάλμα:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
     <string name="dialog_msg_error_writing_file">Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου.</string>

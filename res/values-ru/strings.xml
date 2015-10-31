@@ -110,7 +110,7 @@
     <string name="dialog_msg_delete_selected_entries">Удалить выбранные записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
     <string name="dialog_msg_cannot_open_folder">Папка не доступен.</string>
-    <string name="dialog_msg_error_occurred">Произошла ошибка:\u0020</string>
+    <string name="dialog_msg_error_occurred">Произошла ошибка:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Полезная нагрузка проверка не удалась.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
     <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла.</string>

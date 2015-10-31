@@ -110,7 +110,7 @@
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
     <string name="dialog_msg_delete_entry">Delete entry?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_error_occurred">An error occurred:\u0020</string>
+    <string name="dialog_msg_error_occurred">An error occurred:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload verification failed.</string>
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
     <string name="dialog_msg_error_writing_file">An error occurred while writing the file.</string>
