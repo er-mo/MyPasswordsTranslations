@@ -162,6 +162,7 @@
     <string name="pref_about_title_support">Oceń</string>
     <string name="pref_about_title_more_apps">Więcej aplikacji</string>
     <string name="pref_about_title_share">Poleć znajomym</string>
+    <string name="pref_about_title_translations">Tłumaczenia</string>
     <string name="pref_about_title_licenses">Licence open source</string>
     <string name="pref_about_title_build_version">Build</string>
     <!-- ################################################################################# -->

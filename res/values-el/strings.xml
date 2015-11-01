@@ -162,6 +162,7 @@
     <string name="pref_about_title_support">Αξιολόγηση</string>
     <string name="pref_about_title_more_apps">Περισσότερες εφαρμογές</string>
     <string name="pref_about_title_share">Πείτε το στους φίλους σας</string>
+    <string name="pref_about_title_translations">Μεταφράσεις</string>
     <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
     <string name="pref_about_title_build_version">Έκδοση</string>
     <!-- ################################################################################# -->

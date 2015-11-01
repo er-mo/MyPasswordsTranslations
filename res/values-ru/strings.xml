@@ -162,6 +162,7 @@
     <string name="pref_about_title_support">Оценка и отзыв</string>
     <string name="pref_about_title_more_apps">Больше приложений</string>
     <string name="pref_about_title_share">Рассказать друзьям</string>
+    <string name="pref_about_title_translations">Переводы</string>
     <string name="pref_about_title_licenses">Лицензии с открытым исходным кодом</string>
     <string name="pref_about_title_build_version">Версия сборки</string>
     <!-- ################################################################################# -->

@@ -162,6 +162,7 @@
     <string name="pref_about_title_support">Rate and review</string>
     <string name="pref_about_title_more_apps">More apps</string>
     <string name="pref_about_title_share">Tell your friends</string>
+    <string name="pref_about_title_translations">Translations</string>
     <string name="pref_about_title_licenses">Open source licenses</string>
     <string name="pref_about_title_build_version">Build version</string>
     <!-- ################################################################################# -->
