@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Moje Hasła</string>
-    <string name="app_version">wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">Wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Moje Hasła, wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
     <string name="app_download_message">Pobierz ze Sklepu Play.</string>

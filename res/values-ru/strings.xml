@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Мои Пароли</string>
-    <string name="app_version">версия <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">Версия <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Мои Пароли приложение версия <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Надежное и простое в использовании менеджер паролей для устройств Android</string>
     <string name="app_download_message">Получить ее бесплатно прямо сейчас из магазина Google Play для</string>

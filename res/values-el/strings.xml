@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Οι Κωδικοί μου</string>
-    <string name="app_version">έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">Έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Οι Κωδικοί μου έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
     <string name="app_download_message">Κατεβάστε το τώρα δωρεάν από το Play Google store</string>

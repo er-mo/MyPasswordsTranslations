@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_version">version <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">Version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">A secure and easy to use password manager for Android devices</string>
     <string name="app_download_message">Get it now for free from Google Play store</string>

@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Mina Lösenord</string>
-    <string name="app_version">version <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">Version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Mina Lösenord app-version<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">En säker och enkel lösenordshanterare för Androidenheter</string>
     <string name="app_download_message">Skaffa den gratis från Google Play</string>
