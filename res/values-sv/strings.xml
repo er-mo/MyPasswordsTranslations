@@ -2,177 +2,177 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Mina Lösenord</string>
     <string name="app_version">version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_email_subject">Mina Lösenord app-version<xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">En säker och enkel lösenordshanterare för Androidenheter</string>
+    <string name="app_download_message">Skaffa den gratis från Google Play</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
-    <string name="master_password">master password</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="description">Description</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="target_folder">Mapp<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Fil<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Plats</string>
+    <string name="master_password">huvudlösenord</string>
+    <string name="password_is_too_short">Lösenordet är för kort</string>
+    <string name="passwords_not_matching">Lösenorden matchar inte</string>
+    <string name="password_not_correct">Lösenordet är felaktigt/string>
+    <string name="required">Nödvändig</string>
+    <string name="title">Titel</string>
+    <string name="account">Konto</string>
+    <string name="password">Lösenord</string>
+    <string name="username">Användarnamn</string>
+    <string name="website">Webbsida</string>
+    <string name="description">Beskrivning</string>
+    <string name="list_is_empty">Det finns inga poster</string>
+    <string name="last_updated">Senast uppdaterad</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
+    <string name="button_register">REGISTRERA</string>
+    <string name="button_enter">LOGGA IN</string>
+    <string name="button_upgrade_now">UPGRADERA NU</string>
+    <string name="button_update">UPPDATERA</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> This application was designed to help you store all your passwords easily and safely<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> It is strongly recommended that you backup your data at regular intervals</string>
+    <string name="welcome_info_title">Välkommen till Mina Lösenord</string>
+    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>En säker och enkel lösenordshanterare till din Android enhet</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Denna aplikation är utvecklad för att hjälpa dig att spara alla dina lösen ord på ett enkelt och säkert sätt<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> The only thing you have to do is to remember your master password</string>
+    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Observera att om huvudlösenordet tappas bort kan databasen inte återskapas<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Det är starkt rekommenderat att du säkerhetskopierar databasen regelbundet</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_title_list">By purchasing the PRO version you:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the csv import &amp; export features<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the auto backup feature<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the theme setting<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Show your loyalty to the developer<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">terms</string>
+    <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
+    <string name="upgrade_title_list">Om du köper PRO versionen kan du:</string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra CSV import &amp; export funktioner<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra automatisk säkerhetskopiering funktion<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra temainställningar<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Visa din lojalitet till utvecklaren<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Acceptera följande<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">villkor</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old master password</string>
-    <string name="change_mp_new_master_password">new master password</string>
+    <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
+    <string name="change_mp_new_master_password">nytt huvudlösenord</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_overflow">More</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_new">New</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_color">Color</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_overflow">Mer</string>
+    <string name="menu_appearance">Utseende</string>
+    <string name="menu_database">Databas</string>
+    <string name="menu_security">Säkerhet</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_upgrade">Uppgradera till PRO</string>
+    <string name="menu_new">Ny</string>
+    <string name="menu_edit">Redigera</string>
+    <string name="menu_delete">Radera</string>
+    <string name="menu_color">Färg</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_entry_discarded">Entry discarded</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_error_restore">Failed to restore database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment.</string>
+    <string name="toast_tap_again_to_exit">Tryck igen för att avsluta</string>
+    <string name="toast_entry_deleted">Post raderad</string>
+    <string name="toast_entries_deleted">Poster raderade</string>
+    <string name="toast_entry_saved">Post sparad</string>
+    <string name="toast_entry_discarded">Post osparad</string>
+    <string name="toast_try_again_shortly">Försök igen om några få sekunder</string>
+    <string name="toast_no_browser">Webbläsartillägg hittades inte</string>
+    <string name="toast_no_playstore">Google Play appen är inte installerad</string>
+    <string name="toast_tap_to_copy_text">Tryck på texten för att kopiera innehållet</string>
+    <string name="toast_copied_to_clipboard">Kopierat till urklipp</string>
+    <string name="toast_master_password_updated">Huvudlösenordet har uppdaterats</string>
+    <string name="toast_master_password_not_updated">Det gick inte att uppdatera huvudlösenordet</string>
+    <string name="toast_storage_permission_granted">Tillstånd beviljat</string>
+    <string name="toast_storage_permission_denied">Tillstånd inte beviljat. Kan inte läsa eller skriva filer.</string>
+    <string name="toast_no_file_selected">Ingen fil är vald</string>
+    <string name="toast_successful_backup">Lyckades säkerhetskopiera</string>
+    <string name="toast_successful_restore">Lyckades återställa databasen</string>
+    <string name="toast_error_restore">Misslyckades att återställa dataasen</string>
+    <string name="toast_successful_csv_export">Lyckades exportera CSV fil</string>
+    <string name="toast_successful_csv_import">Lyckades importera CSV fil</string>
+    <string name="toast_error_csv_import">Misslyckades att importera CSV fil</string>
+    <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_error_occurred">An error occurred:<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file.</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file.</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_continue">Fortsätt</string>
+    <string name="dialog_button_cancel">Avbryt</string>
+    <string name="dialog_button_delete">Radera</string>
+    <string name="dialog_title_restore_backup">Återställa säkerhetskopiering?</string>
+    <string name="dialog_title_import_csv">Importera CSV?</string>
+    <string name="dialog_title_change_master_password">Ändra huvudlösenordet?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
+    <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
+    <string name="dialog_msg_delete_previous_password">Radera tidigare lösenord?</string>
+    <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
+    <string name="dialog_msg_delete_entry">Radera post?</string>
+    <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
+    <string name="dialog_msg_error_occurred">Ett fel har uppstått:<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
+    <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
+    <string name="dialog_msg_error_writing_file">Ett fel uppstod när filen skulle skrivas.</string>
+    <string name="dialog_msg_error_reading_file">Ett fel uppstod när filen skulle läsas.</string>
+    <string name="dialog_msg_invalid_csv_format">Den valda CSV filen har ett ogiltligt format och kan inte importeras.</string>
+    <string name="dialog_msg_invalid_db_format">Den valda säkerhetskopierade filen är skapad med ett annat huvudlösenord och kan därför inte återskapas.</string>
+    <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Applikationen körs</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">The passwords will be always shown so you do not have to explicitly press the eye icon</string>
-    <string name="pref_appearance_title_show_notification">Show notification icon</string>
-    <string name="pref_appearance_summary_show_notification">The notification icon will be shown to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">Sortera poster</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
+    <string name="pref_appearance_sorting_choise_time">Efter datum</string>
+    <string name="pref_appearance_sorting_choise_color">Efter färg</string>
+    <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
+    <string name="pref_appearance_summary_show_passwords">Lösenorden kommer alltid att synas så du behöver inte manuellt trycka på ögonikonen</string>
+    <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
+    <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
+    <string name="pref_appearance_title_change_theme">Ändra tema</string>
+    <string name="pref_appearance_theme_light">Ljus</string>
+    <string name="pref_appearance_theme_dark">Mörk</string>
     <!-- database -->
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_auto_backup">Auto backup</string>
-    <string name="pref_database_summary_auto_backup">Creates a backup of the database each time you exit the application (maximum backup files kept 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Destination folder</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup">Säkerhetskopiera databasen</string>
+    <string name="pref_database_summary_backup">Skapa en säkerhetskopia av den krypterade databasen</string>
+    <string name="pref_database_title_restore">Återställ databasen</string>
+    <string name="pref_database_summary_restore">Återställ en säkerhetskopierad krypterad databas</string>
+    <string name="pref_database_title_auto_backup">Automatisk säkerhetskopiering</string>
+    <string name="pref_database_summary_auto_backup">Säkerhetskopiera databasen varje gång du stänger ned appen (maximalt sparas 10 säkerhetskopieringar)</string>
+    <string name="pref_database_title_auto_backup_folder">Destinatonsmapp</string>
+    <string name="pref_database_title_export">Exportering av CSV fil</string>
+    <string name="pref_database_summary_export">Exportera posterna till en okrypterad CSV fil</string>
+    <string name="pref_database_title_import">Importera CSV fil</string>
+    <string name="pref_database_summary_import">Importera poster från en okrypterad CSV fil</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
+    <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
+    <string name="pref_security_title_fast_enter">Snabbinloggning</string>
+    <string name="pref_security_summary_fast_enter">Gör det snabbare att logga in i appen utan att behöva trycka på logga in om huvudlösenordet är korrekt</string>
+    <string name="pref_security_title_auto_exit">Automatisk avslut</string>
+    <string name="pref_security_summary_auto_exit">Appen stängs ned automatiskt när skärmen stängs av</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Rapportera en bugg</string>
+    <string name="pref_about_title_support">Betygsätt och recensera </string>
+    <string name="pref_about_title_more_apps">Fler appar</string>
+    <string name="pref_about_title_share">Tipsa dina vänner</string>
+    <string name="pref_about_title_translations">Översättningar</string>
+    <string name="pref_about_title_licenses">Open Source licenser</string>
+    <string name="pref_about_title_build_version">Version</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
+    <string name="pref_category_appearance">UTSEENDE</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> AUTO BACKUP</string>
+    <string name="pref_category_database">DATABAS</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> AUTOMATISK SÄKERHETSKOPIERING</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
     <!-- ################################################################################# -->
 
