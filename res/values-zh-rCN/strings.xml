@@ -48,8 +48,6 @@
     <string name="upgrade_thank_you">感谢你购买专业版.</string>
     <string name="upgrade_title_list">通过购买专业版获取以下功能:</string>
     <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁csv文件导入 &amp; 导出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁自动备份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁主题设置<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向开发者展示用户软件使用忠实度<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受下列<xliff:g id="SPACE">\u0020</xliff:g></string>
-
-
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
