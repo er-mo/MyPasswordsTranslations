@@ -13,6 +13,7 @@ Users who have contributed so far:
 
 - [shavn](https://github.com/shavn) - Polish
 - [Atd1337](https://github.com/Atd1337) - Swedish
+- [channingbox](https://github.com/channingbox) - Chinese (simplified)
 
 ### Questions?
 
