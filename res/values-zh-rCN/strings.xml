@@ -116,7 +116,7 @@
     <string name="dialog_msg_error_writing_file">写入文件出错.</string>
     <string name="dialog_msg_error_reading_file">读取文件出错.</string>
     <string name="dialog_msg_invalid_csv_format">所选的CSV文件格式无效不能被导入.</string>
-    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建, 无法被恢复.</string>
+    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建, 无法恢复.</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
