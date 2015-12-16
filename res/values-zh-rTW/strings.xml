@@ -3,177 +3,177 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_version">version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_version">版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">My Passwords 程式版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
+    <string name="app_download_message">前往 Google Play 商店免費下載</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
     <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
-    <string name="master_password">master password</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="description">Description</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="current_location_folder">位置</string>
+    <string name="master_password">主密碼</string>
+    <string name="password_is_too_short">密碼太短</string>
+    <string name="passwords_not_matching">密碼不相符</string>
+    <string name="password_not_correct">密碼不正確</string>
+    <string name="required">需要</string>
+    <string name="title">標題</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="username">使用者名稱</string>
+    <string name="website">網頁</string>
+    <string name="description">描述</string>
+    <string name="list_is_empty">沒有任何條目</string>
+    <string name="last_updated">最新更新</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
+    <string name="button_register">註冊</string>
+    <string name="button_enter">輸入</string>
+    <string name="button_upgrade_now">立即更新</string>
+    <string name="button_update">更新</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> This application was designed to help you store all your passwords easily and safely<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> It is strongly recommended that you backup your data at regular intervals</string>
+    <string name="welcome_info_title">歡迎使用 My Passwords</string>
+    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 此應用程式專為讓您能夠更安全以及更便利的儲存您的所有密碼<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 您只需要記得您的主密碼</string>
+    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 請記住，如果您忘記了您的主密碼，您將會遺失所有已同步並儲存的資料<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 我們強烈建議您執行定期備份的操作</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_title_list">By purchasing the PRO version you:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the csv import &amp; export features<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the auto backup feature<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Unlock the theme setting<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Show your loyalty to the developer<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">terms</string>
+    <string name="upgrade_thank_you">感謝您購買專業版</string>
+    <string name="upgrade_title_list">您購買專業版後，您將可獲得以下功能：</string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解鎖 csv 文件匯入 &amp; 匯出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解鎖自動備份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解鎖主題設定<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向開發者表示您的忠心<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">使用條款</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old master password</string>
-    <string name="change_mp_new_master_password">new master password</string>
+    <string name="change_mp_old_master_password">舊主密碼</string>
+    <string name="change_mp_new_master_password">新主密碼</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_overflow">More</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_new">New</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_color">Color</string>
+    <string name="menu_search">搜尋</string>
+    <string name="menu_overflow">更多</string>
+    <string name="menu_appearance">外觀</string>
+    <string name="menu_database">資料庫</string>
+    <string name="menu_security">安全</string>
+    <string name="menu_about">關於</string>
+    <string name="menu_upgrade">升級至專業版</string>
+    <string name="menu_new">新的</string>
+    <string name="menu_edit">編輯</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_color">顏色</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_entry_discarded">Entry discarded</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_error_restore">Failed to restore database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment.</string>
+    <string name="toast_tap_again_to_exit">再次輕觸離開</string>
+    <string name="toast_entry_deleted">條目已刪除</string>
+    <string name="toast_entries_deleted">條目已刪除</string>
+    <string name="toast_entry_saved">條目已儲存</string>
+    <string name="toast_entry_discarded">條目已丟棄</string>
+    <string name="toast_try_again_shortly">請在幾秒後重試</string>
+    <string name="toast_no_browser">沒有找到瀏覽器程式</string>
+    <string name="toast_no_playstore">Google Play 商店程式未安裝</string>
+    <string name="toast_tap_to_copy_text">輕觸文字檢視來複製內容</string>
+    <string name="toast_copied_to_clipboard">複製到剪貼版</string>
+    <string name="toast_master_password_updated">更新主密碼成功</string>
+    <string name="toast_master_password_not_updated">更新主密碼失敗</string>
+    <string name="toast_storage_permission_granted">已授予權限</string>
+    <string name="toast_storage_permission_denied">沒有權限。無法讀取或寫入檔案。</string>
+    <string name="toast_no_file_selected">沒有檔案被選中</string>
+    <string name="toast_successful_backup">建立備份成功</string>
+    <string name="toast_successful_restore">還原資料庫成功</string>
+    <string name="toast_error_restore">還原資料庫失敗</string>
+    <string name="toast_successful_csv_export">匯出 csv 文件成功</string>
+    <string name="toast_successful_csv_import">匯入 csv 文件成功</string>
+    <string name="toast_error_csv_import">匯入 csv 文件失敗</string>
+    <string name="toast_database_server_error">當前資料不可用</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_error_occurred">An error occurred:<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file.</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file.</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_ok">確定</string>
+    <string name="dialog_button_continue">繼續</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_button_delete">刪除</string>
+    <string name="dialog_title_restore_backup">是否還原備份？</string>
+    <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
+    <string name="dialog_title_change_master_password">是否更改主密碼？</string>
+    <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
+    <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
+    <string name="dialog_msg_delete_previous_password">是否刪除舊的主密碼？</string>
+    <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
+    <string name="dialog_msg_delete_entry">是否刪除條目？</string>
+    <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
+    <string name="dialog_msg_error_occurred">發生錯誤：<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
+    <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
+    <string name="dialog_msg_error_writing_file">寫入檔案時發生錯誤。</string>
+    <string name="dialog_msg_error_reading_file">讀取檔案時發生錯誤。</string>
+    <string name="dialog_msg_invalid_csv_format">已選擇的 csv file 文件為無效的格式，並且無法匯入。</string>
+    <string name="dialog_msg_invalid_db_format">已選擇的備份檔是使用不同的主密碼所建，因此無法還原。.</string>
+    <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">應用程式運行中</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">The passwords will be always shown so you do not have to explicitly press the eye icon</string>
-    <string name="pref_appearance_title_show_notification">Show notification icon</string>
-    <string name="pref_appearance_summary_show_notification">The notification icon will be shown to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">排序條目</string>
+    <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
+    <string name="pref_appearance_sorting_choise_time">按日期</string>
+    <string name="pref_appearance_sorting_choise_color">按顏色</string>
+    <string name="pref_appearance_title_show_passwords">顯示密碼</string>
+    <string name="pref_appearance_summary_show_passwords">密碼將會直接顯示，如此一來您就不需持續點選眼睛圖示。</string>
+    <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
+    <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
+    <string name="pref_appearance_title_change_theme">更改主題</string>
+    <string name="pref_appearance_theme_light">明亮</string>
+    <string name="pref_appearance_theme_dark">黑暗</string>
     <!-- database -->
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_auto_backup">Auto backup</string>
-    <string name="pref_database_summary_auto_backup">Creates a backup of the database each time you exit the application (maximum backup files kept 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Destination folder</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup">備份資料庫</string>
+    <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
+    <string name="pref_database_title_restore">還原資料庫</string>
+    <string name="pref_database_summary_restore">還原加密的資料庫備份</string>
+    <string name="pref_database_title_auto_backup">自動備份</string>
+    <string name="pref_database_summary_auto_backup">當您每次離開應用程式時自動建立備份 （最多可保留10個）</string>
+    <string name="pref_database_title_auto_backup_folder">目標資料夾</string>
+    <string name="pref_database_title_export">匯出 csv 文件</string>
+    <string name="pref_database_summary_export">從未加密的 csv 文件中匯出條目</string>
+    <string name="pref_database_title_import">匯入 csv 文件</string>
+    <string name="pref_database_summary_import">從未加密的 csv 文件中匯入條目</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
+    <string name="pref_security_title_change_password">更改主密碼</string>
+    <string name="pref_security_title_fast_enter">快速進入</string>
+    <string name="pref_security_summary_fast_enter">當密碼正確時將不需要點選“進入”按鈕直接到達程式主畫面</string>
+    <string name="pref_security_title_auto_exit">自動離開</string>
+    <string name="pref_security_summary_auto_exit">當裝置螢幕關閉時將自動離開應用程式</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">回報錯誤</string>
+    <string name="pref_about_title_support">評分與回饋</string>
+    <string name="pref_about_title_more_apps">更多程式</string>
+    <string name="pref_about_title_share">告訴您的朋友</string>
+    <string name="pref_about_title_translations">翻譯人員</string>
+    <string name="pref_about_title_licenses">開放原始碼許可證</string>
+    <string name="pref_about_title_build_version">組建版本</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> AUTO BACKUP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <string name="pref_category_appearance">外觀</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[專業版]</xliff:g> 主題</string>
+    <string name="pref_category_database">資料庫</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[專業版]</xliff:g> 自動備份</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[專業版]</xliff:g> CSV 文件</string>
     <!-- ################################################################################# -->
 
 </resources>
