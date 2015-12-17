@@ -84,7 +84,7 @@
     <string name="toast_master_password_updated">更改主密码成功</string>
     <string name="toast_master_password_not_updated">更改主密码失败</string>
     <string name="toast_storage_permission_granted">授予许可</string>
-    <string name="toast_storage_permission_denied">没有权限,无法读写文件</string>
+    <string name="toast_storage_permission_denied">没有权限，无法读写文件</string>
     <string name="toast_no_file_selected">未选择文件</string>
     <string name="toast_successful_backup">成功创建备份</string>
     <string name="toast_successful_restore">数据库恢复成功</string>
@@ -104,19 +104,19 @@
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
-    <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除.</string>
-    <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份.</string>
-    <string name="dialog_msg_delete_previous_password">确定删除以前的密码?</string>
-    <string name="dialog_msg_delete_selected_entries">确定删除所选条目?</string>
-    <string name="dialog_msg_delete_entry">确定删除条目?</string>
-    <string name="dialog_msg_cannot_open_folder">该文件夹无法访问.</string>
+    <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
+    <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
+    <string name="dialog_msg_delete_previous_password">确定删除以前的密码？</string>
+    <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
+    <string name="dialog_msg_delete_entry">确定删除条目？</string>
+    <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_error_occurred">应用程序发生错误:\u0020</string>
-    <string name="dialog_msg_payload_failed">有效载荷验证失败.</string>
-    <string name="dialog_msg_cannot_read_file">所选文件不可读.</string>
-    <string name="dialog_msg_error_writing_file">写入文件出错.</string>
-    <string name="dialog_msg_error_reading_file">读取文件出错.</string>
-    <string name="dialog_msg_invalid_csv_format">所选的 CSV 文件格式无效不能被导入.</string>
-    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建,无法恢复.</string>
+    <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
+    <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
+    <string name="dialog_msg_error_writing_file">写入文件出错。</string>
+    <string name="dialog_msg_error_reading_file">读取文件出错。</string>
+    <string name="dialog_msg_invalid_csv_format">所选的 CSV 文件格式无效不能被导入。</string>
+    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建，无法恢复。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -128,7 +128,7 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">条目分类</string>
+    <string name="pref_appearance_title_sort_entries">条目排序</string>
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
