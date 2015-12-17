@@ -14,7 +14,7 @@
     <string name="target_folder">文件夹<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">文件<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">文件夹路径</string>
-    <string name="master_password">输入主密码</string>
+    <string name="master_password"></string>
     <string name="password_is_too_short">密码不能少于四位数</string>
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
@@ -31,7 +31,7 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">注册登记</string>
+    <string name="button_register">设置主密码</string>
     <string name="button_enter">点击进入</string>
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
@@ -42,12 +42,12 @@
     <!-- welcome -->
     <string name="welcome_info_title">欢迎使用我的密码簿</string>
     <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>一个安全易用的密码管理器</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 只需要记住你的主密码就可以管理其他密码</string>
+    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>只需要记住你的主密码就可以管理其他密码</string>
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版.</string>
     <string name="upgrade_title_list">通过购买专业版获得以下功能:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁csv文件导入导出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁自动备份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁主题设置<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向开发者展示用户软件使用忠实度<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受下列<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁 CSV 文件导入导出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁自动备份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁主题设置<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向开发者展示你的用忠实度<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受下列<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -81,17 +81,17 @@
     <string name="toast_no_playstore">未安装 Google Play 商店应用</string>
     <string name="toast_tap_to_copy_text">点击文本视图复制内容</string>
     <string name="toast_copied_to_clipboard">复制到剪贴板</string>
-    <string name="toast_master_password_updated">更新主密码成功</string>
-    <string name="toast_master_password_not_updated">更新主密码失败</string>
+    <string name="toast_master_password_updated">更改主密码成功</string>
+    <string name="toast_master_password_not_updated">更改主密码失败</string>
     <string name="toast_storage_permission_granted">授予许可</string>
-    <string name="toast_storage_permission_denied">没有权限, 无法读写文件</string>
+    <string name="toast_storage_permission_denied">没有权限,无法读写文件</string>
     <string name="toast_no_file_selected">未选择文件</string>
     <string name="toast_successful_backup">成功创建备份</string>
     <string name="toast_successful_restore">数据库恢复成功</string>
     <string name="toast_error_restore">数据库恢复失败</string>
-    <string name="toast_successful_csv_export">CSV文件导出成功</string>
-    <string name="toast_successful_csv_import">CSV文件导入成功</string>
-    <string name="toast_error_csv_import">CSV文件导入失败</string>
+    <string name="toast_successful_csv_export">CSV 文件导出成功</string>
+    <string name="toast_successful_csv_import">CSV 文件导入成功</string>
+    <string name="toast_error_csv_import">CSV 文件导入失败</string>
     <string name="toast_database_server_error">数据库当前不可用.</string>
     <!-- ################################################################################# -->
 
@@ -102,7 +102,7 @@
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
-    <string name="dialog_title_import_csv">导入csv文件</string>
+    <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除.</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份.</string>
@@ -115,8 +115,8 @@
     <string name="dialog_msg_cannot_read_file">所选文件不可读.</string>
     <string name="dialog_msg_error_writing_file">写入文件出错.</string>
     <string name="dialog_msg_error_reading_file">读取文件出错.</string>
-    <string name="dialog_msg_invalid_csv_format">所选的CSV文件格式无效不能被导入.</string>
-    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建, 无法恢复.</string>
+    <string name="dialog_msg_invalid_csv_format">所选的 CSV 文件格式无效不能被导入.</string>
+    <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建,无法恢复.</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -147,10 +147,10 @@
     <string name="pref_database_title_auto_backup">自动备份</string>
     <string name="pref_database_summary_auto_backup">退出应用程序时自动备份数据库 (仅保留最近10个备份文件)</string>
     <string name="pref_database_title_auto_backup_folder">目标文件夹</string>
-    <string name="pref_database_title_export">导出csv文件</string>
-    <string name="pref_database_summary_export">导出条目为非加密的CSV文件</string>
-    <string name="pref_database_title_import">导入csv文件</string>
-    <string name="pref_database_summary_import">从非加密的CSV文件导入条目</string>
+    <string name="pref_database_title_export">导出 CSV 文件</string>
+    <string name="pref_database_summary_export">导出条目为非加密的 CSV 文件</string>
+    <string name="pref_database_title_import">导入 CSV 文件</string>
+    <string name="pref_database_summary_import">从非加密的 CSV 文件导入条目</string>
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速进入</string>
@@ -170,9 +170,9 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">外观</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> 主题</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g>主题</string>
     <string name="pref_category_database">数据库</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> 自动备份</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g>自动备份</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
     <!-- ################################################################################# -->
 
