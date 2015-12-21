@@ -45,8 +45,8 @@
     <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>只需要记住你的主密码就可以管理其他密码</string>
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">感谢你购买专业版.</string>
-    <string name="upgrade_title_list">通过购买专业版获得以下功能:</string>
+    <string name="upgrade_thank_you">感谢你购买专业版。</string>
+    <string name="upgrade_title_list">通过购买专业版获得以下功能：</string>
     <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁 CSV 文件导入导出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁自动备份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁主题设置<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向开发者展示你的用忠实度<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受下列<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
@@ -92,7 +92,7 @@
     <string name="toast_successful_csv_export">CSV 文件导出成功</string>
     <string name="toast_successful_csv_import">CSV 文件导入成功</string>
     <string name="toast_error_csv_import">CSV 文件导入失败</string>
-    <string name="toast_database_server_error">数据库当前不可用.</string>
+    <string name="toast_database_server_error">数据库当前不可用。</string>
     <!-- ################################################################################# -->
 
 
@@ -110,7 +110,7 @@
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
-    <string name="dialog_msg_error_occurred">应用程序发生错误:\u0020</string>
+    <string name="dialog_msg_error_occurred">应用程序发生错误：\u0020</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
     <string name="dialog_msg_error_writing_file">写入文件出错。</string>
