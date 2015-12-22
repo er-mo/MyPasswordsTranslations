@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">我的密码簿</string>
-    <string name="app_version">应用程序版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">应用程序版本<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
     <string name="app_download_message">现在免费从 Google Play 商店下载程序</string>
@@ -173,7 +173,7 @@
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g>主题</string>
     <string name="pref_category_database">数据库</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g>自动备份</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g>CSV</string>
     <!-- ################################################################################# -->
 
 </resources>
