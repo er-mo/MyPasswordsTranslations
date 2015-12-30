@@ -41,9 +41,9 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Moje Hasła</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Bezpieczna i łatwa w obsłudze aplikacja dla twojego Androida.</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Została stworzona byś mógł bezpiecznie przechowywać swoje hasła.<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Wystarczy, że będziesz pamiętał hasło główne</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Regularnie rób kopię zapasową swojej bazy!</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Bezpieczna i łatwa w obsłudze aplikacja dla twojego Androida.</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Została stworzona byś mógł bezpiecznie przechowywać swoje hasła.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Wystarczy, że będziesz pamiętał hasło główne</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Regularnie rób kopię zapasową swojej bazy!</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Import &amp; eksport plików CSV</string>

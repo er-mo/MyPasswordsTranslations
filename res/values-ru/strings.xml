@@ -41,9 +41,9 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Добро пожаловат</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Надежное и простое в использовании менеджер паролей для Android устройства</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Это приложение было разработано, чтобы помочь вам хранить все ваши пароли легко и безопасно<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Единственное, что вам нужно сделать, это помнить мастер-пароль</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Пожалуйста, обратите внимание, что, если мастер-пароль потерял сохраненные данные не могут быть восстановлены из-за недостающего опции синхронизации<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Настоятельно рекомендуется сделать резервную копию ваших данных на регулярной основе</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Надежное и простое в использовании менеджер паролей для Android устройства</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Это приложение было разработано, чтобы помочь вам хранить все ваши пароли легко и безопасно<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Единственное, что вам нужно сделать, это помнить мастер-пароль</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Пожалуйста, обратите внимание, что, если мастер-пароль потерял сохраненные данные не могут быть восстановлены из-за недостающего опции синхронизации<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Настоятельно рекомендуется сделать резервную копию ваших данных на регулярной основе</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Спасибо за покупку PRO версии.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Импорт и экспорт CSV</string>

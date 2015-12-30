@@ -41,9 +41,9 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">欢迎使用我的密码簿</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>一个安全易用的密码管理器</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>只需要记住你的主密码就可以管理其他密码</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>建议你定期备份以便防止数据丢失</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>一个安全易用的密码管理器</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>只需要记住你的主密码就可以管理其他密码</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版。</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件导入导出功能</string>

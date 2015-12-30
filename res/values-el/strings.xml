@@ -41,14 +41,14 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Καλώς ήρθατε</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Αυτή η εφαρμογή θα σας βοηθήσει να αποθηκεύσετε όλους τους κωδικούς σας εύκολα και με ασφάλεια<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Το μόνο που έχετε να κάνετε είναι να θυμάστε έναν και μόνο κωδικό πρόσβασης</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Αυτή η εφαρμογή θα σας βοηθήσει να αποθηκεύσετε όλους τους κωδικούς σας εύκολα και με ασφάλεια<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Το μόνο που έχετε να κάνετε είναι να θυμάστε έναν και μόνο κωδικό πρόσβασης</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Δυνατότητα εισαγωγής και εξαγωγής csv αρχείων</string>
     <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή theme</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή θέματος</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
@@ -173,7 +173,7 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> ΘΕΜΑ</string>
     <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> ΑΥΤΟΜΑΤΟ BACKUP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>

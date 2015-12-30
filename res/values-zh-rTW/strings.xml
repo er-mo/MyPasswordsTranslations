@@ -41,9 +41,9 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">歡迎使用 My Passwords</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 此應用程式專為讓您能夠更安全以及更便利的儲存您的所有密碼<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 您只需要記得您的主密碼</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 請記住，如果您忘記了您的主密碼，您將會遺失所有已同步並儲存的資料<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> 我們強烈建議您執行定期備份的操作</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>此應用程式專為讓您能夠更安全以及更便利的儲存您的所有密碼<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>您只需要記得您的主密碼</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>請記住，如果您忘記了您的主密碼，您將會遺失所有已同步並儲存的資料<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>我們強烈建議您執行定期備份的操作</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感謝您購買專業版</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV進出口</string>
