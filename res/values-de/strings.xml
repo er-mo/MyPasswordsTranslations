@@ -41,9 +41,9 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_first"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
-    <string name="welcome_info_second"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> This application was designed to help you store all your passwords easily and safely<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> It is strongly recommended that you backup your data at regular intervals</string>
+    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
+    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>This application was designed to help you store all your passwords easily and safely<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>The only thing you have to do is to remember your master password</string>
+    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>It is strongly recommended that you backup your data at regular intervals</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV import &amp; export</string>
