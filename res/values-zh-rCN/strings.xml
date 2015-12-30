@@ -14,7 +14,7 @@
     <string name="target_folder">文件夹<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">文件<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">文件夹路径</string>
-    <string name="master_password"></string>
+    <string name="confirm_password">确认密码</string>
     <string name="password_is_too_short">密码不能少于四位数</string>
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
@@ -46,8 +46,10 @@
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版。</string>
-    <string name="upgrade_title_list">通过购买专业版获得以下功能：</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁 CSV 文件导入导出功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁自动备份功能<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 解锁主题设置<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 向开发者展示你的用忠实度<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> 接受下列<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件导入导出功能</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>自动备份</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>主题的选择</string>
+    <string name="upgrade_accept">通过购买PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -67,6 +69,7 @@
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>
+    <string name="menu_keyboard">Keyboard</string>
     <!-- ################################################################################# -->
 
 

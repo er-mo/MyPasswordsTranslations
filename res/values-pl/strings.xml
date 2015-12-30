@@ -14,7 +14,7 @@
     <string name="target_folder">Katalog<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Plik<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Lokacja</string>
-    <string name="master_password">hasło główne</string>
+    <string name="confirm_password">Potwierdź hasło</string>
     <string name="password_is_too_short">Zakrótkie hasło!</string>
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
@@ -46,8 +46,10 @@
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Regularnie rób kopię zapasową swojej bazy!</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
-    <string name="upgrade_title_list">Kupując wersję PRO:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Uzyskujesz możliwość eksportu do CSV oraz wykonywania kopii zapasowej.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Aktywujesz opcję automatycznej kopii zapasowej.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Będziesz mógł zmienić motyw na ciemny.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g>Sprawiasz, że autor będzie mógł sobie coś kupić.<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Akeceptujesz te<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Import &amp; eksport plików CSV</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatycznego tworzenia kopii zapasowych</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wybór tematu</string>
+    <string name="upgrade_accept">Poprzez zakup wersji PRO akceptujesz następujące<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">postanowienia</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">stare hasło główne</string>
@@ -67,6 +69,7 @@
     <string name="menu_edit">Edytuj</string>
     <string name="menu_delete">Usuń</string>
     <string name="menu_color">Kolor</string>
+    <string name="menu_keyboard">Keyboard</string>
     <!-- ################################################################################# -->
 
 

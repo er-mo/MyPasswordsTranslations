@@ -14,7 +14,7 @@
     <string name="target_folder">Φάκελος<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Αρχείο<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Τοποθεσία</string>
-    <string name="master_password">κύριος κωδικός πρόσβασης</string>
+    <string name="confirm_password">Επιβεβαίωση</string>
     <string name="password_is_too_short">Ο κωδικός είναι πολύ μικρός</string>
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
@@ -46,8 +46,10 @@
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
-    <string name="upgrade_title_list">Με την αγορά της έκδοσης PRO:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα εισαγωγής και εξαγωγής csv αρχείων<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα αυτόματης δημιουργίας αντιγράφων ασφαλείας<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Ξεκλειδώνετε την δυνατότητα επιλογής theme<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Δείχνετε την υποστήριξή σας στον προγραμματιστή<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Δυνατότητα εισαγωγής και εξαγωγής csv αρχείων</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή theme</string>
+    <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
@@ -67,6 +69,7 @@
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
+    <string name="menu_keyboard">Keyboard</string>
     <!-- ################################################################################# -->
 
 

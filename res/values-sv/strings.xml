@@ -14,7 +14,7 @@
     <string name="target_folder">Mapp<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Fil<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Plats</string>
-    <string name="master_password">huvudlösenord</string>
+    <string name="confirm_password">Bekräfta Lösenord</string>
     <string name="password_is_too_short">Lösenordet är för kort</string>
     <string name="passwords_not_matching">Lösenorden matchar inte</string>
     <string name="password_not_correct">Lösenordet är felaktigt</string>
@@ -46,8 +46,10 @@
     <string name="welcome_info_third"><xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Observera att om huvudlösenordet tappas bort kan databasen inte återskapas<xliff:g id="LINE_FEEDS">\n\n\n</xliff:g><xliff:g id="BULLET">\u2022</xliff:g> Det är starkt rekommenderat att du säkerhetskopierar databasen regelbundet</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
-    <string name="upgrade_title_list">Om du köper PRO versionen kan du:</string>
-    <string name="upgrade_features_list"><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra CSV import &amp; export funktioner<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra automatisk säkerhetskopiering funktion<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Möjliggöra temainställningar<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Visa din lojalitet till utvecklaren<xliff:g id="LINE_FEED">\n</xliff:g><xliff:g id="SPACE_AND_BULLET">\u0020\u2022</xliff:g> Acceptera följande<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV import &amp; export</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatisk säkerhetskopiering</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Temainställningar</string>
+    <string name="upgrade_accept">Genom att köpa PRO version accepterar du följande<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">villkor</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
@@ -67,6 +69,7 @@
     <string name="menu_edit">Redigera</string>
     <string name="menu_delete">Radera</string>
     <string name="menu_color">Färg</string>
+    <string name="menu_keyboard">Keyboard</string>
     <!-- ################################################################################# -->
 
 
