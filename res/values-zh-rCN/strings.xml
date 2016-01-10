@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">我的密码簿</string>
-    <string name="app_version">应用程序版本<xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">版本<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
     <string name="app_download_message">现在免费从 Google Play 商店下载程序</string>
@@ -46,10 +46,10 @@
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版。</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件导入导出功能</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>自动备份</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>主题的选择</string>
-    <string name="upgrade_accept">通过购买PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件的导入导出</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自动备份</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>选择不同的主题</string>
+    <string name="upgrade_accept">购买专业版你需接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -69,7 +69,7 @@
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>
-    <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_keyboard">键盘</string>
     <!-- ################################################################################# -->
 
 
