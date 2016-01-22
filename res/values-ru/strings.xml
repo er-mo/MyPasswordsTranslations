@@ -49,6 +49,9 @@
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Импорт и экспорт CSV</string>
     <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Автобэкап</string>
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Тема выбора</string>
+    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Буфер обмена ясно</string>
+    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Уничтожение самостоятельно</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
     <string name="upgrade_accept">Приобретая PRO версию вы принимаете следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">условия</string>
     <!-- change master password -->
@@ -107,6 +110,7 @@
     <string name="dialog_title_restore_backup">Восстановление резервной копии?</string>
     <string name="dialog_title_import_csv">Импорт csv?</string>
     <string name="dialog_title_change_master_password">Изменить пароль?</string>
+    <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя мастер-пароль, вы не сможете восстановить резервные копии баз данных, которые были созданы с текущей мастер-пароль.</string>
     <string name="dialog_msg_delete_previous_password">Удалить предыдущий пароль?</string>
@@ -120,6 +124,14 @@
     <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла.</string>
     <string name="dialog_msg_invalid_csv_format">Выбранный csv файл имеет неверный формат и не могут быть импортированы.</string>
     <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другой мастер-пароль и не может быть восстановлен.</string>
+    <string name="dialog_msg_app_data_erased">Все данные удалены навсегда из-за неудачных попыток.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
+    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
+    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
+    <string name="dialog_msg_fp_hint">Touch sensor</string>
+    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
+    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_progress_please_wait">Пожалуйста подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -160,6 +172,22 @@
     <string name="pref_security_summary_fast_enter">Делает это быстрее, чтобы войти в приложение без необходимости нажмите кнопку Вводить, если мастер-пароль правильно</string>
     <string name="pref_security_title_auto_exit">Авто выход</string>
     <string name="pref_security_summary_auto_exit">Приложение автоматически закроется, когда экран потухнет</string>
+    <string name="pref_security_title_clipboard_clear">Очистка буфера обмена</string>
+    <string name="pref_security_clipboard_clear_never">Никогда</string>
+    <string name="pref_security_clipboard_clear_one_min">1 min</string>
+    <string name="pref_security_clipboard_clear_two_min">2 min</string>
+    <string name="pref_security_clipboard_clear_three_min">3 min</string>
+    <string name="pref_security_clipboard_clear_four_min">4 min</string>
+    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_title_self_destruct">Неудачных попыток ввода пароля</string>
+    <string name="pref_security_self_destruct_unlimited">неограниченный</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
     <!-- about -->
     <string name="pref_about_title_contact">Сообщить об ошибке</string>
     <string name="pref_about_title_support">Оценка и отзыв</string>
@@ -173,10 +201,14 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">ПОЯВЛЕНИЕ</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> THEME</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
     <string name="pref_category_database">БАЗА ДАННЫХ</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> АВТОБЭКАП</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>АВТОБЭКАП</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_security">SECURITY</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>САМОРАЗРУШЕНИЕ</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
     <!-- ################################################################################# -->
 
 </resources>

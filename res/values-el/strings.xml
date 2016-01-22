@@ -46,9 +46,12 @@
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Δυνατότητα εισαγωγής και εξαγωγής csv αρχείων</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Εξαγωγή και εισαγωγή csv αρχείων</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτόματο backup</string>
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή θέματος</string>
+    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Καθαρισμός του πρόχειρου</string>
+    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτοκαταστροφή</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
@@ -107,6 +110,7 @@
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
+    <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
@@ -120,6 +124,14 @@
     <string name="dialog_msg_error_reading_file">Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου.</string>
     <string name="dialog_msg_invalid_csv_format">Το επιλεγμένο csv αρχείο δεν έχει έγκυρη μορφή και δεν μπορεί να εισαχθεί.</string>
     <string name="dialog_msg_invalid_db_format">Το επιλεγμένο αντίγραφο ασφαλείας δημιουργήθηκε χρησιμοποιώντας έναν διαφορετικό κύριο κωδικό πρόσβασης και δεν μπορεί να αποκατασταθεί.</string>
+    <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
+    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
+    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
+    <string name="dialog_msg_fp_hint">Touch sensor</string>
+    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
+    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -139,9 +151,9 @@
     <string name="pref_appearance_summary_show_passwords">Οι κωδικοί πρόσβασης θα εμφανίζονται πάντα, ώστε να μην χρειάζεται να πατήσετε στο εικονίδιο του ματιού</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
-    <string name="pref_appearance_title_change_theme">Αλλαγή theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
+    <string name="pref_appearance_theme_light">Φωτεινό</string>
+    <string name="pref_appearance_theme_dark">Σκοτεινό</string>
     <!-- database -->
     <string name="pref_database_title_backup">Δημιουργία αντιγράφου ασφαλείας</string>
     <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
@@ -160,6 +172,22 @@
     <string name="pref_security_summary_fast_enter">Καθιστά πιο γρήγορη την είσοδο στην εφαρμογή χωρίς να χρειάζεται να πατάτε το κουμπί ΕΙΣΟΔΟΣ εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
     <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
     <string name="pref_security_summary_auto_exit">Η εφαρμογή θα κλείνει αυτόματα όταν κλείνει η οθόνη</string>
+    <string name="pref_security_title_clipboard_clear">Καθαρισμός του πρόχειρου</string>
+    <string name="pref_security_clipboard_clear_never">Ποτέ</string>
+    <string name="pref_security_clipboard_clear_one_min">1 λεπ.</string>
+    <string name="pref_security_clipboard_clear_two_min">2 λεπ.</string>
+    <string name="pref_security_clipboard_clear_three_min">3 λεπ.</string>
+    <string name="pref_security_clipboard_clear_four_min">4 λεπ.</string>
+    <string name="pref_security_clipboard_clear_five_min">5 λεπ.</string>
+    <string name="pref_security_title_self_destruct">Αποτυχημένες προσπάθειες</string>
+    <string name="pref_security_self_destruct_unlimited">Απεριόριστες</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
     <!-- about -->
     <string name="pref_about_title_contact">Αναφορά σφάλματος</string>
     <string name="pref_about_title_support">Αξιολόγηση</string>
@@ -173,10 +201,14 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g> ΘΕΜΑ</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΘΕΜΑ</string>
     <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g> ΑΥΤΟΜΑΤΟ BACKUP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g> CSV</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΜΑΤΟ BACKUP</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
     <!-- ################################################################################# -->
 
 </resources>

@@ -49,6 +49,9 @@
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件导入导出功能</string>
     <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>自动备份</string>
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>主题的选择</string>
+    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Clipboard clear</string>
+    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Self destruction</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
     <string name="upgrade_accept">通过购买PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
@@ -107,6 +110,7 @@
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
+    <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_previous_password">确定删除以前的密码？</string>
@@ -120,6 +124,14 @@
     <string name="dialog_msg_error_reading_file">读取文件出错。</string>
     <string name="dialog_msg_invalid_csv_format">所选的 CSV 文件格式无效不能被导入。</string>
     <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建，无法恢复。</string>
+    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
+    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
+    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
+    <string name="dialog_msg_fp_hint">Touch sensor</string>
+    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
+    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -160,6 +172,22 @@
     <string name="pref_security_summary_fast_enter">输入主密码后直接进入应用程序</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭后应用程序自动退出</string>
+    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
+    <string name="pref_security_clipboard_clear_never">Never</string>
+    <string name="pref_security_clipboard_clear_one_min">1 min</string>
+    <string name="pref_security_clipboard_clear_two_min">2 min</string>
+    <string name="pref_security_clipboard_clear_three_min">3 min</string>
+    <string name="pref_security_clipboard_clear_four_min">4 min</string>
+    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_title_self_destruct">Failed password attempts</string>
+    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
     <!-- about -->
     <string name="pref_about_title_contact">给开发者发邮件</string>
     <string name="pref_about_title_support">去评分</string>
@@ -173,10 +201,14 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">外观</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]</xliff:g>主题</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>主题</string>
     <string name="pref_category_database">数据库</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]</xliff:g>自动备份</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]</xliff:g>CSV</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自动备份</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_security">SECURITY</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
     <!-- ################################################################################# -->
 
 </resources>
