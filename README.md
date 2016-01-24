@@ -15,16 +15,11 @@ Users who have contributed so far:
 - [Atd1337](https://github.com/Atd1337) - Swedish
 - [channingbox](https://github.com/channingbox) - Chinese (simplified)
 - [Eric Deng](https://github.com/Eric850130) - Chinese (traditional)
+- [Slayf](https://github.com/Slayf) - Russian
 
 ### Questions?
 
 If any of this is not clear and you need any help, just [create an issue](https://github.com/er-mo/MyPasswordsTranslations/issues/new).
-
-### Download
-
-<a href="https://play.google.com/store/apps/details?id=com.er.mo.apps.mypasswords">
-<img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-</a>
 
 ### Spread the word
 
