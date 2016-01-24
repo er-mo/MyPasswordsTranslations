@@ -35,6 +35,7 @@
     <string name="button_enter">ENTER</string>
     <string name="button_upgrade_now">UPGRADE NOW</string>
     <string name="button_update">UPDATE</string>
+    <string name="button_exit">EXIT</string>
     <!-- ################################################################################# -->
 
 
@@ -98,7 +99,8 @@
     <string name="toast_successful_csv_export">Successfully exported csv file</string>
     <string name="toast_successful_csv_import">Successfully imported csv file</string>
     <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment.</string>
+    <string name="toast_database_server_error">The database is not available at the moment</string>
+    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
     <!-- ################################################################################# -->
 
 
@@ -132,6 +134,7 @@
     <string name="dialog_msg_fp_hint">Touch sensor</string>
     <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
     <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
+    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
     <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -187,7 +190,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
     <!-- about -->
     <string name="pref_about_title_contact">Report a bug</string>
     <string name="pref_about_title_support">Rate and review</string>

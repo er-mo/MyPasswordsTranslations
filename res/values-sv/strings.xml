@@ -35,6 +35,7 @@
     <string name="button_enter">LOGGA IN</string>
     <string name="button_upgrade_now">UPGRADERA NU</string>
     <string name="button_update">UPPDATERA</string>
+    <string name="button_exit">EXIT</string>
     <!-- ################################################################################# -->
 
 
@@ -99,6 +100,7 @@
     <string name="toast_successful_csv_import">Lyckades importera CSV fil</string>
     <string name="toast_error_csv_import">Misslyckades att importera CSV fil</string>
     <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
+    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
     <!-- ################################################################################# -->
 
 
@@ -132,6 +134,7 @@
     <string name="dialog_msg_fp_hint">Touch sensor</string>
     <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
     <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
+    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
     <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
