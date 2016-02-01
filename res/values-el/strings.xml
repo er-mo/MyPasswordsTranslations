@@ -35,7 +35,7 @@
     <string name="button_enter">ΕΙΣΟΔΟΣ</string>
     <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
     <string name="button_update">ΑΛΛΑΓΗ</string>
-    <string name="button_exit">EXIT</string>
+    <string name="button_exit">ΕΞΟΔΟΣ</string>
     <!-- ################################################################################# -->
 
 
@@ -52,7 +52,7 @@
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή θέματος</string>
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτοκαταστροφή</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
@@ -73,7 +73,7 @@
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
-    <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_keyboard">Πληκτρολόγιο</string>
     <!-- ################################################################################# -->
 
 
@@ -100,7 +100,7 @@
     <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
     <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
     <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
-    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
+    <string name="toast_fingerprint_disabled">Η είσοδος με τη χρήση δακτυλικού αποτυπώματος έχει απενεργοποιηθεί</string>
     <!-- ################################################################################# -->
 
 
@@ -112,7 +112,7 @@
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
+    <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
@@ -127,14 +127,14 @@
     <string name="dialog_msg_invalid_csv_format">Το επιλεγμένο csv αρχείο δεν έχει έγκυρη μορφή και δεν μπορεί να εισαχθεί.</string>
     <string name="dialog_msg_invalid_db_format">Το επιλεγμένο αντίγραφο ασφαλείας δημιουργήθηκε χρησιμοποιώντας έναν διαφορετικό κύριο κωδικό πρόσβασης και δεν μπορεί να αποκατασταθεί.</string>
     <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
-    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
+    <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
+    <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
+    <string name="dialog_msg_fp_not_recognized">Το δακτυλικό αποτύπωμα δεν αναγνωρίστηκε. Προσπαθήστε ξανά</string>
+    <string name="dialog_msg_fp_success">Το δακτυλικό αποτύπωμα αναγνωρίστηκε</string>
+    <string name="dialog_msg_fp_hint">Ακουμπήστε τον αισθητήρα</string>
+    <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
+    <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -189,8 +189,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Είσοδος με δακτυλικό αποτύπωμα</string>
+    <string name="pref_security_summary_fingerprint">Απαιτείται έκδοση Android 6.0 ή νεότερη για τη χρήση αυτής της δυνατότητας</string>
     <!-- about -->
     <string name="pref_about_title_contact">Αναφορά σφάλματος</string>
     <string name="pref_about_title_support">Αξιολόγηση</string>
@@ -211,7 +211,7 @@
     <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΔΑΚΤΥΛΙΚΟ ΑΠΟΤΥΠΩΜΑ</string>
     <!-- ################################################################################# -->
 
 </resources>
