@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">我的密码簿</string>
-    <string name="app_version">应用程序版本<xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_version">版本<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
     <string name="app_download_message">现在免费从 Google Play 商店下载程序</string>
@@ -35,7 +35,7 @@
     <string name="button_enter">点击进入</string>
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
-    <string name="button_exit">EXIT</string>
+    <string name="button_exit">退出</string>
     <!-- ################################################################################# -->
 
 
@@ -47,13 +47,13 @@
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版。</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV 文件导入导出功能</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>自动备份</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>主题的选择</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Clipboard clear</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Self destruction</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
-    <string name="upgrade_accept">通过购买PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>备份的导入导出</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自动备份</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>选择不同的主题</string>
+    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>剪贴板自动清除</string>
+    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自毁功能</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可使用指纹登录</string>
+    <string name="upgrade_accept">购买专业版获取下列功能前需接受<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -73,7 +73,7 @@
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>
-    <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_keyboard">键盘</string>
     <!-- ################################################################################# -->
 
 
@@ -100,7 +100,7 @@
     <string name="toast_successful_csv_import">CSV 文件导入成功</string>
     <string name="toast_error_csv_import">CSV 文件导入失败</string>
     <string name="toast_database_server_error">数据库当前不可用。</string>
-    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
+    <string name="toast_fingerprint_disabled">指纹登录功能已禁用</string>
     <!-- ################################################################################# -->
 
 
@@ -112,7 +112,7 @@
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
+    <string name="dialog_title_self_destruct">数据库自毁</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_previous_password">确定删除以前的密码？</string>
@@ -126,15 +126,15 @@
     <string name="dialog_msg_error_reading_file">读取文件出错。</string>
     <string name="dialog_msg_invalid_csv_format">所选的 CSV 文件格式无效不能被导入。</string>
     <string name="dialog_msg_invalid_db_format">所选的备份文件不是当前主密码创建，无法恢复。</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
-    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
+    <string name="dialog_msg_app_data_erased">密码登录超过限定次数，所有数据将被永久删除。</string>
+    <string name="dialog_msg_no_fp_hardware">指纹硬件不存在或不工作。</string>
+    <string name="dialog_msg_no_fp_enrolled">未登记指纹，请在系统设置中至少登记一个指纹。</string>
+    <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
+    <string name="dialog_msg_fp_success">指纹已识别</string>
+    <string name="dialog_msg_fp_hint">指纹传感器</string>
+    <string name="dialog_msg_confirm_fp">输入指纹后继续</string>
+    <string name="dialog_msg_fp_enrolled">锁屏已重置或指纹已登记，使用主密码登录应用前请启用指纹。</string>
+    <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -152,7 +152,7 @@
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
     <string name="pref_appearance_summary_show_passwords">条目中的密码始终以明文方式显示</string>
-    <string name="pref_appearance_title_show_notification">在通知栏显示应用程序图标</string>
+    <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
     <string name="pref_appearance_theme_light">浅色</string>
@@ -171,26 +171,26 @@
     <string name="pref_database_summary_import">从非加密的 CSV 文件导入条目</string>
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
-    <string name="pref_security_title_fast_enter">快速进入</string>
+    <string name="pref_security_title_fast_enter">快速登录</string>
     <string name="pref_security_summary_fast_enter">输入主密码后直接进入应用程序</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭后应用程序自动退出</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
+    <string name="pref_security_title_clipboard_clear">清除剪贴板</string>
+    <string name="pref_security_clipboard_clear_never">从不</string>
+    <string name="pref_security_clipboard_clear_one_min">每1分钟</string>
+    <string name="pref_security_clipboard_clear_two_min">每2分钟</string>
+    <string name="pref_security_clipboard_clear_three_min">每3分钟</string>
+    <string name="pref_security_clipboard_clear_four_min">每4分钟</string>
+    <string name="pref_security_clipboard_clear_five_min">每5分钟</string>
+    <string name="pref_security_title_self_destruct">密码尝试次数</string>
+    <string name="pref_security_self_destruct_unlimited">无限制</string>
+    <string name="pref_security_self_destruct_three">3次</string>
+    <string name="pref_security_self_destruct_five">5次</string>
+    <string name="pref_security_self_destruct_ten">10次</string>
+    <string name="pref_security_self_destruct_fifteen">15次</string>
+    <string name="pref_security_self_destruct_twenty">20次</string>
+    <string name="pref_security_title_fingerprint">使用指纹登录功能</string>
+    <string name="pref_security_summary_fingerprint">需要 Android 6.0 或者更新的系统才能支持这个功能</string>
     <!-- about -->
     <string name="pref_about_title_contact">给开发者发邮件</string>
     <string name="pref_about_title_support">去评分</string>
@@ -208,10 +208,10 @@
     <string name="pref_category_database">数据库</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自动备份</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">安全</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪贴板</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>数据库自毁</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指纹登录</string>
     <!-- ################################################################################# -->
 
 </resources>
