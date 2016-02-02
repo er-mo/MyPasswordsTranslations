@@ -189,7 +189,7 @@
     <string name="pref_security_self_destruct_ten">10次</string>
     <string name="pref_security_self_destruct_fifteen">15次</string>
     <string name="pref_security_self_destruct_twenty">20次</string>
-    <string name="pref_security_title_fingerprint"></string>
+    <string name="pref_security_title_fingerprint">使用指纹登录功能</string>
     <string name="pref_security_summary_fingerprint">需要 Android 6.0 或者更新的系统才能支持这个功能</string>
     <!-- about -->
     <string name="pref_about_title_contact">给开发者发邮件</string>
