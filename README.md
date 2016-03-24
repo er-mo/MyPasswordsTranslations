@@ -16,6 +16,7 @@ Users who have contributed so far:
 - [channingbox](https://github.com/channingbox) - Chinese (simplified)
 - [Eric Deng](https://github.com/Eric850130) - Chinese (traditional)
 - [Slayf](https://github.com/Slayf) - Russian
+- [GameRebellStudio](https://github.com/GameRebellStudio) - Czech
 
 ### Questions?
 
