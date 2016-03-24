@@ -53,6 +53,7 @@
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Clipboard clear</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Self destruction</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
     <string name="upgrade_accept">Genom att köpa PRO version accepterar du följande<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">villkor</string>
     <!-- change master password -->
@@ -74,6 +75,7 @@
     <string name="menu_delete">Radera</string>
     <string name="menu_color">Färg</string>
     <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_add_to_wear">Add to wearable</string>
     <!-- ################################################################################# -->
 
 
@@ -101,6 +103,9 @@
     <string name="toast_error_csv_import">Misslyckades att importera CSV fil</string>
     <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
     <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
+    <string name="toast_added_to_wear">Added to wearable</string>
+    <string name="toast_removed_from_wear">Removed from wearable</string>
+    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <!-- ################################################################################# -->
 
 

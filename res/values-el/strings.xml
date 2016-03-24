@@ -53,6 +53,7 @@
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτοκαταστροφή</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
@@ -74,6 +75,7 @@
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
+    <string name="menu_add_to_wear">Add to wearable</string>
     <!-- ################################################################################# -->
 
 
@@ -101,6 +103,9 @@
     <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
     <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
     <string name="toast_fingerprint_disabled">Η είσοδος με τη χρήση δακτυλικού αποτυπώματος έχει απενεργοποιηθεί</string>
+    <string name="toast_added_to_wear">Added to wearable</string>
+    <string name="toast_removed_from_wear">Removed from wearable</string>
+    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <!-- ################################################################################# -->
 
 

@@ -17,7 +17,7 @@
     <string name="confirm_password">Potvrďte heslo</string>
     <string name="password_is_too_short">Heslo je příliš krátké</string>
     <string name="passwords_not_matching">Hesla se neshodují</string>
-    <string name="password_not_correct">Heslo není správné/string>
+    <string name="password_not_correct">Heslo není správné</string>
     <string name="required">Povinné</string>
     <string name="title">Název</string>
     <string name="account">Účet</string>
@@ -53,6 +53,7 @@
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatické vyčištění Schránky</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Sebedestrukce</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Vstup pomocí otisku prstu</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
     <string name="upgrade_accept">Zakoupením PRO verze přijímáte následující<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">podmínky</string>
     <!-- change master password -->
@@ -74,6 +75,7 @@
     <string name="menu_delete">Smazat</string>
     <string name="menu_color">Barva</string>
     <string name="menu_keyboard">Klávesnice</string>
+    <string name="menu_add_to_wear">Add to wearable</string>
     <!-- ################################################################################# -->
 
 
@@ -93,7 +95,7 @@
     <string name="toast_storage_permission_granted">Oprávnění uděleno</string>
     <string name="toast_storage_permission_denied">Přístup odepřen. Nelze číst ani zapisovat soubory.</string>
     <string name="toast_no_file_selected">Nebyl vybrán žádný soubor</string>
-    <string name="toast_successful_backup">Záloha úspěšně vytvořena/string>
+    <string name="toast_successful_backup">Záloha úspěšně vytvořena</string>
     <string name="toast_successful_restore">Databáze úspěšně obnovena</string>
     <string name="toast_error_restore">Nepodařilo se obnovit databázi</string>
     <string name="toast_successful_csv_export">Úspěšně exportován cvs soubor</string>
@@ -101,6 +103,9 @@
     <string name="toast_error_csv_import">Nepodařilo se importovat cvs soubor</string>
     <string name="toast_database_server_error">Databáze není v tuto chvíli k dispozici</string>
     <string name="toast_fingerprint_disabled">Vstup pomocí otisku prstu je zakázán</string>
+    <string name="toast_added_to_wear">Added to wearable</string>
+    <string name="toast_removed_from_wear">Removed from wearable</string>
+    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <!-- ################################################################################# -->
 
 
