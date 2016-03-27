@@ -106,6 +106,7 @@
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_playstore_error">Google Play store app is not installed</string>
     <!-- ################################################################################# -->
 
 
@@ -114,10 +115,12 @@
     <string name="dialog_button_continue">繼續</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">刪除</string>
+    <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">是否還原備份？</string>
     <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
     <string name="dialog_title_change_master_password">是否更改主密碼？</string>
     <string name="dialog_title_self_destruct">Self destruct</string>
+    <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_previous_password">是否刪除舊的主密碼？</string>
@@ -140,6 +143,7 @@
     <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
     <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
+    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -106,6 +106,7 @@
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
     <!-- ################################################################################# -->
 
 
@@ -114,10 +115,12 @@
     <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
     <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
+    <string name="dialog_button_rate_now">Αξιολόγηση</string>
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
     <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
+    <string name="dialog_title_rate_and_review">Αξιολόγηση;</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
@@ -140,6 +143,7 @@
     <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
     <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
+    <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

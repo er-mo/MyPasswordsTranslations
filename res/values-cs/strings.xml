@@ -106,6 +106,7 @@
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_playstore_error">Google Play store app is not installed</string>
     <!-- ################################################################################# -->
 
 
@@ -114,10 +115,12 @@
     <string name="dialog_button_continue">Pokračovat</string>
     <string name="dialog_button_cancel">Zrušit</string>
     <string name="dialog_button_delete">Smazat</string>
+    <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">Obnovit zálohu?</string>
     <string name="dialog_title_import_csv">Importovat cvs?</string>
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
+    <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
     <string name="dialog_msg_delete_previous_password">Vymazat předchozí heslo?</string>
@@ -140,6 +143,7 @@
     <string name="dialog_msg_confirm_fp">Potvrďte otisk prstu a pokračujte</string>
     <string name="dialog_msg_fp_enrolled">Zamykací obrazovka byla resetována nebo byl otisk prstu zakázán. Prosíme znovu povolte otisk prstu v nastavení jakmile vstoupíte do aplikace pomocí hlavního hesla.</string>
     <string name="dialog_msg_remember_password">Ujistěte se, že si pamatujete hlavní heslo v případě, že nebude otisk prstu k dispozici.</string>
+    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

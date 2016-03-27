@@ -106,6 +106,7 @@
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_playstore_error">Google Play store app is not installed</string>
     <!-- ################################################################################# -->
 
 
@@ -114,10 +115,12 @@
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
+    <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
     <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
     <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
     <string name="dialog_title_self_destruct">Self destruct</string>
+    <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_previous_password">Zmienić stare hasło?</string>
@@ -140,6 +143,7 @@
     <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
     <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
+    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
