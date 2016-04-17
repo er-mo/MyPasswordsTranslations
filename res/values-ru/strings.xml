@@ -137,8 +137,9 @@
     <string name="dialog_msg_app_data_erased">Все данные были удалены навсегда, из-за неудачных попыток входа!</string>
     <string name="dialog_msg_no_fp_hardware">Оборудование для отпечатка пальца отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте по крайней мере один из отпечатка пальца в настройках системы.</string>
+    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку</string>
-    <string name="dialog_msg_fp_success">Отпечаток пальца распознался!</string>
+    <string name="dialog_msg_fp_success">Отпечаток пальца распознался! Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Сенсорный датчик</string>
     <string name="dialog_msg_confirm_fp">Подтвердить отпечаток пальца для продолжения</string>
     <string name="dialog_msg_fp_enrolled">Сброс блокировки экрана, с помощью отпечатка пальца, выполнен! Пожалуйста, включите параметр отпечатка пальца после ввода приложение с помощью \"Мастер-пароль\".</string>

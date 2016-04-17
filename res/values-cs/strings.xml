@@ -137,8 +137,9 @@
     <string name="dialog_msg_app_data_erased">Všechna data trvale odstraněna z důvodu mnoha neúspěšných pokusů.</string>
     <string name="dialog_msg_no_fp_hardware">Čtečka otisku prstů není k dispozici nebo není funkční.</string>
     <string name="dialog_msg_no_fp_enrolled">Nebyly nalezeny žádné zaregistrované otisky prstů. Prosím nastavte alespoň jeden otisk prstu v systémových nastaveních.</string>
+    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
     <string name="dialog_msg_fp_not_recognized">Otisk prstu nebyl rozpoznán. Zkuste to znovu</string>
-    <string name="dialog_msg_fp_success">Otisk rozpoznán</string>
+    <string name="dialog_msg_fp_success">Otisk rozpoznán. Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotkněte se senzoru</string>
     <string name="dialog_msg_confirm_fp">Potvrďte otisk prstu a pokračujte</string>
     <string name="dialog_msg_fp_enrolled">Zamykací obrazovka byla resetována nebo byl otisk prstu zakázán. Prosíme znovu povolte otisk prstu v nastavení jakmile vstoupíte do aplikace pomocí hlavního hesla.</string>

@@ -137,8 +137,9 @@
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
     <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
     <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
+    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
     <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch sensor</string>
     <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
     <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
