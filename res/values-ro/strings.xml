@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_version">Version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">A secure and easy to use password manager for Android devices</string>
     <string name="app_download_message">Get it now for free from Google Play store</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Location</string>
-    <string name="confirm_password">Confirm password</string>
     <string name="password_is_too_short">Password is too short</string>
     <string name="passwords_not_matching">Passwords are not matching</string>
     <string name="password_not_correct">The password is not correct</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Welcome to My Passwords</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>This application was designed to help you store all your passwords easily and safely<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>It is strongly recommended that you backup your data at regular intervals</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Export &amp; import csv files</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
     <string name="dialog_msg_delete_entry">Delete entry?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_error_occurred">An error occurred:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload verification failed.</string>
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
     <string name="dialog_msg_error_writing_file">An error occurred while writing the file:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
     <string name="pref_appearance_sorting_choise_time">By date</string>
     <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">The passwords will be always shown so you do not have to explicitly press the eye icon</string>
     <string name="pref_appearance_title_show_notification">Show notification icon</string>
     <string name="pref_appearance_summary_show_notification">The notification icon will be shown to identify that the application is unlocked and running</string>
     <string name="pref_appearance_title_change_theme">Change theme</string>
