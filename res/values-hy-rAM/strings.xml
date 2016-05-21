@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Welcome to My Passwords</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>A secure and easy to use password manager for your Android device</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>This application was designed to help you store all your passwords easily and safely<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>The only thing you have to do is to remember your master password</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Please note that if the master password is lost the stored data cannot be recovered because of the missing sync option<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>It is strongly recommended that you backup your data at regular intervals</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">Change master password?</string>
     <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
     <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
     <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
@@ -130,8 +135,8 @@
     <string name="dialog_msg_error_occurred">An error occurred:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload verification failed.</string>
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file.</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file.</string>
+    <string name="dialog_msg_error_writing_file">An error occurred while writing the file:</string>
+    <string name="dialog_msg_error_reading_file">An error occurred while reading the file:</string>
     <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
     <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
     <string name="pref_database_title_restore">Restore database</string>
     <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_auto_backup">Auto backup</string>
-    <string name="pref_database_summary_auto_backup">Creates a backup of the database each time you exit the application (maximum backup files kept 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Destination folder</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Export csv file</string>
     <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
     <string name="pref_database_title_import">Import csv file</string>

@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Καλώς ήρθατε</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Αυτή η εφαρμογή θα σας βοηθήσει να αποθηκεύσετε όλους τους κωδικούς σας εύκολα και με ασφάλεια<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Το μόνο που έχετε να κάνετε είναι να θυμάστε έναν και μόνο κωδικό πρόσβασης</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
     <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
     <string name="dialog_title_rate_and_review">Αξιολόγηση;</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
@@ -130,8 +135,8 @@
     <string name="dialog_msg_error_occurred">Παρουσιάστηκε σφάλμα:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
-    <string name="dialog_msg_error_writing_file">Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου.</string>
-    <string name="dialog_msg_error_reading_file">Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου.</string>
+    <string name="dialog_msg_error_writing_file">Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου:</string>
+    <string name="dialog_msg_error_reading_file">Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου:</string>
     <string name="dialog_msg_invalid_csv_format">Το επιλεγμένο csv αρχείο δεν έχει έγκυρη μορφή και δεν μπορεί να εισαχθεί.</string>
     <string name="dialog_msg_invalid_db_format">Το επιλεγμένο αντίγραφο ασφαλείας δημιουργήθηκε χρησιμοποιώντας έναν διαφορετικό κύριο κωδικό πρόσβασης και δεν μπορεί να αποκατασταθεί.</string>
     <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
     <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
     <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
-    <string name="pref_database_title_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
-    <string name="pref_database_summary_auto_backup">Δημιουργεί ένα αντίγραφο ασφαλείας της βάσης κάθε φορά που εξέρχεστε από την εφαρμογή (μέγιστος αριθμός αρχείων 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Φάκελος</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
     <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
     <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>

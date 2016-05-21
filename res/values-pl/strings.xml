@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Moje Hasła</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Bezpieczna i łatwa w obsłudze aplikacja dla twojego Androida.</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Została stworzona byś mógł bezpiecznie przechowywać swoje hasła.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Wystarczy, że będziesz pamiętał hasło główne</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Regularnie rób kopię zapasową swojej bazy!</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
     <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_previous_password">Zmienić stare hasło?</string>
@@ -130,8 +135,8 @@
     <string name="dialog_msg_error_occurred">Błąd:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">NIe można odczytac wybranego pliku.</string>
-    <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku.</string>
-    <string name="dialog_msg_error_reading_file">Błąd przy odczycie pliku.</string>
+    <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku:</string>
+    <string name="dialog_msg_error_reading_file">Błąd przy odczycie pliku:</string>
     <string name="dialog_msg_invalid_csv_format">Wybrany plik CSV ma niepoprawny format i nie zostanie zaimportowany.</string>
     <string name="dialog_msg_invalid_db_format">Wybrana kopia zapasowa została utworzona z innym hasłem i nie zostanie przywrócona.</string>
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
     <string name="pref_database_title_restore">Przywróć bazę danych</string>
     <string name="pref_database_summary_restore">Przywraca kopię zapasową bazy danych</string>
-    <string name="pref_database_title_auto_backup">Automatyczna kopia zapasowa</string>
-    <string name="pref_database_summary_auto_backup">Tworzy kopię zapasową bazy danych przy każdym wyjściu z aplikacji (maks. 10 kopii)</string>
-    <string name="pref_database_title_auto_backup_folder">Katalog kopii</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Eksportuj plik CSV</string>
     <string name="pref_database_summary_export">Eksportuj dane do niezaszyfrowanego pliku CSV</string>
     <string name="pref_database_title_import">Importuj plik CSV</string>

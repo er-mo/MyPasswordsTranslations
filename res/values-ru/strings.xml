@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Добро пожаловать</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Надежное и простое в использовании приложение \"Мои пароли\" для Android устройств</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Это приложение было разработано с целью, чтобы помочь вам хранить все ваши пароли с легкостью и в безопасности<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Единственное, что вам нужно сделать, это запомнить \"Мастер-пароль\"</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Пожалуйста, обратите внимание, что, если \"Мастер-пароль\" утерян, сохраненные данные не могут быть восстановлены, из-за недостающей функции синхронизации<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Настоятельно рекомендуется сделать резервную копию ваших данных на постоянной основе</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
     <string name="dialog_title_self_destruct">Самоуничтожение</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_previous_password">Удалить существующий \"Мастер-пароль\"?</string>
@@ -130,8 +135,8 @@
     <string name="dialog_msg_error_occurred">Произошла ошибка:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
-    <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла.</string>
-    <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла.</string>
+    <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла:</string>
+    <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла:</string>
     <string name="dialog_msg_invalid_csv_format">Выбранный CSV файл имеет неверный формат и не может быть импортирован.</string>
     <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другого \"Мастер-пароль\" и не может быть восстановлен.</string>
     <string name="dialog_msg_app_data_erased">Все данные были удалены навсегда, из-за неудачных попыток входа!</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">Создать резервную копию зашифрованной базы данных</string>
     <string name="pref_database_title_restore">Востановление</string>
     <string name="pref_database_summary_restore">Восстановить резервную копию зашифрованной базы данных</string>
-    <string name="pref_database_title_auto_backup">Авторезервирование</string>
-    <string name="pref_database_summary_auto_backup">Создает резервную копию записей каждый раз, когда вы выходите из приложения (максимальное количество резервных копий - 10 штук)</string>
-    <string name="pref_database_title_auto_backup_folder">Папка для резервного копирования</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Экспорт записей в CSV файл</string>
     <string name="pref_database_summary_export">Экспортировать данные в незашифрованный файл CSV формата</string>
     <string name="pref_database_title_import">Импорт записей из CSV файла</string>

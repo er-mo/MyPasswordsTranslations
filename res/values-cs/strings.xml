@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Vítejte v My Passwords!</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Tato aplikace byla navržena tak, aby Vám pomohla uložit všechna Vaše hesla snadno a bezpečně<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Jediné, co musíte udělat, je zapamatovat si své hlavní heslo</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Vezměte prosím na vědomí, že v případě zapomenutí hlavního hesla nebude možné obnovit uložená data, kvůli chybějící možnosti synchronizace<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Důrazně doporučujeme zálohovat svá data v pravidelných intervalech</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
     <string name="dialog_msg_delete_previous_password">Vymazat předchozí heslo?</string>
@@ -130,8 +135,8 @@
     <string name="dialog_msg_error_occurred">Došlo k chybě<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
-    <string name="dialog_msg_error_writing_file">Při zápisu souboru došlo k chybě.</string>
-    <string name="dialog_msg_error_reading_file">Při čtení souboru došlo k chybě.</string>
+    <string name="dialog_msg_error_writing_file">Při zápisu souboru došlo k chybě:</string>
+    <string name="dialog_msg_error_reading_file">Při čtení souboru došlo k chybě:</string>
     <string name="dialog_msg_invalid_csv_format">Vybraný soubor CSV má neplatný formát a nelze ho importovat.</string>
     <string name="dialog_msg_invalid_db_format">Vybraný soubor zálohy byl vytvořen během používání jiného hlavního hesla a nemůže být obnoven.</string>
     <string name="dialog_msg_app_data_erased">Všechna data trvale odstraněna z důvodu mnoha neúspěšných pokusů.</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">Vytvořit zálohu šifrované databáze</string>
     <string name="pref_database_title_restore">Obnovit databázi</string>
     <string name="pref_database_summary_restore">Obnovit zálohu šifrované databáze</string>
-    <string name="pref_database_title_auto_backup">Automatické zálohování</string>
-    <string name="pref_database_summary_auto_backup">Vytvoří zálohu databáze při každém ukončení aplikace (maximální počet zálohovaných souborů 10)</string>
-    <string name="pref_database_title_auto_backup_folder">Cílová složka</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Export do cvs souboru</string>
     <string name="pref_database_summary_export">Exportovat položky do nešifrovaného cvs souboru</string>
     <string name="pref_database_title_import">Import z cvs souboru</string>

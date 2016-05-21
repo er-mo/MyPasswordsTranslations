@@ -42,6 +42,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">歡迎使用 My Passwords</string>
+    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>此應用程式專為讓您能夠更安全以及更便利的儲存您的所有密碼<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>您只需要記得您的主密碼</string>
     <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>請記住，如果您忘記了您的主密碼，您將會遺失所有已同步並儲存的資料<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>我們強烈建議您執行定期備份的操作</string>
@@ -107,6 +108,9 @@
     <string name="toast_removed_from_wear">Removed from wearable</string>
     <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
+    <string name="toast_playstore_services_error">Google Play services are not available</string>
+    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
+    <string name="toast_storage_not_accessible">External storage not accessible</string>
     <!-- ################################################################################# -->
 
 
@@ -121,6 +125,7 @@
     <string name="dialog_title_change_master_password">是否更改主密碼？</string>
     <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
+    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_previous_password">是否刪除舊的主密碼？</string>
@@ -172,9 +177,10 @@
     <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
     <string name="pref_database_title_restore">還原資料庫</string>
     <string name="pref_database_summary_restore">還原加密的資料庫備份</string>
-    <string name="pref_database_title_auto_backup">自動備份</string>
-    <string name="pref_database_summary_auto_backup">當您每次離開應用程式時自動建立備份 （最多可保留10個）</string>
-    <string name="pref_database_title_auto_backup_folder">目標資料夾</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
+    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">匯出 csv 文件</string>
     <string name="pref_database_summary_export">從未加密的 csv 文件中匯出條目</string>
     <string name="pref_database_title_import">匯入 csv 文件</string>
