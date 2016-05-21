@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Мои пароли</string>
-    <string name="app_version">Версия <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Приложение \"Мои пароли\", версия <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Надежное и простое в использовании приложение, для хранения паролей</string>
     <string name="app_download_message">Получить ее бесплатно прямо сейчас из магазина Google Play Маркет</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Папка<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Файл<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Местоположение</string>
-    <string name="confirm_password">Подтвердите пароль</string>
     <string name="password_is_too_short">Пароль слишком короткий</string>
     <string name="passwords_not_matching">Пароли не совпадают</string>
     <string name="password_not_correct">Пароль введен не верно</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Добро пожаловать</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Надежное и простое в использовании приложение \"Мои пароли\" для Android устройств</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Это приложение было разработано с целью, чтобы помочь вам хранить все ваши пароли с легкостью и в безопасности<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Единственное, что вам нужно сделать, это запомнить \"Мастер-пароль\"</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Пожалуйста, обратите внимание, что, если \"Мастер-пароль\" утерян, сохраненные данные не могут быть восстановлены, из-за недостающей функции синхронизации<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Настоятельно рекомендуется сделать резервную копию ваших данных на постоянной основе</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Спасибо за покупку PRO версии.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция импорта и экспорта в файл CSV формата</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Удалить выбранные записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
     <string name="dialog_msg_cannot_open_folder">Папка не доступна.</string>
-    <string name="dialog_msg_error_occurred">Произошла ошибка:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
     <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">По алфавиту</string>
     <string name="pref_appearance_sorting_choise_time">По дате</string>
     <string name="pref_appearance_sorting_choise_color">По цвету</string>
-    <string name="pref_appearance_title_show_passwords">Всегда показывать пароль</string>
-    <string name="pref_appearance_summary_show_passwords">Пароль всегда будет отображаться, независимо от включенной функции на иконке глаза, \"Видимость пароля\"</string>
     <string name="pref_appearance_title_show_notification">Значок уведомления</string>
     <string name="pref_appearance_summary_show_notification">Значок уведомления будет отображаться, для определения того, что приложение разблокировано и работает</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>

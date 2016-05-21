@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">我的密码簿</string>
-    <string name="app_version">版本<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
     <string name="app_download_message">现在免费从 Google Play 商店下载程序</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">文件夹<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">文件<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">文件夹路径</string>
-    <string name="confirm_password">确认密码</string>
     <string name="password_is_too_short">密码不能少于四位数</string>
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">欢迎使用我的密码簿</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>一个安全易用的密码管理器</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>你可以更加安全和方便的管理你的数据<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>只需要记住你的主密码就可以管理其他密码</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>如果主密码丢失将无法恢复存储的备份<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>建议你定期备份以便防止数据丢失</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢你购买专业版。</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>备份的导入导出</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
-    <string name="dialog_msg_error_occurred">应用程序发生错误：\u0020</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
     <string name="dialog_msg_error_writing_file">写入文件出错。</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
-    <string name="pref_appearance_title_show_passwords">明文密码</string>
-    <string name="pref_appearance_summary_show_passwords">条目中的密码始终以明文方式显示</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>

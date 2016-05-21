@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_version">Verze <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Verze aplikace My Passwords <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
     <string name="app_download_message">Získejte nyní zdarma z Obchodu Google Play!</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Složka<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Soubor<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Umístění</string>
-    <string name="confirm_password">Potvrďte heslo</string>
     <string name="password_is_too_short">Heslo je příliš krátké</string>
     <string name="passwords_not_matching">Hesla se neshodují</string>
     <string name="password_not_correct">Heslo není správné</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Vítejte v My Passwords!</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Tato aplikace byla navržena tak, aby Vám pomohla uložit všechna Vaše hesla snadno a bezpečně<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Jediné, co musíte udělat, je zapamatovat si své hlavní heslo</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Vezměte prosím na vědomí, že v případě zapomenutí hlavního hesla nebude možné obnovit uložená data, kvůli chybějící možnosti synchronizace<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Důrazně doporučujeme zálohovat svá data v pravidelných intervalech</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Děkujeme Vám za zakoupení PRO verze.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Export &amp; import csv souborů</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
-    <string name="dialog_msg_error_occurred">Došlo k chybě<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
     <string name="dialog_msg_error_writing_file">Při zápisu souboru došlo k chybě:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">Abecedně</string>
     <string name="pref_appearance_sorting_choise_time">Podle data</string>
     <string name="pref_appearance_sorting_choise_color">Podle barvy</string>
-    <string name="pref_appearance_title_show_passwords">Zobrazovat hesla</string>
-    <string name="pref_appearance_summary_show_passwords">Hesla se budou vždy zobrazovat bez nutnosti klepnout na ikonu oka</string>
     <string name="pref_appearance_title_show_notification">Zobrazovat notifikační ikonu</string>
     <string name="pref_appearance_summary_show_notification">Notifikační ikona se bude zobrazovat pro určení zda je aplikace odemčená a spuštěná</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>

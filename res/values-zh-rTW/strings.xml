@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_version">版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">My Passwords 程式版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="app_download_message">前往 Google Play 商店免費下載</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">位置</string>
-    <string name="confirm_password">確認密碼</string>
     <string name="password_is_too_short">密碼太短</string>
     <string name="passwords_not_matching">密碼不相符</string>
     <string name="password_not_correct">密碼不正確</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">歡迎使用 My Passwords</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>此應用程式專為讓您能夠更安全以及更便利的儲存您的所有密碼<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>您只需要記得您的主密碼</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>請記住，如果您忘記了您的主密碼，您將會遺失所有已同步並儲存的資料<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>我們強烈建議您執行定期備份的操作</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感謝您購買專業版</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV進出口</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
     <string name="dialog_msg_delete_entry">是否刪除條目？</string>
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
-    <string name="dialog_msg_error_occurred">發生錯誤：<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
     <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
     <string name="dialog_msg_error_writing_file">寫入檔案時發生錯誤。</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
     <string name="pref_appearance_sorting_choise_time">按日期</string>
     <string name="pref_appearance_sorting_choise_color">按顏色</string>
-    <string name="pref_appearance_title_show_passwords">顯示密碼</string>
-    <string name="pref_appearance_summary_show_passwords">密碼將會直接顯示，如此一來您就不需持續點選眼睛圖示。</string>
     <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
     <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
     <string name="pref_appearance_title_change_theme">更改主題</string>

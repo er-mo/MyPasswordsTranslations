@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Moje Hasła</string>
-    <string name="app_version">Wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Moje Hasła, wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
     <string name="app_download_message">Pobierz ze Sklepu Play.</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Katalog<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Plik<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Lokacja</string>
-    <string name="confirm_password">Potwierdź hasło</string>
     <string name="password_is_too_short">Zakrótkie hasło!</string>
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Moje Hasła</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Bezpieczna i łatwa w obsłudze aplikacja dla twojego Androida.</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Została stworzona byś mógł bezpiecznie przechowywać swoje hasła.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Wystarczy, że będziesz pamiętał hasło główne</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Pamiętaj, że jeśli zostanie ono zagubione nie będzie możliwe odzyskanie bazy danych z zapisanym hasłami.<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Regularnie rób kopię zapasową swojej bazy!</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Import &amp; eksport plików CSV</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog nie	 jest dostępny.</string>
-    <string name="dialog_msg_error_occurred">Błąd:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">NIe można odczytac wybranego pliku.</string>
     <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
     <string name="pref_appearance_sorting_choise_time">Po dacie</string>
     <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
-    <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
-    <string name="pref_appearance_summary_show_passwords">Hasła będą zawsze widoczne</string>
     <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
     <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
     <string name="pref_appearance_title_change_theme">Zmień styl</string>

@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Mina Lösenord</string>
-    <string name="app_version">Version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Mina Lösenord app-version<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">En säker och enkel lösenordshanterare för Androidenheter</string>
     <string name="app_download_message">Skaffa den gratis från Google Play</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Mapp<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Fil<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Plats</string>
-    <string name="confirm_password">Bekräfta Lösenord</string>
     <string name="password_is_too_short">Lösenordet är för kort</string>
     <string name="passwords_not_matching">Lösenorden matchar inte</string>
     <string name="password_not_correct">Lösenordet är felaktigt</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Välkommen till Mina Lösenord</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>En säker och enkel lösenordshanterare till din Android enhet</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Denna aplikation är utvecklad för att hjälpa dig att spara alla dina lösen ord på ett enkelt och säkert sätt<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>The only thing you have to do is to remember your master password</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Observera att om huvudlösenordet tappas bort kan databasen inte återskapas<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Det är starkt rekommenderat att du säkerhetskopierar databasen regelbundet</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV import &amp; export</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
-    <string name="dialog_msg_error_occurred">Ett fel har uppstått:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
     <string name="dialog_msg_error_writing_file">Ett fel uppstod när filen skulle skrivas:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
     <string name="pref_appearance_sorting_choise_time">Efter datum</string>
     <string name="pref_appearance_sorting_choise_color">Efter färg</string>
-    <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
-    <string name="pref_appearance_summary_show_passwords">Lösenorden kommer alltid att synas så du behöver inte manuellt trycka på ögonikonen</string>
     <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
     <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
     <string name="pref_appearance_title_change_theme">Ändra tema</string>

@@ -3,7 +3,6 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Οι Κωδικοί μου</string>
-    <string name="app_version">Έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_email_subject">Οι Κωδικοί μου έκδοση <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
     <string name="app_download_message">Κατεβάστε το τώρα δωρεάν από το Play Google store</string>
@@ -14,7 +13,6 @@
     <string name="target_folder">Φάκελος<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Αρχείο<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Τοποθεσία</string>
-    <string name="confirm_password">Επιβεβαίωση</string>
     <string name="password_is_too_short">Ο κωδικός είναι πολύ μικρός</string>
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
@@ -43,9 +41,6 @@
     <!-- welcome -->
     <string name="welcome_info_title">Καλώς ήρθατε</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
-    <string name="welcome_info_first"><xliff:g id="LF">\n\n</xliff:g>Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
-    <string name="welcome_info_second"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Αυτή η εφαρμογή θα σας βοηθήσει να αποθηκεύσετε όλους τους κωδικούς σας εύκολα και με ασφάλεια<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Το μόνο που έχετε να κάνετε είναι να θυμάστε έναν και μόνο κωδικό πρόσβασης</string>
-    <string name="welcome_info_third"><xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Εάν ξεχάσετε τον κύριο κωδικό πρόσβασης τα αποθηκευμένα δεδομένα δεν μπορούν να ανακτηθούν λόγω της έλλειψης συγχρονισμού μέσω διαδικτύου<xliff:g id="LF_BLT_SPC">\n\n\u2022\u0020</xliff:g>Συνίσταται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Εξαγωγή και εισαγωγή csv αρχείων</string>
@@ -132,7 +127,6 @@
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
-    <string name="dialog_msg_error_occurred">Παρουσιάστηκε σφάλμα:<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
     <string name="dialog_msg_error_writing_file">Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου:</string>
@@ -165,8 +159,6 @@
     <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
     <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
     <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
-    <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
-    <string name="pref_appearance_summary_show_passwords">Οι κωδικοί πρόσβασης θα εμφανίζονται πάντα, ώστε να μην χρειάζεται να πατήσετε στο εικονίδιο του ματιού</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
