@@ -136,7 +136,7 @@
     <string name="dialog_msg_app_data_erased">密码登录超过限定次数，所有数据将被永久删除。</string>
     <string name="dialog_msg_no_fp_hardware">指纹硬件不存在或不工作。</string>
     <string name="dialog_msg_no_fp_enrolled">未登记指纹，请在系统设置中至少登记一个指纹。</string>
-    <string name="dialog_msg_no_fp_keyguard">使用指纹前请启用安全锁屏。</string>
+    <string name="dialog_msg_no_fp_keyguard">使用指纹登录前请启用安全锁屏。</string>
     <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
@@ -197,7 +197,7 @@
     <string name="pref_security_self_destruct_ten">10次</string>
     <string name="pref_security_self_destruct_fifteen">15次</string>
     <string name="pref_security_self_destruct_twenty">20次</string>
-    <string name="pref_security_title_fingerprint">使用指纹登录功能</string>
+    <string name="pref_security_title_fingerprint">启用指纹登录功能</string>
     <string name="pref_security_summary_fingerprint">需要系统升级到 Android 6.0 以上</string>
     <!-- about -->
     <string name="pref_about_title_contact">给开发者发邮件</string>
