@@ -29,7 +29,7 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">РЕГИСТР</string>
+    <string name="button_register">ГОТОВО</string>
     <string name="button_enter">ВВОД</string>
     <string name="button_upgrade_now">ОБНОВИТЬ СЕЙЧАС</string>
     <string name="button_update">ОБНОВИТЬ</string>
@@ -40,7 +40,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Добро пожаловать</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_content">Пожалуйста, обратите внимание, что, если \"Мастер-пароль\" утерян, сохраненные данные не могут быть восстановлены, из-за недостающей функции синхронизации. Настоятельно рекомендуется сделать резервную копию ваших данных на постоянной основе.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Спасибо за покупку PRO версии.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция импорта и экспорта в файл CSV формата</string>
@@ -49,7 +49,7 @@
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция настройки буфера обмена</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция автоматического удаления данных</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция настройки отпечатка пальца</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Функция настройки для часов</string>
     <string name="upgrade_accept">Приобретая PRO версию вы принимаете следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">условия</string>
     <!-- change master password -->
@@ -60,7 +60,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Поиск</string>
-    <string name="menu_overflow">Больше</string>
+    <string name="menu_overflow">Настройки</string>
     <string name="menu_appearance">Оформление</string>
     <string name="menu_database">База данных</string>
     <string name="menu_security">Безопасность</string>
@@ -71,7 +71,7 @@
     <string name="menu_delete">Удалить</string>
     <string name="menu_color">Цвет</string>
     <string name="menu_keyboard">Клавиатура</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_add_to_wear">Добавить в часы</string>
     <!-- ################################################################################# -->
 
 
@@ -82,8 +82,8 @@
     <string name="toast_entry_saved">Запись сохранена</string>
     <string name="toast_entry_discarded">Запись отменена</string>
     <string name="toast_try_again_shortly">Пожалуйста, попробуйте еще раз, через несколько секунд</string>
-    <string name="toast_no_browser">Прложение Веб-Браузер на найдено</string>
-    <string name="toast_no_playstore">Приложение Google Play Маркет не найдено</string>
+    <string name="toast_no_browser">Прложение \"Веб-Браузер\" на найдено</string>
+    <string name="toast_no_playstore">Приложение \"Google Play Маркет\" не найдено</string>
     <string name="toast_tap_to_copy_text">Нажмите на текст, чтобы скопировать его в буфер обмена</string>
     <string name="toast_copied_to_clipboard">Текст скопирован в буфер обмена</string>
     <string name="toast_master_password_updated">Успешно обновлен \"Мастер-пароль\"!</string>
@@ -99,13 +99,13 @@
     <string name="toast_error_csv_import">Не удалось импортировать из файла CSV</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
     <string name="toast_fingerprint_disabled">Функция введения с помощью отпечатка пальца отключена.</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
+    <string name="toast_added_to_wear">Добавлено в часы</string>
+    <string name="toast_removed_from_wear">Удалено из часов</string>
+    <string name="toast_wear_only_pro_users">Функция настройки для часов доступна только в PRO версии</string>
+    <string name="toast_playstore_error">Приложение \"Google Play Маркет\" не установлено</string>
+    <string name="toast_playstore_services_error">\"Сервисы Google Play\" не доступны</string>
+    <string name="toast_google_client_error">Не удается подключиться к Google аккаунту. Проверьте сетевое подключение</string>
+    <string name="toast_storage_not_accessible">Внешний накопитель не доступен</string>
     <!-- ################################################################################# -->
 
 
@@ -114,13 +114,13 @@
     <string name="dialog_button_continue">Продолжить</string>
     <string name="dialog_button_cancel">Отмена</string>
     <string name="dialog_button_delete">Удалить</string>
-    <string name="dialog_button_rate_now">Rate Now</string>
+    <string name="dialog_button_rate_now">Оценить сейчас</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
     <string name="dialog_title_self_destruct">Самоуничтожение</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
+    <string name="dialog_title_rate_and_review">Оценить?</string>
+    <string name="dialog_title_confirm_fp">Подтвердите свой отпечаток пальца</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_previous_password">Удалить существующий \"Мастер-пароль\"?</string>
@@ -136,14 +136,14 @@
     <string name="dialog_msg_app_data_erased">Все данные были удалены навсегда, из-за неудачных попыток входа!</string>
     <string name="dialog_msg_no_fp_hardware">Оборудование для отпечатка пальца отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте по крайней мере один из отпечатка пальца в настройках системы.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
+    <string name="dialog_msg_no_fp_keyguard">\"Безопасная блокировка\" должна быть включена, чтобы использовать функцию отпечатка пальца.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку</string>
     <string name="dialog_msg_fp_success">Отпечаток пальца распознался! Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Сенсорный датчик</string>
     <string name="dialog_msg_confirm_fp">Подтвердить отпечаток пальца для продолжения</string>
     <string name="dialog_msg_fp_enrolled">Сброс блокировки экрана, с помощью отпечатка пальца, выполнен! Пожалуйста, включите параметр отпечатка пальца после ввода приложение с помощью \"Мастер-пароль\".</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не доступен.</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
+    <string name="dialog_msg_rate_and_review">Если вам нравится это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -169,10 +169,10 @@
     <string name="pref_database_summary_backup">Создать резервную копию зашифрованной базы данных</string>
     <string name="pref_database_title_restore">Востановление</string>
     <string name="pref_database_summary_restore">Восстановить резервную копию зашифрованной базы данных</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_gd_auto_backup">Рез. копир. на Google Диск</string>
+    <string name="pref_database_summary_gd_auto_backup">Создать автоматическое резервное копирование данных на Google Диск</string>
+    <string name="pref_database_title_sd_auto_backup">Рез. копир. на Внеш. накоп.</string>
+    <string name="pref_database_summary_sd_auto_backup">Создать автоматическое резервное копирование данных на внешний накопитель (SD-карту или внутренний накопитель). Вы можете получить доступ к внешней памяти через другие приложения \"Файловых менеджеров\"</string>
     <string name="pref_database_title_export">Экспорт записей в CSV файл</string>
     <string name="pref_database_summary_export">Экспортировать данные в незашифрованный файл CSV формата</string>
     <string name="pref_database_title_import">Импорт записей из CSV файла</string>
