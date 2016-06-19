@@ -40,7 +40,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Καλώς ήρθατε</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείστε την εφαρμογή. Σημειώστε ότι, εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνίσταται ανεπιφύλακτα η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Εξαγωγή και εισαγωγή csv αρχείων</string>
@@ -49,7 +49,7 @@
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτοκαταστροφή</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable εφαρμογή</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->
@@ -71,7 +71,7 @@
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_add_to_wear">Προσθήκη στο wearable</string>
     <!-- ################################################################################# -->
 
 
@@ -99,13 +99,13 @@
     <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
     <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
     <string name="toast_fingerprint_disabled">Η είσοδος με τη χρήση δακτυλικού αποτυπώματος έχει απενεργοποιηθεί</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_added_to_wear">Προστέθηκε στο wearable</string>
+    <string name="toast_removed_from_wear">Αφαιρέθηκε από το wearable</string>
+    <string name="toast_wear_only_pro_users">Η wearable εφαρμογή είναι διαθέσιμη μόνο στην PRO έκδοση</string>
     <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
+    <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
+    <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
+    <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
     <!-- ################################################################################# -->
 
 
@@ -120,7 +120,7 @@
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
     <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
     <string name="dialog_title_rate_and_review">Αξιολόγηση;</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
+    <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
@@ -136,10 +136,10 @@
     <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
     <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
     <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
-    <string name="dialog_msg_fp_not_recognized">Το δακτυλικό αποτύπωμα δεν αναγνωρίστηκε. Προσπαθήστε ξανά</string>
-    <string name="dialog_msg_fp_success">Το δακτυλικό αποτύπωμα αναγνωρίστηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Ακουμπήστε τον αισθητήρα</string>
+    <string name="dialog_msg_no_fp_keyguard">Το κλείδωμα οθόνης πρέπει να είναι ενεργοποιημένο για να χρησιμοποιήσετε το δακτυλικό σας αποτύπωμα.</string>
+    <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
+    <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
     <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
     <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
@@ -169,10 +169,10 @@
     <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
     <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
     <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive</string>
+    <string name="pref_database_summary_gd_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον προσωπικό σας Google Drive λογαριασμό</string>
+    <string name="pref_database_title_sd_auto_backup">Εξωτερικός χώρος αποθήκευσης</string>
+    <string name="pref_database_summary_sd_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον εξωτερικό χώρο αποθήκευσης (sd-card η εσωτερική μη-αφαιρούμενη μνήμη)</string>
     <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
     <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
     <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>
