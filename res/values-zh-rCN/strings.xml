@@ -5,7 +5,7 @@
     <string name="app_name">我的密码簿</string>
     <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
-    <string name="app_download_message">现在免费从 Google Play 商店下载程序</string>
+    <string name="app_download_message">现在从 Google Play 商店下载应用</string>
     <!-- ################################################################################# -->
 
 
@@ -40,16 +40,16 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">欢迎使用我的密码簿</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_content">使用应用程序前请先设置一个主密码。注意，如果主密码丢失，由于丢失同步选项，将无法恢复存储的数据。强烈建议您定期备份数据。</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">感谢你购买专业版。</string>
+    <string name="upgrade_thank_you">感谢您购买专业版。</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>备份的导入导出</string>
     <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自动备份</string>
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>选择不同的主题</string>
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>剪贴板自动清除</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自毁功能</string>
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可使用指纹登录</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可穿戴应用支持</string>
     <string name="upgrade_accept">购买专业版获取下列功能前需接受<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">服务条款</string>
     <!-- change master password -->
@@ -71,7 +71,7 @@
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>
     <string name="menu_keyboard">键盘</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_add_to_wear">添加到可穿戴设备</string>
     <!-- ################################################################################# -->
 
 
@@ -99,13 +99,13 @@
     <string name="toast_error_csv_import">CSV 文件导入失败</string>
     <string name="toast_database_server_error">数据库当前不可用。</string>
     <string name="toast_fingerprint_disabled">指纹登录功能已禁用</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
+    <string name="toast_added_to_wear">添加到可穿戴设备</string>
+    <string name="toast_removed_from_wear">从可穿戴设备中移除</string>
+    <string name="toast_wear_only_pro_users">可穿戴设备支持只针对专业版开放</string>
+    <string name="toast_playstore_error">Google Play 应用商店尚未安装</string>
+    <string name="toast_playstore_services_error">Google Play 服务不可用</string>
+    <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
+    <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
     <!-- ################################################################################# -->
 
 
@@ -114,13 +114,13 @@
     <string name="dialog_button_continue">继续</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
-    <string name="dialog_button_rate_now">Rate Now</string>
+    <string name="dialog_button_rate_now">给此应用打分</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
     <string name="dialog_title_self_destruct">数据库自毁</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
+    <string name="dialog_title_rate_and_review">评分并且评论</string>
+    <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_previous_password">确定删除以前的密码？</string>
@@ -136,14 +136,14 @@
     <string name="dialog_msg_app_data_erased">密码登录超过限定次数，所有数据将被永久删除。</string>
     <string name="dialog_msg_no_fp_hardware">指纹硬件不存在或不工作。</string>
     <string name="dialog_msg_no_fp_enrolled">未登记指纹，请在系统设置中至少登记一个指纹。</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
+    <string name="dialog_msg_no_fp_keyguard">使用指纹登录前请启用安全锁屏。</string>
     <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
     <string name="dialog_msg_confirm_fp">输入指纹后继续</string>
     <string name="dialog_msg_fp_enrolled">锁屏已重置或指纹已登记，使用主密码登录应用前请启用指纹。</string>
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
+    <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -169,10 +169,10 @@
     <string name="pref_database_summary_backup">创建加密数据库备份</string>
     <string name="pref_database_title_restore">恢复数据库</string>
     <string name="pref_database_summary_restore">从加密数据库恢复备份</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive 备份</string>
+    <string name="pref_database_summary_gd_auto_backup">使用您的 Google Drive 帐号自动创建备份</string>
+    <string name="pref_database_title_sd_auto_backup">扩展存储备份</string>
+    <string name="pref_database_summary_sd_auto_backup">使用您的扩展存储自动创建备份 (扩展存储不可移除)，同时确保你有第三方应用访问扩展存储的权限。</string>
     <string name="pref_database_title_export">导出 CSV 文件</string>
     <string name="pref_database_summary_export">导出条目为非加密的 CSV 文件</string>
     <string name="pref_database_title_import">导入 CSV 文件</string>
@@ -197,8 +197,8 @@
     <string name="pref_security_self_destruct_ten">10次</string>
     <string name="pref_security_self_destruct_fifteen">15次</string>
     <string name="pref_security_self_destruct_twenty">20次</string>
-    <string name="pref_security_title_fingerprint">使用指纹登录功能</string>
-    <string name="pref_security_summary_fingerprint">需要 Android 6.0 或者更新的系统才能支持这个功能</string>
+    <string name="pref_security_title_fingerprint">启用指纹登录功能</string>
+    <string name="pref_security_summary_fingerprint">需要系统升级到 Android 6.0 以上</string>
     <!-- about -->
     <string name="pref_about_title_contact">给开发者发邮件</string>
     <string name="pref_about_title_support">去评分</string>
