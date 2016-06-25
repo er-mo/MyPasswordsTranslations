@@ -161,6 +161,8 @@
     <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
     <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
     <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
+    <string name="pref_appearance_title_show_passwords">Show passwords</string>
+    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>

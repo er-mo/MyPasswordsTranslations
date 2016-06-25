@@ -80,7 +80,7 @@
     <string name="toast_entry_deleted">Entry deleted</string>
     <string name="toast_entries_deleted">Entries deleted</string>
     <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_entry_discarded">Entry discarded</string>
+    <string name="toast_entry_discarded">Entry without title was discarded</string>
     <string name="toast_try_again_shortly">Please try again in few seconds</string>
     <string name="toast_no_browser">No web browser application found</string>
     <string name="toast_no_playstore">Google Play store app is not installed</string>
@@ -160,7 +160,9 @@
     <string name="pref_appearance_sorting_choise_time">By date</string>
     <string name="pref_appearance_sorting_choise_color">By color</string>
     <string name="pref_appearance_title_show_notification">Show notification icon</string>
-    <string name="pref_appearance_summary_show_notification">The notification icon will be shown to identify that the application is unlocked and running</string>
+    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
+    <string name="pref_appearance_title_show_passwords">Show passwords</string>
+    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
     <string name="pref_appearance_title_change_theme">Change theme</string>
     <string name="pref_appearance_theme_light">Light</string>
     <string name="pref_appearance_theme_dark">Dark</string>

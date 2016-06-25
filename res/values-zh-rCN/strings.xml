@@ -161,6 +161,8 @@
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
+    <string name="pref_appearance_title_show_passwords">Show passwords</string>
+    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>

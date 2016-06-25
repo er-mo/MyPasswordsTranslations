@@ -161,6 +161,8 @@
     <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
+    <string name="pref_appearance_title_show_passwords">Show passwords</string>
+    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
