@@ -40,7 +40,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">欢迎使用我的密码簿</string>
-    <string name="welcome_info_content">使用应用程序前请先设置一个主密码。注意，如果主密码丢失，由于丢失同步选项，将无法恢复存储的数据。强烈建议您定期备份数据。</string>
+    <string name="welcome_info_content">使用前请先设置一个主密码。如果主密码丢失，将无法恢复存储的数据，建议您定期备份数据。</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢您购买专业版。</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>备份的导入导出</string>
