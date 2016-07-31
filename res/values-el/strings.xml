@@ -80,7 +80,7 @@
     <string name="toast_entry_deleted">Η καταχώρηση διαγράφικε</string>
     <string name="toast_entries_deleted">Οι καταχωρήσεις διαγράφηκαν</string>
     <string name="toast_entry_saved">Η καταχώρηση αποθηκεύτηκε</string>
-    <string name="toast_entry_discarded">Η καταχώρηση απορρίφθηκε</string>
+    <string name="toast_entry_discarded">Η καταχώρηση χωρίς τίτλο απορρίφθηκε</string>
     <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
     <string name="toast_no_browser">Δεν βρέθηκε κάποιο πρόγραμμα περιήγησης</string>
     <string name="toast_no_playstore">Η εφαρμογή Google Play δεν είναι εγκατεστημένη</string>
@@ -161,8 +161,8 @@
     <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
+    <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
