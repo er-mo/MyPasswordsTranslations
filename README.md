@@ -17,6 +17,7 @@ Users who have contributed so far:
 - [Eric Deng](https://github.com/Eric850130) - Chinese (traditional)
 - [Slayf](https://github.com/Slayf) - Russian
 - [GameRebellStudio](https://github.com/GameRebellStudio) - Czech
+- [Stex9380](https://github.com/Stex9380) - Italian
 
 ### Questions?
 
