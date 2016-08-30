@@ -29,7 +29,7 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register"Aggiungi</string>
+    <string name="button_register">Aggiungi</string>
     <string name="button_enter">Entra</string>
     <string name="button_upgrade_now">Aggiorna Ora</string>
     <string name="button_update">Aggiorna</string>
@@ -40,7 +40,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Benvenuto in My Passwords</string>
-    <string name="welcome_info_content">Per favore aggiungi una master password per iniziare ad usare l'applicazione. Ricorda che se la master password verrà persa i dati memorizzati non potranno essere recuperati per l'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
+    <string name="welcome_info_content">Per favore aggiungi una master password per iniziare ad usare l\'applicazione. Ricorda che se la master password verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Grazie per aver acquistato la versione PRO.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Esporta e importa un file csv</string>
@@ -48,7 +48,7 @@
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Seleziona tema</string>
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Pulizia automatica appunti</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Autodistruzione</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Entra usando l'impronta digitale</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Entra usando l\'impronta digitale</string>
     <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>App indossabile</string>
     <string name="upgrade_accept">Acquistando la versione PRO si accetta quanto segue<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">termini</string>
@@ -80,7 +80,7 @@
     <string name="toast_entry_deleted">Voce eliminata</string>
     <string name="toast_entries_deleted">Voci eliminate</string>
     <string name="toast_entry_saved">Voce memorizzata</string>
-    <string name="toast_entry_discarded">L'ingresso senza titolo è stato scartato</string>
+    <string name="toast_entry_discarded">L\'ingresso senza titolo è stato scartato</string>
     <string name="toast_try_again_shortly">Riprova ancora in pochi secondi</string>
     <string name="toast_no_browser">Nessuna applicazione browser web trovata</string>
     <string name="toast_no_playstore">Google Play store non è installato</string>
@@ -96,13 +96,13 @@
     <string name="toast_error_restore">Fallito nel ripristinare la banca dati</string>
     <string name="toast_successful_csv_export">File csv esportato con successo</string>
     <string name="toast_successful_csv_import">File csv importato con successo</string>
-    <string name="toast_error_csv_import">Fallito nell'importare un file csv</string>
+    <string name="toast_error_csv_import">Fallito nell\'importare un file csv</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
-    <string name="toast_fingerprint_disabled">Entrare usando l'impronta digitale è stato disabilitato</string>
+    <string name="toast_fingerprint_disabled">Entrare usando l\'impronta digitale è stato disabilitato</string>
     <string name="toast_added_to_wear">Aggiunto agli indossabili</string>
     <string name="toast_removed_from_wear">Rimosso dagli indossabili</string>
     <string name="toast_wear_only_pro_users">Le funzioni degli indossabili sono solo disponibili nella versione PRO</string>
-    <string name="toast_playstore_error">L'applicazione Google Play Store non è installata</string>
+    <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">Memoria esterna non accessibile</string>
@@ -134,22 +134,22 @@
     <string name="dialog_msg_invalid_csv_format">Il file csv selezionato ha un formato non valido e non può essere importato.</string>
     <string name="dialog_msg_invalid_db_format">Il file di backup selezionato è stato creato utilizzando una master password diversa e non può essere ripristinato.</string>
     <string name="dialog_msg_app_data_erased">Tutti i dati eliminati in modo permanente a causa dei tentativi falliti.</string>
-    <string name="dialog_msg_no_fp_hardware">L'hardware di impronte digitali non è presente o non funzionante.</string>
+    <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non funzionante.</string>
     <string name="dialog_msg_no_fp_enrolled">Nessun impronte digitali registrate trovate. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
     <string name="dialog_msg_no_fp_keyguard">La schermata di blocco sicura deve essere abilitata per utilizzare la funzione di impronte digitali.</string>
     <string name="dialog_msg_fp_not_recognized">Impronte digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensore tattile</string>
-    <string name="dialog_msg_confirm_fp">Conferma l'impronta digitale per continuare</string>
-    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l'impostazione delle impronte digitali una volta entrati nell'applicazione utilizzando la password principale.</string>
-    <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l'impronta digitale non è più a disposizione.</string>
+    <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
+    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
+    <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare questa applicazione, per favore prenditi un momento e votala.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">L'applicazione è in esecuzione</string>
+    <string name="notification_text_app_running">L\'applicazione è in esecuzione</string>
     <!-- ################################################################################# -->
 
 
@@ -160,9 +160,9 @@
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
     <string name="pref_appearance_title_show_notification">Mostra icona di notifica</string>
-    <string name="pref_appearance_summary_show_notification">Facile da identificare che l'applicazione è sbloccata e funzionante</string>
+    <string name="pref_appearance_summary_show_notification">Facile da identificare che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra password</string>
-    <string name="pref_appearance_summary_show_passwords">Non è necessario premere l'icona occhio</string>
+    <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
     <string name="pref_appearance_title_change_theme">Cambia tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
@@ -182,9 +182,9 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
-    <string name="pref_security_summary_auto_exit">L'applicazione uscirà automaticamente quando lo schermo si spegne</string>
+    <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
     <string name="pref_security_title_clipboard_clear">Cancella appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>
@@ -199,7 +199,7 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Entra usando l'impronta digitale</string>
+    <string name="pref_security_title_fingerprint">Entra usando l\'impronta digitale</string>
     <string name="pref_security_summary_fingerprint">Android 6.0 o più recenti e un hardware compatibile sono richiesti per usare questa funzione</string>
     <!-- about -->
     <string name="pref_about_title_contact">Riporta un problema</string>
