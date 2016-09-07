@@ -5,7 +5,7 @@
     <string name="app_name">My Passwords</string>
     <string name="app_email_subject">My Password versione app <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
-    <string name="app_download_message">Scaricalo ora gratuitamente dal Google Play Store</string>
+    <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
 
 
@@ -93,7 +93,7 @@
     <string name="toast_no_file_selected">Nessun file è stato selezionato</string>
     <string name="toast_successful_backup">Backup creato con successo</string>
     <string name="toast_successful_restore">Database ripristinato con successo</string>
-    <string name="toast_error_restore">Fallito nel ripristinare la banca dati</string>
+    <string name="toast_error_restore">Ripristino della banca dati fallito</string>
     <string name="toast_successful_csv_export">File csv esportato con successo</string>
     <string name="toast_successful_csv_import">File csv importato con successo</string>
     <string name="toast_error_csv_import">Fallito nell\'importare un file csv</string>
@@ -135,13 +135,13 @@
     <string name="dialog_msg_invalid_db_format">Il file di backup selezionato è stato creato utilizzando una master password diversa e non può essere ripristinato.</string>
     <string name="dialog_msg_app_data_erased">Tutti i dati eliminati in modo permanente a causa dei tentativi falliti.</string>
     <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non funzionante.</string>
-    <string name="dialog_msg_no_fp_enrolled">Nessun impronte digitali registrate trovate. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
+    <string name="dialog_msg_no_fp_enrolled">Nessuna impronta digitale registrata trovata. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
     <string name="dialog_msg_no_fp_keyguard">La schermata di blocco sicura deve essere abilitata per utilizzare la funzione di impronte digitali.</string>
-    <string name="dialog_msg_fp_not_recognized">Impronte digitale non riconosciuta. Riprova</string>
+    <string name="dialog_msg_fp_not_recognized">Impronta digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensore tattile</string>
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
-    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
+    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non è iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare questa applicazione, per favore prenditi un momento e votala.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
@@ -182,7 +182,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Velocizza l\'entrata nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
     <string name="pref_security_title_clipboard_clear">Cancella appunti</string>
