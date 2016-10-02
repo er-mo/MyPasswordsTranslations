@@ -3,9 +3,9 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Password versione app <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">My Passwords versione app<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
-    <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
+    <string name="app_download_message">Scaricalo ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
 
 
@@ -20,7 +20,7 @@
     <string name="title">Titolo</string>
     <string name="account">Account</string>
     <string name="password">Password</string>
-    <string name="username">Nome</string>
+    <string name="username">Nome Utente</string>
     <string name="website">Sito Web</string>
     <string name="description">Descrizione</string>
     <string name="list_is_empty">Non ci sono voci</string>
@@ -29,11 +29,11 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">Aggiungi</string>
-    <string name="button_enter">Entra</string>
-    <string name="button_upgrade_now">Aggiorna Ora</string>
-    <string name="button_update">Aggiorna</string>
-    <string name="button_exit">Esci</string>
+    <string name="button_register">REGISTRO</string>
+    <string name="button_enter">ENTRA</string>
+    <string name="button_upgrade_now">AGGIORNA ORA</string>
+    <string name="button_update">AGGIORNA</string>
+    <string name="button_exit">ESCI</string>
     <!-- ################################################################################# -->
 
 
@@ -51,10 +51,10 @@
     <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Entra usando l\'impronta digitale</string>
     <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>App indossabile</string>
     <string name="upgrade_accept">Acquistando la versione PRO si accetta quanto segue<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">termini</string>
+    <string name="upgrade_terms">Termini</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">vecchia password</string>
-    <string name="change_mp_new_master_password">nuova password</string>
+    <string name="change_mp_old_master_password">Vecchia password</string>
+    <string name="change_mp_new_master_password">Nuova password</string>
     <!-- ################################################################################# -->
 
 
@@ -81,7 +81,7 @@
     <string name="toast_entries_deleted">Voci eliminate</string>
     <string name="toast_entry_saved">Voce memorizzata</string>
     <string name="toast_entry_discarded">L\'ingresso senza titolo è stato scartato</string>
-    <string name="toast_try_again_shortly">Riprova ancora in pochi secondi</string>
+    <string name="toast_try_again_shortly">Riprova ancora dopo pochi secondi</string>
     <string name="toast_no_browser">Nessuna applicazione browser web trovata</string>
     <string name="toast_no_playstore">Google Play store non è installato</string>
     <string name="toast_tap_to_copy_text">Premi TextView per copiare il contenuto</string>
@@ -93,10 +93,10 @@
     <string name="toast_no_file_selected">Nessun file è stato selezionato</string>
     <string name="toast_successful_backup">Backup creato con successo</string>
     <string name="toast_successful_restore">Database ripristinato con successo</string>
-    <string name="toast_error_restore">Ripristino della banca dati fallito</string>
+    <string name="toast_error_restore">Ripristino della la banca dati fallito</string>
     <string name="toast_successful_csv_export">File csv esportato con successo</string>
     <string name="toast_successful_csv_import">File csv importato con successo</string>
-    <string name="toast_error_csv_import">Fallito nell\'importare un file csv</string>
+    <string name="toast_error_csv_import">Errore nell\'importazione di un file csv</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
     <string name="toast_fingerprint_disabled">Entrare usando l\'impronta digitale è stato disabilitato</string>
     <string name="toast_added_to_wear">Aggiunto agli indossabili</string>
@@ -105,7 +105,7 @@
     <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
-    <string name="toast_storage_not_accessible">Memoria esterna non accessibile</string>
+    <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <!-- ################################################################################# -->
 
 
@@ -125,7 +125,7 @@
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_previous_password">Eliminare la password precedente?</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
-    <string name="dialog_msg_delete_entry">Elimina voce?</string>
+    <string name="dialog_msg_delete_entry">Eliminare voce?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
@@ -133,15 +133,15 @@
     <string name="dialog_msg_error_reading_file">Si è verificato un errore durante la lettura del file:</string>
     <string name="dialog_msg_invalid_csv_format">Il file csv selezionato ha un formato non valido e non può essere importato.</string>
     <string name="dialog_msg_invalid_db_format">Il file di backup selezionato è stato creato utilizzando una master password diversa e non può essere ripristinato.</string>
-    <string name="dialog_msg_app_data_erased">Tutti i dati eliminati in modo permanente a causa dei tentativi falliti.</string>
-    <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non funzionante.</string>
-    <string name="dialog_msg_no_fp_enrolled">Nessuna impronta digitale registrata trovata. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
+    <string name="dialog_msg_app_data_erased">Tutti i dati sono stati eliminati in modo permanente a causa dei tentativi falliti.</string>
+    <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non è funzionante.</string>
+    <string name="dialog_msg_no_fp_enrolled">Le impronte digitali registrate non sono state trovate. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
     <string name="dialog_msg_no_fp_keyguard">La schermata di blocco sicura deve essere abilitata per utilizzare la funzione di impronte digitali.</string>
     <string name="dialog_msg_fp_not_recognized">Impronta digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensore tattile</string>
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
-    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non è iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
+    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare questa applicazione, per favore prenditi un momento e votala.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
@@ -159,15 +159,15 @@
     <string name="pref_appearance_sorting_choise_alpha">In ordine alfabetico</string>
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
-    <string name="pref_appearance_title_show_notification">Mostra icona di notifica</string>
-    <string name="pref_appearance_summary_show_notification">Facile da identificare che l\'applicazione è sbloccata e funzionante</string>
+    <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
+    <string name="pref_appearance_summary_show_notification">È facile da identificare che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
     <string name="pref_appearance_title_change_theme">Cambia tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <!-- database -->
-    <string name="pref_database_title_backup">Backup banca dati</string>
+    <string name="pref_database_title_backup">Backup della banca dati</string>
     <string name="pref_database_summary_backup">Creare un backup della banca dati crittografato</string>
     <string name="pref_database_title_restore">Ripristino della banca dati</string>
     <string name="pref_database_summary_restore">Ripristinare un backup di una banca dati crittografata</string>
@@ -182,17 +182,17 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Velocizza l\'entrata nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
-    <string name="pref_security_title_clipboard_clear">Cancella appunti</string>
+    <string name="pref_security_title_clipboard_clear">Pulisci appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Tentativi di immissione password non riusciti</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuto</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuti</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuti</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuti</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuti</string>
+    <string name="pref_security_title_self_destruct">Tentativi di immissione della password non riusciti</string>
     <string name="pref_security_self_destruct_unlimited">Illimitato</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
@@ -200,7 +200,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_fingerprint">Entra usando l\'impronta digitale</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 o più recenti e un hardware compatibile sono richiesti per usare questa funzione</string>
+    <string name="pref_security_summary_fingerprint">Sono richiesti Android 6.0 o più recenti e un hardware compatibile per usare questa funzione</string>
     <!-- about -->
     <string name="pref_about_title_contact">Riporta un problema</string>
     <string name="pref_about_title_support">Valuta e recensisci</string>
