@@ -67,6 +67,7 @@
     <string name="menu_about">About</string>
     <string name="menu_upgrade">Upgrade to PRO</string>
     <string name="menu_new">New</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Edit</string>
     <string name="menu_delete">Delete</string>
     <string name="menu_color">Color</string>
@@ -159,10 +160,12 @@
     <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
     <string name="pref_appearance_sorting_choise_time">By date</string>
     <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_notification">Show notification icon</string>
+    <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Change theme</string>
     <string name="pref_appearance_theme_light">Light</string>
     <string name="pref_appearance_theme_dark">Dark</string>
