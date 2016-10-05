@@ -67,6 +67,7 @@
     <string name="menu_about">Σχετικά</string>
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
     <string name="menu_new">Νέα καταχώρηση</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
     <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>

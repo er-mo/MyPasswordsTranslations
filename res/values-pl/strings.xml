@@ -67,6 +67,7 @@
     <string name="menu_about">O aplikacji</string>
     <string name="menu_upgrade">Przejdź na PRO</string>
     <string name="menu_new">Nowy</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Edytuj</string>
     <string name="menu_delete">Usuń</string>
     <string name="menu_color">Kolor</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>

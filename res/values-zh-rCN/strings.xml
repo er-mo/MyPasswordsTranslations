@@ -67,6 +67,7 @@
     <string name="menu_about">关于</string>
     <string name="menu_upgrade">升级到专业版</string>
     <string name="menu_new">新建</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_show_passwords">显示密码</string>
     <string name="pref_appearance_summary_show_passwords">你不必再点按眼睛图标</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>

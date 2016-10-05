@@ -67,6 +67,7 @@
     <string name="menu_about">O nás</string>
     <string name="menu_upgrade">Upgradovat na PRO verzi</string>
     <string name="menu_new">Nový</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Upravit</string>
     <string name="menu_delete">Smazat</string>
     <string name="menu_color">Barva</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">Notifikační ikona se bude zobrazovat pro určení zda je aplikace odemčená a spuštěná</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>

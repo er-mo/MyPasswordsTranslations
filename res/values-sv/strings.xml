@@ -67,6 +67,7 @@
     <string name="menu_about">Om</string>
     <string name="menu_upgrade">Uppgradera till PRO</string>
     <string name="menu_new">Ny</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Redigera</string>
     <string name="menu_delete">Radera</string>
     <string name="menu_color">Färg</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Ändra tema</string>
     <string name="pref_appearance_theme_light">Ljus</string>
     <string name="pref_appearance_theme_dark">Mörk</string>

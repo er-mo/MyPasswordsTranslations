@@ -67,6 +67,7 @@
     <string name="menu_about">О программе</string>
     <string name="menu_upgrade">Обновление до PRO версии</string>
     <string name="menu_new">Hовый пароль</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Pедактировать</string>
     <string name="menu_delete">Удалить</string>
     <string name="menu_color">Цвет</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">Значок уведомления будет отображаться, для определения того, что приложение разблокировано и работает</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>

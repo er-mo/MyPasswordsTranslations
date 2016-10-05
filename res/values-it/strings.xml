@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords versione app<xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">My Passwords versione app <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
     <string name="app_download_message">Scaricalo ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
@@ -67,6 +67,7 @@
     <string name="menu_about">A proposito di</string>
     <string name="menu_upgrade">Aggiorna a PRO</string>
     <string name="menu_new">Nuovo</string>
+    <string name="menu_share">Share</string>
     <string name="menu_edit">Modifica</string>
     <string name="menu_delete">Cancella</string>
     <string name="menu_color">Colore</string>
@@ -163,6 +164,8 @@
     <string name="pref_appearance_summary_show_notification">È facile da identificare che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
+    <string name="pref_appearance_title_stay_awake">Stay awake</string>
+    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Cambia tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
