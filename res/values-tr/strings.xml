@@ -39,8 +39,8 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">Hoşgeldiniz</string>
+    <string name="welcome_info_content">Uygulamayı kullanmaya başlamak için bir ana parola lütfen kayıt olun. Ana şifre kaybedilirse, internet senkronizasyon eksikliği nedeniyle veri geri yükleme mümkün değildir. Son derece düzenli aralıklarla yedekleme tavsiye edilir.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
     <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Export &amp; import csv files</string>
