@@ -29,11 +29,11 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
+    <string name="button_register">KAYIT</string>
+    <string name="button_enter">GİRİŞ</string>
+    <string name="button_upgrade_now">ŞİMDİ YÜKSELT</string>
+    <string name="button_update">GÜNCELLEŞTİRME</string>
+    <string name="button_exit">ÇIKIŞ</string>
     <!-- ################################################################################# -->
 
 
