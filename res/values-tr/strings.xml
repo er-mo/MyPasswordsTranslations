@@ -54,7 +54,7 @@
     <string name="upgrade_terms">şartları</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">eski şifre</string>
-    <string name="change_mp_new_master_password">yeni Şifre</string>
+    <string name="change_mp_new_master_password">yeni şifre</string>
     <!-- ################################################################################# -->
 
 
