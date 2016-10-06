@@ -2,10 +2,10 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">Benim Şifreler</string>
+    <string name="app_email_subject">Benim Şifreler uygulama sürümü <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Android cihazlar için güvenli ve kullanımı kolay bir şifre yöneticisi</string>
+    <string name="app_download_message">Google Play mağazasından hemen ücretsiz indirin</string>
     <!-- ################################################################################# -->
 
 
