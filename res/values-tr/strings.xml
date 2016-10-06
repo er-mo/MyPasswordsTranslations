@@ -10,21 +10,21 @@
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="description">Description</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="target_folder">Klasör<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Dosya<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Yer</string>
+    <string name="password_is_too_short">Şifre çok kısa</string>
+    <string name="passwords_not_matching">Şifreler eşleşmiyor</string>
+    <string name="password_not_correct">Şifre doğru değil</string>
+    <string name="required">Gerekli</string>
+    <string name="title">Başlık</string>
+    <string name="account">Hesap</string>
+    <string name="password">Şifre</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="website">Web sitesi</string>
+    <string name="description">Açıklama</string>
+    <string name="list_is_empty">Kayıt bulunmuyor</string>
+    <string name="last_updated">Son güncelleme</string>
     <!-- ################################################################################# -->
 
 
