@@ -120,10 +120,10 @@
     <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
     <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
     <string name="dialog_title_self_destruct">Kendini imha</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
+    <string name="dialog_title_rate_and_review">Değerlendirme?</string>
+    <string name="dialog_title_confirm_fp">Parmak izinizi onaylayın</string>
+    <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
+    <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
     <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
     <string name="dialog_msg_delete_entry">Delete entry?</string>
