@@ -2,8 +2,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Benim Şifreler</string>
-    <string name="app_email_subject">Benim Şifreler uygulama sürümü <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_name">Şifrelerim</string>
+    <string name="app_email_subject">Şifrelerim uygulama sürümü <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Android cihazlar için güvenli ve kullanımı kolay bir şifre yöneticisi</string>
     <string name="app_download_message">Google Play mağazasından hemen ücretsiz indirin</string>
     <!-- ################################################################################# -->
@@ -124,14 +124,14 @@
     <string name="dialog_title_confirm_fp">Parmak izinizi onaylayın</string>
     <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
     <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
-    <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file:</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file:</string>
+    <string name="dialog_msg_delete_previous_password">Önceki şifre sil?</string>
+    <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
+    <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
+    <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
+    <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
+    <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
+    <string name="dialog_msg_error_writing_file">Dosyası yazılırken bir hata oluştu:</string>
+    <string name="dialog_msg_error_reading_file">Dosyayı okurken bir hata oluştu:</string>
     <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
     <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
