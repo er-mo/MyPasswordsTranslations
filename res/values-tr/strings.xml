@@ -59,34 +59,34 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_overflow">More</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_new">New</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_color">Color</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_search">Arama</string>
+    <string name="menu_overflow">Daha</string>
+    <string name="menu_appearance">Görünüm</string>
+    <string name="menu_database">Veritabanı</string>
+    <string name="menu_security">Güvenlik</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_upgrade">PRO yükseltme</string>
+    <string name="menu_new">Yeni</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_edit">Düzenleme</string>
+    <string name="menu_delete">Sil</string>
+    <string name="menu_color">Renk</string>
+    <string name="menu_keyboard">Klavye</string>
+    <string name="menu_add_to_wear">Wearable'e ekle</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_entry_discarded">Entry without title was discarded</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
+    <string name="toast_tap_again_to_exit">Çıkmak için tekrar basın</string>
+    <string name="toast_entry_deleted">Kayıt silindi</string>
+    <string name="toast_entries_deleted">Kayıtlar silindi</string>
+    <string name="toast_entry_saved">Kayıt kaydedildi</string>
+    <string name="toast_entry_discarded">Başlıksız kayıt reddedildi</string>
+    <string name="toast_try_again_shortly">Lütfen kısa süre sonra tekrar deneyin</string>
+    <string name="toast_no_browser">Herhangi bir web tarayıcı bulunamadı</string>
+    <string name="toast_no_playstore">Google Play store uygulaması yüklü değil</string>
+    <string name="toast_tap_to_copy_text">İçeriği kopyalamak için metne tıklayın</string>
+    <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
     <string name="toast_master_password_updated">Successfully updated master password</string>
     <string name="toast_master_password_not_updated">Failed to update master password</string>
     <string name="toast_storage_permission_granted">Permission granted</string>
