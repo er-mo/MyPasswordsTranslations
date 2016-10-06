@@ -111,15 +111,15 @@
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_rate_now">Rate Now</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
+    <string name="dialog_button_ok">Tamam</string>
+    <string name="dialog_button_continue">Devam</string>
+    <string name="dialog_button_cancel">İptal</string>
+    <string name="dialog_button_delete">Sil</string>
+    <string name="dialog_button_rate_now">Değerlendirme</string>
+    <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
+    <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
+    <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
+    <string name="dialog_title_self_destruct">Kendini imha</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
