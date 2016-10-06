@@ -132,25 +132,25 @@
     <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
     <string name="dialog_msg_error_writing_file">Dosyası yazılırken bir hata oluştu:</string>
     <string name="dialog_msg_error_reading_file">Dosyayı okurken bir hata oluştu:</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
-    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_invalid_csv_format">Seçilen CSV dosyası biçimi geçersiz ve ithal edilemez.</string>
+    <string name="dialog_msg_invalid_db_format">Seçilen yedekleme dosyası farklı bir ana şifre kullanarak oluşturulmuş ve geri alınamaz.</string>
+    <string name="dialog_msg_app_data_erased">Başarısız girişim nedeniyle tüm veriler kalıcı olarak silinmiştir.</string>
+    <string name="dialog_msg_no_fp_hardware">Parmak izi donanım mevcut değil.</string>
+    <string name="dialog_msg_no_fp_enrolled">Parmak izi bulunamadı. Lütfen sistem ayarlarında en azından bir parmak izi öneri edin.</string>
+    <string name="dialog_msg_no_fp_keyguard">Güvenli kilit ekranı parmak izi özelliğini kullanmak için etkinleştirilmiş olması gerekir.</string>
+    <string name="dialog_msg_fp_not_recognized">Parmak izi tanınmadı. Tekrar deneyin</string>
+    <string name="dialog_msg_fp_success">Parmak izi tanıdı. Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
+    <string name="dialog_msg_confirm_fp">Devam etmek için parmak izi onaylayin</string>
+    <string name="dialog_msg_fp_enrolled">Kilit ekranı sıfırlandı veya yeni bir parmak izi kayıtlandı. Ana şifreyi kullanarak yeniden etkinleştirin parmak izi ayarı.</string>
+    <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum icin.</string>
+    <string name="dialog_msg_rate_and_review">Bu uygulamayı begeniyorsaniz, lütfen değerlendirmeye için zaman ayırın, birkaç dakika sürebilir.</string>
+    <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Uygulama çalışıyor</string>
     <!-- ################################################################################# -->
 
 
