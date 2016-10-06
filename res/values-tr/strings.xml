@@ -87,26 +87,26 @@
     <string name="toast_no_playstore">Google Play store uygulaması yüklü değil</string>
     <string name="toast_tap_to_copy_text">İçeriği kopyalamak için metne tıklayın</string>
     <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_error_restore">Failed to restore database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
+    <string name="toast_master_password_updated">Ana parola başarıyla güncellendi</string>
+    <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
+    <string name="toast_storage_permission_granted">İzin verildi</string>
+    <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
+    <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
+    <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
+    <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>
+    <string name="toast_error_restore">Başarısız veritabanını kurulumu</string>
+    <string name="toast_successful_csv_export">Başarıyla ihraç csv dosyası</string>
+    <string name="toast_successful_csv_import">Başarıyla ithal csv dosyası</string>
+    <string name="toast_error_csv_import">Başarısız ithalat csv dosyası</string>
+    <string name="toast_database_server_error">Veritabanı şu anda mevcut değildir</string>
+    <string name="toast_fingerprint_disabled">Parmak izi kullanarak giriş devre dışı bırakıldı</string>
+    <string name="toast_added_to_wear">Wearable'e eklendi</string>
+    <string name="toast_removed_from_wear">Wearable'dan kaldırıldı</string>
+    <string name="toast_wear_only_pro_users">Giyilebilir uygulama sadece PRO sürümünde</string>
+    <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
+    <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
+    <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
+    <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
     <!-- ################################################################################# -->
 
 
