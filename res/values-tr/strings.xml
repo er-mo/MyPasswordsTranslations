@@ -72,7 +72,7 @@
     <string name="menu_delete">Sil</string>
     <string name="menu_color">Renk</string>
     <string name="menu_keyboard">Klavye</string>
-    <string name="menu_add_to_wear">Wearable'e ekle</string>
+    <string name="menu_add_to_wear">Wearable\'e ekle</string>
     <!-- ################################################################################# -->
 
 
@@ -100,8 +100,8 @@
     <string name="toast_error_csv_import">Başarısız ithalat csv dosyası</string>
     <string name="toast_database_server_error">Veritabanı şu anda mevcut değildir</string>
     <string name="toast_fingerprint_disabled">Parmak izi kullanarak giriş devre dışı bırakıldı</string>
-    <string name="toast_added_to_wear">Wearable'e eklendi</string>
-    <string name="toast_removed_from_wear">Wearable'dan kaldırıldı</string>
+    <string name="toast_added_to_wear">Wearable\'e eklendi</string>
+    <string name="toast_removed_from_wear">Wearable\'dan kaldırıldı</string>
     <string name="toast_wear_only_pro_users">Giyilebilir uygulama sadece PRO sürümünde</string>
     <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
     <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
