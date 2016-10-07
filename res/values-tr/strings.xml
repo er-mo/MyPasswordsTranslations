@@ -173,15 +173,15 @@
     <string name="pref_database_title_backup">Yedek veritabanı</string>
     <string name="pref_database_summary_backup">Şifrelenmiş veritabanının yedeğini oluşturun</string>
     <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_summary_restore">Şifrelenmiş veritabanının yedeğini geri yükleme</string>
+    <string name="pref_database_title_gd_auto_backup">Google Drive yedekleme</string>
+    <string name="pref_database_summary_gd_auto_backup">Kendi Google Drive hesabınızda otomatik yedekleri oluşturma</string>
+    <string name="pref_database_title_sd_auto_backup">Harici Depolama yedekleme</string>
+    <string name="pref_database_summary_sd_auto_backup">Harici depolama (SD kart veya dahili olmayan çıkarılabilir depolama) otomatik yedekleme oluşturun</string>
+    <string name="pref_database_title_export">İhracat CSV dosyası</string>
+    <string name="pref_database_summary_export">Şifreli olmayan CSV dosyasına girişleri ihraç</string>
+    <string name="pref_database_title_import">İthalat CSV dosyası</string>
+    <string name="pref_database_summary_import">Şifreli olmayan CSV dosyasına girişleri ithalat et</string>
     <!-- security -->
     <string name="pref_security_title_change_password">Change master password</string>
     <string name="pref_security_title_fast_enter">Fast enter</string>
