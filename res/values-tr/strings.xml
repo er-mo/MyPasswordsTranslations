@@ -143,7 +143,7 @@
     <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
     <string name="dialog_msg_confirm_fp">Devam etmek için parmak izi onaylayin</string>
     <string name="dialog_msg_fp_enrolled">Kilit ekranı sıfırlandı veya yeni bir parmak izi kayıtlandı. Ana şifreyi kullanarak yeniden etkinleştirin parmak izi ayarı.</string>
-    <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum icin.</string>
+    <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum için.</string>
     <string name="dialog_msg_rate_and_review">Bu uygulamayı begeniyorsaniz, lütfen değerlendirmeye için zaman ayırın, birkaç dakika sürebilir.</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
@@ -185,7 +185,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
     <string name="pref_security_title_fast_enter">Hızlı giriş</string>
-    <string name="pref_security_summary_fast_enter">Ana şifre doğruysa uygulamaya daha hızlı giriş icin· giriş butonuna basmak gerekmez</string>
+    <string name="pref_security_summary_fast_enter">Ana şifre doğruysa uygulamaya daha hızlı giriş için· giriş butonuna basmak gerekmez</string>
     <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
     <string name="pref_security_summary_auto_exit">Ekran kapandığında uygulama otomatik olarak çıkacaktır</string>
     <string name="pref_security_title_clipboard_clear">Panoya temizle</string>
@@ -203,7 +203,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_fingerprint">Parmak izi ile giriş</string>
-    <string name="pref_security_summary_fingerprint">Android sürümü 6.0 veya daha yüksek gereklidir bu özelliği kullanmak icin</string>
+    <string name="pref_security_summary_fingerprint">Android sürümü 6.0 veya daha yüksek gereklidir bu özelliği kullanmak için</string>
     <!-- about -->
     <string name="pref_about_title_contact">Report a bug</string>
     <string name="pref_about_title_support">Rate and review</string>
