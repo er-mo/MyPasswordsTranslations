@@ -170,9 +170,9 @@
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
     <!-- database -->
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
-    <string name="pref_database_title_restore">Restore database</string>
+    <string name="pref_database_title_backup">Yedek veritabanı</string>
+    <string name="pref_database_summary_backup">Şifrelenmiş veritabanının yedeğini oluşturun</string>
+    <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
     <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
     <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
