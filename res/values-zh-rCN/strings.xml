@@ -115,12 +115,12 @@
     <string name="dialog_button_continue">继续</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
-    <string name="dialog_button_rate_now">给此应用打分</string>
+    <string name="dialog_button_rate_now">给此应用评分</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
     <string name="dialog_title_self_destruct">数据库自毁</string>
-    <string name="dialog_title_rate_and_review">评分并且评论</string>
+    <string name="dialog_title_rate_and_review">给此应用评分</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
