@@ -30,7 +30,7 @@
 
     <!-- Buttons ######################################################################### -->
     <string name="button_register">设置主密码</string>
-    <string name="button_enter">点击进入</string>
+    <string name="button_enter">点击登录</string>
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
     <string name="button_exit">退出</string>
@@ -48,10 +48,10 @@
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>选择不同的主题</string>
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>剪贴板自动清除</string>
     <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自毁功能</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可使用指纹登录</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>免密码指纹登录</string>
     <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可穿戴应用支持</string>
-    <string name="upgrade_accept">购买专业版获取下列功能前需接受<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">服务条款</string>
+    <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms"></string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
     <string name="change_mp_new_master_password">新的主密码</string>
@@ -162,8 +162,8 @@
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
-    <string name="pref_appearance_title_show_passwords">显示密码</string>
-    <string name="pref_appearance_summary_show_passwords">你不必再点按眼睛图标</string>
+    <string name="pref_appearance_title_show_passwords">明文密码</string>
+    <string name="pref_appearance_summary_show_passwords">密码框内的密码将以明文方式显示</string>
     <string name="pref_appearance_title_stay_awake">保持亮屏</string>
     <string name="pref_appearance_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
@@ -175,9 +175,9 @@
     <string name="pref_database_title_restore">恢复数据库</string>
     <string name="pref_database_summary_restore">从加密数据库恢复备份</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive 备份</string>
-    <string name="pref_database_summary_gd_auto_backup">使用您的 Google Drive 帐号自动创建备份</string>
-    <string name="pref_database_title_sd_auto_backup">扩展存储备份</string>
-    <string name="pref_database_summary_sd_auto_backup">使用您的扩展存储自动创建备份 (扩展存储不可移除)，同时确保你有第三方应用访问扩展存储的权限。</string>
+    <string name="pref_database_summary_gd_auto_backup">使用 Google Drive 帐号自动创建备份</string>
+    <string name="pref_database_title_sd_auto_backup">扩展存储卡备份</string>
+    <string name="pref_database_summary_sd_auto_backup">使用扩展存储卡自动创建备份 (扩展存储卡不可移除)，同时确保第三方应用有访问扩展存储卡的权限。</string>
     <string name="pref_database_title_export">导出 CSV 文件</string>
     <string name="pref_database_summary_export">导出条目为非加密的 CSV 文件</string>
     <string name="pref_database_title_import">导入 CSV 文件</string>
@@ -185,7 +185,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速登录</string>
-    <string name="pref_security_summary_fast_enter">输入主密码后直接进入应用程序</string>
+    <string name="pref_security_summary_fast_enter">输入主密码直接进入应用程序</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭后应用程序自动退出</string>
     <string name="pref_security_title_clipboard_clear">清除剪贴板</string>
