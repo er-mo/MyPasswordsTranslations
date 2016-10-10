@@ -185,7 +185,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速登录</string>
-    <string name="pref_security_summary_fast_enter">输入主密码直接进入应用程序</string>
+    <string name="pref_security_summary_fast_enter">输入主密码直接登录应用程序</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭后应用程序自动退出</string>
     <string name="pref_security_title_clipboard_clear">清除剪贴板</string>
