@@ -3,9 +3,9 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords versione app <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_email_subject">My Passwords versione app<xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
-    <string name="app_download_message">Scaricalo ora gratuitamente dal Google Play Store</string>
+    <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
 
 
@@ -43,7 +43,7 @@
     <string name="welcome_info_content">Per favore aggiungi una master password per iniziare ad usare l\'applicazione. Ricorda che se la master password verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Grazie per aver acquistato la versione PRO.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Esporta e importa un file csv</string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Esporta e importa dei file csv</string>
     <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Backup automatico</string>
     <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Seleziona tema</string>
     <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Pulizia automatica appunti</string>
@@ -67,7 +67,7 @@
     <string name="menu_about">A proposito di</string>
     <string name="menu_upgrade">Aggiorna a PRO</string>
     <string name="menu_new">Nuovo</string>
-    <string name="menu_share">Share</string>
+    <string name="menu_share">Condividi</string>
     <string name="menu_edit">Modifica</string>
     <string name="menu_delete">Cancella</string>
     <string name="menu_color">Colore</string>
@@ -80,12 +80,12 @@
     <string name="toast_tap_again_to_exit">Premi ancora per uscire</string>
     <string name="toast_entry_deleted">Voce eliminata</string>
     <string name="toast_entries_deleted">Voci eliminate</string>
-    <string name="toast_entry_saved">Voce memorizzata</string>
+    <string name="toast_entry_saved">Voce salvata</string>
     <string name="toast_entry_discarded">L\'ingresso senza titolo è stato scartato</string>
     <string name="toast_try_again_shortly">Riprova ancora dopo pochi secondi</string>
-    <string name="toast_no_browser">Nessuna applicazione browser web trovata</string>
+    <string name="toast_no_browser">Nessuna applicazione per il browser web trovata</string>
     <string name="toast_no_playstore">Google Play store non è installato</string>
-    <string name="toast_tap_to_copy_text">Premi TextView per copiare il contenuto</string>
+    <string name="toast_tap_to_copy_text">Tocca nel testo per copiare il contenuto</string>
     <string name="toast_copied_to_clipboard">Copiato negli appunti</string>
     <string name="toast_master_password_updated">Password principale aggiornata con successo</string>
     <string name="toast_master_password_not_updated">Aggiornamento della password principale fallito</string>
@@ -97,9 +97,9 @@
     <string name="toast_error_restore">Ripristino della la banca dati fallito</string>
     <string name="toast_successful_csv_export">File csv esportato con successo</string>
     <string name="toast_successful_csv_import">File csv importato con successo</string>
-    <string name="toast_error_csv_import">Errore nell\'importazione di un file csv</string>
+    <string name="toast_error_csv_import">Importazione del file csv fallita</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
-    <string name="toast_fingerprint_disabled">Entrare usando l\'impronta digitale è stato disabilitato</string>
+    <string name="toast_fingerprint_disabled">L\'entrata usando l\'impronta digitale è stata disabilitata</string>
     <string name="toast_added_to_wear">Aggiunto agli indossabili</string>
     <string name="toast_removed_from_wear">Rimosso dagli indossabili</string>
     <string name="toast_wear_only_pro_users">Le funzioni degli indossabili sono solo disponibili nella versione PRO</string>
@@ -111,7 +111,7 @@
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_ok">Ok</string>
     <string name="dialog_button_continue">Continua</string>
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
@@ -122,16 +122,16 @@
     <string name="dialog_title_self_destruct">Auto distruzione</string>
     <string name="dialog_title_rate_and_review">Valuta e recensisci?</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
-    <string name="dialog_msg_entries_will_be_deleted">Tutte le voci correnti saranno cancellate.</string>
+    <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_previous_password">Eliminare la password precedente?</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
-    <string name="dialog_msg_delete_entry">Eliminare voce?</string>
+    <string name="dialog_msg_delete_entry">Elimina la seguente voce?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
-    <string name="dialog_msg_error_writing_file">Si è verificato un errore durante la scrittura del file:</string>
-    <string name="dialog_msg_error_reading_file">Si è verificato un errore durante la lettura del file:</string>
+    <string name="dialog_msg_error_writing_file">Si è verificato un errore durante la scrittura del seguente file:</string>
+    <string name="dialog_msg_error_reading_file">Si è verificato un errore durante la lettura del seguente file:</string>
     <string name="dialog_msg_invalid_csv_format">Il file csv selezionato ha un formato non valido e non può essere importato.</string>
     <string name="dialog_msg_invalid_db_format">Il file di backup selezionato è stato creato utilizzando una master password diversa e non può essere ripristinato.</string>
     <string name="dialog_msg_app_data_erased">Tutti i dati sono stati eliminati in modo permanente a causa dei tentativi falliti.</string>
@@ -144,7 +144,7 @@
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
     <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
-    <string name="dialog_msg_rate_and_review">Se ti piace utilizzare questa applicazione, per favore prenditi un momento e votala.</string>
+    <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -161,12 +161,12 @@
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
     <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
-    <string name="pref_appearance_summary_show_notification">È facile da identificare che l\'applicazione è sbloccata e funzionante</string>
-    <string name="pref_appearance_title_show_passwords">Mostra password</string>
+    <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
+    <string name="pref_appearance_title_show_passwords">Mostra le password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Cambia tema</string>
+    <string name="pref_appearance_title_stay_awake">Rimani sveglio</string>
+    <string name="pref_appearance_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
+    <string name="pref_appearance_title_change_theme">Cambia il tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <!-- database -->
@@ -177,25 +177,25 @@
     <string name="pref_database_title_gd_auto_backup">Backup di Google Drive</string>
     <string name="pref_database_summary_gd_auto_backup">Crea un auto backup nel tuo account personale Google Drive</string>
     <string name="pref_database_title_sd_auto_backup">Backup della memoria esterna</string>
-    <string name="pref_database_summary_sd_auto_backup">Creazione di un backup automatico sulla vostra memoria esterna (SD o memoria non rimovibile interna). È possibile accedere alla memoria esterna utilizzandodi un applicazione di terze parti</string>
-    <string name="pref_database_title_export">Esporta file csv</string>
+    <string name="pref_database_summary_sd_auto_backup">Creazione di un backup automatico nella memoria esterna (SD o memoria interna non rimovibile). È possibile accedere alla memoria esterna utilizzando un applicazione di terze parti</string>
+    <string name="pref_database_title_export">Esporta un file csv</string>
     <string name="pref_database_summary_export">Esporta le voci da un file csv non-criptato</string>
-    <string name="pref_database_title_import">Importa file csv</string>
+    <string name="pref_database_title_import">Importa un file csv</string>
     <string name="pref_database_summary_import">Importa le voci da un file csv non-criptato</string>
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza dover toccare il tasto ENTER se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza toccare il tasto ENTER se la master password è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
-    <string name="pref_security_title_clipboard_clear">Pulisci appunti</string>
+    <string name="pref_security_title_clipboard_clear">Pulisci gli appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
-    <string name="pref_security_clipboard_clear_one_min">1 minuto</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuti</string>
     <string name="pref_security_clipboard_clear_two_min">2 minuti</string>
     <string name="pref_security_clipboard_clear_three_min">3 minuti</string>
     <string name="pref_security_clipboard_clear_four_min">4 minuti</string>
     <string name="pref_security_clipboard_clear_five_min">5 minuti</string>
-    <string name="pref_security_title_self_destruct">Tentativi di immissione della password non riusciti</string>
+    <string name="pref_security_title_self_destruct">Tentativi di immissione password falliti</string>
     <string name="pref_security_self_destruct_unlimited">Illimitato</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
@@ -203,7 +203,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_fingerprint">Entra usando l\'impronta digitale</string>
-    <string name="pref_security_summary_fingerprint">Sono richiesti Android 6.0 o più recenti e un hardware compatibile per usare questa funzione</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 o più recenti e un hardware compatibile sono richiesti per usare questa funzione</string>
     <!-- about -->
     <string name="pref_about_title_contact">Riporta un problema</string>
     <string name="pref_about_title_support">Valuta e recensisci</string>
