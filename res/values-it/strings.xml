@@ -126,7 +126,7 @@
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_previous_password">Eliminare la password precedente?</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
-    <string name="dialog_msg_delete_entry">Elimina la seguente voce?</string>
+    <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
@@ -190,13 +190,13 @@
     <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
     <string name="pref_security_title_clipboard_clear">Pulisci gli appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
-    <string name="pref_security_clipboard_clear_one_min">1 minuti</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuto</string>
     <string name="pref_security_clipboard_clear_two_min">2 minuti</string>
     <string name="pref_security_clipboard_clear_three_min">3 minuti</string>
     <string name="pref_security_clipboard_clear_four_min">4 minuti</string>
     <string name="pref_security_clipboard_clear_five_min">5 minuti</string>
     <string name="pref_security_title_self_destruct">Tentativi di immissione password falliti</string>
-    <string name="pref_security_self_destruct_unlimited">Illimitato</string>
+    <string name="pref_security_self_destruct_unlimited">Illimitati</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
