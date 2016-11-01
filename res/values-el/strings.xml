@@ -71,6 +71,7 @@
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
+    <string name="menu_discard">Απόρριψη</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_add_to_wear">Προσθήκη στο wearable</string>
     <!-- ################################################################################# -->
