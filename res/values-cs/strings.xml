@@ -165,6 +165,8 @@
     <string name="pref_appearance_summary_show_notification">Notifikační ikona se bude zobrazovat pro určení zda je aplikace odemčená a spuštěná</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
+    <string name="pref_appearance_title_show_account">Show account</string>
+    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_stay_awake">Stay awake</string>
     <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>

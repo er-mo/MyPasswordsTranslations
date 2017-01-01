@@ -165,6 +165,8 @@
     <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
     <string name="pref_appearance_summary_show_passwords">Göz simgesini basmanız gerekmiyor</string>
+    <string name="pref_appearance_title_show_account">Show account</string>
+    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_stay_awake">Uyanık kal</string>
     <string name="pref_appearance_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>

@@ -165,6 +165,8 @@
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
+    <string name="pref_appearance_title_show_account">Show account</string>
+    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_stay_awake">Rimani sveglio</string>
     <string name="pref_appearance_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>

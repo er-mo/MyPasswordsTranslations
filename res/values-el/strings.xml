@@ -165,6 +165,8 @@
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
     <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
+    <string name="pref_appearance_title_show_account">Show account</string>
+    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
     <string name="pref_appearance_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>

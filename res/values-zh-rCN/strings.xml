@@ -165,6 +165,8 @@
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
     <string name="pref_appearance_summary_show_passwords">密码框内的密码将以明文方式显示</string>
+    <string name="pref_appearance_title_show_account">Show account</string>
+    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_stay_awake">保持亮屏</string>
     <string name="pref_appearance_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
