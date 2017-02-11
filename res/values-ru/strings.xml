@@ -147,6 +147,7 @@
     <string name="dialog_msg_confirm_fp">Подтвердить отпечаток пальца для продолжения</string>
     <string name="dialog_msg_fp_enrolled">Сброс блокировки экрана, с помощью отпечатка пальца, выполнен! Пожалуйста, включите параметр отпечатка пальца после ввода приложение с помощью \"Мастер-пароль\".</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не доступен.</string>
+    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">Если вам нравится это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->

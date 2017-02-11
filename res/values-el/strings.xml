@@ -147,6 +147,7 @@
     <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
     <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
+    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->

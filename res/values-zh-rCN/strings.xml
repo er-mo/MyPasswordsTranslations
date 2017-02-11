@@ -147,6 +147,7 @@
     <string name="dialog_msg_confirm_fp">输入指纹后继续</string>
     <string name="dialog_msg_fp_enrolled">锁屏已重置或指纹已登记，使用主密码登录应用前请启用指纹。</string>
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
+    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
