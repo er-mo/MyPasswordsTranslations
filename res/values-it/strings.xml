@@ -143,7 +143,7 @@
     <string name="dialog_msg_no_fp_keyguard">La schermata di blocco sicura deve essere abilitata per utilizzare la funzione di impronte digitali.</string>
     <string name="dialog_msg_fp_not_recognized">Impronta digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Sensore tattile</string>
+    <string name="dialog_msg_fp_hint">Impronta Digitale</string>
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
     <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
@@ -168,8 +168,8 @@
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
+    <string name="pref_appearance_title_show_account">Mostra account</string>
+    <string name="pref_appearance_summary_show_account">L\'account verrà mostrato nella lista principale se è disponibile</string>
     <string name="pref_appearance_title_stay_awake">Rimani sveglio</string>
     <string name="pref_appearance_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
@@ -191,7 +191,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza toccare il tasto ENTER se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza toccare il tasto Enter se la master password è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
     <string name="pref_security_title_clipboard_clear">Pulisci gli appunti</string>
