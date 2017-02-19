@@ -29,12 +29,12 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTRO</string>
+    <string name="button_register">SALVA</string>
     <string name="button_enter">ENTRA</string>
     <string name="button_upgrade_now">AGGIORNA ORA</string>
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">HO CAPITO</string>
     <!-- ################################################################################# -->
 
 
@@ -72,7 +72,7 @@
     <string name="menu_edit">Modifica</string>
     <string name="menu_delete">Cancella</string>
     <string name="menu_color">Colore</string>
-    <string name="menu_discard">Discard</string>
+    <string name="menu_discard">Scarta</string>
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_wear">Aggiungi agli indossabili</string>
     <!-- ################################################################################# -->
