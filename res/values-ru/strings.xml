@@ -34,7 +34,7 @@
     <string name="button_upgrade_now">ОБНОВИТЬ СЕЙЧАС</string>
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">ПОНЯЛ</string>
     <!-- ################################################################################# -->
 
 
@@ -72,7 +72,7 @@
     <string name="menu_edit">Pедактировать</string>
     <string name="menu_delete">Удалить</string>
     <string name="menu_color">Цвет</string>
-    <string name="menu_discard">Discard</string>
+    <string name="menu_discard">Сбросить</string>
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_wear">Добавить в часы</string>
     <!-- ################################################################################# -->
@@ -109,7 +109,7 @@
     <string name="toast_playstore_services_error">\"Сервисы Google Play\" не доступны</string>
     <string name="toast_google_client_error">Не удается подключиться к Google аккаунту. Проверьте сетевое подключение</string>
     <string name="toast_storage_not_accessible">Внешний накопитель не доступен</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование для защиты данных.</string>
     <!-- ################################################################################# -->
 
 
@@ -147,7 +147,7 @@
     <string name="dialog_msg_confirm_fp">Подтвердить отпечаток пальца для продолжения</string>
     <string name="dialog_msg_fp_enrolled">Сброс блокировки экрана, с помощью отпечатка пальца, выполнен! Пожалуйста, включите параметр отпечатка пальца после ввода приложение с помощью \"Мастер-пароль\".</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не доступен.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите отпечатков пальцев после того как вы войти, используя ваш \"Мастер-пароль\".</string>
     <string name="dialog_msg_rate_and_review">Если вам нравится это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
@@ -168,8 +168,8 @@
     <string name="pref_appearance_summary_show_notification">Значок уведомления будет отображаться, для определения того, что приложение разблокировано и работает</string>
     <string name="pref_appearance_title_show_passwords">Всегда показывать пароли</string>
     <string name="pref_appearance_summary_show_passwords">Вам не нужно будет нажимать на иконку глаза</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
+    <string name="pref_appearance_title_show_account">Показать аккаунт</string>
+    <string name="pref_appearance_summary_show_account">Поле \"Аккаунт\" будет отображаться в главном окне, в списке, если он имеется</string>
     <string name="pref_appearance_title_stay_awake">Не отключать экран</string>
     <string name="pref_appearance_summary_stay_awake">Экран никогда не будет отключаться во время просмотра или редактирования записи</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
