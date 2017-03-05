@@ -34,7 +34,7 @@
     <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
     <string name="button_update">ΑΛΛΑΓΗ</string>
     <string name="button_exit">ΕΞΟΔΟΣ</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
     <!-- ################################################################################# -->
 
 
@@ -109,7 +109,7 @@
     <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_activate_auto_backup">Ενεργοποιήστε το Αυτόματο backup για να προστατέψετε τα δεδομένα σας.</string>
     <!-- ################################################################################# -->
 
 
@@ -147,7 +147,7 @@
     <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
     <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
@@ -168,8 +168,8 @@
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
     <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
+    <string name="pref_appearance_title_show_account">Εμφάνιση λογαρισμού</string>
+    <string name="pref_appearance_summary_show_account">Το πεδίο του λογαριασμού θα εμφανίζεται στην κυρία λίστα εάν είναι διαθέσιμο</string>
     <string name="pref_appearance_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
     <string name="pref_appearance_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
