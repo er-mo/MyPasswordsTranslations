@@ -2,17 +2,17 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">Meine Passwörter</string>
+    <string name="app_email_subject">Meine Passwörter App Version <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Ein sicherer und einfach zu bedienender Passwort-Manager für Android-Geräte</string>
+    <string name="app_download_message">Holen Sie es jetzt kostenlos von Google Play Store</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
+    <string name="target_folder">Verzeichnis<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_file">Datei<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="current_location_folder">Pfad</string>
     <string name="password_is_too_short">Password is too short</string>
     <string name="passwords_not_matching">Passwords are not matching</string>
     <string name="password_not_correct">The password is not correct</string>
