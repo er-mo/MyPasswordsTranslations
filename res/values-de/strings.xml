@@ -13,18 +13,18 @@
     <string name="target_folder">Verzeichnis<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">Datei<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Pfad</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="description">Description</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="password_is_too_short">Passwort ist zu kurz</string>
+    <string name="passwords_not_matching">Passwörter stimmen nicht</string>
+    <string name="password_not_correct">Das Passwort ist nicht korrekt</string>
+    <string name="required">Erforderlich</string>
+    <string name="title">Titel</string>
+    <string name="account">Konto</string>
+    <string name="password">Passwort</string>
+    <string name="username">Benutzername</string>
+    <string name="website">Webseite</string>
+    <string name="description">Beschreibung</string>
+    <string name="list_is_empty">Es gibt keine Einträge</string>
+    <string name="last_updated">Letzte Aktualisierung</string>
     <!-- ################################################################################# -->
 
 
