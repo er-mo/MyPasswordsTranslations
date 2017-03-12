@@ -29,33 +29,33 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_register">NEU REGISTRIEREN</string>
+    <string name="button_enter">BESTÄTIGEN</string>
+    <string name="button_upgrade_now">JETZT UPGRADEN</string>
+    <string name="button_update">AKTUALISIEREN</string>
+    <string name="button_exit">BEENDEN</string>
+    <string name="button_gotit">ALLES KLAR</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">Willkommen</string>
+    <string name="welcome_info_content">Bitte registrieren Sie ein Master-Passwort, um die Anwendung zu bedienen. Beachten Sie, dass, wenn das Master-Passwort verloren geht, die gespeicherten Daten aufgrund der fehlenden Synchronisierungsoption nicht wiederhergestellt werden können. Es wird empfohlen, dass Sie Ihre Daten in regelmäßigen Abständen sichern.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Export &amp; import csv files</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Auto backup</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Theme selection</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Clipboard auto clear</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Self destruction</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
-    <string name="upgrade_accept">By purchasing the PRO version you accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">terms</string>
+    <string name="upgrade_thank_you">Vielen Dank für Ihren Einkauf.</string>
+    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV dateien exportieren und importieren</string>
+    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatische Sicherung</string>
+    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Themenauswahl</string>
+    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Zwischenablage leeren</string>
+    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Selbstzerstörung</string>
+    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Anmelden mit Fingerabdruck</string>
+    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable Anwendung</string>
+    <string name="upgrade_accept">Mit dem Einkauf der PRO-Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">Bedingungen</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">Altes Passwort</string>
+    <string name="change_mp_new_master_password">Neues Passwort</string>
     <!-- ################################################################################# -->
 
 
