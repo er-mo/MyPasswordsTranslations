@@ -69,6 +69,7 @@
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
     <string name="menu_new">Νέα καταχώρηση</string>
     <string name="menu_share">Κοινοποίηση</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>

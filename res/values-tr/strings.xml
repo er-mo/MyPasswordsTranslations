@@ -69,6 +69,7 @@
     <string name="menu_upgrade">PRO yükseltme</string>
     <string name="menu_new">Yeni</string>
     <string name="menu_share">Paylaş</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Düzenleme</string>
     <string name="menu_delete">Sil</string>
     <string name="menu_color">Renk</string>

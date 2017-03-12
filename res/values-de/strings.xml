@@ -69,6 +69,7 @@
     <string name="menu_upgrade">Upgrade to PRO</string>
     <string name="menu_new">New</string>
     <string name="menu_share">Share</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Edit</string>
     <string name="menu_delete">Delete</string>
     <string name="menu_color">Color</string>

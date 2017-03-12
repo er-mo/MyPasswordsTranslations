@@ -69,6 +69,7 @@
     <string name="menu_upgrade">Upgradovat na PRO verzi</string>
     <string name="menu_new">Nový</string>
     <string name="menu_share">Share</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Upravit</string>
     <string name="menu_delete">Smazat</string>
     <string name="menu_color">Barva</string>

@@ -69,6 +69,7 @@
     <string name="menu_upgrade">升级到专业版</string>
     <string name="menu_new">新建</string>
     <string name="menu_share">分享</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_color">颜色</string>

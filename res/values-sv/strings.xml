@@ -69,6 +69,7 @@
     <string name="menu_upgrade">Uppgradera till PRO</string>
     <string name="menu_new">Ny</string>
     <string name="menu_share">Share</string>
+    <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Redigera</string>
     <string name="menu_delete">Radera</string>
     <string name="menu_color">Färg</string>
