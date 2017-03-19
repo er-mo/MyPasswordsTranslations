@@ -110,7 +110,7 @@
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_activate_auto_backup">激活自动备份以保护您的数据</string>
     <!-- ################################################################################# -->
 
 
@@ -148,7 +148,7 @@
     <string name="dialog_msg_confirm_fp">输入指纹后继续</string>
     <string name="dialog_msg_fp_enrolled">锁屏已重置或指纹已登记，使用主密码登录应用前请启用指纹。</string>
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
@@ -169,8 +169,8 @@
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
     <string name="pref_appearance_summary_show_passwords">密码框内的密码将以明文方式显示</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
+    <string name="pref_appearance_title_show_account">显示账户</string>
+    <string name="pref_appearance_summary_show_account">如果可用，账户字段将显示在主列表视图中</string>
     <string name="pref_appearance_title_stay_awake">保持亮屏</string>
     <string name="pref_appearance_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
