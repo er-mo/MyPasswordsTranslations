@@ -151,6 +151,7 @@
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
+    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -151,6 +151,7 @@
     <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_rate_and_review">Если Вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
+    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

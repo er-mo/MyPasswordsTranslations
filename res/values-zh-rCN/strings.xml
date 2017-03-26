@@ -151,6 +151,7 @@
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
+    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

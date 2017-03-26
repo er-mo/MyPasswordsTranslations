@@ -151,6 +151,7 @@
     <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
+    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
