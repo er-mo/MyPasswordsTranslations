@@ -25,7 +25,7 @@
     <string name="description">Açıklama</string>
     <string name="list_is_empty">Kayıt bulunmuyor</string>
     <string name="last_updated">Son güncelleme</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(kopya)</string>
     <!-- ################################################################################# -->
 
 
@@ -35,7 +35,7 @@
     <string name="button_upgrade_now">ŞİMDİ YÜKSELT</string>
     <string name="button_update">GÜNCELLEŞTİRME</string>
     <string name="button_exit">ÇIKIŞ</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">TAMAM</string>
     <!-- ################################################################################# -->
 
 
@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Uygulamayı kullanmaya başlamak için bir ana parola lütfen kayıt olun. Ana şifre kaybedilirse, internet senkronizasyon eksikliği nedeniyle veri geri yükleme mümkün değildir. Son derece düzenli aralıklarla yedekleme tavsiye edilir.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Satın aldığınız için teşekkür ederiz.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>İhracat ve ithalat CSV dosyalar</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Otomatik yedekleme</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Tema seçimi</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Pano otomatik temizleme</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Kendini imha</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Parmak izi kullanarak giriş</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Giyilebilir uygulama</string>
+    <string name="upgrade_feature_1">İhracat ve ithalat CSV dosyalar</string>
+    <string name="upgrade_feature_2">Otomatik yedekleme</string>
+    <string name="upgrade_feature_3">Tema seçimi</string>
+    <string name="upgrade_feature_4">Pano otomatik temizleme</string>
+    <string name="upgrade_feature_5">Kendini imha</string>
+    <string name="upgrade_feature_6">Parmak izi kullanarak giriş</string>
+    <string name="upgrade_feature_7">Giyilebilir uygulama</string>
     <string name="upgrade_accept">PRO sürümünü satın alarak aşağıdaki kabul<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">şartları</string>
     <!-- change master password -->
@@ -111,7 +111,7 @@
     <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
     <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_activate_auto_backup">Verilerinizi korumak için otomatik yedeklemeyi etkinleştirin.</string>
     <!-- ################################################################################# -->
 
 

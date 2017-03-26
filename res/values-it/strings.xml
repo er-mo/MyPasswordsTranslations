@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Per favore aggiungi una master password per iniziare ad usare l\'applicazione. Ricorda che se la master password verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Grazie per aver acquistato la versione PRO.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Esporta e importa dei file csv</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Backup automatico</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Seleziona tema</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Pulizia automatica appunti</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Autodistruzione</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Entra usando l\'impronta digitale</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>App indossabile</string>
+    <string name="upgrade_feature_1">Esporta e importa dei file csv</string>
+    <string name="upgrade_feature_2">Backup automatico</string>
+    <string name="upgrade_feature_3">Seleziona tema</string>
+    <string name="upgrade_feature_4">Pulizia automatica appunti</string>
+    <string name="upgrade_feature_5">Autodistruzione</string>
+    <string name="upgrade_feature_6">Entra usando l\'impronta digitale</string>
+    <string name="upgrade_feature_7">App indossabile</string>
     <string name="upgrade_accept">Acquistando la versione PRO si accetta quanto segue<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">Termini</string>
     <!-- change master password -->

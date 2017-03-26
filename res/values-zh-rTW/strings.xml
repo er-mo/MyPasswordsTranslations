@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感謝您購買專業版</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV進出口</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>自動備份</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>主題的選擇</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Clipboard clear</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Self destruction</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Enter using fingerprint</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
+    <string name="upgrade_feature_1">CSV進出口</string>
+    <string name="upgrade_feature_2">自動備份</string>
+    <string name="upgrade_feature_3">主題的選擇</string>
+    <string name="upgrade_feature_4">Clipboard clear</string>
+    <string name="upgrade_feature_5">Self destruction</string>
+    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_feature_7">Wearable app</string>
     <string name="upgrade_accept">通過購買PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">使用條款</string>
     <!-- change master password -->

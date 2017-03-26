@@ -25,7 +25,7 @@
     <string name="description">Περιγραφή</string>
     <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
     <string name="last_updated">Τελευταία ενημέρωση</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(αντίγραφο)</string>
     <!-- ################################################################################# -->
 
 
@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείστε την εφαρμογή. Σημειώστε ότι, εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνίσταται ανεπιφύλακτα η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Εξαγωγή και εισαγωγή csv αρχείων</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτόματο backup</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Επιλογή θέματος</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Καθαρισμός του πρόχειρου</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Αυτοκαταστροφή</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable εφαρμογή</string>
+    <string name="upgrade_feature_1">Εξαγωγή και εισαγωγή csv αρχείων</string>
+    <string name="upgrade_feature_2">Αυτόματο backup</string>
+    <string name="upgrade_feature_3">Επιλογή θέματος</string>
+    <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
+    <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
+    <string name="upgrade_feature_6">Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
+    <string name="upgrade_feature_7">Wearable εφαρμογή</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
     <!-- change master password -->

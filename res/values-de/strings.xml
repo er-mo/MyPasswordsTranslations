@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Bitte registrieren Sie ein Master-Passwort, um die Anwendung zu bedienen. Beachten Sie, dass, wenn das Master-Passwort verloren geht, die gespeicherten Daten aufgrund der fehlenden Synchronisierungsoption nicht wiederhergestellt werden können. Es wird empfohlen, dass Sie Ihre Daten in regelmäßigen Abständen sichern.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Vielen Dank für Ihren Einkauf.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>CSV dateien exportieren und importieren</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatische Sicherung</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Themenauswahl</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Zwischenablage leeren</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Selbstzerstörung</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Anmelden mit Fingerabdruck</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable Anwendung</string>
+    <string name="upgrade_feature_1">CSV dateien exportieren und importieren</string>
+    <string name="upgrade_feature_2">Automatische Sicherung</string>
+    <string name="upgrade_feature_3">Themenauswahl</string>
+    <string name="upgrade_feature_4">Zwischenablage leeren</string>
+    <string name="upgrade_feature_5">Selbstzerstörung</string>
+    <string name="upgrade_feature_6">Anmelden mit Fingerabdruck</string>
+    <string name="upgrade_feature_7">Wearable Anwendung</string>
     <string name="upgrade_accept">Mit dem Einkauf der PRO-Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">Bedingungen</string>
     <!-- change master password -->

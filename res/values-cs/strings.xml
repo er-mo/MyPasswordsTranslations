@@ -45,13 +45,13 @@
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Děkujeme Vám za zakoupení PRO verze.</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Export &amp; import csv souborů</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatické zálohování</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Nastavení motivu</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Automatické vyčištění Schránky</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Sebedestrukce</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Vstup pomocí otisku prstu</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>Wearable app</string>
+    <string name="upgrade_feature_1">Export &amp; import csv souborů</string>
+    <string name="upgrade_feature_2">Automatické zálohování</string>
+    <string name="upgrade_feature_3">Nastavení motivu</string>
+    <string name="upgrade_feature_4">Automatické vyčištění Schránky</string>
+    <string name="upgrade_feature_5">Sebedestrukce</string>
+    <string name="upgrade_feature_6">Vstup pomocí otisku prstu</string>
+    <string name="upgrade_feature_7">Wearable app</string>
     <string name="upgrade_accept">Zakoupením PRO verze přijímáte následující<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">podmínky</string>
     <!-- change master password -->

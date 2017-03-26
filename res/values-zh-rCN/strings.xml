@@ -45,13 +45,13 @@
     <string name="welcome_info_content">使用前请先设置一个主密码。如果主密码丢失，将无法恢复存储的数据，建议您定期备份数据。</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢您购买专业版。</string>
-    <string name="upgrade_feature_1"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>备份的导入导出</string>
-    <string name="upgrade_feature_2"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自动备份</string>
-    <string name="upgrade_feature_3"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>选择不同的主题</string>
-    <string name="upgrade_feature_4"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>剪贴板自动清除</string>
-    <string name="upgrade_feature_5"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>数据库自毁功能</string>
-    <string name="upgrade_feature_6"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>免密码指纹登录</string>
-    <string name="upgrade_feature_7"><xliff:g id="SPACE_CHECK_SPACE">\n\u0020\u2714\u0020\u0020</xliff:g>可穿戴应用支持</string>
+    <string name="upgrade_feature_1">备份的导入导出</string>
+    <string name="upgrade_feature_2">数据库自动备份</string>
+    <string name="upgrade_feature_3">选择不同的主题</string>
+    <string name="upgrade_feature_4">剪贴板自动清除</string>
+    <string name="upgrade_feature_5">数据库自毁功能</string>
+    <string name="upgrade_feature_6">免密码指纹登录</string>
+    <string name="upgrade_feature_7">可穿戴应用支持</string>
     <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms"></string>
     <!-- change master password -->
