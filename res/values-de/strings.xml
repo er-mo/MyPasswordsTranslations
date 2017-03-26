@@ -25,7 +25,7 @@
     <string name="description">Beschreibung</string>
     <string name="list_is_empty">Es gibt keine Einträge</string>
     <string name="last_updated">Letzte Aktualisierung</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(Kopie)</string>
     <!-- ################################################################################# -->
 
 
@@ -61,22 +61,22 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_overflow">More</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_new">New</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_color">Color</string>
-    <string name="menu_discard">Discard</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_search">Suche</string>
+    <string name="menu_overflow">Mehr</string>
+    <string name="menu_appearance">Aussehen</string>
+    <string name="menu_database">Datenbank</string>
+    <string name="menu_security">Sicherheit</string>
+    <string name="menu_about">Über Meine Passwörter</string>
+    <string name="menu_upgrade">Upgrade zur PRO</string>
+    <string name="menu_new">Neu</string>
+    <string name="menu_share">Teilen</string>
+    <string name="menu_copy_entry">Kopie erstellen</string>
+    <string name="menu_edit">Bearbeiten</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_color">Farbe</string>
+    <string name="menu_discard">Wegwerfen</string>
+    <string name="menu_keyboard">Tastatur</string>
+    <string name="menu_add_to_wear">Zur Wearable hinzufügen</string>
     <!-- ################################################################################# -->
 
 
