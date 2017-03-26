@@ -25,6 +25,7 @@
     <string name="description">Descrizione</string>
     <string name="list_is_empty">Non ci sono voci</string>
     <string name="last_updated">Ultimo Aggiornamento</string>
+    <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 

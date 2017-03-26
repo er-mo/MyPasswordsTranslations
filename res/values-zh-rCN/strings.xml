@@ -25,6 +25,7 @@
     <string name="description">描述</string>
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
+    <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 

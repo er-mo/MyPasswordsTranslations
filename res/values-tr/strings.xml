@@ -25,6 +25,7 @@
     <string name="description">Açıklama</string>
     <string name="list_is_empty">Kayıt bulunmuyor</string>
     <string name="last_updated">Son güncelleme</string>
+    <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 

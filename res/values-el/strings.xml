@@ -25,6 +25,7 @@
     <string name="description">Περιγραφή</string>
     <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
     <string name="last_updated">Τελευταία ενημέρωση</string>
+    <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 

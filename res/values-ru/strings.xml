@@ -25,6 +25,7 @@
     <string name="description">Описание</string>
     <string name="list_is_empty">Нет записей</string>
     <string name="last_updated">Последнее обновление</string>
+    <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 
