@@ -112,6 +112,7 @@
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_activate_auto_backup">Attiva l\'auto backup per proteggere i tuoi dati</string>
+    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <!-- ################################################################################# -->
 
 

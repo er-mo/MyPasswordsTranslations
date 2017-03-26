@@ -112,6 +112,7 @@
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
     <string name="toast_activate_auto_backup">激活自动备份以保护您的数据</string>
+    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <!-- ################################################################################# -->
 
 

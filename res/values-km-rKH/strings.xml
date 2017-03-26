@@ -112,6 +112,7 @@
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
     <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <!-- ################################################################################# -->
 
 

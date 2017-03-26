@@ -112,6 +112,7 @@
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
+    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <!-- ################################################################################# -->
 
 
