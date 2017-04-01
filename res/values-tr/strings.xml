@@ -70,7 +70,7 @@
     <string name="menu_upgrade">PRO yükseltme</string>
     <string name="menu_new">Yeni</string>
     <string name="menu_share">Paylaş</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_copy_entry">Kopyala</string>
     <string name="menu_edit">Düzenleme</string>
     <string name="menu_delete">Sil</string>
     <string name="menu_color">Renk</string>
@@ -112,7 +112,7 @@
     <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
     <string name="toast_activate_auto_backup">Verilerinizi korumak için otomatik yedeklemeyi etkinleştirin.</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
+    <string name="toast_auto_save_tip">Kayıtını kaydetmek için geri basın</string>
     <!-- ################################################################################# -->
 
 
@@ -150,9 +150,9 @@
     <string name="dialog_msg_confirm_fp">Devam etmek için parmak izi onaylayin</string>
     <string name="dialog_msg_fp_enrolled">Kilit ekranı sıfırlandı veya yeni bir parmak izi kayıtlandı. Ana şifreyi kullanarak yeniden etkinleştirin parmak izi ayarı.</string>
     <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum için.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_fp_keystore_error">Parmak izi anahtar deposu hatası. Ana şifrenizi girdikten sonra lütfen parmak izini tekrar etkinleştirin.</string>
     <string name="dialog_msg_rate_and_review">Bu uygulamayı begeniyorsaniz, lütfen değerlendirmek için zaman ayırın, birkaç dakika sürebilir.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
+    <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -172,8 +172,8 @@
     <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
     <string name="pref_appearance_summary_show_passwords">Göz simgesini basmanız gerekmiyor</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
+    <string name="pref_appearance_title_show_account">Hesabı göster</string>
+    <string name="pref_appearance_summary_show_account">Hesap alanı, varsa, ana liste görünümünde gösterilir</string>
     <string name="pref_appearance_title_stay_awake">Uyanık kal</string>
     <string name="pref_appearance_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
