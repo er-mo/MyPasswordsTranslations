@@ -123,42 +123,42 @@
     <string name="dialog_button_delete">Löschen</string>
     <string name="dialog_button_rate_now">Bewerten</string>
     <string name="dialog_title_restore_backup">Sicherung wiederherstellen?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_previous_password">Delete previous password?</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file:</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file:</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
-    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_import_csv">CSV importieren?</string>
+    <string name="dialog_title_change_master_password">Master-Passwort ändern?</string>
+    <string name="dialog_title_self_destruct">Selbstzerstörung</string>
+    <string name="dialog_title_rate_and_review">Bewerten?</string>
+    <string name="dialog_title_confirm_fp">Fingerabdruck bestätigen</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
+    <string name="dialog_msg_changing_master_password">Durch das Ändern des Master-Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
+    <string name="dialog_msg_delete_previous_password">Vorheriges Passwort löschen?</string>
+    <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
+    <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
+    <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
+    <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
+    <string name="dialog_msg_cannot_read_file">Die ausgewählte Datei kann nicht gelesen werden.</string>
+    <string name="dialog_msg_error_writing_file">Beim Schreiben der Datei ist ein Fehler aufgetreten:</string>
+    <string name="dialog_msg_error_reading_file">Beim Lesen der Datei ist ein Fehler aufgetreten:</string>
+    <string name="dialog_msg_invalid_csv_format">Die ausgewählte csv-Datei hat ein ungültiges Format und kann nicht importiert werden.</string>
+    <string name="dialog_msg_invalid_db_format">Die ausgewählte Sicherungsdatei wurde mit einem anderen Master-Passwort erstellt und kann nicht wiederhergestellt werden.</string>
+    <string name="dialog_msg_app_data_erased">Alle Daten werden aufgrund der fehlgeschlagenen Versuche dauerhaft gelöscht.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerabdruck-Hardware ist nicht vorhanden oder nicht funktionsfähig.</string>
+    <string name="dialog_msg_no_fp_enrolled">Keine eingeschriebenen Fingerabdrücke gefunden. Bitte richten Sie mindestens einen Fingerabdruck in Systemeinstellungen ein.</string>
+    <string name="dialog_msg_no_fp_keyguard">Der sichere Sperrbildschirm muss aktiviert sein, um die Fingerabdruckfunktion zu verwenden.</string>
+    <string name="dialog_msg_fp_not_recognized">Fingerabdruck nicht erkannt</string>
+    <string name="dialog_msg_fp_success">Fingerabdruck erkannt. Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Berühren Sie den Sensor</string>
+    <string name="dialog_msg_confirm_fp">Bestätigen Sie den Fingerabdruck, um fortzufahren</string>
+    <string name="dialog_msg_fp_enrolled">Der Sperrbildschirm wurde zurückgesetzt oder ein Fingerabdruck wurde eingeschrieben. Bitte aktivieren Sie die Fingerabdruck-Einstellung, sobald Sie die App mit Ihrem Master-Passwort eingegeben haben.</string>
+    <string name="dialog_msg_remember_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern, falls der Fingerabdruck nicht mehr verfügbar ist.</string>
+    <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
+    <string name="dialog_msg_rate_and_review">Wenn Sie diese App genießen, nehmen Sie bitte einen Moment, um es zu bewerten.</string>
+    <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
+    <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Die Anwendung ist aktiv</string>
     <!-- ################################################################################# -->
 
 
