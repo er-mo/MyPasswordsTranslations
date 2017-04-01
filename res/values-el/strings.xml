@@ -112,7 +112,7 @@
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
     <string name="toast_activate_auto_backup">Ενεργοποιήστε το Αυτόματο backup για να προστατέψετε τα δεδομένα σας.</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
+    <string name="toast_auto_save_tip">Πατήστε πίσω για αποθήκευση</string>
     <!-- ################################################################################# -->
 
 
