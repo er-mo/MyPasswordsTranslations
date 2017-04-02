@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">Passwörter stimmen nicht</string>
     <string name="password_not_correct">Das Passwort ist nicht korrekt</string>
     <string name="required">Erforderlich</string>
+    <string name="empty_title">Leeren Titel</string>
     <string name="title">Titel</string>
     <string name="account">Konto</string>
     <string name="password">Passwort</string>

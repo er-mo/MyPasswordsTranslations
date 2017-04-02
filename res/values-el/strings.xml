@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
     <string name="required">Υποχρεωτικό</string>
+    <string name="empty_title">Κενός Τίτλος</string>
     <string name="title">Τίτλος</string>
     <string name="account">Λογαριασμός</string>
     <string name="password">Κωδικός πρόσβασης</string>

@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">Şifreler eşleşmiyor</string>
     <string name="password_not_correct">Şifre doğru değil</string>
     <string name="required">Gerekli</string>
+    <string name="empty_title">Boş Başlık</string>
     <string name="title">Başlık</string>
     <string name="account">Hesap</string>
     <string name="password">Şifre</string>

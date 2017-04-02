@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">密碼不相符</string>
     <string name="password_not_correct">密碼不正確</string>
     <string name="required">需要</string>
+    <string name="empty_title">Empty Title</string>
     <string name="title">標題</string>
     <string name="account">帳號</string>
     <string name="password">密碼</string>

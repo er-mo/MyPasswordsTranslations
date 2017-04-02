@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">Hesla se neshodují</string>
     <string name="password_not_correct">Heslo není správné</string>
     <string name="required">Povinné</string>
+    <string name="empty_title">Empty Title</string>
     <string name="title">Název</string>
     <string name="account">Účet</string>
     <string name="password">Heslo</string>

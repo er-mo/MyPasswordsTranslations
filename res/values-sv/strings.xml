@@ -17,6 +17,7 @@
     <string name="passwords_not_matching">Lösenorden matchar inte</string>
     <string name="password_not_correct">Lösenordet är felaktigt</string>
     <string name="required">Nödvändig</string>
+    <string name="empty_title">Empty Title</string>
     <string name="title">Titel</string>
     <string name="account">Konto</string>
     <string name="password">Lösenord</string>
