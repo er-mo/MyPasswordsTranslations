@@ -76,6 +76,7 @@
     <string name="menu_delete">Sil</string>
     <string name="menu_color">Renk</string>
     <string name="menu_discard">Iskarta</string>
+    <string name="menu_save">Save</string>
     <string name="menu_keyboard">Klavye</string>
     <string name="menu_add_to_wear">Wearable\'e ekle</string>
     <!-- ################################################################################# -->

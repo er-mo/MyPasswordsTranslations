@@ -76,6 +76,7 @@
     <string name="menu_delete">Usuń</string>
     <string name="menu_color">Kolor</string>
     <string name="menu_discard">Discard</string>
+    <string name="menu_save">Save</string>
     <string name="menu_keyboard">Keyboard</string>
     <string name="menu_add_to_wear">Add to wearable</string>
     <!-- ################################################################################# -->

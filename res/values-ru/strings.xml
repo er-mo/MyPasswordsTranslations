@@ -76,6 +76,7 @@
     <string name="menu_delete">Удалить</string>
     <string name="menu_color">Цвет</string>
     <string name="menu_discard">Сбросить</string>
+    <string name="menu_save">Save</string>
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_wear">Добавить в часы</string>
     <!-- ################################################################################# -->

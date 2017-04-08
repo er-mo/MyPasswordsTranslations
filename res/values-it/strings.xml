@@ -76,6 +76,7 @@
     <string name="menu_delete">Cancella</string>
     <string name="menu_color">Colore</string>
     <string name="menu_discard">Scarta</string>
+    <string name="menu_save">Save</string>
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_wear">Aggiungi agli indossabili</string>
     <!-- ################################################################################# -->

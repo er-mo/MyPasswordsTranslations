@@ -76,6 +76,7 @@
     <string name="menu_delete">Löschen</string>
     <string name="menu_color">Farbe</string>
     <string name="menu_discard">Wegwerfen</string>
+    <string name="menu_save">Save</string>
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_wear">Zur Wearable hinzufügen</string>
     <!-- ################################################################################# -->
