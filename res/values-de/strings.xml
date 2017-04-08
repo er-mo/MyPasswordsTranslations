@@ -76,7 +76,7 @@
     <string name="menu_delete">Löschen</string>
     <string name="menu_color">Farbe</string>
     <string name="menu_discard">Wegwerfen</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">Speichern</string>
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_wear">Zur Wearable hinzufügen</string>
     <!-- ################################################################################# -->
@@ -166,21 +166,21 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">Einträge sortieren</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alphabetisch</string>
+    <string name="pref_appearance_sorting_choise_time">Nach Datum</string>
+    <string name="pref_appearance_sorting_choise_color">Nach Farbe</string>
+    <string name="pref_appearance_title_show_notification">Benachrichtigung</string>
+    <string name="pref_appearance_summary_show_notification">Einfach zu erkennen, dass die Anwendung aktiv ist</string>
+    <string name="pref_appearance_title_show_passwords">Passwörter anzeigen</string>
+    <string name="pref_appearance_summary_show_passwords">Sie müssen das Augensymbol nicht drücken</string>
+    <string name="pref_appearance_title_show_account">Konto anzeigen</string>
+    <string name="pref_appearance_summary_show_account">Das Konto-Feld wird in der Hauptlistenansicht angezeigt, falls verfügbar ist</string>
+    <string name="pref_appearance_title_stay_awake">Wach bleiben</string>
+    <string name="pref_appearance_summary_stay_awake">Der Bildschirm wird beim Betrachten oder Bearbeiten von Einträgen niemals im Standby</string>
+    <string name="pref_appearance_title_change_theme">Thema ändern</string>
+    <string name="pref_appearance_theme_light">Hell</string>
+    <string name="pref_appearance_theme_dark">Dunkel</string>
     <!-- database -->
     <string name="pref_database_title_backup">Backup database</string>
     <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
