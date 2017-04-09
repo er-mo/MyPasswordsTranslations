@@ -195,48 +195,48 @@
     <string name="pref_database_title_import">CSV Datei importieren</string>
     <string name="pref_database_summary_import">Importieren von Einträgen aus einer nicht verschlüsselten CSV Datei</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
+    <string name="pref_security_title_change_password">Master Passwort ändern</string>
+    <string name="pref_security_title_fast_enter">Schnell eintreten</string>
+    <string name="pref_security_summary_fast_enter">Macht es schneller, die Anwendung zu betreten, ohne die BESTÄTIGEN Taste zu drücken, wenn das Master Passwort korrekt ist</string>
+    <string name="pref_security_title_auto_exit">Automatische Sperre</string>
+    <string name="pref_security_summary_auto_exit">Die Anwendung wird automatisch beendet, wenn der Bildschirm ausgeschaltet wird</string>
+    <string name="pref_security_title_clipboard_clear">Zwischenablage leeren</string>
+    <string name="pref_security_clipboard_clear_never">Niemals</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>
     <string name="pref_security_clipboard_clear_two_min">2 min</string>
     <string name="pref_security_clipboard_clear_three_min">3 min</string>
     <string name="pref_security_clipboard_clear_four_min">4 min</string>
     <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_self_destruct">Fehlgeschlagene Anmeldeversuche</string>
+    <string name="pref_security_self_destruct_unlimited">Unbegrenzt</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Anmelden mit Fingerabdruck</string>
+    <string name="pref_security_summary_fingerprint">Für die Verwendung dieser Funktion ist Android 6.0 oder neuere und kompatible Hardware erforderlich</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Melde einen technischen Fehler</string>
+    <string name="pref_about_title_support">Bewerten</string>
+    <string name="pref_about_title_more_apps">Weitere Anwendungen</string>
+    <string name="pref_about_title_share">Sag deinen Freunden</string>
+    <string name="pref_about_title_translations">Übersetzungen</string>
+    <string name="pref_about_title_licenses">Open Source Lizenzen</string>
+    <string name="pref_about_title_build_version">Build Version</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_appearance">AUSSEHEN</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
+    <string name="pref_category_database">DATENBANK</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATISCHE SICHERUNG</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">SICHERHEIT</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZWISCHENABLAGE</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELBSTZERSTÖRUNG</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERABDRUCK</string>
     <!-- ################################################################################# -->
 
 </resources>
