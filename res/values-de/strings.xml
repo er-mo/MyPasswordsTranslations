@@ -53,7 +53,7 @@
     <string name="upgrade_feature_5">Selbstzerstörung</string>
     <string name="upgrade_feature_6">Anmelden mit Fingerabdruck</string>
     <string name="upgrade_feature_7">Wearable Anwendung</string>
-    <string name="upgrade_accept">Mit dem Einkauf der PRO-Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_accept">Mit dem Einkauf der PRO Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">Bedingungen</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Altes Passwort</string>
