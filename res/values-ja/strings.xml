@@ -76,7 +76,7 @@
     <string name="menu_delete">Delete</string>
     <string name="menu_color">Color</string>
     <string name="menu_discard">Discard</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">SAVE</string>
     <string name="menu_keyboard">Keyboard</string>
     <string name="menu_add_to_wear">Add to wearable</string>
     <!-- ################################################################################# -->
@@ -113,7 +113,7 @@
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
+    <string name="toast_activate_auto_backup">Activate auto backup to protect your data</string>
     <string name="toast_auto_save_tip">Press back to save the entry</string>
     <!-- ################################################################################# -->
 
