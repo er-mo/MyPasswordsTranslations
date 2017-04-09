@@ -113,7 +113,7 @@
     <string name="toast_playstore_services_error">Google Play Services sind nicht verfügbar</string>
     <string name="toast_google_client_error">Die Anwendung kann keine Verbindung zum Google Client herstellen. Bitte überprüfen Sie die Netzwerkkonnektivität</string>
     <string name="toast_storage_not_accessible">Externe Speicherung nicht zugänglich</string>
-    <string name="toast_activate_auto_backup">Bitte aktivieren Sie die automatische Sicherung, um Ihre Daten zu schützen.</string>
+    <string name="toast_activate_auto_backup">Aktivieren Sie die automatische Sicherung, um Ihre Daten zu schützen</string>
     <string name="toast_auto_save_tip">Drücken Sie zurück, um die Eingabe zu speichern</string>
     <!-- ################################################################################# -->
 
