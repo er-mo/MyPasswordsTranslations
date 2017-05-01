@@ -37,6 +37,7 @@
     <string name="button_update">GÜNCELLEŞTİRME</string>
     <string name="button_exit">ÇIKIŞ</string>
     <string name="button_gotit">TAMAM</string>
+    <string name="button_sure">TAMAM</string>
     <!-- ################################################################################# -->
 
 
@@ -115,6 +116,7 @@
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
     <string name="toast_activate_auto_backup">Verilerinizi korumak için otomatik yedeklemeyi etkinleştirin.</string>
     <string name="toast_auto_save_tip">Kayıtını kaydetmek için geri basın</string>
+    <string name="toast_ask_for_rating">Google Play Store\'da değerlendirmeye ne dersiniz?</string>
     <!-- ################################################################################# -->
 
 

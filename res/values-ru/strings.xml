@@ -37,6 +37,7 @@
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_gotit">ПОНЯЛ</string>
+    <string name="button_sure">SURE</string>
     <!-- ################################################################################# -->
 
 
@@ -115,6 +116,7 @@
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
     <string name="toast_auto_save_tip">Press back to save the entry</string>
+    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
     <!-- ################################################################################# -->
 
 
