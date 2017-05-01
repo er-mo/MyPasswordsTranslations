@@ -37,6 +37,7 @@
     <string name="button_update">AKTUALISIEREN</string>
     <string name="button_exit">BEENDEN</string>
     <string name="button_gotit">OK</string>
+    <string name="button_sure">JA KLAR</string>
     <!-- ################################################################################# -->
 
 
@@ -115,6 +116,7 @@
     <string name="toast_storage_not_accessible">Externe Speicherung nicht zugänglich</string>
     <string name="toast_activate_auto_backup">Aktivieren Sie die automatische Sicherung, um Ihre Daten zu schützen</string>
     <string name="toast_auto_save_tip">Drücken Sie zurück, um die Eingabe zu speichern</string>
+    <string name="toast_ask_for_rating">Wie wäre es mit einer Bewertung auf Google Play Store?</string>
     <!-- ################################################################################# -->
 
 

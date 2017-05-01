@@ -37,6 +37,7 @@
     <string name="button_update">ΑΛΛΑΓΗ</string>
     <string name="button_exit">ΕΞΟΔΟΣ</string>
     <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
+    <string name="button_sure">ΒΕΒΑΙΩΣ</string>
     <!-- ################################################################################# -->
 
 
@@ -115,6 +116,7 @@
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
     <string name="toast_activate_auto_backup">Ενεργοποιήστε το Αυτόματο backup για να προστατέψετε τα δεδομένα σας.</string>
     <string name="toast_auto_save_tip">Πατήστε πίσω για αποθήκευση</string>
+    <string name="toast_ask_for_rating">Τι θα λέγατε για μια αξιολόγηση στο Google Play store;</string>
     <!-- ################################################################################# -->
 
 
@@ -154,7 +156,7 @@
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
+    <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

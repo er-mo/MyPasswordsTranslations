@@ -37,6 +37,7 @@
     <string name="button_update">更新</string>
     <string name="button_exit">EXIT</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_sure">SURE</string>
     <!-- ################################################################################# -->
 
 
@@ -115,6 +116,7 @@
     <string name="toast_storage_not_accessible">External storage not accessible</string>
     <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
     <string name="toast_auto_save_tip">Press back to save the entry</string>
+    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
     <!-- ################################################################################# -->
 
 
