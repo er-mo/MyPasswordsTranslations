@@ -76,7 +76,7 @@
     <string name="menu_delete">Удалить</string>
     <string name="menu_color">Цвет</string>
     <string name="menu_discard">Сбросить</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">Сохранить</string>
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_wear">Добавить в часы</string>
     <!-- ################################################################################# -->
@@ -114,7 +114,7 @@
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
+    <string name="toast_auto_save_tip">Нажмите назад, чтобы сохранить запись.</string>
     <!-- ################################################################################# -->
 
 
@@ -154,7 +154,7 @@
     <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_rate_and_review">Если Вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
+    <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -166,7 +166,7 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Cортировать</string>
+    <string name="pref_appearance_title_sort_entries">Сортировать</string>
     <string name="pref_appearance_sorting_choise_alpha">По алфавиту</string>
     <string name="pref_appearance_sorting_choise_time">По дате</string>
     <string name="pref_appearance_sorting_choise_color">По цвету</string>
