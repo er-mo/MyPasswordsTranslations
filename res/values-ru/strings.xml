@@ -84,7 +84,7 @@
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Нажмите еще раз, чтобы выйти</string>
+    <string name="toast_tap_again_to_exit">Нажмите еще раз, чтобы выйти.</string>
     <string name="toast_entry_deleted">Запись удалена!</string>
     <string name="toast_entries_deleted">Записи удалены!</string>
     <string name="toast_entry_saved">Запись сохранена!</string>
@@ -131,7 +131,7 @@
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
     <string name="dialog_title_self_destruct">Самоуничтожение</string>
     <string name="dialog_title_rate_and_review">Оценить?</string>
-    <string name="dialog_title_confirm_fp">Подтвердите свой отпечаток пальца.</string>
+    <string name="dialog_title_confirm_fp">Вход по отпечатку</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_previous_password">Удалить существующий \"Мастер-пароль\"?</string>
@@ -150,7 +150,7 @@
     <string name="dialog_msg_no_fp_keyguard">\"Безопасная блокировка\" должна быть включена, чтобы использовать функцию отпечатка пальца.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку.</string>
     <string name="dialog_msg_fp_success">Отпечаток пальца распознался! Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Сенсорный датчик</string>
+    <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_confirm_fp">Подтвердите отпечаток пальца, для продолжения.</string>
     <string name="dialog_msg_fp_enrolled">Сброс \"Блокировки экрана\", с помощью отпечатка пальца, выполнен! Пожалуйста, включите функцию отпечатка пальца, после \"Входа\" в приложение, с помощью \"Мастер-пароль\".</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
