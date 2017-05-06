@@ -116,7 +116,7 @@
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_activate_auto_backup">Attiva l\'auto backup per proteggere i tuoi dati</string>
     <string name="toast_auto_save_tip">Premi indietro per salvare la voce</string>
-    <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store</string>
+    <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
     <!-- ################################################################################# -->
 
 
