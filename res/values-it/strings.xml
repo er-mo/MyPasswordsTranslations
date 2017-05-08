@@ -17,7 +17,7 @@
     <string name="passwords_not_matching">Le password non combaciano</string>
     <string name="password_not_correct">La password non è corretta</string>
     <string name="required">Richiesto</string>
-    <string name="empty_title">Empty Title</string>
+    <string name="empty_title">Titolo vuoto</string>
     <string name="title">Titolo</string>
     <string name="account">Account</string>
     <string name="password">Password</string>
@@ -26,7 +26,7 @@
     <string name="description">Descrizione</string>
     <string name="list_is_empty">Non ci sono voci</string>
     <string name="last_updated">Ultimo Aggiornamento</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(Copia)</string>
     <!-- ################################################################################# -->
 
 
@@ -37,7 +37,7 @@
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
     <string name="button_gotit">HO CAPITO</string>
-    <string name="button_sure">SURE</string>
+    <string name="button_sure">SICURO</string>
     <!-- ################################################################################# -->
 
 
@@ -72,12 +72,12 @@
     <string name="menu_upgrade">Aggiorna a PRO</string>
     <string name="menu_new">Nuovo</string>
     <string name="menu_share">Condividi</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_copy_entry">Crea una copia</string>
     <string name="menu_edit">Modifica</string>
     <string name="menu_delete">Cancella</string>
     <string name="menu_color">Colore</string>
     <string name="menu_discard">Scarta</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">Salva</string>
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_wear">Aggiungi agli indossabili</string>
     <!-- ################################################################################# -->
@@ -115,8 +115,8 @@
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_activate_auto_backup">Attiva l\'auto backup per proteggere i tuoi dati</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_auto_save_tip">Premi indietro per salvare la voce</string>
+    <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
     <!-- ################################################################################# -->
 
 
@@ -154,9 +154,9 @@
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
     <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l'impronta digitale dopo aver inserito la password principale.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
+    <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
