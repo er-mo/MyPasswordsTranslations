@@ -154,7 +154,7 @@
     <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
     <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
-    <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l'impronta digitale dopo aver inserito la password principale.</string>
+    <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>
     <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
