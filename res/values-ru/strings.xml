@@ -23,7 +23,7 @@
     <string name="password">Пароль</string>
     <string name="username">Имя пользователя</string>
     <string name="website">Веб-сайт</string>
-    <string name="description">Описание</string>
+    <string name="notes">Описание</string>
     <string name="list_is_empty">Нет записей</string>
     <string name="last_updated">Последнее обновление</string>
     <string name="copy">(Копия)</string>

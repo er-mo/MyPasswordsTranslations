@@ -23,7 +23,7 @@
     <string name="password">Heslo</string>
     <string name="username">Uživatelské jméno</string>
     <string name="website">Webová stránka</string>
-    <string name="description">Popis</string>
+    <string name="notes">Popis</string>
     <string name="list_is_empty">Nejsou zde žádné záznamy</string>
     <string name="last_updated">Naposledy aktualizováno</string>
     <string name="copy">(copy)</string>

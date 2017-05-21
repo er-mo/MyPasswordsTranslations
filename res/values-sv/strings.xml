@@ -23,7 +23,7 @@
     <string name="password">Lösenord</string>
     <string name="username">Användarnamn</string>
     <string name="website">Webbsida</string>
-    <string name="description">Beskrivning</string>
+    <string name="notes">Beskrivning</string>
     <string name="list_is_empty">Det finns inga poster</string>
     <string name="last_updated">Senast uppdaterad</string>
     <string name="copy">(copy)</string>

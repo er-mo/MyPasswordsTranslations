@@ -23,7 +23,7 @@
     <string name="password">Hasło</string>
     <string name="username">Użytkownik</string>
     <string name="website">Strona WWW</string>
-    <string name="description">Opis</string>
+    <string name="notes">Opis</string>
     <string name="list_is_empty">Nie ma wpisów!</string>
     <string name="last_updated">Aktualizacja</string>
     <string name="copy">(copy)</string>

@@ -23,7 +23,7 @@
     <string name="password">Κωδικός πρόσβασης</string>
     <string name="username">Όνομα χρήστη</string>
     <string name="website">Ιστοσελίδα</string>
-    <string name="description">Περιγραφή</string>
+    <string name="notes">Σημειώσεις</string>
     <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
     <string name="last_updated">Τελευταία ενημέρωση</string>
     <string name="copy">(αντίγραφο)</string>

@@ -23,7 +23,7 @@
     <string name="password">密码</string>
     <string name="username">用户名</string>
     <string name="website">网址</string>
-    <string name="description">描述</string>
+    <string name="notes">描述</string>
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
     <string name="copy">(copy)</string>
