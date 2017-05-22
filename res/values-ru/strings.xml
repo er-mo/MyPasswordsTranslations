@@ -116,7 +116,7 @@
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
     <string name="toast_auto_save_tip">Нажмите назад, чтобы сохранить запись.</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_ask_for_rating">Как насчет оценки в магазине Google Play?</string>
     <!-- ################################################################################# -->
 
 
@@ -149,7 +149,7 @@
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте, по крайней мере, один из отпечатка пальца в настройках системы.</string>
     <string name="dialog_msg_no_fp_keyguard">\"Безопасная блокировка\" должна быть включена, чтобы использовать функцию отпечатка пальца.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку.</string>
-    <string name="dialog_msg_fp_success">Отпечаток пальца распознался! Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_success">Отпечаток Ваш! Подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_confirm_fp">Подтвердите отпечаток пальца, для продолжения.</string>
     <string name="dialog_msg_fp_enrolled">Сброс \"Блокировки экрана\", с помощью отпечатка пальца, выполнен! Пожалуйста, включите функцию отпечатка пальца, после \"Входа\" в приложение, с помощью \"Мастер-пароль\".</string>
