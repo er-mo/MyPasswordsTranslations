@@ -37,7 +37,7 @@
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_gotit">ПОНЯЛ</string>
-    <string name="button_sure">SURE</string>
+    <string name="button_sure">КОНЕЧНО</string>
     <!-- ################################################################################# -->
 
 
@@ -93,7 +93,7 @@
     <string name="toast_no_browser">Прложение \"Браузер\" на найдено.</string>
     <string name="toast_no_playstore">Приложение \"Google Play Маркет\" не найдено.</string>
     <string name="toast_tap_to_copy_text">Нажмите на текст, чтобы скопировать его в буфер обмена.</string>
-    <string name="toast_copied_to_clipboard">Текст скопирован в буфер обмена</string>
+    <string name="toast_copied_to_clipboard">Текст скопирован в буфер обмена.</string>
     <string name="toast_master_password_updated">Успешно обновлен \"Мастер-пароль\"!</string>
     <string name="toast_master_password_not_updated">Не удалось обновить \"Мастер-пароль\"!</string>
     <string name="toast_storage_permission_granted">Доступ получен.</string>
@@ -101,14 +101,14 @@
     <string name="toast_no_file_selected">Выбор отменен.</string>
     <string name="toast_successful_backup">Резервная копия создана!</string>
     <string name="toast_successful_restore">Резервная копия восстановлена!</string>
-    <string name="toast_error_restore">Не удалось восстановить резервную копию</string>
+    <string name="toast_error_restore">Не удалось восстановить резервную копию.</string>
     <string name="toast_successful_csv_export">Экспортирование в файл CSV успешно завершено!</string>
     <string name="toast_successful_csv_import">Импортирование из файла CSV успешно завершено!</string>
     <string name="toast_error_csv_import">Не удалось импортировать из файла CSV.</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
     <string name="toast_fingerprint_disabled">Функция, \"Вход\", с помощью отпечатка пальца, отключена.</string>
-    <string name="toast_added_to_wear">Добавлено в часы</string>
-    <string name="toast_removed_from_wear">Удалено из часов</string>
+    <string name="toast_added_to_wear">Добавлено в часы.</string>
+    <string name="toast_removed_from_wear">Удалено из часов.</string>
     <string name="toast_wear_only_pro_users">Функция \"Настройки для часов\" доступна только в PRO версии.</string>
     <string name="toast_playstore_error">Приложение \"Google Play Маркет\" не установлено.</string>
     <string name="toast_playstore_services_error">Приложение \"Сервисы Google Play\" не доступны.</string>
@@ -116,7 +116,7 @@
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
     <string name="toast_auto_save_tip">Нажмите назад, чтобы сохранить запись.</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_ask_for_rating">Как насчет оценки в \"Google Play Маркет\"?</string>
     <!-- ################################################################################# -->
 
 
@@ -144,18 +144,18 @@
     <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла:</string>
     <string name="dialog_msg_invalid_csv_format">Выбранный CSV файл имеет неверный формат и не может быть импортирован.</string>
     <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другого \"Мастер-пароль\" и не может быть восстановлен.</string>
-    <string name="dialog_msg_app_data_erased">Все данные были удалены навсегда, из-за неудачных попыток входа!</string>
+    <string name="dialog_msg_app_data_erased">Все данные были навсегда удалены, из-за неудачных попыток Входа!</string>
     <string name="dialog_msg_no_fp_hardware">Оборудование, для отпечатка пальца, отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте, по крайней мере, один из отпечатка пальца в настройках системы.</string>
     <string name="dialog_msg_no_fp_keyguard">\"Безопасная блокировка\" должна быть включена, чтобы использовать функцию отпечатка пальца.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку.</string>
-    <string name="dialog_msg_fp_success">Отпечаток пальца распознался! Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_success">Отпечаток Ваш! Подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_confirm_fp">Подтвердите отпечаток пальца, для продолжения.</string>
     <string name="dialog_msg_fp_enrolled">Сброс \"Блокировки экрана\", с помощью отпечатка пальца, выполнен! Пожалуйста, включите функцию отпечатка пальца, после \"Входа\" в приложение, с помощью \"Мастер-пароль\".</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
-    <string name="dialog_msg_rate_and_review">Если Вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его.</string>
+    <string name="dialog_msg_rate_and_review">Если Вам понравилось данное приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
