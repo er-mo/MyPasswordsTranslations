@@ -172,8 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
     <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
     <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
+    <string name="pref_appearance_title_navibar_color">Χρώμα γραμμής πλοήγησης</string>
+    <string name="pref_appearance_summary_navibar_color">Το πρωτεύον χρώμα θα εφαρμοστεί και στη γραμμή πλοήγησης επίσης (Android 5.0 και νεότερες εκδόσεις μόνο)</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>

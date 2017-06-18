@@ -172,8 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetik</string>
     <string name="pref_appearance_sorting_choise_time">Tarihe göre</string>
     <string name="pref_appearance_sorting_choise_color">Renge göre</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
+    <string name="pref_appearance_title_navibar_color">Gezinme çubuğu rengi</string>
+    <string name="pref_appearance_summary_navibar_color">Gezinme çubuğuna da birincil koyu renk uygulanacaktır (Android 5.0 ve daha yenisi)</string>
     <string name="pref_appearance_title_show_notification">Bildirim</string>
     <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>

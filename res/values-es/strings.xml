@@ -170,10 +170,10 @@
     <!-- appearance -->
     <string name="pref_appearance_title_sort_entries">Ordenar entradas</string>
     <string name="pref_appearance_sorting_choise_alpha">Alfabéticamente</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_sorting_choise_time">Por fecha</string>
     <string name="pref_appearance_sorting_choise_color">Por color</string>
+    <string name="pref_appearance_title_navibar_color">Color de la barra de navegación</string>
+    <string name="pref_appearance_summary_navibar_color">El color oscuro primario se aplicará a la barra de navegación también (Android 5.0 y versiones posteriores)</string>
     <string name="pref_appearance_title_show_notification">Notificación</string>
     <string name="pref_appearance_summary_show_notification">Fácil de identificar que la aplicación está desbloqueada y ejecutándose</string>
     <string name="pref_appearance_title_show_passwords">Mostrar contraseñas</string>
