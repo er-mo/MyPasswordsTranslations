@@ -157,8 +157,7 @@
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_rate_and_review">Si te gusta usar esta aplicación, por favor toma un momento para calificarla.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
-    <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g>
-  </string>
+    <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 
 
@@ -171,6 +170,8 @@
     <!-- appearance -->
     <string name="pref_appearance_title_sort_entries">Ordenar entradas</string>
     <string name="pref_appearance_sorting_choise_alpha">Alfabéticamente</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_sorting_choise_time">Por fecha</string>
     <string name="pref_appearance_sorting_choise_color">Por color</string>
     <string name="pref_appearance_title_show_notification">Notificación</string>

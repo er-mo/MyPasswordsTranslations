@@ -172,6 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">In ordine alfabetico</string>
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>

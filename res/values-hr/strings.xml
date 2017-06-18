@@ -172,6 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
     <string name="pref_appearance_sorting_choise_time">By date</string>
     <string name="pref_appearance_sorting_choise_color">By color</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>

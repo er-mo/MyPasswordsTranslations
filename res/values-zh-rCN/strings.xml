@@ -172,6 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>

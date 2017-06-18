@@ -172,6 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">По алфавиту</string>
     <string name="pref_appearance_sorting_choise_time">По дате</string>
     <string name="pref_appearance_sorting_choise_color">По цвету</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Значок уведомления</string>
     <string name="pref_appearance_summary_show_notification">Значок уведомления будет отображаться, для определения того, что приложение разблокировано и работает</string>
     <string name="pref_appearance_title_show_passwords">Всегда показывать пароли</string>

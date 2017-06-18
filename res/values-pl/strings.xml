@@ -172,6 +172,8 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
     <string name="pref_appearance_sorting_choise_time">Po dacie</string>
     <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
+    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
+    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
     <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
