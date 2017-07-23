@@ -106,7 +106,7 @@
     <string name="toast_successful_csv_import">Импортирование из файла CSV успешно завершено!</string>
     <string name="toast_error_csv_import">Не удалось импортировать из файла CSV.</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
-    <string name="toast_fingerprint_disabled">Функция, \"Вход\", с помощью отпечатка пальца, отключена.</string>
+    <string name="toast_fingerprint_disabled">Функция \"Вход, с помощью отпечатка пальца\" отключена.</string>
     <string name="toast_added_to_wear">Добавлено в часы.</string>
     <string name="toast_removed_from_wear">Удалено из часов.</string>
     <string name="toast_wear_only_pro_users">Функция \"Настройки для часов\" доступна только в PRO версии.</string>
@@ -116,7 +116,7 @@
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_activate_auto_backup">Активировать автоматическое резервное копирование, для защиты данных.</string>
     <string name="toast_auto_save_tip">Нажмите назад, чтобы сохранить запись.</string>
-    <string name="toast_ask_for_rating">Как насчет оценки в \"Google Play Маркет\"?</string>
+    <string name="toast_ask_for_rating">Как насчет того, чтобы оценить нас в \"Google Play Маркет\"?</string>
     <!-- ################################################################################# -->
 
 
@@ -144,8 +144,8 @@
     <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла:</string>
     <string name="dialog_msg_invalid_csv_format">Выбранный CSV файл имеет неверный формат и не может быть импортирован.</string>
     <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другого \"Мастер-пароль\" и не может быть восстановлен.</string>
-    <string name="dialog_msg_app_data_erased">Все данные были навсегда удалены, из-за неудачных попыток Входа!</string>
-    <string name="dialog_msg_no_fp_hardware">Оборудование, для отпечатка пальца, отсутствует или не функционирует.</string>
+    <string name="dialog_msg_app_data_erased">Все данные были навсегда удалены, из-за неудачных попыток входа!</string>
+    <string name="dialog_msg_no_fp_hardware">Оборудование для отпечатка пальца отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте, по крайней мере, один из отпечатка пальца в настройках системы.</string>
     <string name="dialog_msg_no_fp_keyguard">\"Безопасная блокировка\" должна быть включена, чтобы использовать функцию отпечатка пальца.</string>
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку.</string>
@@ -179,7 +179,7 @@
     <string name="pref_appearance_title_show_passwords">Всегда показывать пароли</string>
     <string name="pref_appearance_summary_show_passwords">Вам не нужно будет нажимать на \"Иконку глаза\"</string>
     <string name="pref_appearance_title_show_account">Показать аккаунт</string>
-    <string name="pref_appearance_summary_show_account">Поле \"Аккаунт\" будет отображаться в \"Главном окне\", в списке, если он имеется</string>
+    <string name="pref_appearance_summary_show_account">Поле \"Аккаунт\" будет отображаться в главном списке всех паролей, если он прописан в самой записи</string>
     <string name="pref_appearance_title_stay_awake">Не отключать экран</string>
     <string name="pref_appearance_summary_stay_awake">Экран никогда не будет отключаться во время просмотра или редактирования записи</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
@@ -190,10 +190,10 @@
     <string name="pref_database_summary_backup">Создать резервную копию зашифрованной базы данных</string>
     <string name="pref_database_title_restore">Востановление</string>
     <string name="pref_database_summary_restore">Восстановить резервную копию зашифрованной базы данных</string>
-    <string name="pref_database_title_gd_auto_backup">Рез. копир. на Google Диск</string>
-    <string name="pref_database_summary_gd_auto_backup">Создать автоматическое резервное копирование данных на Google Диск</string>
-    <string name="pref_database_title_sd_auto_backup">Рез. копир. на Внеш. накоп.</string>
-    <string name="pref_database_summary_sd_auto_backup">Создать автоматическое резервное копирование данных на внешний накопитель (SD-карту или внутренний накопитель). Вы можете получить доступ к внешней памяти через другие приложения \"Файловых менеджеров\"</string>
+    <string name="pref_database_title_gd_auto_backup">Копия паролей на Google Диск</string>
+    <string name="pref_database_summary_gd_auto_backup">Создать автоматическое резервное копирование паролей на Google Диск</string>
+    <string name="pref_database_title_sd_auto_backup">Копия паролей на Внеш. накоп.</string>
+    <string name="pref_database_summary_sd_auto_backup">Создать автоматическое резервное копирование паролей на внешний накопитель (SD-карту) или на внутренний накопитель. Вы можете получить доступ к внешнему накопителю (SD-карте) через приложение(-я) \"Файловый менеджер\"</string>
     <string name="pref_database_title_export">Экспорт записей в CSV файл</string>
     <string name="pref_database_summary_export">Экспортировать данные в незашифрованный файл CSV формата</string>
     <string name="pref_database_title_import">Импорт записей из CSV файла</string>
@@ -201,7 +201,7 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Изменить \"Мастер-пароль\"</string>
     <string name="pref_security_title_fast_enter">Быстрый \"Вход\"</string>
-    <string name="pref_security_summary_fast_enter">\"Вход\" в приложение осуществляется без необходимости нажатия кнопки \"ВВОД\", если \"Мастер-пароль\" введен верно</string>
+    <string name="pref_security_summary_fast_enter">\"Вход\" в приложение будет происходить без необходимости нажатия кнопки \"ВВОД\", если \"Мастер-пароль\" введен верно</string>
     <string name="pref_security_title_auto_exit">Автоматический \"Выход\"</string>
     <string name="pref_security_summary_auto_exit">Когда экран потухнет или Вы заблокируете его через кнопку \"Блокировка экрана\", приложение автоматически закроется</string>
     <string name="pref_security_title_clipboard_clear">Очистка буфера обмена</string>
@@ -212,14 +212,14 @@
     <string name="pref_security_clipboard_clear_four_min">Через 4 мин</string>
     <string name="pref_security_clipboard_clear_five_min">Через 5 мин</string>
     <string name="pref_security_title_self_destruct">Количество попыток ввода пароля</string>
-    <string name="pref_security_self_destruct_unlimited">Неограниченно</string>
+    <string name="pref_security_self_destruct_unlimited">Неограниченное</string>
     <string name="pref_security_self_destruct_three">3 раза</string>
     <string name="pref_security_self_destruct_five">5 раз</string>
     <string name="pref_security_self_destruct_ten">10 раз</string>
     <string name="pref_security_self_destruct_fifteen">15 раз</string>
     <string name="pref_security_self_destruct_twenty">20 раз</string>
     <string name="pref_security_title_fingerprint">\"Вход\" с помощью отпечатка пальца</string>
-    <string name="pref_security_summary_fingerprint">Для использования этой функции требуется Android 6.0 и выше</string>
+    <string name="pref_security_summary_fingerprint">Для использования этой функции требуется система Android 6.0 и выше</string>
     <!-- about -->
     <string name="pref_about_title_contact">Сообщить об ошибке</string>
     <string name="pref_about_title_support">Оценка и отзыв</string>
