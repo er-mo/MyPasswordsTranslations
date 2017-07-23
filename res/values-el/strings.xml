@@ -52,7 +52,7 @@
     <string name="upgrade_feature_3">Επιλογή θέματος</string>
     <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
-    <string name="upgrade_feature_6">Είσοδος με τη χρήση δακτυλικού αποτυπώματος</string>
+    <string name="upgrade_feature_6">Είσοδος με δακτυλικό αποτύπωμα</string>
     <string name="upgrade_feature_7">Wearable εφαρμογή</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
@@ -72,7 +72,7 @@
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
     <string name="menu_new">Νέα καταχώρηση</string>
     <string name="menu_share">Κοινοποίηση</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_color">Χρώμα</string>
