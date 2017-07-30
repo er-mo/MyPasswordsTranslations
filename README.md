@@ -12,6 +12,7 @@ I will then take the updated translation files and put them into the main applic
 Users who have contributed so far:
 
 - [shavn](https://github.com/shavn) - Polish
+- [Gabriel Komorov](https://github.com/oh1apps) - Polish
 - [Atd1337](https://github.com/Atd1337) - Swedish
 - [channingbox](https://github.com/channingbox) - Chinese (simplified)
 - [Eric Deng](https://github.com/Eric850130) - Chinese (traditional)
