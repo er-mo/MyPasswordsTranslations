@@ -26,7 +26,7 @@
     <string name="notes">Opis</string>
     <string name="list_is_empty">Nie ma wpisów!</string>
     <string name="last_updated">Aktualizacja</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(kopia)</string>
     <!-- ################################################################################# -->
 
 
@@ -35,9 +35,9 @@
     <string name="button_enter">WEJDŹ</string>
     <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
     <string name="button_update">AKTUALIZUJ</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_sure">SURE</string>
+    <string name="button_exit">WYJDŹ</string>
+    <string name="button_gotit">ROZUMIEM</string>
+    <string name="button_sure">JASNE</string>
     <!-- ################################################################################# -->
 
 
@@ -50,10 +50,10 @@
     <string name="upgrade_feature_1">Import &amp; eksport plików CSV</string>
     <string name="upgrade_feature_2">Automatycznego tworzenia kopii zapasowych</string>
     <string name="upgrade_feature_3">Wybór tematu</string>
-    <string name="upgrade_feature_4">Clipboard clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
-    <string name="upgrade_feature_7">Wearable app</string>
+    <string name="upgrade_feature_4">Czyszczenie schowka</string>
+    <string name="upgrade_feature_5">Autodestrukcja</string>
+    <string name="upgrade_feature_6">Wejdż używając odcisku palca</string>
+    <string name="upgrade_feature_7">Aplikacja Wear</string>
     <string name="upgrade_accept">Poprzez zakup wersji PRO akceptujesz następujące<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">postanowienia</string>
     <!-- change master password -->
@@ -71,20 +71,20 @@
     <string name="menu_about">O aplikacji</string>
     <string name="menu_upgrade">Przejdź na PRO</string>
     <string name="menu_new">Nowy</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_copy_entry">Kopiuj</string>
     <string name="menu_edit">Edytuj</string>
     <string name="menu_delete">Usuń</string>
     <string name="menu_color">Kolor</string>
-    <string name="menu_discard">Discard</string>
-    <string name="menu_save">Save</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_discard">Odrzuć</string>
+    <string name="menu_save">Zapisz</string>
+    <string name="menu_keyboard">Klawiatura</string>
+    <string name="menu_add_to_wear">Dodaj do Wear</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
+    <string name="toast_tap_again_to_exit">Dotknij ponownie by wyjść</string>
     <string name="toast_entry_deleted">Wpis usunięty</string>
     <string name="toast_entries_deleted">Wpisy usunięte</string>
     <string name="toast_entry_saved">Zapisano</string>
@@ -106,10 +106,10 @@
     <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
     <string name="toast_error_csv_import">Nie udało się zaimportować pliku CSV</string>
     <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
-    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
+    <string name="toast_fingerprint_disabled">Logowanie odciskiem palca wyłączone</string>
+    <string name="toast_added_to_wear">Dodano do Wear</string>
+    <string name="toast_removed_from_wear">Usunięto z Wear</string>
+    <string name="toast_wear_only_pro_users">Funkcje Wear dostępne w wersji PRO</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
@@ -190,8 +190,8 @@
     <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
     <string name="pref_database_title_restore">Przywróć bazę danych</string>
     <string name="pref_database_summary_restore">Przywraca kopię zapasową bazy danych</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
+    <string name="pref_database_title_gd_auto_backup">Kopia zapasowa Google Drive</string>
+    <string name="pref_database_summary_gd_auto_backup">Twórz automatyczne kopie zapasowe na Dysku Google</string>
     <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
     <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Eksportuj plik CSV</string>
@@ -204,29 +204,29 @@
     <string name="pref_security_summary_fast_enter">Jeśli główne hasło jest poprawne, automatycznie otwiera aplikację.</string>
     <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
     <string name="pref_security_summary_auto_exit">Wyłączenie ekranu zamknie aplikację.</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
+    <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
+    <string name="pref_security_clipboard_clear_never">Nigdy</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>
     <string name="pref_security_clipboard_clear_two_min">2 min</string>
     <string name="pref_security_clipboard_clear_three_min">3 min</string>
     <string name="pref_security_clipboard_clear_four_min">4 min</string>
     <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_self_destruct">Liczba błędnych logowań</string>
+    <string name="pref_security_self_destruct_unlimited">Bez ograniczeń</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Loguj odciskiem palca</string>
+    <string name="pref_security_summary_fingerprint">Do tego potrzebny jest Android 6.0 lub nowszy</string>
     <!-- about -->
     <string name="pref_about_title_contact">Zgłoś błąd</string>
     <string name="pref_about_title_support">Oceń</string>
     <string name="pref_about_title_more_apps">Więcej aplikacji</string>
     <string name="pref_about_title_share">Poleć znajomym</string>
     <string name="pref_about_title_translations">Tłumaczenia</string>
-    <string name="pref_about_title_licenses">Licence open source</string>
+    <string name="pref_about_title_licenses">Licencje open source</string>
     <string name="pref_about_title_build_version">Build</string>
     <!-- ################################################################################# -->
 
@@ -237,10 +237,10 @@
     <string name="pref_category_database">BAZA DANYCH</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATYCZNA KOPIA ZAPASOWA</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">BEZPIECZEŃSTWO</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
     <!-- ################################################################################# -->
 
 </resources>
