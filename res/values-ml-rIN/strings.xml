@@ -186,8 +186,10 @@
     <string name="pref_appearance_theme_light">Light</string>
     <string name="pref_appearance_theme_dark">Dark</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database</string>
+    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
     <string name="pref_database_title_restore">Restore database</string>
     <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
