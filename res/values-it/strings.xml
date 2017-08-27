@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Backup della banca dati</string>
     <string name="pref_database_summary_backup">Creare un backup della banca dati crittografato</string>
     <string name="pref_database_title_restore">Ripristino della banca dati</string>

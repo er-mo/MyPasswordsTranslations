@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Zálohovat databázi</string>
     <string name="pref_database_summary_backup">Vytvořit zálohu šifrované databáze</string>
     <string name="pref_database_title_restore">Obnovit databázi</string>

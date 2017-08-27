@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Δημιουργία αντιγράφου ασφαλείας</string>
     <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
     <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>

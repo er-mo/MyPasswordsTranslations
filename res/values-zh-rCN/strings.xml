@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">备份数据库</string>
     <string name="pref_database_summary_backup">创建加密数据库备份</string>
     <string name="pref_database_title_restore">恢复数据库</string>

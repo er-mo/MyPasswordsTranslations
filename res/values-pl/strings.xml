@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Kopia zapasowa bazy danych.</string>
     <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
     <string name="pref_database_title_restore">Przywróć bazę danych</string>

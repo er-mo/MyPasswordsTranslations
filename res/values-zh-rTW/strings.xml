@@ -186,6 +186,8 @@
     <string name="pref_appearance_theme_light">明亮</string>
     <string name="pref_appearance_theme_dark">黑暗</string>
     <!-- database -->
+    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">備份資料庫</string>
     <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
     <string name="pref_database_title_restore">還原資料庫</string>
