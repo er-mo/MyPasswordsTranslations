@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Hesla se neshodují</string>
     <string name="password_not_correct">Heslo není správné</string>
     <string name="required">Povinné</string>
-    <string name="empty_title">Empty Title</string>
     <string name="title">Název</string>
     <string name="account">Účet</string>
     <string name="password">Heslo</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">UPGRADE NOW</string>
     <string name="button_update">AKTUALIZOVAT</string>
     <string name="button_exit">ODEJÍT</string>
-    <string name="button_gotit">GOT IT</string>
     <string name="button_sure">SURE</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Hledat</string>
-    <string name="menu_overflow">Více</string>
     <string name="menu_appearance">Vzhled</string>
     <string name="menu_database">Databáze</string>
     <string name="menu_security">Zabezpečení</string>
     <string name="menu_about">O nás</string>
     <string name="menu_upgrade">Upgradovat na PRO verzi</string>
-    <string name="menu_new">Nový</string>
     <string name="menu_share">Share</string>
     <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Upravit</string>
     <string name="menu_delete">Smazat</string>
-    <string name="menu_color">Barva</string>
-    <string name="menu_discard">Discard</string>
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">Klávesnice</string>
     <string name="menu_add_to_wear">Add to wearable</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Záznam odstraněn</string>
     <string name="toast_entries_deleted">Záznamy odstraněny</string>
     <string name="toast_entry_saved">Záznam uložen</string>
-    <string name="toast_entry_discarded">Záznam zlikvidován</string>
     <string name="toast_try_again_shortly">Zkuste to prosím za pár sekund znovu</string>
     <string name="toast_no_browser">Nebyl nalezen žádný webový prohlížeč</string>
     <string name="toast_no_playstore">Obchod Google Play není nainstalován</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">Úspěšně importován cvs soubor</string>
     <string name="toast_error_csv_import">Nepodařilo se importovat cvs soubor</string>
     <string name="toast_database_server_error">Databáze není v tuto chvíli k dispozici</string>
-    <string name="toast_fingerprint_disabled">Vstup pomocí otisku prstu je zakázán</string>
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_pro_feature">Available only in PRO version</string>
+    <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
+    <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
-    <string name="dialog_msg_delete_previous_password">Vymazat předchozí heslo?</string>
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">Všechna data trvale odstraněna z důvodu mnoha neúspěšných pokusů.</string>
     <string name="dialog_msg_no_fp_hardware">Čtečka otisku prstů není k dispozici nebo není funkční.</string>
     <string name="dialog_msg_no_fp_enrolled">Nebyly nalezeny žádné zaregistrované otisky prstů. Prosím nastavte alespoň jeden otisk prstu v systémových nastaveních.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
     <string name="dialog_msg_fp_not_recognized">Otisk prstu nebyl rozpoznán. Zkuste to znovu</string>
     <string name="dialog_msg_fp_success">Otisk rozpoznán. Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotkněte se senzoru</string>
-    <string name="dialog_msg_confirm_fp">Potvrďte otisk prstu a pokračujte</string>
-    <string name="dialog_msg_fp_enrolled">Zamykací obrazovka byla resetována nebo byl otisk prstu zakázán. Prosíme znovu povolte otisk prstu v nastavení jakmile vstoupíte do aplikace pomocí hlavního hesla.</string>
     <string name="dialog_msg_remember_password">Ujistěte se, že si pamatujete hlavní heslo v případě, že nebude otisk prstu k dispozici.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>

@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Le password non combaciano</string>
     <string name="password_not_correct">La password non è corretta</string>
     <string name="required">Richiesto</string>
-    <string name="empty_title">Titolo vuoto</string>
     <string name="title">Titolo</string>
     <string name="account">Account</string>
     <string name="password">Password</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">AGGIORNA ORA</string>
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
-    <string name="button_gotit">HO CAPITO</string>
     <string name="button_sure">SICURO</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Cerca</string>
-    <string name="menu_overflow">Di più</string>
     <string name="menu_appearance">Aspetto</string>
     <string name="menu_database">Banca dati</string>
     <string name="menu_security">Sicurezza</string>
     <string name="menu_about">A proposito di</string>
     <string name="menu_upgrade">Aggiorna a PRO</string>
-    <string name="menu_new">Nuovo</string>
     <string name="menu_share">Condividi</string>
     <string name="menu_copy_entry">Crea una copia</string>
     <string name="menu_edit">Modifica</string>
     <string name="menu_delete">Cancella</string>
-    <string name="menu_color">Colore</string>
-    <string name="menu_discard">Scarta</string>
     <string name="menu_save">Salva</string>
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_wear">Aggiungi agli indossabili</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Voce eliminata</string>
     <string name="toast_entries_deleted">Voci eliminate</string>
     <string name="toast_entry_saved">Voce salvata</string>
-    <string name="toast_entry_discarded">L\'ingresso senza titolo è stato scartato</string>
     <string name="toast_try_again_shortly">Riprova ancora dopo pochi secondi</string>
     <string name="toast_no_browser">Nessuna applicazione per il browser web trovata</string>
     <string name="toast_no_playstore">Google Play store non è installato</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">File csv importato con successo</string>
     <string name="toast_error_csv_import">Importazione del file csv fallita</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
-    <string name="toast_fingerprint_disabled">L\'entrata usando l\'impronta digitale è stata disabilitata</string>
     <string name="toast_added_to_wear">Aggiunto agli indossabili</string>
     <string name="toast_removed_from_wear">Rimosso dagli indossabili</string>
-    <string name="toast_wear_only_pro_users">Le funzioni degli indossabili sono solo disponibili nella versione PRO</string>
     <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
-    <string name="toast_activate_auto_backup">Attiva l\'auto backup per proteggere i tuoi dati</string>
-    <string name="toast_auto_save_tip">Premi indietro per salvare la voce</string>
     <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
+    <string name="toast_pro_feature">Available only in PRO version</string>
+    <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Auto distruzione</string>
     <string name="dialog_title_rate_and_review">Valuta e recensisci?</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
+    <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
-    <string name="dialog_msg_delete_previous_password">Eliminare la password precedente?</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">Tutti i dati sono stati eliminati in modo permanente a causa dei tentativi falliti.</string>
     <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non è funzionante.</string>
     <string name="dialog_msg_no_fp_enrolled">Le impronte digitali registrate non sono state trovate. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
-    <string name="dialog_msg_no_fp_keyguard">La schermata di blocco sicura deve essere abilitata per utilizzare la funzione di impronte digitali.</string>
     <string name="dialog_msg_fp_not_recognized">Impronta digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Impronta Digitale</string>
-    <string name="dialog_msg_confirm_fp">Conferma l\'impronta digitale per continuare</string>
-    <string name="dialog_msg_fp_enrolled">La schermata di blocco è stata resettata o un impronta digitale non iscritta. Si prega di riattivare l\'impostazione delle impronte digitali una volta entrati nell\'applicazione utilizzando la password principale.</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>

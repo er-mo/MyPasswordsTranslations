@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
     <string name="required">没有填写内容</string>
-    <string name="empty_title">Empty Title</string>
     <string name="title">标题</string>
     <string name="account">账户</string>
     <string name="password">密码</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
     <string name="button_exit">退出</string>
-    <string name="button_gotit">GOT IT</string>
     <string name="button_sure">SURE</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">搜索</string>
-    <string name="menu_overflow">更多</string>
     <string name="menu_appearance">外观</string>
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
     <string name="menu_about">关于</string>
     <string name="menu_upgrade">升级到专业版</string>
-    <string name="menu_new">新建</string>
     <string name="menu_share">分享</string>
     <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
-    <string name="menu_color">颜色</string>
-    <string name="menu_discard">丢弃</string>
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_wear">添加到可穿戴设备</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">条目被删除</string>
     <string name="toast_entries_deleted">条目被删除</string>
     <string name="toast_entry_saved">条目已保存</string>
-    <string name="toast_entry_discarded">条目被丢弃</string>
     <string name="toast_try_again_shortly">请稍后再试</string>
     <string name="toast_no_browser">未找到网页浏览器应用程序</string>
     <string name="toast_no_playstore">未安装 Google Play 商店应用</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">CSV 文件导入成功</string>
     <string name="toast_error_csv_import">CSV 文件导入失败</string>
     <string name="toast_database_server_error">数据库当前不可用。</string>
-    <string name="toast_fingerprint_disabled">指纹登录功能已禁用</string>
     <string name="toast_added_to_wear">添加到可穿戴设备</string>
     <string name="toast_removed_from_wear">从可穿戴设备中移除</string>
-    <string name="toast_wear_only_pro_users">可穿戴设备支持只针对专业版开放</string>
     <string name="toast_playstore_error">Google Play 应用商店尚未安装</string>
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
-    <string name="toast_activate_auto_backup">激活自动备份以保护您的数据</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_pro_feature">Available only in PRO version</string>
+    <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">数据库自毁</string>
     <string name="dialog_title_rate_and_review">给此应用评分</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
+    <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
-    <string name="dialog_msg_delete_previous_password">确定删除以前的密码？</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">密码登录超过限定次数，所有数据将被永久删除。</string>
     <string name="dialog_msg_no_fp_hardware">指纹硬件不存在或不工作。</string>
     <string name="dialog_msg_no_fp_enrolled">未登记指纹，请在系统设置中至少登记一个指纹。</string>
-    <string name="dialog_msg_no_fp_keyguard">使用指纹登录前请启用安全锁屏。</string>
     <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
-    <string name="dialog_msg_confirm_fp">输入指纹后继续</string>
-    <string name="dialog_msg_fp_enrolled">锁屏已重置或指纹已登记，使用主密码登录应用前请启用指纹。</string>
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>

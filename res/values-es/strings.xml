@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Las contraseñas no coinciden</string>
     <string name="password_not_correct">La contraseña no es correcta</string>
     <string name="required">Obligatorio</string>
-    <string name="empty_title">Título vacío</string>
     <string name="title">Título</string>
     <string name="account">Cuenta</string>
     <string name="password">Contraseña</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">MEJORAR AHORA</string>
     <string name="button_update">ACTUALIZAR</string>
     <string name="button_exit">SALIR</string>
-    <string name="button_gotit">ENTIENDO</string>
     <string name="button_sure">POR SUPUESTO</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Buscar</string>
-    <string name="menu_overflow">Más</string>
     <string name="menu_appearance">Apariencia</string>
     <string name="menu_database">Base de datos</string>
     <string name="menu_security">Seguridad</string>
     <string name="menu_about">Acerca de</string>
     <string name="menu_upgrade">Obtener versión PRO</string>
-    <string name="menu_new">Nuevo</string>
     <string name="menu_share">Compartir</string>
     <string name="menu_copy_entry">Hacer una copia</string>
     <string name="menu_edit">Editar</string>
     <string name="menu_delete">Eliminar</string>
-    <string name="menu_color">Color</string>
-    <string name="menu_discard">Descartar</string>
     <string name="menu_save">GUARDAR</string>
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_add_to_wear">Añadir a portátil</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Entrada eliminada</string>
     <string name="toast_entries_deleted">Entradas eliminadas</string>
     <string name="toast_entry_saved">Entrada guardada</string>
-    <string name="toast_entry_discarded">La entrada sin título fue descartada</string>
     <string name="toast_try_again_shortly">Por favor inténtalo de nuevo en unos segundos</string>
     <string name="toast_no_browser">Ninguna aplicación de navegador web encontrada</string>
     <string name="toast_no_playstore">La aplicación Google Play Store no está instalada</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">Archivo CSV importado correctamente</string>
     <string name="toast_error_csv_import">No se pudo importar el archivo CSV</string>
     <string name="toast_database_server_error">La base de datos no está disponible en este momento</string>
-    <string name="toast_fingerprint_disabled">La opción para entrar usando la huella dactilar ha sido desactivada</string>
     <string name="toast_added_to_wear">Añadido a portátil</string>
     <string name="toast_removed_from_wear">Eliminado de portátil</string>
-    <string name="toast_wear_only_pro_users">Las funciones portátiles sólo están disponibles en la versión PRO</string>
     <string name="toast_playstore_error">La aplicación Google Play Store no está instalada</string>
     <string name="toast_playstore_services_error">Google Play Services no está disponible</string>
     <string name="toast_google_client_error">No se puede conectar al cliente de Google. Verifica la conectividad de red</string>
     <string name="toast_storage_not_accessible">Almacenamiento externo no accesible</string>
-    <string name="toast_activate_auto_backup">Activa el respaldo automático para proteger tus datos</string>
-    <string name="toast_auto_save_tip">Pulsa Atrás para guardar la entrada</string>
     <string name="toast_ask_for_rating">¿Qué tal si nos calificas en Google Play Store?</string>
+    <string name="toast_pro_feature">Disponible sólo en la versión PRO</string>
+    <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Autodestrucción</string>
     <string name="dialog_title_rate_and_review">¿Calificar y comentar?</string>
     <string name="dialog_title_confirm_fp">Confirma tu huella dactilar</string>
+    <string name="dialog_title_history">Historia</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
-    <string name="dialog_msg_delete_previous_password">¿Eliminar la contraseña anterior?</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
     <string name="dialog_msg_delete_entry">¿Eliminar la entrada?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">Todos los datos han sido eliminados de forma permanente debido a los intentos fallidos.</string>
     <string name="dialog_msg_no_fp_hardware">El hardware de huella dactilar no está presente o no funciona.</string>
     <string name="dialog_msg_no_fp_enrolled">Ninguna huella dactilar registrada encontrada. Por favor configura al menos una huella dactilar en los ajustes del sistema.</string>
-    <string name="dialog_msg_no_fp_keyguard">La pantalla de bloqueo de seguridad debe estar activada para utilizar la función de huella dactilar.</string>
     <string name="dialog_msg_fp_not_recognized">Huella dactilar no reconocida. Inténtalo de nuevo</string>
     <string name="dialog_msg_fp_success">Huella dactilar reconocida. Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor táctil</string>
-    <string name="dialog_msg_confirm_fp">Confirma la huella dactilar para continuar</string>
-    <string name="dialog_msg_fp_enrolled">La pantalla de bloqueo ha sido restablecida o una huella digital fue registrada. Por favor vuelve a activar el ajuste de la huella dactilar una vez que entres la aplicación utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_remember_password">Asegúrate de recordar tu contraseña maestra en caso de que la huella dactilar ya no esté disponible.</string>
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_rate_and_review">Si te gusta usar esta aplicación, por favor toma un momento para calificarla.</string>

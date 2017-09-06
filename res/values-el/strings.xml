@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
     <string name="required">Υποχρεωτικό</string>
-    <string name="empty_title">Κενός Τίτλος</string>
     <string name="title">Τίτλος</string>
     <string name="account">Λογαριασμός</string>
     <string name="password">Κωδικός πρόσβασης</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
     <string name="button_update">ΑΛΛΑΓΗ</string>
     <string name="button_exit">ΕΞΟΔΟΣ</string>
-    <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
     <string name="button_sure">ΒΕΒΑΙΩΣ</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Αναζήτηση</string>
-    <string name="menu_overflow">Περισσότερα</string>
     <string name="menu_appearance">Εμφάνιση</string>
     <string name="menu_database">Βάση δεδομένων</string>
     <string name="menu_security">Ασφάλεια</string>
     <string name="menu_about">Σχετικά</string>
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
-    <string name="menu_new">Νέα καταχώρηση</string>
     <string name="menu_share">Κοινοποίηση</string>
     <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
-    <string name="menu_color">Χρώμα</string>
-    <string name="menu_discard">Απόρριψη</string>
     <string name="menu_save">ΑΠΟΘΗΚΕΥΣΗ</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_add_to_wear">Προσθήκη στο wearable</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Η καταχώρηση διαγράφικε</string>
     <string name="toast_entries_deleted">Οι καταχωρήσεις διαγράφηκαν</string>
     <string name="toast_entry_saved">Η καταχώρηση αποθηκεύτηκε</string>
-    <string name="toast_entry_discarded">Η καταχώρηση χωρίς τίτλο απορρίφθηκε</string>
     <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
     <string name="toast_no_browser">Δεν βρέθηκε κάποιο πρόγραμμα περιήγησης</string>
     <string name="toast_no_playstore">Η εφαρμογή Google Play δεν είναι εγκατεστημένη</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
     <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
     <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
-    <string name="toast_fingerprint_disabled">Η είσοδος με τη χρήση δακτυλικού αποτυπώματος έχει απενεργοποιηθεί</string>
     <string name="toast_added_to_wear">Προστέθηκε στο wearable</string>
     <string name="toast_removed_from_wear">Αφαιρέθηκε από το wearable</string>
-    <string name="toast_wear_only_pro_users">Η wearable εφαρμογή είναι διαθέσιμη μόνο στην PRO έκδοση</string>
     <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
     <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
-    <string name="toast_activate_auto_backup">Ενεργοποιήστε το Αυτόματο backup για να προστατέψετε τα δεδομένα σας.</string>
-    <string name="toast_auto_save_tip">Πατήστε πίσω για αποθήκευση</string>
     <string name="toast_ask_for_rating">Τι θα λέγατε για μια αξιολόγηση στο Google Play store;</string>
+    <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
+    <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
     <string name="dialog_title_rate_and_review">Αξιολόγηση;</string>
     <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
+    <string name="dialog_title_history">Ιστορικό</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
-    <string name="dialog_msg_delete_previous_password">Διαγραφή προηγούμενου κωδικού πρόσβασης;</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
     <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
     <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
-    <string name="dialog_msg_no_fp_keyguard">Το κλείδωμα οθόνης πρέπει να είναι ενεργοποιημένο για να χρησιμοποιήσετε το δακτυλικό σας αποτύπωμα.</string>
     <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
     <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
-    <string name="dialog_msg_confirm_fp">Επιβεβαιώστε το δακτυλικό σας αποτύπωμα</string>
-    <string name="dialog_msg_fp_enrolled">Η οθόνη κλειδώματος έχει γίνει επαναφορά ή ένα νέο δακτυλικό αποτύπωμα έχει εγγραφεί. Παρακαλούμε να ενεργοποιήσετε ξανά την ρύθμιση του δακτυλικού αποτυπώματος μόλις εισέλθετε στην εφαρμογή χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>

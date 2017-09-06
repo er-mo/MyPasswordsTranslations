@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
     <string name="required">Wymagane</string>
-    <string name="empty_title">Brak tytułu</string>
     <string name="title">Nazwa</string>
     <string name="account">Konto</string>
     <string name="password">Hasło</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
     <string name="button_update">AKTUALIZUJ</string>
     <string name="button_exit">WYJDŹ</string>
-    <string name="button_gotit">ROZUMIEM</string>
     <string name="button_sure">JASNE</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Szukaj</string>
-    <string name="menu_overflow">Więcej</string>
     <string name="menu_appearance">Wygląd</string>
     <string name="menu_database">Baza danych</string>
     <string name="menu_security">Bezpieczeństwo</string>
     <string name="menu_about">O aplikacji</string>
     <string name="menu_upgrade">Przejdź na PRO</string>
-    <string name="menu_new">Nowy</string>
     <string name="menu_share">Udostępnij</string>
     <string name="menu_copy_entry">Kopiuj</string>
     <string name="menu_edit">Edytuj</string>
     <string name="menu_delete">Usuń</string>
-    <string name="menu_color">Kolor</string>
-    <string name="menu_discard">Odrzuć</string>
     <string name="menu_save">Zapisz</string>
     <string name="menu_keyboard">Klawiatura</string>
     <string name="menu_add_to_wear">Dodaj do Wear</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Wpis usunięty</string>
     <string name="toast_entries_deleted">Wpisy usunięte</string>
     <string name="toast_entry_saved">Zapisano</string>
-    <string name="toast_entry_discarded">Wpis odrzucony</string>
     <string name="toast_try_again_shortly">Spróbuj ponownie za kilka sekund </string>
     <string name="toast_no_browser">Nie znaleziono przeglądarki</string>
     <string name="toast_no_playstore">Sklep Google Play jest niezainstalowany</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
     <string name="toast_error_csv_import">Nie udało się zaimportować pliku CSV</string>
     <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
-    <string name="toast_fingerprint_disabled">Logowanie odciskiem palca wyłączone</string>
     <string name="toast_added_to_wear">Dodano do Wear</string>
     <string name="toast_removed_from_wear">Usunięto z Wear</string>
-    <string name="toast_wear_only_pro_users">Funkcje Wear dostępne w wersji PRO</string>
     <string name="toast_playstore_error">Sklep Google Play jest nie zainstalowany</string>
     <string name="toast_playstore_services_error">Usługi Google Play są niedostępne</string>
     <string name="toast_google_client_error">Nie można się połączyć z klientem Google. Sprawdź połączenie z internetem</string>
     <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
-    <string name="toast_activate_auto_backup">Włącz automatyczny backup by chronić dane.</string>
-    <string name="toast_auto_save_tip">Naciśnij wstecz, aby zapisać</string>
     <string name="toast_ask_for_rating">Może ocenisz aplikację w Google Play?</string>
+    <string name="toast_pro_feature">Available only in PRO version</string>
+    <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Autodestrukcja</string>
     <string name="dialog_title_rate_and_review">Oceń i napisz opinię?</string>
     <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
+    <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
-    <string name="dialog_msg_delete_previous_password">Zmienić stare hasło?</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">Zbyt wiele prób. Wszystkie dane zostały usunięte!</string>
     <string name="dialog_msg_no_fp_hardware">Brak czytnika odcisków lub nie działa on prawidłowo.</string>
     <string name="dialog_msg_no_fp_enrolled">Brak zarejstrowanych odcisków. Dodaj przynajmniej jeden w ustawieniach systemu</string>
-    <string name="dialog_msg_no_fp_keyguard">Blokada ekranu musi być włączona aby używać odcisku palca.</string>
     <string name="dialog_msg_fp_not_recognized">Nie rozpoznano odcisku. Spróbuj ponownie</string>
     <string name="dialog_msg_fp_success">Rozpoznano odscisk. Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotknij czytnika</string>
-    <string name="dialog_msg_confirm_fp">Potwierdź odcisk by kontynuować</string>
-    <string name="dialog_msg_fp_enrolled">Wyłączono blokadę ekranu lub dodano nowy odcisk palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_remember_password">Zapamiętaj hasło główne na wypadek gdyby odcisk palca był niedostępny.</string>
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_rate_and_review">Jeśli podoba ci się ta aplikacja, poświęć chwilę na jej ocenę.</string>

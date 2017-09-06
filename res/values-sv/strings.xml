@@ -17,7 +17,6 @@
     <string name="passwords_not_matching">Lösenorden matchar inte</string>
     <string name="password_not_correct">Lösenordet är felaktigt</string>
     <string name="required">Nödvändig</string>
-    <string name="empty_title">Empty Title</string>
     <string name="title">Titel</string>
     <string name="account">Konto</string>
     <string name="password">Lösenord</string>
@@ -36,7 +35,6 @@
     <string name="button_upgrade_now">UPGRADERA NU</string>
     <string name="button_update">UPPDATERA</string>
     <string name="button_exit">EXIT</string>
-    <string name="button_gotit">GOT IT</string>
     <string name="button_sure">SURE</string>
     <!-- ################################################################################# -->
 
@@ -64,19 +62,15 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Sök</string>
-    <string name="menu_overflow">Mer</string>
     <string name="menu_appearance">Utseende</string>
     <string name="menu_database">Databas</string>
     <string name="menu_security">Säkerhet</string>
     <string name="menu_about">Om</string>
     <string name="menu_upgrade">Uppgradera till PRO</string>
-    <string name="menu_new">Ny</string>
     <string name="menu_share">Share</string>
     <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">Redigera</string>
     <string name="menu_delete">Radera</string>
-    <string name="menu_color">Färg</string>
-    <string name="menu_discard">Discard</string>
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">Keyboard</string>
     <string name="menu_add_to_wear">Add to wearable</string>
@@ -88,7 +82,6 @@
     <string name="toast_entry_deleted">Post raderad</string>
     <string name="toast_entries_deleted">Poster raderade</string>
     <string name="toast_entry_saved">Post sparad</string>
-    <string name="toast_entry_discarded">Post osparad</string>
     <string name="toast_try_again_shortly">Försök igen om några få sekunder</string>
     <string name="toast_no_browser">Webbläsartillägg hittades inte</string>
     <string name="toast_no_playstore">Google Play appen är inte installerad</string>
@@ -106,17 +99,15 @@
     <string name="toast_successful_csv_import">Lyckades importera CSV fil</string>
     <string name="toast_error_csv_import">Misslyckades att importera CSV fil</string>
     <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
-    <string name="toast_fingerprint_disabled">Enter using fingerprint has been disabled</string>
     <string name="toast_added_to_wear">Added to wearable</string>
     <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_wear_only_pro_users">Wearable features are only available in PRO version</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_activate_auto_backup">Activate auto backup to protect your data.</string>
-    <string name="toast_auto_save_tip">Press back to save the entry</string>
     <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_pro_feature">Available only in PRO version</string>
+    <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
 
 
@@ -132,9 +123,9 @@
     <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
+    <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
     <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
-    <string name="dialog_msg_delete_previous_password">Radera tidigare lösenord?</string>
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
@@ -147,12 +138,9 @@
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
     <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
     <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_no_fp_keyguard">Secure lock screen must be enabled to use fingerprint feature.</string>
     <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_confirm_fp">Confirm fingerprint to continue</string>
-    <string name="dialog_msg_fp_enrolled">The lock screen has been reset or a fingerprint got enrolled. Please re-enable the fingerprint setting once you enter the app using your master password.</string>
     <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
