@@ -52,7 +52,7 @@
     <string name="upgrade_feature_5">Функция автоматического удаления данных</string>
     <string name="upgrade_feature_6">Функция настройки отпечатка пальца</string>
     <string name="upgrade_feature_7">Функция настройки для часов</string>
-    <string name="upgrade_feature_8">Password history</string>
+    <string name="upgrade_feature_8">История паролей</string>
     <string name="upgrade_accept">Приобретая PRO версию вы принимаете следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">условия</string>
     <!-- change master password -->
@@ -107,8 +107,8 @@
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_ask_for_rating">Как насчет того, чтобы оценить нас в \"Google Play Маркет\"?</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_pro_feature">Доступно только в PRO версии</string>
+    <string name="toast_no_password_history">Нет истории паролей</string>
     <!-- ################################################################################# -->
 
 
@@ -175,8 +175,8 @@
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Поделиться базой данных</string>
+    <string name="pref_database_summary_backup_share">Создание и совместное использование резервной копии зашифрованной базы данных</string>
     <string name="pref_database_title_backup">Резервное копирование</string>
     <string name="pref_database_summary_backup">Создать резервную копию зашифрованной базы данных</string>
     <string name="pref_database_title_restore">Востановление</string>
