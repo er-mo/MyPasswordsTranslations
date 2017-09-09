@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Sebedestrukce</string>
     <string name="upgrade_feature_6">Vstup pomocí otisku prstu</string>
     <string name="upgrade_feature_7">Wearable app</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">Zakoupením PRO verze přijímáte následující<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">podmínky</string>
     <!-- change master password -->

@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Autodestrucción</string>
     <string name="upgrade_feature_6">Entrar usando la huella dactilar</string>
     <string name="upgrade_feature_7">Aplicación portátil</string>
+    <string name="upgrade_feature_8">Historial de contraseñas</string>
     <string name="upgrade_accept">Al comprar la versión PRO, aceptas las siguientes <xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">condiciones</string>
     <!-- change master password -->

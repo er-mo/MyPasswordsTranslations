@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Self destruction</string>
     <string name="upgrade_feature_6">Enter using fingerprint</string>
     <string name="upgrade_feature_7">Wearable app</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">通過購買PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">使用條款</string>
     <!-- change master password -->

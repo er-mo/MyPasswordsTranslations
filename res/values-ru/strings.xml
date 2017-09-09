@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Функция автоматического удаления данных</string>
     <string name="upgrade_feature_6">Функция настройки отпечатка пальца</string>
     <string name="upgrade_feature_7">Функция настройки для часов</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">Приобретая PRO версию вы принимаете следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">условия</string>
     <!-- change master password -->

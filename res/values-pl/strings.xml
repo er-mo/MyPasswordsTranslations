@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Autodestrukcja</string>
     <string name="upgrade_feature_6">Wejdź używając odcisku palca</string>
     <string name="upgrade_feature_7">Aplikacja Wear</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">Poprzez zakup wersji PRO akceptujesz następujące<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">postanowienia</string>
     <!-- change master password -->

@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Kendini imha</string>
     <string name="upgrade_feature_6">Parmak izi kullanarak giriş</string>
     <string name="upgrade_feature_7">Giyilebilir uygulama</string>
+    <string name="upgrade_feature_8">Kod geçmişi</string>
     <string name="upgrade_accept">PRO sürümünü satın alarak aşağıdaki kabul<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">şartları</string>
     <!-- change master password -->

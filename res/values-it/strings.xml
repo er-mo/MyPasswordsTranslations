@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">Autodistruzione</string>
     <string name="upgrade_feature_6">Entra usando l\'impronta digitale</string>
     <string name="upgrade_feature_7">App indossabile</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">Acquistando la versione PRO si accetta quanto segue<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">Termini</string>
     <!-- change master password -->

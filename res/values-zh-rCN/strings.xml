@@ -52,6 +52,7 @@
     <string name="upgrade_feature_5">数据库自毁功能</string>
     <string name="upgrade_feature_6">免密码指纹登录</string>
     <string name="upgrade_feature_7">可穿戴应用支持</string>
+    <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms"></string>
     <!-- change master password -->
