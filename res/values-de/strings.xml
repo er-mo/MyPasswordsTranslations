@@ -175,10 +175,10 @@
     <string name="pref_appearance_theme_light">Hell</string>
     <string name="pref_appearance_theme_dark">Dunkel</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Datenbank teilen</string>
+    <string name="pref_database_summary_backup_share">Erstellen und teilen Sie eine Sicherung der verschlüsselten Datenbank</string>
     <string name="pref_database_title_backup">Datenbank sichern</string>
-    <string name="pref_database_summary_backup">Erstellen Sie eine Sicherungskopie der verschlüsselten Datenbank</string>
+    <string name="pref_database_summary_backup">Erstellen Sie eine Sicherung der verschlüsselten Datenbank über Android storage access framework</string>
     <string name="pref_database_title_restore">Datenbank wiederherstellen</string>
     <string name="pref_database_summary_restore">Wiederherstellen einer Sicherung einer verschlüsselten Datenbank</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive Sicherung</string>

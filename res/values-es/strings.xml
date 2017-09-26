@@ -175,10 +175,10 @@
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Compartir base de datos</string>
+    <string name="pref_database_summary_backup_share">Crear y compartir un respaldo de la base de datos cifrada</string>
     <string name="pref_database_title_backup">Respaldar base de datos</string>
-    <string name="pref_database_summary_backup">Crea un respaldo de la base de datos cifrada</string>
+    <string name="pref_database_summary_backup">Crea un respaldo de la base de datos cifrada utilizando el Android storage access framework</string>
     <string name="pref_database_title_restore">Restaurar la base de datos</string>
     <string name="pref_database_summary_restore">Restaura un respaldo de una base de datos cifrada</string>
     <string name="pref_database_title_gd_auto_backup">Respaldo de Google Drive</string>

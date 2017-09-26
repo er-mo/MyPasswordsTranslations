@@ -175,10 +175,10 @@
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Veritabanı paylaş</string>
+    <string name="pref_database_summary_backup_share">Şifrelenmiş veritabanının yedeğini oluşturun ve paylaşın</string>
     <string name="pref_database_title_backup">Yedek veritabanı</string>
-    <string name="pref_database_summary_backup">Şifrelenmiş veritabanının yedeğini oluşturun</string>
+    <string name="pref_database_summary_backup">Android storage access framework kullanarak şifrelenmiş veritabanının yedeğini oluşturun</string>
     <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
     <string name="pref_database_summary_restore">Şifrelenmiş veritabanının yedeğini geri yükleme</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive yedekleme</string>
