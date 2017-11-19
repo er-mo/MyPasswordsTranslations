@@ -55,6 +55,7 @@
     <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">Zakoupením PRO verze přijímáte následující<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">podmínky</string>
+    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
     <string name="change_mp_new_master_password">nové heslo</string>
@@ -217,6 +218,7 @@
     <string name="pref_about_title_more_apps">Více aplikací</string>
     <string name="pref_about_title_share">Řekněte o aplikaci svým přátelům</string>
     <string name="pref_about_title_translations">Překlad</string>
+    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Licence Open source</string>
     <string name="pref_about_title_build_version">Verze sestavení</string>
     <!-- ################################################################################# -->

@@ -55,6 +55,7 @@
     <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">By purchasing the PRO version you accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">terms</string>
+    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">old password</string>
     <string name="change_mp_new_master_password">new password</string>
@@ -217,6 +218,7 @@
     <string name="pref_about_title_more_apps">More apps</string>
     <string name="pref_about_title_share">Tell your friends</string>
     <string name="pref_about_title_translations">Translations</string>
+    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Open source licenses</string>
     <string name="pref_about_title_build_version">Build version</string>
     <!-- ################################################################################# -->

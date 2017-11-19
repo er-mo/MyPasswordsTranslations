@@ -55,6 +55,7 @@
     <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">通過購買PRO版本您接受以下<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">使用條款</string>
+    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">舊主密碼</string>
     <string name="change_mp_new_master_password">新主密碼</string>
@@ -217,6 +218,7 @@
     <string name="pref_about_title_more_apps">更多程式</string>
     <string name="pref_about_title_share">告訴您的朋友</string>
     <string name="pref_about_title_translations">翻譯人員</string>
+    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">開放原始碼許可證</string>
     <string name="pref_about_title_build_version">組建版本</string>
     <!-- ################################################################################# -->

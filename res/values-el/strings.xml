@@ -55,6 +55,7 @@
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
+    <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μια μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
     <string name="change_mp_new_master_password">νέος κωδικός πρόσβασης</string>
@@ -217,6 +218,7 @@
     <string name="pref_about_title_more_apps">Περισσότερες εφαρμογές</string>
     <string name="pref_about_title_share">Πείτε το στους φίλους σας</string>
     <string name="pref_about_title_translations">Μεταφράσεις</string>
+    <string name="pref_about_title_terms">Όροι και Πολιτική Απορρήτου</string>
     <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
     <string name="pref_about_title_build_version">Έκδοση</string>
     <!-- ################################################################################# -->

@@ -55,6 +55,7 @@
     <string name="upgrade_feature_8">Kod geçmişi</string>
     <string name="upgrade_accept">PRO sürümünü satın alarak aşağıdaki kabul<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">şartları</string>
+    <string name="upgrade_with_single_purchase">Tek bir uygulama içi satın alma ile tüm ek özelliklerin kilidini açın.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">eski şifre</string>
     <string name="change_mp_new_master_password">yeni şifre</string>
@@ -217,6 +218,7 @@
     <string name="pref_about_title_more_apps">Daha fazla uygulama</string>
     <string name="pref_about_title_share">Arkadaşlarına söyleyin</string>
     <string name="pref_about_title_translations">Çeviriler</string>
+    <string name="pref_about_title_terms">Şartlar ve Gizlilik Politikası</string>
     <string name="pref_about_title_licenses">Açık kaynak lisansları</string>
     <string name="pref_about_title_build_version">Sürümü kurmak</string>
     <!-- ################################################################################# -->
