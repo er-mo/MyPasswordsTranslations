@@ -73,7 +73,7 @@
     <string name="menu_copy_entry">Make a copy</string>
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">保存</string>
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_wear">添加到可穿戴设备</string>
     <!-- ################################################################################# -->
@@ -125,7 +125,7 @@
     <string name="dialog_title_self_destruct">数据库自毁</string>
     <string name="dialog_title_rate_and_review">给此应用评分</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
-    <string name="dialog_title_history">History</string>
+    <string name="dialog_title_history">历史记录</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
@@ -176,14 +176,14 @@
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">共享数据库</string>
+    <string name="pref_database_summary_backup_share">创建并共享一个加密数据库的备份</string>
     <string name="pref_database_title_backup">备份数据库</string>
     <string name="pref_database_summary_backup">创建加密数据库备份</string>
     <string name="pref_database_title_restore">恢复数据库</string>
     <string name="pref_database_summary_restore">从加密数据库恢复备份</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive 备份</string>
-    <string name="pref_database_summary_gd_auto_backup">使用 Google Drive 帐号自动创建备份</string>
+    <string name="pref_database_summary_gd_auto_backup">使用 Google Drive 网盘自动创建备份</string>
     <string name="pref_database_title_sd_auto_backup">扩展存储卡备份</string>
     <string name="pref_database_summary_sd_auto_backup">使用扩展存储卡自动创建备份 (扩展存储卡不可移除)，同时确保第三方应用有访问扩展存储卡的权限。</string>
     <string name="pref_database_title_export">导出 CSV 文件</string>
@@ -218,7 +218,7 @@
     <string name="pref_about_title_more_apps">更多应用程序</string>
     <string name="pref_about_title_share">分享给朋友</string>
     <string name="pref_about_title_translations">翻译</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
+    <string name="pref_about_title_terms">条款和隐私权政策</string>
     <string name="pref_about_title_licenses">开源许可证</string>
     <string name="pref_about_title_build_version">版本号</string>
     <!-- ################################################################################# -->
