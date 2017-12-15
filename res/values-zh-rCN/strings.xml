@@ -107,9 +107,9 @@
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_ask_for_rating">应用在 Google Play 商店评分如何？</string>
+    <string name="toast_pro_feature">仅在专业版中可用</string>
+    <string name="toast_no_password_history">没有可用的密码记录</string>
     <!-- ################################################################################# -->
 
 
