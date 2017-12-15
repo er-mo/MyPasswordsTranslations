@@ -55,7 +55,7 @@
     <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms"></string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
     <string name="change_mp_new_master_password">新的主密码</string>
