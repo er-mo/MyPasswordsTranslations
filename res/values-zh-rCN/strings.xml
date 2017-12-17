@@ -25,7 +25,7 @@
     <string name="notes">描述</string>
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
-    <string name="copy">(copy)</string>
+    <string name="copy">(副本)</string>
     <!-- ################################################################################# -->
 
 
@@ -52,7 +52,7 @@
     <string name="upgrade_feature_5">数据库自毁功能</string>
     <string name="upgrade_feature_6">免密码指纹登录</string>
     <string name="upgrade_feature_7">可穿戴应用支持</string>
-    <string name="upgrade_feature_8">密码可历史记录</string>
+    <string name="upgrade_feature_8">密码可历史追溯</string>
     <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms"></string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
@@ -162,8 +162,8 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
-    <string name="pref_appearance_title_navibar_color">导航栏颜色</string>
-    <string name="pref_appearance_summary_navibar_color">导航栏会随应用的颜色变化（Android 5.0及更高版本）</string>
+    <string name="pref_appearance_title_navibar_color">沉浸模式</string>
+    <string name="pref_appearance_summary_navibar_color">导航栏会随应用主体颜色变化（Android 5.0及更高版本）</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
