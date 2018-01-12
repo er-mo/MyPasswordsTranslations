@@ -118,7 +118,8 @@
     <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
     <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
-    <string name="dialog_button_rate_now">Αξιολόγηση</string>
+    <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
+    <string name="dialog_button_rate_now">ΑΞΙΟΛΟΓΗΣΗ</string>
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
+    <string name="dialog_msg_remove_from_wearable">Αφαίρεση της καταχώρησης από το wearable;</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

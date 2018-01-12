@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Continua</string>
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
+    <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Valuta ora</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
     <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>
     <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza.</string>
+    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
+    <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Oceń teraz</string>
     <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
     <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_rate_and_review">Jeśli podoba ci się ta aplikacja, poświęć chwilę na jej ocenę.</string>
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
+    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

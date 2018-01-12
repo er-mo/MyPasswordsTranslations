@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Continuar</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_delete">Eliminar</string>
+    <string name="dialog_button_remove">Eliminar</string>
     <string name="dialog_button_rate_now">Calificar ahora</string>
     <string name="dialog_title_restore_backup">¿Restaurar respaldo?</string>
     <string name="dialog_title_import_csv">¿Importar CSV?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_rate_and_review">Si te gusta usar esta aplicación, por favor toma un momento para calificarla.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
+    <string name="dialog_msg_remove_from_wearable">¿Eliminar la entrada de portátil?</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Fortsetzen</string>
     <string name="dialog_button_cancel">Abbrechen</string>
     <string name="dialog_button_delete">Löschen</string>
+    <string name="dialog_button_remove">Entfernen</string>
     <string name="dialog_button_rate_now">Bewerten</string>
     <string name="dialog_title_restore_backup">Sicherung wiederherstellen?</string>
     <string name="dialog_title_import_csv">CSV importieren?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
     <string name="dialog_msg_rate_and_review">Wenn Sie diese App genießen, nehmen Sie bitte einen Moment, um es zu bewerten.</string>
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
+    <string name="dialog_msg_remove_from_wearable">Eintrag von Ihr Uhr entfernen?</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

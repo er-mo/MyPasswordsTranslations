@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Продолжить</string>
     <string name="dialog_button_cancel">Отмена</string>
     <string name="dialog_button_delete">Удалить</string>
+    <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Оценить сейчас</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_rate_and_review">Если Вам понравилось данное приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
+    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">Devam</string>
     <string name="dialog_button_cancel">İptal</string>
     <string name="dialog_button_delete">Sil</string>
+    <string name="dialog_button_remove">Sil</string>
     <string name="dialog_button_rate_now">Değerlendirme</string>
     <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
     <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Parmak izi anahtar deposu hatası. Ana şifrenizi girdikten sonra lütfen parmak izini tekrar etkinleştirin.</string>
     <string name="dialog_msg_rate_and_review">Bu uygulamayı begeniyorsaniz, lütfen değerlendirmek için zaman ayırın, birkaç dakika sürebilir.</string>
     <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
+    <string name="dialog_msg_remove_from_wearable">Kayıtı Wearable\'dan sil?</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

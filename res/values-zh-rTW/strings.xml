@@ -118,6 +118,7 @@
     <string name="dialog_button_continue">繼續</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">刪除</string>
+    <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">是否還原備份？</string>
     <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
@@ -147,6 +148,7 @@
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
+    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
