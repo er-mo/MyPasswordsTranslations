@@ -19,6 +19,7 @@ Users who have contributed so far:
 - [Slayf](https://github.com/Slayf) - Russian
 - [GameRebellStudio](https://github.com/GameRebellStudio) - Czech
 - [Stex9380](https://github.com/Stex9380) - Italian
+- [DJVogel](https://github.com/DJVogel) - Dutch
 
 ### Questions?
 
