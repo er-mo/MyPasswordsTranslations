@@ -3,239 +3,239 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords App version <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_email_subject">My Passwords App versie <xliff:g id="VERSION">%1$s</xliff:g></string>
+    <string name="app_description">Een veilige en makkelijk gebruik van een pass word manager voor Android apparaten</string>
+    <string name="app_download_message">Download het nu gratis uit Google Play Store</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="target_folder">Map<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
+    <string name="current_location_folder">Locatie</string>
+    <string name="password_is_too_short">Wachtwoord is te kort</string>
+    <string name="passwords_not_matching">Wachtwoorden komen niet overeen</string>
+    <string name="password_not_correct">Het wachtwoord is niet correct</string>
+    <string name="required">Verplicht</string>
+    <string name="title">Titel</string>
     <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
+    <string name="password">Wachtwoord</string>
+    <string name="username">Gebruikersnaam</string>
     <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
+    <string name="notes">Notities</string>
+    <string name="list_is_empty">Er is niets ingevuld</string>
+    <string name="last_updated">Laatste update</string>
     <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
+    <string name="button_register">REGISTREER</string>
     <string name="button_enter">ENTER</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
+    <string name="button_upgrade_now">NU UPGRADEN</string>
     <string name="button_update">UPDATE</string>
     <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
+    <string name="button_sure">ZEKER</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">Welkom bij My Passwords</string>
+    <string name="welcome_info_content">Kies een hoofdwachtwoord om de applicatie te starten. Bij het kwijtraken van het hoofdwachtwoord is het niet meer mogelijk opgeslagen data te herstellen doordat de sync-optie wegvalt. Er wordt ten zeerste aangeraden om op regelmatige basis een backup te maken.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export &amp; import csv files</string>
+    <string name="upgrade_thank_you">Dank voor de aankoop van de PRO versie.</string>
+    <string name="upgrade_feature_1">Exporteren &amp; importen van csv bestanden</string>
     <string name="upgrade_feature_2">Auto backup</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_feature_3">Thema keuze</string>
+    <string name="upgrade_feature_4">Automatisch klembord wissen</string>
+    <string name="upgrade_feature_5">Zelfdestructie</string>
+    <string name="upgrade_feature_6">Invoer via vingerscanner</string>
     <string name="upgrade_feature_7">Wearable app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_accept">By purchasing the PRO version you accept the following<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">terms</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">Wachtwoord geschiedenis</string>
+    <string name="upgrade_accept">Bij aankoop van de PRO versie gaat u akkoord met het volgende<xliff:g id="SPACE">\u0020</xliff:g></string>
+    <string name="upgrade_terms">Voorwaarden</string>
+    <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">oude wachtwoord</string>
+    <string name="change_mp_new_master_password">nieuwe wachtwoord</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_appearance">Appearance</string>
+    <string name="menu_search">Zoeken</string>
+    <string name="menu_appearance">Weergave</string>
     <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
-    <!-- ################################################################################# -->
+    <string name="menu_security">Beveiliging</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_upgrade">Upgrade naar PRO</string>
+    <string name="menu_share">Delen</string>
+    <string name="menu_copy_entry">Maak een kopie</string>
+    <string name="menu_edit">Wijzig</string>
+    <string name="menu_delete">Wis</string>
+    <string name="menu_save">Opslaan</string>
+    <string name="menu_keyboard">Toetsenbord</string>
+    <string name="menu_add_to_wear">Aan wearable toevoegen</string>
+    <!-- #######################################################Permission granted########################## -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_error_restore">Failed to restore database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_error_csv_import">Failed to import csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_tap_again_to_exit">Tik nogmaals op het scherm om de app te verlaten</string>
+    <string name="toast_entry_deleted">Invoer gewist</string>
+    <string name="toast_entries_deleted">Invoeren gewist</string>
+    <string name="toast_entry_saved">Invoer opgeslagen</string>
+    <string name="toast_try_again_shortly">Probeer opnieuw over een paar seconden</string>
+    <string name="toast_no_browser">Geen web browser applicatie gevonden</string>
+    <string name="toast_no_playstore">Google Play store app is niet geïnstalleerd</string>
+    <string name="toast_tap_to_copy_text">Tik op de tekst om de inhoud te kopiëren</string>
+    <string name="toast_copied_to_clipboard">Naar klembord gekopiëerd</string>
+    <string name="toast_master_password_updated">Hoofdwachtwoord succesvol gewijzigd</string>
+    <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
+    <string name="toast_storage_permission_granted">Toestemming verleend</string>
+    <string name="toast_storage_permission_denied">Toestemming geweigerd. Niet mogelijk om bestanden te lezen of op te slaan.</string>
+    <string name="toast_no_file_selected">Er is geen bestand geselecteerd</string>
+    <string name="toast_successful_backup">Backup succesvol aangemaakt</string>
+    <string name="toast_successful_restore">Terugzetten van database geslaagd</string>
+    <string name="toast_error_restore">Terugzetten van database is mislukt</string>
+    <string name="toast_successful_csv_export">Exporteren van csv bestand geslaagd</string>
+    <string name="toast_successful_csv_import">Importeren van csv bestand geslaagd</string>
+    <string name="toast_error_csv_import">Importeren van csv bestand mislukt</string>
+    <string name="toast_database_server_error">De database is momenteel niet beschikbaar</string>
+    <string name="toast_added_to_wear">Aan wearable toegevoegd</string>
+    <string name="toast_removed_from_wear">Van wearable verwijderd</string>
+    <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
+    <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
+    <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
+    <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
+    <string name="toast_ask_for_rating">Wilt u de app beoordelen in de Google Play store?</string>
+    <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
+    <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_button_rate_now">Rate Now</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_error_writing_file">An error occurred while writing the file:</string>
-    <string name="dialog_msg_error_reading_file">An error occurred while reading the file:</string>
-    <string name="dialog_msg_invalid_csv_format">The selected csv file has an invalid format and cannot be imported.</string>
-    <string name="dialog_msg_invalid_db_format">The selected backup file was created using a different master password and cannot be restored.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_continue">Doorgaan</string>
+    <string name="dialog_button_cancel">Afbreken</string>
+    <string name="dialog_button_delete">Wis</string>
+    <string name="dialog_button_remove">Verwijder</string>
+    <string name="dialog_button_rate_now">Beoordeel Nu</string>
+    <string name="dialog_title_restore_backup">Backup terugzetten?</string>
+    <string name="dialog_title_import_csv">csv importeren?</string>
+    <string name="dialog_title_change_master_password">Hoofdwachtwoord veranderen?</string>
+    <string name="dialog_title_self_destruct">Zelfvernietiging</string>
+    <string name="dialog_title_rate_and_review">Beoordeel en recenseer?</string>
+    <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
+    <string name="dialog_title_history">Geschiedenis</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
+    <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
+    <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
+    <string name="dialog_msg_delete_entry">Invoer wissen?</string>
+    <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
+    <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>
+    <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
+    <string name="dialog_msg_error_writing_file">Er is een fout opgetreden tijdens het opslaan van het bestand:</string>
+    <string name="dialog_msg_error_reading_file">Er is een fout opgetreden tijdens het lezen van het bestand:</string>
+    <string name="dialog_msg_invalid_csv_format">Het gekozen csv bestand heeft een onherkenbaar formaat en kan niet worden geïmporteerd.</string>
+    <string name="dialog_msg_invalid_db_format">Het gekozen backup bestand heeft een ander hoofdwachtwoord en kan niet worden teruggezet.</string>
+    <string name="dialog_msg_app_data_erased">Alle data is gewist door het aantal mislukte pogingen.</string>
+    <string name="dialog_msg_no_fp_hardware">De vingerscanner is niet aanwezig of niet functioneel.</string>
+    <string name="dialog_msg_no_fp_enrolled">Geen geregistreerde vingerafdrukken gevonden. Stel via systeeminstellingen ten minste één vingerafdruk in.</string>
+    <string name="dialog_msg_fp_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
+    <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
+    <string name="dialog_msg_remember_password">Zorg er voor dat je het hoofdwachtwoord onthoud voor het geval dat de vingerscanner niet werkt of niet beschikbaar is.</string>
+    <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
+    <string name="dialog_msg_rate_and_review">Als de app je bevalt, zou je hem willen beoordelen?</string>
+    <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
+    <string name="dialog_msg_remove_from_wearable">Invoer van wearable verwijderen?</string>
+    <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Applicatie is bezig</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">Invoer sorteren</string>
+    <string name="pref_appearance_sorting_choise_alpha">Op alfabet</string>
+    <string name="pref_appearance_sorting_choise_time">Op datum</string>
+    <string name="pref_appearance_sorting_choise_color">Op kleur</string>
+    <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
+    <string name="pref_appearance_summary_navibar_color"> De primaire donkere kleur wordt ook toegepast op de navigatiebalk (Android 5.0 en hoger)</string>
+    <string name="pref_appearance_title_show_notification">Melding</string>
+    <string name="pref_appearance_summary_show_notification">Herkennen dat de applicatie ontgrendeld en actief is</string>
+    <string name="pref_appearance_title_show_passwords">Laat wachtwoord zien</string>
+    <string name="pref_appearance_summary_show_passwords">Je hoeft niet op het oog icoon te tikken</string>
+    <string name="pref_appearance_title_show_account">Toon account</string>
+    <string name="pref_appearance_summary_show_account">De account naam is in de hoofdlijst te zien indien beschikbaar</string>
+    <string name="pref_appearance_title_stay_awake">Blijf actief</string>
+    <string name="pref_appearance_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
+    <string name="pref_appearance_title_change_theme">Verander thema</string>
+    <string name="pref_appearance_theme_light">Licht</string>
+    <string name="pref_appearance_theme_dark">Donker</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Database delen</string>
+    <string name="pref_database_summary_backup_share">Maak en deel een backup van de versleutelde database</string>
     <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
+    <string name="pref_database_summary_backup">Maak een backup van de versleutelde database door gebruik te maken van Android storage access framework</string>
+    <string name="pref_database_title_restore">Database herstellen</string>
+    <string name="pref_database_summary_restore">Herstel een back-up van een versleutelde database</string>
     <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_summary_gd_auto_backup">Creëer auto-backups in je persoonlijke Google Drive account</string>
+    <string name="pref_database_title_sd_auto_backup">Externe opslag backup</string>
+    <string name="pref_database_summary_sd_auto_backup">Creëer auto-backups op je externe opslag (sd of interne niet-verplaatsbare opslag). Je krijgt toegang tot externe opslag door gebruik te maken van een 3rd party file manager app</string>
+    <string name="pref_database_title_export">Exporteer csv bestand</string>
+    <string name="pref_database_summary_export">Exporteer de invoer naar een niet versleuteld csv bestand</string>
+    <string name="pref_database_title_import">Importeer csv bestand</string>
+    <string name="pref_database_summary_import">Importeer de invoer van een niet versleuteld csv bestand</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
+    <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
+    <string name="pref_security_title_fast_enter">Snelle invoer</string>
+    <string name="pref_security_summary_fast_enter">Sneller toegang tot de app door niet op ENTER te drukken als het hoofdwachtwoord juist is</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
+    <string name="pref_security_summary_auto_exit">Deze applicatie sluit vanzelf af als het scherm uit gaat</string>
+    <string name="pref_security_title_clipboard_clear">Wis klembord geheugen</string>
+    <string name="pref_security_clipboard_clear_never">Nooit</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>
     <string name="pref_security_clipboard_clear_two_min">2 min</string>
     <string name="pref_security_clipboard_clear_three_min">3 min</string>
     <string name="pref_security_clipboard_clear_four_min">4 min</string>
     <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_self_destruct">Mislukte wachtwoord invoer pogingen</string>
+    <string name="pref_security_self_destruct_unlimited">Oneindig</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Toegang door vingerafdruk</string>
+    <string name="pref_security_summary_fingerprint">Voor deze optie is Android 6.0 of hoger en compatible hardware nodig</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Meld een bug</string>
+    <string name="pref_about_title_support">Beoordeel en schrijf een recensie</string>
+    <string name="pref_about_title_more_apps">Meer apps</string>
+    <string name="pref_about_title_share">Vertel het door</string>
+    <string name="pref_about_title_translations">Vertalingen</string>
+    <string name="pref_about_title_terms">Voorwaarden en privacybeleid</string>
+    <string name="pref_about_title_licenses">Open source licenties</string>
+    <string name="pref_about_title_build_version">Build versie</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
+    <string name="pref_category_appearance">WEERGAVEN</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
     <string name="pref_category_database">DATABASE</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">BEVEILIGING</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>VINGERSCANNER</string>
     <!-- ################################################################################# -->
 
 </resources>
