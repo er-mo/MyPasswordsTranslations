@@ -16,6 +16,7 @@
     <string name="password_is_too_short">Ο κωδικός είναι πολύ μικρός</string>
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
+    <string name="password_not_only_numbers">Ο κωδικός δεν περιέχει μόνο αριθμούς</string>
     <string name="required">Υποχρεωτικό</string>
     <string name="title">Τίτλος</string>
     <string name="account">Λογαριασμός</string>
@@ -51,7 +52,7 @@
     <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
     <string name="upgrade_feature_6">Είσοδος με δακτυλικό αποτύπωμα</string>
-    <string name="upgrade_feature_7">Wearable εφαρμογή</string>
+    <string name="upgrade_feature_7">Android Wear εφαρμογή</string>
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
     <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">όρους</string>
@@ -68,6 +69,7 @@
     <string name="menu_database">Βάση δεδομένων</string>
     <string name="menu_security">Ασφάλεια</string>
     <string name="menu_about">Σχετικά</string>
+    <string name="menu_android_wear">Android Wear</string>
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
     <string name="menu_share">Κοινοποίηση</string>
     <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
@@ -148,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
-    <string name="dialog_msg_remove_from_wearable">Αφαίρεση της καταχώρησης από το wearable;</string>
+    <string name="dialog_msg_remove_from_wear">Αφαίρεση της καταχώρησης από το wearable;</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -223,6 +225,9 @@
     <string name="pref_about_title_terms">Όροι και Πολιτική Απορρήτου</string>
     <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
     <string name="pref_about_title_build_version">Έκδοση</string>
+    <!-- android wear -->
+    <string name="pref_android_wear_title_wear_password">Wearable κωδικός</string>
+    <string name="pref_android_wear_summary_wear_password">Περιορίστε την πρόσβαση στο wearable με τη χρήση κωδικού</string>
     <!-- ################################################################################# -->
 
 
@@ -236,6 +241,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΔΑΚΤΥΛΙΚΟ ΑΠΟΤΥΠΩΜΑ</string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
     <!-- ################################################################################# -->
 
 </resources>

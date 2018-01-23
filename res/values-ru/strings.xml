@@ -16,6 +16,7 @@
     <string name="password_is_too_short">Пароль слишком короткий</string>
     <string name="passwords_not_matching">Пароли не совпадают</string>
     <string name="password_not_correct">Пароль введен не верно</string>
+    <string name="password_not_only_numbers">Password contains not only numbers</string>
     <string name="required">Необходимо заполнить</string>
     <string name="title">Заголовок</string>
     <string name="account">Аккаунт</string>
@@ -68,6 +69,7 @@
     <string name="menu_database">База данных</string>
     <string name="menu_security">Безопасность</string>
     <string name="menu_about">Об приложении</string>
+    <string name="menu_android_wear">Android Wear</string>
     <string name="menu_upgrade">Обновление до PRO версии</string>
     <string name="menu_share">Поделиться</string>
     <string name="menu_copy_entry">Сделать копию</string>
@@ -148,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_rate_and_review">Если Вам понравилось данное приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
-    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -223,6 +225,9 @@
     <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Лицензция</string>
     <string name="pref_about_title_build_version">Версия сборки</string>
+    <!-- android wear -->
+    <string name="pref_android_wear_title_wear_password">Wear password</string>
+    <string name="pref_android_wear_summary_wear_password">Restrict the access on the wearable by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -236,6 +241,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>БУФЕР ОБМЕНА</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>САМОУНИЧТОЖЕНИЕ</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ОТПЕЧАТОК ПАЛЬЦА</string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
     <!-- ################################################################################# -->
 
 </resources>

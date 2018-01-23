@@ -16,6 +16,7 @@
     <string name="password_is_too_short">Zakrótkie hasło!</string>
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
+    <string name="password_not_only_numbers">Password contains not only numbers</string>
     <string name="required">Wymagane</string>
     <string name="title">Nazwa</string>
     <string name="account">Konto</string>
@@ -68,6 +69,7 @@
     <string name="menu_database">Baza danych</string>
     <string name="menu_security">Bezpieczeństwo</string>
     <string name="menu_about">O aplikacji</string>
+    <string name="menu_android_wear">Android Wear</string>
     <string name="menu_upgrade">Przejdź na PRO</string>
     <string name="menu_share">Udostępnij</string>
     <string name="menu_copy_entry">Kopiuj</string>
@@ -148,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_rate_and_review">Jeśli podoba ci się ta aplikacja, poświęć chwilę na jej ocenę.</string>
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
-    <string name="dialog_msg_remove_from_wearable">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -223,6 +225,9 @@
     <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Licencje open source</string>
     <string name="pref_about_title_build_version">Build</string>
+    <!-- android wear -->
+    <string name="pref_android_wear_title_wear_password">Wear password</string>
+    <string name="pref_android_wear_summary_wear_password">Restrict the access on the wearable by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -236,6 +241,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
     <!-- ################################################################################# -->
 
 </resources>

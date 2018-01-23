@@ -16,6 +16,7 @@
     <string name="password_is_too_short">La contraseña es muy corta</string>
     <string name="passwords_not_matching">Las contraseñas no coinciden</string>
     <string name="password_not_correct">La contraseña no es correcta</string>
+    <string name="password_not_only_numbers">La contraseña no solo contiene números</string>
     <string name="required">Obligatorio</string>
     <string name="title">Título</string>
     <string name="account">Cuenta</string>
@@ -68,6 +69,7 @@
     <string name="menu_database">Base de datos</string>
     <string name="menu_security">Seguridad</string>
     <string name="menu_about">Acerca de</string>
+    <string name="menu_android_wear">Android Wear</string>
     <string name="menu_upgrade">Obtener versión PRO</string>
     <string name="menu_share">Compartir</string>
     <string name="menu_copy_entry">Hacer una copia</string>
@@ -148,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_rate_and_review">Si te gusta usar esta aplicación, por favor toma un momento para calificarla.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
-    <string name="dialog_msg_remove_from_wearable">¿Eliminar la entrada de portátil?</string>
+    <string name="dialog_msg_remove_from_wear">¿Eliminar la entrada de portátil?</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -223,6 +225,9 @@
     <string name="pref_about_title_terms">Términos y política de privacidad</string>
     <string name="pref_about_title_licenses">Licencias de código abierto</string>
     <string name="pref_about_title_build_version">Versión</string>
+    <!-- android wear -->
+    <string name="pref_android_wear_title_wear_password">Contraseña en portátil</string>
+    <string name="pref_android_wear_summary_wear_password">Restrinja el acceso en el dispositivo portátil usando una contraseña</string>
     <!-- ################################################################################# -->
 
 
@@ -236,6 +241,7 @@
     <string name="pref_category_clipboard">PORTAPAPELES <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_self_destruct">AUTODESTRUCCIÓN <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_fingerprint">HUELLA DACTILAR <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
     <!-- ################################################################################# -->
 
 </resources>

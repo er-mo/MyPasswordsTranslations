@@ -16,6 +16,7 @@
     <string name="password_is_too_short">Passwort ist zu kurz</string>
     <string name="passwords_not_matching">Passwörter stimmen nicht</string>
     <string name="password_not_correct">Das Passwort ist nicht korrekt</string>
+    <string name="password_not_only_numbers">Passwort enthält nicht nur Zahlen</string>
     <string name="required">Erforderlich</string>
     <string name="title">Titel</string>
     <string name="account">Konto</string>
@@ -51,7 +52,7 @@
     <string name="upgrade_feature_4">Zwischenablage leeren</string>
     <string name="upgrade_feature_5">Selbstzerstörung</string>
     <string name="upgrade_feature_6">Anmelden mit Fingerabdruck</string>
-    <string name="upgrade_feature_7">Wearable Anwendung</string>
+    <string name="upgrade_feature_7">Android Wear Anwendung</string>
     <string name="upgrade_feature_8">Passwort historie</string>
     <string name="upgrade_accept">Mit dem Einkauf der PRO Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="upgrade_terms">Bedingungen</string>
@@ -68,6 +69,7 @@
     <string name="menu_database">Datenbank</string>
     <string name="menu_security">Sicherheit</string>
     <string name="menu_about">Über Meine Passwörter</string>
+    <string name="menu_android_wear">Android Wear</string>
     <string name="menu_upgrade">Upgrade zur PRO</string>
     <string name="menu_share">Teilen</string>
     <string name="menu_copy_entry">Kopie erstellen</string>
@@ -148,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
     <string name="dialog_msg_rate_and_review">Wenn Sie diese App genießen, nehmen Sie bitte einen Moment, um es zu bewerten.</string>
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
-    <string name="dialog_msg_remove_from_wearable">Eintrag von Ihr Uhr entfernen?</string>
+    <string name="dialog_msg_remove_from_wear">Eintrag von Ihr Uhr entfernen?</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -223,6 +225,9 @@
     <string name="pref_about_title_terms">Nutzungsbedingungen und Datenschutz</string>
     <string name="pref_about_title_licenses">Open Source Lizenzen</string>
     <string name="pref_about_title_build_version">Build Version</string>
+    <!-- android wear -->
+    <string name="pref_android_wear_title_wear_password">Uhr Passwort</string>
+    <string name="pref_android_wear_summary_wear_password">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
     <!-- ################################################################################# -->
 
 
@@ -236,6 +241,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZWISCHENABLAGE</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELBSTZERSTÖRUNG</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERABDRUCK</string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
     <!-- ################################################################################# -->
 
 </resources>
