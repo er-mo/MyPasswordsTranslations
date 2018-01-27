@@ -226,8 +226,8 @@
     <string name="pref_about_title_licenses">Licencje open source</string>
     <string name="pref_about_title_build_version">Build</string>
     <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password">Restrict the access on the wearable by using a password</string>
+    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
+    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
     <!-- ################################################################################# -->
 
 

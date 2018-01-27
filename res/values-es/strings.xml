@@ -226,8 +226,8 @@
     <string name="pref_about_title_licenses">Licencias de código abierto</string>
     <string name="pref_about_title_build_version">Versión</string>
     <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password">Contraseña en portátil</string>
-    <string name="pref_android_wear_summary_wear_password">Restrinja el acceso en el dispositivo portátil usando una contraseña</string>
+    <string name="pref_android_wear_title_wear_password_enabled">Contraseña en portátil</string>
+    <string name="pref_android_wear_summary_wear_password_enabled">Restrinja el acceso en el dispositivo portátil usando una contraseña</string>
     <!-- ################################################################################# -->
 
 

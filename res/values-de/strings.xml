@@ -226,8 +226,8 @@
     <string name="pref_about_title_licenses">Open Source Lizenzen</string>
     <string name="pref_about_title_build_version">Build Version</string>
     <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password">Uhr Passwort</string>
-    <string name="pref_android_wear_summary_wear_password">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
+    <string name="pref_android_wear_title_wear_password_enabled">Uhr Passwort</string>
+    <string name="pref_android_wear_summary_wear_password_enabled">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
     <!-- ################################################################################# -->
 
 

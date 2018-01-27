@@ -226,8 +226,8 @@
     <string name="pref_about_title_licenses">Açık kaynak lisansları</string>
     <string name="pref_about_title_build_version">Sürümü kurmak</string>
     <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password">Android Wear şifresi</string>
-    <string name="pref_android_wear_summary_wear_password">Bir şifre kullanarak Android Wear\'daki erişimi kısıtlayın</string>
+    <string name="pref_android_wear_title_wear_password_enabled">Android Wear şifresi</string>
+    <string name="pref_android_wear_summary_wear_password_enabled">Bir şifre kullanarak Android Wear\'daki erişimi kısıtlayın</string>
     <!-- ################################################################################# -->
 
 
