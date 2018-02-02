@@ -4,7 +4,7 @@
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
     <string name="app_email_subject">My Passwords App versie <xliff:g id="VERSION">%1$s</xliff:g></string>
-    <string name="app_description">Een veilige en makkelijk gebruik van een pass word manager voor Android apparaten</string>
+    <string name="app_description">Een veilig en makkelijk gebruik van een password manager voor alle Android apparaten</string>
     <string name="app_download_message">Download het nu gratis uit Google Play Store</string>
     <!-- ################################################################################# -->
 
@@ -19,13 +19,13 @@
     <string name="password_not_only_numbers">Password contains not only numbers</string>
     <string name="required">Verplicht</string>
     <string name="title">Titel</string>
-    <string name="account">Account</string>
+    <string name="account">Account naam</string>
     <string name="password">Wachtwoord</string>
     <string name="username">Gebruikersnaam</string>
     <string name="website">Website</string>
     <string name="notes">Notities</string>
     <string name="list_is_empty">Er is niets ingevuld</string>
-    <string name="last_updated">Laatste update</string>
+    <string name="last_updated">Laatst bijgewerkt op</string>
     <string name="copy">(copy)</string>
     <!-- ################################################################################# -->
 
@@ -90,7 +90,7 @@
     <string name="toast_no_browser">Geen web browser applicatie gevonden</string>
     <string name="toast_no_playstore">Google Play store app is niet geïnstalleerd</string>
     <string name="toast_tap_to_copy_text">Tik op de tekst om de inhoud te kopiëren</string>
-    <string name="toast_copied_to_clipboard">Naar klembord gekopiëerd</string>
+    <string name="toast_copied_to_clipboard">naar klembord gekopiëerd</string>
     <string name="toast_master_password_updated">Hoofdwachtwoord succesvol gewijzigd</string>
     <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
     <string name="toast_storage_permission_granted">Toestemming verleend</string>
@@ -169,8 +169,8 @@
     <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
     <string name="pref_appearance_summary_navibar_color"> De primaire donkere kleur wordt ook toegepast op de navigatiebalk (Android 5.0 en hoger)</string>
     <string name="pref_appearance_title_show_notification">Melding</string>
-    <string name="pref_appearance_summary_show_notification">Herkennen dat de applicatie ontgrendeld en actief is</string>
-    <string name="pref_appearance_title_show_passwords">Laat wachtwoord zien</string>
+    <string name="pref_appearance_summary_show_notification">Icoon weergeven in meldingvenster dat de applicatie ontgrendeld en actief is</string>
+    <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
     <string name="pref_appearance_summary_show_passwords">Je hoeft niet op het oog icoon te tikken</string>
     <string name="pref_appearance_title_show_account">Toon account</string>
     <string name="pref_appearance_summary_show_account">De account naam is in de hoofdlijst te zien indien beschikbaar</string>
@@ -220,7 +220,7 @@
     <string name="pref_about_title_contact">Meld een bug</string>
     <string name="pref_about_title_support">Beoordeel en schrijf een recensie</string>
     <string name="pref_about_title_more_apps">Meer apps</string>
-    <string name="pref_about_title_share">Vertel het door</string>
+    <string name="pref_about_title_share">Bent u tevreden? Vertel het door!</string>
     <string name="pref_about_title_translations">Vertalingen</string>
     <string name="pref_about_title_terms">Voorwaarden en privacybeleid</string>
     <string name="pref_about_title_licenses">Open source licenties</string>
