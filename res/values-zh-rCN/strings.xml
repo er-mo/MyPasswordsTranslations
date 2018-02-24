@@ -16,7 +16,7 @@
     <string name="password_is_too_short">密码不能少于四位数</string>
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_not_only_numbers">密码不能仅包含数字</string>
     <string name="required">没有填写内容</string>
     <string name="title">标题</string>
     <string name="account">账户</string>
@@ -69,7 +69,7 @@
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
     <string name="menu_about">关于</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_android_wear">可穿戴设备</string>
     <string name="menu_upgrade">升级到专业版</string>
     <string name="menu_share">分享</string>
     <string name="menu_copy_entry">制做一个副本</string>
@@ -120,7 +120,7 @@
     <string name="dialog_button_continue">继续</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_remove">移除</string>
     <string name="dialog_button_rate_now">给此应用评分</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
@@ -150,7 +150,7 @@
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
-    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_wear">是否从可穿戴设备中移除条目？</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -226,8 +226,8 @@
     <string name="pref_about_title_licenses">开源许可证</string>
     <string name="pref_about_title_build_version">版本号</string>
     <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
+    <string name="pref_android_wear_title_wear_password_enabled">可穿戴设备密码</string>
+    <string name="pref_android_wear_summary_wear_password_enabled">通过使用密码来限制可穿戴设备的访问</string>
     <!-- ################################################################################# -->
 
 
@@ -241,7 +241,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪贴板</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>数据库自毁</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指纹登录</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>可穿戴设备</string>
     <!-- ################################################################################# -->
 
 </resources>
