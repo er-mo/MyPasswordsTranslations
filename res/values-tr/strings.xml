@@ -37,6 +37,7 @@
     <string name="button_update">GÜNCELLEŞTİRME</string>
     <string name="button_exit">ÇIKIŞ</string>
     <string name="button_sure">TAMAM</string>
+    <string name="button_gotit">ANLADIM</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
     <string name="toast_ask_for_rating">Google Play Store\'da değerlendirmeye ne dersiniz?</string>
+    <string name="toast_auto_backup_hint">Şifrelerinizi korumak için otomatik yedeklemeyi etkinleştirin</string>
     <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
     <string name="toast_no_password_history">Şifre geçmişi yok</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Devam</string>
     <string name="dialog_button_cancel">İptal</string>
     <string name="dialog_button_delete">Sil</string>
+    <string name="dialog_button_discard">ıskarta</string>
     <string name="dialog_button_remove">Sil</string>
     <string name="dialog_button_rate_now">Değerlendirme</string>
     <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
     <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
     <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
+    <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
     <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>

@@ -37,6 +37,7 @@
     <string name="button_update">更新</string>
     <string name="button_exit">EXIT</string>
     <string name="button_sure">SURE</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
     <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">繼續</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">刪除</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">是否還原備份？</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
     <string name="dialog_msg_delete_entry">是否刪除條目？</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
     <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
     <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>

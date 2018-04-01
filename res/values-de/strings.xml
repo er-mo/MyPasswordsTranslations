@@ -37,6 +37,7 @@
     <string name="button_update">AKTUALISIEREN</string>
     <string name="button_exit">BEENDEN</string>
     <string name="button_sure">JA KLAR</string>
+    <string name="button_gotit">ICH HABS</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Die Anwendung kann keine Verbindung zum Google Client herstellen. Bitte überprüfen Sie die Netzwerkkonnektivität</string>
     <string name="toast_storage_not_accessible">Externe Speicherung nicht zugänglich</string>
     <string name="toast_ask_for_rating">Wie wäre es mit einer Bewertung auf Google Play Store?</string>
+    <string name="toast_auto_backup_hint">Aktivieren Sie die automatische Sicherung, um Ihre Kennwörter zu schützen</string>
     <string name="toast_pro_feature">Nur in der PRO-Version verfügbar</string>
     <string name="toast_no_password_history">Keine Historie verfügbar</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Fortsetzen</string>
     <string name="dialog_button_cancel">Abbrechen</string>
     <string name="dialog_button_delete">Löschen</string>
+    <string name="dialog_button_discard">Verwerfen</string>
     <string name="dialog_button_remove">Entfernen</string>
     <string name="dialog_button_rate_now">Bewerten</string>
     <string name="dialog_title_restore_backup">Sicherung wiederherstellen?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
+    <string name="dialog_msg_discard_changes">Änderungen verwerfen?</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
     <string name="dialog_msg_cannot_read_file">Die ausgewählte Datei kann nicht gelesen werden.</string>

@@ -37,6 +37,7 @@
     <string name="button_update">更新</string>
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
     <string name="toast_ask_for_rating">应用在 Google Play 商店评分如何？</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">仅在专业版中可用</string>
     <string name="toast_no_password_history">没有可用的密码记录</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">继续</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">移除</string>
     <string name="dialog_button_rate_now">给此应用评分</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>

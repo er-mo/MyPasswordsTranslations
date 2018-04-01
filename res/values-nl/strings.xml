@@ -37,6 +37,7 @@
     <string name="button_update">UPDATE</string>
     <string name="button_exit">EXIT</string>
     <string name="button_sure">ZEKER</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
     <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
     <string name="toast_ask_for_rating">Wilt u de app beoordelen in de Google Play store?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
     <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Doorgaan</string>
     <string name="dialog_button_cancel">Afbreken</string>
     <string name="dialog_button_delete">Wis</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Verwijder</string>
     <string name="dialog_button_rate_now">Beoordeel Nu</string>
     <string name="dialog_title_restore_backup">Backup terugzetten?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
     <string name="dialog_msg_delete_entry">Invoer wissen?</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>

@@ -37,6 +37,7 @@
     <string name="button_update">ACTUALIZAR</string>
     <string name="button_exit">SALIR</string>
     <string name="button_sure">POR SUPUESTO</string>
+    <string name="button_gotit">LO TENGO</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">No se puede conectar al cliente de Google. Verifica la conectividad de red</string>
     <string name="toast_storage_not_accessible">Almacenamiento externo no accesible</string>
     <string name="toast_ask_for_rating">¿Qué tal si nos calificas en Google Play Store?</string>
+    <string name="toast_auto_backup_hint">Habilite la copia de seguridad automática para proteger sus contraseñas</string>
     <string name="toast_pro_feature">Disponible sólo en la versión PRO</string>
     <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Continuar</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_delete">Eliminar</string>
+    <string name="dialog_button_discard">Descarte</string>
     <string name="dialog_button_remove">Eliminar</string>
     <string name="dialog_button_rate_now">Calificar ahora</string>
     <string name="dialog_title_restore_backup">¿Restaurar respaldo?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
     <string name="dialog_msg_delete_entry">¿Eliminar la entrada?</string>
+    <string name="dialog_msg_discard_changes">¿Descartar los cambios?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
     <string name="dialog_msg_payload_failed">Error de verificación de la carga.</string>
     <string name="dialog_msg_cannot_read_file">No se puede leer el archivo seleccionado.</string>

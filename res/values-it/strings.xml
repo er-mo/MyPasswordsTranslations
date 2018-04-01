@@ -37,6 +37,7 @@
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
     <string name="button_sure">SICURO</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Continua</string>
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Valuta ora</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>

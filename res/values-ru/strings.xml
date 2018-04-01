@@ -37,6 +37,7 @@
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_sure">КОНЕЧНО</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
     <string name="toast_ask_for_rating">Как насчет того, чтобы оценить нас в \"Google Play Маркет\"?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Доступно только в PRO версии</string>
     <string name="toast_no_password_history">Нет истории паролей</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Продолжить</string>
     <string name="dialog_button_cancel">Отмена</string>
     <string name="dialog_button_delete">Удалить</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Оценить сейчас</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>

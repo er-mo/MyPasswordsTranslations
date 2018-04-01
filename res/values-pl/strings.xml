@@ -37,6 +37,7 @@
     <string name="button_update">AKTUALIZUJ</string>
     <string name="button_exit">WYJDŹ</string>
     <string name="button_sure">JASNE</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Nie można się połączyć z klientem Google. Sprawdź połączenie z internetem</string>
     <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
     <string name="toast_ask_for_rating">Może ocenisz aplikację w Google Play?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Oceń teraz</string>
     <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">Nie można odczytac wybranego pliku.</string>

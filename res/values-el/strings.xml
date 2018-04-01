@@ -37,6 +37,7 @@
     <string name="button_update">ΑΛΛΑΓΗ</string>
     <string name="button_exit">ΕΞΟΔΟΣ</string>
     <string name="button_sure">ΒΕΒΑΙΩΣ</string>
+    <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
     <string name="toast_ask_for_rating">Τι θα λέγατε για μια αξιολόγηση στο Google Play store;</string>
+    <string name="toast_auto_backup_hint">Ενεργοποιήστε την αυτόματη δημιουργία αντιγράφων ασφαλείας για να προστατεύσετε τους κωδικούς σας</string>
     <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
     <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
     <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
+    <string name="dialog_button_discard">ΑΠΟΡΡΙΨΗ</string>
     <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
     <string name="dialog_button_rate_now">ΑΞΙΟΛΟΓΗΣΗ</string>
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
+    <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>

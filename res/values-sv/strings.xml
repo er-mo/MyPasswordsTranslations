@@ -37,6 +37,7 @@
     <string name="button_update">UPPDATERA</string>
     <string name="button_exit">EXIT</string>
     <string name="button_sure">SURE</string>
+    <string name="button_gotit">GOT IT</string>
     <!-- ################################################################################# -->
 
 
@@ -110,6 +111,7 @@
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
     <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
+    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <!-- ################################################################################# -->
@@ -120,6 +122,7 @@
     <string name="dialog_button_continue">Fortsätt</string>
     <string name="dialog_button_cancel">Avbryt</string>
     <string name="dialog_button_delete">Radera</string>
+    <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">Återställa säkerhetskopiering?</string>
@@ -133,6 +136,7 @@
     <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
+    <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
     <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
