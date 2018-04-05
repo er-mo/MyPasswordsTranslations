@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Automatisch klembord wissen</string>
     <string name="upgrade_feature_5">Zelfdestructie</string>
     <string name="upgrade_feature_6">Invoer via vingerscanner</string>
-    <string name="upgrade_feature_7">Wearable app</string>
+    <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Wachtwoord geschiedenis</string>
-    <string name="upgrade_accept">Bij aankoop van de PRO versie gaat u akkoord met het volgende<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">Voorwaarden</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">oude wachtwoord</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Database</string>
     <string name="menu_security">Beveiliging</string>
     <string name="menu_about">Info</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Upgrade naar PRO</string>
     <string name="menu_share">Delen</string>
     <string name="menu_copy_entry">Maak een kopie</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Wis</string>
     <string name="menu_save">Opslaan</string>
     <string name="menu_keyboard">Toetsenbord</string>
-    <string name="menu_add_to_wear">Aan wearable toevoegen</string>
+    <string name="menu_add_to_watch">Add to watch</string>
     <!-- #######################################################Permission granted########################## -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Importeren van csv bestand geslaagd</string>
     <string name="toast_error_csv_import">Importeren van csv bestand mislukt</string>
     <string name="toast_database_server_error">De database is momenteel niet beschikbaar</string>
-    <string name="toast_added_to_wear">Aan wearable toegevoegd</string>
-    <string name="toast_removed_from_wear">Van wearable verwijderd</string>
+    <string name="toast_added_to_watch">Added to watch</string>
+    <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
     <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
     <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Wis</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Verwijder</string>
-    <string name="dialog_button_rate_now">Beoordeel Nu</string>
     <string name="dialog_title_restore_backup">Backup terugzetten?</string>
     <string name="dialog_title_import_csv">csv importeren?</string>
     <string name="dialog_title_change_master_password">Hoofdwachtwoord veranderen?</string>
     <string name="dialog_title_self_destruct">Zelfvernietiging</string>
-    <string name="dialog_title_rate_and_review">Beoordeel en recenseer?</string>
     <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
     <string name="dialog_title_history">Geschiedenis</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
     <string name="dialog_msg_remember_password">Zorg er voor dat je het hoofdwachtwoord onthoud voor het geval dat de vingerscanner niet werkt of niet beschikbaar is.</string>
     <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
-    <string name="dialog_msg_rate_and_review">Als de app je bevalt, zou je hem willen beoordelen?</string>
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
-    <string name="dialog_msg_remove_from_wear">Invoer van wearable verwijderen?</string>
+    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Voorwaarden en privacybeleid</string>
     <string name="pref_about_title_licenses">Open source licenties</string>
     <string name="pref_about_title_build_version">Build versie</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>VINGERSCANNER</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

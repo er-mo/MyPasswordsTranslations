@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
     <string name="upgrade_feature_6">Είσοδος με δακτυλικό αποτύπωμα</string>
-    <string name="upgrade_feature_7">Android Wear εφαρμογή</string>
+    <string name="upgrade_feature_7">Wear OS εφαρμογή</string>
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
-    <string name="upgrade_accept">Με την αγορά της έκδοσης PRO αποδέχεστε τους παρακάτω<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">όρους</string>
     <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μια μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Βάση δεδομένων</string>
     <string name="menu_security">Ασφάλεια</string>
     <string name="menu_about">Σχετικά</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
     <string name="menu_share">Κοινοποίηση</string>
     <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_save">ΑΠΟΘΗΚΕΥΣΗ</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
-    <string name="menu_add_to_wear">Προσθήκη στο wearable</string>
+    <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
     <string name="toast_error_csv_import">Αποτυχία εισαγωγής csv αρχείου</string>
     <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
-    <string name="toast_added_to_wear">Προστέθηκε στο wearable</string>
-    <string name="toast_removed_from_wear">Αφαιρέθηκε από το wearable</string>
+    <string name="toast_added_to_watch">Προστέθηκε στο ρολόι</string>
+    <string name="toast_removed_from_watch">Αφαιρέθηκε από το ρολόι</string>
     <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
     <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
     <string name="dialog_button_discard">ΑΠΟΡΡΙΨΗ</string>
     <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
-    <string name="dialog_button_rate_now">ΑΞΙΟΛΟΓΗΣΗ</string>
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
     <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
-    <string name="dialog_title_rate_and_review">Αξιολόγηση;</string>
     <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
     <string name="dialog_title_history">Ιστορικό</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
     <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
-    <string name="dialog_msg_rate_and_review">Εάν σας αρέσει αυτή η εφαρμογή, σας παρακαλούμε να αφιερώσετε λίγα λεπτά από τον χρόνο σας για να την αξιολογήσετε.</string>
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
-    <string name="dialog_msg_remove_from_wear">Αφαίρεση της καταχώρησης από το wearable;</string>
+    <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Όροι και Πολιτική Απορρήτου</string>
     <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
     <string name="pref_about_title_build_version">Έκδοση</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wearable κωδικός</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Περιορίστε την πρόσβαση στο wearable με τη χρήση κωδικού</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Κωδικός ρολογιού</string>
+    <string name="pref_wear_os_summary_password_enabled">Περιορίστε την πρόσβαση στο ρολόι με τη χρήση κωδικού</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΔΑΚΤΥΛΙΚΟ ΑΠΟΤΥΠΩΜΑ</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

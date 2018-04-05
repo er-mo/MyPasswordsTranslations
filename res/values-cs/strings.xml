@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Automatické vyčištění Schránky</string>
     <string name="upgrade_feature_5">Sebedestrukce</string>
     <string name="upgrade_feature_6">Vstup pomocí otisku prstu</string>
-    <string name="upgrade_feature_7">Wearable app</string>
+    <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_accept">Zakoupením PRO verze přijímáte následující<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">podmínky</string>
     <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Databáze</string>
     <string name="menu_security">Zabezpečení</string>
     <string name="menu_about">O nás</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Upgradovat na PRO verzi</string>
     <string name="menu_share">Share</string>
     <string name="menu_copy_entry">Make a copy</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Smazat</string>
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">Klávesnice</string>
-    <string name="menu_add_to_wear">Add to wearable</string>
+    <string name="menu_add_to_watch">Add to watch</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Úspěšně importován cvs soubor</string>
     <string name="toast_error_csv_import">Nepodařilo se importovat cvs soubor</string>
     <string name="toast_database_server_error">Databáze není v tuto chvíli k dispozici</string>
-    <string name="toast_added_to_wear">Added to wearable</string>
-    <string name="toast_removed_from_wear">Removed from wearable</string>
+    <string name="toast_added_to_watch">Added to watch</string>
+    <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Smazat</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_button_rate_now">Rate Now</string>
     <string name="dialog_title_restore_backup">Obnovit zálohu?</string>
     <string name="dialog_title_import_csv">Importovat cvs?</string>
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
-    <string name="dialog_title_rate_and_review">Rate and review?</string>
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Dotkněte se senzoru</string>
     <string name="dialog_msg_remember_password">Ujistěte se, že si pamatujete hlavní heslo v případě, že nebude otisk prstu k dispozici.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_rate_and_review">If you enjoy using this app, please take a moment to rate it.</string>
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Licence Open source</string>
     <string name="pref_about_title_build_version">Verze sestavení</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHRÁNKA</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SEBEDESTRUKCE</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>OTISK PRSTU</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

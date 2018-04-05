@@ -55,8 +55,6 @@
     <string name="upgrade_feature_6">免密码指纹登录</string>
     <string name="upgrade_feature_7">可穿戴应用支持</string>
     <string name="upgrade_feature_8">密码可历史追溯</string>
-    <string name="upgrade_accept">购买专业版获取下列功能<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms"></string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
     <string name="menu_about">关于</string>
-    <string name="menu_android_wear">可穿戴设备</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">升级到专业版</string>
     <string name="menu_share">分享</string>
     <string name="menu_copy_entry">制做一个副本</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">删除</string>
     <string name="menu_save">保存</string>
     <string name="menu_keyboard">键盘</string>
-    <string name="menu_add_to_wear">添加到可穿戴设备</string>
+    <string name="menu_add_to_watch">Add to watch</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">CSV 文件导入成功</string>
     <string name="toast_error_csv_import">CSV 文件导入失败</string>
     <string name="toast_database_server_error">数据库当前不可用。</string>
-    <string name="toast_added_to_wear">添加到可穿戴设备</string>
-    <string name="toast_removed_from_wear">从可穿戴设备中移除</string>
+    <string name="toast_added_to_watch">Added to watch</string>
+    <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">Google Play 应用商店尚未安装</string>
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">删除</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">移除</string>
-    <string name="dialog_button_rate_now">给此应用评分</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
     <string name="dialog_title_self_destruct">数据库自毁</string>
-    <string name="dialog_title_rate_and_review">给此应用评分</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_title_history">历史记录</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">指纹传感器</string>
     <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
-    <string name="dialog_msg_rate_and_review">如果您觉得程序好用，请稍后给此应用评分。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
-    <string name="dialog_msg_remove_from_wear">是否从可穿戴设备中移除条目？</string>
+    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">条款和隐私权政策</string>
     <string name="pref_about_title_licenses">开源许可证</string>
     <string name="pref_about_title_build_version">版本号</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">可穿戴设备密码</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">通过使用密码来限制可穿戴设备的访问</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪贴板</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>数据库自毁</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指纹登录</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>可穿戴设备</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

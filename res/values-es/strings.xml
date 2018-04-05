@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Vaciado automático del portapapeles</string>
     <string name="upgrade_feature_5">Autodestrucción</string>
     <string name="upgrade_feature_6">Entrar usando la huella dactilar</string>
-    <string name="upgrade_feature_7">Aplicación portátil</string>
+    <string name="upgrade_feature_7">Wear OS Aplicación</string>
     <string name="upgrade_feature_8">Historial de contraseñas</string>
-    <string name="upgrade_accept">Al comprar la versión PRO, aceptas las siguientes <xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">condiciones</string>
     <string name="upgrade_with_single_purchase">Desbloquea todas las características adicionales con una única compra en la aplicación.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">contraseña antigua</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Base de datos</string>
     <string name="menu_security">Seguridad</string>
     <string name="menu_about">Acerca de</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Obtener versión PRO</string>
     <string name="menu_share">Compartir</string>
     <string name="menu_copy_entry">Hacer una copia</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Eliminar</string>
     <string name="menu_save">GUARDAR</string>
     <string name="menu_keyboard">Teclado</string>
-    <string name="menu_add_to_wear">Añadir a portátil</string>
+    <string name="menu_add_to_watch">Agregar al reloj</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Archivo CSV importado correctamente</string>
     <string name="toast_error_csv_import">No se pudo importar el archivo CSV</string>
     <string name="toast_database_server_error">La base de datos no está disponible en este momento</string>
-    <string name="toast_added_to_wear">Añadido a portátil</string>
-    <string name="toast_removed_from_wear">Eliminado de portátil</string>
+    <string name="toast_added_to_watch">Agregado al reloj</string>
+    <string name="toast_removed_from_watch">Eliminado del reloj</string>
     <string name="toast_playstore_error">La aplicación Google Play Store no está instalada</string>
     <string name="toast_playstore_services_error">Google Play Services no está disponible</string>
     <string name="toast_google_client_error">No se puede conectar al cliente de Google. Verifica la conectividad de red</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Eliminar</string>
     <string name="dialog_button_discard">Descarte</string>
     <string name="dialog_button_remove">Eliminar</string>
-    <string name="dialog_button_rate_now">Calificar ahora</string>
     <string name="dialog_title_restore_backup">¿Restaurar respaldo?</string>
     <string name="dialog_title_import_csv">¿Importar CSV?</string>
     <string name="dialog_title_change_master_password">¿Cambiar la contraseña maestra?</string>
     <string name="dialog_title_self_destruct">Autodestrucción</string>
-    <string name="dialog_title_rate_and_review">¿Calificar y comentar?</string>
     <string name="dialog_title_confirm_fp">Confirma tu huella dactilar</string>
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Sensor táctil</string>
     <string name="dialog_msg_remember_password">Asegúrate de recordar tu contraseña maestra en caso de que la huella dactilar ya no esté disponible.</string>
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
-    <string name="dialog_msg_rate_and_review">Si te gusta usar esta aplicación, por favor toma un momento para calificarla.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
-    <string name="dialog_msg_remove_from_wear">¿Eliminar la entrada de portátil?</string>
+    <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Términos y política de privacidad</string>
     <string name="pref_about_title_licenses">Licencias de código abierto</string>
     <string name="pref_about_title_build_version">Versión</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Contraseña en portátil</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrinja el acceso en el dispositivo portátil usando una contraseña</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Contraseña del reloj</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrinja el acceso en su reloj usando una contraseña</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard">PORTAPAPELES <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_self_destruct">AUTODESTRUCCIÓN <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_fingerprint">HUELLA DACTILAR <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

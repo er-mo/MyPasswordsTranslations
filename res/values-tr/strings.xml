@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Pano otomatik temizleme</string>
     <string name="upgrade_feature_5">Kendini imha</string>
     <string name="upgrade_feature_6">Parmak izi kullanarak giriş</string>
-    <string name="upgrade_feature_7">Android Wear uygulama</string>
+    <string name="upgrade_feature_7">Wear OS uygulama</string>
     <string name="upgrade_feature_8">Kod geçmişi</string>
-    <string name="upgrade_accept">PRO sürümünü satın alarak aşağıdaki kabul<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">şartları</string>
     <string name="upgrade_with_single_purchase">Tek bir uygulama içi satın alma ile tüm ek özelliklerin kilidini açın.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">eski şifre</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Veritabanı</string>
     <string name="menu_security">Güvenlik</string>
     <string name="menu_about">Hakkında</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">PRO yükseltme</string>
     <string name="menu_share">Paylaş</string>
     <string name="menu_copy_entry">Kopyala</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Sil</string>
     <string name="menu_save">KAYIT ETMEK</string>
     <string name="menu_keyboard">Klavye</string>
-    <string name="menu_add_to_wear">Wearable\'e ekle</string>
+    <string name="menu_add_to_watch">Saate ekle</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Başarıyla ithal csv dosyası</string>
     <string name="toast_error_csv_import">Başarısız ithalat csv dosyası</string>
     <string name="toast_database_server_error">Veritabanı şu anda mevcut değildir</string>
-    <string name="toast_added_to_wear">Wearable\'e eklendi</string>
-    <string name="toast_removed_from_wear">Wearable\'dan kaldırıldı</string>
+    <string name="toast_added_to_watch">Saate eklendi</string>
+    <string name="toast_removed_from_watch">Saatten kaldırıldı</string>
     <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
     <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
     <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Sil</string>
     <string name="dialog_button_discard">ıskarta</string>
     <string name="dialog_button_remove">Sil</string>
-    <string name="dialog_button_rate_now">Değerlendirme</string>
     <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
     <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
     <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
     <string name="dialog_title_self_destruct">Kendini imha</string>
-    <string name="dialog_title_rate_and_review">Değerlendirme?</string>
     <string name="dialog_title_confirm_fp">Parmak izinizi onaylayın</string>
     <string name="dialog_title_history">Geçmiş</string>
     <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
     <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum için.</string>
     <string name="dialog_msg_fp_keystore_error">Parmak izi anahtar deposu hatası. Ana şifrenizi girdikten sonra lütfen parmak izini tekrar etkinleştirin.</string>
-    <string name="dialog_msg_rate_and_review">Bu uygulamayı begeniyorsaniz, lütfen değerlendirmek için zaman ayırın, birkaç dakika sürebilir.</string>
     <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
-    <string name="dialog_msg_remove_from_wear">Kayıtı Wearable\'dan sil?</string>
+    <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Şartlar ve Gizlilik Politikası</string>
     <string name="pref_about_title_licenses">Açık kaynak lisansları</string>
     <string name="pref_about_title_build_version">Sürümü kurmak</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Android Wear şifresi</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Bir şifre kullanarak Android Wear\'daki erişimi kısıtlayın</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Saat şifresi</string>
+    <string name="pref_wear_os_summary_password_enabled">Bir şifre kullanarak saatinizdeki erişimi kısıtlayın</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PARMAK İZİ</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

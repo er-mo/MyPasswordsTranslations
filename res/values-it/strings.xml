@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Pulizia automatica appunti</string>
     <string name="upgrade_feature_5">Autodistruzione</string>
     <string name="upgrade_feature_6">Entra usando l\'impronta digitale</string>
-    <string name="upgrade_feature_7">App indossabile</string>
+    <string name="upgrade_feature_7">Wear OS App</string>
     <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_accept">Acquistando la versione PRO si accetta quanto segue<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">Termini</string>
     <string name="upgrade_with_single_purchase">Sblocca tutte le funzionalità aggiuntive con un singolo acquisto in-app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Vecchia password</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Banca dati</string>
     <string name="menu_security">Sicurezza</string>
     <string name="menu_about">A proposito di</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Aggiorna a PRO</string>
     <string name="menu_share">Condividi</string>
     <string name="menu_copy_entry">Crea una copia</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Cancella</string>
     <string name="menu_save">Salva</string>
     <string name="menu_keyboard">Tastiera</string>
-    <string name="menu_add_to_wear">Aggiungi agli indossabili</string>
+    <string name="menu_add_to_watch">Add to watch</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">File csv importato con successo</string>
     <string name="toast_error_csv_import">Importazione del file csv fallita</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
-    <string name="toast_added_to_wear">Aggiunto agli indossabili</string>
-    <string name="toast_removed_from_wear">Rimosso dagli indossabili</string>
+    <string name="toast_added_to_watch">Added to watch</string>
+    <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Elimina</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_button_rate_now">Valuta ora</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
     <string name="dialog_title_change_master_password">Cambiare la password principale?</string>
     <string name="dialog_title_self_destruct">Auto distruzione</string>
-    <string name="dialog_title_rate_and_review">Valuta e recensisci?</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
     <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Impronta Digitale</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
-    <string name="dialog_msg_rate_and_review">Se ti piace utilizzare quest\'app, per favore prenditi un momento e votala.</string>
     <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza.</string>
-    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Termini e politica sulla privacy</string>
     <string name="pref_about_title_licenses">Licenze Open Source</string>
     <string name="pref_about_title_build_version">Versione Build</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>APPUNTI</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO DISTRUZIONE</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>IMPRONTA DIGITALE</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

@@ -55,8 +55,6 @@
     <string name="upgrade_feature_6">Функция настройки отпечатка пальца</string>
     <string name="upgrade_feature_7">Функция настройки для часов</string>
     <string name="upgrade_feature_8">История паролей</string>
-    <string name="upgrade_accept">Приобретая PRO версию вы принимаете следующие<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">условия</string>
     <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">старый мастер-пароль</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">База данных</string>
     <string name="menu_security">Безопасность</string>
     <string name="menu_about">Об приложении</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Обновление до PRO версии</string>
     <string name="menu_share">Поделиться</string>
     <string name="menu_copy_entry">Сделать копию</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Удалить</string>
     <string name="menu_save">Сохранить</string>
     <string name="menu_keyboard">Клавиатура</string>
-    <string name="menu_add_to_wear">Добавить в часы</string>
+    <string name="menu_add_to_watch">Add to watch</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Импортирование из файла CSV успешно завершено!</string>
     <string name="toast_error_csv_import">Не удалось импортировать из файла CSV.</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
-    <string name="toast_added_to_wear">Добавлено в часы.</string>
-    <string name="toast_removed_from_wear">Удалено из часов.</string>
+    <string name="toast_added_to_watch">Added to watch</string>
+    <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">Приложение \"Google Play Маркет\" не установлено.</string>
     <string name="toast_playstore_services_error">Приложение \"Сервисы Google Play\" не доступны.</string>
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Удалить</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_button_rate_now">Оценить сейчас</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
     <string name="dialog_title_self_destruct">Самоуничтожение</string>
-    <string name="dialog_title_rate_and_review">Оценить?</string>
     <string name="dialog_title_confirm_fp">Вход по отпечатку</string>
     <string name="dialog_title_history">History</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
-    <string name="dialog_msg_rate_and_review">Если Вам понравилось данное приложение, пожалуйста, найдите время, чтобы оценить его.</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
-    <string name="dialog_msg_remove_from_wear">Remove entry from wearable?</string>
+    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Terms and Privacy Policy</string>
     <string name="pref_about_title_licenses">Лицензция</string>
     <string name="pref_about_title_build_version">Версия сборки</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Wear password</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Restrict the access on the wearable by using a password</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>БУФЕР ОБМЕНА</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>САМОУНИЧТОЖЕНИЕ</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ОТПЕЧАТОК ПАЛЬЦА</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>

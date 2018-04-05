@@ -53,10 +53,8 @@
     <string name="upgrade_feature_4">Zwischenablage leeren</string>
     <string name="upgrade_feature_5">Selbstzerstörung</string>
     <string name="upgrade_feature_6">Anmelden mit Fingerabdruck</string>
-    <string name="upgrade_feature_7">Android Wear Anwendung</string>
+    <string name="upgrade_feature_7">Wear OS Anwendung</string>
     <string name="upgrade_feature_8">Passwort historie</string>
-    <string name="upgrade_accept">Mit dem Einkauf der PRO Version akzeptieren Sie die folgenden<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="upgrade_terms">Bedingungen</string>
     <string name="upgrade_with_single_purchase">Sie Können alle zusätzlichen Funktionen mit einem einzigen In-App-Kauf freischalten.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Altes Passwort</string>
@@ -70,7 +68,7 @@
     <string name="menu_database">Datenbank</string>
     <string name="menu_security">Sicherheit</string>
     <string name="menu_about">Über Meine Passwörter</string>
-    <string name="menu_android_wear">Android Wear</string>
+    <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Upgrade zur PRO</string>
     <string name="menu_share">Teilen</string>
     <string name="menu_copy_entry">Kopie erstellen</string>
@@ -78,7 +76,7 @@
     <string name="menu_delete">Löschen</string>
     <string name="menu_save">SPEICHERN</string>
     <string name="menu_keyboard">Tastatur</string>
-    <string name="menu_add_to_wear">Zur Wearable hinzufügen</string>
+    <string name="menu_add_to_watch">Zur Uhr hinzufügen</string>
     <!-- ################################################################################# -->
 
 
@@ -104,8 +102,8 @@
     <string name="toast_successful_csv_import">Die CSV Datei wurde erfolgreich importiert</string>
     <string name="toast_error_csv_import">Fehler beim Import der CSV Datei</string>
     <string name="toast_database_server_error">Die Datenbank ist zur Zeit nicht verfügbar</string>
-    <string name="toast_added_to_wear">Der Eintrag wurde auf Ihr Uhr hinzugefügt</string>
-    <string name="toast_removed_from_wear">Der Eintrag wurde von Ihr Uhr entfernt</string>
+    <string name="toast_added_to_watch">Der Eintrag wurde auf Ihr Uhr hinzugefügt</string>
+    <string name="toast_removed_from_watch">Der Eintrag wurde von Ihr Uhr entfernt</string>
     <string name="toast_playstore_error">Google Play Store App ist nicht installiert</string>
     <string name="toast_playstore_services_error">Google Play Services sind nicht verfügbar</string>
     <string name="toast_google_client_error">Die Anwendung kann keine Verbindung zum Google Client herstellen. Bitte überprüfen Sie die Netzwerkkonnektivität</string>
@@ -124,12 +122,10 @@
     <string name="dialog_button_delete">Löschen</string>
     <string name="dialog_button_discard">Verwerfen</string>
     <string name="dialog_button_remove">Entfernen</string>
-    <string name="dialog_button_rate_now">Bewerten</string>
     <string name="dialog_title_restore_backup">Sicherung wiederherstellen?</string>
     <string name="dialog_title_import_csv">CSV importieren?</string>
     <string name="dialog_title_change_master_password">Master Passwort ändern?</string>
     <string name="dialog_title_self_destruct">Selbstzerstörung</string>
-    <string name="dialog_title_rate_and_review">Bewerten?</string>
     <string name="dialog_title_confirm_fp">Fingerabdruck bestätigen</string>
     <string name="dialog_title_history">Historie</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
@@ -152,9 +148,8 @@
     <string name="dialog_msg_fp_hint">Berühren Sie den Sensor</string>
     <string name="dialog_msg_remember_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern, falls der Fingerabdruck nicht mehr verfügbar ist.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
-    <string name="dialog_msg_rate_and_review">Wenn Sie diese App genießen, nehmen Sie bitte einen Moment, um es zu bewerten.</string>
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
-    <string name="dialog_msg_remove_from_wear">Eintrag von Ihr Uhr entfernen?</string>
+    <string name="dialog_msg_remove_from_watch">Eintrag von Ihr Uhr entfernen?</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -229,9 +224,9 @@
     <string name="pref_about_title_terms">Nutzungsbedingungen und Datenschutz</string>
     <string name="pref_about_title_licenses">Open Source Lizenzen</string>
     <string name="pref_about_title_build_version">Build Version</string>
-    <!-- android wear -->
-    <string name="pref_android_wear_title_wear_password_enabled">Uhr Passwort</string>
-    <string name="pref_android_wear_summary_wear_password_enabled">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
+    <!-- wear os -->
+    <string name="pref_wear_os_title_password_enabled">Uhr Passwort</string>
+    <string name="pref_wear_os_summary_password_enabled">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
     <!-- ################################################################################# -->
 
 
@@ -245,7 +240,7 @@
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZWISCHENABLAGE</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELBSTZERSTÖRUNG</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERABDRUCK</string>
-    <string name="pref_category_android_wear"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ANDROID WEAR</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 </resources>
