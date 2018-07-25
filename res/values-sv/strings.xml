@@ -38,6 +38,7 @@
     <string name="button_exit">EXIT</string>
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Det gick inte att uppdatera huvudlösenordet</string>
     <string name="toast_storage_permission_granted">Tillstånd beviljat</string>
     <string name="toast_storage_permission_denied">Tillstånd inte beviljat. Kan inte läsa eller skriva filer.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Ingen fil är vald</string>
     <string name="toast_successful_backup">Lyckades säkerhetskopiera</string>
     <string name="toast_successful_restore">Lyckades återställa databasen</string>

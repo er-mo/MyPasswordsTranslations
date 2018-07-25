@@ -38,6 +38,7 @@
     <string name="button_exit">EXIT</string>
     <string name="button_sure">ZEKER</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
     <string name="toast_storage_permission_granted">Toestemming verleend</string>
     <string name="toast_storage_permission_denied">Toestemming geweigerd. Niet mogelijk om bestanden te lezen of op te slaan.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Er is geen bestand geselecteerd</string>
     <string name="toast_successful_backup">Backup succesvol aangemaakt</string>
     <string name="toast_successful_restore">Terugzetten van database geslaagd</string>

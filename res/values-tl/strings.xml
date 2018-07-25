@@ -38,6 +38,7 @@
     <string name="button_exit">EXIT</string>
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Failed to update master password</string>
     <string name="toast_storage_permission_granted">Permission granted</string>
     <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">No file was selected</string>
     <string name="toast_successful_backup">Successfully created backup</string>
     <string name="toast_successful_restore">Successfully restored database</string>

@@ -38,6 +38,7 @@
     <string name="button_exit">ΕΞΟΔΟΣ</string>
     <string name="button_sure">ΒΕΒΑΙΩΣ</string>
     <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
+    <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
     <string name="toast_storage_permission_granted">Η άδεια παραχωρήθηκε</string>
     <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
     <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
     <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>

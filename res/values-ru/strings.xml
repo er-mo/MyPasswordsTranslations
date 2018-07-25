@@ -38,6 +38,7 @@
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_sure">КОНЕЧНО</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Не удалось обновить \"Мастер-пароль\"!</string>
     <string name="toast_storage_permission_granted">Доступ получен.</string>
     <string name="toast_storage_permission_denied">Доступ запрещен. Вы не можете прочитать или записать файлы.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Выбор отменен.</string>
     <string name="toast_successful_backup">Резервная копия создана!</string>
     <string name="toast_successful_restore">Резервная копия восстановлена!</string>

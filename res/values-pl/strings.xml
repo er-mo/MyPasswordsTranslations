@@ -38,6 +38,7 @@
     <string name="button_exit">WYJDŹ</string>
     <string name="button_sure">JASNE</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Nie udało się zaktualizować hasła głównego</string>
     <string name="toast_storage_permission_granted">Przyznano dostęp</string>
     <string name="toast_storage_permission_denied">Odmowa dostępu. Nie będzie można zapisywać i odczytywać plików.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Nie wybrano pliku.</string>
     <string name="toast_successful_backup">Utworzono kopię zapasową</string>
     <string name="toast_successful_restore">Przywrócono bazę danych</string>

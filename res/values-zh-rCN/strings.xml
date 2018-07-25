@@ -38,6 +38,7 @@
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">更改主密码失败</string>
     <string name="toast_storage_permission_granted">授予许可</string>
     <string name="toast_storage_permission_denied">没有权限，无法读写文件</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">未选择文件</string>
     <string name="toast_successful_backup">成功创建备份</string>
     <string name="toast_successful_restore">数据库恢复成功</string>

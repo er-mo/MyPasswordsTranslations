@@ -38,6 +38,7 @@
     <string name="button_exit">ESCI</string>
     <string name="button_sure">SICURO</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Aggiornamento della password principale fallito</string>
     <string name="toast_storage_permission_granted">Permesso accordato</string>
     <string name="toast_storage_permission_denied">Permesso negato. Non è possibile leggere o scrivere i file.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Nessun file è stato selezionato</string>
     <string name="toast_successful_backup">Backup creato con successo</string>
     <string name="toast_successful_restore">Database ripristinato con successo</string>

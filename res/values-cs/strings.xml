@@ -38,6 +38,7 @@
     <string name="button_exit">ODEJÍT</string>
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Nepodařilo se aktualizovat hlavní heslo</string>
     <string name="toast_storage_permission_granted">Oprávnění uděleno</string>
     <string name="toast_storage_permission_denied">Přístup odepřen. Nelze číst ani zapisovat soubory.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Nebyl vybrán žádný soubor</string>
     <string name="toast_successful_backup">Záloha úspěšně vytvořena</string>
     <string name="toast_successful_restore">Databáze úspěšně obnovena</string>

@@ -38,6 +38,7 @@
     <string name="button_exit">ÇIKIŞ</string>
     <string name="button_sure">TAMAM</string>
     <string name="button_gotit">ANLADIM</string>
+    <string name="button_attach_image">RESİM İLİŞTİRMEK</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
     <string name="toast_storage_permission_granted">İzin verildi</string>
     <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
     <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
     <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>

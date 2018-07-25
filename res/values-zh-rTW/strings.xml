@@ -38,6 +38,7 @@
     <string name="button_exit">EXIT</string>
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
 
@@ -94,6 +95,7 @@
     <string name="toast_master_password_not_updated">更新主密碼失敗</string>
     <string name="toast_storage_permission_granted">已授予權限</string>
     <string name="toast_storage_permission_denied">沒有權限。無法讀取或寫入檔案。</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">沒有檔案被選中</string>
     <string name="toast_successful_backup">建立備份成功</string>
     <string name="toast_successful_restore">還原資料庫成功</string>
