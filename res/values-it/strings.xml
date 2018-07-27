@@ -16,7 +16,7 @@
     <string name="password_is_too_short">La passowrd è troppo corta</string>
     <string name="passwords_not_matching">Le password non combaciano</string>
     <string name="password_not_correct">La password non è corretta</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_not_only_numbers">La password contiene non solo numeri</string>
     <string name="required">Richiesto</string>
     <string name="title">Titolo</string>
     <string name="account">Account</string>
@@ -37,7 +37,7 @@
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
     <string name="button_sure">SICURO</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">FATTO</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <!-- ################################################################################# -->
 
@@ -45,7 +45,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Benvenuto in My Passwords</string>
-    <string name="welcome_info_content">Per favore aggiungi una master password per iniziare ad usare l\'applicazione. Ricorda che se la master password verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
+    <string name="welcome_info_content">Per favore aggiungi una password principale per iniziare ad usare l\'applicazione. Ricorda che se la password principale verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Grazie per aver acquistato la versione PRO.</string>
     <string name="upgrade_feature_1">Esporta e importa dei file csv</string>
@@ -55,7 +55,7 @@
     <string name="upgrade_feature_5">Autodistruzione</string>
     <string name="upgrade_feature_6">Entra usando l\'impronta digitale</string>
     <string name="upgrade_feature_7">Wear OS App</string>
-    <string name="upgrade_feature_8">Password history</string>
+    <string name="upgrade_feature_8">Storia delle password</string>
     <string name="upgrade_with_single_purchase">Sblocca tutte le funzionalità aggiuntive con un singolo acquisto in-app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Vecchia password</string>
@@ -77,7 +77,7 @@
     <string name="menu_delete">Cancella</string>
     <string name="menu_save">Salva</string>
     <string name="menu_keyboard">Tastiera</string>
-    <string name="menu_add_to_watch">Add to watch</string>
+    <string name="menu_add_to_watch">Aggiungi all\'orologio</string>
     <!-- ################################################################################# -->
 
 
@@ -104,16 +104,16 @@
     <string name="toast_successful_csv_import">File csv importato con successo</string>
     <string name="toast_error_csv_import">Importazione del file csv fallita</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
+    <string name="toast_added_to_watch">Aggiunto all\'orologio</string>
+    <string name="toast_removed_from_watch">Rimosso dall\'orologio</string>
     <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_auto_backup_hint">Abilita il backup automatico per proteggere le tue password</string>
+    <string name="toast_pro_feature">Disponibile solo nella versione PRO</string>
+    <string name="toast_no_password_history">Nessuna cronologia delle password disponibile</string>
     <!-- ################################################################################# -->
 
 
@@ -122,19 +122,19 @@
     <string name="dialog_button_continue">Continua</string>
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
-    <string name="dialog_button_discard">Discard</string>
+    <string name="dialog_button_discard">Scarta</string>
     <string name="dialog_button_remove">Remove</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
     <string name="dialog_title_change_master_password">Cambiare la password principale?</string>
-    <string name="dialog_title_self_destruct">Auto distruzione</string>
+    <string name="dialog_title_self_destruct">Autodistruzione</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
-    <string name="dialog_title_history">History</string>
+    <string name="dialog_title_history">Storia</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
@@ -150,8 +150,8 @@
     <string name="dialog_msg_fp_hint">Impronta Digitale</string>
     <string name="dialog_msg_remember_password">Assicurati di ricordare la password principale nel caso in cui l\'impronta digitale non è più a disposizione.</string>
     <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
-    <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
+    <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza</string>
+    <string name="dialog_msg_remove_from_watch">Rimuovere la voce dall\'orologio?</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -167,8 +167,8 @@
     <string name="pref_appearance_sorting_choise_alpha">In ordine alfabetico</string>
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
+    <string name="pref_appearance_title_navibar_color">Colore della barra di navigazione</string>
+    <string name="pref_appearance_summary_navibar_color">Il colore scuro primario verrà applicato anche alla barra di navigazione (Android 5.0 e versioni successive)</string>
     <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
@@ -181,7 +181,7 @@
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
+    <string name="pref_database_title_backup_share">Condividi database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
     <string name="pref_database_title_backup">Backup della banca dati</string>
     <string name="pref_database_summary_backup">Creare un backup della banca dati crittografato</string>
@@ -228,7 +228,7 @@
     <string name="pref_about_title_build_version">Versione Build</string>
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
+    <string name="pref_wear_os_summary_password_enabled">Limita l'accesso sul tuo orologio utilizzando una password</string>
     <!-- ################################################################################# -->
 
 
@@ -240,7 +240,7 @@
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SICUREZZA</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>APPUNTI</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO DISTRUZIONE</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODISTRUZIONE</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>IMPRONTA DIGITALE</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
