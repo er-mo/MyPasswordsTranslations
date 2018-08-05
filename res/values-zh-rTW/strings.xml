@@ -131,6 +131,7 @@
     <string name="dialog_title_self_destruct">Self destruct</string>
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_title_history">History</string>
+    <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
@@ -153,6 +154,7 @@
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
+    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

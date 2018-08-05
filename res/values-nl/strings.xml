@@ -131,6 +131,7 @@
     <string name="dialog_title_self_destruct">Zelfvernietiging</string>
     <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
     <string name="dialog_title_history">Geschiedenis</string>
+    <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
@@ -153,6 +154,7 @@
     <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
+    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
     <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

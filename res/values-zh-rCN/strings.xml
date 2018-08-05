@@ -131,6 +131,7 @@
     <string name="dialog_title_self_destruct">数据库自毁</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_title_history">历史记录</string>
+    <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
@@ -153,6 +154,7 @@
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>
+    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
