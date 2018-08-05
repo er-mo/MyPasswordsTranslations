@@ -56,6 +56,7 @@
     <string name="upgrade_feature_6">Είσοδος με δακτυλικό αποτύπωμα</string>
     <string name="upgrade_feature_7">Wear OS εφαρμογή</string>
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
+    <string name="upgrade_feature_9">Επισύναψη εικόνων</string>
     <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μια μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>

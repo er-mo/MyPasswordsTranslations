@@ -56,6 +56,7 @@
     <string name="upgrade_feature_6">Entra usando l\'impronta digitale</string>
     <string name="upgrade_feature_7">Wear OS App</string>
     <string name="upgrade_feature_8">Storia delle password</string>
+    <string name="upgrade_feature_9">Image attachments</string>
     <string name="upgrade_with_single_purchase">Sblocca tutte le funzionalità aggiuntive con un singolo acquisto in-app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Vecchia password</string>

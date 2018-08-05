@@ -56,6 +56,7 @@
     <string name="upgrade_feature_6">免密码指纹登录</string>
     <string name="upgrade_feature_7">可穿戴应用支持</string>
     <string name="upgrade_feature_8">密码可历史追溯</string>
+    <string name="upgrade_feature_9">Image attachments</string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
