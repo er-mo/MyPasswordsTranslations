@@ -16,7 +16,7 @@
     <string name="password_is_too_short">Zakrótkie hasło!</string>
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_not_only_numbers">Hasło zawiera nie tylko cyfry</string>
     <string name="required">Wymagane</string>
     <string name="title">Nazwa</string>
     <string name="account">Konto</string>
@@ -37,8 +37,8 @@
     <string name="button_update">AKTUALIZUJ</string>
     <string name="button_exit">WYJDŹ</string>
     <string name="button_sure">JASNE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
+    <string name="button_gotit">JASNE</string>
+    <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
     <!-- ################################################################################# -->
 
 
@@ -54,10 +54,10 @@
     <string name="upgrade_feature_4">Czyszczenie schowka</string>
     <string name="upgrade_feature_5">Autodestrukcja</string>
     <string name="upgrade_feature_6">Wejdź używając odcisku palca</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_7">Apka Wear OS</string>
+    <string name="upgrade_feature_8">Historia haseł</string>
+    <string name="upgrade_feature_9">Załączniki</string>
+    <string name="upgrade_with_single_purchase">Odblokuj wszystkie dodatkowe funkcje jednym zamówieniem.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">stare hasło główne</string>
     <string name="change_mp_new_master_password">nowe hasło główne</string>
@@ -78,7 +78,7 @@
     <string name="menu_delete">Usuń</string>
     <string name="menu_save">Zapisz</string>
     <string name="menu_keyboard">Klawiatura</string>
-    <string name="menu_add_to_watch">Add to watch</string>
+    <string name="menu_add_to_watch">Do zegarka</string>
     <!-- ################################################################################# -->
 
 
@@ -96,7 +96,7 @@
     <string name="toast_master_password_not_updated">Nie udało się zaktualizować hasła głównego</string>
     <string name="toast_storage_permission_granted">Przyznano dostęp</string>
     <string name="toast_storage_permission_denied">Odmowa dostępu. Nie będzie można zapisywać i odczytywać plików.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Odmowa dostępu. NIe można zrobić zdjęcia.</string>
     <string name="toast_no_file_selected">Nie wybrano pliku.</string>
     <string name="toast_successful_backup">Utworzono kopię zapasową</string>
     <string name="toast_successful_restore">Przywrócono bazę danych</string>
@@ -105,16 +105,16 @@
     <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
     <string name="toast_error_csv_import">Nie udało się zaimportować pliku CSV</string>
     <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
+    <string name="toast_added_to_watch">Dodano do zegarka</string>
+    <string name="toast_removed_from_watch">Usunięto z zegarka</string>
     <string name="toast_playstore_error">Sklep Google Play jest nie zainstalowany</string>
     <string name="toast_playstore_services_error">Usługi Google Play są niedostępne</string>
     <string name="toast_google_client_error">Nie można się połączyć z klientem Google. Sprawdź połączenie z internetem</string>
     <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
     <string name="toast_ask_for_rating">Może ocenisz aplikację w Google Play?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_auto_backup_hint">Włącz automatyczną kopię bezpieczeństwa dla lepszej ochrony haseł.</string>
+    <string name="toast_pro_feature">Tylko w wersji PRO</string>
+    <string name="toast_no_password_history">Brak historii haseł</string>
     <!-- ################################################################################# -->
 
 
@@ -123,24 +123,24 @@
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_discard">Odzruć</string>
+    <string name="dialog_button_remove">Usuń</string>
     <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
     <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
     <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
     <string name="dialog_title_self_destruct">Autodestrukcja</string>
     <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_history">Historia</string>
+    <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
-    <string name="dialog_msg_cannot_read_file">Nie można odczytac wybranego pliku.</string>
-    <string name="dialog_msg_error_writing_file">Błąd przyz zapisie pliku:</string>
+    <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
+    <string name="dialog_msg_error_writing_file">Błąd przy zapisie pliku:</string>
     <string name="dialog_msg_error_reading_file">Błąd przy odczycie pliku:</string>
     <string name="dialog_msg_invalid_csv_format">Wybrany plik CSV ma niepoprawny format i nie zostanie zaimportowany.</string>
     <string name="dialog_msg_invalid_db_format">Wybrana kopia zapasowa została utworzona z innym hasłem i nie zostanie przywrócona.</string>
@@ -153,8 +153,8 @@
     <string name="dialog_msg_remember_password">Zapamiętaj hasło główne na wypadek gdyby odcisk palca był niedostępny.</string>
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
+    <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -184,8 +184,8 @@
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Udostępnij bazę danych</string>
+    <string name="pref_database_summary_backup_share">Utwórz i udostępnij zaszyfrowaną bazę danych</string>
     <string name="pref_database_title_backup">Kopia zapasowa bazy danych.</string>
     <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
     <string name="pref_database_title_restore">Przywróć bazę danych</string>
@@ -226,12 +226,12 @@
     <string name="pref_about_title_more_apps">Więcej aplikacji</string>
     <string name="pref_about_title_share">Poleć znajomym</string>
     <string name="pref_about_title_translations">Tłumaczenia</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
+    <string name="pref_about_title_terms">Warunki i polityka prywatności</string>
     <string name="pref_about_title_licenses">Licencje open source</string>
     <string name="pref_about_title_build_version">Build</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
+    <string name="pref_wear_os_title_password_enabled">Hasło Android Wear</string>
+    <string name="pref_wear_os_summary_password_enabled">Chroń dostęp na zegarku hasłem</string>
     <!-- ################################################################################# -->
 
 
