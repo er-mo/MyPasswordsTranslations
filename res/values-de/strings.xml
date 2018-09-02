@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">NEU REGISTRIEREN</string>
     <string name="button_enter">BESTÄTIGEN</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">JETZT UPGRADEN</string>
     <string name="button_update">AKTUALISIEREN</string>
     <string name="button_exit">BEENDEN</string>
@@ -131,7 +132,7 @@
     <string name="dialog_title_self_destruct">Selbstzerstörung</string>
     <string name="dialog_title_confirm_fp">Fingerabdruck bestätigen</string>
     <string name="dialog_title_history">Historie</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_attach_another_image">Bild anhängen?</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
@@ -154,7 +155,7 @@
     <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
     <string name="dialog_msg_remove_from_watch">Eintrag von Ihr Uhr entfernen?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_attachments_warning">Bildanhänge können die Datenbankgröße erhöhen und die Gesamtleistung der Anwendung verringern.</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Thema ändern</string>
     <string name="pref_appearance_theme_light">Hell</string>
     <string name="pref_appearance_theme_dark">Dunkel</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Datenbank teilen</string>
     <string name="pref_database_summary_backup_share">Erstellen und teilen Sie eine Sicherung der verschlüsselten Datenbank</string>

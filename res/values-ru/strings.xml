@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">ГОТОВО</string>
     <string name="button_enter">ВВОД</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">ОБНОВИТЬ СЕЙЧАС</string>
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Поделиться базой данных</string>
     <string name="pref_database_summary_backup_share">Создание и совместное использование резервной копии зашифрованной базы данных</string>

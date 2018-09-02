@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">註冊</string>
     <string name="button_enter">輸入</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">立即更新</string>
     <string name="button_update">更新</string>
     <string name="button_exit">EXIT</string>
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">更改主題</string>
     <string name="pref_appearance_theme_light">明亮</string>
     <string name="pref_appearance_theme_dark">黑暗</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Share database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>

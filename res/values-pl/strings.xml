@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">ZAREJESTRUJ</string>
     <string name="button_enter">WEJDŹ</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
     <string name="button_update">AKTUALIZUJ</string>
     <string name="button_exit">WYJDŹ</string>
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Udostępnij bazę danych</string>
     <string name="pref_database_summary_backup_share">Utwórz i udostępnij zaszyfrowaną bazę danych</string>

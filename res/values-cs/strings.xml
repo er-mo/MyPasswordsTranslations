@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">REGISTROVAT</string>
     <string name="button_enter">VSTOUPIT</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">UPGRADE NOW</string>
     <string name="button_update">AKTUALIZOVAT</string>
     <string name="button_exit">ODEJÍT</string>
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Změnit téma</string>
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Share database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>

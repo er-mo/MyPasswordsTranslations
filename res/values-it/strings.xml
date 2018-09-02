@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">SALVA</string>
     <string name="button_enter">ENTRA</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">AGGIORNA ORA</string>
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Condividi database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>

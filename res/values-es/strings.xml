@@ -33,6 +33,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">REGISTRAR</string>
     <string name="button_enter">ENTRAR</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">MEJORAR AHORA</string>
     <string name="button_update">ACTUALIZAR</string>
     <string name="button_exit">SALIR</string>
@@ -131,7 +132,7 @@
     <string name="dialog_title_self_destruct">Autodestrucción</string>
     <string name="dialog_title_confirm_fp">Confirma tu huella dactilar</string>
     <string name="dialog_title_history">Historia</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_attach_another_image">¿Adjuntar otra imagen?</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
@@ -154,7 +155,7 @@
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
     <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_attachments_warning">Los archivos adjuntos pueden aumentar el tamaño de la base de datos y disminuir el rendimiento general de la aplicación.</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -183,6 +184,8 @@
     <string name="pref_appearance_title_change_theme">Cambiar tema</string>
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Compartir base de datos</string>
     <string name="pref_database_summary_backup_share">Crear y compartir un respaldo de la base de datos cifrada</string>
