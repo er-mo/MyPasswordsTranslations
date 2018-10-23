@@ -3,15 +3,12 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Мои пароли</string>
-    <string name="app_email_subject">Приложение \"Мои пароли\", версия <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Надежное и простое в использовании приложение, для хранения паролей</string>
     <string name="app_download_message">Получить ее бесплатно, прямо сейчас, из магазина Google Play Маркет</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Папка<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">Файл<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Местоположение</string>
     <string name="password_is_too_short">Пароль слишком короткий</string>
     <string name="passwords_not_matching">Пароли не совпадают</string>
@@ -80,6 +77,7 @@
     <string name="menu_save">Сохранить</string>
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_watch">Add to watch</string>
+    <string name="menu_clear_history">Clear history</string>
     <!-- ################################################################################# -->
 
 
@@ -101,10 +99,8 @@
     <string name="toast_no_file_selected">Выбор отменен.</string>
     <string name="toast_successful_backup">Резервная копия создана!</string>
     <string name="toast_successful_restore">Резервная копия восстановлена!</string>
-    <string name="toast_error_restore">Не удалось восстановить резервную копию.</string>
     <string name="toast_successful_csv_export">Экспортирование в файл CSV успешно завершено!</string>
     <string name="toast_successful_csv_import">Импортирование из файла CSV успешно завершено!</string>
-    <string name="toast_error_csv_import">Не удалось импортировать из файла CSV.</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
     <string name="toast_added_to_watch">Added to watch</string>
     <string name="toast_removed_from_watch">Removed from watch</string>
@@ -116,6 +112,7 @@
     <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Доступно только в PRO версии</string>
     <string name="toast_no_password_history">Нет истории паролей</string>
+    <string name="toast_password_history_cleared">History cleared</string>
     <!-- ################################################################################# -->
 
 
@@ -141,10 +138,12 @@
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
-    <string name="dialog_msg_error_writing_file">Произошла ошибка при записи файла:</string>
-    <string name="dialog_msg_error_reading_file">Произошла ошибка при чтении файла:</string>
-    <string name="dialog_msg_invalid_csv_format">Выбранный CSV файл имеет неверный формат и не может быть импортирован.</string>
-    <string name="dialog_msg_invalid_db_format">Выбранный файл резервной копии был создан с помощью другого \"Мастер-пароль\" и не может быть восстановлен.</string>
+    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
+    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
+    <string name="dialog_msg_error_writing_file">Error writing file.</string>
+    <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">Все данные были навсегда удалены, из-за неудачных попыток входа!</string>
     <string name="dialog_msg_no_fp_hardware">Оборудование для отпечатка пальца отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте, по крайней мере, один из отпечатка пальца в настройках системы.</string>

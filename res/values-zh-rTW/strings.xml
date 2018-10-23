@@ -3,15 +3,12 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">My Passwords 程式版本 <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="app_download_message">前往 Google Play 商店免費下載</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Folder<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">File<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">位置</string>
     <string name="password_is_too_short">密碼太短</string>
     <string name="passwords_not_matching">密碼不相符</string>
@@ -80,6 +77,7 @@
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">Keyboard</string>
     <string name="menu_add_to_watch">Add to watch</string>
+    <string name="menu_clear_history">Clear history</string>
     <!-- ################################################################################# -->
 
 
@@ -101,10 +99,8 @@
     <string name="toast_no_file_selected">沒有檔案被選中</string>
     <string name="toast_successful_backup">建立備份成功</string>
     <string name="toast_successful_restore">還原資料庫成功</string>
-    <string name="toast_error_restore">還原資料庫失敗</string>
     <string name="toast_successful_csv_export">匯出 csv 文件成功</string>
     <string name="toast_successful_csv_import">匯入 csv 文件成功</string>
-    <string name="toast_error_csv_import">匯入 csv 文件失敗</string>
     <string name="toast_database_server_error">當前資料不可用</string>
     <string name="toast_added_to_watch">Added to watch</string>
     <string name="toast_removed_from_watch">Removed from watch</string>
@@ -116,6 +112,7 @@
     <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_password_history_cleared">History cleared</string>
     <!-- ################################################################################# -->
 
 
@@ -141,10 +138,12 @@
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
     <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
     <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
-    <string name="dialog_msg_error_writing_file">寫入檔案時發生錯誤。</string>
-    <string name="dialog_msg_error_reading_file">讀取檔案時發生錯誤。</string>
-    <string name="dialog_msg_invalid_csv_format">已選擇的 csv file 文件為無效的格式，並且無法匯入。</string>
-    <string name="dialog_msg_invalid_db_format">已選擇的備份檔是使用不同的主密碼所建，因此無法還原。.</string>
+    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
+    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
+    <string name="dialog_msg_error_writing_file">Error writing file.</string>
+    <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
     <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
     <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>

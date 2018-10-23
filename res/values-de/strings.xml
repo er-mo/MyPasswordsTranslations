@@ -3,15 +3,12 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Meine Passwörter</string>
-    <string name="app_email_subject">Meine Passwörter App Version <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Ein sicherer und einfach zu bedienender Passwort-Manager für Android-Geräte</string>
     <string name="app_download_message">Holen Sie es jetzt kostenlos von Google Play Store</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Verzeichnis<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">Datei<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Pfad</string>
     <string name="password_is_too_short">Passwort ist zu kurz</string>
     <string name="passwords_not_matching">Passwörter stimmen nicht</string>
@@ -80,6 +77,7 @@
     <string name="menu_save">SPEICHERN</string>
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_watch">Zur Uhr hinzufügen</string>
+    <string name="menu_clear_history">Passwortverlauf Löschen</string>
     <!-- ################################################################################# -->
 
 
@@ -101,10 +99,8 @@
     <string name="toast_no_file_selected">Es wurde keine Datei ausgewählt</string>
     <string name="toast_successful_backup">Die Datenbank wurde erfolgreich gesichert</string>
     <string name="toast_successful_restore">Die Datenbank wurde erfolgreich wiederhergestellt</string>
-    <string name="toast_error_restore">Fehler beim Wiederherstellen der Datenbank</string>
     <string name="toast_successful_csv_export">Die CSV Datei wurde erfolgreich exportiert</string>
     <string name="toast_successful_csv_import">Die CSV Datei wurde erfolgreich importiert</string>
-    <string name="toast_error_csv_import">Fehler beim Import der CSV Datei</string>
     <string name="toast_database_server_error">Die Datenbank ist zur Zeit nicht verfügbar</string>
     <string name="toast_added_to_watch">Der Eintrag wurde auf Ihr Uhr hinzugefügt</string>
     <string name="toast_removed_from_watch">Der Eintrag wurde von Ihr Uhr entfernt</string>
@@ -115,7 +111,8 @@
     <string name="toast_ask_for_rating">Wie wäre es mit einer Bewertung auf Google Play Store?</string>
     <string name="toast_auto_backup_hint">Aktivieren Sie die automatische Sicherung, um Ihre Kennwörter zu schützen</string>
     <string name="toast_pro_feature">Nur in der PRO-Version verfügbar</string>
-    <string name="toast_no_password_history">Keine Historie verfügbar</string>
+    <string name="toast_no_password_history">Kein Passwortverlauf verfügbar</string>
+    <string name="toast_password_history_cleared">Passwortverlauf gelöscht</string>
     <!-- ################################################################################# -->
 
 
@@ -141,10 +138,12 @@
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
     <string name="dialog_msg_cannot_read_file">Die ausgewählte Datei kann nicht gelesen werden.</string>
-    <string name="dialog_msg_error_writing_file">Beim Schreiben der Datei ist ein Fehler aufgetreten:</string>
-    <string name="dialog_msg_error_reading_file">Beim Lesen der Datei ist ein Fehler aufgetreten:</string>
-    <string name="dialog_msg_invalid_csv_format">Die ausgewählte CSV Datei hat ein ungültiges Format und kann nicht importiert werden.</string>
-    <string name="dialog_msg_invalid_db_format">Die ausgewählte Sicherungsdatei wurde mit einem anderen Master Passwort erstellt und kann nicht wiederhergestellt werden.</string>
+    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
+    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
+    <string name="dialog_msg_error_writing_file">Error writing file.</string>
+    <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">Alle Daten werden aufgrund der fehlgeschlagenen Versuche dauerhaft gelöscht.</string>
     <string name="dialog_msg_no_fp_hardware">Fingerabdruck-Hardware ist nicht vorhanden oder nicht funktionsfähig.</string>
     <string name="dialog_msg_no_fp_enrolled">Keine eingeschriebenen Fingerabdrücke gefunden. Bitte richten Sie mindestens einen Fingerabdruck in Systemeinstellungen ein.</string>

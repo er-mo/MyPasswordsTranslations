@@ -3,15 +3,12 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_email_subject">Verze aplikace My Passwords <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
     <string name="app_download_message">Získejte nyní zdarma z Obchodu Google Play!</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Složka<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">Soubor<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Umístění</string>
     <string name="password_is_too_short">Heslo je příliš krátké</string>
     <string name="passwords_not_matching">Hesla se neshodují</string>
@@ -80,6 +77,7 @@
     <string name="menu_save">Save</string>
     <string name="menu_keyboard">Klávesnice</string>
     <string name="menu_add_to_watch">Add to watch</string>
+    <string name="menu_clear_history">Clear history</string>
     <!-- ################################################################################# -->
 
 
@@ -101,10 +99,8 @@
     <string name="toast_no_file_selected">Nebyl vybrán žádný soubor</string>
     <string name="toast_successful_backup">Záloha úspěšně vytvořena</string>
     <string name="toast_successful_restore">Databáze úspěšně obnovena</string>
-    <string name="toast_error_restore">Nepodařilo se obnovit databázi</string>
     <string name="toast_successful_csv_export">Úspěšně exportován cvs soubor</string>
     <string name="toast_successful_csv_import">Úspěšně importován cvs soubor</string>
-    <string name="toast_error_csv_import">Nepodařilo se importovat cvs soubor</string>
     <string name="toast_database_server_error">Databáze není v tuto chvíli k dispozici</string>
     <string name="toast_added_to_watch">Added to watch</string>
     <string name="toast_removed_from_watch">Removed from watch</string>
@@ -116,6 +112,7 @@
     <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
+    <string name="toast_password_history_cleared">History cleared</string>
     <!-- ################################################################################# -->
 
 
@@ -141,10 +138,12 @@
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
-    <string name="dialog_msg_error_writing_file">Při zápisu souboru došlo k chybě:</string>
-    <string name="dialog_msg_error_reading_file">Při čtení souboru došlo k chybě:</string>
-    <string name="dialog_msg_invalid_csv_format">Vybraný soubor CSV má neplatný formát a nelze ho importovat.</string>
-    <string name="dialog_msg_invalid_db_format">Vybraný soubor zálohy byl vytvořen během používání jiného hlavního hesla a nemůže být obnoven.</string>
+    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
+    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
+    <string name="dialog_msg_error_writing_file">Error writing file.</string>
+    <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">Všechna data trvale odstraněna z důvodu mnoha neúspěšných pokusů.</string>
     <string name="dialog_msg_no_fp_hardware">Čtečka otisku prstů není k dispozici nebo není funkční.</string>
     <string name="dialog_msg_no_fp_enrolled">Nebyly nalezeny žádné zaregistrované otisky prstů. Prosím nastavte alespoň jeden otisk prstu v systémových nastaveních.</string>

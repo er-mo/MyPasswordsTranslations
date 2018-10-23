@@ -3,15 +3,12 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Moje Hasła</string>
-    <string name="app_email_subject">Moje Hasła, wersja <xliff:g id="VERSION">%1$s</xliff:g></string>
     <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
     <string name="app_download_message">Pobierz ze Sklepu Play.</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="target_folder">Katalog<xliff:g id="SPACE">\u0020</xliff:g></string>
-    <string name="target_file">Plik<xliff:g id="SPACE">\u0020</xliff:g></string>
     <string name="current_location_folder">Lokacja</string>
     <string name="password_is_too_short">Zakrótkie hasło!</string>
     <string name="passwords_not_matching">Hasła się różnią</string>
@@ -80,6 +77,7 @@
     <string name="menu_save">Zapisz</string>
     <string name="menu_keyboard">Klawiatura</string>
     <string name="menu_add_to_watch">Do zegarka</string>
+    <string name="menu_clear_history">Clear history</string>
     <!-- ################################################################################# -->
 
 
@@ -101,10 +99,8 @@
     <string name="toast_no_file_selected">Nie wybrano pliku.</string>
     <string name="toast_successful_backup">Utworzono kopię zapasową</string>
     <string name="toast_successful_restore">Przywrócono bazę danych</string>
-    <string name="toast_error_restore">Nie udało się przywrócić bazy danych</string>
     <string name="toast_successful_csv_export">Wyeksportowano plik CSV</string>
     <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
-    <string name="toast_error_csv_import">Nie udało się zaimportować pliku CSV</string>
     <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
     <string name="toast_added_to_watch">Dodano do zegarka</string>
     <string name="toast_removed_from_watch">Usunięto z zegarka</string>
@@ -116,6 +112,7 @@
     <string name="toast_auto_backup_hint">Włącz automatyczną kopię bezpieczeństwa dla lepszej ochrony haseł.</string>
     <string name="toast_pro_feature">Tylko w wersji PRO</string>
     <string name="toast_no_password_history">Brak historii haseł</string>
+    <string name="toast_password_history_cleared">History cleared</string>
     <!-- ################################################################################# -->
 
 
@@ -141,10 +138,12 @@
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
-    <string name="dialog_msg_error_writing_file">Błąd przy zapisie pliku:</string>
-    <string name="dialog_msg_error_reading_file">Błąd przy odczycie pliku:</string>
-    <string name="dialog_msg_invalid_csv_format">Wybrany plik CSV ma niepoprawny format i nie zostanie zaimportowany.</string>
-    <string name="dialog_msg_invalid_db_format">Wybrana kopia zapasowa została utworzona z innym hasłem i nie zostanie przywrócona.</string>
+    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
+    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
+    <string name="dialog_msg_error_writing_file">Error writing file.</string>
+    <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">Zbyt wiele prób. Wszystkie dane zostały usunięte!</string>
     <string name="dialog_msg_no_fp_hardware">Brak czytnika odcisków lub nie działa on prawidłowo.</string>
     <string name="dialog_msg_no_fp_enrolled">Brak zarejstrowanych odcisków. Dodaj przynajmniej jeden w ustawieniach systemu</string>
