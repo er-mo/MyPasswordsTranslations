@@ -234,6 +234,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">可穿戴密码</string>
     <string name="pref_wear_os_summary_password_enabled">使用密码限制智能手表的访问</string>
+    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
+    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
     <!-- ################################################################################# -->
 
 
@@ -249,5 +251,9 @@
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指纹登录</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>可穿戴系统</string>
     <!-- ################################################################################# -->
+
+
+    <!-- Watch information -->
+    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
 
 </resources>
