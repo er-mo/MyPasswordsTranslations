@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
     <string name="password_not_only_numbers">Hasło zawiera nie tylko cyfry</string>
+    <string name="password_strength_hint_very_weak">Very weak!</string>
+    <string name="password_strength_hint_weak">Weak!</string>
+    <string name="password_strength_hint_good">Good!</string>
+    <string name="password_strength_hint_strong">Strong!</string>
+    <string name="password_strength_hint_very_strong">Very strong!</string>
     <string name="required">Wymagane</string>
     <string name="title">Nazwa</string>
     <string name="account">Konto</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Tylko w wersji PRO</string>
     <string name="toast_no_password_history">Brak historii haseł</string>
     <string name="toast_password_history_cleared">History cleared</string>
+    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
     <!-- ################################################################################# -->
 
 
@@ -150,7 +156,6 @@
     <string name="dialog_msg_fp_not_recognized">Nie rozpoznano odcisku. Spróbuj ponownie</string>
     <string name="dialog_msg_fp_success">Rozpoznano odscisk. Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotknij czytnika</string>
-    <string name="dialog_msg_remember_password">Zapamiętaj hasło główne na wypadek gdyby odcisk palca był niedostępny.</string>
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
     <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>

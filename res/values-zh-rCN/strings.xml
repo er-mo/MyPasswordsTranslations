@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
     <string name="password_not_only_numbers">密码不能仅包含数字</string>
+    <string name="password_strength_hint_very_weak">Very weak!</string>
+    <string name="password_strength_hint_weak">Weak!</string>
+    <string name="password_strength_hint_good">Good!</string>
+    <string name="password_strength_hint_strong">Strong!</string>
+    <string name="password_strength_hint_very_strong">Very strong!</string>
     <string name="required">没有填写内容</string>
     <string name="title">标题</string>
     <string name="account">账户</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">仅在专业版中可用</string>
     <string name="toast_no_password_history">没有可用的密码记录</string>
     <string name="toast_password_history_cleared">History cleared</string>
+    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
     <!-- ################################################################################# -->
 
 
@@ -150,7 +156,6 @@
     <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
-    <string name="dialog_msg_remember_password">确保记得主密码，以防指纹功能不可用。</string>
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>

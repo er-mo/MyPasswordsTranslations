@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Wachtwoorden komen niet overeen</string>
     <string name="password_not_correct">Het wachtwoord is niet correct</string>
     <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_strength_hint_very_weak">Very weak!</string>
+    <string name="password_strength_hint_weak">Weak!</string>
+    <string name="password_strength_hint_good">Good!</string>
+    <string name="password_strength_hint_strong">Strong!</string>
+    <string name="password_strength_hint_very_strong">Very strong!</string>
     <string name="required">Verplicht</string>
     <string name="title">Titel</string>
     <string name="account">Account naam</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
     <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
     <string name="toast_password_history_cleared">History cleared</string>
+    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
     <!-- ################################################################################# -->
 
 
@@ -150,7 +156,6 @@
     <string name="dialog_msg_fp_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
     <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
-    <string name="dialog_msg_remember_password">Zorg er voor dat je het hoofdwachtwoord onthoud voor het geval dat de vingerscanner niet werkt of niet beschikbaar is.</string>
     <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>

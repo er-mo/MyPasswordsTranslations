@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
     <string name="password_not_only_numbers">Ο κωδικός δεν περιέχει μόνο αριθμούς</string>
+    <string name="password_strength_hint_very_weak">Πολύ αδύναμος!</string>
+    <string name="password_strength_hint_weak">Απλός!</string>
+    <string name="password_strength_hint_good">Καλός!</string>
+    <string name="password_strength_hint_strong">Δυνατός!</string>
+    <string name="password_strength_hint_very_strong">Πολύ δυνατός!</string>
     <string name="required">Υποχρεωτικό</string>
     <string name="title">Τίτλος</string>
     <string name="account">Λογαριασμός</string>
@@ -43,7 +48,7 @@
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Καλώς ήρθατε</string>
-    <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείστε την εφαρμογή. Σημειώστε ότι, εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνίσταται ανεπιφύλακτα η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
+    <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείται την εφαρμογή. Εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνιστάται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_feature_1">Εξαγωγή και εισαγωγή csv αρχείων</string>
@@ -55,7 +60,7 @@
     <string name="upgrade_feature_7">Wear OS εφαρμογή</string>
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
     <string name="upgrade_feature_9">Επισύναψη εικόνων</string>
-    <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μια μόνο αγορά εντός της εφαρμογής.</string>
+    <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μία μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
     <string name="change_mp_new_master_password">νέος κωδικός πρόσβασης</string>
@@ -95,7 +100,7 @@
     <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
     <string name="toast_storage_permission_granted">Η άδεια παραχωρήθηκε</string>
     <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Η άδεια απορρίφθηκε. Δεν είναι δυνατή η επισύναψη εικόνων</string>
     <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
     <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
     <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
     <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
     <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
+    <string name="toast_remember_your_master_password">Να θυμάστε πάντα τον κύριο κωδικό πρόσβασης</string>
     <!-- ################################################################################# -->
 
 
@@ -138,19 +144,18 @@
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
+    <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_csv_format_invalid">Η μορφή του CSV αρχείου δεν είναι έγκυρη.</string>
+    <string name="dialog_msg_csv_no_data">Το CSV αρχείο δεν διαθέτει δεδομένα.</string>
+    <string name="dialog_msg_error_writing_file">Σφάλμα κατά την εγγραφή αρχείου.</string>
+    <string name="dialog_msg_error_reading_file">Σφάλμα κατά την ανάγνωση αρχείου.</string>
     <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
     <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
     <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
     <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
     <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
-    <string name="dialog_msg_remember_password">Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό σας σε περίπτωση που τα δακτυλικά αποτυπώματα δεν είναι πια διαθέσιμα.</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
     <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
@@ -183,8 +188,8 @@
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Μπλε Γκρι</string>
+    <string name="pref_appearance_theme_purple">Μωβ</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Κοινή χρήση βάσης δεδομένων</string>
     <string name="pref_database_summary_backup_share">Δημιουργία και κοινοποίηση αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
@@ -234,8 +239,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Κωδικός ρολογιού</string>
     <string name="pref_wear_os_summary_password_enabled">Περιορίστε την πρόσβαση στο ρολόι με τη χρήση κωδικού</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">Προσθήκη στο ρολόι</string>
+    <string name="pref_wear_os_summary_add_to_watch">Νέες καταχωρήσεις θα προστίθενται αυτόματα στο ρολόι</string>
     <!-- ################################################################################# -->
 
 
@@ -254,6 +259,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Ανοίξτε μια καταχώρηση στο τηλέφωνό σας και πατήστε το εικονίδιο του ρολογιού για να προστεθεί εδώ</string>
 
 </resources>

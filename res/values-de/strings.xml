@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Passwörter stimmen nicht</string>
     <string name="password_not_correct">Das Passwort ist nicht korrekt</string>
     <string name="password_not_only_numbers">Passwort enthält nicht nur Zahlen</string>
+    <string name="password_strength_hint_very_weak">Sehr schwach!</string>
+    <string name="password_strength_hint_weak">Schwach!</string>
+    <string name="password_strength_hint_good">Gut!</string>
+    <string name="password_strength_hint_strong">Stark!</string>
+    <string name="password_strength_hint_very_strong">Sehr stark!</string>
     <string name="required">Erforderlich</string>
     <string name="title">Titel</string>
     <string name="account">Konto</string>
@@ -95,7 +100,7 @@
     <string name="toast_master_password_not_updated">Fehler beim Aktualisieren des Master Passworts</string>
     <string name="toast_storage_permission_granted">Erlaubnis erteilt</string>
     <string name="toast_storage_permission_denied">Erlaubnis verweigert. Dateien können nicht gelesen oder geschrieben werden.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Erlaubnis verweigert. Bilder können nicht aufgenommen werden.</string>
     <string name="toast_no_file_selected">Es wurde keine Datei ausgewählt</string>
     <string name="toast_successful_backup">Die Datenbank wurde erfolgreich gesichert</string>
     <string name="toast_successful_restore">Die Datenbank wurde erfolgreich wiederhergestellt</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Nur in der PRO-Version verfügbar</string>
     <string name="toast_no_password_history">Kein Passwortverlauf verfügbar</string>
     <string name="toast_password_history_cleared">Passwortverlauf gelöscht</string>
+    <string name="toast_remember_your_master_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern</string>
     <!-- ################################################################################# -->
 
 
@@ -138,19 +144,18 @@
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
     <string name="dialog_msg_cannot_read_file">Die ausgewählte Datei kann nicht gelesen werden.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Die Datenbanksicherung ist nicht gültig.</string>
+    <string name="dialog_msg_db_different_pass">Die Datenbanksicherung wurde mit einem anderen Master-Passwort erstellt.</string>
+    <string name="dialog_msg_csv_format_invalid">Das CSV-Format ist nicht gültig.</string>
+    <string name="dialog_msg_csv_no_data">Die CSV-Datei enthält keine Daten.</string>
+    <string name="dialog_msg_error_writing_file">Fehler beim Schreiben der Datei.</string>
+    <string name="dialog_msg_error_reading_file">Fehler beim Lesen der Datei.</string>
     <string name="dialog_msg_app_data_erased">Alle Daten werden aufgrund der fehlgeschlagenen Versuche dauerhaft gelöscht.</string>
     <string name="dialog_msg_no_fp_hardware">Fingerabdruck-Hardware ist nicht vorhanden oder nicht funktionsfähig.</string>
     <string name="dialog_msg_no_fp_enrolled">Keine eingeschriebenen Fingerabdrücke gefunden. Bitte richten Sie mindestens einen Fingerabdruck in Systemeinstellungen ein.</string>
     <string name="dialog_msg_fp_not_recognized">Fingerabdruck nicht erkannt</string>
     <string name="dialog_msg_fp_success">Fingerabdruck erkannt. Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Berühren Sie den Sensor</string>
-    <string name="dialog_msg_remember_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern, falls der Fingerabdruck nicht mehr verfügbar ist.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerabdruck Keystore Fehler.</string>
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
     <string name="dialog_msg_remove_from_watch">Eintrag von Ihr Uhr entfernen?</string>
@@ -183,8 +188,8 @@
     <string name="pref_appearance_title_change_theme">Thema ändern</string>
     <string name="pref_appearance_theme_light">Hell</string>
     <string name="pref_appearance_theme_dark">Dunkel</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Blaues Grau</string>
+    <string name="pref_appearance_theme_purple">Lila</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Datenbank teilen</string>
     <string name="pref_database_summary_backup_share">Erstellen und teilen Sie eine Sicherung der verschlüsselten Datenbank</string>
@@ -234,8 +239,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Uhr Passwort</string>
     <string name="pref_wear_os_summary_password_enabled">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">Zur Uhr hinzufügen</string>
+    <string name="pref_wear_os_summary_add_to_watch">Neue Einträge werden automatisch zur Uhr hinzugefügt</string>
     <!-- ################################################################################# -->
 
 
@@ -254,6 +259,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Öffnen Sie einen Eintrag auf Ihrem Telefon und drücken Sie das Uhrsymbol, um hier hinzuzufügen</string>
 
 </resources>

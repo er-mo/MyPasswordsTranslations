@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Şifreler eşleşmiyor</string>
     <string name="password_not_correct">Şifre doğru değil</string>
     <string name="password_not_only_numbers">Şifre yalnızca rakam içermez</string>
+    <string name="password_strength_hint_very_weak">Çok zayıf!</string>
+    <string name="password_strength_hint_weak">Zayıf!</string>
+    <string name="password_strength_hint_good">İyi!</string>
+    <string name="password_strength_hint_strong">Güçlü!</string>
+    <string name="password_strength_hint_very_strong">Çok güçlü!</string>
     <string name="required">Gerekli</string>
     <string name="title">Başlık</string>
     <string name="account">Hesap</string>
@@ -95,7 +100,7 @@
     <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
     <string name="toast_storage_permission_granted">İzin verildi</string>
     <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">İzin reddedildi. Resimler yakalanamıyor.</string>
     <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
     <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
     <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
     <string name="toast_no_password_history">Şifre geçmişi yok</string>
     <string name="toast_password_history_cleared">Şifre geçmişi temizlendi</string>
+    <string name="toast_remember_your_master_password">Ana şifrenizi hatırladığınızdan emin olun</string>
     <!-- ################################################################################# -->
 
 
@@ -138,19 +144,18 @@
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
     <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Veritabanı yedeği geçerli değil.</string>
+    <string name="dialog_msg_db_different_pass">Veritabanı yedeği farklı bir ana şifre kullanılarak oluşturuldu.</string>
+    <string name="dialog_msg_csv_format_invalid">CSV formatı geçerli değil.</string>
+    <string name="dialog_msg_csv_no_data">CSV dosyasının veri yok.</string>
+    <string name="dialog_msg_error_writing_file">Dosya yazılırken hata oluştu.</string>
+    <string name="dialog_msg_error_reading_file">Dosya okunurken hata oluştu.</string>
     <string name="dialog_msg_app_data_erased">Başarısız girişim nedeniyle tüm veriler kalıcı olarak silinmiştir.</string>
     <string name="dialog_msg_no_fp_hardware">Parmak izi donanım mevcut değil.</string>
     <string name="dialog_msg_no_fp_enrolled">Parmak izi bulunamadı. Lütfen sistem ayarlarında en azından bir parmak izi öneri edin.</string>
     <string name="dialog_msg_fp_not_recognized">Parmak izi tanınmadı. Tekrar deneyin</string>
     <string name="dialog_msg_fp_success">Parmak izi tanıdı. Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
-    <string name="dialog_msg_remember_password">Ana şifreyi hatırladığınıza emin olun, parmak izi mevcut olmadığı durum için.</string>
     <string name="dialog_msg_fp_keystore_error">Parmak izi anahtar deposu hatası. Ana şifrenizi girdikten sonra lütfen parmak izini tekrar etkinleştirin.</string>
     <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
     <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
@@ -183,8 +188,8 @@
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Mavi gri</string>
+    <string name="pref_appearance_theme_purple">Mor</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Veritabanı paylaş</string>
     <string name="pref_database_summary_backup_share">Şifrelenmiş veritabanının yedeğini oluşturun ve paylaşın</string>
@@ -234,8 +239,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Saat şifresi</string>
     <string name="pref_wear_os_summary_password_enabled">Bir şifre kullanarak saatinizdeki erişimi kısıtlayın</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">Saati ekle</string>
+    <string name="pref_wear_os_summary_add_to_watch">Yeni kayıtlar otomatik olarak saatinize eklenecek</string>
     <!-- ################################################################################# -->
 
 
@@ -254,6 +259,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Telefonunuza bir kayıt açın ve buraya eklemek için saat simgesine basın</string>
 
 </resources>

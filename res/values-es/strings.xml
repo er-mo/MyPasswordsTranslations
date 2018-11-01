@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Las contraseñas no coinciden</string>
     <string name="password_not_correct">La contraseña no es correcta</string>
     <string name="password_not_only_numbers">La contraseña no solo contiene números</string>
+    <string name="password_strength_hint_very_weak">Muy débil!</string>
+    <string name="password_strength_hint_weak">Débil!</string>
+    <string name="password_strength_hint_good">Buena!</string>
+    <string name="password_strength_hint_strong">Segura!</string>
+    <string name="password_strength_hint_very_strong">Muy fuerte!</string>
     <string name="required">Obligatorio</string>
     <string name="title">Título</string>
     <string name="account">Cuenta</string>
@@ -95,7 +100,7 @@
     <string name="toast_master_password_not_updated">No se pudo actualizar la contraseña maestra</string>
     <string name="toast_storage_permission_granted">Permiso concedido</string>
     <string name="toast_storage_permission_denied">Permiso denegado. No se puede leer o escribir archivos.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Permiso denegado. No se pueden capturar imágenes.</string>
     <string name="toast_no_file_selected">Ningún archivo seleccionado</string>
     <string name="toast_successful_backup">Respaldo creado correctamente</string>
     <string name="toast_successful_restore">Base de datos restaurada correctamente</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Disponible sólo en la versión PRO</string>
     <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
     <string name="toast_password_history_cleared">Historial eliminado</string>
+    <string name="toast_remember_your_master_password">Asegúrese de recordar su contraseña maestra</string>
     <!-- ################################################################################# -->
 
 
@@ -138,19 +144,18 @@
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
     <string name="dialog_msg_payload_failed">Error de verificación de la carga.</string>
     <string name="dialog_msg_cannot_read_file">No se puede leer el archivo seleccionado.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">La copia de seguridad de la base de datos no es válida.</string>
+    <string name="dialog_msg_db_different_pass">La copia de seguridad de la base de datos se creó utilizando una contraseña maestra diferente.</string>
+    <string name="dialog_msg_csv_format_invalid">El formato CSV no es válido.</string>
+    <string name="dialog_msg_csv_no_data">El archivo CSV no tiene datos.</string>
+    <string name="dialog_msg_error_writing_file">Error al escribir el archivo.</string>
+    <string name="dialog_msg_error_reading_file">Error al leer el archivo.</string>
     <string name="dialog_msg_app_data_erased">Todos los datos han sido eliminados de forma permanente debido a los intentos fallidos.</string>
     <string name="dialog_msg_no_fp_hardware">El hardware de huella dactilar no está presente o no funciona.</string>
     <string name="dialog_msg_no_fp_enrolled">Ninguna huella dactilar registrada encontrada. Por favor configura al menos una huella dactilar en los ajustes del sistema.</string>
     <string name="dialog_msg_fp_not_recognized">Huella dactilar no reconocida. Inténtalo de nuevo</string>
     <string name="dialog_msg_fp_success">Huella dactilar reconocida. Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor táctil</string>
-    <string name="dialog_msg_remember_password">Asegúrate de recordar tu contraseña maestra en caso de que la huella dactilar ya no esté disponible.</string>
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
     <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
@@ -183,8 +188,8 @@
     <string name="pref_appearance_title_change_theme">Cambiar tema</string>
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Gris azulado</string>
+    <string name="pref_appearance_theme_purple">Púrpura</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Compartir base de datos</string>
     <string name="pref_database_summary_backup_share">Crear y compartir un respaldo de la base de datos cifrada</string>
@@ -234,8 +239,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Contraseña del reloj</string>
     <string name="pref_wear_os_summary_password_enabled">Restrinja el acceso en su reloj usando una contraseña</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">Añadir al reloj</string>
+    <string name="pref_wear_os_summary_add_to_watch">Las nuevas entradas se añadirán automáticamente al reloj</string>
     <!-- ################################################################################# -->
 
 
@@ -254,6 +259,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Abra una entrada en su teléfono y presione el icono del reloj para agregarla aquí</string>
 
 </resources>

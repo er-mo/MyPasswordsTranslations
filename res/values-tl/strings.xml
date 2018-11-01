@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Passwords are not matching</string>
     <string name="password_not_correct">The password is not correct</string>
     <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_strength_hint_very_weak">Very weak!</string>
+    <string name="password_strength_hint_weak">Weak!</string>
+    <string name="password_strength_hint_good">Good!</string>
+    <string name="password_strength_hint_strong">Strong!</string>
+    <string name="password_strength_hint_very_strong">Very strong!</string>
     <string name="required">Required</string>
     <string name="title">Title</string>
     <string name="account">Account</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <string name="toast_password_history_cleared">History cleared</string>
+    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
     <!-- ################################################################################# -->
 
 
@@ -150,7 +156,6 @@
     <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_remember_password">Make sure you remember your master password in case the fingerprint is not available any more.</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>

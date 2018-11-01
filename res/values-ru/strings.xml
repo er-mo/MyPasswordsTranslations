@@ -14,6 +14,11 @@
     <string name="passwords_not_matching">Пароли не совпадают</string>
     <string name="password_not_correct">Пароль введен не верно</string>
     <string name="password_not_only_numbers">Password contains not only numbers</string>
+    <string name="password_strength_hint_very_weak">Very weak!</string>
+    <string name="password_strength_hint_weak">Weak!</string>
+    <string name="password_strength_hint_good">Good!</string>
+    <string name="password_strength_hint_strong">Strong!</string>
+    <string name="password_strength_hint_very_strong">Very strong!</string>
     <string name="required">Необходимо заполнить</string>
     <string name="title">Заголовок</string>
     <string name="account">Аккаунт</string>
@@ -113,6 +118,7 @@
     <string name="toast_pro_feature">Доступно только в PRO версии</string>
     <string name="toast_no_password_history">Нет истории паролей</string>
     <string name="toast_password_history_cleared">History cleared</string>
+    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
     <!-- ################################################################################# -->
 
 
@@ -150,7 +156,6 @@
     <string name="dialog_msg_fp_not_recognized">Не распознается отпечаток пальца. Пожалуйста, повторите попытку.</string>
     <string name="dialog_msg_fp_success">Отпечаток Ваш! Подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
-    <string name="dialog_msg_remember_password">Убедитесь в том, что Вы помните Ваш \"Мастер-пароль\" в случае, если отпечаток пальца больше не будет доступен.</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
