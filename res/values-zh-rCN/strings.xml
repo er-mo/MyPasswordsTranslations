@@ -29,6 +29,7 @@
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
     <string name="copy">(副本)</string>
+    <string name="new_field_hint">Name</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
+    <string name="button_new_field">ADD FIELD</string>
+    <string name="button_delete_field">Delete field</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_title_history">历史记录</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_new_field">New field</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>

@@ -29,6 +29,7 @@
     <string name="list_is_empty">Es gibt keine Einträge</string>
     <string name="last_updated">Letzte Aktualisierung</string>
     <string name="copy">(Kopie)</string>
+    <string name="new_field_hint">Name</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">JA KLAR</string>
     <string name="button_gotit">ICH HABS</string>
     <string name="button_attach_image">BILD ANFÜGEN</string>
+    <string name="button_new_field">FELD HINZUFÜGEN</string>
+    <string name="button_delete_field">Feld löschen</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">Fingerabdruck bestätigen</string>
     <string name="dialog_title_history">Historie</string>
     <string name="dialog_title_attach_another_image">Bild anhängen?</string>
+    <string name="dialog_title_new_field">Neues Feld</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>

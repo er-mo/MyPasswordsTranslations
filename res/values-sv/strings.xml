@@ -29,6 +29,7 @@
     <string name="list_is_empty">Det finns inga poster</string>
     <string name="last_updated">Senast uppdaterad</string>
     <string name="copy">(copy)</string>
+    <string name="new_field_hint">Name</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
+    <string name="button_new_field">ADD FIELD</string>
+    <string name="button_delete_field">Delete field</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_title_history">History</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_new_field">New field</string>
     <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
     <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>

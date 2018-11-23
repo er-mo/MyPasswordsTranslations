@@ -29,6 +29,7 @@
     <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
     <string name="last_updated">Τελευταία ενημέρωση</string>
     <string name="copy">(αντίγραφο)</string>
+    <string name="new_field_hint">Όνομα</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">ΒΕΒΑΙΩΣ</string>
     <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
     <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
+    <string name="button_new_field">ΠΡΟΣΘΗΚΗ ΠΕΔΙΟΥ</string>
+    <string name="button_delete_field">Διαγραφή πεδίου</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
     <string name="dialog_title_history">Ιστορικό</string>
     <string name="dialog_title_attach_another_image">Επισύναψη επόμενης εικόνας;</string>
+    <string name="dialog_title_new_field">Νέο πεδίο</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>

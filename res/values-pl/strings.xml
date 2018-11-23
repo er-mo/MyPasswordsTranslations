@@ -29,6 +29,7 @@
     <string name="list_is_empty">Nie ma wpisów!</string>
     <string name="last_updated">Aktualizacja</string>
     <string name="copy">(kopia)</string>
+    <string name="new_field_hint">Name</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">JASNE</string>
     <string name="button_gotit">JASNE</string>
     <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
+    <string name="button_new_field">ADD FIELD</string>
+    <string name="button_delete_field">Delete field</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
+    <string name="dialog_title_new_field">New field</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>

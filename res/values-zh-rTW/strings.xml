@@ -29,6 +29,7 @@
     <string name="list_is_empty">沒有任何條目</string>
     <string name="last_updated">最新更新</string>
     <string name="copy">(copy)</string>
+    <string name="new_field_hint">Name</string>
     <!-- ################################################################################# -->
 
 
@@ -42,6 +43,8 @@
     <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
+    <string name="button_new_field">ADD FIELD</string>
+    <string name="button_delete_field">Delete field</string>
     <!-- ################################################################################# -->
 
 
@@ -136,6 +139,7 @@
     <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
     <string name="dialog_title_history">History</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
+    <string name="dialog_title_new_field">New field</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
