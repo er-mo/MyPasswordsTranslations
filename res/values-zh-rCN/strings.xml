@@ -4,7 +4,7 @@
     <!-- Application ##################################################################### -->
     <string name="app_name">我的密码簿</string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
-    <string name="app_download_message">现在从 Google Play 商店下载应用</string>
+    <string name="app_download_message">现在从 Google Play 应用商店下载</string>
     <!-- ################################################################################# -->
 
 
@@ -14,11 +14,11 @@
     <string name="passwords_not_matching">两次输入密码不一致</string>
     <string name="password_not_correct">输入密码不正确</string>
     <string name="password_not_only_numbers">密码不能仅包含数字</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_strength_hint_very_weak">非常弱！</string>
+    <string name="password_strength_hint_weak">弱！</string>
+    <string name="password_strength_hint_good">良好！</string>
+    <string name="password_strength_hint_strong">强！</string>
+    <string name="password_strength_hint_very_strong">非常强！</string>
     <string name="required">没有填写内容</string>
     <string name="title">标题</string>
     <string name="account">账户</string>
@@ -29,22 +29,22 @@
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
     <string name="copy">(副本)</string>
-    <string name="new_field_hint">Name</string>
+    <string name="new_field_hint">名称</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
     <string name="button_register">设置主密码</string>
     <string name="button_enter">点击登录</string>
-    <string name="button_faq">FAQ</string>
+    <string name="button_faq">常见问题</string>
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
+    <string name="button_new_field">添加字段</string>
+    <string name="button_delete_field">删除字段</string>
     <!-- ################################################################################# -->
 
 
@@ -62,7 +62,7 @@
     <string name="upgrade_feature_6">免密码指纹登录</string>
     <string name="upgrade_feature_7">可穿戴应用支持</string>
     <string name="upgrade_feature_8">密码可历史追溯</string>
-    <string name="upgrade_feature_9">Image attachments</string>
+    <string name="upgrade_feature_9">图片附件</string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -85,7 +85,7 @@
     <string name="menu_save">保存</string>
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_watch">添加到智能手表</string>
-    <string name="menu_clear_history">Clear history</string>
+    <string name="menu_clear_history">清除历史记录</string>
     <!-- ################################################################################# -->
 
 
@@ -120,8 +120,8 @@
     <string name="toast_auto_backup_hint">开启自动备份保护你的密码</string>
     <string name="toast_pro_feature">仅在专业版中可用</string>
     <string name="toast_no_password_history">没有可用的密码记录</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
+    <string name="toast_password_history_cleared">历史记录已清除</string>
+    <string name="toast_remember_your_master_password">确保记住您的主密码</string>
     <!-- ################################################################################# -->
 
 
@@ -148,7 +148,7 @@
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
+    <string name="dialog_msg_db_not_valid">数据库备份无效。</string>
     <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
     <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
     <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
@@ -163,7 +163,7 @@
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_attachments_warning">附件可能会增加数据库大小并降低应用程序的整体性能。</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -192,8 +192,8 @@
     <string name="pref_appearance_title_change_theme">更改主题</string>
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">蓝灰</string>
+    <string name="pref_appearance_theme_purple">紫色</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">共享数据库</string>
     <string name="pref_database_summary_backup_share">创建并共享一个加密数据库的备份</string>
@@ -243,8 +243,8 @@
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">可穿戴密码</string>
     <string name="pref_wear_os_summary_password_enabled">使用密码限制智能手表的访问</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">添加到智能手表</string>
+    <string name="pref_wear_os_summary_add_to_watch">新的条目将始终添加到手表中</string>
     <!-- ################################################################################# -->
 
 
@@ -263,6 +263,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">在手机上打开一个条目，然后按下手表图标将其添加到此处</string>
 
 </resources>
