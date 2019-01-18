@@ -42,7 +42,7 @@
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
+    <string name="button_attach_image">附着图片</string>
     <string name="button_new_field">添加字段</string>
     <string name="button_delete_field">删除字段</string>
     <!-- ################################################################################# -->
@@ -103,7 +103,7 @@
     <string name="toast_master_password_not_updated">更改主密码失败</string>
     <string name="toast_storage_permission_granted">授予许可</string>
     <string name="toast_storage_permission_denied">没有权限，无法读写文件</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">没有权限，无法捕捉图像。</string>
     <string name="toast_no_file_selected">未选择文件</string>
     <string name="toast_successful_backup">成功创建备份</string>
     <string name="toast_successful_restore">数据库恢复成功</string>
@@ -138,8 +138,8 @@
     <string name="dialog_title_self_destruct">数据库自毁</string>
     <string name="dialog_title_confirm_fp">指纹确认</string>
     <string name="dialog_title_history">历史记录</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
+    <string name="dialog_title_attach_another_image">附上另一张图片？</string>
+    <string name="dialog_title_new_field">新字段</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
@@ -149,11 +149,11 @@
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
     <string name="dialog_msg_db_not_valid">数据库备份无效。</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_different_pass">这个数据库备份使用了不同的主密码创建。</string>
+    <string name="dialog_msg_csv_format_invalid">CSV 格式无效。</string>
+    <string name="dialog_msg_csv_no_data">CSV 文件没有数据。</string>
+    <string name="dialog_msg_error_writing_file">写文件时出错。</string>
+    <string name="dialog_msg_error_reading_file">读文件时出错。</string>
     <string name="dialog_msg_app_data_erased">密码登录超过限定次数，所有数据将被永久删除。</string>
     <string name="dialog_msg_no_fp_hardware">指纹硬件不存在或不工作。</string>
     <string name="dialog_msg_no_fp_enrolled">未登记指纹，请在系统设置中至少登记一个指纹。</string>
