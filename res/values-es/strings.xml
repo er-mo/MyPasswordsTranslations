@@ -63,6 +63,7 @@
     <string name="upgrade_feature_7">Wear OS Aplicación</string>
     <string name="upgrade_feature_8">Historial de contraseñas</string>
     <string name="upgrade_feature_9">Adjuntar imágenes</string>
+    <string name="upgrade_feature_10">Campos Personalizados</string>
     <string name="upgrade_with_single_purchase">Desbloquea todas las características adicionales con una única compra en la aplicación.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">contraseña antigua</string>

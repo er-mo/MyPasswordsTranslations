@@ -34,7 +34,7 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">NEU REGISTRIEREN</string>
+    <string name="button_register">REGISTRIEREN</string>
     <string name="button_enter">BESTÄTIGEN</string>
     <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">JETZT UPGRADEN</string>
@@ -63,6 +63,7 @@
     <string name="upgrade_feature_7">Wear OS Anwendung</string>
     <string name="upgrade_feature_8">Passwort historie</string>
     <string name="upgrade_feature_9">Bildanhänge</string>
+    <string name="upgrade_feature_10">Benutzerdefinierte Felder</string>
     <string name="upgrade_with_single_purchase">Sie Können alle zusätzlichen Funktionen mit einem einzigen In-App-Kauf freischalten.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Altes Passwort</string>

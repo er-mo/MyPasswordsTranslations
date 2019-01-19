@@ -63,6 +63,7 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Password history</string>
     <string name="upgrade_feature_9">Image attachments</string>
+    <string name="upgrade_feature_10">Custom fields</string>
     <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>

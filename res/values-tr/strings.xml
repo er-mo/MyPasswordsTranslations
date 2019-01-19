@@ -63,6 +63,7 @@
     <string name="upgrade_feature_7">Wear OS uygulama</string>
     <string name="upgrade_feature_8">Kod geçmişi</string>
     <string name="upgrade_feature_9">Resim ekleri</string>
+    <string name="upgrade_feature_10">Özel Alanlar</string>
     <string name="upgrade_with_single_purchase">Tek bir uygulama içi satın alma ile tüm ek özelliklerin kilidini açın.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">eski şifre</string>
