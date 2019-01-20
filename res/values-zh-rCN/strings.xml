@@ -63,7 +63,7 @@
     <string name="upgrade_feature_7">可穿戴应用支持</string>
     <string name="upgrade_feature_8">密码可历史追溯</string>
     <string name="upgrade_feature_9">图片附件</string>
-    <string name="upgrade_feature_10">Custom fields</string>
+    <string name="upgrade_feature_10">自定义字段</string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -97,7 +97,7 @@
     <string name="toast_entry_saved">条目已保存</string>
     <string name="toast_try_again_shortly">请稍后再试</string>
     <string name="toast_no_browser">未找到网页浏览器应用程序</string>
-    <string name="toast_no_playstore">未安装 Google Play 商店应用</string>
+    <string name="toast_no_playstore">未安装 Google Play 应用商店</string>
     <string name="toast_tap_to_copy_text">点击文本视图复制内容</string>
     <string name="toast_copied_to_clipboard">复制到剪贴板</string>
     <string name="toast_master_password_updated">更改主密码成功</string>
