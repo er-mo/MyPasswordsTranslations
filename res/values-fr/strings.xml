@@ -3,7 +3,7 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Mes mots de passe</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
+    <string name="app_description">A secure and easy to use password manager for Android devices </string>
     <string name="app_download_message">Get it now for free from Google Play store</string>
     <!-- ################################################################################# -->
 
