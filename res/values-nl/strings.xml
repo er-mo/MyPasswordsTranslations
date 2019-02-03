@@ -30,6 +30,7 @@
     <string name="last_updated">Laatst bijgewerkt op</string>
     <string name="copy">(copy)</string>
     <string name="new_field_hint">Name</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">Toetsenbord</string>
     <string name="menu_add_to_watch">Add to watch</string>
     <string name="menu_clear_history">Clear history</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- #######################################################Permission granted########################## -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
     <string name="dialog_msg_delete_entry">Invoer wissen?</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>

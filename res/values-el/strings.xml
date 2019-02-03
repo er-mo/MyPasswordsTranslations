@@ -30,6 +30,7 @@
     <string name="last_updated">Τελευταία ενημέρωση</string>
     <string name="copy">(αντίγραφο)</string>
     <string name="new_field_hint">Όνομα</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
     <string name="button_new_field">ΠΡΟΣΘΗΚΗ ΠΕΔΙΟΥ</string>
     <string name="button_delete_field">Διαγραφή πεδίου</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
     <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- ################################################################################# -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>

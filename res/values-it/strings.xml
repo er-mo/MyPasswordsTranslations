@@ -30,6 +30,7 @@
     <string name="last_updated">Ultimo Aggiornamento</string>
     <string name="copy">(Copia)</string>
     <string name="new_field_hint">Name</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_watch">Aggiungi all\'orologio</string>
     <string name="menu_clear_history">Cancella cronologia</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- ################################################################################# -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>

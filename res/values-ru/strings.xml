@@ -30,6 +30,7 @@
     <string name="last_updated">Последнее обновление</string>
     <string name="copy">(Копия)</string>
     <string name="new_field_hint">Name</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_watch">Add to watch</string>
     <string name="menu_clear_history">Clear history</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- ################################################################################# -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>

@@ -30,6 +30,7 @@
     <string name="last_updated">Aktualizacja</string>
     <string name="copy">(kopia)</string>
     <string name="new_field_hint">Name</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">Klawiatura</string>
     <string name="menu_add_to_watch">Do zegarka</string>
     <string name="menu_clear_history">Clear history</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- ################################################################################# -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>

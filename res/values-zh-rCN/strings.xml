@@ -30,6 +30,7 @@
     <string name="last_updated">上次更新</string>
     <string name="copy">(副本)</string>
     <string name="new_field_hint">名称</string>
+    <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
 
 
@@ -45,6 +46,8 @@
     <string name="button_attach_image">附着图片</string>
     <string name="button_new_field">添加字段</string>
     <string name="button_delete_field">删除字段</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- ################################################################################# -->
 
 
@@ -87,6 +90,8 @@
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_watch">添加到智能手表</string>
     <string name="menu_clear_history">清除历史记录</string>
+    <string name="menu_navigation_drawer_all_entries">All</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
     <!-- ################################################################################# -->
 
 
@@ -145,6 +150,7 @@
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
+    <string name="dialog_msg_delete_label">Delete label?</string>
     <string name="dialog_msg_discard_changes">放弃更改？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
