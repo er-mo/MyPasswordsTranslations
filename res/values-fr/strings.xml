@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Mes mots de passe</string>
+    <string name="app_name">Mes codes</string>
     <string name="app_description">Un gestionnaire de mot de passe sécurisé et facile à utiliser pour les appareils Android</string>
     <string name="app_download_message">Obtenez-le maintenant gratuitement sur Google Play Store</string>
     <!-- ################################################################################# -->
