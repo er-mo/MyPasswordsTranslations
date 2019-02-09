@@ -20,17 +20,17 @@
     <string name="password_strength_hint_strong">Forte!</gstring>
     <string name="password_strength_hint_very_strong">Muito forte!</string>
     <string name="required">Requeridos</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="title">Título</string>
+    <string name="account">Conta</string>
+    <string name="password">Senha</string>
+    <string name="username">Nome de usuário</string>
+    <string name="website">Local na rede Internet</string>
+    <string name="notes">Notas</string>
+    <string name="list_is_empty">Não há entradas</string>
+    <string name="last_updated">Ultima atualização</string>
+    <string name="copy">(cópia de)</string>
+    <string name="new_field_hint">Nome</string>
+    <string name="add_new_label">Adicione uma nova tag</string>
     <!-- ################################################################################# -->
 
 
