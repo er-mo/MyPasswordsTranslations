@@ -35,19 +35,19 @@
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_register">REGISTO</string>
+    <string name="button_enter">ENTRAR</string>
+    <string name="button_faq">PERGUNTAS FREQUENTES</string>
+    <string name="button_upgrade_now">ATUALIZE AGORA</string>
+    <string name="button_update">ATUALIZAR</string>
+    <string name="button_exit">SAÍDA</string>
+    <string name="button_sure">SEGURO</string>
+    <string name="button_gotit">CONSEGUI</string>
+    <string name="button_attach_image">ANEXAR IMAGEM</string>
+    <string name="button_new_field">ADICIONAR CAMPO</string>
+    <string name="button_delete_field">Excluir campo</string>
+    <string name="navigation_drawer_open">Abrindo uma gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
     <!-- ################################################################################# -->
 
 
