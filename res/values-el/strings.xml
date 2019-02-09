@@ -128,6 +128,7 @@
     <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
     <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
     <string name="toast_remember_your_master_password">Να θυμάστε πάντα τον κύριο κωδικό πρόσβασης</string>
+    <string name="toast_label_exists">Label already exists</string>
     <!-- ################################################################################# -->
 
 

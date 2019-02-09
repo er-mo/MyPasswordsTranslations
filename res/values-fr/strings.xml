@@ -128,6 +128,7 @@
     <string name="toast_no_password_history">Pas d\'historique de mot de passe disponible</string>
     <string name="toast_password_history_cleared">Histoire effacée</string>
     <string name="toast_remember_your_master_password">Assurez-vous de vous souvenir de votre mot de passe principal</string>
+    <string name="toast_label_exists">Label already exists</string>
     <!-- ################################################################################# -->
 
 
