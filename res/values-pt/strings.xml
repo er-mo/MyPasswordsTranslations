@@ -2,23 +2,23 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">Meus códigos</string>
+    <string name="app_description">Um gerenciador de senhas seguro e fácil de usar para dispositivos Android</string>
+    <string name="app_download_message">Obtenha gratuitamente agora na Google Play Store</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="current_location_folder">Localização</string>
+    <string name="password_is_too_short">A senha é muito curta</string>
+    <string name="passwords_not_matching">As senhas não estão combinando</string>
+    <string name="password_not_correct">A senha não está correta</string>
+    <string name="password_not_only_numbers">A senha contém não apenas números</string>
+    <string name="password_strength_hint_very_weak">Muito fraco!</string>
+    <string name="password_strength_hint_weak">Fraco!</string>
+    <string name="password_strength_hint_good">Bom!</string>
+    <string name="password_strength_hint_strong">Forte!</gstring>
+    <string name="password_strength_hint_very_strong">Muito forte!</string>
     <string name="required">Required</string>
     <string name="title">Title</string>
     <string name="account">Account</string>
