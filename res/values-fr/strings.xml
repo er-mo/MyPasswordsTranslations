@@ -44,7 +44,7 @@
     <string name="button_sure">SÛR</string>
     <string name="button_gotit">je l\'ai</string>
     <string name="button_attach_image">joindre une image</string>
-    <string name="button_new_field">AJOUTER LE CHAMP</string>
+    <string name="button_new_field">Ajouter Le Champ</string>
     <string name="button_delete_field">Supprimer le champ</string>
     <string name="navigation_drawer_open">Ouvrir un tiroir de navigation</string>
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
@@ -61,7 +61,7 @@
     <string name="upgrade_feature_2">Sauvegarde automatique</string>
     <string name="upgrade_feature_3">Choix du thème</string>
     <string name="upgrade_feature_4">Supprimer automatiquement le brouillons</string>
-    <string name="upgrade_feature_5">AUTO-DESTRUCTION</string>
+    <string name="upgrade_feature_5">Auto-Destruction/string>
     <string name="upgrade_feature_6">Entrée avec empreinte digitale</string>
     <string name="upgrade_feature_7">Porter l\'application OS</string>
     <string name="upgrade_feature_8">Historique du mot de passe</string>
@@ -264,8 +264,8 @@
     <string name="pref_category_security">SÉCURITÉ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUCTION</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>Empreinte digitale</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PORTER OS</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>EMPREINTE DIGITALE/string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
