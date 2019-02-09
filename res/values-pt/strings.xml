@@ -75,23 +75,23 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">Procurar</string>
+    <string name="menu_appearance">Aparência</string>
+    <string name="menu_database">Base de dados</string>
+    <string name="menu_security">Segurança</string>
+    <string name="menu_about">Sobre</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_upgrade">Atualize para PRO</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_copy_entry">Faça uma cópia</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eu apago</string>
+    <string name="menu_save">SALVE </string>Editar rótulos
+    <string name="menu_keyboard">Teclado</string>
+    <string name="menu_add_to_watch">Adicionar para assistir</string>
+    <string name="menu_clear_history">Limpar histórico</string>
+    <string name="menu_navigation_drawer_all_entries">Todos</string>
+    <string name="menu_navigation_drawer_edit_labels">Editar rótulos</string>
     <!-- ################################################################################# -->
 
 
