@@ -19,7 +19,7 @@
     <string name="password_strength_hint_good">Bom!</string>
     <string name="password_strength_hint_strong">Forte!</gstring>
     <string name="password_strength_hint_very_strong">Muito forte!</string>
-    <string name="required">Required</string>
+    <string name="required">Requeridos</string>
     <string name="title">Título</string>
     <string name="account">Conta</string>
     <string name="password">Senha</string>
