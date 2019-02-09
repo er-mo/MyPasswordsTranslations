@@ -53,24 +53,24 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">Bem-vindo a minhas senhas</string>
+    <string name="welcome_info_content">Por favor, registre uma senha mestra para começar a usar o aplicativo. Observe que, se a senha mestra for perdida, os dados armazenados não poderão ser recuperados devido à opção de sincronização ausente. É altamente recomendável que você faça backup de seus dados em intervalos regulares.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export &amp; import csv files</string>
-    <string name="upgrade_feature_2">Auto backup</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">Obrigado por adquirir a versão PRO.</string>
+    <string name="upgrade_feature_1">Exportar & amp; importar arquivos csv</string>
+    <string name="upgrade_feature_2">Backup automático</string>
+    <string name="upgrade_feature_3">Seleção de tema</string>
+    <string name="upgrade_feature_4">Limpar auto da área de transferência</string>
+    <string name="upgrade_feature_5">Auto destruição</string>
+    <string name="upgrade_feature_6">Digite a impressão digital</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">Histórico de senhas</string>
+    <string name="upgrade_feature_9">Anexos de imagem</string>
+    <string name="upgrade_feature_10">Os campos personalizados</string>
+    <string name="upgrade_with_single_purchase">Desbloqueie todos os recursos adicionais com uma única compra no aplicativo.</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">Senha Antiga</string>
+    <string name="change_mp_new_master_password">Nova senha</string>
     <!-- ################################################################################# -->
 
 
