@@ -17,7 +17,7 @@
     <string name="password_strength_hint_very_weak">Muito fraco!</string>
     <string name="password_strength_hint_weak">Fraco!</string>
     <string name="password_strength_hint_good">Bom!</string>
-    <string name="password_strength_hint_strong">Forte!</gstring>
+    <string name="password_strength_hint_strong">Forte!</string>
     <string name="password_strength_hint_very_strong">Muito forte!</string>
     <string name="required">Requeridos</string>
     <string name="title">Título</string>
@@ -57,7 +57,7 @@
     <string name="welcome_info_content">Por favor, registre uma senha mestra para começar a usar o aplicativo. Observe que, se a senha mestra for perdida, os dados armazenados não poderão ser recuperados devido à opção de sincronização ausente. É altamente recomendável que você faça backup de seus dados em intervalos regulares.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Obrigado por adquirir a versão PRO.</string>
-    <string name="upgrade_feature_1">Exportar & amp; importar arquivos csv</string>
+    <string name="upgrade_feature_1">Exportar &amp; importar arquivos csv</string>
     <string name="upgrade_feature_2">Backup automático</string>
     <string name="upgrade_feature_3">Seleção de tema</string>
     <string name="upgrade_feature_4">Limpar auto da área de transferência</string>

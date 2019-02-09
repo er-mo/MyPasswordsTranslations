@@ -61,7 +61,7 @@
     <string name="upgrade_feature_2">Sauvegarde automatique</string>
     <string name="upgrade_feature_3">Choix du thème</string>
     <string name="upgrade_feature_4">Supprimer automatiquement le brouillons</string>
-    <string name="upgrade_feature_5">Auto-Destruction/string>
+    <string name="upgrade_feature_5">Auto Destruction</string>
     <string name="upgrade_feature_6">Entrée avec empreinte digitale</string>
     <string name="upgrade_feature_7">Porter l\'application OS</string>
     <string name="upgrade_feature_8">Historique du mot de passe</string>
@@ -265,7 +265,7 @@
     <string name="pref_category_security">SÉCURITÉ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUCTION</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>EMPREINTE DIGITALE/string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>EMPREINTE DIGITALE</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
