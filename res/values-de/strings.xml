@@ -129,6 +129,7 @@
     <string name="toast_password_history_cleared">Passwortverlauf gelöscht</string>
     <string name="toast_remember_your_master_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern</string>
     <string name="toast_label_exists">Label already exists</string>
+    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
     <!-- ################################################################################# -->
 
 

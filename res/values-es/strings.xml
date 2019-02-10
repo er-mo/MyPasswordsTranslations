@@ -129,6 +129,7 @@
     <string name="toast_password_history_cleared">Historial eliminado</string>
     <string name="toast_remember_your_master_password">Asegúrese de recordar su contraseña maestra</string>
     <string name="toast_label_exists">Label already exists</string>
+    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
     <!-- ################################################################################# -->
 
 
