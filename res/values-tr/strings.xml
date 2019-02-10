@@ -43,6 +43,7 @@
     <string name="button_exit">ÇIKIŞ</string>
     <string name="button_sure">TAMAM</string>
     <string name="button_gotit">ANLADIM</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">RESİM İLİŞTİRMEK</string>
     <string name="button_new_field">ALAN EKLE</string>
     <string name="button_delete_field">Alanı sil</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">Geçmiş</string>
     <string name="dialog_title_attach_another_image">Başka bir resim ekle?</string>
     <string name="dialog_title_new_field">Yeni alan</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
     <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
     <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>

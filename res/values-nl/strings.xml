@@ -43,6 +43,7 @@
     <string name="button_exit">EXIT</string>
     <string name="button_sure">ZEKER</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">Geschiedenis</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_title_new_field">New field</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>

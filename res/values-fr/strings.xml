@@ -43,6 +43,7 @@
     <string name="button_exit">SORTIE</string>
     <string name="button_sure">SÛR</string>
     <string name="button_gotit">je l\'ai</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">joindre une image</string>
     <string name="button_new_field">Ajouter Le Champ</string>
     <string name="button_delete_field">Supprimer le champ</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">L\'histoire</string>
     <string name="dialog_title_attach_another_image">Pièce jointe une autre image?</string>
     <string name="dialog_title_new_field">Nouveau champ</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Toutes les entrées actuelles seront supprimées.</string>
     <string name="dialog_msg_changing_master_password">En modifiant votre mot de passe principal, vous ne pourrez pas restaurer les sauvegardes des bases  créées avec le mot de principal passe actuel.</string>
     <string name="dialog_msg_delete_selected_entries">Supprimer les entrées sélectionnées?</string>

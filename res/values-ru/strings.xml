@@ -43,6 +43,7 @@
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_sure">КОНЕЧНО</string>
     <string name="button_gotit">GOT IT</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">History</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_title_new_field">New field</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>

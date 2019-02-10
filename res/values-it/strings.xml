@@ -43,6 +43,7 @@
     <string name="button_exit">ESCI</string>
     <string name="button_sure">SICURO</string>
     <string name="button_gotit">FATTO</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">Storia</string>
     <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_title_new_field">New field</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>

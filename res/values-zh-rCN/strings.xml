@@ -43,6 +43,7 @@
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">附着图片</string>
     <string name="button_new_field">添加字段</string>
     <string name="button_delete_field">删除字段</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">历史记录</string>
     <string name="dialog_title_attach_another_image">附上另一张图片？</string>
     <string name="dialog_title_new_field">新字段</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>

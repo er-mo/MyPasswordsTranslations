@@ -43,6 +43,7 @@
     <string name="button_exit">SALIR</string>
     <string name="button_sure">POR SUPUESTO</string>
     <string name="button_gotit">LO TENGO</string>
+    <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ADJUNTAR IMAGEN</string>
     <string name="button_new_field">AGREGUE CAMPO</string>
     <string name="button_delete_field">Eliminar campo</string>
@@ -148,6 +149,7 @@
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_title_attach_another_image">¿Adjuntar otra imagen?</string>
     <string name="dialog_title_new_field">Nuevo campo</string>
+    <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
