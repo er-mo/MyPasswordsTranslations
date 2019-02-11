@@ -221,59 +221,59 @@
     <string name="pref_database_title_import">Importar arquivo csv</string>
     <string name="pref_database_summary_import">Importar entradas de um arquivo csv não criptografado</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_change_password">Alterar senha mestra</string>
+    <string name="pref_security_title_fast_enter">Entrar rapidamente</string>
+    <string name="pref_security_summary_fast_enter">Torna mais rápido entrar no aplicativo sem ter que tocar no botão ENTER se a senha mestra estiver correta</string>
+    <string name="pref_security_title_auto_exit">Saída automática</string>
+    <string name="pref_security_summary_auto_exit">O aplicativo será desligado automaticamente quando a tela é desligada</string>
+    <string name="pref_security_title_clipboard_clear">Limpar área de transferência</string>
+    <string name="pref_security_clipboard_clear_never">Nunca</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuto</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuto</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuto</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuto</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuto</string>
+    <string name="pref_security_title_self_destruct">Tentativas de senha com falha</string>
+    <string name="pref_security_self_destruct_unlimited">Ilimitado</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Digite a impressão digital</string>
+    <string name="pref_security_summary_fingerprint">O Android 6.0 ou hardware mais recente e compatível é necessário para usar este recurso</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Reportar um erro</string>
+    <string name="pref_about_title_support">Avalie e cheque</string>
+    <string name="pref_about_title_more_apps">Mais aplicativos</string>
+    <string name="pref_about_title_share">Conte aos seus amigos</string>
+    <string name="pref_about_title_translations">Traduções</string>
+    <string name="pref_about_title_terms">Termos e Política de Privacidade</string>
+    <string name="pref_about_title_licenses">Licenças de código aberto</string>
+    <string name="pref_about_title_build_version">Versão Build</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">Use a senha</string>
+    <string name="pref_wear_os_summary_password_enabled">Restringir o acesso no seu relógio usando uma senha</string>
+    <string name="pref_wear_os_title_add_to_watch">Adicionar para assistir</string>
+    <string name="pref_wear_os_summary_add_to_watch">Novas entradas serão sempre adicionadas ao relógio</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_appearance">APARÊNCIA</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_database">BASE DE DADOS</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BACKUP AUTOMÁTICO</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">SEGURANÇA</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PRANCHETA</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUIÇÃO</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>IMPRESSÃO DIGITAL</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Abra uma entrada no seu telefone e toque no ícone do relógio para adicioná-lo aqui</string>
 
 </resources>
