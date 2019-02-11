@@ -97,40 +97,40 @@
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
+    <string name="toast_tap_again_to_exit">Toque novamente para sair</string>
+    <string name="toast_entry_deleted">Entrada excluída</string>
+    <string name="toast_entries_deleted">Entradas eliminadas</string>
+    <string name="toast_entry_saved">Entrada salva</string>
+    <string name="toast_try_again_shortly">Por favor, tente novamente em alguns segundos</string>
+    <string name="toast_no_browser">Nenhum aplicativo de navegador da web foi encontrado</string>
+    <string name="toast_no_playstore">O aplicativo da loja do Google Play não está instalado</string>
+    <string name="toast_tap_to_copy_text">Toque na exibição de texto para copiar o conteúdo</string>
+    <string name="toast_copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="toast_master_password_updated">Senha mestra atualizada com sucesso</string>
+    <string name="toast_master_password_not_updated">Falha ao atualizar a senha mestra</string>
+    <string name="toast_storage_permission_granted">Permissão garantida</string>
+    <string name="toast_storage_permission_denied">Permissão negada. Não é possível ler ou gravar arquivos.</string>
+    <string name="toast_camera_permission_denied">Permissão negada. Não é possível capturar imagens.</string>
+    <string name="toast_no_file_selected">Nenhum arquivo foi selecionado</string>
+    <string name="toast_successful_backup">Backup criado com sucesso</string>
+    <string name="toast_successful_restore">Banco de dados restaurado com sucesso</string>
+    <string name="toast_successful_csv_export">Extraia o arquivo csv com sucesso</string>
+    <string name="toast_successful_csv_import">Arquivo csv importado com sucesso</string>
+    <string name="toast_database_server_error">O banco de dados está indisponível no momento</string>
+    <string name="toast_added_to_watch">Adicionado para assistir</string>
+    <string name="toast_removed_from_watch">Remoção do monitoramento</string>
+    <string name="toast_playstore_error">O aplicativo da loja do Google Play não está instalado</string>
+    <string name="toast_playstore_services_error">Os serviços do Google Play não estão disponíveis</string>
+    <string name="toast_google_client_error">Não é possível se conectar ao cliente do Google. Verifique a conectividade de rede</string>
+    <string name="toast_storage_not_accessible">Armazenamento externo não acessível</string>
+    <string name="toast_ask_for_rating">Que tal um comentário na Google Play Store?</string>
+    <string name="toast_auto_backup_hint">Ativar backup automático para proteger suas senhas</string>
+    <string name="toast_pro_feature">Disponível apenas na versão PRO</string>
+    <string name="toast_no_password_history">Nenhum histórico de senha disponível</string>
+    <string name="toast_password_history_cleared">O histórico foi excluído</string>
+    <string name="toast_remember_your_master_password">Certifique-se que você se lembra da senha mestra</string>
+    <string name="toast_label_exists">Label já existe</string>
+    <string name="toast_pro_feature_unlimited_labels">Mais etiquetas disponíveis apenas na versão PRO</string>
     <!-- ################################################################################# -->
 
 
