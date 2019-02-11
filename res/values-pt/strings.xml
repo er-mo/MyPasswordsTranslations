@@ -135,52 +135,52 @@
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_ok">Está bem</string>
+    <string name="dialog_button_continue">Continuar</string>
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="dialog_button_delete">Eu apago</string>
+    <string name="dialog_button_discard">Descartar</string>
+    <string name="dialog_button_remove">Remover</string>
+    <string name="dialog_title_restore_backup">Restaurar backup?</string>
+    <string name="dialog_title_import_csv">Importar csv?</string>
+    <string name="dialog_title_change_master_password">Alterar senha mestra?</string>
+    <string name="dialog_title_self_destruct">Auto-destruição</string>
+    <string name="dialog_title_confirm_fp">Confirme sua impressão digital</string>
+    <string name="dialog_title_history">História</string>
+    <string name="dialog_title_attach_another_image">Anexar outra imagem?</string>
+    <string name="dialog_title_new_field">Novo campo</string>
+    <string name="dialog_title_set_labels">Definir rótulos</string>
+    <string name="dialog_msg_entries_will_be_deleted">Todas as entradas atuais serão apagadas.</string>
+    <string name="dialog_msg_changing_master_password">Ao alterar a senha mestra, você não poderá restaurar backups de banco de dados que foram criados com a senha mestra atual.</string>
+    <string name="dialog_msg_delete_selected_entries">Excluir entradas selecionadas?</string>
+    <string name="dialog_msg_delete_entry">Excluir entrada?</string>
+    <string name="dialog_msg_delete_label">Excluir rótulo?</string>
+    <string name="dialog_msg_discard_changes">Descartar mudanças?</string>
+    <string name="dialog_msg_cannot_open_folder">A pasta não está acessível.</string>
+    <string name="dialog_msg_payload_failed">A verificação da carga útil falhou.</string>
+    <string name="dialog_msg_cannot_read_file">O arquivo selecionado não pode ser lido.</string>
+    <string name="dialog_msg_db_not_valid">O backup do banco de dados não é válido.</string>
+    <string name="dialog_msg_db_different_pass">O backup do banco de dados foi criado usando uma senha mestra diferente.</string>
+    <string name="dialog_msg_csv_format_invalid">O formato CSV não é válido.</string>
+    <string name="dialog_msg_csv_no_data">O arquivo CSV não possui dados.</string>
+    <string name="dialog_msg_error_writing_file">Erro ao gravar o arquivo.</string>
+    <string name="dialog_msg_error_reading_file">Erro ao ler o arquivo.</string>
+    <string name="dialog_msg_app_data_erased">Todos os dados foram excluídos permanentemente por causa das tentativas com falha.</string>
+    <string name="dialog_msg_no_fp_hardware">O hardware de impressão digital não está presente ou não está funcional.</string>
+    <string name="dialog_msg_no_fp_enrolled">Nenhuma impressão digital registrada foi encontrada. Por favor, configure pelo menos uma impressão digital nas configurações do sistema.</string>
+    <string name="dialog_msg_fp_not_recognized">Impressão digital não reconhecida. Tente novamente</string>
+    <string name="dialog_msg_fp_success">Reconhecimento de impressões digitais reconhecido. Por favor aguarde<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Sensor de toque</string>
+    <string name="dialog_msg_fp_keystore_error">Erro de keystore de impressão digital. Por favor, reative a impressão digital depois de entrar usando sua senha mestra.</string>
+    <string name="dialog_msg_pass_gen_trick">Toque várias vezes para gerar senhas de diferentes tipos e tamanhos.</string>
+    <string name="dialog_msg_remove_from_watch">Remover entrada do relógio?</string>
+    <string name="dialog_msg_attachments_warning">Anexos podem aumentar o tamanho do banco de dados e diminuir o desempenho geral do aplicativo.</string>
+    <string name="dialog_progress_please_wait">Por favor, espere<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Aplicativo está sendo executado</string>
     <!-- ################################################################################# -->
 
 
