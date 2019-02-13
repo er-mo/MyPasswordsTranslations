@@ -13,12 +13,12 @@
     <string name="password_is_too_short">Пароль слишком короткий</string>
     <string name="passwords_not_matching">Пароли не совпадают</string>
     <string name="password_not_correct">Пароль введен не верно</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_not_only_numbers">Пароль содержит не только цифры</string>
+    <string name="password_strength_hint_very_weak">Очень слаб!</string>
+    <string name="password_strength_hint_weak">Слабый!</string>
+    <string name="password_strength_hint_good">Хорошо!</string>
+    <string name="password_strength_hint_strong">Мощный!</string>
+    <string name="password_strength_hint_very_strong">Очень сильный!</string>
     <string name="required">Необходимо заполнить</string>
     <string name="title">Заголовок</string>
     <string name="account">Аккаунт</string>
@@ -29,8 +29,8 @@
     <string name="list_is_empty">Нет записей</string>
     <string name="last_updated">Последнее обновление</string>
     <string name="copy">(Копия)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="new_field_hint">название</string>
+    <string name="add_new_label">Добавить новый ярлык</string>
     <!-- ################################################################################# -->
 
 
@@ -42,13 +42,13 @@
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
     <string name="button_sure">КОНЕЧНО</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_gotit">ПОНЯЛ</string>
+    <string name="button_labels">ЭТИКЕТКИ</string>
+    <string name="button_attach_image">Прикрепить изображение</string>
+    <string name="button_new_field">ДОБАВИТЬ ПОЛЕ</string>
+    <string name="button_delete_field">УДАЛИТЬ ПОЛЕ</string>
+    <string name="navigation_drawer_open">Открытие навигационного ящика</string>
+    <string name="navigation_drawer_close">Закрыть навигационный ящик</string>
     <!-- ################################################################################# -->
 
 
@@ -66,9 +66,9 @@
     <string name="upgrade_feature_6">Функция настройки отпечатка пальца</string>
     <string name="upgrade_feature_7">Функция настройки для часов</string>
     <string name="upgrade_feature_8">История паролей</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_9">Вложения изображений</string>
+    <string name="upgrade_feature_10">Настраиваемые поля</string>
+    <string name="upgrade_with_single_purchase">Разблокируйте все дополнительные функции с помощью одной покупки в приложении.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">старый мастер-пароль</string>
     <string name="change_mp_new_master_password">новый мастер-пароль</string>
@@ -89,10 +89,10 @@
     <string name="menu_delete">Удалить</string>
     <string name="menu_save">Сохранить</string>
     <string name="menu_keyboard">Клавиатура</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_add_to_watch">Добавить, чтобы посмотреть</string>
+    <string name="menu_clear_history">Чистая история</string>
+    <string name="menu_navigation_drawer_all_entries">Все</string>
+    <string name="menu_navigation_drawer_edit_labels">Изменить теги</string>
     <!-- ################################################################################# -->
 
 
@@ -110,15 +110,15 @@
     <string name="toast_master_password_not_updated">Не удалось обновить \"Мастер-пароль\"!</string>
     <string name="toast_storage_permission_granted">Доступ получен.</string>
     <string name="toast_storage_permission_denied">Доступ запрещен. Вы не можете прочитать или записать файлы.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Доступ запрещен. Не удается захватить изображения.</string>
     <string name="toast_no_file_selected">Выбор отменен.</string>
     <string name="toast_successful_backup">Резервная копия создана!</string>
     <string name="toast_successful_restore">Резервная копия восстановлена!</string>
     <string name="toast_successful_csv_export">Экспортирование в файл CSV успешно завершено!</string>
     <string name="toast_successful_csv_import">Импортирование из файла CSV успешно завершено!</string>
     <string name="toast_database_server_error">База данных не доступна в данный момент.</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
+    <string name="toast_added_to_watch">Добавлено смотреть</string>
+    <string name="toast_removed_from_watch">Удалено из отслеживания</string>
     <string name="toast_playstore_error">Приложение \"Google Play Маркет\" не установлено.</string>
     <string name="toast_playstore_services_error">Приложение \"Сервисы Google Play\" не доступны.</string>
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
@@ -127,11 +127,11 @@
     <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Доступно только в PRO версии</string>
     <string name="toast_no_password_history">Нет истории паролей</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_password_history_cleared">История очищена</string>
+    <string name="toast_remember_your_master_password">Убедитесь, что вы помните свой мастер-пароль</string>
+    <string name="toast_label_exists">Метка уже существует</string>
+    <string name="toast_pro_feature_unlimited_labels">Больше меток доступно только в PRO версии</string>
+    <string name="toast_no_labels">Там нет этикетки</string>
     <!-- ################################################################################# -->
 
 
@@ -140,32 +140,32 @@
     <string name="dialog_button_continue">Продолжить</string>
     <string name="dialog_button_cancel">Отмена</string>
     <string name="dialog_button_delete">Удалить</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_discard">отбрасывать</string>
+    <string name="dialog_button_remove">Удалить</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
     <string name="dialog_title_self_destruct">Самоуничтожение</string>
     <string name="dialog_title_confirm_fp">Вход по отпечатку</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_history">история</string>
+    <string name="dialog_title_attach_another_image">Прикрепить другое изображение?</string>
+    <string name="dialog_title_new_field">Новое поле</string>
+    <string name="dialog_title_set_labels">Установить метки</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_delete_label">Удалить тег?</string>
+    <string name="dialog_msg_discard_changes">Отменить изменения?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Резервная копия базы данных недействительна.</string>
+    <string name="dialog_msg_db_different_pass">Резервная копия базы данных была создана с использованием другого мастер-пароля.</string>
+    <string name="dialog_msg_csv_format_invalid">Формат CSV недействителен.</string>
+    <string name="dialog_msg_csv_no_data">Файл CSV не имеет данных.</string>
+    <string name="dialog_msg_error_writing_file">Ошибка записи файла.</string>
+    <string name="dialog_msg_error_reading_file">Ошибка чтения файла.</string>
     <string name="dialog_msg_app_data_erased">Все данные были навсегда удалены, из-за неудачных попыток входа!</string>
     <string name="dialog_msg_no_fp_hardware">Оборудование для отпечатка пальца отсутствует или не функционирует.</string>
     <string name="dialog_msg_no_fp_enrolled">Отпечаток пальца не обнаружен. Пожалуйста, настройте, по крайней мере, один из отпечатка пальца в настройках системы.</string>
@@ -174,8 +174,8 @@
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
+    <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -204,8 +204,8 @@
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Серо-голубой</string>
+    <string name="pref_appearance_theme_purple">Пурпурный</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Поделиться базой данных</string>
     <string name="pref_database_summary_backup_share">Создание и совместное использование резервной копии зашифрованной базы данных</string>
@@ -249,14 +249,14 @@
     <string name="pref_about_title_more_apps">Другие приложения</string>
     <string name="pref_about_title_share">Рассказать друзьям</string>
     <string name="pref_about_title_translations">Помощь в переводе</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
+    <string name="pref_about_title_terms">Условия и политика конфиденциальности</string>
     <string name="pref_about_title_licenses">Лицензция</string>
     <string name="pref_about_title_build_version">Версия сборки</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">носить пароль</string>
+    <string name="pref_wear_os_summary_password_enabled">Ограничьте доступ к своим часам с помощью пароля</string>
+    <string name="pref_wear_os_title_add_to_watch">Добавить, чтобы посмотреть</string>
+    <string name="pref_wear_os_summary_add_to_watch">Новые записи всегда будут добавлены в часы</string>
     <!-- ################################################################################# -->
 
 
@@ -275,6 +275,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Откройте запись на вашем телефоне и нажмите значок часов, чтобы добавить его сюда</string>
 
 </resources>
