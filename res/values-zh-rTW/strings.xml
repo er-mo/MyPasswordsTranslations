@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">我的密碼</string>
     <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="app_download_message">前往 Google Play 商店免費下載</string>
     <!-- ################################################################################# -->
@@ -13,12 +13,12 @@
     <string name="password_is_too_short">密碼太短</string>
     <string name="passwords_not_matching">密碼不相符</string>
     <string name="password_not_correct">密碼不正確</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_not_only_numbers">密碼不僅包含數字</string>
+    <string name="password_strength_hint_very_weak">非常弱！</string>
+    <string name="password_strength_hint_weak">弱！</string>
+    <string name="password_strength_hint_good">好！</string>
+    <string name="password_strength_hint_strong">強大！</string>
+    <string name="password_strength_hint_very_strong">非常強壯！</string>
     <string name="required">需要</string>
     <string name="title">標題</string>
     <string name="account">帳號</string>
@@ -28,9 +28,9 @@
     <string name="notes">描述</string>
     <string name="list_is_empty">沒有任何條目</string>
     <string name="last_updated">最新更新</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="copy">（複製）</string>
+    <string name="new_field_hint">名稱</string>
+    <string name="add_new_label">添加新標籤</string>
     <!-- ################################################################################# -->
 
 
@@ -40,10 +40,10 @@
     <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">立即更新</string>
     <string name="button_update">更新</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
+    <string name="button_exit">出口</string>
+    <string name="button_sure">當然</string>
+    <string name="button_gotit">得到它了</string>
+    <string name="button_labels">標籤</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
     <string name="button_delete_field">Delete field</string>
