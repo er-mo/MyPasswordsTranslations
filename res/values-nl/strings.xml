@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Mijn wachtwoorden</string>
     <string name="app_description">Een veilig en makkelijk gebruik van een password manager voor alle Android apparaten</string>
     <string name="app_download_message">Download het nu gratis uit Google Play Store</string>
     <!-- ################################################################################# -->
@@ -13,12 +13,12 @@
     <string name="password_is_too_short">Wachtwoord is te kort</string>
     <string name="passwords_not_matching">Wachtwoorden komen niet overeen</string>
     <string name="password_not_correct">Het wachtwoord is niet correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_not_only_numbers">Wachtwoord bevat niet alleen cijfers</string>
+    <string name="password_strength_hint_very_weak">Erg zwak!</string>
+    <string name="password_strength_hint_weak">Zwak!</string>
+    <string name="password_strength_hint_good">Goed!</string>
+    <string name="password_strength_hint_strong">Sterk!</string>
+    <string name="password_strength_hint_very_strong">Heel sterk!</string>
     <string name="required">Verplicht</string>
     <string name="title">Titel</string>
     <string name="account">Account naam</string>
@@ -28,9 +28,9 @@
     <string name="notes">Notities</string>
     <string name="list_is_empty">Er is niets ingevuld</string>
     <string name="last_updated">Laatst bijgewerkt op</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="copy">(kopiëren)</string>
+    <string name="new_field_hint">Naam</string>
+    <string name="add_new_label">Voeg een nieuw label toe</string>
     <!-- ################################################################################# -->
 
 
@@ -39,35 +39,35 @@
     <string name="button_enter">ENTER</string>
     <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">NU UPGRADEN</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
+    <string name="button_update">BIJWERKEN</string>
+    <string name="button_exit">UITGANG</string>
     <string name="button_sure">ZEKER</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_gotit">BEGREPEN</string>
     <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_attach_image">BEVESTIG IMAGE</string>
+    <string name="button_new_field">VOEG VELD TOE</string>
+    <string name="button_delete_field">Veld verwijderen</string>
+    <string name="navigation_drawer_open">Open de navigatielade</string>
+    <string name="navigation_drawer_close">Sluit de navigatielade</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welkom bij My Passwords</string>
+    <string name="welcome_info_title">Welkom bij Mijn wachtwoorden</string>
     <string name="welcome_info_content">Kies een hoofdwachtwoord om de applicatie te starten. Bij het kwijtraken van het hoofdwachtwoord is het niet meer mogelijk opgeslagen data te herstellen doordat de sync-optie wegvalt. Er wordt ten zeerste aangeraden om op regelmatige basis een backup te maken.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dank voor de aankoop van de PRO versie.</string>
     <string name="upgrade_feature_1">Exporteren &amp; importen van csv bestanden</string>
-    <string name="upgrade_feature_2">Auto backup</string>
+    <string name="upgrade_feature_2">Automatische back-up</string>
     <string name="upgrade_feature_3">Thema keuze</string>
     <string name="upgrade_feature_4">Automatisch klembord wissen</string>
     <string name="upgrade_feature_5">Zelfdestructie</string>
     <string name="upgrade_feature_6">Invoer via vingerscanner</string>
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Wachtwoord geschiedenis</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
+    <string name="upgrade_feature_9">Beeld Bijlagen</string>
+    <string name="upgrade_feature_10">Aangepaste velden</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">oude wachtwoord</string>
@@ -89,10 +89,10 @@
     <string name="menu_delete">Wis</string>
     <string name="menu_save">Opslaan</string>
     <string name="menu_keyboard">Toetsenbord</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_add_to_watch">Toevoegen om te bekijken</string>
+    <string name="menu_clear_history">Geschiedenis wissen</string>
+    <string name="menu_navigation_drawer_all_entries">Alle</string>
+    <string name="menu_navigation_drawer_edit_labels">Bewerk labels</string>
     <!-- #######################################################Permission granted########################## -->
 
 
@@ -117,8 +117,8 @@
     <string name="toast_successful_csv_export">Exporteren van csv bestand geslaagd</string>
     <string name="toast_successful_csv_import">Importeren van csv bestand geslaagd</string>
     <string name="toast_database_server_error">De database is momenteel niet beschikbaar</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
+    <string name="toast_added_to_watch">Toegevoegd om te kijken</string>
+    <string name="toast_removed_from_watch">verwijdering van monitoring</string>
     <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
     <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
     <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
@@ -127,11 +127,11 @@
     <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
     <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_password_history_cleared">Geschiedenis gewist</string>
+    <string name="toast_remember_your_master_password">Zorg ervoor dat u uw hoofdwachtwoord onthoudt</string>
+    <string name="toast_label_exists">Label bestaat al</string>
+    <string name="toast_pro_feature_unlimited_labels">Meer labels alleen beschikbaar in PRO-versie</string>
+    <string name="toast_no_labels">Geen labels</string>
     <!-- ################################################################################# -->
 
 
@@ -140,7 +140,7 @@
     <string name="dialog_button_continue">Doorgaan</string>
     <string name="dialog_button_cancel">Afbreken</string>
     <string name="dialog_button_delete">Wis</string>
-    <string name="dialog_button_discard">Discard</string>
+    <string name="dialog_button_discard">Afdanken</string>
     <string name="dialog_button_remove">Verwijder</string>
     <string name="dialog_title_restore_backup">Backup terugzetten?</string>
     <string name="dialog_title_import_csv">csv importeren?</string>
@@ -148,24 +148,24 @@
     <string name="dialog_title_self_destruct">Zelfvernietiging</string>
     <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
     <string name="dialog_title_history">Geschiedenis</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_attach_another_image">Een andere afbeelding bijvoegen?</string>
+    <string name="dialog_title_new_field">Nieuw veld</string>
+    <string name="dialog_title_set_labels">Labels instellen</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
     <string name="dialog_msg_delete_entry">Invoer wissen?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_delete_label">Label verwijderen?</string>
+    <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
+    <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
+    <string name="dialog_msg_csv_format_invalid">Het CSV-formaat is niet geldig.</string>
+    <string name="dialog_msg_csv_no_data">Het CSV-bestand bevat geen gegevens.</string>
+    <string name="dialog_msg_error_writing_file">Fout bij schrijven van bestand.</string>
+    <string name="dialog_msg_error_reading_file">Fout bij lezen van bestand.</string>
     <string name="dialog_msg_app_data_erased">Alle data is gewist door het aantal mislukte pogingen.</string>
     <string name="dialog_msg_no_fp_hardware">De vingerscanner is niet aanwezig of niet functioneel.</string>
     <string name="dialog_msg_no_fp_enrolled">Geen geregistreerde vingerafdrukken gevonden. Stel via systeeminstellingen ten minste één vingerafdruk in.</string>
@@ -174,8 +174,8 @@
     <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
     <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
+    <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>
     <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -253,10 +253,10 @@
     <string name="pref_about_title_licenses">Open source licenties</string>
     <string name="pref_about_title_build_version">Build versie</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">Draag wachtwoord</string>
+    <string name="pref_wear_os_summary_password_enabled">Beperk de toegang tot uw horloge door een wachtwoord te gebruiken</string>
+    <string name="pref_wear_os_title_add_to_watch">Toevoegen om te bekijken</string>
+    <string name="pref_wear_os_summary_add_to_watch">Nieuwe items worden altijd toegevoegd aan het horloge</string>
     <!-- ################################################################################# -->
 
 
@@ -264,7 +264,7 @@
     <string name="pref_category_appearance">WEERGAVEN</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATISCHE BACK-UP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">BEVEILIGING</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
@@ -275,6 +275,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Open een vermelding op uw telefoon en druk op het horlogepictogram om deze hier toe te voegen</string>
 
 </resources>
