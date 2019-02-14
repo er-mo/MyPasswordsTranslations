@@ -44,31 +44,31 @@
     <string name="button_sure">當然</string>
     <string name="button_gotit">得到它了</string>
     <string name="button_labels">標籤</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_attach_image">附著圖像</string>
+    <string name="button_new_field">添加字段</string>
+    <string name="button_delete_field">刪除字段</string>
+    <string name="navigation_drawer_open">打開導航抽屜</string>
+    <string name="navigation_drawer_close">關閉導航抽屜</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">歡迎使用 My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">歡迎使用 我的密碼</string>
+    <string name="welcome_info_content">請註冊主密碼以開始使用該應用程序。 請注意，如果主密碼丟失，則由於缺少同步選項，無法恢復存儲的數據。 強烈建議您定期備份數據。</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感謝您購買專業版</string>
     <string name="upgrade_feature_1">CSV進出口</string>
     <string name="upgrade_feature_2">自動備份</string>
     <string name="upgrade_feature_3">主題的選擇</string>
-    <string name="upgrade_feature_4">Clipboard clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_feature_4">剪貼板清晰</string>
+    <string name="upgrade_feature_5">自我毀滅</string>
+    <string name="upgrade_feature_6">使用指紋輸入</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">密碼歷史記錄</string>
+    <string name="upgrade_feature_9">圖像附件</string>
+    <string name="upgrade_feature_10">自定義字段</string>
+    <string name="upgrade_with_single_purchase">通過單次應用內購買解鎖所有附加功能。</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">舊主密碼</string>
     <string name="change_mp_new_master_password">新主密碼</string>
@@ -83,16 +83,16 @@
     <string name="menu_about">關於</string>
     <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">升級至專業版</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_copy_entry">複製一份</string>
     <string name="menu_edit">編輯</string>
     <string name="menu_delete">刪除</string>
-    <string name="menu_save">Save</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_keyboard">鍵盤</string>
+    <string name="menu_add_to_watch">加入觀看</string>
+    <string name="menu_clear_history">清除歷史記錄</string>
+    <string name="menu_navigation_drawer_all_entries">所有</string>
+    <string name="menu_navigation_drawer_edit_labels">編輯標籤</string>
     <!-- ################################################################################# -->
 
 
@@ -110,7 +110,7 @@
     <string name="toast_master_password_not_updated">更新主密碼失敗</string>
     <string name="toast_storage_permission_granted">已授予權限</string>
     <string name="toast_storage_permission_denied">沒有權限。無法讀取或寫入檔案。</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">沒有權限。 無法捕捉圖像。</string>
     <string name="toast_no_file_selected">沒有檔案被選中</string>
     <string name="toast_successful_backup">建立備份成功</string>
     <string name="toast_successful_restore">還原資料庫成功</string>
