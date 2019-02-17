@@ -14,11 +14,11 @@
     <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
     <string name="password_not_only_numbers">Hasło zawiera nie tylko cyfry</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_strength_hint_very_weak">Bardzo słaby!</string>
+    <string name="password_strength_hint_weak">Słaby!</string>
+    <string name="password_strength_hint_good">Dobry!</string>
+    <string name="password_strength_hint_strong">Silny!</string>
+    <string name="password_strength_hint_very_strong">Bardzo silny!</string>
     <string name="required">Wymagane</string>
     <string name="title">Nazwa</string>
     <string name="account">Konto</string>
@@ -29,8 +29,8 @@
     <string name="list_is_empty">Nie ma wpisów!</string>
     <string name="last_updated">Aktualizacja</string>
     <string name="copy">(kopia)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="new_field_hint">Imię</string>
+    <string name="add_new_label">Dodaj nową etykietę</string>
     <!-- ################################################################################# -->
 
 
@@ -45,10 +45,10 @@
     <string name="button_gotit">JASNE</string>
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_new_field">DODAJ POLE</string>
+    <string name="button_delete_field">Usuń pole</string>
+    <string name="navigation_drawer_open">Otwarta szuflada nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij szufladę nawigacji</string>
     <!-- ################################################################################# -->
 
 
@@ -90,9 +90,9 @@
     <string name="menu_save">Zapisz</string>
     <string name="menu_keyboard">Klawiatura</string>
     <string name="menu_add_to_watch">Do zegarka</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_clear_history">Czysta historia</string>
+    <string name="menu_navigation_drawer_all_entries">Wszystko</string>
+    <string name="menu_navigation_drawer_edit_labels">Edytuj etykiety</string>
     <!-- ################################################################################# -->
 
 
@@ -127,16 +127,16 @@
     <string name="toast_auto_backup_hint">Włącz automatyczną kopię bezpieczeństwa dla lepszej ochrony haseł.</string>
     <string name="toast_pro_feature">Tylko w wersji PRO</string>
     <string name="toast_no_password_history">Brak historii haseł</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_password_history_cleared">Historia została wyczyszczona</string>
+    <string name="toast_remember_your_master_password">Upewnij się, że pamiętasz swoje główne hasło</string>
+    <string name="toast_label_exists">Etykieta już istnieje</string>
+    <string name="toast_pro_feature_unlimited_labels">Więcej etykiet dostępnych tylko w wersji PRO</string>
+    <string name="toast_no_labels">Brak etykiet</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_ok">dobrze</string>
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
@@ -149,23 +149,23 @@
     <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_new_field">Nowe pole</string>
+    <string name="dialog_title_set_labels">Ustaw etykiety</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">Usunąć etykietę?</string>
     <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
+    <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
+    <string name="dialog_msg_csv_format_invalid">Format CSV jest nieprawidłowy.</string>
+    <string name="dialog_msg_csv_no_data">W pliku CSV nie ma danych.</string>
+    <string name="dialog_msg_error_writing_file">Błąd podczas zapisywania pliku.</string>
+    <string name="dialog_msg_error_reading_file">Błąd odczytu pliku.</string>
     <string name="dialog_msg_app_data_erased">Zbyt wiele prób. Wszystkie dane zostały usunięte!</string>
     <string name="dialog_msg_no_fp_hardware">Brak czytnika odcisków lub nie działa on prawidłowo.</string>
     <string name="dialog_msg_no_fp_enrolled">Brak zarejstrowanych odcisków. Dodaj przynajmniej jeden w ustawieniach systemu</string>
@@ -204,8 +204,8 @@
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Niebiesko szary</string>
+    <string name="pref_appearance_theme_purple">Fioletowy</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Udostępnij bazę danych</string>
     <string name="pref_database_summary_backup_share">Utwórz i udostępnij zaszyfrowaną bazę danych</string>
@@ -229,11 +229,11 @@
     <string name="pref_security_summary_auto_exit">Wyłączenie ekranu zamknie aplikację.</string>
     <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
     <string name="pref_security_clipboard_clear_never">Nigdy</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuta</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuta</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuta</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuta</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuta</string>
     <string name="pref_security_title_self_destruct">Liczba błędnych logowań</string>
     <string name="pref_security_self_destruct_unlimited">Bez ograniczeń</string>
     <string name="pref_security_self_destruct_three">3</string>
@@ -275,6 +275,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Otwórz wpis w telefonie i dotknij ikony zegara, aby dodać go tutaj</string>
 
 </resources>
