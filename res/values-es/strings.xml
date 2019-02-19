@@ -30,7 +30,7 @@
     <string name="last_updated">Última actualización</string>
     <string name="copy">(copiar)</string>
     <string name="new_field_hint">Nombre</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="add_new_label">Añadir nueva etiqueta</string>
     <!-- ################################################################################# -->
 
 
@@ -47,8 +47,8 @@
     <string name="button_attach_image">ADJUNTAR IMAGEN</string>
     <string name="button_new_field">AGREGUE CAMPO</string>
     <string name="button_delete_field">Eliminar campo</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Cajón de navegación abierto.</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <!-- ################################################################################# -->
 
 
@@ -91,8 +91,8 @@
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_add_to_watch">Agregar al reloj</string>
     <string name="menu_clear_history">Eliminar historial</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_navigation_drawer_all_entries">Todos</string>
+    <string name="menu_navigation_drawer_edit_labels">Editar etiquetas</string>
     <!-- ################################################################################# -->
 
 
@@ -129,9 +129,9 @@
     <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
     <string name="toast_password_history_cleared">Historial eliminado</string>
     <string name="toast_remember_your_master_password">Asegúrese de recordar su contraseña maestra</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_label_exists">La etiqueta ya existe</string>
+    <string name="toast_pro_feature_unlimited_labels">Más etiquetas disponibles solo en versión PRO</string>
+    <string name="toast_no_labels">Sin etiquetas</string>
     <!-- ################################################################################# -->
 
 
@@ -155,7 +155,7 @@
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
     <string name="dialog_msg_delete_entry">¿Eliminar la entrada?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">¿Eliminar etiqueta?</string>
     <string name="dialog_msg_discard_changes">¿Descartar los cambios?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
     <string name="dialog_msg_payload_failed">Error de verificación de la carga.</string>
@@ -229,11 +229,11 @@
     <string name="pref_security_summary_auto_exit">La aplicación se cerrará automáticamente cuando la pantalla se apague</string>
     <string name="pref_security_title_clipboard_clear">Vaciar portapapeles</string>
     <string name="pref_security_clipboard_clear_never">Nunca</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuto</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuto</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuto</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuto</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuto</string>
     <string name="pref_security_title_self_destruct">Intentos fallidos de contraseña</string>
     <string name="pref_security_self_destruct_unlimited">Ilimitados</string>
     <string name="pref_security_self_destruct_three">3</string>
