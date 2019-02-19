@@ -30,7 +30,7 @@
     <string name="last_updated">Letzte Aktualisierung</string>
     <string name="copy">(Kopie)</string>
     <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="add_new_label">Neues Label hinzufügen</string>
     <!-- ################################################################################# -->
 
 
@@ -47,8 +47,8 @@
     <string name="button_attach_image">BILD ANFÜGEN</string>
     <string name="button_new_field">FELD HINZUFÜGEN</string>
     <string name="button_delete_field">Feld löschen</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Öffnen Sie die Navigationsleiste</string>
+    <string name="navigation_drawer_close">Navigationsleiste schließen</string>
     <!-- ################################################################################# -->
 
 
@@ -91,8 +91,8 @@
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_watch">Zur Uhr hinzufügen</string>
     <string name="menu_clear_history">Passwortverlauf Löschen</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_navigation_drawer_all_entries">Alles</string>
+    <string name="menu_navigation_drawer_edit_labels">Labels bearbeiten</string>
     <!-- ################################################################################# -->
 
 
@@ -130,8 +130,8 @@
     <string name="toast_password_history_cleared">Passwortverlauf gelöscht</string>
     <string name="toast_remember_your_master_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern</string>
     <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_pro_feature_unlimited_labels">Weitere Etiketten nur in der PRO-Version verfügbar</string>
+    <string name="toast_no_labels">Keine Etiketten</string>
     <!-- ################################################################################# -->
 
 
@@ -155,7 +155,7 @@
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">Label löschen?</string>
     <string name="dialog_msg_discard_changes">Änderungen verwerfen?</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
@@ -251,7 +251,7 @@
     <string name="pref_about_title_translations">Übersetzungen</string>
     <string name="pref_about_title_terms">Nutzungsbedingungen und Datenschutz</string>
     <string name="pref_about_title_licenses">Open Source Lizenzen</string>
-    <string name="pref_about_title_build_version">Build Version</string>
+    <string name="pref_about_title_build_version">Version erstellen</string>
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Uhr Passwort</string>
     <string name="pref_wear_os_summary_password_enabled">Beschränken Sie den Zugriff auf Ihr Uhr mithilfe eines Kennworts</string>
