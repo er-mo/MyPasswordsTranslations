@@ -117,21 +117,21 @@
     <string name="toast_successful_csv_export">匯出 csv 文件成功</string>
     <string name="toast_successful_csv_import">匯入 csv 文件成功</string>
     <string name="toast_database_server_error">當前資料不可用</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_added_to_watch">添加用於跟踪</string>
+    <string name="toast_removed_from_watch">從跟踪中刪除</string>
+    <string name="toast_playstore_error">Google Play store 應用程序未安裝</string>
+    <string name="toast_playstore_services_error">Google Play 服務不可用</string>
+    <string name="toast_google_client_error">無法連接 Google 客戶. 檢查網絡連接</string>
+    <string name="toast_storage_not_accessible">外部存儲無法訪問</string>
+    <string name="toast_ask_for_rating">如何評價 Google Play store?</string>
+    <string name="toast_auto_backup_hint">啟用自動備份以保護您的密碼</string>
+    <string name="toast_pro_feature">僅適用於PRO版本</string>
+    <string name="toast_no_password_history">沒有密碼歷史記錄</string>
+    <string name="toast_password_history_cleared">歷史記錄已刪除</string>
+    <string name="toast_remember_your_master_password">確保記住您的主密碼</string>
+    <string name="toast_label_exists">標籤已經存在</string>
+    <string name="toast_pro_feature_unlimited_labels">更多標籤僅在PRO版本中可用</string>
+    <string name="toast_no_labels">沒有標籤</string>
     <!-- ################################################################################# -->
 
 
@@ -140,42 +140,42 @@
     <string name="dialog_button_continue">繼續</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">刪除</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_discard">丟棄</string>
+    <string name="dialog_button_remove">去掉</string>
     <string name="dialog_title_restore_backup">是否還原備份？</string>
     <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
     <string name="dialog_title_change_master_password">是否更改主密碼？</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_self_destruct">自毀</string>
+    <string name="dialog_title_confirm_fp">確認您的指紋</string>
+    <string name="dialog_title_history">歷史</string>
+    <string name="dialog_title_attach_another_image">附上另一張圖片？</string>
+    <string name="dialog_title_new_field">新領域</string>
+    <string name="dialog_title_set_labels">設置標籤</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
     <string name="dialog_msg_delete_entry">是否刪除條目？</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_delete_label">刪除標籤？</string>
+    <string name="dialog_msg_discard_changes">放棄更改？</string>
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
     <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
     <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_db_not_valid">數據庫備份無效。</string>
+    <string name="dialog_msg_db_different_pass">使用不同的主密碼創建數據庫備份。</string>
+    <string name="dialog_msg_csv_format_invalid">CSV格式無效。</string>
+    <string name="dialog_msg_csv_no_data">CSV文件沒有數據。</string>
+    <string name="dialog_msg_error_writing_file">寫文件時出錯。</string>
+    <string name="dialog_msg_error_reading_file">讀取文件時出錯。</string>
+    <string name="dialog_msg_app_data_erased">由於嘗試失敗，所有數據都被永久刪除。</string>
+    <string name="dialog_msg_no_fp_hardware">指紋硬件不存在或不起作用。</string>
+    <string name="dialog_msg_no_fp_enrolled">沒有找到登記的指紋。 請在系統設置中設置至少一個指紋。</string>
+    <string name="dialog_msg_fp_not_recognized">指紋無法識別。 再試一次</string>
+    <string name="dialog_msg_fp_success">指紋識別。 請耐心等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">觸摸傳感器</string>
+    <string name="dialog_msg_fp_keystore_error">指紋密鑰庫錯誤。 使用者密碼輸入後,請重新啟用指紋。</string>
+    <string name="dialog_msg_pass_gen_trick">點擊多次以生成不同類型和長度的密碼。</string>
+    <string name="dialog_msg_remove_from_watch">刪除時鐘條目？</string>
+    <string name="dialog_msg_attachments_warning">附件可能會增加數據庫大小並降低應用程序的整體性能。</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -191,32 +191,32 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
     <string name="pref_appearance_sorting_choise_time">按日期</string>
     <string name="pref_appearance_sorting_choise_color">按顏色</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
+    <string name="pref_appearance_title_navibar_color">導航欄顏色</string>
+    <string name="pref_appearance_summary_navibar_color">主要顏色也將應用於導航欄(Android 5.0及更高版本)</string>
     <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
     <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
+    <string name="pref_appearance_title_show_passwords">顯示密碼</string>
+    <string name="pref_appearance_summary_show_passwords">您無需按下眼睛圖標</string>
+    <string name="pref_appearance_title_show_account">顯示帳戶</string>
+    <string name="pref_appearance_summary_show_account">如果可用，帳戶字段將顯示在主列表視圖中</string>
+    <string name="pref_appearance_title_stay_awake">保持清醒</string>
+    <string name="pref_appearance_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
     <string name="pref_appearance_title_change_theme">更改主題</string>
     <string name="pref_appearance_theme_light">明亮</string>
     <string name="pref_appearance_theme_dark">黑暗</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">藍灰色</string>
+    <string name="pref_appearance_theme_purple">紫色</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">共享數據庫</string>
+    <string name="pref_database_summary_backup_share">創建並共享加密數據庫的備份</string>
     <string name="pref_database_title_backup">備份資料庫</string>
     <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
     <string name="pref_database_title_restore">還原資料庫</string>
     <string name="pref_database_summary_restore">還原加密的資料庫備份</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_gd_auto_backup">Google雲端硬盤備份</string>
+    <string name="pref_database_summary_gd_auto_backup">在您的個人Google雲端硬盤帳戶上創建自動備份</string>
+    <string name="pref_database_title_sd_auto_backup">外部存儲備份</string>
+    <string name="pref_database_summary_sd_auto_backup">在外部存儲（sd或內部不可移動存儲）上創建自動備份。 您可以使用第三方文件管理器應用程序訪問外部存儲</string>
     <string name="pref_database_title_export">匯出 csv 文件</string>
     <string name="pref_database_summary_export">從未加密的 csv 文件中匯出條目</string>
     <string name="pref_database_title_import">匯入 csv 文件</string>
@@ -227,36 +227,36 @@
     <string name="pref_security_summary_fast_enter">當密碼正確時將不需要點選“進入”按鈕直接到達程式主畫面</string>
     <string name="pref_security_title_auto_exit">自動離開</string>
     <string name="pref_security_summary_auto_exit">當裝置螢幕關閉時將自動離開應用程式</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_clipboard_clear">清除剪貼板</string>
+    <string name="pref_security_clipboard_clear_never">決不</string>
+    <string name="pref_security_clipboard_clear_one_min">1分鐘</string>
+    <string name="pref_security_clipboard_clear_two_min">2分鐘</string>
+    <string name="pref_security_clipboard_clear_three_min">3分鐘</string>
+    <string name="pref_security_clipboard_clear_four_min">4分鐘</string>
+    <string name="pref_security_clipboard_clear_five_min">5分鐘</string>
+    <string name="pref_security_title_self_destruct">密碼嘗試失敗</string>
+    <string name="pref_security_self_destruct_unlimited">無限</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">使用指紋輸入</string>
+    <string name="pref_security_summary_fingerprint">使用此功能需要Android 6.0或更高版本</string>
     <!-- about -->
     <string name="pref_about_title_contact">回報錯誤</string>
     <string name="pref_about_title_support">評分與回饋</string>
     <string name="pref_about_title_more_apps">更多程式</string>
     <string name="pref_about_title_share">告訴您的朋友</string>
     <string name="pref_about_title_translations">翻譯人員</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
+    <string name="pref_about_title_terms">條款和隱私政策</string>
     <string name="pref_about_title_licenses">開放原始碼許可證</string>
     <string name="pref_about_title_build_version">組建版本</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">穿密碼</string>
+    <string name="pref_wear_os_summary_password_enabled">使用密碼限製手表的訪問權限</string>
+    <string name="pref_wear_os_title_add_to_watch">加入觀看</string>
+    <string name="pref_wear_os_summary_add_to_watch">新的條目將始終添加到手錶中</string>
     <!-- ################################################################################# -->
 
 
@@ -266,15 +266,15 @@
     <string name="pref_category_database">資料庫</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[專業版]\u0020</xliff:g>自動備份</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[專業版]\u0020</xliff:g>CSV 文件</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">安全</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪貼板</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自毀</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指紋</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">在手機上打開一個條目，然後按下手錶圖標將其添加到此處</string>
 
 </resources>
