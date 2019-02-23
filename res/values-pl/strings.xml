@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Historia haseł</string>
     <string name="upgrade_feature_9">Załączniki</string>
     <string name="upgrade_feature_10">Custom fields</string>
+    <string name="upgrade_feature_11">Nieograniczone etykiety</string>
     <string name="upgrade_with_single_purchase">Odblokuj wszystkie dodatkowe funkcje jednym zamówieniem.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">stare hasło główne</string>

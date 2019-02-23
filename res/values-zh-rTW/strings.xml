@@ -64,10 +64,11 @@
     <string name="upgrade_feature_4">剪貼板清晰</string>
     <string name="upgrade_feature_5">自我毀滅</string>
     <string name="upgrade_feature_6">使用指紋輸入</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
+    <string name="upgrade_feature_7">Wear OS 應用</string>
     <string name="upgrade_feature_8">密碼歷史記錄</string>
     <string name="upgrade_feature_9">圖像附件</string>
     <string name="upgrade_feature_10">自定義字段</string>
+    <string name="upgrade_feature_11">無限標籤</string>
     <string name="upgrade_with_single_purchase">通過單次應用內購買解鎖所有附加功能。</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">舊主密碼</string>

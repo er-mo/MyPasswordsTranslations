@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Histórico de senhas</string>
     <string name="upgrade_feature_9">Anexos de imagem</string>
     <string name="upgrade_feature_10">Os campos personalizados</string>
+    <string name="upgrade_feature_11">Etiquetas ilimitadas</string>
     <string name="upgrade_with_single_purchase">Desbloqueie todos os recursos adicionais com uma única compra no aplicativo.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Senha Antiga</string>

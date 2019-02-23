@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Wachtwoord geschiedenis</string>
     <string name="upgrade_feature_9">Beeld Bijlagen</string>
     <string name="upgrade_feature_10">Aangepaste velden</string>
+    <string name="upgrade_feature_11">Onbeperkte labels</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">oude wachtwoord</string>

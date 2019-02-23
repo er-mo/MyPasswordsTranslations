@@ -22,7 +22,7 @@
     <string name="required">Richiesto</string>
     <string name="title">Titolo</string>
     <string name="account">Account</string>
-    <string name="password">Parola d'ordine</string>
+    <string name="password">Parola d\'ordine</string>
     <string name="username">Nome Utente</string>
     <string name="website">Sito Web</string>
     <string name="notes">Descrizione</string>
@@ -44,7 +44,7 @@
     <string name="button_sure">SICURO</string>
     <string name="button_gotit">FATTO</string>
     <string name="button_labels">ETICHETTE</string>
-    <string name="button_attach_image">ATTACCARE L'IMMAGINE</string>
+    <string name="button_attach_image">ATTACCARE L\'IMMAGINE</string>
     <string name="button_new_field">AGGIUNGI CAMPO</string>
     <string name="button_delete_field">Elimina campo</string>
     <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Storia delle password</string>
     <string name="upgrade_feature_9">Allegati immagine</string>
     <string name="upgrade_feature_10">Campi personalizzati</string>
+    <string name="upgrade_feature_11">Etichette illimitate</string>
     <string name="upgrade_with_single_purchase">Sblocca tutte le funzionalità aggiuntive con un singolo acquisto in-app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Vecchia password</string>
@@ -129,7 +130,7 @@
     <string name="toast_no_password_history">Nessuna cronologia delle password disponibile</string>
     <string name="toast_password_history_cleared">Cronologia delle password cancellata</string>
     <string name="toast_remember_your_master_password">Assicurati di ricordare la tua password principale</string>
-    <string name="toast_label_exists">L'etichetta esiste già</string>
+    <string name="toast_label_exists">L\'etichetta esiste già</string>
     <string name="toast_pro_feature_unlimited_labels">Più etichette disponibili solo nella versione PRO</string>
     <string name="toast_no_labels">Nessuna etichetta</string>
     <!-- ################################################################################# -->
@@ -148,7 +149,7 @@
     <string name="dialog_title_self_destruct">Autodistruzione</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
     <string name="dialog_title_history">Storia</string>
-    <string name="dialog_title_attach_another_image">Allegare un'altra immagine?</string>
+    <string name="dialog_title_attach_another_image">Allegare un\'altra immagine?</string>
     <string name="dialog_title_new_field">Nuovo campo</string>
     <string name="dialog_title_set_labels">Imposta le etichette</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
@@ -256,7 +257,7 @@
     <string name="pref_wear_os_title_password_enabled">Indossare la password</string>
     <string name="pref_wear_os_summary_password_enabled">Limita l\'accesso sul tuo orologio utilizzando una password</string>
     <string name="pref_wear_os_title_add_to_watch">Aggiungi a guardare</string>
-    <string name="pref_wear_os_summary_add_to_watch">Le nuove voci verranno sempre aggiunte all'orologio</string>
+    <string name="pref_wear_os_summary_add_to_watch">Le nuove voci verranno sempre aggiunte all\'orologio</string>
     <!-- ################################################################################# -->
 
 
@@ -275,6 +276,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Apri una voce sul tuo telefono e premi l'icona dell'orologio per aggiungerla qui</string>
+    <string name="watch_empty_list_view_info">Apri una voce sul tuo telefono e premi l\'icona dell\'orologio per aggiungerla qui</string>
 
 </resources>

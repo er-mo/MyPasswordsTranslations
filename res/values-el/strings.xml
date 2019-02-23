@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
     <string name="upgrade_feature_9">Επισύναψη εικόνων</string>
     <string name="upgrade_feature_10">Προσαρμοσμένα πεδία</string>
+    <string name="upgrade_feature_11">Απεριόριστες ετικέτες</string>
     <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μία μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>

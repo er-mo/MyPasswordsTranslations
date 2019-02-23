@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Lösenord Historia</string>
     <string name="upgrade_feature_9">Bildbilagor</string>
     <string name="upgrade_feature_10">Anpassade fält</string>
+    <string name="upgrade_feature_11">Obegränsade etiketter</string>
     <string name="upgrade_with_single_purchase">Lås upp alla ytterligare funktioner med ett enda inköp i app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>

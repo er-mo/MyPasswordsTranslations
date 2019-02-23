@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">История паролей</string>
     <string name="upgrade_feature_9">Вложения изображений</string>
     <string name="upgrade_feature_10">Настраиваемые поля</string>
+    <string name="upgrade_feature_11">Неограниченное количество ярлыков</string>
     <string name="upgrade_with_single_purchase">Разблокируйте все дополнительные функции с помощью одной покупки в приложении.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">старый мастер-пароль</string>

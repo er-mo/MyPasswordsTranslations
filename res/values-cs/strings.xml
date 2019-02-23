@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">Historie hesel</string>
     <string name="upgrade_feature_9">Přílohy obrázků</string>
     <string name="upgrade_feature_10">Vlastní pole</string>
+    <string name="upgrade_feature_11">Neomezené štítky</string>
     <string name="upgrade_with_single_purchase">Odemkněte všechny další funkce pomocí jednoho nákupu v aplikaci.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
@@ -253,7 +254,7 @@
     <string name="pref_about_title_licenses">Licence Open source</string>
     <string name="pref_about_title_build_version">Verze sestavení</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Používejte heslo/string>
+    <string name="pref_wear_os_title_password_enabled">Heslo</string>
     <string name="pref_wear_os_summary_password_enabled">Omezte přístup na hodinkách pomocí hesla</string>
     <string name="pref_wear_os_title_add_to_watch">Přidat ke sledování</string>
     <string name="pref_wear_os_summary_add_to_watch">Do hodinky budou vždy přidány nové položky</string>

@@ -68,6 +68,7 @@
     <string name="upgrade_feature_8">密码可历史追溯</string>
     <string name="upgrade_feature_9">图片附件</string>
     <string name="upgrade_feature_10">自定义字段</string>
+    <string name="upgrade_feature_11">Unlimited labels</string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
