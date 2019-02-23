@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Moje hesla</string>
     <string name="app_description">Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
     <string name="app_download_message">Získejte nyní zdarma z Obchodu Google Play!</string>
     <!-- ################################################################################# -->
@@ -14,11 +14,11 @@
     <string name="passwords_not_matching">Hesla se neshodují</string>
     <string name="password_not_correct">Heslo není správné</string>
     <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_strength_hint_very_weak">Velmi slabá!</string>
+    <string name="password_strength_hint_weak">Slabý!</string>
+    <string name="password_strength_hint_good">Dobrý!</string>
+    <string name="password_strength_hint_strong">Silný!</string>
+    <string name="password_strength_hint_very_strong">Velmi silný!</string>
     <string name="required">Povinné</string>
     <string name="title">Název</string>
     <string name="account">Účet</string>
@@ -29,8 +29,8 @@
     <string name="list_is_empty">Nejsou zde žádné záznamy</string>
     <string name="last_updated">Naposledy aktualizováno</string>
     <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="new_field_hint">název</string>
+    <string name="add_new_label">Přidat nový štítek</string>
     <!-- ################################################################################# -->
 
 
@@ -38,24 +38,24 @@
     <string name="button_register">REGISTROVAT</string>
     <string name="button_enter">VSTOUPIT</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
+    <string name="button_upgrade_now">VYLEPŠIT NYNÍ</string>
     <string name="button_update">AKTUALIZOVAT</string>
     <string name="button_exit">ODEJÍT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
+    <string name="button_sure">TAK URČITĚ</string>
+    <string name="button_gotit">MÁM TO</string>
     <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_attach_image">PŘIPOJENÍ OBRAZU</string>
+    <string name="button_new_field">PŘIDAT FIELD</string>
+    <string name="button_delete_field">Odstranit pole</string>
+    <string name="navigation_drawer_open">Otevřete navigační zásuvku</string>
+    <string name="navigation_drawer_close">Zavřete navigační zásuvku</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
     <string name="welcome_info_title">Vítejte v My Passwords!</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_content">Zaregistrujte prosím hlavní heslo pro spuštění aplikace. Všimněte si, že pokud je ztraceno hlavní heslo, uložená data nemohou být obnovena z důvodu chybějící synchronizace. Důrazně doporučujeme zálohovat data v pravidelných intervalech.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Děkujeme Vám za zakoupení PRO verze.</string>
     <string name="upgrade_feature_1">Export &amp; import csv souborů</string>
@@ -65,10 +65,10 @@
     <string name="upgrade_feature_5">Sebedestrukce</string>
     <string name="upgrade_feature_6">Vstup pomocí otisku prstu</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">Historie hesel</string>
+    <string name="upgrade_feature_9">Přílohy obrázků</string>
+    <string name="upgrade_feature_10">Vlastní pole</string>
+    <string name="upgrade_with_single_purchase">Odemkněte všechny další funkce pomocí jednoho nákupu v aplikaci.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
     <string name="change_mp_new_master_password">nové heslo</string>
@@ -83,16 +83,16 @@
     <string name="menu_about">O nás</string>
     <string name="menu_wear_os">Wear OS</string>
     <string name="menu_upgrade">Upgradovat na PRO verzi</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_share">Podíl</string>
+    <string name="menu_copy_entry">Udělat kopii</string>
     <string name="menu_edit">Upravit</string>
     <string name="menu_delete">Smazat</string>
-    <string name="menu_save">Save</string>
+    <string name="menu_save">Uložit</string>
     <string name="menu_keyboard">Klávesnice</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_add_to_watch">Přidat ke sledování</string>
+    <string name="menu_clear_history">Smazat historii</string>
+    <string name="menu_navigation_drawer_all_entries">Všechno</string>
+    <string name="menu_navigation_drawer_edit_labels">Upravit štítky</string>
     <!-- ################################################################################# -->
 
 
@@ -110,28 +110,28 @@
     <string name="toast_master_password_not_updated">Nepodařilo se aktualizovat hlavní heslo</string>
     <string name="toast_storage_permission_granted">Oprávnění uděleno</string>
     <string name="toast_storage_permission_denied">Přístup odepřen. Nelze číst ani zapisovat soubory.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Přístup odepřen. Nelze zachytit obrázky.</string>
     <string name="toast_no_file_selected">Nebyl vybrán žádný soubor</string>
     <string name="toast_successful_backup">Záloha úspěšně vytvořena</string>
     <string name="toast_successful_restore">Databáze úspěšně obnovena</string>
     <string name="toast_successful_csv_export">Úspěšně exportován cvs soubor</string>
     <string name="toast_successful_csv_import">Úspěšně importován cvs soubor</string>
     <string name="toast_database_server_error">Databáze není v tuto chvíli k dispozici</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_added_to_watch">Přidáno ke sledování</string>
+    <string name="toast_removed_from_watch">Odstraněno ze sledování</string>
+    <string name="toast_playstore_error">Aplikace obchodu Google Play není nainstalována</string>
+    <string name="toast_playstore_services_error">Služby Google Play nejsou k dispozici</string>
+    <string name="toast_google_client_error">Nelze se připojit ke klientovi Google. Zkontrolujte síťové připojení</string>
+    <string name="toast_storage_not_accessible">Externí úložiště není přístupné</string>
+    <string name="toast_ask_for_rating">Co o hodnocení v Obchodě Google Play?</string>
+    <string name="toast_auto_backup_hint">Chcete-li chránit hesla, povolte automatickou zálohu</string>
+    <string name="toast_pro_feature">K dispozici pouze ve verzi PRO</string>
+    <string name="toast_no_password_history">Není k dispozici žádná historie hesel</string>
+    <string name="toast_password_history_cleared">Historie byla smazána</string>
+    <string name="toast_remember_your_master_password">Ujistěte se, že si pamatujete své hlavní heslo</string>
+    <string name="toast_label_exists">Označení již existuje</string>
+    <string name="toast_pro_feature_unlimited_labels">Další štítky jsou k dispozici pouze v verzi PRO</string>
+    <string name="toast_no_labels">Žádné štítky</string>
     <!-- ################################################################################# -->
 
 
@@ -140,42 +140,42 @@
     <string name="dialog_button_continue">Pokračovat</string>
     <string name="dialog_button_cancel">Zrušit</string>
     <string name="dialog_button_delete">Smazat</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_discard">Zlikvidujte</string>
+    <string name="dialog_button_remove">Odstranit</string>
     <string name="dialog_title_restore_backup">Obnovit zálohu?</string>
     <string name="dialog_title_import_csv">Importovat cvs?</string>
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_confirm_fp">Potvrďte otisk prstu</string>
+    <string name="dialog_title_history">Dějiny</string>
+    <string name="dialog_title_attach_another_image">Připojíte další obrázek?</string>
+    <string name="dialog_title_new_field">Nové pole</string>
+    <string name="dialog_title_set_labels">Nastavte štítky</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
+    <string name="dialog_msg_delete_label">Odstranit štítek?</string>
+    <string name="dialog_msg_discard_changes">Zrušit změny?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Zálohování databáze není platné.</string>
+    <string name="dialog_msg_db_different_pass">Zálohování databáze bylo vytvořeno pomocí jiného hlavního hesla.</string>
+    <string name="dialog_msg_csv_format_invalid">Formát CSV není platný.</string>
+    <string name="dialog_msg_csv_no_data">Soubor CSV nemá žádné údaje.</string>
+    <string name="dialog_msg_error_writing_file">Chyba při psaní souboru.</string>
+    <string name="dialog_msg_error_reading_file">Chyba při čtení souboru.</string>
     <string name="dialog_msg_app_data_erased">Všechna data trvale odstraněna z důvodu mnoha neúspěšných pokusů.</string>
     <string name="dialog_msg_no_fp_hardware">Čtečka otisku prstů není k dispozici nebo není funkční.</string>
     <string name="dialog_msg_no_fp_enrolled">Nebyly nalezeny žádné zaregistrované otisky prstů. Prosím nastavte alespoň jeden otisk prstu v systémových nastaveních.</string>
     <string name="dialog_msg_fp_not_recognized">Otisk prstu nebyl rozpoznán. Zkuste to znovu</string>
     <string name="dialog_msg_fp_success">Otisk rozpoznán. Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotkněte se senzoru</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_fp_keystore_error">Chyba otisku prstu. Pro přihlášení pomocí hlavního hesla znovu aktivujte otisk prstu.</string>
+    <string name="dialog_msg_pass_gen_trick">Klepnutím na několikrát generuj hesla různých typů a délky.</string>
+    <string name="dialog_msg_remove_from_watch">Odstranit vstup hodin?</string>
+    <string name="dialog_msg_attachments_warning">Přílohy mohou zvýšit velikost databáze a snížit celkový výkon aplikace.</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
@@ -191,32 +191,32 @@
     <string name="pref_appearance_sorting_choise_alpha">Abecedně</string>
     <string name="pref_appearance_sorting_choise_time">Podle data</string>
     <string name="pref_appearance_sorting_choise_color">Podle barvy</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
+    <string name="pref_appearance_title_navibar_color">Barva navigační lišty</string>
+    <string name="pref_appearance_summary_navibar_color">Primární tmavá barva se použije také na navigační liště (Android 5.0 a novější)</string>
     <string name="pref_appearance_title_show_notification">Zobrazovat notifikační ikonu</string>
     <string name="pref_appearance_summary_show_notification">Notifikační ikona se bude zobrazovat pro určení zda je aplikace odemčená a spuštěná</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
+    <string name="pref_appearance_title_show_passwords">Zobrazit hesla</string>
+    <string name="pref_appearance_summary_show_passwords">Není třeba stisknout ikonu oka</string>
+    <string name="pref_appearance_title_show_account">Zobrazit účet</string>
+    <string name="pref_appearance_summary_show_account">Pole účtu bude zobrazeno v hlavním zobrazení, pokud je k dispozici</string>
+    <string name="pref_appearance_title_stay_awake">Zůstaň vzhůru</string>
+    <string name="pref_appearance_summary_stay_awake">Při prohlížení nebo úpravách záznamů se obrazovka nikdy nespí</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Modrá šedá</string>
+    <string name="pref_appearance_theme_purple">Nachový</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_title_backup_share">Sdílet databázi</string>
+    <string name="pref_database_summary_backup_share">Vytvořte a sdílejte zálohu šifrované databáze</string>
     <string name="pref_database_title_backup">Zálohovat databázi</string>
     <string name="pref_database_summary_backup">Vytvořit zálohu šifrované databáze</string>
     <string name="pref_database_title_restore">Obnovit databázi</string>
     <string name="pref_database_summary_restore">Obnovit zálohu šifrované databáze</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_gd_auto_backup">Záloha disku Google</string>
+    <string name="pref_database_summary_gd_auto_backup">Vytvořte automatické zálohování na osobním účtu Google Drive</string>
+    <string name="pref_database_title_sd_auto_backup">Zálohování externího úložiště</string>
+    <string name="pref_database_summary_sd_auto_backup">Vytvořte automatické zálohování na externím úložišti (sd nebo interní neodstranitelný úložný prostor). Externí úložiště můžete přistupovat pomocí aplikace správce souborů třetí strany</string>
     <string name="pref_database_title_export">Export do cvs souboru</string>
     <string name="pref_database_summary_export">Exportovat položky do nešifrovaného cvs souboru</string>
     <string name="pref_database_title_import">Import z cvs souboru</string>
@@ -229,11 +229,11 @@
     <string name="pref_security_summary_auto_exit">Aplikace bude automaticky ukončena, když se vypne displej</string>
     <string name="pref_security_title_clipboard_clear">Vyčistit schránku</string>
     <string name="pref_security_clipboard_clear_never">Nikdy</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuta</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuta</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuta</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuta</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuta</string>
     <string name="pref_security_title_self_destruct">Neúspěšné pokusy o zadání hesla</string>
     <string name="pref_security_self_destruct_unlimited">Neomezeně</string>
     <string name="pref_security_self_destruct_three">3</string>
@@ -249,14 +249,14 @@
     <string name="pref_about_title_more_apps">Více aplikací</string>
     <string name="pref_about_title_share">Řekněte o aplikaci svým přátelům</string>
     <string name="pref_about_title_translations">Překlad</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
+    <string name="pref_about_title_terms">Podmínky a zásady ochrany osobních údajů</string>
     <string name="pref_about_title_licenses">Licence Open source</string>
     <string name="pref_about_title_build_version">Verze sestavení</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">Používejte heslo/string>
+    <string name="pref_wear_os_summary_password_enabled">Omezte přístup na hodinkách pomocí hesla</string>
+    <string name="pref_wear_os_title_add_to_watch">Přidat ke sledování</string>
+    <string name="pref_wear_os_summary_add_to_watch">Do hodinky budou vždy přidány nové položky</string>
     <!-- ################################################################################# -->
 
 
@@ -275,6 +275,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Otevřete záznam v telefonu a stiskněte ikonu hodinky a přidejte jej zde</string>
 
 </resources>
