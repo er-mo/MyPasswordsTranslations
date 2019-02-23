@@ -43,12 +43,12 @@
     <string name="button_exit">ÇIKIŞ</string>
     <string name="button_sure">TAMAM</string>
     <string name="button_gotit">ANLADIM</string>
-    <string name="button_labels">LABELS</string>
+    <string name="button_labels">ETİKETLER</string>
     <string name="button_attach_image">RESİM İLİŞTİRMEK</string>
     <string name="button_new_field">ALAN EKLE</string>
     <string name="button_delete_field">Alanı sil</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
+    <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
     <!-- ################################################################################# -->
 
 
@@ -91,8 +91,8 @@
     <string name="menu_keyboard">Klavye</string>
     <string name="menu_add_to_watch">Saate ekle</string>
     <string name="menu_clear_history">Şifre geçmişini temizle</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_navigation_drawer_all_entries">Herşey</string>
+    <string name="menu_navigation_drawer_edit_labels">Etiketleri düzenle</string>
     <!-- ################################################################################# -->
 
 
@@ -129,9 +129,9 @@
     <string name="toast_no_password_history">Şifre geçmişi yok</string>
     <string name="toast_password_history_cleared">Şifre geçmişi temizlendi</string>
     <string name="toast_remember_your_master_password">Ana şifrenizi hatırladığınızdan emin olun</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_label_exists">Etiket zaten var</string>
+    <string name="toast_pro_feature_unlimited_labels">Yalnızca PRO sürümünde daha fazla etiket mevcut</string>
+    <string name="toast_no_labels">Etiket yok</string>
     <!-- ################################################################################# -->
 
 
@@ -150,12 +150,12 @@
     <string name="dialog_title_history">Geçmiş</string>
     <string name="dialog_title_attach_another_image">Başka bir resim ekle?</string>
     <string name="dialog_title_new_field">Yeni alan</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_set_labels">Etiketleri ayarla</string>
     <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
     <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
     <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
     <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">Etiketi sil?</string>
     <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
