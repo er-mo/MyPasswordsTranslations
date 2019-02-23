@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Le mie password</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
     <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->

@@ -47,8 +47,8 @@
     <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
     <string name="button_new_field">ΠΡΟΣΘΗΚΗ ΠΕΔΙΟΥ</string>
     <string name="button_delete_field">Διαγραφή πεδίου</string>
-    <string name="navigation_drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
-    <string name="navigation_drawer_close">Κλείστε το συρτάρι πλοήγησης</string>
+    <string name="navigation_drawer_open">Άνοιγμα καρτέλας πλοήγησης</string>
+    <string name="navigation_drawer_close">Κλείσιμο καρτέλας πλοήγησης</string>
     <!-- ################################################################################# -->
 
 
@@ -130,7 +130,7 @@
     <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
     <string name="toast_remember_your_master_password">Να θυμάστε πάντα τον κύριο κωδικό πρόσβασης</string>
     <string name="toast_label_exists">Η ετικέτα υπάρχει ήδη</string>
-    <string name="toast_pro_feature_unlimited_labels">Περισσότερες ετικέτες διατίθενται μόνο σε έκδοση PRO</string>
+    <string name="toast_pro_feature_unlimited_labels">Περισσότερες ετικέτες διατίθενται μόνο στην PRO έκδοση</string>
     <string name="toast_no_labels">Δεν υπάρχουν ετικέτες</string>
     <!-- ################################################################################# -->
 
