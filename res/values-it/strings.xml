@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Le mie password</string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
     <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
@@ -14,23 +14,23 @@
     <string name="passwords_not_matching">Le password non combaciano</string>
     <string name="password_not_correct">La password non è corretta</string>
     <string name="password_not_only_numbers">La password contiene non solo numeri</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
+    <string name="password_strength_hint_very_weak">Molto debole!</string>
+    <string name="password_strength_hint_weak">Debole!</string>
+    <string name="password_strength_hint_good">Buono!</string>
+    <string name="password_strength_hint_strong">Forte!</string>
+    <string name="password_strength_hint_very_strong">Molto forte!</string>
     <string name="required">Richiesto</string>
     <string name="title">Titolo</string>
     <string name="account">Account</string>
-    <string name="password">Password</string>
+    <string name="password">Parola d'ordine</string>
     <string name="username">Nome Utente</string>
     <string name="website">Sito Web</string>
     <string name="notes">Descrizione</string>
     <string name="list_is_empty">Non ci sono voci</string>
     <string name="last_updated">Ultimo Aggiornamento</string>
     <string name="copy">(Copia)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="new_field_hint">Nome</string>
+    <string name="add_new_label">Aggiungi una nuova etichetta</string>
     <!-- ################################################################################# -->
 
 
@@ -43,12 +43,12 @@
     <string name="button_exit">ESCI</string>
     <string name="button_sure">SICURO</string>
     <string name="button_gotit">FATTO</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_labels">ETICHETTE</string>
+    <string name="button_attach_image">ATTACCARE L'IMMAGINE</string>
+    <string name="button_new_field">AGGIUNGI CAMPO</string>
+    <string name="button_delete_field">Elimina campo</string>
+    <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il cassetto di navigazione</string>
     <!-- ################################################################################# -->
 
 
@@ -91,8 +91,8 @@
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_watch">Aggiungi all\'orologio</string>
     <string name="menu_clear_history">Cancella cronologia</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_navigation_drawer_all_entries">Tutti</string>
+    <string name="menu_navigation_drawer_edit_labels">Modifica etichette</string>
     <!-- ################################################################################# -->
 
 
@@ -128,10 +128,10 @@
     <string name="toast_pro_feature">Disponibile solo nella versione PRO</string>
     <string name="toast_no_password_history">Nessuna cronologia delle password disponibile</string>
     <string name="toast_password_history_cleared">Cronologia delle password cancellata</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_remember_your_master_password">Assicurati di ricordare la tua password principale</string>
+    <string name="toast_label_exists">L'etichetta esiste già</string>
+    <string name="toast_pro_feature_unlimited_labels">Più etichette disponibili solo nella versione PRO</string>
+    <string name="toast_no_labels">Nessuna etichetta</string>
     <!-- ################################################################################# -->
 
 
@@ -141,31 +141,31 @@
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
     <string name="dialog_button_discard">Scarta</string>
-    <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_remove">Rimuovere</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
     <string name="dialog_title_change_master_password">Cambiare la password principale?</string>
     <string name="dialog_title_self_destruct">Autodistruzione</string>
     <string name="dialog_title_confirm_fp">Conferma la tua impronta digitale</string>
     <string name="dialog_title_history">Storia</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_attach_another_image">Allegare un'altra immagine?</string>
+    <string name="dialog_title_new_field">Nuovo campo</string>
+    <string name="dialog_title_set_labels">Imposta le etichette</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">Elimina etichetta?</string>
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
+    <string name="dialog_msg_db_not_valid">Il backup del database non è valido.</string>
+    <string name="dialog_msg_db_different_pass">Il backup del database è stato creato utilizzando una password master diversa.</string>
+    <string name="dialog_msg_csv_format_invalid">Il formato CSV non è valido.</string>
+    <string name="dialog_msg_csv_no_data">Il file CSV non ha dati.</string>
+    <string name="dialog_msg_error_writing_file">Errore durante la scrittura del file.</string>
+    <string name="dialog_msg_error_reading_file">Errore durante la lettura del file.</string>
     <string name="dialog_msg_app_data_erased">Tutti i dati sono stati eliminati in modo permanente a causa dei tentativi falliti.</string>
     <string name="dialog_msg_no_fp_hardware">L\'hardware di impronte digitali non è presente o non è funzionante.</string>
     <string name="dialog_msg_no_fp_enrolled">Le impronte digitali registrate non sono state trovate. Si prega di impostare almeno una impronta digitale nelle impostazioni di sistema.</string>
@@ -204,8 +204,8 @@
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_theme_blue_gray">Blu grigio</string>
+    <string name="pref_appearance_theme_purple">Viola</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Condividi database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
@@ -253,10 +253,10 @@
     <string name="pref_about_title_licenses">Licenze Open Source</string>
     <string name="pref_about_title_build_version">Versione Build</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
+    <string name="pref_wear_os_title_password_enabled">Indossare la password</string>
     <string name="pref_wear_os_summary_password_enabled">Limita l\'accesso sul tuo orologio utilizzando una password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_add_to_watch">Aggiungi a guardare</string>
+    <string name="pref_wear_os_summary_add_to_watch">Le nuove voci verranno sempre aggiunte all'orologio</string>
     <!-- ################################################################################# -->
 
 
@@ -275,6 +275,6 @@
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Apri una voce sul tuo telefono e premi l'icona dell'orologio per aggiungerla qui</string>
 
 </resources>
