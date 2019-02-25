@@ -30,7 +30,7 @@
     <string name="last_updated">上次更新</string>
     <string name="copy">(副本)</string>
     <string name="new_field_hint">名称</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="add_new_label">添加新标签</string>
     <!-- ################################################################################# -->
 
 
@@ -43,12 +43,12 @@
     <string name="button_exit">退出</string>
     <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
-    <string name="button_labels">LABELS</string>
+    <string name="button_labels">标签</string>
     <string name="button_attach_image">附着图片</string>
     <string name="button_new_field">添加字段</string>
     <string name="button_delete_field">删除字段</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">开启侧边栏</string>
+    <string name="navigation_drawer_close">关闭侧边栏</string>
     <!-- ################################################################################# -->
 
 
@@ -68,7 +68,7 @@
     <string name="upgrade_feature_8">密码可历史追溯</string>
     <string name="upgrade_feature_9">图片附件</string>
     <string name="upgrade_feature_10">自定义字段</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
+    <string name="upgrade_feature_11">无限标签</string>
     <string name="upgrade_with_single_purchase">仅通过一个应用内购买就可以解锁所有的附加功能</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">旧的主密码</string>
@@ -92,8 +92,8 @@
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_watch">添加到智能手表</string>
     <string name="menu_clear_history">清除历史记录</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_navigation_drawer_all_entries">全部</string>
+    <string name="menu_navigation_drawer_edit_labels">编辑标签</string>
     <!-- ################################################################################# -->
 
 
@@ -130,9 +130,9 @@
     <string name="toast_no_password_history">没有可用的密码记录</string>
     <string name="toast_password_history_cleared">历史记录已清除</string>
     <string name="toast_remember_your_master_password">确保记住您的主密码</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_label_exists">标签已存在</string>
+    <string name="toast_pro_feature_unlimited_labels">更多标签仅在专业版中可用</string>
+    <string name="toast_no_labels">没有标签/string>
     <!-- ################################################################################# -->
 
 
@@ -151,12 +151,12 @@
     <string name="dialog_title_history">历史记录</string>
     <string name="dialog_title_attach_another_image">附上另一张图片？</string>
     <string name="dialog_title_new_field">新字段</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_set_labels">设置标签</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_label">确定删除标签？</string>
     <string name="dialog_msg_discard_changes">放弃更改？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
