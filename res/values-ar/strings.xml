@@ -2,8 +2,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">كلمات المرور الخاصة بي</string>
-    <string name="app_description">مدير كلمات مرور آمن وسهل الاستخدام لأجهزة Android</string>
+    <string name="app_name">كلمات السر</string>
+    <string name="app_description">آمن وسهل الاستخدام مدير كلمة المرور</string>
     <string name="app_download_message">احصل عليه الآن مجانًا من متجر Google Play</string>
     <!-- ################################################################################# -->
 
@@ -14,11 +14,11 @@
     <string name="passwords_not_matching">كلمات المرور غير متطابقة</string>
     <string name="password_not_correct">كلمة المرور غير صحيحة</string>
     <string name="password_not_only_numbers">كلمة المرور لا تحتوي على أرقام فقط</string>
-    <string name="password_strength_hint_very_weak">ضعيف جدا!</string>
-    <string name="password_strength_hint_weak">ضعيف!</string>
-    <string name="password_strength_hint_good">حسن!</string>
-    <string name="password_strength_hint_strong">قوي!</string>
-    <string name="password_strength_hint_very_strong">قوي جدا!</string>
+    <string name="password_strength_hint_very_weak">قوي جدا</string>
+    <string name="password_strength_hint_weak">ضعيف</string>
+    <string name="password_strength_hint_good">حسن</string>
+    <string name="password_strength_hint_strong">قوي</string>
+    <string name="password_strength_hint_very_strong">قوي جدا</string>
     <string name="required">مطلوب</string>
     <string name="title">عنوان</string>
     <string name="account">الحساب</string>
@@ -37,7 +37,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">تسجيل</string>
     <string name="button_enter">أدخل</string>
-    <string name="button_faq">FAQ</string>
+    <string name="button_faq">التعليمات</string>
     <string name="button_upgrade_now">تحديث الآن</string>
     <string name="button_update">تحديث</string>
     <string name="button_exit">ىخرج</string>
@@ -57,14 +57,14 @@
     <string name="welcome_info_title">مرحبًا بك في كلمات المرور الخاصة بي</string>
     <string name="welcome_info_content">يرجى تسجيل كلمة مرور رئيسية لبدء استخدام التطبيق. لاحظ أنه في حالة فقدان كلمة المرور الرئيسية ، لا يمكن استرداد البيانات المخزنة بسبب خيار المزامنة المفقود. يوصى بشدة بنسخ بياناتك احتياطيًا على فترات منتظمة.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">شكرا لك على شراء نسخة PRO.</string>
-    <string name="upgrade_feature_1">تصدير & أمبير ؛ استيراد ملفات CSV</string>
+    <string name="upgrade_thank_you">شكرا لك على شراء نسخة PRO</string>
+    <string name="upgrade_feature_1">تصدير واستيراد ملفات CSV</string>
     <string name="upgrade_feature_2">نسخ إحتياطي آلي</string>
     <string name="upgrade_feature_3">اختيار الموضوع</string>
     <string name="upgrade_feature_4">الحذف التلقائي من القصاصة</string>
     <string name="upgrade_feature_5">التدمير الذاتي</string>
     <string name="upgrade_feature_6">أدخل بصمة</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
+    <string name="upgrade_feature_7">Wear OS الوضعية</string>
     <string name="upgrade_feature_8">كلمه السر التاريخ</string>
     <string name="upgrade_feature_9">مرفقات الصور</string>
     <string name="upgrade_feature_10">الحقول المخصصة</string>
@@ -194,7 +194,7 @@
     <string name="pref_appearance_sorting_choise_color">حسب اللون</string>
     <string name="pref_appearance_title_navibar_color">لون شريط التنقل</string>
     <string name="pref_appearance_summary_navibar_color">سيتم تطبيق اللون الأساسي الغامق على شريط التنقل أيضًا (Android 5.0 والإصدارات الأحدث)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
+    <string name="pref_appearance_title_show_notification">رمز التنبيه</string>
     <string name="pref_appearance_summary_show_notification">من السهل إدراك أن التطبيق يفتح ويعمل</string>
     <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
     <string name="pref_appearance_summary_show_passwords">ليس عليك الضغط على أيقونة العين</string>
@@ -229,19 +229,19 @@
     <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
     <string name="pref_security_summary_auto_exit">سيتم إنهاء التطبيق تلقائيًا عند إيقاف تشغيل الشاشة</string>
     <string name="pref_security_title_clipboard_clear">مسح الحافظة</string>
-    <string name="pref_security_clipboard_clear_never">أبدا</string>4 دقائق
-    <string name="pref_security_clipboard_clear_one_min">1 دقيقة</string>
-    <string name="pref_security_clipboard_clear_two_min">2 دقيقة</string>
-    <string name="pref_security_clipboard_clear_three_min">3 دقائق4 دقائق</string>
-    <string name="pref_security_clipboard_clear_four_min">4 دقائق</string>
-    <string name="pref_security_clipboard_clear_five_min">5 دقائق</string>
+    <string name="pref_security_clipboard_clear_never">أبدا</string>
+    <string name="pref_security_clipboard_clear_one_min">دقيقة واحدة</string>
+    <string name="pref_security_clipboard_clear_two_min">دقيقتين</string>
+    <string name="pref_security_clipboard_clear_three_min">ثلاث دقائق</string>
+    <string name="pref_security_clipboard_clear_four_min">أربع دقائق</string>
+    <string name="pref_security_clipboard_clear_five_min">خمس دقائق</string>
     <string name="pref_security_title_self_destruct">فشل محاولات كلمة المرور</string>
     <string name="pref_security_self_destruct_unlimited">غير محدود</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_three">٣</string>
+    <string name="pref_security_self_destruct_five">٥</string>
+    <string name="pref_security_self_destruct_ten">١٠</string>
+    <string name="pref_security_self_destruct_fifteen">١٥</string>
+    <string name="pref_security_self_destruct_twenty">٢٠</string>
     <string name="pref_security_title_fingerprint">أدخل باستخدام بصمة</string>
     <string name="pref_security_summary_fingerprint">يلزم توفر الإصدار 6.0 من نظام التشغيل Android والإصدارات الأحدث والأجهزة المتوافقة لاستخدام هذه الميزة</string>
     <!-- about -->
