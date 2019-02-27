@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Kode saya</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Pengelola kata sandi yang aman dan mudah digunakan untuk perangkat Android</string>
     <string name="app_download_message">Dapatkan sekarang secara gratis dari Google Play store</string>
     <!-- ################################################################################# -->
@@ -58,13 +58,13 @@
     <string name="welcome_info_content">Silakan daftarkan kata sandi utama untuk mulai menggunakan aplikasi. Perhatikan bahwa jika kata sandi utama hilang, data yang disimpan tidak dapat dipulihkan karena opsi sinkronisasi yang hilang. Sangat disarankan agar Anda membuat cadangan data Anda secara berkala.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Terima kasih telah membeli versi PRO.</string>
-    <string name="upgrade_feature_1">Ekspor dan; mengimpor file csv</string>
+    <string name="upgrade_feature_1">Ekspor dan impor file csv</string>
     <string name="upgrade_feature_2">Cadangan otomatis</string>
     <string name="upgrade_feature_3">Pemilihan tema</string>
     <string name="upgrade_feature_4">Papan klip otomatis dihapus</string>
     <string name="upgrade_feature_5">Penghancuran diri</string>
     <string name="upgrade_feature_6">Masukkan menggunakan sidik jari</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
+    <string name="upgrade_feature_7">Wear OS Aplikasi</string>
     <string name="upgrade_feature_8">Riwayat kata sandi</string>
     <string name="upgrade_feature_9">Lampiran gambar</string>
     <string name="upgrade_feature_10">Disesuaikan bidang</string>
