@@ -137,47 +137,47 @@
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_ok">Baiklah</string>
+    <string name="dialog_button_continue">Lanjutkan</string>
+    <string name="dialog_button_cancel">Membatalkan</string>
+    <string name="dialog_button_delete">Menghapus</string>
+    <string name="dialog_button_discard">Penolakan</string>
+    <string name="dialog_button_remove">Penghapusan</string>
+    <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
+    <string name="dialog_title_import_csv">Impor csv?</string>
+    <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
+    <string name="dialog_title_self_destruct">Penghancuran diri</string>
+    <string name="dialog_title_confirm_fp">Konfirmasikan sidik jari Anda</string>
+    <string name="dialog_title_history">Sejarah</string>
+    <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
+    <string name="dialog_title_new_field">Bidang baru</string>
+    <string name="dialog_title_set_labels">Tetapkan label</string>
+    <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
+    <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
+    <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
+    <string name="dialog_msg_delete_entry">Hapus Entri?</string>
+    <string name="dialog_msg_delete_label">Hapus label?</string>
+    <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
+    <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
+    <string name="dialog_msg_payload_failed">Verifikasi pembayaran gagal.</string>
+    <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
+    <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
+    <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
+    <string name="dialog_msg_csv_format_invalid">Format CSV tidak valid.</string>
+    <string name="dialog_msg_csv_no_data">File CSV tidak memiliki data.</string>
+    <string name="dialog_msg_error_writing_file">Kesalahan menulis file.</string>
+    <string name="dialog_msg_error_reading_file">Kesalahan membaca file.</string>
+    <string name="dialog_msg_app_data_erased">Semua data dihapus secara permanen karena upaya yang gagal.</string>
+    <string name="dialog_msg_no_fp_hardware">Perangkat keras sidik jari tidak ada atau tidak berfungsi.</string>
+    <string name="dialog_msg_no_fp_enrolled">Tidak ada sidik jari terdaftar yang ditemukan. Harap atur setidaknya satu sidik jari dalam pengaturan sistem.</string>
+    <string name="dialog_msg_fp_not_recognized">Sidik jari tidak dikenali. Coba lagi</string>
+    <string name="dialog_msg_fp_success">Sidik jari dikenali. Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Sensor sentuh</string>
+    <string name="dialog_msg_fp_keystore_error">Kesalahan keystore sidik jari. Harap aktifkan kembali sidik jari setelah Anda memasukkan menggunakan kata sandi utama Anda.</string>
+    <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
+    <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
+    <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
+    <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
