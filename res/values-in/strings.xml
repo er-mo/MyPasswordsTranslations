@@ -77,62 +77,62 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">Pencarian</string>
+    <string name="menu_appearance">Penampilan</string>
+    <string name="menu_database">Basis data</string>
+    <string name="menu_security">Keamanan</string>
+    <string name="menu_about">Tentang</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_upgrade">Upgrade ke yang lebih baik</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_copy_entry">Buat salinan</string>
+    <string name="menu_edit">Mengedit</string>
+    <string name="menu_delete">Menghapus</string>
+    <string name="menu_save">Menyimpan</string>
+    <string name="menu_keyboard">Papan tombol</string>
+    <string name="menu_add_to_watch">Tambahkan untuk menonton</string>
+    <string name="menu_clear_history">Bersihkan riwayat</string>
+    <string name="menu_navigation_drawer_all_entries">Semua</string>
+    <string name="menu_navigation_drawer_edit_labels">Mengedit label</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_tap_again_to_exit">Ketuk lagi untuk keluar</string>
+    <string name="toast_entry_deleted">Pintu masuk dihapus</string>
+    <string name="toast_entries_deleted">Entri dihapus</string>
+    <string name="toast_entry_saved">Pintu masuk disimpan</string>
+    <string name="toast_try_again_shortly">Silakan coba lagi dalam beberapa detik</string>
+    <string name="toast_no_browser">Tidak ada aplikasi browser web yang ditemukan</string>
+    <string name="toast_no_playstore">Aplikasi Google Play store tidak diinstal</string>
+    <string name="toast_tap_to_copy_text">Ketuk pada tampilan teks untuk menyalin konten</string>
+    <string name="toast_copied_to_clipboard">Disalin ke clipboard</string>
+    <string name="toast_master_password_updated">Kata sandi master berhasil diperbarui</string>
+    <string name="toast_master_password_not_updated">Gagal memperbarui kata sandi utama</string>
+    <string name="toast_storage_permission_granted">Izin diberikan</string>
+    <string name="toast_storage_permission_denied">Izin ditolak. Tidak dapat membaca atau menulis file.</string>
+    <string name="toast_camera_permission_denied">Izin ditolak. Tidak dapat mengambil gambar.</string>
+    <string name="toast_no_file_selected">Tidak ada file yang dipilih</string>
+    <string name="toast_successful_backup">Dibuat cadangan dengan kesuksesan</string>
+    <string name="toast_successful_restore">Database berhasil dipulihkan</string>
+    <string name="toast_successful_csv_export">Berhasil mengekspor file csv</string>
+    <string name="toast_successful_csv_import">Berhasil mengimpor file csv</string>
+    <string name="toast_database_server_error">Basis data tidak tersedia saat ini</string>
+    <string name="toast_added_to_watch">Ditambahkan untuk menonton</string>
+    <string name="toast_removed_from_watch">Dihapus dari pemantauan</string>
+    <string name="toast_playstore_error">Aplikasi Google Play store tidak diinstal</string>
+    <string name="toast_playstore_services_error">Layanan Google Play tidak tersedia</string>
+    <string name="toast_google_client_error">Tidak dapat terhubung ke klien Google. Periksa konektivitas jaringan</string>
+    <string name="toast_storage_not_accessible">Penyimpanan eksternal tidak dapat diakses</string>
+    <string name="toast_ask_for_rating">Bagaimana dengan penilaian di Google Play Store?</string>
+    <string name="toast_auto_backup_hint">Aktifkan cadangan otomatis untuk melindungi kata sandi Anda</string>
+    <string name="toast_pro_feature">Hanya tersedia dalam versi PRO</string>
+    <string name="toast_no_password_history">Tidak ada riwayat kata sandi</string>
+    <string name="toast_password_history_cleared">Sejarah dihapus</string>
+    <string name="toast_remember_your_master_password">Pastikan Anda mengingat kata sandi utama Anda</string>
+    <string name="toast_label_exists">Label sudah ada</string>
+    <string name="toast_pro_feature_unlimited_labels">Lebih banyak label yang tersedia hanya dalam versi PRO</string>
+    <string name="toast_no_labels">Tidak ada label</string>
     <!-- ################################################################################# -->
 
 
