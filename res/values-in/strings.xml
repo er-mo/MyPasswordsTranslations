@@ -182,100 +182,100 @@
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Aplikasi sedang berjalan</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_title_sort_entries">Sortir entri</string>
+    <string name="pref_appearance_sorting_choise_alpha">Secara alfabet</string>
+    <string name="pref_appearance_sorting_choise_time">Berdasarkan tanggal</string>
+    <string name="pref_appearance_sorting_choise_color">Berdasarkan warna</string>
+    <string name="pref_appearance_title_navibar_color">Warna bilah navigasi</string>
+    <string name="pref_appearance_summary_navibar_color">Warna gelap primer juga akan diterapkan ke bilah navigasi (Android 5.0 dan yang lebih baru)</string>
+    <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
+    <string name="pref_appearance_summary_show_notification">Mudah untuk mengidentifikasi bahwa aplikasi tidak dikunci dan berjalan</string>
+    <string name="pref_appearance_title_show_passwords">Tampilkan kata sandi</string>
+    <string name="pref_appearance_summary_show_passwords">Anda tidak perlu menekan ikon mata</string>
+    <string name="pref_appearance_title_show_account">Tampilkan akun</string>
+    <string name="pref_appearance_summary_show_account">Bidang akun akan ditampilkan di tampilan daftar utama jika tersedia</string>
+    <string name="pref_appearance_title_stay_awake">Tetap bangun</string>
+    <string name="pref_appearance_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
+    <string name="pref_appearance_title_change_theme">Ubah tema</string>
+    <string name="pref_appearance_theme_light">Cahaya</string>
+    <string name="pref_appearance_theme_dark">Gelap</string>
+    <string name="pref_appearance_theme_blue_gray">Biru abu-abu</string>
+    <string name="pref_appearance_theme_purple">Ungu</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup_share">Bagikan basis data</string>
+    <string name="pref_database_summary_backup_share">Buat dan bagikan cadangan dari basis data terenkripsi</string>
+    <string name="pref_database_title_backup">Buat cadangan basis data</string>
+    <string name="pref_database_summary_backup">Buat cadangan dari basis data terenkripsi menggunakan kerangka kerja akses penyimpanan Android</string>
+    <string name="pref_database_title_restore">Pulihkan basis data</string>
+    <string name="pref_database_summary_restore">Pulihkan cadangan dari basis data terenkripsi</string>
+    <string name="pref_database_title_gd_auto_backup">Cadangan Google Drive</string>
+    <string name="pref_database_summary_gd_auto_backup">Buat cadangan otomatis di akun Google Drive pribadi Anda</string>
+    <string name="pref_database_title_sd_auto_backup">Cadangan Penyimpanan Eksternal</string>
+    <string name="pref_database_summary_sd_auto_backup">Buat cadangan otomatis di penyimpanan eksternal Anda (sd atau penyimpanan non-removable internal). Anda dapat mengakses penyimpanan eksternal menggunakan aplikasi pengelola file pihak ke-3</string>
+    <string name="pref_database_title_export">Ekspor file csv</string>
+    <string name="pref_database_summary_export">Ekspor entri ke file csv yang tidak terenkripsi</string>
+    <string name="pref_database_title_import">Impor file csv</string>
+    <string name="pref_database_summary_import">Impor entri dari file csv yang tidak terenkripsi</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
+    <string name="pref_security_title_fast_enter">Entri cepat</string>
+    <string name="pref_security_summary_fast_enter">Membuatnya lebih cepat untuk memasuki aplikasi tanpa harus mengetuk tombol ENTER jika kata sandi utama sudah benar</string>
+    <string name="pref_security_title_auto_exit">Keluar otomatis</string>
+    <string name="pref_security_summary_auto_exit">Aplikasi akan secara otomatis keluar ketika layar mati</string>
+    <string name="pref_security_title_clipboard_clear">Bersihkan clipboard</string>
+    <string name="pref_security_clipboard_clear_never">Tak pernah</string>
+    <string name="pref_security_clipboard_clear_one_min">satu menit</string>
+    <string name="pref_security_clipboard_clear_two_min">dua menit</string>
+    <string name="pref_security_clipboard_clear_three_min">tiga menit</string>
+    <string name="pref_security_clipboard_clear_four_min">empat menit</string>
+    <string name="pref_security_clipboard_clear_five_min">lima menit</string>
+    <string name="pref_security_title_self_destruct">Upaya kata sandi gagal</string>
+    <string name="pref_security_self_destruct_unlimited">Tak terbatas</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Laporkan bug</string>
+    <string name="pref_about_title_support">Beri peringkat dan ulasan</string>
+    <string name="pref_about_title_more_apps">Aplikasi tambahan lainnya</string>
+    <string name="pref_about_title_share">Beri tahu temanmu</string>
+    <string name="pref_about_title_translations">Terjemahan</string>
+    <string name="pref_about_title_terms">Ketentuan dan Kebijakan Privasi</string>
+    <string name="pref_about_title_licenses">Lisensi Sumber Terbuka</string>
+    <string name="pref_about_title_build_version">Buat versi</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">Pakai kata sandi</string>
+    <string name="pref_wear_os_summary_password_enabled">Batasi akses di arloji Anda dengan menggunakan kata sandi</string>
+    <string name="pref_wear_os_title_add_to_watch">Masuk jam</string>
+    <string name="pref_wear_os_summary_add_to_watch">Entri baru akan selalu ditambahkan ke arloji</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_appearance">PENAMPILAN</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_database">Basis data</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SALINAN KESELAMATAN OTOMATIS</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">KEAMANAN</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SIDIK JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">Buka entri di ponsel Anda dan tekan ikon arloji untuk menambahkannya di sini</string>
 
 </resources>
