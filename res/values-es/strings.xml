@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Buscar</string>
+    <string name="menu_settings">Ajustes</string>
     <string name="menu_appearance">Apariencia</string>
     <string name="menu_database">Base de datos</string>
     <string name="menu_security">Seguridad</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Editar</string>
     <string name="menu_delete">Eliminar</string>
     <string name="menu_save">GUARDAR</string>
+    <string name="menu_set_labels">Establecer etiquetas</string>
+    <string name="menu_attach_image">Adjuntar imagen</string>
+    <string name="menu_add_field">Agregue campo</string>
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_add_to_watch">Agregar al reloj</string>
     <string name="menu_clear_history">Eliminar historial</string>

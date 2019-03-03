@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Αναζήτηση</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
     <string name="menu_appearance">Εμφάνιση</string>
     <string name="menu_database">Βάση δεδομένων</string>
     <string name="menu_security">Ασφάλεια</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_delete">Διαγραφή</string>
     <string name="menu_save">ΑΠΟΘΗΚΕΥΣΗ</string>
+    <string name="menu_set_labels">Ορισμός ετικετών</string>
+    <string name="menu_attach_image">Επισύναψη εικόνας</string>
+    <string name="menu_add_field">Προσθήκη πεδίου</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
     <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>

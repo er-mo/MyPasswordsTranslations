@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Pencarian</string>
+    <string name="menu_settings">Pengaturan</string>
     <string name="menu_appearance">Penampilan</string>
     <string name="menu_database">Basis data</string>
     <string name="menu_security">Keamanan</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Mengedit</string>
     <string name="menu_delete">Menghapus</string>
     <string name="menu_save">Menyimpan</string>
+    <string name="menu_set_labels">Tetapkan label</string>
+    <string name="menu_attach_image">Lampirkan gambar</string>
+    <string name="menu_add_field">Tambahkan bidang</string>
     <string name="menu_keyboard">Papan tombol</string>
     <string name="menu_add_to_watch">Tambahkan untuk menonton</string>
     <string name="menu_clear_history">Bersihkan riwayat</string>

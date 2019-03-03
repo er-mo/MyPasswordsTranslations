@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Sök</string>
+    <string name="menu_settings">Inställningar</string>
     <string name="menu_appearance">Utseende</string>
     <string name="menu_database">Databas</string>
     <string name="menu_security">Säkerhet</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Redigera</string>
     <string name="menu_delete">Radera</string>
     <string name="menu_save">Spara</string>
+    <string name="menu_set_labels">Ange etiketter</string>
+    <string name="menu_attach_image">Bifoga bild</string>
+    <string name="menu_add_field">Lägg till fält</string>
     <string name="menu_keyboard">Tangentbord</string>
     <string name="menu_add_to_watch">Lägg till i klockan</string>
     <string name="menu_clear_history">Rensa historik</string>

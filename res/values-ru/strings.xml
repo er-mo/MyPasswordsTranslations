@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Поиск</string>
+    <string name="menu_settings">Настройки</string>
     <string name="menu_appearance">Оформление</string>
     <string name="menu_database">База данных</string>
     <string name="menu_security">Безопасность</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Pедактировать</string>
     <string name="menu_delete">Удалить</string>
     <string name="menu_save">Сохранить</string>
+    <string name="menu_set_labels">Установить метки</string>
+    <string name="menu_attach_image">Прикрепить изображение</string>
+    <string name="menu_add_field">Добавить поле</string>
     <string name="menu_keyboard">Клавиатура</string>
     <string name="menu_add_to_watch">Добавить, чтобы посмотреть</string>
     <string name="menu_clear_history">Чистая история</string>

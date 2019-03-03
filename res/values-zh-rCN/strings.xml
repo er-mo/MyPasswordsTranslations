@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">搜索</string>
+    <string name="menu_settings">设置</string>
     <string name="menu_appearance">外观</string>
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">编辑</string>
     <string name="menu_delete">删除</string>
     <string name="menu_save">保存</string>
+    <string name="menu_set_labels">设置标签</string>
+    <string name="menu_attach_image">附上图片</string>
+    <string name="menu_add_field">添加字段</string>
     <string name="menu_keyboard">键盘</string>
     <string name="menu_add_to_watch">添加到智能手表</string>
     <string name="menu_clear_history">清除历史记录</string>

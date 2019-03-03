@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Zoeken</string>
+    <string name="menu_settings">Instellingen</string>
     <string name="menu_appearance">Weergave</string>
     <string name="menu_database">Database</string>
     <string name="menu_security">Beveiliging</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Wijzig</string>
     <string name="menu_delete">Wis</string>
     <string name="menu_save">Opslaan</string>
+    <string name="menu_set_labels">Labels instellen</string>
+    <string name="menu_attach_image">Bevestig afbeelding</string>
+    <string name="menu_add_field">Voeg veld toe</string>
     <string name="menu_keyboard">Toetsenbord</string>
     <string name="menu_add_to_watch">Toevoegen om te bekijken</string>
     <string name="menu_clear_history">Geschiedenis wissen</string>

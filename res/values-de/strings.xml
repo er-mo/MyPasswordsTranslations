@@ -30,7 +30,7 @@
     <string name="last_updated">Letzte Aktualisierung</string>
     <string name="copy">(Kopie)</string>
     <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Neues Label hinzufügen</string>
+    <string name="add_new_label">Neues Etikett hinzufügen</string>
     <!-- ################################################################################# -->
 
 
@@ -68,7 +68,7 @@
     <string name="upgrade_feature_8">Passwort historie</string>
     <string name="upgrade_feature_9">Bildanhänge</string>
     <string name="upgrade_feature_10">Benutzerdefinierte Felder</string>
-    <string name="upgrade_feature_11">Unbegrenzte Labels</string>
+    <string name="upgrade_feature_11">Unbegrenzte Etiketten</string>
     <string name="upgrade_with_single_purchase">Sie Können alle zusätzlichen Funktionen mit einem einzigen In-App-Kauf freischalten.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">Altes Passwort</string>
@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Suche</string>
+    <string name="menu_settings">Einstellungen</string>
     <string name="menu_appearance">Aussehen</string>
     <string name="menu_database">Datenbank</string>
     <string name="menu_security">Sicherheit</string>
@@ -89,11 +90,14 @@
     <string name="menu_edit">Bearbeiten</string>
     <string name="menu_delete">Löschen</string>
     <string name="menu_save">SPEICHERN</string>
+    <string name="menu_set_labels">Etiketten setzen</string>
+    <string name="menu_attach_image">Bild anhängen</string>
+    <string name="menu_add_field">Feld hinzufügen</string>
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_watch">Zur Uhr hinzufügen</string>
     <string name="menu_clear_history">Passwortverlauf Löschen</string>
     <string name="menu_navigation_drawer_all_entries">Alles</string>
-    <string name="menu_navigation_drawer_edit_labels">Labels bearbeiten</string>
+    <string name="menu_navigation_drawer_edit_labels">Etiketten bearbeiten</string>
     <!-- ################################################################################# -->
 
 
@@ -130,7 +134,7 @@
     <string name="toast_no_password_history">Kein Passwortverlauf verfügbar</string>
     <string name="toast_password_history_cleared">Passwortverlauf gelöscht</string>
     <string name="toast_remember_your_master_password">Stellen Sie sicher, dass Sie sich an Ihr Master-Passwort erinnern</string>
-    <string name="toast_label_exists">Label already exists</string>
+    <string name="toast_label_exists">Besteht schon</string>
     <string name="toast_pro_feature_unlimited_labels">Weitere Etiketten nur in der PRO-Version verfügbar</string>
     <string name="toast_no_labels">Keine Etiketten</string>
     <!-- ################################################################################# -->
@@ -151,12 +155,12 @@
     <string name="dialog_title_history">Historie</string>
     <string name="dialog_title_attach_another_image">Bild anhängen?</string>
     <string name="dialog_title_new_field">Neues Feld</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_set_labels">Etiketten setzen</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
-    <string name="dialog_msg_delete_label">Label löschen?</string>
+    <string name="dialog_msg_delete_label">Etikett löschen?</string>
     <string name="dialog_msg_discard_changes">Änderungen verwerfen?</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>

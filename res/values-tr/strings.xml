@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Arama</string>
+    <string name="menu_settings">Ayarlar</string>
     <string name="menu_appearance">Görünüm</string>
     <string name="menu_database">Veritabanı</string>
     <string name="menu_security">Güvenlik</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Düzenleme</string>
     <string name="menu_delete">Sil</string>
     <string name="menu_save">KAYIT ETMEK</string>
+    <string name="menu_set_labels">Etiketleri ayarla</string>
+    <string name="menu_attach_image">Resim ekle</string>
+    <string name="menu_add_field">Alan ekle</string>
     <string name="menu_keyboard">Klavye</string>
     <string name="menu_add_to_watch">Saate ekle</string>
     <string name="menu_clear_history">Şifre geçmişini temizle</string>

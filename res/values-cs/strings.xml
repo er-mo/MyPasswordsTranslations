@@ -78,6 +78,7 @@
 
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Hledat</string>
+    <string name="menu_settings">Nastavení</string>
     <string name="menu_appearance">Vzhled</string>
     <string name="menu_database">Databáze</string>
     <string name="menu_security">Zabezpečení</string>
@@ -89,6 +90,9 @@
     <string name="menu_edit">Upravit</string>
     <string name="menu_delete">Smazat</string>
     <string name="menu_save">Uložit</string>
+    <string name="menu_set_labels">Nastavte štítky</string>
+    <string name="menu_attach_image">Připojte obrázek</string>
+    <string name="menu_add_field">Přidat pole</string>
     <string name="menu_keyboard">Klávesnice</string>
     <string name="menu_add_to_watch">Přidat ke sledování</string>
     <string name="menu_clear_history">Smazat historii</string>
