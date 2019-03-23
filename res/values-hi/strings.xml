@@ -172,7 +172,7 @@
     <string name="dialog_msg_error_writing_file">Error writing file.</string>
     <string name="dialog_msg_error_reading_file">Error reading file.</string>
     <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
+    <string name="dialog_msg_no_fp_hardware">फ़िंगरप्रिंट हार्डवेयर मौजूद नहीं है या कार्यात्मक नहीं है।</string>
     <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
     <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
@@ -192,25 +192,25 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_title_sort_entries">प्रविष्टियों को क्रमबद्ध करें</string>
+    <string name="pref_appearance_sorting_choise_alpha">वर्णानुक्रम</string>
+    <string name="pref_appearance_sorting_choise_time">आज तक</string>
+    <string name="pref_appearance_sorting_choise_color">रंग से</string>
+    <string name="pref_appearance_title_navibar_color">नेविगेशन बार का रंग</string>
+    <string name="pref_appearance_summary_navibar_color">नेविगेशन बार पर प्राथमिक गहरा रंग भी लागू किया जाएगा (Android 5.0 और नया)</string>
+    <string name="pref_appearance_title_show_notification">अधिसूचना</string>
+    <string name="pref_appearance_summary_show_notification">यह पहचानना आसान है कि एप्लिकेशन अनलॉक और चल रहा है</string>
+    <string name="pref_appearance_title_show_passwords">पासवर्ड दिखाएं</string>
+    <string name="pref_appearance_summary_show_passwords">आपको आंख का आइकन नहीं दबाना है</string>
+    <string name="pref_appearance_title_show_account">खाता दिखाओ</string>
+    <string name="pref_appearance_summary_show_account">यदि उपलब्ध हो तो खाता फ़ील्ड को मुख्य सूची दृश्य में दिखाया जाएगा</string>
+    <string name="pref_appearance_title_stay_awake">जागते रहो</string>
+    <string name="pref_appearance_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
+    <string name="pref_appearance_title_change_theme">थीम बदलें</string>
+    <string name="pref_appearance_theme_light">रोशनी</string>
+    <string name="pref_appearance_theme_dark">अंधेरा</string>
+    <string name="pref_appearance_theme_blue_gray">नीला स्लेटी</string>
+    <string name="pref_appearance_theme_purple">बैंगनी</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">Share database</string>
     <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
