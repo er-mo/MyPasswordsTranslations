@@ -2,77 +2,77 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">मेरे पासवर्ड</string>
+    <string name="app_description">एंड्रॉइड डिवाइस के लिए पासवर्ड मैनेजर का सुरक्षित और आसान उपयोग</string>
+    <string name="app_download_message">अब इसे Google Play स्टोर से निःशुल्क प्राप्त करें</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="current_location_folder">स्थान</string>
+    <string name="password_is_too_short">पासवर्ड बहुत छोटा है</string>
+    <string name="passwords_not_matching">पासवर्ड मेल नहीं खा रहे हैं</string>
+    <string name="password_not_correct">पासवर्ड सही नहीं है</string>
+    <string name="password_not_only_numbers">पासवर्ड में केवल नंबर नहीं होते हैं</string>
+    <string name="password_strength_hint_very_weak">बहुत कमजोर!</string>
+    <string name="password_strength_hint_weak">कमजोर!</string>
+    <string name="password_strength_hint_good">अच्छा!</string>
+    <string name="password_strength_hint_strong">बलवान!</string>
+    <string name="password_strength_hint_very_strong">बहुत ताकतवर!</string>
+    <string name="required">की आवश्यकता है</string>
+    <string name="title">शीर्षक</string>
+    <string name="account">लेखा</string>
+    <string name="password">पासवर्ड</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="website">वेबसाइट</string>
+    <string name="notes">नोट्स</string>
+    <string name="list_is_empty">कोई प्रविष्टि नहीं है</string>
+    <string name="last_updated">आखरी अपडेट</string>
+    <string name="copy">(कॉपी)</string>
+    <string name="new_field_hint">नाम</string>
+    <string name="add_new_label">नया लेबल जोड़ें</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
+    <string name="button_register">रजिस्टर</string>
+    <string name="button_enter">दर्ज</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_upgrade_now">अभी अपग्रेड करें</string>
+    <string name="button_update">अद्यतन करें</string>
+    <string name="button_exit">बाहर निकलें</string>
+    <string name="button_sure">ज़रूर</string>
+    <string name="button_gotit">समझ गया</string>
+    <string name="button_labels">लेबल</string>
+    <string name="button_attach_image">छवि संलग्न करें</string>
+    <string name="button_new_field">क्षेत्र जोड़ें</string>
+    <string name="button_delete_field">फ़ील्ड हटाएं</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">मेरे पासवर्ड में आपका स्वागत है</string>
+    <string name="welcome_info_content">आवेदन का उपयोग शुरू करने के लिए कृपया एक मास्टर पासवर्ड पंजीकृत करें। ध्यान दें कि यदि मास्टर पासवर्ड खो जाता है तो संग्रहित डेटा अनुपलब्ध सिंक विकल्प के कारण पुनर्प्राप्त नहीं किया जा सकता। यह दृढ़ता से अनुशंसा की जाती है कि आप नियमित अंतराल पर अपने डेटा का बैकअप लें।</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export &amp; import csv files</string>
-    <string name="upgrade_feature_2">Auto backup</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">प्रो संस्करण खरीदने के लिए धन्यवाद।</string>
+    <string name="upgrade_feature_1">निर्यात करें & amp; सीएसवी फ़ाइलों को आयात करें</string>
+    <string name="upgrade_feature_2">ऑटो बैकअप</string>
+    <string name="upgrade_feature_3">थीम चयन</string>
+    <string name="upgrade_feature_4">स्वचालित रूप से क्लिप को हटा दें</string>
+    <string name="upgrade_feature_5">आत्म विनाश</string>
+    <string name="upgrade_feature_6">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">पासवर्ड इतिहास</string>
+    <string name="upgrade_feature_9">छवि संलग्नक</string>
+    <string name="upgrade_feature_10">कस्टम फील्ड्स</string>
+    <string name="upgrade_feature_11">असीमित लेबल</string>
+    <string name="upgrade_with_single_purchase">एकल इन-ऐप खरीदारी के साथ सभी अतिरिक्त सुविधाएँ अनलॉक करें</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">पुराने कोड</string>
+    <string name="change_mp_new_master_password">नया पासवर्ड</string>
     <!-- ################################################################################# -->
 
 
