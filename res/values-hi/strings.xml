@@ -77,116 +77,116 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">खोज</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_appearance">दिखावट</string>
+    <string name="menu_database">डेटाबेस</string>
+    <string name="menu_security">सुरक्षा</string>
+    <string name="menu_about">के बारे में</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_set_labels">Set labels</string>
-    <string name="menu_attach_image">Attach image</string>
-    <string name="menu_add_field">Add field</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_upgrade">प्रो में अपग्रेड</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_copy_entry">एक प्रति बनाओ</string>
+    <string name="menu_edit">संपादित करें</string>
+    <string name="menu_delete">मैं हटाता हूं</string>
+    <string name="menu_save">बचाना</string>
+    <string name="menu_set_labels">लेबल सेट करें</string>
+    <string name="menu_attach_image">छवि संलग्न करें</string>
+    <string name="menu_add_field">क्षेत्र जोड़ें</string>
+    <string name="menu_keyboard">कीबोर्ड</string>
+    <string name="menu_add_to_watch">देखने के लिए जोड़ें</string>
+    <string name="menu_clear_history">इतिहास मिटा दें</string>
+    <string name="menu_navigation_drawer_all_entries">सब</string>
+    <string name="menu_navigation_drawer_edit_labels">लेबल संपादित करें</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_tap_again_to_exit">बाहर निकलने के लिए फिर से टैप करें</string>
+    <string name="toast_entry_deleted">प्रविष्टि हटाई गई</string>
+    <string name="toast_entries_deleted">प्रविष्टियां हटा दी गईं</string>
+    <string name="toast_entry_saved">एंट्री बचाई गई</string>
+    <string name="toast_try_again_shortly">कृपया कुछ सेकंड में पुनः प्रयास करें</string>
+    <string name="toast_no_browser">कोई वेब ब्राउज़र एप्लिकेशन नहीं मिला</string>
+    <string name="toast_no_playstore">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
+    <string name="toast_tap_to_copy_text">सामग्री को कॉपी करने के लिए टेक्स्ट दृश्य पर टैप करें</string>
+    <string name="toast_copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
+    <string name="toast_master_password_updated">सफलतापूर्वक मास्टर पासवर्ड अपडेट किया गया</string>
+    <string name="toast_master_password_not_updated">मास्टर पासवर्ड अपडेट करने में विफल</string>
+    <string name="toast_storage_permission_granted">अनुमति प्रदान की गई</string>
+    <string name="toast_storage_permission_denied">लाइसेंस से इनकार कर दिया। फाइलें पढ़ या लिख नहीं सकते।</string>
+    <string name="toast_camera_permission_denied">अनुमति नहीं मिली। छवियों पर कब्जा नहीं कर सकता।</string>
+    <string name="toast_no_file_selected">कोई फ़ाइल चयनित नहीं थी</string>
+    <string name="toast_successful_backup">सफलतापूर्वक बैकअप बनाया गया</string>
+    <string name="toast_successful_restore">डेटाबेस को सफलतापूर्वक पुनर्स्थापित किया गया</string>
+    <string name="toast_successful_csv_export">सफलतापूर्वक csv फ़ाइल निर्यात की गई</string>
+    <string name="toast_successful_csv_import">सफलतापूर्वक CSV फ़ाइल आयात की गई</string>
+    <string name="toast_database_server_error">फिलहाल डेटाबेस उपलब्ध नहीं है</string>
+    <string name="toast_added_to_watch">देखने के लिए जोड़ा गया</string>
+    <string name="toast_removed_from_watch">देखने से हटा दिया गया</string>
+    <string name="toast_playstore_error">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
+    <string name="toast_playstore_services_error">Google Play सेवाएं उपलब्ध नहीं हैं</string>
+    <string name="toast_google_client_error">Google क्लाइंट से कनेक्ट नहीं किया जा सकता। नेटवर्क कनेक्टिविटी की जाँच करें</string>
+    <string name="toast_storage_not_accessible">बाहरी भंडारण सुलभ नहीं है</string>
+    <string name="toast_ask_for_rating">Google Play स्टोर पर रेटिंग के बारे में कैसे?</string>
+    <string name="toast_auto_backup_hint">अपने पासवर्ड की सुरक्षा के लिए ऑटो बैकअप सक्षम करें</string>
+    <string name="toast_pro_feature">केवल प्रो संस्करण में उपलब्ध है</string>
+    <string name="toast_no_password_history">कोई पासवर्ड इतिहास उपलब्ध नहीं है</string>
+    <string name="toast_password_history_cleared">इतिहास साफ हो गया</string>
+    <string name="toast_remember_your_master_password">सुनिश्चित करें कि आपको अपना मास्टर पासवर्ड याद है</string>
+    <string name="toast_label_exists">लेबल पहले से मौजूद है</string>
+    <string name="toast_pro_feature_unlimited_labels">केवल प्रो संस्करण में उपलब्ध अधिक लेबल</string>
+    <string name="toast_no_labels">कोई लेबल नहीं</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
+    <string name="dialog_button_ok">ठीक</string>
+    <string name="dialog_button_continue">जारी रहना</string>
+    <string name="dialog_button_cancel">रद्द करना</string>
+    <string name="dialog_button_delete">मैं हटाता हूं</string>
+    <string name="dialog_button_discard">मैं अस्वीकार करता हूं</string>
+    <string name="dialog_button_remove">हटाना</string>
+    <string name="dialog_title_restore_backup">बैकअप बहाल?</string>
+    <string name="dialog_title_import_csv">सीएसवी आयात करें?</string>
+    <string name="dialog_title_change_master_password">मास्टर पासवर्ड बदलें?</string>
+    <string name="dialog_title_self_destruct">आत्म विनाश</string>
+    <string name="dialog_title_confirm_fp">अपने फिंगरप्रिंट की पुष्टि करें</string>
+    <string name="dialog_title_history">इतिहास</string>
+    <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
+    <string name="dialog_title_new_field">नया क्षेत्र</string>
+    <string name="dialog_title_set_labels">लेबल सेट करें</string>
+    <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
+    <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
+    <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
+    <string name="dialog_msg_delete_entry">प्रविष्टि हटाएं?</string>
+    <string name="dialog_msg_delete_label">लेबल हटाएं?</string>
+    <string name="dialog_msg_discard_changes">परिवर्तनों को निरस्त करें?</string>
+    <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
+    <string name="dialog_msg_payload_failed">भुगतान सत्यापन विफल रहा।</string>
+    <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
+    <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
+    <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
+    <string name="dialog_msg_csv_format_invalid">CSV प्रारूप मान्य नहीं है।</string>
+    <string name="dialog_msg_csv_no_data">CSV फ़ाइल में कोई डेटा नहीं है।</string>
+    <string name="dialog_msg_error_writing_file">फ़ाइल लिखने में त्रुटि।</string>
+    <string name="dialog_msg_error_reading_file">फ़ाइल पढ़ने में त्रुटि।</string>
+    <string name="dialog_msg_app_data_erased">विफल प्रयासों के कारण सभी डेटा स्थायी रूप से हटा दिए गए हैं।</string>
     <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">कोई नामांकित फिंगरप्रिंट नहीं मिला। कृपया सिस्टम सेटिंग्स में कम से कम एक फिंगरप्रिंट सेट करें।</string>
+    <string name="dialog_msg_fp_not_recognized">फ़िंगरप्रिंट नहीं पहचाना गया। पुनः प्रयास करें</string>
+    <string name="dialog_msg_fp_success">फिंगरप्रिंट पहचान लिया। कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">टच सेंसर</string>
+    <string name="dialog_msg_fp_keystore_error">फ़िंगरप्रिंट त्रुटि। जब आप मास्टर पासवर्ड का उपयोग करके साइन इन करते हैं, तो फिंगरप्रिंट को फिर से सक्षम करें।</string>
+    <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
+    <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
+    <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
+    <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">एप्लिकेशन चल रहा है</string>
     <!-- ################################################################################# -->
 
 
