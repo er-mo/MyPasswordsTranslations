@@ -212,74 +212,74 @@
     <string name="pref_appearance_theme_blue_gray">नीला स्लेटी</string>
     <string name="pref_appearance_theme_purple">बैंगनी</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup_share">डेटाबेस साझा करें</string>
+    <string name="pref_database_summary_backup_share">एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं और साझा करें</string>
+    <string name="pref_database_title_backup">बैकअप डेटाबेस</string>
+    <string name="pref_database_summary_backup">एंड्रॉइड स्टोरेज बॉक्स का उपयोग करके एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं</string>
+    <string name="pref_database_title_restore">डेटाबेस पुनर्स्थापित करें</string>
+    <string name="pref_database_summary_restore">किसी एन्क्रिप्टेड डेटाबेस के बैकअप को पुनर्स्थापित करें</string>
+    <string name="pref_database_title_gd_auto_backup">Google ड्राइव बैकअप</string>
+    <string name="pref_database_summary_gd_auto_backup">स्वचालित रूप से अपने व्यक्तिगत Google ड्राइव खाते का बैकअप लें</string>
+    <string name="pref_database_title_sd_auto_backup">बाहरी संग्रहण बैकअप</string>
+    <string name="pref_database_summary_sd_auto_backup">अपने बाहरी भंडारण (एसडी या आंतरिक गैर-हटाने योग्य भंडारण) पर ऑटो बैकअप बनाएं। आप 3rd पार्टी फ़ाइल मैनेजर ऐप का उपयोग करके बाहरी संग्रहण तक पहुंच सकते हैं</string>
+    <string name="pref_database_title_export">सीएसवी फ़ाइल निर्यात करें</string>
+    <string name="pref_database_summary_export">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल में प्रविष्टियों को निर्यात करें</string>
+    <string name="pref_database_title_import">सीएसवी फ़ाइल आयात करें</string>
+    <string name="pref_database_summary_import">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल से प्रविष्टियों को आयात करें</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_change_password">मास्टर पासवर्ड बदलें</string>
+    <string name="pref_security_title_fast_enter">तेजी से दर्ज करें</string>
+    <string name="pref_security_summary_fast_enter">यदि मास्टर पासवर्ड सही है तो ENTER बटन को टैप किए बिना एप्लिकेशन को दर्ज करने के लिए इसे तेज़ी से बनाता है</string>
+    <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
+    <string name="pref_security_summary_auto_exit">स्क्रीन बंद होने पर एप्लिकेशन स्वचालित रूप से बाहर निकल जाएगा</string>
+    <string name="pref_security_title_clipboard_clear">क्लिपबोर्ड साफ़ करें</string>
+    <string name="pref_security_clipboard_clear_never">कभी नहीँ</string>
+    <string name="pref_security_clipboard_clear_one_min">1 मिनट</string>
+    <string name="pref_security_clipboard_clear_two_min">2 मिनट</string>
+    <string name="pref_security_clipboard_clear_three_min">3 मिनट</string>
+    <string name="pref_security_clipboard_clear_four_min">4 मिनट</string>
+    <string name="pref_security_clipboard_clear_five_min">5 मिनट</string>
+    <string name="pref_security_title_self_destruct">विफल पासवर्ड प्रयास</string>
+    <string name="pref_security_self_destruct_unlimited">असीमित</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
+    <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">त्रुटि की रिपोर्ट करें</string>
+    <string name="pref_about_title_support">दर नियत करें और समीक्षा करें</string>
+    <string name="pref_about_title_more_apps">और ऐप</string>
+    <string name="pref_about_title_share">अपने दोस्तों को बताएँ</string>
+    <string name="pref_about_title_translations">अनुवाद</string>
+    <string name="pref_about_title_terms">शर्तें और गोपनीयता नीति</string>
+    <string name="pref_about_title_licenses">ओपन सोर्स लाइसेंस</string>
+    <string name="pref_about_title_build_version">एक संस्करण बनाना</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">पासवर्ड पहनें</string>
+    <string name="pref_wear_os_summary_password_enabled">पासवर्ड का उपयोग करके अपनी घड़ी पर पहुंच को प्रतिबंधित करें</string>
+    <string name="pref_wear_os_title_add_to_watch">देखने के लिए जोड़ें</string>
+    <string name="pref_wear_os_summary_add_to_watch">नई प्रविष्टियों को हमेशा घड़ी में जोड़ा जाएगा</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
+    <string name="pref_category_appearance">अपीयरेंस</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>थीम</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ऑटो बैकअप</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>सीएसवी</string>
+    <string name="pref_category_security">सुरक्षा</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>फिंगरप्रिंट</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">अपने फोन पर एक प्रविष्टि खोलें और इसे जोड़ने के लिए घड़ी आइकन दबाएं</string>
 
 </resources>
