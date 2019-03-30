@@ -58,7 +58,7 @@
     <string name="welcome_info_content">आवेदन का उपयोग शुरू करने के लिए कृपया एक मास्टर पासवर्ड पंजीकृत करें। ध्यान दें कि यदि मास्टर पासवर्ड खो जाता है तो संग्रहित डेटा अनुपलब्ध सिंक विकल्प के कारण पुनर्प्राप्त नहीं किया जा सकता। यह दृढ़ता से अनुशंसा की जाती है कि आप नियमित अंतराल पर अपने डेटा का बैकअप लें।</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">प्रो संस्करण खरीदने के लिए धन्यवाद।</string>
-    <string name="upgrade_feature_1">निर्यात करें & amp; सीएसवी फ़ाइलों को आयात करें</string>
+    <string name="upgrade_feature_1">सीएसवी फ़ाइलों को निर्यात और आयात करें</string>
     <string name="upgrade_feature_2">ऑटो बैकअप</string>
     <string name="upgrade_feature_3">थीम चयन</string>
     <string name="upgrade_feature_4">स्वचालित रूप से क्लिप को हटा दें</string>
