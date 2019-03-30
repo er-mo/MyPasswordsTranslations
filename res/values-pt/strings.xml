@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Meus códigos</string>
+    <string name="app_name">Minhas senhas</string>
     <string name="app_description">Um gerenciador de senhas seguro e fácil de usar para dispositivos Android</string>
     <string name="app_download_message">Obtenha gratuitamente agora na Google Play Store</string>
     <!-- ################################################################################# -->
@@ -30,7 +30,7 @@
     <string name="last_updated">Ultima atualização</string>
     <string name="copy">(cópia de)</string>
     <string name="new_field_hint">Nome</string>
-    <string name="add_new_label">Adicione uma nova tag</string>
+    <string name="add_new_label">Adicione um novo rótulo</string>
     <!-- ################################################################################# -->
 
 
@@ -54,7 +54,7 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Bem-vindo a minhas senhas</string>
+    <string name="welcome_info_title">Bem-vindo</string>
     <string name="welcome_info_content">Por favor, registre uma senha mestra para começar a usar o aplicativo. Observe que, se a senha mestra for perdida, os dados armazenados não poderão ser recuperados devido à opção de sincronização ausente. É altamente recomendável que você faça backup de seus dados em intervalos regulares.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Obrigado por adquirir a versão PRO.</string>
@@ -88,8 +88,8 @@
     <string name="menu_share">Compartilhar</string>
     <string name="menu_copy_entry">Faça uma cópia</string>
     <string name="menu_edit">Editar</string>
-    <string name="menu_delete">Eu apago</string>
-    <string name="menu_save">SALVE</string>
+    <string name="menu_delete">Apagar</string>
+    <string name="menu_save">SALVAR</string>
     <string name="menu_set_labels">Definir rótulos</string>
     <string name="menu_attach_image">Anexar imagem</string>
     <string name="menu_add_field">Adicionar campo</string>
@@ -136,7 +136,7 @@
     <string name="toast_remember_your_master_password">Certifique-se que você se lembra da senha mestra</string>
     <string name="toast_label_exists">Label já existe</string>
     <string name="toast_pro_feature_unlimited_labels">Mais etiquetas disponíveis apenas na versão PRO</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_no_labels">Sem rótulos</string>
     <!-- ################################################################################# -->
 
 
@@ -144,7 +144,7 @@
     <string name="dialog_button_ok">Está bem</string>
     <string name="dialog_button_continue">Continuar</string>
     <string name="dialog_button_cancel">Cancelar</string>
-    <string name="dialog_button_delete">Eu apago</string>
+    <string name="dialog_button_delete">Apagar</string>
     <string name="dialog_button_discard">Descartar</string>
     <string name="dialog_button_remove">Remover</string>
     <string name="dialog_title_restore_backup">Restaurar backup?</string>
