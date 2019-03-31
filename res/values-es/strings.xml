@@ -96,6 +96,7 @@
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_add_to_watch">Agregar al reloj</string>
     <string name="menu_clear_history">Eliminar historial</string>
+    <string name="menu_select_all">Seleccionar todo</string>
     <string name="menu_navigation_drawer_all_entries">Todos</string>
     <string name="menu_navigation_drawer_edit_labels">Editar etiquetas</string>
     <!-- ################################################################################# -->

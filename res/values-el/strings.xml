@@ -96,6 +96,7 @@
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
     <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>
+    <string name="menu_select_all">Επιλογή όλων</string>
     <string name="menu_navigation_drawer_all_entries">Ολα</string>
     <string name="menu_navigation_drawer_edit_labels">Επεξεργασία ετικετών</string>
     <!-- ################################################################################# -->

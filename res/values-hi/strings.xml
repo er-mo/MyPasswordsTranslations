@@ -96,6 +96,7 @@
     <string name="menu_keyboard">कीबोर्ड</string>
     <string name="menu_add_to_watch">देखने के लिए जोड़ें</string>
     <string name="menu_clear_history">इतिहास मिटा दें</string>
+    <string name="menu_select_all">सभी का चयन करे</string>
     <string name="menu_navigation_drawer_all_entries">सब</string>
     <string name="menu_navigation_drawer_edit_labels">लेबल संपादित करें</string>
     <!-- ################################################################################# -->

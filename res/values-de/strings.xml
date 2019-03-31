@@ -96,6 +96,7 @@
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_add_to_watch">Zur Uhr hinzufügen</string>
     <string name="menu_clear_history">Passwortverlauf Löschen</string>
+    <string name="menu_select_all">Wählen Sie Alle</string>
     <string name="menu_navigation_drawer_all_entries">Alles</string>
     <string name="menu_navigation_drawer_edit_labels">Etiketten bearbeiten</string>
     <!-- ################################################################################# -->

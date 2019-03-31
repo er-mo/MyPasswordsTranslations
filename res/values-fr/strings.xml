@@ -96,6 +96,7 @@
     <string name="menu_keyboard">Clavier</string>
     <string name="menu_add_to_watch">Ajouter à regarder</string>
     <string name="menu_clear_history">Effacer l\'historique</string>
+    <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_navigation_drawer_all_entries">Tous</string>
     <string name="menu_navigation_drawer_edit_labels">Modifier les étiquettes</string>
     <!-- ################################################################################# -->

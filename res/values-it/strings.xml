@@ -96,6 +96,7 @@
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_add_to_watch">Aggiungi all\'orologio</string>
     <string name="menu_clear_history">Cancella cronologia</string>
+    <string name="menu_select_all">Seleziona tutto</string>
     <string name="menu_navigation_drawer_all_entries">Tutti</string>
     <string name="menu_navigation_drawer_edit_labels">Modifica etichette</string>
     <!-- ################################################################################# -->
