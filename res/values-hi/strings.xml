@@ -152,6 +152,7 @@
     <string name="dialog_title_import_csv">सीएसवी आयात करें?</string>
     <string name="dialog_title_change_master_password">मास्टर पासवर्ड बदलें?</string>
     <string name="dialog_title_self_destruct">आत्म विनाश</string>
+    <string name="dialog_title_authentication">प्रयोक्ता प्रमाणीकरण</string>
     <string name="dialog_title_confirm_fp">अपने फिंगरप्रिंट की पुष्टि करें</string>
     <string name="dialog_title_history">इतिहास</string>
     <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
@@ -247,6 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
+    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
     <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
     <!-- about -->
@@ -275,6 +278,7 @@
     <string name="pref_category_security">सुरक्षा</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>फिंगरप्रिंट</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

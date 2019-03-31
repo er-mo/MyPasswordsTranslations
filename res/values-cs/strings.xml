@@ -152,6 +152,7 @@
     <string name="dialog_title_import_csv">Importovat cvs?</string>
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
     <string name="dialog_title_self_destruct">Sebedestrukce</string>
+    <string name="dialog_title_authentication">Ověření uživatele</string>
     <string name="dialog_title_confirm_fp">Potvrďte otisk prstu</string>
     <string name="dialog_title_history">Dějiny</string>
     <string name="dialog_title_attach_another_image">Připojíte další obrázek?</string>
@@ -247,6 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
+    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">Vstup pomocí otisku prstu</string>
     <string name="pref_security_summary_fingerprint">Je vyžadován Android 6.0 nebo novější a kompatibilní hardware pro používání této funkce.</string>
     <!-- about -->
@@ -275,6 +278,7 @@
     <string name="pref_category_security">ZABEZPEČENÍ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHRÁNKA</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SEBEDESTRUKCE</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>OTISK PRSTU</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

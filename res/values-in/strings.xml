@@ -152,6 +152,7 @@
     <string name="dialog_title_import_csv">Impor csv?</string>
     <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
     <string name="dialog_title_self_destruct">Penghancuran diri</string>
+    <string name="dialog_title_authentication">Otentikasi</string>
     <string name="dialog_title_confirm_fp">Konfirmasikan sidik jari Anda</string>
     <string name="dialog_title_history">Sejarah</string>
     <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
@@ -247,6 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
+    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
     <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
     <!-- about -->
@@ -275,6 +278,7 @@
     <string name="pref_category_security">KEAMANAN</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SIDIK JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

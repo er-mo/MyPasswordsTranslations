@@ -152,6 +152,7 @@
     <string name="dialog_title_import_csv">Importar csv?</string>
     <string name="dialog_title_change_master_password">Alterar senha mestra?</string>
     <string name="dialog_title_self_destruct">Auto-destruição</string>
+    <string name="dialog_title_authentication">Autenticação</string>
     <string name="dialog_title_confirm_fp">Confirme sua impressão digital</string>
     <string name="dialog_title_history">História</string>
     <string name="dialog_title_attach_another_image">Anexar outra imagem?</string>
@@ -247,6 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
+    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">Digite a impressão digital</string>
     <string name="pref_security_summary_fingerprint">O Android 6.0 ou hardware mais recente e compatível é necessário para usar este recurso</string>
     <!-- about -->
@@ -275,6 +278,7 @@
     <string name="pref_category_security">SEGURANÇA</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PRANCHETA</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUIÇÃO</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>IMPRESSÃO DIGITAL</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

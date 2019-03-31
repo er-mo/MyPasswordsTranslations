@@ -152,6 +152,7 @@
     <string name="dialog_title_import_csv">Importera CSV?</string>
     <string name="dialog_title_change_master_password">Ändra huvudlösenordet?</string>
     <string name="dialog_title_self_destruct">Självförstörelse</string>
+    <string name="dialog_title_authentication">Användarautentisering</string>
     <string name="dialog_title_confirm_fp">Bekräfta ditt fingeravtryck</string>
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_title_attach_another_image">Bifoga en annan bild?</string>
@@ -247,6 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
+    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">Ange med fingeravtryck</string>
     <string name="pref_security_summary_fingerprint">Du behöver Android 6.0 eller senare för att använda den här funktionen</string>
     <!-- about -->
@@ -275,6 +278,7 @@
     <string name="pref_category_security">SÄKERHET</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SKRIVPLATTA </string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SJÄLVFÖRSTÖRELSE</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERAVTRYCK</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
