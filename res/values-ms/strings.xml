@@ -103,114 +103,114 @@
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_tap_again_to_exit">Ketuk sekali lagi untuk keluar</string>
+    <string name="toast_entry_deleted">KemasukBerjaya mengimport fail csvn dipadam</string>
+    <string name="toast_entries_deleted">Penyertaan telah dipadamkan</string>
+    <string name="toast_entry_saved">Penyertaan disimpan</string>
+    <string name="toast_try_again_shortly">Sila cuba lagi dalam beberapa saat</string>
+    <string name="toast_no_browser">Tiada aplikasi pelayar web yang dijumpai</string>
+    <string name="toast_no_playstore">Apl gedung Google Play tidak dipasang</string>
+    <string name="toast_tap_to_copy_text">Ketik pada paparan teks untuk menyalin kandungan</string>
+    <string name="toast_copied_to_clipboard">Disalin ke papan keratan</string>
+    <string name="toast_master_password_updated">Kata laluan master berjaya dikemaskini</string>
+    <string name="toast_master_password_not_updated">Gagal mengemas kini kata laluan induk</string>
+    <string name="toast_storage_permission_granted">Kebenaran diberikan</string>
+    <string name="toast_storage_permission_denied">Kebenaran dinafikan. Tidak dapat membaca atau menulis fail.</string>
+    <string name="toast_camera_permission_denied">Kebenaran dinafikan. Tidak dapat menangkap imej.</string>
+    <string name="toast_no_file_selected">Tiada fail dipilih</string>
+    <string name="toast_successful_backup">Berjaya membuat sandaran</string>
+    <string name="toast_successful_restore">Pulihkan pangkalan data dengan jayanya</string>
+    <string name="toast_successful_csv_export">Berjaya mengeksport fail csv</string>
+    <string name="toast_successful_csv_import">Berjaya mengimport fail csv</string>
+    <string name="toast_database_server_error">Pangkalan data tidak tersedia pada masa ini</string>
+    <string name="toast_added_to_watch">Ditambah untuk menonton</string>
+    <string name="toast_removed_from_watch">τelah dikeluarkan dari pemantauan</string>
+    <string name="toast_playstore_error">Apl gedung Google Play tidak dipasang</string>
+    <string name="toast_playstore_services_error">Perkhidmatan Google Play tidak tersedia</string>
+    <string name="toast_google_client_error">Tidak dapat bersambung ke klien Google. Periksa sambungan rangkaian</string>
+    <string name="toast_storage_not_accessible">Penyimpanan luaran tidak boleh diakses</string>
+    <string name="toast_ask_for_rating">Bagaimana pula penarafan di gedung Google Play?</string>
+    <string name="toast_auto_backup_hint">Dayakan sandaran automatik untuk melindungi kata laluan anda</string>
+    <string name="toast_pro_feature">Hanya terdapat dalam versi PRO</string>
+    <string name="toast_no_password_history">Tiada sejarah kata laluan tersedia</string>
+    <string name="toast_password_history_cleared">Sejarah dibersihkan</string>
+    <string name="toast_remember_your_master_password">Pastikan anda mengingati kata laluan induk anda</string>
+    <string name="toast_label_exists">Label sudah wujud</string>
+    <string name="toast_pro_feature_unlimited_labels">Lebih banyak label yang tersedia hanya dalam versi PRO</string>
+    <string name="toast_no_labels">Tiada label</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_continue">Continue</string>
-    <string name="dialog_button_cancel">Cancel</string>
-    <string name="dialog_button_delete">Delete</string>
-    <string name="dialog_button_discard">Discard</string>
-    <string name="dialog_button_remove">Remove</string>
-    <string name="dialog_title_restore_backup">Restore backup?</string>
-    <string name="dialog_title_import_csv">Import csv?</string>
-    <string name="dialog_title_change_master_password">Change master password?</string>
-    <string name="dialog_title_self_destruct">Self destruct</string>
-    <string name="dialog_title_authentication">Authentication</string>
-    <string name="dialog_title_confirm_fp">Confirm your fingerprint</string>
-    <string name="dialog_title_history">History</string>
-    <string name="dialog_title_attach_another_image">Attach another image?</string>
-    <string name="dialog_title_new_field">New field</string>
-    <string name="dialog_title_set_labels">Set labels</string>
-    <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
-    <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
-    <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
-    <string name="dialog_msg_delete_entry">Delete entry?</string>
-    <string name="dialog_msg_delete_label">Delete label?</string>
-    <string name="dialog_msg_discard_changes">Discard changes?</string>
-    <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
-    <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
-    <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
-    <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
-    <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
-    <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
-    <string name="dialog_msg_error_writing_file">Error writing file.</string>
-    <string name="dialog_msg_error_reading_file">Error reading file.</string>
-    <string name="dialog_msg_app_data_erased">All data permanently deleted because of the failed attempts.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">No enrolled fingerprints found. Please set up at least one fingerprint in system settings.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
-    <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
-    <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_button_continue">Teruskan</string>
+    <string name="dialog_button_cancel">Batalkan</string>
+    <string name="dialog_button_delete">Padam</string>
+    <string name="dialog_button_discard">Buang</string>
+    <string name="dialog_button_remove">Keluarkan</string>
+    <string name="dialog_title_restore_backup">Pulihkan sandaran?</string>
+    <string name="dialog_title_import_csv">Masukkan csv?</string>
+    <string name="dialog_title_change_master_password">Tukar kata laluan induk?</string>
+    <string name="dialog_title_self_destruct">Kemusnahan diri</string>
+    <string name="dialog_title_authentication">Pengesahan</string>
+    <string name="dialog_title_confirm_fp">Sahkan cap jari anda</string>
+    <string name="dialog_title_history">Sejarah</string>
+    <string name="dialog_title_attach_another_image">Pasang imej lain?</string>
+    <string name="dialog_title_new_field">Medan baru</string>
+    <string name="dialog_title_set_labels">Tetapkan label</string>
+    <string name="dialog_msg_entries_will_be_deleted">Semua entri semasa akan dipadamkan.</string>
+    <string name="dialog_msg_changing_master_password">Dengan mengubah kata laluan utama anda tidak akan dapat memulihkan sandaran pangkalan data yang dibuat dengan kata laluan induk semasa.</string>
+    <string name="dialog_msg_delete_selected_entries">Padamkan entri yang dipilih?</string>
+    <string name="dialog_msg_delete_entry">Padamkan entri?</string>
+    <string name="dialog_msg_delete_label">PadamkPengesahan pembayaran gagal.an label?</string>
+    <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
+    <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
+    <string name="dialog_msg_payload_failed">Pengesahan pembayaran gagal.</string>
+    <string name="dialog_msg_cannot_read_file">Fail yang dipilih tidak dapat dibaca.</string>
+    <string name="dialog_msg_db_not_valid">Backup pangkalan data tidak sah.</string>
+    <string name="dialog_msg_db_different_pass">Cadangan pangkalan data telah dibuat menggunakan kata laluan induk yang berbeza.</string>
+    <string name="dialog_msg_csv_format_invalid">Format CSV tidak sah.</string>
+    <string name="dialog_msg_csv_no_data">Fail CSV tidak mempunyai data.</string>
+    <string name="dialog_msg_error_writing_file">Ralat menulis fail.</string>
+    <string name="dialog_msg_error_reading_file">Ralat membaca fail.</string>
+    <string name="dialog_msg_app_data_erased">Semua data kekal dipadam kerana percubaan yang gagal.</string>
+    <string name="dialog_msg_no_fp_hardware">Perkakasan cap jari tidak hadir atau tidak berfungsi.</string>
+    <string name="dialog_msg_no_fp_enrolled">Tiada cap jari yang didaftarkan dijumpai. Sila setkan sekurang-kurangnya satu cap jari dalam tetapan sistem.</string>
+    <string name="dialog_msg_fp_not_recognized">Cap jari tidak diiktiraf. Cuba lagi</string>
+    <string name="dialog_msg_fp_success">Cap jari diiktiraf. Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_hint">Sentuh sensor</string>
+    <string name="dialog_msg_fp_keystore_error">Kesilapan keystore cap jari. Sila semak semula cap jari sebaik sahaja anda memasukkan kata laluan induk anda.</string>
+    <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata laluan jenis dan panjang yang berlainan.</string>
+    <string name="dialog_msg_remove_from_watch">Alih keluar kemasukan dari jam tangan?</string>
+    <string name="dialog_msg_attachments_warning">Lampiran boleh meningkatkan saiz pangkalan data dan mengurangkan prestasi keseluruhan aplikasi.</string>
+    <string name="dialog_progress_please_wait">Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Application is running</string>
+    <string name="notification_text_app_running">Permohonan sedang dijalankan</string>
     <!-- ################################################################################# -->
-
+By date
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_title_sort_entries">Isih penyisipan</string>
+    <string name="pref_appearance_sorting_choise_alpha">Berdasarkan abjad</string>
+    <string name="pref_appearance_sorting_choise_time">Sehingga kini</string>
+    <string name="pref_appearance_sorting_choise_color">Dengan warna</string>
+    <string name="pref_appearance_title_navibar_color">Warna bar navigasi</string>
+    <string name="pref_appearance_summary_navibar_color">Warna gelap utama akan digunakan pada bar navigasi juga (Android 5.0 dan baru)</string>
+    <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
+    <string name="pref_appearance_summary_show_notification">Mudah untuk mengenal pasti bahawa aplikasi dibuka dan berjalan</string>
+    <string name="pref_appearance_title_show_passwords">Tunjukkan kata laluan</string>
+    <string name="pref_appearance_summary_show_passwords">Anda tidak perlu menekan ikon mata</string>
+    <string name="pref_appearance_title_show_account">Tunjukkan akaun</string>
+    <string name="pref_appearance_summary_show_account">Medan akaun akan ditunjukkan dalam paparan senarai utama jika tersedia</string>
+    <string name="pref_appearance_title_stay_awake">Sentiasa berjaga</string>
+    <string name="pref_appearance_summary_stay_awake">Skrin tidak akan pernah tidur semasa melihat atau menyunting entri</string>
+    <string name="pref_appearance_title_change_theme">Tukar tema</string>
+    <string name="pref_appearance_theme_light">Cahaya</string>
+    <string name="pref_appearance_theme_dark">Gelap</string>
     <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
     <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
