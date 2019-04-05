@@ -2,103 +2,103 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">Kata Laluan saya</string>
+    <string name="app_description">Pengurus kata laluan yang selamat dan mudah untuk digunakan untuk peranti Android</string>
+    <string name="app_download_message">Dapatkan sekarang secara percuma dari gedung Google Play</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="current_location_folder">Lokasi</string>
+    <string name="password_is_too_short">Kata laluan terlalu pendek</string>
+    <string name="passwords_not_matching">Kata laluan tidak sepadan</string>
+    <string name="password_not_correct">Kata laluan tidak betul</string>
+    <string name="password_not_only_numbers">Kata laluan mengandungi nombor bukan sahaja</string>
+    <string name="password_strength_hint_very_weak">Sangat lemah!</string>
+    <string name="password_strength_hint_weak">Lemah!</string>
+    <string name="password_strength_hint_good">Baik!</string>
+    <string name="password_strength_hint_strong">Kuat!</string>
+    <string name="password_strength_hint_very_strong">Sangat kuat!</string>
+    <string name="required">Dikehendaki</string>
+    <string name="title">Tajuk</string>
+    <string name="account">Akaun</string>
+    <string name="password">Kata laluan</string>
+    <string name="username">Nama pengguna</string>
+    <string name="website">Laman web</string>
+    <string name="notes">Nota</string>
+    <string name="list_is_empty">Tiada penyertaan</string>
+    <string name="last_updated">Terkini diperbaharui</string>
+    <string name="copy">(salinan)</string>
+    <string name="new_field_hint">Nama</string>
+    <string name="add_new_label">Tambah label baru</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
+    <string name="button_register">DAFTAR</string>
+    <string name="button_enter">Masukkan</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_upgrade_now">MENAIKTARAF SEKARANG</string>
+    <string name="button_update">Kemas kini</string>
+    <string name="button_exit">Keluar</string>
+    <string name="button_sure">Pasti</string>
+    <string name="button_gotit">Saya faham</string>
+    <string name="button_labels">LABEL</string>
+    <string name="button_attach_image">melampirkan imej</string>
+    <string name="button_new_field">tambah medan</string>
+    <string name="button_delete_field">Padamkan medan</string>
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">Selamat datang ke Kata Laluan saya</string>
+    <string name="welcome_info_content">Sila daftar kata laluan utama untuk mula menggunakan aplikasi. Ambil perhatian bahawa jika kata laluan induk hilang data yang disimpan tidak dapat dipulihkan kerana pilihan penyegerakan yang hilang. Adalah sangat disyorkan bahawa anda membuat sandaran data anda secara berkala.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export &amp; import csv files</string>
-    <string name="upgrade_feature_2">Auto backup</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">Terima kasih kerana membeli versi PRO.</string>
+    <string name="upgrade_feature_1">Eksport dan; import fail csv</string>
+    <string name="upgrade_feature_2">Sandaran automatik</string>
+    <string name="upgrade_feature_3">Pemilihan tema</string>
+    <string name="upgrade_feature_4">Clipboard auto jelas</string>
+    <string name="upgrade_feature_5">Kemusnahan diri</string>
+    <string name="upgrade_feature_6">Masukkan menggunakan cap jari</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">Sejarah kata laluan</string>
+    <string name="upgrade_feature_9">Lampiran Imej</string>
+    <string name="upgrade_feature_10">Bidang-bidang khas</string>
+    <string name="upgrade_feature_11">Label tanpa had</string>
+    <string name="upgrade_with_single_purchase">Buka semua ciri tambahan dengan satu pembelian dalam aplikasinya.</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">kata laluan lama</string>
+    <string name="change_mp_new_master_password">kata laluan baharu</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">Carian</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_appearance">Rupa</string>
+    <string name="menu_database">Pangkalan data</string>
+    <string name="menu_security">Keselamatan</string>
+    <string name="menu_about">Mengenai</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>Ketuk sekali lagi untuk keluar
-    <string name="menu_copy_entry">Make a copy</string>
+    <string name="menu_upgrade">Naik taraf ke PRO</string>
+    <string name="menu_share">Kongsi</string>
+    <string name="menu_copy_entry">Buat salinan</string>
     <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_set_labels">Set labels</string>
-    <string name="menu_attach_image">Attach image</string>
-    <string name="menu_add_field">Add field</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_select_all">Select all</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_delete">Padam</string>
+    <string name="menu_save">JIMAT</string>
+    <string name="menu_set_labels">Tetapkan label</string>
+    <string name="menu_attach_image">melampirkan imej</string>
+    <string name="menu_add_field">Tambah medan</string>
+    <string name="menu_keyboard">Papan kekunci</string>
+    <string name="menu_add_to_watch">Tambah untuk menonton</string>
+    <string name="menu_clear_history">Jelas sejarah</string>
+    <string name="menu_select_all">Pilih semua</string>
+    <string name="menu_navigation_drawer_all_entries">Semua</string>
+    <string name="menu_navigation_drawer_edit_labels">Edit label</string>
     <!-- ################################################################################# -->
 
 
