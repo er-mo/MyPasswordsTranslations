@@ -249,7 +249,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_summary_biometric">Compatible device is required for using this feature. You can specify your preferred biometric in system settings</string>
     <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
     <string name="pref_security_summary_fingerprint">Compatible hardware is required for using this feature</string>
     <!-- about -->
