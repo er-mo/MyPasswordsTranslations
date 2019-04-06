@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
     <string name="app_name">Mijn wachtwoorden</string>
@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Biometrische authenticatie</string>
+    <string name="pref_security_summary_biometric">Compatibel apparaat is vereist voor het gebruik van deze functie. U kunt uw voorkeur biometrisch specificeren in systeeminstellingen.</string>
     <string name="pref_security_title_fingerprint">Toegang door vingerafdruk</string>
     <string name="pref_security_summary_fingerprint">Voor deze optie is Android 6.0 of hoger en compatible hardware nodig</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">BEVEILIGING</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>VINGERSCANNER</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Otentikasi biometrik</string>
+    <string name="pref_security_summary_biometric">Perangkat yang kompatibel diperlukan untuk menggunakan fitur ini. Anda dapat menentukan biometrik pilihan Anda dalam pengaturan sistem.</string>
     <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
     <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">KEAMANAN</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIK</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SIDIK JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

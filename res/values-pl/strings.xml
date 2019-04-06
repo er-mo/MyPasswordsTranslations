@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Uwierzytelnianie biometryczne</string>
+    <string name="pref_security_summary_biometric">Do korzystania z tej funkcji wymagane jest zgodne urządzenie. Możesz określić preferowany biometryczny w ustawieniach systemu.</string>
     <string name="pref_security_title_fingerprint">Loguj odciskiem palca</string>
     <string name="pref_security_summary_fingerprint">Do tego potrzebny jest Android 6.0 lub nowszy</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">BEZPIECZEŃSTWO</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

@@ -190,7 +190,7 @@
     <!-- Notifications ################################################################### -->
     <string name="notification_text_app_running">Permohonan sedang dijalankan</string>
     <!-- ################################################################################# -->
-By date
+
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
@@ -248,8 +248,8 @@ By date
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Pengesahan biometrik</string>
+    <string name="pref_security_summary_biometric">Peranti yang serasi diperlukan untuk menggunakan ciri ini. Anda boleh menentukan biometrik pilihan anda dalam tetapan sistem.</string>
     <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
     <string name="pref_security_summary_fingerprint">Android 6.0 or newer and compatible hardware is required for using this feature</string>
     <!-- about -->

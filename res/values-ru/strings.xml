@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10 раз</string>
     <string name="pref_security_self_destruct_fifteen">15 раз</string>
     <string name="pref_security_self_destruct_twenty">20 раз</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Биометрическая аутентификация</string>
+    <string name="pref_security_summary_biometric">Для использования этой функции требуется совместимое устройство. Вы можете указать предпочитаемую биометрию в настройках системы.</string>
     <string name="pref_security_title_fingerprint">\"Вход\" с помощью отпечатка пальца</string>
     <string name="pref_security_summary_fingerprint">Для использования этой функции требуется система Android 6.0 и выше</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">БЕЗОПАСНОСТЬ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>БУФЕР ОБМЕНА</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>САМОУНИЧТОЖЕНИЕ</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>БИОМЕТРИЧЕСКАЯ</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ОТПЕЧАТОК ПАЛЬЦА</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

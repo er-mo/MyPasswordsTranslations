@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">बॉयोमीट्रिक प्रमाणीकरण</string>
+    <string name="pref_security_summary_biometric">इस सुविधा का उपयोग करने के लिए संगत डिवाइस की आवश्यकता होती है। आप सिस्टम सेटिंग्स में अपना पसंदीदा बायोमेट्रिक निर्दिष्ट कर सकते हैं।</string>
     <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
     <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">सुरक्षा</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>बॉयोमीट्रिक्स</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>फिंगरप्रिंट</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

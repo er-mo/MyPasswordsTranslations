@@ -248,8 +248,8 @@
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Enter using preferred biometric</string>
-    <string name="pref_security_summary_biometric">Compatible hardware is required for using this feature. You can specify your preferred biometric in system settings</string>
+    <string name="pref_security_title_biometric">Biyometrik kimlik doğrulama</string>
+    <string name="pref_security_summary_biometric">Bu özelliği kullanmak için uyumlu bir cihaz gerekir. Tercih ettiğiniz biyometrik sistemi sistem ayarlarında belirleyebilirsiniz.</string>
     <string name="pref_security_title_fingerprint">Parmak izi ile giriş</string>
     <string name="pref_security_summary_fingerprint">Android sürümü 6.0 veya daha yüksek gereklidir bu özelliği kullanmak için</string>
     <!-- about -->
@@ -278,7 +278,7 @@
     <string name="pref_category_security">GÜVENLİK</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BİYOMETRİK</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PARMAK İZİ</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
