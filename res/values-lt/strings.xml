@@ -58,7 +58,7 @@
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export &amp; import csv files</string>
+    <string name="upgrade_feature_1">Export and import csv files</string>
     <string name="upgrade_feature_2">Auto backup</string>
     <string name="upgrade_feature_3">Theme selection</string>
     <string name="upgrade_feature_4">Clipboard auto clear</string>
@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Image attachments</string>
     <string name="upgrade_feature_10">Custom fields</string>
     <string name="upgrade_feature_11">Unlimited labels</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">old password</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">SECURITY</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
