@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Lampiran Imej</string>
     <string name="upgrade_feature_10">Bidang-bidang khas</string>
     <string name="upgrade_feature_11">Label tanpa had</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Buka semua ciri tambahan dengan satu pembelian dalam aplikasinya.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">kata laluan lama</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">KESELAMATAN</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PAPAN KLIP</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>HURAIAN SELF</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CAP JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

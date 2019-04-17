@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Beeld Bijlagen</string>
     <string name="upgrade_feature_10">Aangepaste velden</string>
     <string name="upgrade_feature_11">Onbeperkte labels</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">oude wachtwoord</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">BEVEILIGING</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRICS</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>VINGERSCANNER</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

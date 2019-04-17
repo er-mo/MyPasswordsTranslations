@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Pièces jointes d\'image</string>
     <string name="upgrade_feature_10">Les champs personnalisés</string>
     <string name="upgrade_feature_11">Étiquettes illimitées</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Débloquer tous les autres fonctionnalités avec un seul achat in-app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">vieux mot de passe</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">SÉCURITÉ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUCTION</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIQUE</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIQUE</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>EMPREINTE DIGITALE</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

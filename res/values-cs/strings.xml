@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Přílohy obrázků</string>
     <string name="upgrade_feature_10">Vlastní pole</string>
     <string name="upgrade_feature_11">Neomezené štítky</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Odemkněte všechny další funkce pomocí jednoho nákupu v aplikaci.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">ZABEZPEČENÍ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHRÁNKA</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SEBEDESTRUKCE</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIKA</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIKA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>OTISK PRSTU</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

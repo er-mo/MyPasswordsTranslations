@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Resim ekleri</string>
     <string name="upgrade_feature_10">Özel Alanlar</string>
     <string name="upgrade_feature_11">Sınırsız etiketler</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Tek bir uygulama içi satın alma ile tüm ek özelliklerin kilidini açın.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">eski şifre</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">GÜVENLİK</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BİYOMETRİK</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BİYOMETRİK</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PARMAK İZİ</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

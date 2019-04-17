@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Załączniki</string>
     <string name="upgrade_feature_10">Custom fields</string>
     <string name="upgrade_feature_11">Nieograniczone etykiety</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Odblokuj wszystkie dodatkowe funkcje jednym zamówieniem.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">stare hasło główne</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">BEZPIECZEŃSTWO</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIA</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Adjuntar imágenes</string>
     <string name="upgrade_feature_10">Campos Personalizados</string>
     <string name="upgrade_feature_11">Etiquetas ilimitadas</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Desbloquea todas las características adicionales con una única compra en la aplicación.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">contraseña antigua</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">SEGURIDAD</string>
     <string name="pref_category_clipboard">PORTAPAPELES <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_self_destruct">AUTODESTRUCCIÓN <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMÉTRICA</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMÉTRICA</string>
     <string name="pref_category_fingerprint">HUELLA DACTILAR <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

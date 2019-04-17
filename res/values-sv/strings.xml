@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">Bildbilagor</string>
     <string name="upgrade_feature_10">Anpassade fält</string>
     <string name="upgrade_feature_11">Obegränsade etiketter</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">Lås upp alla ytterligare funktioner med ett enda inköp i app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">SÄKERHET</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SKRIVPLATTA </string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SJÄLVFÖRSTÖRELSE</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRISK</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRISK</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERAVTRYCK</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

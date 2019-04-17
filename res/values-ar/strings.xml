@@ -69,6 +69,7 @@
     <string name="upgrade_feature_9">مرفقات الصور</string>
     <string name="upgrade_feature_10">الحقول المخصصة</string>
     <string name="upgrade_feature_11">تسميات غير محدودة</string>
+    <string name="upgrade_feature_12">Biometric authentication</string>
     <string name="upgrade_with_single_purchase">ألغِ تأمين جميع الميزات الإضافية من خلال عملية شراء واحدة داخل التطبيق.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">كلمة المرور القديمة</string>
@@ -278,7 +279,7 @@
     <string name="pref_category_security">الأمان</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>الحافظة</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>التدمير الذاتي</string>
-    <string name="pref_category_biometrics"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>بصمات</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>بصمات</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>بصمة</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
