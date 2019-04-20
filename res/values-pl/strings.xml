@@ -279,7 +279,7 @@
     <string name="pref_category_security">BEZPIECZEŃSTWO</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMETRIA</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

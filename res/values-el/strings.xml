@@ -98,7 +98,7 @@
     <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
     <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>
     <string name="menu_select_all">Επιλογή όλων</string>
-    <string name="menu_navigation_drawer_all_entries">Ολα</string>
+    <string name="menu_navigation_drawer_all_entries">Όλα</string>
     <string name="menu_navigation_drawer_edit_labels">Επεξεργασία ετικετών</string>
     <!-- ################################################################################# -->
 
@@ -158,7 +158,7 @@
     <string name="dialog_title_history">Ιστορικό</string>
     <string name="dialog_title_attach_another_image">Επισύναψη επόμενης εικόνας;</string>
     <string name="dialog_title_new_field">Νέο πεδίο</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_set_labels">Ορισμός ετικετών</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
@@ -279,7 +279,7 @@
     <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>ΒΙΟΜΕΤΡΙΚA</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΒΙΟΜΕΤΡΙΚA</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΔΑΚΤΥΛΙΚΟ ΑΠΟΤΥΠΩΜΑ</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->

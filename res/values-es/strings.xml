@@ -158,7 +158,7 @@
     <string name="dialog_title_history">Historia</string>
     <string name="dialog_title_attach_another_image">¿Adjuntar otra imagen?</string>
     <string name="dialog_title_new_field">Nuevo campo</string>
-    <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_set_labels">Establecer etiquetas</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
@@ -272,15 +272,15 @@
 
     <!-- Preference Categories ########################################################### -->
     <string name="pref_category_appearance">APARIENCIA</string>
-    <string name="pref_category_theme">TEMA <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">BASE DE DATOS</string>
-    <string name="pref_category_auto_backup">RESPALDO AUTOMÁTICO <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
-    <string name="pref_category_csv">CSV <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>RESPALDO AUTOMÁTICO</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SEGURIDAD</string>
-    <string name="pref_category_clipboard">PORTAPAPELES <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
-    <string name="pref_category_self_destruct">AUTODESTRUCCIÓN <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>BIOMÉTRICA</string>
-    <string name="pref_category_fingerprint">HUELLA DACTILAR <xliff:g id="PRO">[PRO]\u0020</xliff:g></string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PORTAPAPELES</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUCCIÓN</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMÉTRICA</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>HUELLA DACTILAR</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 

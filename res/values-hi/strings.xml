@@ -279,7 +279,7 @@
     <string name="pref_category_security">सुरक्षा</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\\u0020</xliff:g>बॉयोमीट्रिक्स</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>बॉयोमीट्रिक्स</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>फिंगरप्रिंट</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
