@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">छवि संलग्नक</string>
     <string name="upgrade_feature_10">कस्टम फील्ड्स</string>
     <string name="upgrade_feature_11">असीमित लेबल</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">बॉयोमीट्रिक प्रमाणीकरण</string>
     <string name="upgrade_with_single_purchase">एकल इन-ऐप खरीदारी के साथ सभी अतिरिक्त सुविधाएँ अनलॉक करें</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">पुराने कोड</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">बॉयोमीट्रिक प्रमाणीकरण</string>
-    <string name="pref_security_summary_biometric">इस सुविधा का उपयोग करने के लिए संगत डिवाइस की आवश्यकता होती है। आप सिस्टम सेटिंग्स में अपना पसंदीदा बायोमेट्रिक निर्दिष्ट कर सकते हैं।</string>
+    <string name="pref_security_summary_biometric">इस सुविधा का उपयोग करने के लिए संगत डिवाइस की आवश्यकता होती है। आप सिस्टम सेटिंग्स (फिंगरप्रिंट, फेस डिटेक्शन आदि) में अपना पसंदीदा बायोमेट्रिक निर्दिष्ट कर सकते हैं</string>
     <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
     <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
     <!-- about -->

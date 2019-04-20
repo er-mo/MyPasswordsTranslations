@@ -58,18 +58,18 @@
     <string name="welcome_info_content">Пожалуйста, обратите внимание, что, если \"Мастер-пароль\" утерян, сохраненные данные могут быть восстановлен из резервной копии. Настоятельно рекомендуется сделать резервную копию Ваших данных на постоянной основе.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Спасибо за покупку PRO версии!</string>
-    <string name="upgrade_feature_1">Функция импорта и экспорта в файл, формата CSV</string>
-    <string name="upgrade_feature_2">Функция автоматического резервного копирования</string>
-    <string name="upgrade_feature_3">Функция настройки оформления</string>
-    <string name="upgrade_feature_4">Функция настройки буфера обмена</string>
-    <string name="upgrade_feature_5">Функция автоматического удаления данных</string>
-    <string name="upgrade_feature_6">Функция настройки отпечатка пальца</string>
-    <string name="upgrade_feature_7">Функция настройки для часов</string>
+    <string name="upgrade_feature_1">Экспорт и импорт CSV-файлов</string>
+    <string name="upgrade_feature_2">Автоматическое резервное копирование</string>
+    <string name="upgrade_feature_3">Выбор темы</string>
+    <string name="upgrade_feature_4">Очистка буфера обмена</string>
+    <string name="upgrade_feature_5">Самоуничтожение</string>
+    <string name="upgrade_feature_6">Введите, используя отпечаток пальца</string>
+    <string name="upgrade_feature_7">Wear OS приложение</string>
     <string name="upgrade_feature_8">История паролей</string>
     <string name="upgrade_feature_9">Вложения изображений</string>
     <string name="upgrade_feature_10">Настраиваемые поля</string>
     <string name="upgrade_feature_11">Неограниченное количество ярлыков</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Биометрическая аутентификация</string>
     <string name="upgrade_with_single_purchase">Разблокируйте все дополнительные функции с помощью одной покупки в приложении.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">старый мастер-пароль</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15 раз</string>
     <string name="pref_security_self_destruct_twenty">20 раз</string>
     <string name="pref_security_title_biometric">Биометрическая аутентификация</string>
-    <string name="pref_security_summary_biometric">Для использования этой функции требуется совместимое устройство. Вы можете указать предпочитаемую биометрию в настройках системы.</string>
+    <string name="pref_security_summary_biometric">Для использования этой функции требуется совместимое устройство. Вы можете указать предпочитаемую биометрию в настройках системы (отпечатки пальцев, распознавание лиц и т. Д.)</string>
     <string name="pref_security_title_fingerprint">\"Вход\" с помощью отпечатка пальца</string>
     <string name="pref_security_summary_fingerprint">Для использования этой функции требуется система Android 6.0 и выше</string>
     <!-- about -->

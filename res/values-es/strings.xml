@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Adjuntar imágenes</string>
     <string name="upgrade_feature_10">Campos Personalizados</string>
     <string name="upgrade_feature_11">Etiquetas ilimitadas</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Autenticación biométrica</string>
     <string name="upgrade_with_single_purchase">Desbloquea todas las características adicionales con una única compra en la aplicación.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">contraseña antigua</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Autenticación biométrica</string>
-    <string name="pref_security_summary_biometric">Se requiere un dispositivo compatible para usar esta función. Puede especificar su biométrico preferido en la configuración del sistema.</string>
+    <string name="pref_security_summary_biometric">Se requiere un dispositivo compatible para usar esta función. Puede especificar su biométrico preferido en la configuración del sistema (huella digital, detección de rostros, etc.)</string>
     <string name="pref_security_title_fingerprint">Entrar usando la huella dactilar</string>
     <string name="pref_security_summary_fingerprint">Se requiere Android 6.0 o superior y hardware compatible para usar esta función</string>
     <!-- about -->

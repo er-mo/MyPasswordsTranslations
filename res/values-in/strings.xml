@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Lampiran gambar</string>
     <string name="upgrade_feature_10">Disesuaikan bidang</string>
     <string name="upgrade_feature_11">Tidak terbatas label</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Otentikasi biometrik</string>
     <string name="upgrade_with_single_purchase">Buka kunci semua fitur tambahan dengan satu pembelian dalam aplikasi.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">password lama</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Otentikasi biometrik</string>
-    <string name="pref_security_summary_biometric">Perangkat yang kompatibel diperlukan untuk menggunakan fitur ini. Anda dapat menentukan biometrik pilihan Anda dalam pengaturan sistem.</string>
+    <string name="pref_security_summary_biometric">Perangkat yang kompatibel diperlukan untuk menggunakan fitur ini. Anda dapat menentukan biometrik pilihan Anda dalam pengaturan sistem (sidik jari, deteksi wajah dll.)</string>
     <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
     <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
     <!-- about -->

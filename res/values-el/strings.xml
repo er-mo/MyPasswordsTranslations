@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Επισύναψη εικόνων</string>
     <string name="upgrade_feature_10">Προσαρμοσμένα πεδία</string>
     <string name="upgrade_feature_11">Απεριόριστες ετικέτες</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Βιομετρική αυθεντικοποίηση</string>
     <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μία μόνο αγορά εντός της εφαρμογής.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Βιομετρική αυθεντικοποίηση</string>
-    <string name="pref_security_summary_biometric">Απαιτείται συμβατή συσκευή για τη χρήση αυτής της λειτουργίας. Μπορείτε να καθορίσετε τον προτιμώμενο βιομετρικό έλεγχο στις ρυθμίσεις συστήματος.</string>
+    <string name="pref_security_summary_biometric">Απαιτείται συμβατή συσκευή για τη χρήση αυτής της λειτουργίας. Μπορείτε να καθορίσετε τον προτιμώμενο βιομετρικό έλεγχο στις ρυθμίσεις συστήματος (δακτυλικό αποτύπωμα, ανίχνευση προσώπου κ.λπ.)</string>
     <string name="pref_security_title_fingerprint">Είσοδος με δακτυλικό αποτύπωμα</string>
     <string name="pref_security_summary_fingerprint">Απαιτείται έκδοση Android 6.0 ή νεότερη για τη χρήση αυτής της δυνατότητας</string>
     <!-- about -->

@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Beeld Bijlagen</string>
     <string name="upgrade_feature_10">Aangepaste velden</string>
     <string name="upgrade_feature_11">Onbeperkte labels</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Biometrische authenticatie</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">oude wachtwoord</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Biometrische authenticatie</string>
-    <string name="pref_security_summary_biometric">Compatibel apparaat is vereist voor het gebruik van deze functie. U kunt uw voorkeur biometrisch specificeren in systeeminstellingen.</string>
+    <string name="pref_security_summary_biometric">Compatibel apparaat is vereist voor het gebruik van deze functie. U kunt uw voorkeur biometrisch specificeren in systeeminstellingen (vingerafdruk, gezichtsherkenning etc.)</string>
     <string name="pref_security_title_fingerprint">Toegang door vingerafdruk</string>
     <string name="pref_security_summary_fingerprint">Voor deze optie is Android 6.0 of hoger en compatible hardware nodig</string>
     <!-- about -->

@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Lampiran Imej</string>
     <string name="upgrade_feature_10">Bidang-bidang khas</string>
     <string name="upgrade_feature_11">Label tanpa had</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Pengesahan biometrik</string>
     <string name="upgrade_with_single_purchase">Buka semua ciri tambahan dengan satu pembelian dalam aplikasinya.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">kata laluan lama</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Pengesahan biometrik</string>
-    <string name="pref_security_summary_biometric">Peranti yang serasi diperlukan untuk menggunakan ciri ini. Anda boleh menentukan biometrik pilihan anda dalam tetapan sistem.</string>
+    <string name="pref_security_summary_biometric">Peranti yang serasi diperlukan untuk menggunakan ciri ini. Anda boleh menentukan biometrik pilihan anda dalam tetapan sistem (cap jari, pengesanan wajah dan lain-lain)</string>
     <string name="pref_security_title_fingerprint">Masukkan menggunakan cap jari</string>
     <string name="pref_security_summary_fingerprint">Perisian Android 6.0 atau lebih baru dan serasi diperlukan untuk menggunakan ciri ini</string>
     <!-- about -->

@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">مرفقات الصور</string>
     <string name="upgrade_feature_10">الحقول المخصصة</string>
     <string name="upgrade_feature_11">تسميات غير محدودة</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">المصادقة البيومترية</string>
     <string name="upgrade_with_single_purchase">ألغِ تأمين جميع الميزات الإضافية من خلال عملية شراء واحدة داخل التطبيق.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">كلمة المرور القديمة</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">١٥</string>
     <string name="pref_security_self_destruct_twenty">٢٠</string>
     <string name="pref_security_title_biometric">المصادقة البيومترية</string>
-    <string name="pref_security_summary_biometric">مطلوب جهاز متوافق لاستخدام هذه الميزة. يمكنك تحديد البيومترية المفضلة لديك في إعدادات النظام.</string>
+    <string name="pref_security_summary_biometric">مطلوب جهاز متوافق لاستخدام هذه الميزة. يمكنك تحديد البيومترية المفضلة لديك في إعدادات النظام (بصمة ، اكتشاف الوجه ، إلخ.)</string>
     <string name="pref_security_title_fingerprint">أدخل باستخدام بصمة</string>
     <string name="pref_security_summary_fingerprint">يلزم توفر الإصدار 6.0 من نظام التشغيل Android والإصدارات الأحدث والأجهزة المتوافقة لاستخدام هذه الميزة</string>
     <!-- about -->

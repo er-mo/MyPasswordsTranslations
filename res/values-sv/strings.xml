@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Bildbilagor</string>
     <string name="upgrade_feature_10">Anpassade fält</string>
     <string name="upgrade_feature_11">Obegränsade etiketter</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Biometrisk autentisering</string>
     <string name="upgrade_with_single_purchase">Lås upp alla ytterligare funktioner med ett enda inköp i app.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Biometrisk autentisering</string>
-    <string name="pref_security_summary_biometric">Kompatibel enhet krävs för att använda den här funktionen. Du kan ange dina önskade biometriska systeminställningar.</string>
+    <string name="pref_security_summary_biometric">Kompatibel enhet krävs för att använda den här funktionen. Du kan ange dina önskade biometriska systeminställningar (fingeravtryck, ansiktsigenkänning etc.)</string>
     <string name="pref_security_title_fingerprint">Ange med fingeravtryck</string>
     <string name="pref_security_summary_fingerprint">Du behöver Android 6.0 eller senare för att använda den här funktionen</string>
     <!-- about -->

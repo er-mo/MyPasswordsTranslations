@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">圖像附件</string>
     <string name="upgrade_feature_10">自定義字段</string>
     <string name="upgrade_feature_11">無限標籤</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">生物認證</string>
     <string name="upgrade_with_single_purchase">通過單次應用內購買解鎖所有附加功能。</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">舊主密碼</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">生物認證</string>
-    <string name="pref_security_summary_biometric">使用此功能需要兼容設備。 您可以在系統設置中指定首選生物識別。</string>
+    <string name="pref_security_summary_biometric">使用此功能需要兼容設備。 您可以在系統設置中指定首選生物識別（指紋，面部檢測等）</string>
     <string name="pref_security_title_fingerprint">使用指紋輸入</string>
     <string name="pref_security_summary_fingerprint">使用此功能需要Android 6.0或更高版本</string>
     <!-- about -->

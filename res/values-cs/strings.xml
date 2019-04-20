@@ -69,7 +69,7 @@
     <string name="upgrade_feature_9">Přílohy obrázků</string>
     <string name="upgrade_feature_10">Vlastní pole</string>
     <string name="upgrade_feature_11">Neomezené štítky</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
+    <string name="upgrade_feature_12">Biometrické ověřování</string>
     <string name="upgrade_with_single_purchase">Odemkněte všechny další funkce pomocí jednoho nákupu v aplikaci.</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">staré heslo</string>
@@ -250,7 +250,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">Biometrické ověřování</string>
-    <string name="pref_security_summary_biometric">Pro použití této funkce je vyžadováno kompatibilní zařízení. V systémovém nastavení můžete zadat preferovanou biometrii.</string>
+    <string name="pref_security_summary_biometric">Pro použití této funkce je vyžadováno kompatibilní zařízení. V systémovém nastavení můžete zadat preferovanou biometrii (otisk prstu, detekce obličeje atd.)</string>
     <string name="pref_security_title_fingerprint">Vstup pomocí otisku prstu</string>
     <string name="pref_security_summary_fingerprint">Je vyžadován Android 6.0 nebo novější a kompatibilní hardware pro používání této funkce.</string>
     <!-- about -->
