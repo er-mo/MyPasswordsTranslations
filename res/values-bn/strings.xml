@@ -195,97 +195,97 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_title_sort_entries">সাজানোর এন্ট্রি</string>
+    <string name="pref_appearance_sorting_choise_alpha">বর্ণানুক্রমে</string>
+    <string name="pref_appearance_sorting_choise_time">তারিখ অনুসারে</string>
+    <string name="pref_appearance_sorting_choise_color">রঙ দ্বারা</string>
+    <string name="pref_appearance_title_navibar_color">ন্যাভিগেশন বার রঙ</string>
+    <string name="pref_appearance_summary_navibar_color">প্রাথমিক গাঢ় রঙটি ন্যাভিগেশন বারেও প্রয়োগ করা হবে (Android 5.0 এবং নতুন)</string>
+    <string name="pref_appearance_title_show_notification">প্রজ্ঞাপন</string>
+    <string name="pref_appearance_summary_show_notification">অ্যাপ্লিকেশন আনলক এবং চলমান সনাক্ত করা সহজ</string>
+    <string name="pref_appearance_title_show_passwords">পাসওয়ার্ড দেখান</string>
+    <string name="pref_appearance_summary_show_passwords">আপনি চোখের আইকন টিপুন না</string>
+    <string name="pref_appearance_title_show_account">অ্যাকাউন্ট দেখান</string>
+    <string name="pref_appearance_summary_show_account">যদি পাওয়া যায় তবে প্রধান ক্ষেত্র ভিউতে অ্যাকাউন্ট ক্ষেত্র দেখানো হবে</string>
+    <string name="pref_appearance_title_stay_awake">জেগে থাক</string>
+    <string name="pref_appearance_summary_stay_awake">এন্ট্রি দেখতে বা সম্পাদনা করার সময় স্ক্রীন কখনই ঘুমাবে না</string>
+    <string name="pref_appearance_title_change_theme">থিম পরিবর্তন করো</string>
+    <string name="pref_appearance_theme_light">আলো</string>
+    <string name="pref_appearance_theme_dark">অন্ধকার</string>
+    <string name="pref_appearance_theme_blue_gray">নীল ধূসর</string>
+    <string name="pref_appearance_theme_purple">রক্তবর্ণ</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup_share">ডাটাবেস শেয়ার করুন</string>
+    <string name="pref_database_summary_backup_share">এনক্রিপ্টেড ডাটাবেসের ব্যাকআপ তৈরি করুন এবং ভাগ করুন</string>
+    <string name="pref_database_title_backup">ব্যাকআপ ডাটাবেস</string>
+    <string name="pref_database_summary_backup">Android স্টোরেজ অ্যাক্সেস ফ্রেমওয়ার্ক ব্যবহার করে এনক্রিপ্ট হওয়া ডাটাবেসের ব্যাকআপ তৈরি করুন</string>
+    <string name="pref_database_title_restore">ডাটাবেস পুনরুদ্ধার করুন</string>
+    <string name="pref_database_summary_restore">একটি এনক্রিপ্ট ডাটাবেসের একটি ব্যাকআপ পুনরুদ্ধার</string>
+    <string name="pref_database_title_gd_auto_backup">গুগল ড্রাইভ ব্যাকআপ</string>
+    <string name="pref_database_summary_gd_auto_backup">আপনার ব্যক্তিগত Google ড্রাইভ অ্যাকাউন্টে স্বয়ংক্রিয় ব্যাকআপ তৈরি করুন</string>
+    <string name="pref_database_title_sd_auto_backup">বাহ্যিক সংগ্রহস্থল ব্যাকআপ</string>
+    <string name="pref_database_summary_sd_auto_backup">আপনার বহিরাগত স্টোরেজ (sd বা অভ্যন্তরীণ নন-অপসারণযোগ্য সঞ্চয়স্থান) -এ স্বয়ংক্রিয় ব্যাকআপ তৈরি করুন। আপনি একটি তৃতীয় পক্ষের ফাইল ম্যানেজার অ্যাপ্লিকেশন ব্যবহার করে বহিরাগত স্টোরেজ অ্যাক্সেস করতে পারেন</string>
+    <string name="pref_database_title_export">CSV ফাইল রপ্তানি করুন</string>
+    <string name="pref_database_summary_export">একটি অ এনক্রিপ্ট করা সিএসভি ফাইল এন্ট্রি এক্সপোর্ট করুন</string>
+    <string name="pref_database_title_import">সিএসভি ফাইল আমদানি করুন</string>
+    <string name="pref_database_summary_import">একটি অ এনক্রিপ্ট csv ফাইল থেকে এন্ট্রি আমদানি করুন</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biometric authentication</string>
-    <string name="pref_security_summary_biometric">Compatible device is required for using this feature. You can specify your preferred biometric in system settings (fingerprint, face detection etc.)</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_change_password">মাস্টার পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="pref_security_title_fast_enter">দ্রুত প্রবেশ করুন</string>
+    <string name="pref_security_summary_fast_enter">মাস্টার পাসওয়ার্ডটি সঠিক হলে এন্টার বোতামটিতে ট্যাপ না করে অ্যাপ্লিকেশনটিতে প্রবেশ করা দ্রুত করে তোলে</string>
+    <string name="pref_security_title_auto_exit">অটো প্রস্থান</string>
+    <string name="pref_security_summary_auto_exit">পর্দা বন্ধ হলে অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে প্রস্থান হবে</string>
+    <string name="pref_security_title_clipboard_clear">ক্লিপবোর্ড সাফ করুন</string>
+    <string name="pref_security_clipboard_clear_never">না</string>
+    <string name="pref_security_clipboard_clear_one_min">১ মিনিট</string>
+    <string name="pref_security_clipboard_clear_two_min">২ মিনিট</string>
+    <string name="pref_security_clipboard_clear_three_min">৩ মিনিট</string>
+    <string name="pref_security_clipboard_clear_four_min">৪ মিনিট</string>
+    <string name="pref_security_clipboard_clear_five_min">৫ মিনিট</string>
+    <string name="pref_security_title_self_destruct">ব্যর্থ পাসওয়ার্ড প্রচেষ্টা</string>
+    <string name="pref_security_self_destruct_unlimited">সীমাহীন</string>
+    <string name="pref_security_self_destruct_three">৩</string>
+    <string name="pref_security_self_destruct_five">৫</string>
+    <string name="pref_security_self_destruct_ten">১০</string>
+    <string name="pref_security_self_destruct_fifteen">১৫</string>
+    <string name="pref_security_self_destruct_twenty">২০</string>
+    <string name="pref_security_title_biometric">বায়োমেট্রিক প্রমাণীকরণ</string>
+    <string name="pref_security_summary_biometric">সামঞ্জস্যপূর্ণ ডিভাইস এই বৈশিষ্ট্য ব্যবহার করার জন্য প্রয়োজন বোধ করা হয়। আপনি সিস্টেম সেটিংসে আপনার পছন্দসই বায়োমেট্রিক নির্দিষ্ট করতে পারেন (আঙ্গুলের ছাপ, মুখ সনাক্তকরণ ইত্যাদি)</string>
+    <string name="pref_security_title_fingerprint">আঙ্গুলের ছাপ লিখুন</string>
+    <string name="pref_security_summary_fingerprint">সামঞ্জস্যপূর্ণ হার্ডওয়্যার এই বৈশিষ্ট্য ব্যবহার করার জন্য প্রয়োজন বোধ করা হয়</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">একটি বাগ রিপোর্ট করুন</string>
+    <string name="pref_about_title_support">গুণমান বিচার ও পর্যালোচনা</string>
+    <string name="pref_about_title_more_apps">আরো অ্যাপ্লিকেশান</string>
+    <string name="pref_about_title_share">আপনার বন্ধুদের বলুন</string>
+    <string name="pref_about_title_translations">অনুবাদ</string>
+    <string name="pref_about_title_terms">শর্তাবলী এবং গোপনীয়তা নীতি</string>
+    <string name="pref_about_title_licenses">ওপেন সোর্স লাইসেন্স</string>
+    <string name="pref_about_title_build_version">সংস্করণ তৈরি করুন</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_title_password_enabled">পাসওয়ার্ড পরেন</string>
+    <string name="pref_wear_os_summary_password_enabled">একটি পাসওয়ার্ড ব্যবহার করে আপনার ঘড়ি অ্যাক্সেস সীমাবদ্ধ করুন</string>
+    <string name="pref_wear_os_title_add_to_watch">ঘড়ি যোগ করুন</string>
+    <string name="pref_wear_os_summary_add_to_watch">নতুন এন্ট্রি সবসময় ঘড়ি যোগ করা হবে</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_appearance">চেহারা</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>থিম</string>
+    <string name="pref_category_database">ডেটাবেস</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>স্বয়ংক্রিয় ব্যাকআপ</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">নিরাপত্তা</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ক্লিপবোর্ড</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>স্ব ধ্বংস</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>বায়োমেট্রিক্স</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>অঙ্গুলাঙ্ক</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">আপনার ফোনে একটি এন্ট্রি খুলুন এবং এখানে যোগ করার জন্য ঘড়ির আইকন টিপুন</string>
 
 </resources>
