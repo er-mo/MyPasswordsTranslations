@@ -149,6 +149,9 @@
     <string name="dialog_button_delete">Wis</string>
     <string name="dialog_button_discard">Afdanken</string>
     <string name="dialog_button_remove">Verwijder</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_never">Never</string>
     <string name="dialog_title_restore_backup">Backup terugzetten?</string>
     <string name="dialog_title_import_csv">csv importeren?</string>
     <string name="dialog_title_change_master_password">Hoofdwachtwoord veranderen?</string>
@@ -159,6 +162,7 @@
     <string name="dialog_title_attach_another_image">Een andere afbeelding bijvoegen?</string>
     <string name="dialog_title_new_field">Nieuw veld</string>
     <string name="dialog_title_set_labels">Labels instellen</string>
+    <string name="dialog_title_rating">Rate this app</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
@@ -184,6 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
     <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
     <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

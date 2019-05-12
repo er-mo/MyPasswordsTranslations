@@ -149,6 +149,9 @@
     <string name="dialog_button_delete">मैं हटाता हूं</string>
     <string name="dialog_button_discard">मैं अस्वीकार करता हूं</string>
     <string name="dialog_button_remove">हटाना</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_never">Never</string>
     <string name="dialog_title_restore_backup">बैकअप बहाल?</string>
     <string name="dialog_title_import_csv">सीएसवी आयात करें?</string>
     <string name="dialog_title_change_master_password">मास्टर पासवर्ड बदलें?</string>
@@ -159,6 +162,7 @@
     <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
     <string name="dialog_title_new_field">नया क्षेत्र</string>
     <string name="dialog_title_set_labels">लेबल सेट करें</string>
+    <string name="dialog_title_rating">Rate this app</string>
     <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
     <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
     <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
@@ -184,6 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
     <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
     <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

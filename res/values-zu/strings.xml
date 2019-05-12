@@ -149,6 +149,9 @@
     <string name="dialog_button_delete">Delete</string>
     <string name="dialog_button_discard">Discard</string>
     <string name="dialog_button_remove">Remove</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_never">Never</string>
     <string name="dialog_title_restore_backup">Restore backup?</string>
     <string name="dialog_title_import_csv">Import csv?</string>
     <string name="dialog_title_change_master_password">Change master password?</string>
@@ -159,6 +162,7 @@
     <string name="dialog_title_attach_another_image">Attach another image?</string>
     <string name="dialog_title_new_field">New field</string>
     <string name="dialog_title_set_labels">Set labels</string>
+    <string name="dialog_title_rating">Rate this app</string>
     <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
     <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
@@ -184,6 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

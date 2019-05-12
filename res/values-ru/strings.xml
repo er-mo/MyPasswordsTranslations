@@ -149,6 +149,9 @@
     <string name="dialog_button_delete">Удалить</string>
     <string name="dialog_button_discard">отбрасывать</string>
     <string name="dialog_button_remove">Удалить</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_never">Never</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
@@ -159,6 +162,7 @@
     <string name="dialog_title_attach_another_image">Прикрепить другое изображение?</string>
     <string name="dialog_title_new_field">Новое поле</string>
     <string name="dialog_title_set_labels">Установить метки</string>
+    <string name="dialog_title_rating">Rate this app</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
@@ -184,6 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
     <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

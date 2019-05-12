@@ -37,7 +37,7 @@
     <!-- Buttons ######################################################################### -->
     <string name="button_register">DAFTAR</string>
     <string name="button_enter">MEMASUKKAN</string>
-    <string name="button_faq">Pertanyaan yang Sering Diajukan</string>
+    <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">DIPERBARUI SEKARANG</string>
     <string name="button_update">MEMPERBARUI</string>
     <string name="button_exit">KELUAR</string>
@@ -149,6 +149,9 @@
     <string name="dialog_button_delete">Menghapus</string>
     <string name="dialog_button_discard">Penolakan</string>
     <string name="dialog_button_remove">Penghapusan</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_never">Never</string>
     <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
     <string name="dialog_title_import_csv">Impor csv?</string>
     <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
@@ -159,6 +162,7 @@
     <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
     <string name="dialog_title_new_field">Bidang baru</string>
     <string name="dialog_title_set_labels">Tetapkan label</string>
+    <string name="dialog_title_rating">Rate this app</string>
     <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
     <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
     <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
@@ -184,6 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
     <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
     <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
