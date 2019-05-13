@@ -2,78 +2,78 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_name">내 암호</string>
+    <string name="app_description">안전하고 사용하기 쉬운 Android 기기 용 비밀번호 관리자</string>
+    <string name="app_download_message">Google Play 스토어에서 지금 무료로 사용해보세요.</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="current_location_folder">위치</string>
+    <string name="password_is_too_short">비밀번호가 너무 짧습니다</string>
+    <string name="passwords_not_matching">암호가 일치하지 않습니다.</string>
+    <string name="password_not_correct">암호가 잘못되었습니다.</string>
+    <string name="password_not_only_numbers">비밀번호는 숫자뿐만 아니라</string>
+    <string name="password_strength_hint_very_weak">매우 약한!</string>
+    <string name="password_strength_hint_weak">약한!</string>
+    <string name="password_strength_hint_good">좋은!</string>
+    <string name="password_strength_hint_strong">강한!</string>
+    <string name="password_strength_hint_very_strong">매우 강한!</string>
+    <string name="required">필수</string>
+    <string name="title">제목</string>
+    <string name="account">계정</string>
+    <string name="password">암호</string>
+    <string name="username">사용자 이름</string>
+    <string name="website">웹 사이트</string>
+    <string name="notes">노트</string>
+    <string name="list_is_empty">항목이 없습니다.</string>
+    <string name="last_updated">마지막 업데이트</string>
+    <string name="copy">(사본)</string>
+    <string name="new_field_hint">이름</string>
+    <string name="add_new_label">새 레이블 추가</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
+    <string name="button_register">레지스터</string>
+    <string name="button_enter">들어가다</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_upgrade_now">지금 업그레이드하십시오.</string>
+    <string name="button_update">현대화</string>
+    <string name="button_exit">출구</string>
+    <string name="button_sure">확실한</string>
+    <string name="button_gotit">알았다</string>
+    <string name="button_labels">레이블</string>
+    <string name="button_attach_image">이미지 첨부</string>
+    <string name="button_new_field">입력란 추가</string>
+    <string name="button_delete_field">입력란 삭제</string>
+    <string name="navigation_drawer_open">탐색 창 열기</string>
+    <string name="navigation_drawer_close">탐색 창 닫기</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">내 암호에 오신 것을 환영합니다.</string>
+    <string name="welcome_info_content">응용 프로그램 사용을 시작하려면 마스터 암호를 등록하십시오. 마스터 비밀번호를 잃어버린 경우 동기화 옵션이 없기 때문에 저장된 데이터를 복구 할 수 없습니다. 정기적으로 데이터를 백업하는 것이 좋습니다.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export and import csv files</string>
-    <string name="upgrade_feature_2">Auto backup</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">PRO 버전을 구입해 주셔서 감사합니다.</string>
+    <string name="upgrade_feature_1">CSV 파일 내보내기 및 가져 오기</string>
+    <string name="upgrade_feature_2">자동 백업</string>
+    <string name="upgrade_feature_3">테마 선택</string>
+    <string name="upgrade_feature_4">클립 보드 자동 지우기</string>
+    <string name="upgrade_feature_5">자기 파괴</string>
+    <string name="upgrade_feature_6">지문을 사용하여 입력</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">비밀번호 기록</string>
+    <string name="upgrade_feature_9">이미지 첨부</string>
+    <string name="upgrade_feature_10">사용자 정의 필드</string>
+    <string name="upgrade_feature_11">무제한 라벨</string>
+    <string name="upgrade_feature_12">생체 인증</string>
+    <string name="upgrade_with_single_purchase">단일 인앱 구매로 모든 추가 기능의 잠금을 해제하십시오.</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">기존 비밀번호</string>
+    <string name="change_mp_new_master_password">새 비밀번호</string>
     <!-- ################################################################################# -->
 
 
