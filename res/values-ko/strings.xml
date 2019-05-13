@@ -200,97 +200,97 @@
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sort entries</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
-    <string name="pref_appearance_sorting_choise_time">By date</string>
-    <string name="pref_appearance_sorting_choise_color">By color</string>
-    <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
-    <string name="pref_appearance_title_show_notification">Notification</string>
-    <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
-    <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
-    <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_title_sort_entries">항목 정렬</string>
+    <string name="pref_appearance_sorting_choise_alpha">알파벳순</string>
+    <string name="pref_appearance_sorting_choise_time">날짜별로</string>
+    <string name="pref_appearance_sorting_choise_color">색상 별</string>
+    <string name="pref_appearance_title_navibar_color">탐색 막대 색상</string>
+    <string name="pref_appearance_summary_navibar_color">기본 어두운 색상이 탐색 표시 줄에도 적용됩니다 (Android 5.0 이상).</string>
+    <string name="pref_appearance_title_show_notification">알림</string>
+    <string name="pref_appearance_summary_show_notification">응용 프로그램의 잠금 해제 및 작동 여부를 쉽게 알 수 있습니다.</string>
+    <string name="pref_appearance_title_show_passwords">암호 표시</string>
+    <string name="pref_appearance_summary_show_passwords">눈 아이콘을 누르지 않아도됩니다.</string>
+    <string name="pref_appearance_title_show_account">계정 표시</string>
+    <string name="pref_appearance_summary_show_account">가능한 경우 메인 입력란에 계정 입력란이 표시됩니다.</string>
+    <string name="pref_appearance_title_stay_awake">깨어있어 라.</string>
+    <string name="pref_appearance_summary_stay_awake">항목을 보거나 편집하는 동안 화면이 절전 모드로 들어 가지 않습니다.</string>
+    <string name="pref_appearance_title_change_theme">테마 변경</string>
+    <string name="pref_appearance_theme_light">빛</string>
+    <string name="pref_appearance_theme_dark">어두운</string>
+    <string name="pref_appearance_theme_blue_gray">청회색</string>
+    <string name="pref_appearance_theme_purple">보라색</string>
     <!-- database -->
-    <string name="pref_database_title_backup_share">Share database</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
-    <string name="pref_database_title_restore">Restore database</string>
-    <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
-    <string name="pref_database_title_export">Export csv file</string>
-    <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
-    <string name="pref_database_title_import">Import csv file</string>
-    <string name="pref_database_summary_import">Import entries from a non-encrypted csv file</string>
+    <string name="pref_database_title_backup_share">데이터베이스 공유</string>
+    <string name="pref_database_summary_backup_share">암호화 된 데이터베이스의 백업 생성 및 공유</string>
+    <string name="pref_database_title_backup">백업 데이터베이스</string>
+    <string name="pref_database_summary_backup">Android 스토리지 액세스 프레임 워크를 사용하여 암호화 된 데이터베이스의 백업 만들기</string>
+    <string name="pref_database_title_restore">데이터베이스 복원</string>
+    <string name="pref_database_summary_restore">암호화 된 데이터베이스의 백업 복원</string>
+    <string name="pref_database_title_gd_auto_backup">Google 드라이브 백업</string>
+    <string name="pref_database_summary_gd_auto_backup">개인 Google 드라이브 계정에 자동 백업 만들기</string>
+    <string name="pref_database_title_sd_auto_backup">외부 저장소 백업</string>
+    <string name="pref_database_summary_sd_auto_backup">외부 저장소 (sd 또는 내부 비 이동식 저장소)에 자동 백업을 만듭니다. 타사 파일 관리자 앱을 사용하여 외부 저장소에 액세스 할 수 있습니다.</string>
+    <string name="pref_database_title_export">CSV 파일 내보내기</string>
+    <string name="pref_database_summary_export">항목을 암호화되지 않은 CSV 파일로 내보내기</string>
+    <string name="pref_database_title_import">CSV 파일 가져 오기</string>
+    <string name="pref_database_summary_import">암호화되지 않은 CSV 파일에서 항목 가져 오기</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">Change master password</string>
-    <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
-    <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Never</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Failed password attempts</string>
-    <string name="pref_security_self_destruct_unlimited">Unlimited</string>
+    <string name="pref_security_title_change_password">마스터 비밀번호 변경</string>
+    <string name="pref_security_title_fast_enter">빠른 진입</string>
+    <string name="pref_security_summary_fast_enter">마스터 비밀번호가 맞으면 ENTER 버튼을 누르지 않고도 애플리케이션에 빠르게 진입 할 수 있습니다.</string>
+    <string name="pref_security_title_auto_exit">자동 종료</string>
+    <string name="pref_security_summary_auto_exit">화면이 꺼지면 애플리케이션이 자동으로 종료됩니다.</string>
+    <string name="pref_security_title_clipboard_clear">클립 보드 지우기</string>
+    <string name="pref_security_clipboard_clear_never">절대 안함</string>
+    <string name="pref_security_clipboard_clear_one_min">1 분</string>
+    <string name="pref_security_clipboard_clear_two_min">2 분</string>
+    <string name="pref_security_clipboard_clear_three_min">3 분</string>
+    <string name="pref_security_clipboard_clear_four_min">4 분</string>
+    <string name="pref_security_clipboard_clear_five_min">5 분</string>
+    <string name="pref_security_title_self_destruct">실패한 암호 시도</string>
+    <string name="pref_security_self_destruct_unlimited">제한 없는</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biometric authentication</string>
-    <string name="pref_security_summary_biometric">Compatible device is required for using this feature. You can specify your preferred biometric in system settings (fingerprint, face detection etc.)</string>
-    <string name="pref_security_title_fingerprint">Enter using fingerprint</string>
-    <string name="pref_security_summary_fingerprint">Compatible hardware is required for using this feature</string>
+    <string name="pref_security_title_biometric">생체 인증</string>
+    <string name="pref_security_summary_biometric">이 기능을 사용하려면 호환 장치가 필요합니다. 시스템 설정 (지문, 얼굴 탐지 등)에서 원하는 생체 인식을 지정할 수 있습니다.</string>
+    <string name="pref_security_title_fingerprint">지문을 사용하여 입력</string>
+    <string name="pref_security_summary_fingerprint">이 기능을 사용하려면 호환 가능한 하드웨어가 필요합니다.</string>
     <!-- about -->
-    <string name="pref_about_title_contact">Report a bug</string>
-    <string name="pref_about_title_support">Rate and review</string>
-    <string name="pref_about_title_more_apps">More apps</string>
-    <string name="pref_about_title_share">Tell your friends</string>
-    <string name="pref_about_title_translations">Translations</string>
-    <string name="pref_about_title_terms">Terms and Privacy Policy</string>
-    <string name="pref_about_title_licenses">Open source licenses</string>
-    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">버그보고</string>
+    <string name="pref_about_title_support">별점과 리뷰</string>
+    <string name="pref_about_title_more_apps">더 많은 애플 리케이션</string>
+    <string name="pref_about_title_share">친구에게 알리기</string>
+    <string name="pref_about_title_translations">번역</string>
+    <string name="pref_about_title_terms">이용 약관 및 개인 정보 보호 정책</string>
+    <string name="pref_about_title_licenses">오픈 소스 라이선스</string>
+    <string name="pref_about_title_build_version">빌드 버전</string>
     <!-- wear os -->
     <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">Restrict the access on your watch by using a password</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_summary_password_enabled">암호를 사용하여 시계에 대한 액세스 제한</string>
+    <string name="pref_wear_os_title_add_to_watch">시계에 추가</string>
+    <string name="pref_wear_os_summary_add_to_watch">새로운 항목이 항상 시계에 추가됩니다.</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">APPEARANCE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_appearance">외관</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>테마</string>
+    <string name="pref_category_database">데이터 베이스</string>
+    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>자동 백업</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SECURITY</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
+    <string name="pref_category_security">보안</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>클립 보드</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>자기 파괴하다</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>생체 인식</string>
+    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>지문</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
+    <string name="watch_empty_list_view_info">휴대 전화에서 항목을 열고 시계 아이콘을 눌러 여기에 추가하십시오.</string>
 
 </resources>
