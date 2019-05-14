@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Apagar</string>
     <string name="dialog_button_discard">Descartar</string>
     <string name="dialog_button_remove">Remover</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Taxa</string>
+    <string name="dialog_button_later">Mais tarde</string>
+    <string name="dialog_button_never">nunca</string>
     <string name="dialog_title_restore_backup">Restaurar backup?</string>
     <string name="dialog_title_import_csv">Importar csv?</string>
     <string name="dialog_title_change_master_password">Alterar senha mestra?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Toque várias vezes para gerar senhas de diferentes tipos e tamanhos.</string>
     <string name="dialog_msg_remove_from_watch">Remover entrada do relógio?</string>
     <string name="dialog_msg_attachments_warning">Anexos podem aumentar o tamanho do banco de dados e diminuir o desempenho geral do aplicativo.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Se você gosta de usar este aplicativo, você se importaria de ter um momento para avaliá-lo? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!</string>
     <string name="dialog_progress_please_wait">Por favor, espere<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
