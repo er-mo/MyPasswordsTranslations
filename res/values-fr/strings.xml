@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Je supprime</string>
     <string name="dialog_button_discard">Je rejette</string>
     <string name="dialog_button_remove">Retirer</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Taux</string>
+    <string name="dialog_button_later">Plus tard</string>
+    <string name="dialog_button_never">Jamais</string>
     <string name="dialog_title_restore_backup">Restaurer sauvegarde?</string>
     <string name="dialog_title_import_csv">Importer csv?</string>
     <string name="dialog_title_change_master_password">Changer le mot de passe principal?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Appuyez plusieurs fois pour créer mots de passe de type et de longueur différents.</string>
     <string name="dialog_msg_remove_from_watch">Retirer du suivi</string>
     <string name="dialog_msg_attachments_warning">Les pièces jointes peuvent augmenter la taille de la base de données et réduire les performances globales de l\'application.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Si vous aimez utiliser cette application, pourriez-vous prendre un moment pour l'évaluer? Cela ne prendra pas plus d’une minute. Merci pour votre soutien!</string>
     <string name="dialog_progress_please_wait">S\'il vous plaît, attendez<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
