@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Le mie password</string>
     <string name="app_description">Un modo facile e sicuro di utilizzare un gestore di password per i dispositivi Android</string>
     <string name="app_download_message">Scaricala ora gratuitamente dal Google Play Store</string>
     <!-- ################################################################################# -->
@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Elimina</string>
     <string name="dialog_button_discard">Scarta</string>
     <string name="dialog_button_remove">Rimuovere</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Vota</string>
+    <string name="dialog_button_later">Dopo</string>
+    <string name="dialog_button_never">Mai</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
     <string name="dialog_title_change_master_password">Cambiare la password principale?</string>
