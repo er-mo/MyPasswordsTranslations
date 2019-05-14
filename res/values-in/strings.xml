@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="app_name">Kata sandi saya</string>
     <string name="app_description">Pengelola kata sandi yang aman dan mudah digunakan untuk perangkat Android</string>
     <string name="app_download_message">Dapatkan sekarang secara gratis dari Google Play store</string>
     <!-- ################################################################################# -->
@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Menghapus</string>
     <string name="dialog_button_discard">Penolakan</string>
     <string name="dialog_button_remove">Penghapusan</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Harga</string>
+    <string name="dialog_button_later">Nanti</string>
+    <string name="dialog_button_never">Tak pernah</string>
     <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
     <string name="dialog_title_import_csv">Impor csv?</string>
     <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
     <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
     <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Jika Anda menikmati menggunakan aplikasi ini, maukah Anda meluangkan waktu untuk menilai itu? Tidak akan butuh lebih dari satu menit. Terima kasih atas dukungan Anda!</string>
     <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
