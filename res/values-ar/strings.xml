@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">حذف</string>
     <string name="dialog_button_discard">تجاهل</string>
     <string name="dialog_button_remove">إزالة</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">معدل</string>
+    <string name="dialog_button_later">في وقت لاحق</string>
+    <string name="dialog_button_never">أبدا</string>
     <string name="dialog_title_restore_backup">استرجاع النسخة الاحتياطية</string>
     <string name="dialog_title_import_csv">استيراد ملف CSV؟</string>
     <string name="dialog_title_change_master_password">تغيير كلمة المرور الرئيسية؟</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">اضغط عدة مرات لإنشاء كلمات مرور من نوع وطول مختلفين.</string>
     <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
     <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">إذا كنت تستمتع باستخدام هذا التطبيق ، فهل تمانع في قضاء بعض الوقت لتقييمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمكم!</string>
     <string name="dialog_progress_please_wait">ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
