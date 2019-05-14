@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Smazat</string>
     <string name="dialog_button_discard">Zlikvidujte</string>
     <string name="dialog_button_remove">Odstranit</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Hodnotit</string>
+    <string name="dialog_button_later">Později</string>
+    <string name="dialog_button_never">Nikdy</string>
     <string name="dialog_title_restore_backup">Obnovit zálohu?</string>
     <string name="dialog_title_import_csv">Importovat cvs?</string>
     <string name="dialog_title_change_master_password">Změnit hlavní heslo?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Klepnutím na několikrát generuj hesla různých typů a délky.</string>
     <string name="dialog_msg_remove_from_watch">Odstranit vstup hodin?</string>
     <string name="dialog_msg_attachments_warning">Přílohy mohou zvýšit velikost databáze a snížit celkový výkon aplikace.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Pokud se vám líbí pomocí této aplikace, nevadilo by vám, kdybyste to udělal na chvíli? Nebude to trvat déle než minutu. Děkuji za vaší podporu!</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
