@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">حذف الإدخالات المحددة؟</string>
     <string name="dialog_msg_delete_entry">حذف المدخلات؟</string>
     <string name="dialog_msg_delete_label">حذف التسمية؟</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
     <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
     <string name="dialog_msg_payload_failed">فشل التحقق من الدفع</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">اضغط عدة مرات لإنشاء كلمات مرور من نوع وطول مختلفين.</string>
     <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
     <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">إذا أعجبك هذا التطبيق ، هل يمكن أن تقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمكم!</string>
     <string name="dialog_progress_please_wait">ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

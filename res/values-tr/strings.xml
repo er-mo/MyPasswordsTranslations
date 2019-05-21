@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
     <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
     <string name="dialog_msg_delete_label">Etiketi sil?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
     <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
     <string name="dialog_msg_attachments_warning">Resimler veritabanı boyutunu artırabilir ve uygulamanın genel performansını azaltabilir.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Eğer bu uygulamayı beğendiyseniz birkaç dakikanızı ayırarak puan verir miydiniz? Bir dakikadan fazla sürmeyecek. Desteğiniz için teşekkür ederiz!</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

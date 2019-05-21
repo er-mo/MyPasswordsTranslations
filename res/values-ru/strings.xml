@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
     <string name="dialog_msg_delete_label">Удалить тег?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Отменить изменения?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
     <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Если Вам понравилось это приложение, то не забудьте оценить его, это потребует не более минуты. Спасибо за Вашу поддержку!</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

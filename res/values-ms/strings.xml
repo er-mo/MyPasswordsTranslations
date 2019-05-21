@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Padamkan entri yang dipilih?</string>
     <string name="dialog_msg_delete_entry">Padamkan entri?</string>
     <string name="dialog_msg_delete_label">PadamkPengesahan pembayaran gagal.an label?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_payload_failed">Pengesahan pembayaran gagal.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata laluan jenis dan panjang yang berlainan.</string>
     <string name="dialog_msg_remove_from_watch">Alih keluar kemasukan dari jam tangan?</string>
     <string name="dialog_msg_attachments_warning">Lampiran boleh meningkatkan saiz pangkalan data dan mengurangkan prestasi keseluruhan aplikasi.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Jika anda menikmati menggunakan Aplikasi ini, sila ambil masa untuk menilainya. Terima kasih atas sokongan anda!</string>
     <string name="dialog_progress_please_wait">Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

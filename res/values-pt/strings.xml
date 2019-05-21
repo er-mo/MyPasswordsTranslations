@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Excluir entradas selecionadas?</string>
     <string name="dialog_msg_delete_entry">Excluir entrada?</string>
     <string name="dialog_msg_delete_label">Excluir rótulo?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Descartar mudanças?</string>
     <string name="dialog_msg_cannot_open_folder">A pasta não está acessível.</string>
     <string name="dialog_msg_payload_failed">A verificação da carga útil falhou.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Toque várias vezes para gerar senhas de diferentes tipos e tamanhos.</string>
     <string name="dialog_msg_remove_from_watch">Remover entrada do relógio?</string>
     <string name="dialog_msg_attachments_warning">Anexos podem aumentar o tamanho do banco de dados e diminuir o desempenho geral do aplicativo.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Gosta da aplicação? Então não se importaria de a avaliar? Não demora mais do que um minuto. Obrigado pelo seu apoio!</string>
     <string name="dialog_progress_please_wait">Por favor, espere<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

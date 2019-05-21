@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_delete_label">Usunąć etykietę?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
     <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
     <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Jeśli podoba Ci ta się aplikacja, to czy poświęcisz chwilę, aby ją ocenić? Nie zajmie Ci to dłużej niż minutę. Dziękujemy za Twoje wsparcie!</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
     <string name="dialog_msg_delete_label">Etikett löschen?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Änderungen verwerfen?</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Drücken Sie mehrmals auf, um Passwörter unterschiedlicher Art und Länge zu erzeugen.</string>
     <string name="dialog_msg_remove_from_watch">Eintrag von Ihr Uhr entfernen?</string>
     <string name="dialog_msg_attachments_warning">Bildanhänge können die Datenbankgröße erhöhen und die Gesamtleistung der Anwendung verringern.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Falls Ihnen diese App gefällt, können Sie sich bitte einen Moment Zeit nehmen, sie zu bewerten? Es dauert nicht länger als eine Minute. Vielen Dank für Ihre Unterstützung!</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

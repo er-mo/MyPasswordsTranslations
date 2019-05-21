@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
     <string name="dialog_msg_delete_entry">Hapus Entri?</string>
     <string name="dialog_msg_delete_label">Hapus label?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_payload_failed">Verifikasi pembayaran gagal.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
     <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
     <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Jika kamu senang menggunakan aplikasi ini, maukah kamu meluangkan sedikit waktu untuk memberikan nilai? Memberikan nilai tidak akan lebih dari 1 menit. Terima kasih atas dukungannya!</string>
     <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

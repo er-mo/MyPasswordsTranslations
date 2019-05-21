@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
     <string name="dialog_msg_delete_label">Radera etikett?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
     <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Tryck flera gånger för att generera lösenord av olika typ och längd.</string>
     <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
     <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
     <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

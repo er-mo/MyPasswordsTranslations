@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">선택한 항목을 삭제 하시겠습니까?</string>
     <string name="dialog_msg_delete_entry">항목을 삭제 하시겠습니까?</string>
     <string name="dialog_msg_delete_label">라벨을 삭제 하시겠습니까?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">변경 사항을 취소?</string>
     <string name="dialog_msg_cannot_open_folder">폴더에 액세스 할 수 없습니다.</string>
     <string name="dialog_msg_payload_failed">결제 확인 실패</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">다른 유형 및 길이의 비밀번호를 생성하려면 여러 번 누릅니다.</string>
     <string name="dialog_msg_remove_from_watch">시계에서 항목을 삭제 하시겠습니까?</string>
     <string name="dialog_msg_attachments_warning">첨부 파일을 사용하면 데이터베이스 크기가 증가하고 응용 프로그램의 전체 성능이 저하 될 수 있습니다.</string>
-    <string name="dialog_msg_rating">이 응용 프로그램을 사용하여 즐길 수 있다면, 그것을 평가하는 데 시간을 내시겠습니까? 그것은 1 분 이상 걸리지 않습니다. 협조 해 주셔서 감사합니다.</string>
+    <string name="dialog_msg_rating">이 앱을 사용해 주셔서 대단히 감사합니다. 괜찮으시면 앱의 평가를 부탁드립니다. 평가는 1분 정도 소요됩니다. 도와주셔서 감사합니다!</string>
     <string name="dialog_progress_please_wait">기다려주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
     <string name="dialog_msg_delete_label">Elimina etichetta?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza</string>
     <string name="dialog_msg_remove_from_watch">Rimuovere la voce dall\'orologio?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Se ti piace usare quest\'app, ti dispiacerebbe trovare un momento per votarla? Non richiede più di un minuto. Grazie per il tuo supporto!</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

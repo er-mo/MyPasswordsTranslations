@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
     <string name="dialog_msg_delete_entry">Delete entry?</string>
     <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
     <string name="dialog_msg_payload_failed">Payload verification failed.</string>

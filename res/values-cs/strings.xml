@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
     <string name="dialog_msg_delete_label">Odstranit štítek?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Zrušit změny?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Klepnutím na několikrát generuj hesla různých typů a délky.</string>
     <string name="dialog_msg_remove_from_watch">Odstranit vstup hodin?</string>
     <string name="dialog_msg_attachments_warning">Přílohy mohou zvýšit velikost databáze a snížit celkový výkon aplikace.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Pokud se Vám aplikace líbí, rádi bychom Vás poprosili o její ohodnocení. Nezabere to více než minutu. Děkujeme za Vaši podporu!</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

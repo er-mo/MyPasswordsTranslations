@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
     <string name="dialog_msg_delete_label">Διαγραφή ετικέτας;</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
     <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
     <string name="dialog_msg_attachments_warning">Οι εικόνες ενδέχεται να αυξήσουν το μέγεθος της βάσης δεδομένων και να μειώσουν τη συνολική απόδοση της εφαρμογής.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Αν σας αρέσει αυτή η εφαρμογή, μπορείτε να την αξιολογήσετε; Δεν θα διαρκέσει περισσότερο από ένα λεπτό. Σας ευχαριστούμε για την υποστήριξή σας!</string>
     <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
