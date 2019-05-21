@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Radera</string>
     <string name="dialog_button_discard">Kassera</string>
     <string name="dialog_button_remove">Ta bort</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Betygsätta</string>
+    <string name="dialog_button_later">Senare</string>
+    <string name="dialog_button_never">Aldrig</string>
     <string name="dialog_title_restore_backup">Återställa säkerhetskopiering?</string>
     <string name="dialog_title_import_csv">Importera CSV?</string>
     <string name="dialog_title_change_master_password">Ändra huvudlösenordet?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Tryck flera gånger för att generera lösenord av olika typ och längd.</string>
     <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
     <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Om du gillar att använda den här appen, vill du ha en stund att betygsätta den? Det tar inte mer än en minut. Tack för ditt stöd!</string>
     <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
