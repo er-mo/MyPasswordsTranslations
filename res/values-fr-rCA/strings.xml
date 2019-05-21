@@ -168,6 +168,7 @@
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
     <string name="dialog_msg_delete_entry">Delete entry?</string>
     <string name="dialog_msg_delete_label">Delete label?</string>
+    <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
     <string name="dialog_msg_payload_failed">Payload verification failed.</string>
@@ -188,7 +189,7 @@
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
-    <string name="dialog_msg_rating">If you like this app, would you mind taking a moment to rate it? It will not take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
