@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Sil</string>
     <string name="dialog_button_discard">ıskarta</string>
     <string name="dialog_button_remove">Sil</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">oran</string>
+    <string name="dialog_button_later">Sonra</string>
+    <string name="dialog_button_never">Asla</string>
     <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
     <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
     <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
     <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
     <string name="dialog_msg_attachments_warning">Resimler veritabanı boyutunu artırabilir ve uygulamanın genel performansını azaltabilir.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Bu uygulamayı kullanmaktan zevk alırsanız, değerlendirmek için bir dakikanızı ayırır mısınız? Bir dakikadan fazla sürmez. Desteğin için teşekkürler!</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
