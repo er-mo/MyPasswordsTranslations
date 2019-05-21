@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Удалить</string>
     <string name="dialog_button_discard">отбрасывать</string>
     <string name="dialog_button_remove">Удалить</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Темп</string>
+    <string name="dialog_button_later">Потом</string>
+    <string name="dialog_button_never">Никогда</string>
     <string name="dialog_title_restore_backup">Восстановить резервную копию?</string>
     <string name="dialog_title_import_csv">Импортировать из файла CSV?</string>
     <string name="dialog_title_change_master_password">Изменить \"Мастер-пароль\"?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
     <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Если вам нравится использовать это приложение, не могли бы вы уделить минуту, чтобы оценить его? Это не займет больше минуты. Спасибо за поддержку!</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
