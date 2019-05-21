@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">Smazat</string>
     <string name="dialog_button_discard">Zlikvidujte</string>
     <string name="dialog_button_remove">Odstranit</string>
-    <string name="dialog_button_rate">Hodnotit</string>
+    <string name="dialog_button_rate">Ohodnotit</string>
     <string name="dialog_button_later">Později</string>
     <string name="dialog_button_never">Nikdy</string>
     <string name="dialog_title_restore_backup">Obnovit zálohu?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Připojíte další obrázek?</string>
     <string name="dialog_title_new_field">Nové pole</string>
     <string name="dialog_title_set_labels">Nastavte štítky</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Ohodnotit aplikaci</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Klepnutím na několikrát generuj hesla různých typů a délky.</string>
     <string name="dialog_msg_remove_from_watch">Odstranit vstup hodin?</string>
     <string name="dialog_msg_attachments_warning">Přílohy mohou zvýšit velikost databáze a snížit celkový výkon aplikace.</string>
-    <string name="dialog_msg_rating">Pokud se vám líbí pomocí této aplikace, nevadilo by vám, kdybyste to udělal na chvíli? Nebude to trvat déle než minutu. Děkuji za vaší podporu!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

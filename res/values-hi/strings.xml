@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">मैं हटाता हूं</string>
     <string name="dialog_button_discard">मैं अस्वीकार करता हूं</string>
     <string name="dialog_button_remove">हटाना</string>
-    <string name="dialog_button_rate">मूल्यांकन करें</string>
+    <string name="dialog_button_rate">अभी रेट करें</string>
     <string name="dialog_button_later">बाद में</string>
     <string name="dialog_button_never">कभी नहीँ</string>
     <string name="dialog_title_restore_backup">बैकअप बहाल?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
     <string name="dialog_title_new_field">नया क्षेत्र</string>
     <string name="dialog_title_set_labels">लेबल सेट करें</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">इस ऐप को रेट करें</string>
     <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
     <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
     <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
@@ -179,7 +179,7 @@
     <string name="dialog_msg_error_writing_file">फ़ाइल लिखने में त्रुटि।</string>
     <string name="dialog_msg_error_reading_file">फ़ाइल पढ़ने में त्रुटि।</string>
     <string name="dialog_msg_app_data_erased">विफल प्रयासों के कारण सभी डेटा स्थायी रूप से हटा दिए गए हैं।</string>
-    <string name="dialog_msg_no_fp_hardware">फ़िंगरप्रिंट हार्डवेयर मौजूद नहीं है या कार्यात्मक नहीं है।</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
     <string name="dialog_msg_no_fp_enrolled">कोई नामांकित फिंगरप्रिंट नहीं मिला। कृपया सिस्टम सेटिंग्स में कम से कम एक फिंगरप्रिंट सेट करें।</string>
     <string name="dialog_msg_fp_not_recognized">फ़िंगरप्रिंट नहीं पहचाना गया। पुनः प्रयास करें</string>
     <string name="dialog_msg_fp_success">फिंगरप्रिंट पहचान लिया। कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
     <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
     <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
-    <string name="dialog_msg_rating">यदि आप इस एप्लिकेशन का उपयोग करने का आनंद लेते हैं, तो क्या आप इसे रेट करने में एक पल का समय लेंगे यह एक मिनट से अधिक समय नहीं जीता। आपके सहयोग के लिए धन्यवाद!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

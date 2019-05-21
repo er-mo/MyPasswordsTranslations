@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">Je supprime</string>
     <string name="dialog_button_discard">Je rejette</string>
     <string name="dialog_button_remove">Retirer</string>
-    <string name="dialog_button_rate">Taux</string>
+    <string name="dialog_button_rate">Évaluer</string>
     <string name="dialog_button_later">Plus tard</string>
     <string name="dialog_button_never">Jamais</string>
     <string name="dialog_title_restore_backup">Restaurer sauvegarde?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Pièce jointe une autre image?</string>
     <string name="dialog_title_new_field">Nouveau champ</string>
     <string name="dialog_title_set_labels">Définir des étiquettes</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Evaluation de l\'application</string>
     <string name="dialog_msg_entries_will_be_deleted">Toutes les entrées actuelles seront supprimées.</string>
     <string name="dialog_msg_changing_master_password">En modifiant votre mot de passe principal, vous ne pourrez pas restaurer les sauvegardes des bases  créées avec le mot de principal passe actuel.</string>
     <string name="dialog_msg_delete_selected_entries">Supprimer les entrées sélectionnées?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Appuyez plusieurs fois pour créer mots de passe de type et de longueur différents.</string>
     <string name="dialog_msg_remove_from_watch">Retirer du suivi</string>
     <string name="dialog_msg_attachments_warning">Les pièces jointes peuvent augmenter la taille de la base de données et réduire les performances globales de l\'application.</string>
-    <string name="dialog_msg_rating">Si vous aimez utiliser cette application, pourriez-vous prendre un moment pour l'évaluer? Cela ne prendra pas plus d’une minute. Merci pour votre soutien!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">S\'il vous plaît, attendez<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

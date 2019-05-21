@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Pasang imej lain?</string>
     <string name="dialog_title_new_field">Medan baru</string>
     <string name="dialog_title_set_labels">Tetapkan label</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Rate aplikasi ini</string>
     <string name="dialog_msg_entries_will_be_deleted">Semua entri semasa akan dipadamkan.</string>
     <string name="dialog_msg_changing_master_password">Dengan mengubah kata laluan utama anda tidak akan dapat memulihkan sandaran pangkalan data yang dibuat dengan kata laluan induk semasa.</string>
     <string name="dialog_msg_delete_selected_entries">Padamkan entri yang dipilih?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata laluan jenis dan panjang yang berlainan.</string>
     <string name="dialog_msg_remove_from_watch">Alih keluar kemasukan dari jam tangan?</string>
     <string name="dialog_msg_attachments_warning">Lampiran boleh meningkatkan saiz pangkalan data dan mengurangkan prestasi keseluruhan aplikasi.</string>
-    <string name="dialog_msg_rating">Sekiranya anda menikmati menggunakan aplikasi ini, adakah anda mengambil masa untuk menilainya? Ia tidak mengambil masa lebih daripada satu minit. Terima kasih atas sokongan anda!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

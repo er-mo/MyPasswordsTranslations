@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Menghapus</string>
     <string name="dialog_button_discard">Penolakan</string>
     <string name="dialog_button_remove">Penghapusan</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Berikan Nilai</string>
+    <string name="dialog_button_later">Kemudian</string>
+    <string name="dialog_button_never">Tak pernah</string>
     <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
     <string name="dialog_title_import_csv">Impor csv?</string>
     <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
     <string name="dialog_title_new_field">Bidang baru</string>
     <string name="dialog_title_set_labels">Tetapkan label</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Nilai aplikasi ini</string>
     <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
     <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
     <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>

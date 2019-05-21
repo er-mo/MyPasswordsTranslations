@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Löschen</string>
     <string name="dialog_button_discard">Verwerfen</string>
     <string name="dialog_button_remove">Entfernen</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Bewerten</string>
+    <string name="dialog_button_later">Später</string>
+    <string name="dialog_button_never">Nie</string>
     <string name="dialog_title_restore_backup">Sicherung wiederherstellen?</string>
     <string name="dialog_title_import_csv">CSV importieren?</string>
     <string name="dialog_title_change_master_password">Master Passwort ändern?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Bild anhängen?</string>
     <string name="dialog_title_new_field">Neues Feld</string>
     <string name="dialog_title_set_labels">Etiketten setzen</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Bewertung</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>

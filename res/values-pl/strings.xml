@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Usuń</string>
     <string name="dialog_button_discard">Odzruć</string>
     <string name="dialog_button_remove">Usuń</string>
-    <string name="dialog_button_rate">cena</string>
+    <string name="dialog_button_rate">Oceń teraz</string>
     <string name="dialog_button_later">Później</string>
-    <string name="dialog_button_never">nigdy</string>
+    <string name="dialog_button_never">Nigdy</string>
     <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
     <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
     <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
     <string name="dialog_title_new_field">Nowe pole</string>
     <string name="dialog_title_set_labels">Ustaw etykiety</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Oceń aplikację</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
     <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
     <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
-    <string name="dialog_msg_rating">Jeśli lubisz korzystać z tej aplikacji, czy mógłbyś poświęcić chwilę, aby ją ocenić? To nie zajmie więcej niż minutę. Dziękuję za Twoje wsparcie!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

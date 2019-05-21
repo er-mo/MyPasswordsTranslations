@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">지우다</string>
     <string name="dialog_button_discard">나는 거절한다.</string>
     <string name="dialog_button_remove">나는 제거하고있다.</string>
-    <string name="dialog_button_rate">율</string>
+    <string name="dialog_button_rate">지금 평가</string>
     <string name="dialog_button_later">후에</string>
     <string name="dialog_button_never">절대 안함</string>
     <string name="dialog_title_restore_backup">백업을 복원 하시겠습니까?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">다른 이미지를 첨부 하시겠습니까?</string>
     <string name="dialog_title_new_field">새 필드</string>
     <string name="dialog_title_set_labels">라벨 설정</string>
-    <string name="dialog_title_rating">이 앱을 평가 해주십시오</string>
+    <string name="dialog_title_rating">앱의 평가</string>
     <string name="dialog_msg_entries_will_be_deleted">모든 현재 항목이 삭제됩니다.</string>
     <string name="dialog_msg_changing_master_password">마스터 비밀번호를 변경하면 현재 마스터 비밀번호로 생성 된 데이터베이스 백업을 복원 할 수 없습니다.</string>
     <string name="dialog_msg_delete_selected_entries">선택한 항목을 삭제 하시겠습니까?</string>

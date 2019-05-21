@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">মুছে ফেলা</string>
     <string name="dialog_button_discard">আমি প্রত্যাখ্যান</string>
     <string name="dialog_button_remove">অপসারণ</string>
-    <string name="dialog_button_rate">হার</string>
+    <string name="dialog_button_rate">রেটিং করুন</string>
     <string name="dialog_button_later">পরবর্তীতে</string>
     <string name="dialog_button_never">না</string>
     <string name="dialog_title_restore_backup">ব্যাকআপ পুনরুদ্ধার?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">অন্য ছবি সংযুক্ত করা?</string>
     <string name="dialog_title_new_field">নূতন ক্ষেত্র</string>
     <string name="dialog_title_set_labels">লেবেল সেট করুন</string>
-    <string name="dialog_title_rating">এই অ্যাপ্লিকেশন রেট</string>
+    <string name="dialog_title_rating">রেটিং করুন</string>
     <string name="dialog_msg_entries_will_be_deleted">সমস্ত বর্তমান এন্ট্রি মুছে ফেলা হবে।</string>
     <string name="dialog_msg_changing_master_password">আপনার মাস্টার পাসওয়ার্ড পরিবর্তন করে, আপনি বর্তমান মাস্টার পাসওয়ার্ড দিয়ে তৈরি ডেটাবেসের ব্যাকআপগুলি পুনরুদ্ধার করতে পারবেন না।</string>
     <string name="dialog_msg_delete_selected_entries">নির্বাচিত এন্ট্রি মুছবেন?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">বিভিন্ন ধরনের এবং দৈর্ঘ্য পাসওয়ার্ড জেনারেট করার জন্য একাধিক বার আলতো চাপুন।</string>
     <string name="dialog_msg_remove_from_watch">ঘড়ি থেকে এন্ট্রি সরান?</string>
     <string name="dialog_msg_attachments_warning">সংযুক্তি ডাটাবেস আকার বৃদ্ধি এবং অ্যাপ্লিকেশন সামগ্রিক কর্মক্ষমতা হ্রাস হতে পারে।</string>
-    <string name="dialog_msg_rating">আপনি যদি এই অ্যাপ্লিকেশনটি ব্যবহার করে উপভোগ করেন, তবে আপনি এটি রেট দেওয়ার জন্য একটি মুহূর্ত নিবেন? এটি এক মিনিটের বেশি সময় নেয় নি। আপনার সমর্থনের জন্য ধন্যবাদ!</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">অনুগ্রহপূর্বক অপেক্ষা করুন<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">刪除</string>
     <string name="dialog_button_discard">丟棄</string>
     <string name="dialog_button_remove">去掉</string>
-    <string name="dialog_button_rate">率</string>
+    <string name="dialog_button_rate">給五顆星</string>
     <string name="dialog_button_later">後來</string>
     <string name="dialog_button_never">決不</string>
     <string name="dialog_title_restore_backup">是否還原備份？</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">附上另一張圖片？</string>
     <string name="dialog_title_new_field">新領域</string>
     <string name="dialog_title_set_labels">設置標籤</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">為這個應用軟件評分</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">點擊多次以生成不同類型和長度的密碼。</string>
     <string name="dialog_msg_remove_from_watch">刪除時鐘條目？</string>
     <string name="dialog_msg_attachments_warning">附件可能會增加數據庫大小並降低應用程序的整體性能。</string>
-    <string name="dialog_msg_rating">如果你喜歡使用這個應用程序，你會介意花點時間給它評分嗎？ 它不會花費超過一分鐘。 感謝您的支持！</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

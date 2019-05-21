@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
     <string name="dialog_button_discard">ΑΠΟΡΡΙΨΗ</string>
     <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">ΑΞΙΟΛΟΓΗΣΗ</string>
+    <string name="dialog_button_later">ΑΡΓΟΤΕΡΑ</string>
+    <string name="dialog_button_never">ΠΟΤΕ</string>
     <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
     <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
     <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Επισύναψη επόμενης εικόνας;</string>
     <string name="dialog_title_new_field">Νέο πεδίο</string>
     <string name="dialog_title_set_labels">Ορισμός ετικετών</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Αξιολόγηση</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>

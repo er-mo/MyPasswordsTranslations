@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Elimina</string>
     <string name="dialog_button_discard">Scarta</string>
     <string name="dialog_button_remove">Rimuovere</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Votala</string>
+    <string name="dialog_button_later">Dopo</string>
+    <string name="dialog_button_never">Mai</string>
     <string name="dialog_title_restore_backup">Ripristinare il backup?</string>
     <string name="dialog_title_import_csv">Importare csv?</string>
     <string name="dialog_title_change_master_password">Cambiare la password principale?</string>
@@ -162,7 +162,7 @@
     <string name="dialog_title_attach_another_image">Allegare un\'altra immagine?</string>
     <string name="dialog_title_new_field">Nuovo campo</string>
     <string name="dialog_title_set_labels">Imposta le etichette</string>
-    <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_rating">Vota quest\'app</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>

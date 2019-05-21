@@ -149,7 +149,7 @@
     <string name="dialog_button_delete">删除</string>
     <string name="dialog_button_discard">放弃</string>
     <string name="dialog_button_remove">移除</string>
-    <string name="dialog_button_rate">率</string>
+    <string name="dialog_button_rate">给五颗星</string>
     <string name="dialog_button_later">后来</string>
     <string name="dialog_button_never">决不</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>
     <string name="dialog_msg_attachments_warning">附件可能会增加数据库大小并降低应用程序的整体性能。</string>
-    <string name="dialog_msg_rating">如果你喜欢使用这个应用程序，你会介意花点时间给它评分吗？ 它不会花费超过一分钟。 感谢您的支持！</string>
+    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
