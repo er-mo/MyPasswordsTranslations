@@ -149,9 +149,9 @@
     <string name="dialog_button_delete">Eliminar</string>
     <string name="dialog_button_discard">Descarte</string>
     <string name="dialog_button_remove">Eliminar</string>
-    <string name="dialog_button_rate">Rate</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Never</string>
+    <string name="dialog_button_rate">Tarifa</string>
+    <string name="dialog_button_later">Despues</string>
+    <string name="dialog_button_never">Nunca</string>
     <string name="dialog_title_restore_backup">¿Restaurar respaldo?</string>
     <string name="dialog_title_import_csv">¿Importar CSV?</string>
     <string name="dialog_title_change_master_password">¿Cambiar la contraseña maestra?</string>
@@ -188,7 +188,7 @@
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
     <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
     <string name="dialog_msg_attachments_warning">Los archivos adjuntos pueden aumentar el tamaño de la base de datos y disminuir el rendimiento general de la aplicación.</string>
-    <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_rating">Si te gusta usar esta aplicación, ¿te importaría tomarte un momento para calificarla? No tardará más de un minuto. ¡Gracias por tu apoyo!</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 
