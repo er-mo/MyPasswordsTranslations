@@ -46,6 +46,7 @@
     <string name="button_labels">ЭТИКЕТКИ</string>
     <string name="button_attach_image">Прикрепить изображение</string>
     <string name="button_new_field">ДОБАВИТЬ ПОЛЕ</string>
+    <string name="button_more">Больше</string>
     <string name="button_delete_field">УДАЛИТЬ ПОЛЕ</string>
     <string name="navigation_drawer_open">Открытие навигационного ящика</string>
     <string name="navigation_drawer_close">Закрыть навигационный ящик</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Хорошо</string>
+    <string name="dialog_button_learn_more">Учить больше</string>
     <string name="dialog_button_continue">Продолжить</string>
     <string name="dialog_button_cancel">Отмена</string>
     <string name="dialog_button_delete">Удалить</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Новое поле</string>
     <string name="dialog_title_set_labels">Установить метки</string>
     <string name="dialog_title_rating">Оцените это приложение</string>
+    <string name="dialog_title_feature_shutdown">Отключение функции</string>
+    <string name="dialog_msg_feature_shutdown">Эта функция автоматического резервного копирования будет отключена 6 декабря 2019 года. Вместо этого следует использовать резервную копию устройства Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Все текущие записи будут удалены.</string>
     <string name="dialog_msg_changing_master_password">Изменяя \"Мастер-пароль\", Вы не сможете восстановить резервные копии базы данных, которые были созданы в существующем \"Мастер-пароль\".</string>
     <string name="dialog_msg_delete_selected_entries">Удалить \"Выбранные\" записи?</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
     <string name="dialog_msg_delete_label">Удалить тег?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Удалить поле?</string>
     <string name="dialog_msg_discard_changes">Отменить изменения?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Изменить \"Мастер-пароль\"</string>
     <string name="pref_security_title_fast_enter">Быстрый \"Вход\"</string>
-    <string name="pref_security_summary_fast_enter">\"Вход\" в приложение будет происходить без необходимости нажатия кнопки \"ВВОД\", если \"Мастер-пароль\" введен верно</string>
+    <string name="pref_security_summary_fast_enter">Вам не нужно нажимать кнопку, если мастер-пароль правильный</string>
     <string name="pref_security_title_auto_exit">Автоматический \"Выход\"</string>
-    <string name="pref_security_summary_auto_exit">Когда экран потухнет или Вы заблокируете его через кнопку \"Блокировка экрана\", приложение автоматически закроется</string>
+    <string name="pref_security_summary_auto_exit">Когда экран выключается</string>
+    <string name="pref_security_title_allow_screenshots">Разрешить скриншоты</string>
     <string name="pref_security_title_clipboard_clear">Очистка буфера обмена</string>
     <string name="pref_security_clipboard_clear_never">Никогда</string>
     <string name="pref_security_clipboard_clear_one_min">Через 1 мин</string>

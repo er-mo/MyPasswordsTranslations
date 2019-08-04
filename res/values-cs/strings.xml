@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">PŘIPOJENÍ OBRAZU</string>
     <string name="button_new_field">PŘIDAT FIELD</string>
+    <string name="button_more">Více</string>
     <string name="button_delete_field">Odstranit pole</string>
     <string name="navigation_drawer_open">Otevřete navigační zásuvku</string>
     <string name="navigation_drawer_close">Zavřete navigační zásuvku</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Další informace</string>
     <string name="dialog_button_continue">Pokračovat</string>
     <string name="dialog_button_cancel">Zrušit</string>
     <string name="dialog_button_delete">Smazat</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nové pole</string>
     <string name="dialog_title_set_labels">Nastavte štítky</string>
     <string name="dialog_title_rating">Ohodnotit aplikaci</string>
+    <string name="dialog_title_feature_shutdown">Vypnutí funkce</string>
+    <string name="dialog_msg_feature_shutdown">Tato funkce automatického zálohování bude 6. prosince 2019 vypnuta. Místo toho byste měli použít zálohu zařízení Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Všechny stávající záznamy budou vymazány.</string>
     <string name="dialog_msg_changing_master_password">Změnou hlavního hesla nebudete moci obnovit zálohy databáze, které byly vytvořeny se stávajícím hlavním heslem.</string>
     <string name="dialog_msg_delete_selected_entries">Smazat vybrané záznamy?</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
     <string name="dialog_msg_delete_label">Odstranit štítek?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Smazat pole?</string>
     <string name="dialog_msg_discard_changes">Zrušit změny?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
     <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Změnit hlavní heslo</string>
     <string name="pref_security_title_fast_enter">Rychlý vstup</string>
-    <string name="pref_security_summary_fast_enter">Umožňuje rychlejší vstup do aplikace, aniž by jste museli klepnout na tlačítko ENTER, pokud zadáte hlavní heslo správně</string>
+    <string name="pref_security_summary_fast_enter">Pokud je hlavní heslo správné, nemusíte tlačítko stisknout</string>
     <string name="pref_security_title_auto_exit">Automatické ukončení</string>
-    <string name="pref_security_summary_auto_exit">Aplikace bude automaticky ukončena, když se vypne displej</string>
+    <string name="pref_security_summary_auto_exit">Když se obrazovka vypne</string>
+    <string name="pref_security_title_allow_screenshots">Povolit snímky obrazovky</string>
     <string name="pref_security_title_clipboard_clear">Vyčistit schránku</string>
     <string name="pref_security_clipboard_clear_never">Nikdy</string>
     <string name="pref_security_clipboard_clear_one_min">1 minuta</string>

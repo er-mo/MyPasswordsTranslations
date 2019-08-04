@@ -46,6 +46,7 @@
     <string name="button_labels">लेबल</string>
     <string name="button_attach_image">छवि संलग्न करें</string>
     <string name="button_new_field">क्षेत्र जोड़ें</string>
+    <string name="button_more">अधिक</string>
     <string name="button_delete_field">फ़ील्ड हटाएं</string>
     <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
     <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">ठीक</string>
+    <string name="dialog_button_learn_more">और अधिक जानें</string>
     <string name="dialog_button_continue">जारी रहना</string>
     <string name="dialog_button_cancel">रद्द करना</string>
     <string name="dialog_button_delete">मैं हटाता हूं</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">नया क्षेत्र</string>
     <string name="dialog_title_set_labels">लेबल सेट करें</string>
     <string name="dialog_title_rating">इस ऐप को रेट करें</string>
+    <string name="dialog_title_feature_shutdown">सुविधा बंद</string>
+    <string name="dialog_msg_feature_shutdown">यह ऑटो बैकअप सुविधा 6 दिसंबर, 2019 को बंद कर दी जाएगी। आपको इसके बजाय एंड्रॉइड डिवाइस बैकअप का उपयोग करना चाहिए।</string>
     <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
     <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
     <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
     <string name="dialog_msg_delete_entry">प्रविष्टि हटाएं?</string>
     <string name="dialog_msg_delete_label">लेबल हटाएं?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">फ़ील्ड हटाएं?</string>
     <string name="dialog_msg_discard_changes">परिवर्तनों को निरस्त करें?</string>
     <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
     <string name="dialog_msg_payload_failed">भुगतान सत्यापन विफल रहा।</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">मास्टर पासवर्ड बदलें</string>
     <string name="pref_security_title_fast_enter">तेजी से दर्ज करें</string>
-    <string name="pref_security_summary_fast_enter">यदि मास्टर पासवर्ड सही है तो ENTER बटन को टैप किए बिना एप्लिकेशन को दर्ज करने के लिए इसे तेज़ी से बनाता है</string>
+    <string name="pref_security_summary_fast_enter">मास्टर पासवर्ड सही होने पर आपको बटन दबाने की जरूरत नहीं है</string>
     <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
-    <string name="pref_security_summary_auto_exit">स्क्रीन बंद होने पर एप्लिकेशन स्वचालित रूप से बाहर निकल जाएगा</string>
+    <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है</string>
+    <string name="pref_security_title_allow_screenshots">स्क्रीनशॉट की अनुमति दें</string>
     <string name="pref_security_title_clipboard_clear">क्लिपबोर्ड साफ़ करें</string>
     <string name="pref_security_clipboard_clear_never">कभी नहीँ</string>
     <string name="pref_security_clipboard_clear_one_min">1 मिनट</string>

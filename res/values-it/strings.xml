@@ -46,6 +46,7 @@
     <string name="button_labels">ETICHETTE</string>
     <string name="button_attach_image">ATTACCARE L\'IMMAGINE</string>
     <string name="button_new_field">AGGIUNGI CAMPO</string>
+    <string name="button_more">Di Più</string>
     <string name="button_delete_field">Elimina campo</string>
     <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
     <string name="navigation_drawer_close">Chiudi il cassetto di navigazione</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_learn_more">Per saperne di più</string>
     <string name="dialog_button_continue">Continua</string>
     <string name="dialog_button_cancel">Cancella</string>
     <string name="dialog_button_delete">Elimina</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nuovo campo</string>
     <string name="dialog_title_set_labels">Imposta le etichette</string>
     <string name="dialog_title_rating">Vota quest\'app</string>
+    <string name="dialog_title_feature_shutdown">Spegnimento delle funzioni</string>
+    <string name="dialog_msg_feature_shutdown">Questa funzione di backup automatico verrà disattivata il 6 dicembre 2019. Dovresti invece utilizzare il backup del dispositivo Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Tutte le voci attuali saranno cancellate.</string>
     <string name="dialog_msg_changing_master_password">Cambiando la master password non sarai in grado di ripristinare i backup del database che sono stati creati con la password master corrente.</string>
     <string name="dialog_msg_delete_selected_entries">Eliminare le voci selezionate?</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
     <string name="dialog_msg_delete_label">Elimina etichetta?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Elimina campo?</string>
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Diventa più veloce entrare nell\'applicazione senza toccare il tasto Enter se la master password è corretta</string>
+    <string name="pref_security_summary_fast_enter">Non è necessario premere il pulsante se la password principale è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
-    <string name="pref_security_summary_auto_exit">L\'applicazione uscirà automaticamente quando lo schermo si spegne</string>
+    <string name="pref_security_summary_auto_exit">Quando lo schermo si spegne</string>
+    <string name="pref_security_title_allow_screenshots">Consenti schermate</string>
     <string name="pref_security_title_clipboard_clear">Pulisci gli appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
     <string name="pref_security_clipboard_clear_one_min">1 minuto</string>

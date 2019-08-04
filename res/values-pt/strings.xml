@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ANEXAR IMAGEM</string>
     <string name="button_new_field">ADICIONAR CAMPO</string>
+    <string name="button_more">Mais</string>
     <string name="button_delete_field">Excluir campo</string>
     <string name="navigation_drawer_open">Abrindo uma gaveta de navegação</string>
     <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Está bem</string>
+    <string name="dialog_button_learn_more">Saber mais</string>
     <string name="dialog_button_continue">Continuar</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_delete">Apagar</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Novo campo</string>
     <string name="dialog_title_set_labels">Definir rótulos</string>
     <string name="dialog_title_rating">Avaliar a aplicação</string>
+    <string name="dialog_title_feature_shutdown">Desligamento de recursos</string>
+    <string name="dialog_msg_feature_shutdown">Este recurso de backup automático será desativado em 6 de dezembro de 2019. Em vez disso, você deve usar o backup do dispositivo Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Todas as entradas atuais serão apagadas.</string>
     <string name="dialog_msg_changing_master_password">Ao alterar a senha mestra, você não poderá restaurar backups de banco de dados que foram criados com a senha mestra atual.</string>
     <string name="dialog_msg_delete_selected_entries">Excluir entradas selecionadas?</string>
     <string name="dialog_msg_delete_entry">Excluir entrada?</string>
     <string name="dialog_msg_delete_label">Excluir rótulo?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Excluir campo?</string>
     <string name="dialog_msg_discard_changes">Descartar mudanças?</string>
     <string name="dialog_msg_cannot_open_folder">A pasta não está acessível.</string>
     <string name="dialog_msg_payload_failed">A verificação da carga útil falhou.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Alterar senha mestra</string>
     <string name="pref_security_title_fast_enter">Entrar rapidamente</string>
-    <string name="pref_security_summary_fast_enter">Torna mais rápido entrar no aplicativo sem ter que tocar no botão ENTER se a senha mestra estiver correta</string>
+    <string name="pref_security_summary_fast_enter">Você não precisa pressionar o botão se a senha mestra estiver correta</string>
     <string name="pref_security_title_auto_exit">Saída automática</string>
-    <string name="pref_security_summary_auto_exit">O aplicativo será desligado automaticamente quando a tela é desligada</string>
+    <string name="pref_security_summary_auto_exit">Quando a tela é desligada</string>
+    <string name="pref_security_title_allow_screenshots">Permitir capturas de tela</string>
     <string name="pref_security_title_clipboard_clear">Limpar área de transferência</string>
     <string name="pref_security_clipboard_clear_never">Nunca</string>
     <string name="pref_security_clipboard_clear_one_min">1 minuto</string>

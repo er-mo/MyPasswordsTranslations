@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
     <string name="button_new_field">DODAJ POLE</string>
+    <string name="button_more">Więcej</string>
     <string name="button_delete_field">Usuń pole</string>
     <string name="navigation_drawer_open">Otwarta szuflada nawigacji</string>
     <string name="navigation_drawer_close">Zamknij szufladę nawigacji</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">dobrze</string>
+    <string name="dialog_button_learn_more">Ucz się więcej</string>
     <string name="dialog_button_continue">Dalej</string>
     <string name="dialog_button_cancel">Anuluj</string>
     <string name="dialog_button_delete">Usuń</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nowe pole</string>
     <string name="dialog_title_set_labels">Ustaw etykiety</string>
     <string name="dialog_title_rating">Oceń aplikację</string>
+    <string name="dialog_title_feature_shutdown">Wyłączenie funkcji</string>
+    <string name="dialog_msg_feature_shutdown">Ta funkcja automatycznej kopii zapasowej zostanie wyłączona 6 grudnia 2019 r. Zamiast tego należy użyć kopii zapasowej urządzenia z systemem Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
     <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
     <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_delete_label">Usunąć etykietę?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Usunąć pole?</string>
     <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Zmień hasło główne</string>
     <string name="pref_security_title_fast_enter">Szybkie otwarcie</string>
-    <string name="pref_security_summary_fast_enter">Jeśli główne hasło jest poprawne, automatycznie otwiera aplikację.</string>
+    <string name="pref_security_summary_fast_enter">Nie musisz naciskać przycisku, jeśli hasło główne jest poprawne</string>
     <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
-    <string name="pref_security_summary_auto_exit">Wyłączenie ekranu zamknie aplikację.</string>
+    <string name="pref_security_summary_auto_exit">Gdy ekran się wyłączy</string>
+    <string name="pref_security_title_allow_screenshots">Zezwalaj na zrzuty ekranu</string>
     <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
     <string name="pref_security_clipboard_clear_never">Nigdy</string>
     <string name="pref_security_clipboard_clear_one_min">1 minuta</string>

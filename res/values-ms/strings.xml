@@ -46,6 +46,7 @@
     <string name="button_labels">LABEL</string>
     <string name="button_attach_image">melampirkan imej</string>
     <string name="button_new_field">tambah medan</string>
+    <string name="button_more">Lebih</string>
     <string name="button_delete_field">Padamkan medan</string>
     <string name="navigation_drawer_open">Buka laci navigasi</string>
     <string name="navigation_drawer_close">Tutup laci navigasi</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Ketahui lebih lanjut</string>
     <string name="dialog_button_continue">Teruskan</string>
     <string name="dialog_button_cancel">Batalkan</string>
     <string name="dialog_button_delete">Padam</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Medan baru</string>
     <string name="dialog_title_set_labels">Tetapkan label</string>
     <string name="dialog_title_rating">Rate aplikasi ini</string>
+    <string name="dialog_title_feature_shutdown">Penutupan ciri</string>
+    <string name="dialog_msg_feature_shutdown">Ciri sandaran automatik ini akan ditolak pada 6 Disember 2019. Sebaliknya anda harus menggunakan sandaran peranti Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Semua entri semasa akan dipadamkan.</string>
     <string name="dialog_msg_changing_master_password">Dengan mengubah kata laluan utama anda tidak akan dapat memulihkan sandaran pangkalan data yang dibuat dengan kata laluan induk semasa.</string>
     <string name="dialog_msg_delete_selected_entries">Padamkan entri yang dipilih?</string>
     <string name="dialog_msg_delete_entry">Padamkan entri?</string>
-    <string name="dialog_msg_delete_label">PadamkPengesahan pembayaran gagal.an label?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_label">Padamkan label?</string>
+    <string name="dialog_msg_delete_field">Padamkan medan?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_payload_failed">Pengesahan pembayaran gagal.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Tukar kata laluan induk</string>
     <string name="pref_security_title_fast_enter">Masukkan cepat</string>
-    <string name="pref_security_summary_fast_enter">Membuatnya lebih cepat untuk memasukkan aplikasi tanpa perlu menekan butang ENTER jika kata laluan induk betul</string>
+    <string name="pref_security_summary_fast_enter">Anda tidak perlu menekan butang jika kata laluan induk betul</string>
     <string name="pref_security_title_auto_exit">Keluar keluar automatik</string>
-    <string name="pref_security_summary_auto_exit">Permohonan akan keluar secara automatik apabila skrin dimatikan</string>
+    <string name="pref_security_summary_auto_exit">Apabila skrin dimatikan</string>
+    <string name="pref_security_title_allow_screenshots">Benarkan tangkapan skrin</string>
     <string name="pref_security_title_clipboard_clear">Kosongkan papan klip</string>
     <string name="pref_security_clipboard_clear_never">Tidak pernah</string>
     <string name="pref_security_clipboard_clear_one_min">1 minit</string>

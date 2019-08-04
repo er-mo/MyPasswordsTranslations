@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ADJUNTAR IMAGEN</string>
     <string name="button_new_field">AGREGUE CAMPO</string>
+    <string name="button_more">Más</string>
     <string name="button_delete_field">Eliminar campo</string>
     <string name="navigation_drawer_open">Cajón de navegación abierto.</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Aceptar</string>
+    <string name="dialog_button_learn_more">Aprende más</string>
     <string name="dialog_button_continue">Continuar</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_delete">Eliminar</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nuevo campo</string>
     <string name="dialog_title_set_labels">Establecer etiquetas</string>
     <string name="dialog_title_rating">Valorar la aplicación</string>
+    <string name="dialog_title_feature_shutdown">Apagado de funciones</string>
+    <string name="dialog_msg_feature_shutdown">Esta función de copia de seguridad automática se desactivará el 6 de diciembre de 2019. En su lugar, debe usar la copia de seguridad del dispositivo Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Se eliminarán todas las entradas actuales.</string>
     <string name="dialog_msg_changing_master_password">Al cambiar la contraseña maestra, no podrás restaurar los respaldos de las bases de datos que se crearon con la contraseña maestra actual.</string>
     <string name="dialog_msg_delete_selected_entries">¿Eliminar las entradas seleccionadas?</string>
     <string name="dialog_msg_delete_entry">¿Eliminar la entrada?</string>
     <string name="dialog_msg_delete_label">¿Eliminar etiqueta?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">¿Eliminar campo?</string>
     <string name="dialog_msg_discard_changes">¿Descartar los cambios?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
     <string name="dialog_msg_payload_failed">Error de verificación de la carga.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambiar contraseña maestra</string>
     <string name="pref_security_title_fast_enter">Entrada rápida</string>
-    <string name="pref_security_summary_fast_enter">Hace que entrar a la aplicación sea más rápido sin tener que tocar el botón ENTRAR si la contraseña maestra es correcta</string>
+    <string name="pref_security_summary_fast_enter">No tiene que presionar el botón si la contraseña maestra es correcta</string>
     <string name="pref_security_title_auto_exit">Salida automática</string>
-    <string name="pref_security_summary_auto_exit">La aplicación se cerrará automáticamente cuando la pantalla se apague</string>
+    <string name="pref_security_summary_auto_exit">Cuando la pantalla se apague</string>
+    <string name="pref_security_title_allow_screenshots">Permitir capturas de pantalla</string>
     <string name="pref_security_title_clipboard_clear">Vaciar portapapeles</string>
     <string name="pref_security_clipboard_clear_never">Nunca</string>
     <string name="pref_security_clipboard_clear_one_min">1 minuto</string>

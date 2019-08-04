@@ -46,6 +46,7 @@
     <string name="button_labels">تسميات</string>
     <string name="button_attach_image">إرفاق الصور</string>
     <string name="button_new_field">إضافة حقل</string>
+    <string name="button_more">إضافي</string>
     <string name="button_delete_field">حذف الحقل</string>
     <string name="navigation_drawer_open">افتح درج التنقل</string>
     <string name="navigation_drawer_close">إغلاق درج التنقل</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">حسنا</string>
+    <string name="dialog_button_learn_more">أعرف أكثر</string>
     <string name="dialog_button_continue">استمر</string>
     <string name="dialog_button_cancel">إلغاء</string>
     <string name="dialog_button_delete">حذف</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">حقل جديد</string>
     <string name="dialog_title_set_labels">مجموعة العلامات</string>
     <string name="dialog_title_rating">قيم هذا التطبيق</string>
+    <string name="dialog_title_feature_shutdown">ميزة الاغلاق</string>
+    <string name="dialog_msg_feature_shutdown">سيتم إيقاف ميزة النسخ الاحتياطي التلقائي هذه في 6 ديسمبر 2019. يجب عليك بدلاً من ذلك استخدام نسخة احتياطية لجهاز Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">سيتم حذف جميع الإدخالات الحالية.</string>
     <string name="dialog_msg_changing_master_password">عن طريق تغيير كلمة المرور الرئيسية ، لن تتمكن من استعادة النسخ الاحتياطية لقاعدة البيانات التي تم إنشاؤها باستخدام كلمة المرور الرئيسية الحالية.</string>
     <string name="dialog_msg_delete_selected_entries">حذف الإدخالات المحددة؟</string>
     <string name="dialog_msg_delete_entry">حذف المدخلات؟</string>
     <string name="dialog_msg_delete_label">حذف التسمية؟</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">حذف المجال؟</string>
     <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
     <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
     <string name="dialog_msg_payload_failed">فشل التحقق من الدفع</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">تغيير كلمة المرور الرئيسية</string>
     <string name="pref_security_title_fast_enter">ادخل بسرعة</string>
-    <string name="pref_security_summary_fast_enter">يجعله أسرع في إدخال التطبيق دون الحاجة إلى النقر فوق الزر ENTER (إدخال) إذا كانت كلمة المرور الرئيسية صحيحة</string>
+    <string name="pref_security_summary_fast_enter">ليس عليك الضغط على الزر إذا كانت كلمة المرور الرئيسية صحيحة</string>
     <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
-    <string name="pref_security_summary_auto_exit">سيتم إنهاء التطبيق تلقائيًا عند إيقاف تشغيل الشاشة</string>
+    <string name="pref_security_summary_auto_exit">عندما تنطفئ الشاشة</string>
+    <string name="pref_security_title_allow_screenshots">السماح لقطات</string>
     <string name="pref_security_title_clipboard_clear">مسح الحافظة</string>
     <string name="pref_security_clipboard_clear_never">أبدا</string>
     <string name="pref_security_clipboard_clear_one_min">دقيقة واحدة</string>

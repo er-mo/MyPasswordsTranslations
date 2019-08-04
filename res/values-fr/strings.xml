@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">joindre une image</string>
     <string name="button_new_field">Ajouter Le Champ</string>
+    <string name="button_more">Plus</string>
     <string name="button_delete_field">Supprimer le champ</string>
     <string name="navigation_drawer_open">Ouvrir un tiroir de navigation</string>
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">D\'accord</string>
+    <string name="dialog_button_learn_more">Apprendre encore plus</string>
     <string name="dialog_button_continue">Continuer</string>
     <string name="dialog_button_cancel">Annulation</string>
     <string name="dialog_button_delete">Je supprime</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nouveau champ</string>
     <string name="dialog_title_set_labels">Définir des étiquettes</string>
     <string name="dialog_title_rating">Evaluation de l\'application</string>
+    <string name="dialog_title_feature_shutdown">Fermeture des fonctionnalités</string>
+    <string name="dialog_msg_feature_shutdown">Cette fonctionnalité de sauvegarde automatique sera désactivée le 6 décembre 2019. Vous devriez plutôt utiliser la sauvegarde de périphérique Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Toutes les entrées actuelles seront supprimées.</string>
     <string name="dialog_msg_changing_master_password">En modifiant votre mot de passe principal, vous ne pourrez pas restaurer les sauvegardes des bases  créées avec le mot de principal passe actuel.</string>
     <string name="dialog_msg_delete_selected_entries">Supprimer les entrées sélectionnées?</string>
     <string name="dialog_msg_delete_entry">Supprimer l\'entrée?</string>
     <string name="dialog_msg_delete_label">Supprimer l\'étiquette?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Supprimer le champ?</string>
     <string name="dialog_msg_discard_changes">Annuler les modifications?</string>
     <string name="dialog_msg_cannot_open_folder">Le dossier n\'est pas accessible.</string>
     <string name="dialog_msg_payload_failed">échec de la vérification du paiement.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Changer le mot de passe principal</string>
     <string name="pref_security_title_fast_enter">Entrée rapide</string>
-    <string name="pref_security_summary_fast_enter">Permet d’accéder plus rapidement à l\'application sans avoir à appuyer sur le bouton ENTER si le mot de passe principal est correct</string>
+    <string name="pref_security_summary_fast_enter">Vous n\'êtes pas obligé d\'appuyer sur le bouton si le mot de passe principal est correct</string>
     <string name="pref_security_title_auto_exit">Sortie automatique</string>
-    <string name="pref_security_summary_auto_exit">L\'application s\'éteindra automatiquement lorsque l\'écran s\'éteindra</string>
+    <string name="pref_security_summary_auto_exit">Quand l\'écran s\'éteint</string>
+    <string name="pref_security_title_allow_screenshots">Autoriser les captures d\'écran</string>
     <string name="pref_security_title_clipboard_clear">Clair presse-papiers</string>
     <string name="pref_security_clipboard_clear_never">Jamais</string>
     <string name="pref_security_clipboard_clear_one_min">1 minute</string>

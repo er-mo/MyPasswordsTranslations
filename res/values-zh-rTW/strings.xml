@@ -46,6 +46,7 @@
     <string name="button_labels">標籤</string>
     <string name="button_attach_image">附著圖像</string>
     <string name="button_new_field">添加字段</string>
+    <string name="button_more">更多</string>
     <string name="button_delete_field">刪除字段</string>
     <string name="navigation_drawer_open">打開導航抽屜</string>
     <string name="navigation_drawer_close">關閉導航抽屜</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">確定</string>
+    <string name="dialog_button_learn_more">學到更多</string>
     <string name="dialog_button_continue">繼續</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">刪除</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">新領域</string>
     <string name="dialog_title_set_labels">設置標籤</string>
     <string name="dialog_title_rating">為這個應用軟件評分</string>
+    <string name="dialog_title_feature_shutdown">功能關閉</string>
+    <string name="dialog_msg_feature_shutdown">此自動備份功能將於2019年12月6日被拒絕。您應該使用Android設備備份。</string>
     <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
     <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
     <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
     <string name="dialog_msg_delete_entry">是否刪除條目？</string>
     <string name="dialog_msg_delete_label">刪除標籤？</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">刪除字段？</string>
     <string name="dialog_msg_discard_changes">放棄更改？</string>
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
     <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密碼</string>
     <string name="pref_security_title_fast_enter">快速進入</string>
-    <string name="pref_security_summary_fast_enter">當密碼正確時將不需要點選“進入”按鈕直接到達程式主畫面</string>
+    <string name="pref_security_summary_fast_enter">如果主密碼正確，則無需按按鈕</string>
     <string name="pref_security_title_auto_exit">自動離開</string>
-    <string name="pref_security_summary_auto_exit">當裝置螢幕關閉時將自動離開應用程式</string>
+    <string name="pref_security_summary_auto_exit">屏幕關閉時</string>
+    <string name="pref_security_title_allow_screenshots">允許截圖</string>
     <string name="pref_security_title_clipboard_clear">清除剪貼板</string>
     <string name="pref_security_clipboard_clear_never">決不</string>
     <string name="pref_security_clipboard_clear_one_min">1分鐘</string>

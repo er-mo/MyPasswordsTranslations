@@ -46,6 +46,7 @@
     <string name="button_labels">标签</string>
     <string name="button_attach_image">附着图片</string>
     <string name="button_new_field">添加字段</string>
+    <string name="button_more">更多</string>
     <string name="button_delete_field">删除字段</string>
     <string name="navigation_drawer_open">开启侧边栏</string>
     <string name="navigation_drawer_close">关闭侧边栏</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">确定</string>
+    <string name="dialog_button_learn_more">学到更多</string>
     <string name="dialog_button_continue">继续</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_delete">删除</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">新字段</string>
     <string name="dialog_title_set_labels">设置标签</string>
     <string name="dialog_title_rating">为这个应用软件评分</string>
+    <string name="dialog_title_feature_shutdown">功能关闭</string>
+    <string name="dialog_msg_feature_shutdown">此自动备份功能将于2019年12月6日被拒绝。您应该使用Android设备备份。</string>
     <string name="dialog_msg_entries_will_be_deleted">当前所有条目将被删除。</string>
     <string name="dialog_msg_changing_master_password">更改主密码后将无法恢复当前主密码创建的数据库备份。</string>
     <string name="dialog_msg_delete_selected_entries">确定删除所选条目？</string>
     <string name="dialog_msg_delete_entry">确定删除条目？</string>
     <string name="dialog_msg_delete_label">确定删除标签？</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">删除字段？</string>
     <string name="dialog_msg_discard_changes">放弃更改？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速登录</string>
-    <string name="pref_security_summary_fast_enter">输入主密码直接登录应用程序</string>
+    <string name="pref_security_summary_fast_enter">如果主密码正确，则无需按按钮</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
-    <string name="pref_security_summary_auto_exit">屏幕关闭后应用程序自动退出</string>
+    <string name="pref_security_summary_auto_exit">屏幕关闭时</string>
+    <string name="pref_security_title_allow_screenshots">允许截图</string>
     <string name="pref_security_title_clipboard_clear">清除剪贴板</string>
     <string name="pref_security_clipboard_clear_never">从不</string>
     <string name="pref_security_clipboard_clear_one_min">每1分钟</string>

@@ -46,6 +46,7 @@
     <string name="button_labels">LABEL</string>
     <string name="button_attach_image">lampirkan gambar</string>
     <string name="button_new_field">tambahkan bidang</string>
+    <string name="button_more">Lebih</string>
     <string name="button_delete_field">Hapus bidang</string>
     <string name="navigation_drawer_open">Buka laci navigasi</string>
     <string name="navigation_drawer_close">Tutup laci navigasi</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Baiklah</string>
+    <string name="dialog_button_learn_more">Belajarlah lagi</string>
     <string name="dialog_button_continue">Lanjutkan</string>
     <string name="dialog_button_cancel">Membatalkan</string>
     <string name="dialog_button_delete">Menghapus</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Bidang baru</string>
     <string name="dialog_title_set_labels">Tetapkan label</string>
     <string name="dialog_title_rating">Nilai aplikasi ini</string>
+    <string name="dialog_title_feature_shutdown">Shutdown fitur</string>
+    <string name="dialog_msg_feature_shutdown">Fitur cadangan otomatis ini akan ditolak pada 6 Desember 2019. Anda sebaiknya menggunakan cadangan perangkat Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
     <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
     <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
     <string name="dialog_msg_delete_entry">Hapus Entri?</string>
     <string name="dialog_msg_delete_label">Hapus label?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Hapus bidang?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_payload_failed">Verifikasi pembayaran gagal.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
     <string name="pref_security_title_fast_enter">Entri cepat</string>
-    <string name="pref_security_summary_fast_enter">Membuatnya lebih cepat untuk memasuki aplikasi tanpa harus mengetuk tombol ENTER jika kata sandi utama sudah benar</string>
+    <string name="pref_security_summary_fast_enter">Anda tidak perlu menekan tombol jika kata sandi utama sudah benar</string>
     <string name="pref_security_title_auto_exit">Keluar otomatis</string>
-    <string name="pref_security_summary_auto_exit">Aplikasi akan secara otomatis keluar ketika layar mati</string>
+    <string name="pref_security_summary_auto_exit">Saat layar mati</string>
+    <string name="pref_security_title_allow_screenshots">Izinkan tangkapan layar</string>
     <string name="pref_security_title_clipboard_clear">Bersihkan clipboard</string>
     <string name="pref_security_clipboard_clear_never">Tak pernah</string>
     <string name="pref_security_clipboard_clear_one_min">satu menit</string>

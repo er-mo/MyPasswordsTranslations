@@ -46,6 +46,7 @@
     <string name="button_labels">ETİKETLER</string>
     <string name="button_attach_image">RESİM İLİŞTİRMEK</string>
     <string name="button_new_field">ALAN EKLE</string>
+    <string name="button_more">Daha</string>
     <string name="button_delete_field">Alanı sil</string>
     <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
     <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">Tamam</string>
+    <string name="dialog_button_learn_more">Daha fazla bilgi edin</string>
     <string name="dialog_button_continue">Devam</string>
     <string name="dialog_button_cancel">İptal</string>
     <string name="dialog_button_delete">Sil</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Yeni alan</string>
     <string name="dialog_title_set_labels">Etiketleri ayarla</string>
     <string name="dialog_title_rating">Bu uygulamayı oyla</string>
+    <string name="dialog_title_feature_shutdown">Özellik kapatma</string>
+    <string name="dialog_msg_feature_shutdown">Bu otomatik yedekleme özelliği 6 Aralık 2019\'da kapatılacak. Bunun yerine Android cihaz yedeklemesini kullanmalısınız.</string>
     <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
     <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
     <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
     <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
     <string name="dialog_msg_delete_label">Etiketi sil?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Alanı sil?</string>
     <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
     <string name="pref_security_title_fast_enter">Hızlı giriş</string>
-    <string name="pref_security_summary_fast_enter">Ana şifre doğruysa uygulamaya daha hızlı giriş için· giriş butonuna basmak gerekmez</string>
+    <string name="pref_security_summary_fast_enter">Ana parola doğru ise düğmeye basmanız gerekmez</string>
     <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
-    <string name="pref_security_summary_auto_exit">Ekran kapandığında uygulama otomatik olarak çıkacaktır</string>
+    <string name="pref_security_summary_auto_exit">Ekran kapandığında</string>
+    <string name="pref_security_title_allow_screenshots">Ekran görüntülerine izin ver</string>
     <string name="pref_security_title_clipboard_clear">Panoya temizle</string>
     <string name="pref_security_clipboard_clear_never">Hiç</string>
     <string name="pref_security_clipboard_clear_one_min">1 Dakika</string>

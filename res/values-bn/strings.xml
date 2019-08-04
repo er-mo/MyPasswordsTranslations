@@ -46,6 +46,7 @@
     <string name="button_labels">লেবেল</string>
     <string name="button_attach_image">ছবি সংযুক্ত করুন</string>
     <string name="button_new_field">ক্ষেত্র যোগ করুন</string>
+    <string name="button_more">অধিক</string>
     <string name="button_delete_field">ক্ষেত্র মুছে ফেলুন</string>
     <string name="navigation_drawer_open">ন্যাভিগেশন ড্রয়ার খুলুন</string>
     <string name="navigation_drawer_close">ন্যাভিগেশন ড্রয়ার বন্ধ করুন</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">ঠিক আছে</string>
+    <string name="dialog_button_learn_more">আরও জানুন</string>
     <string name="dialog_button_continue">চালিয়ে</string>
     <string name="dialog_button_cancel">বাতিল</string>
     <string name="dialog_button_delete">মুছে ফেলা</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">নূতন ক্ষেত্র</string>
     <string name="dialog_title_set_labels">লেবেল সেট করুন</string>
     <string name="dialog_title_rating">রেটিং করুন</string>
+    <string name="dialog_title_feature_shutdown">বৈশিষ্ট্য বন্ধ</string>
+    <string name="dialog_msg_feature_shutdown">এই অটো ব্যাকআপ বৈশিষ্ট্যটি 6 ডিসেম্বর, 2019 এ প্রত্যাখ্যান করা হবে।</string>
     <string name="dialog_msg_entries_will_be_deleted">সমস্ত বর্তমান এন্ট্রি মুছে ফেলা হবে।</string>
     <string name="dialog_msg_changing_master_password">আপনার মাস্টার পাসওয়ার্ড পরিবর্তন করে, আপনি বর্তমান মাস্টার পাসওয়ার্ড দিয়ে তৈরি ডেটাবেসের ব্যাকআপগুলি পুনরুদ্ধার করতে পারবেন না।</string>
     <string name="dialog_msg_delete_selected_entries">নির্বাচিত এন্ট্রি মুছবেন?</string>
     <string name="dialog_msg_delete_entry">এন্ট্রি মুছবেন?</string>
     <string name="dialog_msg_delete_label">লেবেল মুছবেন?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">ক্ষেত্র মুছে ফেলুন?</string>
     <string name="dialog_msg_discard_changes">পরিবর্তন বাতিল?</string>
     <string name="dialog_msg_cannot_open_folder">ফোল্ডার প্রবেশযোগ্য নয়।</string>
     <string name="dialog_msg_payload_failed">পেমেন্ট যাচাই ব্যর্থ হয়েছে।</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">মাস্টার পাসওয়ার্ড পরিবর্তন করুন</string>
     <string name="pref_security_title_fast_enter">দ্রুত প্রবেশ করুন</string>
-    <string name="pref_security_summary_fast_enter">মাস্টার পাসওয়ার্ডটি সঠিক হলে এন্টার বোতামটিতে ট্যাপ না করে অ্যাপ্লিকেশনটিতে প্রবেশ করা দ্রুত করে তোলে</string>
+    <string name="pref_security_summary_fast_enter">মাস্টার পাসওয়ার্ড সঠিক হলে আপনাকে বোতাম টিপতে হবে না</string>
     <string name="pref_security_title_auto_exit">অটো প্রস্থান</string>
-    <string name="pref_security_summary_auto_exit">পর্দা বন্ধ হলে অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে প্রস্থান হবে</string>
+    <string name="pref_security_summary_auto_exit">স্ক্রিনটি বন্ধ হয়ে গেলে</string>
+    <string name="pref_security_title_allow_screenshots">স্ক্রিনশটগুলি অনুমতি দিন</string>
     <string name="pref_security_title_clipboard_clear">ক্লিপবোর্ড সাফ করুন</string>
     <string name="pref_security_clipboard_clear_never">না</string>
     <string name="pref_security_clipboard_clear_one_min">১ মিনিট</string>

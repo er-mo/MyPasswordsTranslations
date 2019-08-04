@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">BEVESTIG IMAGE</string>
     <string name="button_new_field">VOEG VELD TOE</string>
+    <string name="button_more">Meer</string>
     <string name="button_delete_field">Veld verwijderen</string>
     <string name="navigation_drawer_open">Open de navigatielade</string>
     <string name="navigation_drawer_close">Sluit de navigatielade</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Kom meer te weten</string>
     <string name="dialog_button_continue">Doorgaan</string>
     <string name="dialog_button_cancel">Afbreken</string>
     <string name="dialog_button_delete">Wis</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nieuw veld</string>
     <string name="dialog_title_set_labels">Labels instellen</string>
     <string name="dialog_title_rating">Beoordeel de app</string>
+    <string name="dialog_title_feature_shutdown">Functie uitgeschakeld</string>
+    <string name="dialog_msg_feature_shutdown">Deze automatische back-upfunctie wordt op 6 december 2019 afgewezen. Gebruik in plaats daarvan de back-up van het Android-apparaat.</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
     <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
     <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
     <string name="dialog_msg_delete_entry">Invoer wissen?</string>
     <string name="dialog_msg_delete_label">Label verwijderen?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Veld verwijderen?</string>
     <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
     <string name="pref_security_title_fast_enter">Snelle invoer</string>
-    <string name="pref_security_summary_fast_enter">Sneller toegang tot de app door niet op ENTER te drukken als het hoofdwachtwoord juist is</string>
+    <string name="pref_security_summary_fast_enter">U hoeft niet op de knop te drukken als het hoofdwachtwoord correct is</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">Deze applicatie sluit vanzelf af als het scherm uit gaat</string>
+    <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld</string>
+    <string name="pref_security_title_allow_screenshots">Schermafbeeldingen toestaan</string>
     <string name="pref_security_title_clipboard_clear">Wis klembord geheugen</string>
     <string name="pref_security_clipboard_clear_never">Nooit</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>

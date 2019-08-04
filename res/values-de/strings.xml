@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">BILD ANFÜGEN</string>
     <string name="button_new_field">FELD HINZUFÜGEN</string>
+    <string name="button_more">Mehr</string>
     <string name="button_delete_field">Feld löschen</string>
     <string name="navigation_drawer_open">Öffnen Sie die Navigationsleiste</string>
     <string name="navigation_drawer_close">Navigationsleiste schließen</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Mehr erfahren</string>
     <string name="dialog_button_continue">Fortsetzen</string>
     <string name="dialog_button_cancel">Abbrechen</string>
     <string name="dialog_button_delete">Löschen</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Neues Feld</string>
     <string name="dialog_title_set_labels">Etiketten setzen</string>
     <string name="dialog_title_rating">Bewertung</string>
+    <string name="dialog_title_feature_shutdown">Feature herunterfahren</string>
+    <string name="dialog_msg_feature_shutdown">Diese automatische Sicherungsfunktion wird am 6. Dezember 2019 deaktiviert. Sie sollten stattdessen die Android-Gerätesicherung verwenden.</string>
     <string name="dialog_msg_entries_will_be_deleted">Alle aktuellen Einträge werden gelöscht.</string>
     <string name="dialog_msg_changing_master_password">Durch das Ändern des Master Passworts können Sie keine Datenbanksicherungen wiederherstellen, die mit dem aktuellen Master-Passwort erstellt wurde.</string>
     <string name="dialog_msg_delete_selected_entries">Ausgewählte Einträge löschen?</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
     <string name="dialog_msg_delete_label">Etikett löschen?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Feld löschen?</string>
     <string name="dialog_msg_discard_changes">Änderungen verwerfen?</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_payload_failed">Payload-Überprüfung fehlgeschlagen.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Master Passwort ändern</string>
     <string name="pref_security_title_fast_enter">Schnell eintreten</string>
-    <string name="pref_security_summary_fast_enter">Macht es schneller, die Anwendung zu betreten, ohne die BESTÄTIGEN Taste zu drücken, wenn das Master Passwort korrekt ist</string>
+    <string name="pref_security_summary_fast_enter">Sie müssen die Taste nicht drücken, wenn das Master Passwort korrekt ist</string>
     <string name="pref_security_title_auto_exit">Automatische Sperre</string>
-    <string name="pref_security_summary_auto_exit">Die Anwendung wird automatisch beendet, wenn der Bildschirm ausgeschaltet wird</string>
+    <string name="pref_security_summary_auto_exit">Wenn sich der Bildschirm ausschaltet</string>
+    <string name="pref_security_title_allow_screenshots">Screenshots zulassen</string>
     <string name="pref_security_title_clipboard_clear">Zwischenablage leeren</string>
     <string name="pref_security_clipboard_clear_never">Niemals</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>

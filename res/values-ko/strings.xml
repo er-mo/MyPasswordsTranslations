@@ -1,52 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">내 암호</string>
-    <string name="app_description">안전하고 사용하기 쉬운 Android 기기 용 비밀번호 관리자</string>
-    <string name="app_download_message">Google Play 스토어에서 지금 무료로 사용해보세요.</string>
+    <string name="app_name">My Passwords</string>
+    <string name="app_description">안전하고 사용하기 쉬운 안드로이드용 패스워드 관리 앱</string>
+    <string name="app_download_message">구글 플레이 스토어에서 지금 무료로 받아 보세요.</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
     <string name="current_location_folder">위치</string>
-    <string name="password_is_too_short">비밀번호가 너무 짧습니다</string>
-    <string name="passwords_not_matching">암호가 일치하지 않습니다.</string>
-    <string name="password_not_correct">암호가 잘못되었습니다.</string>
-    <string name="password_not_only_numbers">비밀번호는 숫자뿐만 아니라</string>
-    <string name="password_strength_hint_very_weak">매우 약한!</string>
-    <string name="password_strength_hint_weak">약한!</string>
-    <string name="password_strength_hint_good">좋은!</string>
-    <string name="password_strength_hint_strong">강한!</string>
-    <string name="password_strength_hint_very_strong">매우 강한!</string>
+    <string name="password_is_too_short">패스워드가 너무 짧음</string>
+    <string name="passwords_not_matching">패스워드가 맞지 않음</string>
+    <string name="password_not_correct">패스워드 틀림</string>
+    <string name="password_not_only_numbers">패스워드가 숫자들만으로 이루어지지 않았음</string>
+    <string name="password_strength_hint_very_weak">아주 약함!</string>
+    <string name="password_strength_hint_weak">약함!</string>
+    <string name="password_strength_hint_good">좋음!</string>
+    <string name="password_strength_hint_strong">강함!</string>
+    <string name="password_strength_hint_very_strong">아주 강함!</string>
     <string name="required">필수</string>
     <string name="title">제목</string>
     <string name="account">계정</string>
-    <string name="password">암호</string>
-    <string name="username">사용자 이름</string>
-    <string name="website">웹 사이트</string>
+    <string name="password">패스워드</string>
+    <string name="username">유저네임</string>
+    <string name="website">웹사이트</string>
     <string name="notes">노트</string>
-    <string name="list_is_empty">항목이 없습니다.</string>
+    <string name="list_is_empty">항목이 없음</string>
     <string name="last_updated">마지막 업데이트</string>
-    <string name="copy">(사본)</string>
+    <string name="copy">(복사)</string>
     <string name="new_field_hint">이름</string>
     <string name="add_new_label">새 레이블 추가</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">레지스터</string>
-    <string name="button_enter">들어가다</string>
+    <string name="button_register">등록</string>
+    <string name="button_enter">입력</string>
     <string name="button_faq">FAQ</string>
     <string name="button_upgrade_now">지금 업그레이드하십시오.</string>
-    <string name="button_update">현대화</string>
-    <string name="button_exit">출구</string>
-    <string name="button_sure">확실한</string>
-    <string name="button_gotit">알았다</string>
+    <string name="button_update">업데이트</string>
+    <string name="button_exit">나가기</string>
+    <string name="button_sure">예</string>
+    <string name="button_gotit">확인</string>
     <string name="button_labels">레이블</string>
     <string name="button_attach_image">이미지 첨부</string>
-    <string name="button_new_field">입력란 추가</string>
-    <string name="button_delete_field">입력란 삭제</string>
+    <string name="button_new_field">필드 추가</string>
+    <string name="button_more">더</string>
+    <string name="button_delete_field">필드 삭제</string>
     <string name="navigation_drawer_open">탐색 창 열기</string>
     <string name="navigation_drawer_close">탐색 창 닫기</string>
     <!-- ################################################################################# -->
@@ -54,23 +55,23 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">내 암호에 오신 것을 환영합니다.</string>
-    <string name="welcome_info_content">응용 프로그램 사용을 시작하려면 마스터 암호를 등록하십시오. 마스터 비밀번호를 잃어버린 경우 동기화 옵션이 없기 때문에 저장된 데이터를 복구 할 수 없습니다. 정기적으로 데이터를 백업하는 것이 좋습니다.</string>
+    <string name="welcome_info_title">My Passwords 이용을 환영합니다.</string>
+    <string name="welcome_info_content">앱을 시작하려면 마스터 패스워드를 등록하십시오. 동기화 옵션이 없으므로 마스터 패스워드를 분실하면 저장된 데이터를 되살릴 수 없습니다. 주기적으로 데이터를 반드시 백업하시기 바랍니다.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">PRO 버전을 구입해 주셔서 감사합니다.</string>
-    <string name="upgrade_feature_1">CSV 파일 내보내기 및 가져 오기</string>
+    <string name="upgrade_thank_you">프로 버전을 구입해 주셔서 고맙습니다.</string>
+    <string name="upgrade_feature_1">CSV 파일 내보내기 및 불러오기</string>
     <string name="upgrade_feature_2">자동 백업</string>
     <string name="upgrade_feature_3">테마 선택</string>
-    <string name="upgrade_feature_4">클립 보드 자동 지우기</string>
-    <string name="upgrade_feature_5">자기 파괴</string>
-    <string name="upgrade_feature_6">지문을 사용하여 입력</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">비밀번호 기록</string>
+    <string name="upgrade_feature_4">클립보드 자동으로 지우기</string>
+    <string name="upgrade_feature_5">데이터 삭제</string>
+    <string name="upgrade_feature_6">지문으로 시작</string>
+    <string name="upgrade_feature_7">웨어 OS 앱</string>
+    <string name="upgrade_feature_8">패스워드 이력</string>
     <string name="upgrade_feature_9">이미지 첨부</string>
     <string name="upgrade_feature_10">사용자 정의 필드</string>
-    <string name="upgrade_feature_11">무제한 라벨</string>
-    <string name="upgrade_feature_12">생체 인증</string>
-    <string name="upgrade_with_single_purchase">단일 인앱 구매로 모든 추가 기능의 잠금을 해제하십시오.</string>
+    <string name="upgrade_feature_11">무제한 레이블</string>
+    <string name="upgrade_feature_12">생체인증</string>
+    <string name="upgrade_with_single_purchase">인-앱 하나를 구매하여 모든 추가 기능들을 이용하기</string>
     <!-- change master password -->
     <string name="change_mp_old_master_password">기존 비밀번호</string>
     <string name="change_mp_new_master_password">새 비밀번호</string>
@@ -78,220 +79,224 @@
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">수색</string>
+    <string name="menu_search">검색</string>
     <string name="menu_settings">설정</string>
-    <string name="menu_appearance">외관</string>
-    <string name="menu_database">데이터 베이스</string>
+    <string name="menu_appearance">모양</string>
+    <string name="menu_database">데이터베이스</string>
     <string name="menu_security">보안</string>
-    <string name="menu_about">약</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">PRO로 업그레이드</string>
-    <string name="menu_share">몫</string>
+    <string name="menu_about">기타</string>
+    <string name="menu_wear_os">웨어 OS</string>
+    <string name="menu_upgrade">프로 버전으로 업그레이드</string>
+    <string name="menu_share">공유</string>
     <string name="menu_copy_entry">복사본 만들기</string>
-    <string name="menu_edit">편집하다</string>
-    <string name="menu_delete">지우다</string>
-    <string name="menu_save">저장하다</string>
-    <string name="menu_set_labels">라벨 설정</string>
-    <string name="menu_attach_image">이미지 부착</string>
-    <string name="menu_add_field">입력란 추가</string>
-    <string name="menu_keyboard">건반</string>
+    <string name="menu_edit">편집</string>
+    <string name="menu_delete">삭제</string>
+    <string name="menu_save">저장</string>
+    <string name="menu_set_labels">레이블 설정</string>
+    <string name="menu_attach_image">이미지 첨부</string>
+    <string name="menu_add_field">필드 추가</string>
+    <string name="menu_keyboard">키보드</string>
     <string name="menu_add_to_watch">시계에 추가</string>
-    <string name="menu_clear_history">기록 지우기</string>
+    <string name="menu_clear_history">기록 삭제</string>
     <string name="menu_select_all">모두 선택</string>
-    <string name="menu_navigation_drawer_all_entries">모든</string>
-    <string name="menu_navigation_drawer_edit_labels">라벨 수정</string>
+    <string name="menu_navigation_drawer_all_entries">모두</string>
+    <string name="menu_navigation_drawer_edit_labels">레이블 편집</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">종료하려면 다시 살짝 누르십시오.</string>
-    <string name="toast_entry_deleted">항목이 삭제되었습니다.</string>
-    <string name="toast_entries_deleted">항목이 삭제되었습니다.</string>
-    <string name="toast_entry_saved">항목 저장 됨</string>
-    <string name="toast_try_again_shortly">몇 초 후에 다시 시도하십시오.</string>
-    <string name="toast_no_browser">웹 브라우저 응용 프로그램이 없습니다.</string>
-    <string name="toast_no_playstore">Google Play 스토어 앱이 설치되지 않았습니다.</string>
-    <string name="toast_tap_to_copy_text">콘텐츠를 복사하려면 텍스트보기를 탭하십시오.</string>
-    <string name="toast_copied_to_clipboard">클립 보드에 복사 됨</string>
-    <string name="toast_master_password_updated">마스터 비밀번호를 업데이트했습니다.</string>
-    <string name="toast_master_password_not_updated">마스터 비밀번호를 업데이트하지 못했습니다.</string>
-    <string name="toast_storage_permission_granted">허락 된 허가</string>
-    <string name="toast_storage_permission_denied">허가가 거부되었습니다. 파일을 읽거나 쓸 수 없습니다.</string>
-    <string name="toast_camera_permission_denied">허가가 거부되었습니다. 이미지를 캡처 할 수 없습니다.</string>
-    <string name="toast_no_file_selected">파일이 선택되지 않았습니다.</string>
-    <string name="toast_successful_backup">백업을 만들었습니다.</string>
-    <string name="toast_successful_restore">데이터베이스를 성공적으로 복원했습니다.</string>
-    <string name="toast_successful_csv_export">CSV 파일을 성공적으로 내 보냈습니다.</string>
-    <string name="toast_successful_csv_import">CSV 파일을 가져 왔습니다.</string>
-    <string name="toast_database_server_error">현재 데이터베이스를 사용할 수 없습니다.</string>
+    <string name="toast_tap_again_to_exit">종료하려면 다시 터치</string>
+    <string name="toast_entry_deleted">항목이 삭제되었음</string>
+    <string name="toast_entries_deleted">항목들이 삭제되었음</string>
+    <string name="toast_entry_saved">항목이 저장되었음</string>
+    <string name="toast_try_again_shortly">잠시 뒤 다시 시도하십시오.</string>
+    <string name="toast_no_browser">웹 브라우저가 설치되어 있지 않음</string>
+    <string name="toast_no_playstore">구글 플레이 스토어가 설치되어 있지 않음</string>
+    <string name="toast_tap_to_copy_text">텍스트 뷰를 터치하면 내용이 복사됨</string>
+    <string name="toast_copied_to_clipboard">클립보드로 복사됨</string>
+    <string name="toast_master_password_updated">마스터 패스워드 업데이트 성공</string>
+    <string name="toast_master_password_not_updated">마스터 패스워드 업데이트 실패</string>
+    <string name="toast_storage_permission_granted">권한이 허락되었음</string>
+    <string name="toast_storage_permission_denied">권한이 거부되어서 파일을 읽거나 쓸 수 없음</string>
+    <string name="toast_camera_permission_denied">권한이 거부되어서 이미지를 갈무리할 수 없음</string>
+    <string name="toast_no_file_selected">파일이 선택되지 않았음</string>
+    <string name="toast_successful_backup">백업 성공</string>
+    <string name="toast_successful_restore">데이터베이스를 불러오기 성공</string>
+    <string name="toast_successful_csv_export">CSV 파일 내보내기 성공</string>
+    <string name="toast_successful_csv_import">CSV 파일 불러오기 성공</string>
+    <string name="toast_database_server_error">데이터베이스 이용 불가</string>
     <string name="toast_added_to_watch">시계에 추가됨</string>
-    <string name="toast_removed_from_watch">추적에서 제거됨</string>
-    <string name="toast_playstore_error">Google Play 스토어 앱이 설치되지 않았습니다.</string>
-    <string name="toast_playstore_services_error">Google Play 서비스를 사용할 수 없습니다.</string>
-    <string name="toast_google_client_error">Google 클라이언트에 연결할 수 없습니다. 네트워크 연결 확인</string>
-    <string name="toast_storage_not_accessible">외부 저장소에 액세스 할 수 없습니다.</string>
-    <string name="toast_ask_for_rating">Google Play 스토어의 등급은 어떨까요?</string>
-    <string name="toast_auto_backup_hint">자동 백업을 이용한 비밀번호 보호</string>
-    <string name="toast_pro_feature">PRO 버전에서만 사용 가능</string>
-    <string name="toast_no_password_history">사용 가능한 암호 기록 없음</string>
-    <string name="toast_password_history_cleared">기록 삭제됨</string>
-    <string name="toast_remember_your_master_password">마스터 비밀번호를 기억하십시오.</string>
-    <string name="toast_label_exists">라벨이 이미 있습니다.</string>
-    <string name="toast_pro_feature_unlimited_labels">더 많은 라벨은 PRO 버전에서만 사용 가능합니다.</string>
-    <string name="toast_no_labels">라벨 없음</string>
+    <string name="toast_removed_from_watch">시계에서 제거됨</string>
+    <string name="toast_playstore_error">구글 플레이 스토어가 설치되어 있지 않음</string>
+    <string name="toast_playstore_services_error">구글 플레이 스토어를 이용할 수 없음</string>
+    <string name="toast_google_client_error">구글 클라이언트를 이용할 수 없으므로 네트워크를 확인할 것</string>
+    <string name="toast_storage_not_accessible">외부저장장치에 접속할 수 없음</string>
+    <string name="toast_ask_for_rating">구글 플레이 스토어 등급을 매겨 주시겠습니까?</string>
+    <string name="toast_auto_backup_hint">패스워드 보호를 위한 자동 백업 켜기</string>
+    <string name="toast_pro_feature">프로 버전에서만 사용 가능</string>
+    <string name="toast_no_password_history">패스워드 이력 없음</string>
+    <string name="toast_password_history_cleared">이력 삭제 성공</string>
+    <string name="toast_remember_your_master_password">마스터 패스워드를 기억하십시오.</string>
+    <string name="toast_label_exists">이미 있는 레이블입니다.</string>
+    <string name="toast_pro_feature_unlimited_labels">더 많은 레이블들은 프로 버전으로 이용할 수 있습니다.</string>
+    <string name="toast_no_labels">레이블 없음</string>
     <!-- ################################################################################# -->
 
 
     <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">승인</string>
-    <string name="dialog_button_continue">계속하기</string>
+    <string name="dialog_button_ok">확인</string>
+    <string name="dialog_button_learn_more">에 대해 자세히 알아보기</string>
+    <string name="dialog_button_continue">계속</string>
     <string name="dialog_button_cancel">취소</string>
-    <string name="dialog_button_delete">지우다</string>
-    <string name="dialog_button_discard">나는 거절한다.</string>
-    <string name="dialog_button_remove">나는 제거하고있다.</string>
-    <string name="dialog_button_rate">지금 평가</string>
-    <string name="dialog_button_later">후에</string>
-    <string name="dialog_button_never">절대 안함</string>
-    <string name="dialog_title_restore_backup">백업을 복원 하시겠습니까?</string>
-    <string name="dialog_title_import_csv">CSV 가져 오기?</string>
-    <string name="dialog_title_change_master_password">마스터 비밀번호를 변경 하시겠습니까?</string>
-    <string name="dialog_title_self_destruct">자기 파괴</string>
+    <string name="dialog_button_delete">삭제</string>
+    <string name="dialog_button_discard">거절</string>
+    <string name="dialog_button_remove">삭제</string>
+    <string name="dialog_button_rate">평가</string>
+    <string name="dialog_button_later">나중에</string>
+    <string name="dialog_button_never">거절</string>
+    <string name="dialog_title_restore_backup">백업한 것을 불러오시겠습니까?</string>
+    <string name="dialog_title_import_csv">CSV 파일을 불러오시겠습니까?</string>
+    <string name="dialog_title_change_master_password">마스터 패스워드를 변경하시겠습니까?</string>
+    <string name="dialog_title_self_destruct">데이터 삭제</string>
     <string name="dialog_title_authentication">인증</string>
     <string name="dialog_title_confirm_fp">지문 확인</string>
-    <string name="dialog_title_history">역사</string>
-    <string name="dialog_title_attach_another_image">다른 이미지를 첨부 하시겠습니까?</string>
+    <string name="dialog_title_history">이력</string>
+    <string name="dialog_title_attach_another_image">이미지를 추가로 첨부하시겠습니까?</string>
     <string name="dialog_title_new_field">새 필드</string>
-    <string name="dialog_title_set_labels">라벨 설정</string>
-    <string name="dialog_title_rating">앱의 평가</string>
-    <string name="dialog_msg_entries_will_be_deleted">모든 현재 항목이 삭제됩니다.</string>
-    <string name="dialog_msg_changing_master_password">마스터 비밀번호를 변경하면 현재 마스터 비밀번호로 생성 된 데이터베이스 백업을 복원 할 수 없습니다.</string>
-    <string name="dialog_msg_delete_selected_entries">선택한 항목을 삭제 하시겠습니까?</string>
-    <string name="dialog_msg_delete_entry">항목을 삭제 하시겠습니까?</string>
-    <string name="dialog_msg_delete_label">라벨을 삭제 하시겠습니까?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
-    <string name="dialog_msg_discard_changes">변경 사항을 취소?</string>
-    <string name="dialog_msg_cannot_open_folder">폴더에 액세스 할 수 없습니다.</string>
-    <string name="dialog_msg_payload_failed">결제 확인 실패</string>
-    <string name="dialog_msg_cannot_read_file">선택한 파일을 읽을 수 없습니다.</string>
-    <string name="dialog_msg_db_not_valid">데이터베이스 백업이 유효하지 않습니다.</string>
-    <string name="dialog_msg_db_different_pass">데이터베이스 백업은 다른 마스터 비밀번호를 사용하여 생성되었습니다.</string>
-    <string name="dialog_msg_csv_format_invalid">CSV 형식이 유효하지 않습니다.</string>
-    <string name="dialog_msg_csv_no_data">CSV 파일에 데이터가 없습니다.</string>
-    <string name="dialog_msg_error_writing_file">파일을 쓰는 중 오류가 발생했습니다.</string>
-    <string name="dialog_msg_error_reading_file">파일을 읽는 중 오류가 발생했습니다.</string>
-    <string name="dialog_msg_app_data_erased">실패한 시도로 인해 모든 데이터가 영구적으로 삭제되었습니다.</string>
-    <string name="dialog_msg_no_fp_hardware">지문 인식 하드웨어가 없거나 작동하지 않습니다.</string>
-    <string name="dialog_msg_no_fp_enrolled">등록 된 지문이 없습니다.</string>
-    <string name="dialog_msg_fp_not_recognized">지문 인식이되지 않습니다. 다시 시도하십시오.</string>
-    <string name="dialog_msg_fp_success">지문 인식. 기다려주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_set_labels">레이블 설정</string>
+    <string name="dialog_title_rating">앱 평가하기</string>
+    <string name="dialog_title_feature_shutdown">기능 종료</string>
+    <string name="dialog_msg_feature_shutdown">이 자동 백업 기능은 2019 년 12 월 6 일에 사용 중지됩니다. 대신 Android 기기 백업을 사용해야합니다.</string>
+    <string name="dialog_msg_entries_will_be_deleted">모든 항목들이 삭제됨</string>
+    <string name="dialog_msg_changing_master_password">마스터 패스워드를 변경하면 현재 마스터 패스워드로 배업된 데이터베이스를 복원할 수 없음</string>
+    <string name="dialog_msg_delete_selected_entries">선택된 항목을 삭제하시겠습니까?</string>
+    <string name="dialog_msg_delete_entry">항목을 삭제하시겠습니까?</string>
+    <string name="dialog_msg_delete_label">레이블을 삭제하시겠습니까?</string>
+    <string name="dialog_msg_delete_field">필드를 삭제하시겠습니까?</string>
+    <string name="dialog_msg_discard_changes">변경으 취소하시겠습니까?</string>
+    <string name="dialog_msg_cannot_open_folder">폴더를 읽을 수 없음</string>
+    <string name="dialog_msg_payload_failed">결제 인증 실패</string>
+    <string name="dialog_msg_cannot_read_file">선택된 파일을 읽을 수 없음</string>
+    <string name="dialog_msg_db_not_valid">데이터베이스 백업이 유효하지 않음</string>
+    <string name="dialog_msg_db_different_pass">데이터베이스가 다른 마스터 패스워드로 백업되었음</string>
+    <string name="dialog_msg_csv_format_invalid">CSV 파일 형식이 유효하지 않음</string>
+    <string name="dialog_msg_csv_no_data">CSV 파일에 데이터가 없음</string>
+    <string name="dialog_msg_error_writing_file">파일을 쓰는 중 오류가 발생했음</string>
+    <string name="dialog_msg_error_reading_file">파일을 읽는 중 오류가 발생했음</string>
+    <string name="dialog_msg_app_data_erased">잘못된 시도로 인해 모든 데이터가 영구적으로 삭제되었음</string>
+    <string name="dialog_msg_no_fp_hardware">지문인식장치가 없거나 작동하지 않음</string>
+    <string name="dialog_msg_no_fp_enrolled">등록된 지문이 없음</string>
+    <string name="dialog_msg_fp_not_recognized">지문이 인식되지 않으니 다시 시도하십시오.</string>
+    <string name="dialog_msg_fp_success">지문이 인식되었으니 잠시 기다려 주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">터치 센서</string>
-    <string name="dialog_msg_fp_keystore_error">지문 오류. 마스터 비밀번호를 사용하여 로그인 할 때 지문을 다시 사용하십시오.</string>
-    <string name="dialog_msg_pass_gen_trick">다른 유형 및 길이의 비밀번호를 생성하려면 여러 번 누릅니다.</string>
-    <string name="dialog_msg_remove_from_watch">시계에서 항목을 삭제 하시겠습니까?</string>
-    <string name="dialog_msg_attachments_warning">첨부 파일을 사용하면 데이터베이스 크기가 증가하고 응용 프로그램의 전체 성능이 저하 될 수 있습니다.</string>
-    <string name="dialog_msg_rating">이 앱을 사용해 주셔서 대단히 감사합니다. 괜찮으시면 앱의 평가를 부탁드립니다. 평가는 1분 정도 소요됩니다. 도와주셔서 감사합니다!</string>
-    <string name="dialog_progress_please_wait">기다려주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_fp_keystore_error">지문이 인식되지 않았으니 마스터 패스워드로 로그인하고 지문인식기능을 다시 활성화해야 함</string>
+    <string name="dialog_msg_pass_gen_trick">다른 형태/길이의 패스워드를 만들려면 계속 터치하십시오.</string>
+    <string name="dialog_msg_remove_from_watch">시계에서 항목을 삭제하시겠습니까?</string>
+    <string name="dialog_msg_attachments_warning">파일을 첨부하면 데이터베이스가 커져서 앱이 느려질 수 있음</string>
+    <string name="dialog_msg_rating">앱을 만족스럽게 이용하셨다면 앱 평가를 해 주시기 바랍니다. 1분 정도 걸립니다. 고맙습니다!</string>
+    <string name="dialog_progress_please_wait">잠시만 기다려 주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
 
     <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">응용 프로그램이 실행 중입니다.</string>
+    <string name="notification_text_app_running">앱 실행중</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preferences ##################################################################### -->
     <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">항목 정렬</string>
-    <string name="pref_appearance_sorting_choise_alpha">알파벳순</string>
-    <string name="pref_appearance_sorting_choise_time">날짜별로</string>
-    <string name="pref_appearance_sorting_choise_color">색상 별</string>
-    <string name="pref_appearance_title_navibar_color">탐색 막대 색상</string>
-    <string name="pref_appearance_summary_navibar_color">기본 어두운 색상이 탐색 표시 줄에도 적용됩니다 (Android 5.0 이상).</string>
+    <string name="pref_appearance_title_sort_entries">항목 소트</string>
+    <string name="pref_appearance_sorting_choise_alpha">알파벳</string>
+    <string name="pref_appearance_sorting_choise_time">날짜</string>
+    <string name="pref_appearance_sorting_choise_color">색깔</string>
+    <string name="pref_appearance_title_navibar_color">탐색 막대 색깔</string>
+    <string name="pref_appearance_summary_navibar_color">기본 어두운 색깔이 탐색 막대에도 적용됨 (Android 5.0 이상)</string>
     <string name="pref_appearance_title_show_notification">알림</string>
-    <string name="pref_appearance_summary_show_notification">응용 프로그램의 잠금 해제 및 작동 여부를 쉽게 알 수 있습니다.</string>
-    <string name="pref_appearance_title_show_passwords">암호 표시</string>
-    <string name="pref_appearance_summary_show_passwords">눈 아이콘을 누르지 않아도됩니다.</string>
-    <string name="pref_appearance_title_show_account">계정 표시</string>
-    <string name="pref_appearance_summary_show_account">가능한 경우 메인 입력란에 계정 입력란이 표시됩니다.</string>
-    <string name="pref_appearance_title_stay_awake">깨어있어 라.</string>
-    <string name="pref_appearance_summary_stay_awake">항목을 보거나 편집하는 동안 화면이 절전 모드로 들어 가지 않습니다.</string>
+    <string name="pref_appearance_summary_show_notification">앱의 잠금이 풀려 작동하고 있는지 쉽게 알 수 있음</string>
+    <string name="pref_appearance_title_show_passwords">패스워드 보이기</string>
+    <string name="pref_appearance_summary_show_passwords">눈 아이콘을 터치하지 않아도 됨</string>
+    <string name="pref_appearance_title_show_account">계정 보이기</string>
+    <string name="pref_appearance_summary_show_account">가능하다면 메인 리스트 뷰에 계정 필드가 보임</string>
+    <string name="pref_appearance_title_stay_awake">항상 켜져 있음</string>
+    <string name="pref_appearance_summary_stay_awake">항목을 보거나 편집하는 동안에는 화면이 꺼지지 않음</string>
     <string name="pref_appearance_title_change_theme">테마 변경</string>
-    <string name="pref_appearance_theme_light">빛</string>
-    <string name="pref_appearance_theme_dark">어두운</string>
+    <string name="pref_appearance_theme_light">밝음</string>
+    <string name="pref_appearance_theme_dark">어두움</string>
     <string name="pref_appearance_theme_blue_gray">청회색</string>
     <string name="pref_appearance_theme_purple">보라색</string>
     <!-- database -->
     <string name="pref_database_title_backup_share">데이터베이스 공유</string>
-    <string name="pref_database_summary_backup_share">암호화 된 데이터베이스의 백업 생성 및 공유</string>
-    <string name="pref_database_title_backup">백업 데이터베이스</string>
-    <string name="pref_database_summary_backup">Android 스토리지 액세스 프레임 워크를 사용하여 암호화 된 데이터베이스의 백업 만들기</string>
+    <string name="pref_database_summary_backup_share">암호화된 데이터베이스를 백업하고 공유</string>
+    <string name="pref_database_title_backup">데이터베이스 백업</string>
+    <string name="pref_database_summary_backup">안드로이드 스토리지 액세스 프레임워크를 이용하여 암호화된 데이터베이스 백업</string>
     <string name="pref_database_title_restore">데이터베이스 복원</string>
-    <string name="pref_database_summary_restore">암호화 된 데이터베이스의 백업 복원</string>
-    <string name="pref_database_title_gd_auto_backup">Google 드라이브 백업</string>
-    <string name="pref_database_summary_gd_auto_backup">개인 Google 드라이브 계정에 자동 백업 만들기</string>
-    <string name="pref_database_title_sd_auto_backup">외부 저장소 백업</string>
-    <string name="pref_database_summary_sd_auto_backup">외부 저장소 (sd 또는 내부 비 이동식 저장소)에 자동 백업을 만듭니다. 타사 파일 관리자 앱을 사용하여 외부 저장소에 액세스 할 수 있습니다.</string>
+    <string name="pref_database_summary_restore">암호화된 데이터베이스 백업을 복원</string>
+    <string name="pref_database_title_gd_auto_backup">구글 드라이브 백업</string>
+    <string name="pref_database_summary_gd_auto_backup">구글 드라이브 계정에 자동 백업 만들기</string>
+    <string name="pref_database_title_sd_auto_backup">외부 저장장치 백업</string>
+    <string name="pref_database_summary_sd_auto_backup">외부 저장장치(SD 또는 내부에 고정된 저장장치)에 자동 백업을 만들어서 다른 파일 관리 앱으로도 읽을 수 있음</string>
     <string name="pref_database_title_export">CSV 파일 내보내기</string>
     <string name="pref_database_summary_export">항목을 암호화되지 않은 CSV 파일로 내보내기</string>
-    <string name="pref_database_title_import">CSV 파일 가져 오기</string>
-    <string name="pref_database_summary_import">암호화되지 않은 CSV 파일에서 항목 가져 오기</string>
+    <string name="pref_database_title_import">CSV 파일 불러오기</string>
+    <string name="pref_database_summary_import">암호화되지 않은 CSV 파일에서 항목 불러오기</string>
     <!-- security -->
-    <string name="pref_security_title_change_password">마스터 비밀번호 변경</string>
-    <string name="pref_security_title_fast_enter">빠른 진입</string>
-    <string name="pref_security_summary_fast_enter">마스터 비밀번호가 맞으면 ENTER 버튼을 누르지 않고도 애플리케이션에 빠르게 진입 할 수 있습니다.</string>
+    <string name="pref_security_title_change_password">마스터 패스워드 변경</string>
+    <string name="pref_security_title_fast_enter">빠른 이용</string>
+    <string name="pref_security_summary_fast_enter">마스터 비밀번호가 맞으면 버튼을 누를 필요가 없습니다</string>
     <string name="pref_security_title_auto_exit">자동 종료</string>
-    <string name="pref_security_summary_auto_exit">화면이 꺼지면 애플리케이션이 자동으로 종료됩니다.</string>
-    <string name="pref_security_title_clipboard_clear">클립 보드 지우기</string>
-    <string name="pref_security_clipboard_clear_never">절대 안함</string>
-    <string name="pref_security_clipboard_clear_one_min">1 분</string>
-    <string name="pref_security_clipboard_clear_two_min">2 분</string>
-    <string name="pref_security_clipboard_clear_three_min">3 분</string>
-    <string name="pref_security_clipboard_clear_four_min">4 분</string>
-    <string name="pref_security_clipboard_clear_five_min">5 분</string>
-    <string name="pref_security_title_self_destruct">실패한 암호 시도</string>
-    <string name="pref_security_self_destruct_unlimited">제한 없는</string>
+    <string name="pref_security_summary_auto_exit">화면이 꺼지면</string>
+    <string name="pref_security_title_allow_screenshots">스크린 샷 허용</string>
+    <string name="pref_security_title_clipboard_clear">클립보드 지우기</string>
+    <string name="pref_security_clipboard_clear_never">이용하지 않음</string>
+    <string name="pref_security_clipboard_clear_one_min">1분</string>
+    <string name="pref_security_clipboard_clear_two_min">2분</string>
+    <string name="pref_security_clipboard_clear_three_min">3분</string>
+    <string name="pref_security_clipboard_clear_four_min">4분</string>
+    <string name="pref_security_clipboard_clear_five_min">5분</string>
+    <string name="pref_security_title_self_destruct">실패한 패스워드 입력</string>
+    <string name="pref_security_self_destruct_unlimited">제한 없음</string>
     <string name="pref_security_self_destruct_three">3</string>
     <string name="pref_security_self_destruct_five">5</string>
     <string name="pref_security_self_destruct_ten">10</string>
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">생체 인증</string>
-    <string name="pref_security_summary_biometric">이 기능을 사용하려면 호환 장치가 필요합니다. 시스템 설정 (지문, 얼굴 탐지 등)에서 원하는 생체 인식을 지정할 수 있습니다.</string>
-    <string name="pref_security_title_fingerprint">지문을 사용하여 입력</string>
-    <string name="pref_security_summary_fingerprint">이 기능을 사용하려면 호환 가능한 하드웨어가 필요합니다.</string>
+    <string name="pref_security_title_biometric">생체인증</string>
+    <string name="pref_security_summary_biometric">이 기능을 이용하려면 호환되는 장치가 필요하고 시스템 설정(지문, 얼굴 인식 등)을 통해 원하는 생체인증 기능을 설정할 수 있음</string>
+    <string name="pref_security_title_fingerprint">지문으로 이용</string>
+    <string name="pref_security_summary_fingerprint">이 기능을 이용하려면 호환되는 장치가 필요함</string>
     <!-- about -->
-    <string name="pref_about_title_contact">버그보고</string>
+    <string name="pref_about_title_contact">버그 보고</string>
     <string name="pref_about_title_support">별점과 리뷰</string>
-    <string name="pref_about_title_more_apps">더 많은 애플 리케이션</string>
+    <string name="pref_about_title_more_apps">더 많은 앱들</string>
     <string name="pref_about_title_share">친구에게 알리기</string>
     <string name="pref_about_title_translations">번역</string>
-    <string name="pref_about_title_terms">이용 약관 및 개인 정보 보호 정책</string>
+    <string name="pref_about_title_terms">이용약관 및 개인정보보호정책</string>
     <string name="pref_about_title_licenses">오픈 소스 라이선스</string>
     <string name="pref_about_title_build_version">빌드 버전</string>
     <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Wear password</string>
-    <string name="pref_wear_os_summary_password_enabled">암호를 사용하여 시계에 대한 액세스 제한</string>
+    <string name="pref_wear_os_title_password_enabled">착용장치 패스워드</string>
+    <string name="pref_wear_os_summary_password_enabled">패스워드를 통해 시계 이용 제한</string>
     <string name="pref_wear_os_title_add_to_watch">시계에 추가</string>
-    <string name="pref_wear_os_summary_add_to_watch">새로운 항목이 항상 시계에 추가됩니다.</string>
+    <string name="pref_wear_os_summary_add_to_watch">새로운 항목이 항상 시계에 추가됨</string>
     <!-- ################################################################################# -->
 
 
     <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">외관</string>
+    <string name="pref_category_appearance">모양</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>테마</string>
-    <string name="pref_category_database">데이터 베이스</string>
+    <string name="pref_category_database">데이터베이스</string>
     <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>자동 백업</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">보안</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>클립 보드</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>자기 파괴하다</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>생체 인식</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>클립보드</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>모두 지우기</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>생체인증</string>
     <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>지문</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>웨어 OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">휴대 전화에서 항목을 열고 시계 아이콘을 눌러 여기에 추가하십시오.</string>
+    <string name="watch_empty_list_view_info">스마트폰으로 항목을 열고 시계 아이콘을 터치하여 여기에 추가</string>
 
 </resources>

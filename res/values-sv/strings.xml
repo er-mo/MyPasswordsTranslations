@@ -46,6 +46,7 @@
     <string name="button_labels">ETIKETTER</string>
     <string name="button_attach_image">ATTACH BILD</string>
     <string name="button_new_field">Lägg till fält</string>
+    <string name="button_more">Mer</string>
     <string name="button_delete_field">Ta bort fält</string>
     <string name="navigation_drawer_open">Öppna navigationslåda</string>
     <string name="navigation_drawer_close">Stäng navigationslåda</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Läs mer</string>
     <string name="dialog_button_continue">Fortsätt</string>
     <string name="dialog_button_cancel">Avbryt</string>
     <string name="dialog_button_delete">Radera</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Nytt fält</string>
     <string name="dialog_title_set_labels">Ange etiketter</string>
     <string name="dialog_title_rating">Betygsätt appen</string>
+    <string name="dialog_title_feature_shutdown">Avstängning av funktionen</string>
+    <string name="dialog_msg_feature_shutdown">Den här funktionen för automatisk säkerhetskopiering avvisas den 6 december 2019. Du bör istället använda Android-enhetens säkerhetskopia.</string>
     <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
     <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
     <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
     <string name="dialog_msg_delete_label">Radera etikett?</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Radera fält?</string>
     <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
     <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
     <string name="pref_security_title_fast_enter">Snabbinloggning</string>
-    <string name="pref_security_summary_fast_enter">Gör det snabbare att logga in i appen utan att behöva trycka på logga in om huvudlösenordet är korrekt</string>
+    <string name="pref_security_summary_fast_enter">Du behöver inte trycka på knappen om huvudlösenordet är korrekt</string>
     <string name="pref_security_title_auto_exit">Automatisk avslut</string>
-    <string name="pref_security_summary_auto_exit">Appen stängs ned automatiskt när skärmen stängs av</string>
+    <string name="pref_security_summary_auto_exit">När skärmen stängs av</string>
+    <string name="pref_security_title_allow_screenshots">Tillåt skärmdumpar</string>
     <string name="pref_security_title_clipboard_clear">Rensa Urklipp</string>
     <string name="pref_security_clipboard_clear_never">Aldrig</string>
     <string name="pref_security_clipboard_clear_one_min">1 minut</string>

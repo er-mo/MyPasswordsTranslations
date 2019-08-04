@@ -46,6 +46,7 @@
     <string name="button_labels">ΕΤΙΚΕΤΕΣ</string>
     <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
     <string name="button_new_field">ΠΡΟΣΘΗΚΗ ΠΕΔΙΟΥ</string>
+    <string name="button_more">Περισσότερα</string>
     <string name="button_delete_field">Διαγραφή πεδίου</string>
     <string name="navigation_drawer_open">Άνοιγμα καρτέλας πλοήγησης</string>
     <string name="navigation_drawer_close">Κλείσιμο καρτέλας πλοήγησης</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">ΕΝΤΑΞΕΙ</string>
+    <string name="dialog_button_learn_more">ΜΑΘΕ ΠΕΡΙΣΣΟΤΕΡΑ</string>
     <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
     <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
     <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
@@ -163,12 +165,14 @@
     <string name="dialog_title_new_field">Νέο πεδίο</string>
     <string name="dialog_title_set_labels">Ορισμός ετικετών</string>
     <string name="dialog_title_rating">Αξιολόγηση</string>
+    <string name="dialog_title_feature_shutdown">Τερματισμός Λειτουργίας</string>
+    <string name="dialog_msg_feature_shutdown">Αυτή η λειτουργία αυτόματης δημιουργίας αντιγράφων ασφαλείας θα απενεργοποιηθεί στις 6 Δεκεμβρίου 2019. Θα πρέπει αντ\'αυτού να χρησιμοποιήσετε το αντίγραφο ασφαλείας της συσκευής Android.</string>
     <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
     <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
     <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
     <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
     <string name="dialog_msg_delete_label">Διαγραφή ετικέτας;</string>
-    <string name="dialog_msg_delete_field">Delete field?</string>
+    <string name="dialog_msg_delete_field">Διαγραφή πεδίου;</string>
     <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
     <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
-    <string name="pref_security_summary_fast_enter">Καθιστά πιο γρήγορη την είσοδο στην εφαρμογή χωρίς να χρειάζεται να πατάτε το κουμπί ΕΙΣΟΔΟΣ εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
+    <string name="pref_security_summary_fast_enter">Δεν χρειάζεται να πατήσετε το κουμπί εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
     <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
-    <string name="pref_security_summary_auto_exit">Η εφαρμογή θα κλείνει αυτόματα όταν κλείνει η οθόνη</string>
+    <string name="pref_security_summary_auto_exit">Όταν η οθόνη σβήσει</string>
+    <string name="pref_security_title_allow_screenshots">Screenshots επιτρεπτά</string>
     <string name="pref_security_title_clipboard_clear">Καθαρισμός του πρόχειρου</string>
     <string name="pref_security_clipboard_clear_never">Ποτέ</string>
     <string name="pref_security_clipboard_clear_one_min">1 λεπ.</string>
