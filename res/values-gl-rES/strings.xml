@@ -46,6 +46,7 @@
     <string name="button_labels">LABELS</string>
     <string name="button_attach_image">ATTACH IMAGE</string>
     <string name="button_new_field">ADD FIELD</string>
+    <string name="button_more">More</string>
     <string name="button_delete_field">Delete field</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -144,6 +145,7 @@
 
     <!-- Dialogs ######################################################################### -->
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_learn_more">Learn more</string>
     <string name="dialog_button_continue">Continue</string>
     <string name="dialog_button_cancel">Cancel</string>
     <string name="dialog_button_delete">Delete</string>
@@ -163,6 +165,8 @@
     <string name="dialog_title_new_field">New field</string>
     <string name="dialog_title_set_labels">Set labels</string>
     <string name="dialog_title_rating">Rate this app</string>
+    <string name="dialog_title_feature_shutdown">Feature shutdown</string>
+    <string name="dialog_msg_feature_shutdown">This auto backup feature will be turned down on December 6, 2019. You should instead use the Android device backup.</string>
     <string name="dialog_msg_entries_will_be_deleted">All current entries will be deleted.</string>
     <string name="dialog_msg_changing_master_password">By changing the master password you will not be able to restore database backups that were created with the current master password.</string>
     <string name="dialog_msg_delete_selected_entries">Delete selected entries?</string>
@@ -238,9 +242,10 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Change master password</string>
     <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">Makes it faster to enter the application without having to tap the ENTER button if the master password is correct</string>
+    <string name="pref_security_summary_fast_enter">You don\'t have to press the button if the master password is correct</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">The application will automatically exit when the screen turns off</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off</string>
+    <string name="pref_security_title_allow_screenshots">Allow screenshots</string>
     <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
     <string name="pref_security_clipboard_clear_never">Never</string>
     <string name="pref_security_clipboard_clear_one_min">1 min</string>
