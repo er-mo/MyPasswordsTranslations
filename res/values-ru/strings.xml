@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Мои пароли</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Надежное и простое в использовании приложение, для хранения паролей</string>
     <string name="app_download_message">Получить ее бесплатно, прямо сейчас, из магазина Google Play Маркет</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">ОБНОВИТЬ СЕЙЧАС</string>
     <string name="button_update">ОБНОВИТЬ</string>
     <string name="button_exit">ЗАКРЫТЬ</string>
-    <string name="button_sure">КОНЕЧНО</string>
     <string name="button_gotit">ПОНЯЛ</string>
-    <string name="button_labels">ЭТИКЕТКИ</string>
-    <string name="button_attach_image">Прикрепить изображение</string>
-    <string name="button_new_field">ДОБАВИТЬ ПОЛЕ</string>
     <string name="button_more">Больше</string>
     <string name="button_delete_field">УДАЛИТЬ ПОЛЕ</string>
     <string name="navigation_drawer_open">Открытие навигационного ящика</string>
@@ -60,7 +56,6 @@
     <!-- upgrade -->
     <string name="upgrade_thank_you">Спасибо за покупку PRO версии!</string>
     <string name="upgrade_feature_1">Экспорт и импорт CSV-файлов</string>
-    <string name="upgrade_feature_2">Автоматическое резервное копирование</string>
     <string name="upgrade_feature_3">Выбор темы</string>
     <string name="upgrade_feature_4">Очистка буфера обмена</string>
     <string name="upgrade_feature_5">Самоуничтожение</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Приложение \"Сервисы Google Play\" не доступны.</string>
     <string name="toast_google_client_error">Не удается подключиться к Google Аккаунту. Проверьте сетевое подключение.</string>
     <string name="toast_storage_not_accessible">Внешний накопитель недоступен!</string>
-    <string name="toast_ask_for_rating">Как насчет того, чтобы оценить нас в \"Google Play Маркет\"?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Доступно только в PRO версии</string>
     <string name="toast_no_password_history">Нет истории паролей</string>
     <string name="toast_password_history_cleared">История очищена</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Удалить поле?</string>
     <string name="dialog_msg_discard_changes">Отменить изменения?</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
-    <string name="dialog_msg_payload_failed">Произошла ошибка при проверке полезной нагрузки.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
     <string name="dialog_msg_db_not_valid">Резервная копия базы данных недействительна.</string>
     <string name="dialog_msg_db_different_pass">Резервная копия базы данных была создана с использованием другого мастер-пароля.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">По алфавиту</string>
     <string name="pref_appearance_sorting_choise_time">По дате</string>
     <string name="pref_appearance_sorting_choise_color">По цвету</string>
+    <string name="pref_appearance_title_list_subtitles">Основной список субтитров</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Без субтитров</string>
+    <string name="pref_appearance_list_subtitles_account">Аккаунт</string>
+    <string name="pref_appearance_list_subtitles_labels">Этикетки</string>
     <string name="pref_appearance_title_navibar_color">Цвет панели навигации</string>
     <string name="pref_appearance_summary_navibar_color">Основной темный цвет будет применен к навигационной панели также (Android 5.0 и выше)</string>
     <string name="pref_appearance_title_show_notification">Значок уведомления</string>
     <string name="pref_appearance_summary_show_notification">Значок уведомления будет отображаться, для определения того, что приложение разблокировано и работает</string>
+    <string name="pref_appearance_title_open_label_list">Открыть список ярлыков при входе</string>
     <string name="pref_appearance_title_show_passwords">Всегда показывать пароли</string>
     <string name="pref_appearance_summary_show_passwords">Вам не нужно будет нажимать на \"Иконку глаза\"</string>
     <string name="pref_appearance_title_show_account">Показать аккаунт</string>
     <string name="pref_appearance_summary_show_account">Поле \"Аккаунт\" будет отображаться в главном списке всех паролей, если он прописан в самой записи</string>
-    <string name="pref_appearance_title_stay_awake">Не отключать экран</string>
-    <string name="pref_appearance_summary_stay_awake">Экран никогда не будет отключаться во время просмотра или редактирования записи</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Вам не нужно нажимать кнопку, если мастер-пароль правильный</string>
     <string name="pref_security_title_auto_exit">Автоматический \"Выход\"</string>
     <string name="pref_security_summary_auto_exit">Когда экран выключается</string>
+    <string name="pref_security_title_stay_awake">Не отключать экран</string>
+    <string name="pref_security_summary_stay_awake">Экран никогда не будет отключаться во время просмотра или редактирования записи</string>
     <string name="pref_security_title_allow_screenshots">Разрешить скриншоты</string>
     <string name="pref_security_title_clipboard_clear">Очистка буфера обмена</string>
     <string name="pref_security_clipboard_clear_never">Никогда</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">ВНЕШНИЙ ВИД</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ТЕМА</string>
     <string name="pref_category_database">БАЗА ДАННЫХ</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>РЕЗЕРВНОЕ КОПИРОВАНИЕ</string>
+    <string name="pref_category_auto_backup">РЕЗЕРВНОЕ КОПИРОВАНИЕ</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">БЕЗОПАСНОСТЬ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>БУФЕР ОБМЕНА</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>САМОУНИЧТОЖЕНИЕ</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>БИОМЕТРИЧЕСКАЯ</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ОТПЕЧАТОК ПАЛЬЦА</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Откройте запись на вашем телефоне и нажмите значок часов, чтобы добавить его сюда</string>
 
 </resources>

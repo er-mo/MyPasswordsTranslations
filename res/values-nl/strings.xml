@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Mijn wachtwoorden</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Een veilig en makkelijk gebruik van een password manager voor alle Android apparaten</string>
     <string name="app_download_message">Download het nu gratis uit Google Play Store</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">NU UPGRADEN</string>
     <string name="button_update">BIJWERKEN</string>
     <string name="button_exit">UITGANG</string>
-    <string name="button_sure">ZEKER</string>
     <string name="button_gotit">BEGREPEN</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">BEVESTIG IMAGE</string>
-    <string name="button_new_field">VOEG VELD TOE</string>
     <string name="button_more">Meer</string>
     <string name="button_delete_field">Veld verwijderen</string>
     <string name="navigation_drawer_open">Open de navigatielade</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welkom bij Mijn wachtwoorden</string>
+    <string name="welcome_info_title">Welkom</string>
     <string name="welcome_info_content">Kies een hoofdwachtwoord om de applicatie te starten. Bij het kwijtraken van het hoofdwachtwoord is het niet meer mogelijk opgeslagen data te herstellen doordat de sync-optie wegvalt. Er wordt ten zeerste aangeraden om op regelmatige basis een backup te maken.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dank voor de aankoop van de PRO versie.</string>
     <string name="upgrade_feature_1">Exporteren &amp; importen van csv bestanden</string>
-    <string name="upgrade_feature_2">Automatische back-up</string>
     <string name="upgrade_feature_3">Thema keuze</string>
     <string name="upgrade_feature_4">Automatisch klembord wissen</string>
     <string name="upgrade_feature_5">Zelfdestructie</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
     <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
     <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
-    <string name="toast_ask_for_rating">Wilt u de app beoordelen in de Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
     <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
     <string name="toast_password_history_cleared">Geschiedenis gewist</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Veld verwijderen?</string>
     <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
-    <string name="dialog_msg_payload_failed">Payload verificatie is mislukt.</string>
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
     <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
     <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Op alfabet</string>
     <string name="pref_appearance_sorting_choise_time">Op datum</string>
     <string name="pref_appearance_sorting_choise_color">Op kleur</string>
+    <string name="pref_appearance_title_list_subtitles">Hoofdlijst ondertitels</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Zonder ondertitels</string>
+    <string name="pref_appearance_list_subtitles_account">Account</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
     <string name="pref_appearance_summary_navibar_color"> De primaire donkere kleur wordt ook toegepast op de navigatiebalk (Android 5.0 en hoger)</string>
     <string name="pref_appearance_title_show_notification">Melding</string>
     <string name="pref_appearance_summary_show_notification">Icoon weergeven in meldingvenster dat de applicatie ontgrendeld en actief is</string>
+    <string name="pref_appearance_title_open_label_list">Open labellijst bij inloggen</string>
     <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
     <string name="pref_appearance_summary_show_passwords">Je hoeft niet op het oog icoon te tikken</string>
     <string name="pref_appearance_title_show_account">Toon account</string>
     <string name="pref_appearance_summary_show_account">De account naam is in de hoofdlijst te zien indien beschikbaar</string>
-    <string name="pref_appearance_title_stay_awake">Blijf actief</string>
-    <string name="pref_appearance_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
     <string name="pref_appearance_title_change_theme">Verander thema</string>
     <string name="pref_appearance_theme_light">Licht</string>
     <string name="pref_appearance_theme_dark">Donker</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">U hoeft niet op de knop te drukken als het hoofdwachtwoord correct is</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
     <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld</string>
+    <string name="pref_security_title_stay_awake">Blijf actief</string>
+    <string name="pref_security_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
     <string name="pref_security_title_allow_screenshots">Schermafbeeldingen toestaan</string>
     <string name="pref_security_title_clipboard_clear">Wis klembord geheugen</string>
     <string name="pref_security_clipboard_clear_never">Nooit</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">WEERGAVEN</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATISCHE BACK-UP</string>
+    <string name="pref_category_auto_backup">AUTOMATISCHE BACK-UP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">BEVEILIGING</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>VINGERSCANNER</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open een vermelding op uw telefoon en druk op het horlogepictogram om deze hier toe te voegen</string>
 
 </resources>

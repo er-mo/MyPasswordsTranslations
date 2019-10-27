@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">كلمات السر</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">آمن وسهل الاستخدام مدير كلمة المرور</string>
     <string name="app_download_message">احصل عليه الآن مجانًا من متجر Google Play</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">تحديث الآن</string>
     <string name="button_update">تحديث</string>
     <string name="button_exit">ىخرج</string>
-    <string name="button_sure">بالتأكيد</string>
     <string name="button_gotit">فهمتك</string>
-    <string name="button_labels">تسميات</string>
-    <string name="button_attach_image">إرفاق الصور</string>
-    <string name="button_new_field">إضافة حقل</string>
     <string name="button_more">إضافي</string>
     <string name="button_delete_field">حذف الحقل</string>
     <string name="navigation_drawer_open">افتح درج التنقل</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">مرحبًا بك في كلمات المرور الخاصة بي</string>
+    <string name="welcome_info_title">أهلا بك</string>
     <string name="welcome_info_content">يرجى تسجيل كلمة مرور رئيسية لبدء استخدام التطبيق. لاحظ أنه في حالة فقدان كلمة المرور الرئيسية ، لا يمكن استرداد البيانات المخزنة بسبب خيار المزامنة المفقود. يوصى بشدة بنسخ بياناتك احتياطيًا على فترات منتظمة.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">شكرا لك على شراء نسخة PRO</string>
     <string name="upgrade_feature_1">تصدير واستيراد ملفات CSV</string>
-    <string name="upgrade_feature_2">نسخ إحتياطي آلي</string>
     <string name="upgrade_feature_3">اختيار الموضوع</string>
     <string name="upgrade_feature_4">الحذف التلقائي من القصاصة</string>
     <string name="upgrade_feature_5">التدمير الذاتي</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">خدمات Google Play غير متاحة</string>
     <string name="toast_google_client_error">لا يمكن الاتصال بعميل Google. تحقق من اتصال الشبكة</string>
     <string name="toast_storage_not_accessible">وحدة التخزين الخارجية لا يمكن الوصول إليها</string>
-    <string name="toast_ask_for_rating">ماذا عن التقييم على متجر Google Play؟</string>
-    <string name="toast_auto_backup_hint">تمكين النسخ الاحتياطي التلقائي لحماية كلمات المرور الخاصة بك</string>
     <string name="toast_pro_feature">متوفر فقط في إصدار المحترفين</string>
     <string name="toast_no_password_history">لا يوجد محفوظات كلمة المرور متوفرة</string>
     <string name="toast_password_history_cleared">مسح التاريخ</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">حذف المجال؟</string>
     <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
     <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
-    <string name="dialog_msg_payload_failed">فشل التحقق من الدفع</string>
     <string name="dialog_msg_cannot_read_file">لا يمكن قراءة الملف المحدد.</string>
     <string name="dialog_msg_db_not_valid">النسخة الاحتياطية من قاعدة البيانات غير صالحة.</string>
     <string name="dialog_msg_db_different_pass">تم إنشاء النسخ الاحتياطي لقاعدة البيانات باستخدام كلمة مرور رئيسية مختلفة.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">أبجديا</string>
     <string name="pref_appearance_sorting_choise_time">حسب التاريخ</string>
     <string name="pref_appearance_sorting_choise_color">حسب اللون</string>
+    <string name="pref_appearance_title_list_subtitles">ترجمات القائمة الرئيسية</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">بدون ترجمات</string>
+    <string name="pref_appearance_list_subtitles_account">الحساب</string>
+    <string name="pref_appearance_list_subtitles_labels">تسميات</string>
     <string name="pref_appearance_title_navibar_color">لون شريط التنقل</string>
     <string name="pref_appearance_summary_navibar_color">سيتم تطبيق اللون الأساسي الغامق على شريط التنقل أيضًا (Android 5.0 والإصدارات الأحدث)</string>
     <string name="pref_appearance_title_show_notification">رمز التنبيه</string>
     <string name="pref_appearance_summary_show_notification">من السهل إدراك أن التطبيق يفتح ويعمل</string>
+    <string name="pref_appearance_title_open_label_list">فتح قائمة التسمية عند تسجيل الدخول</string>
     <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
     <string name="pref_appearance_summary_show_passwords">ليس عليك الضغط على أيقونة العين</string>
     <string name="pref_appearance_title_show_account">عرض الحساب</string>
     <string name="pref_appearance_summary_show_account">سيتم عرض حقل الحساب في عرض القائمة الرئيسية إذا كان متاحًا</string>
-    <string name="pref_appearance_title_stay_awake">إبق متيقظا</string>
-    <string name="pref_appearance_summary_stay_awake">لن تنام الشاشة أبدًا أثناء عرض الإدخالات أو تحريرها</string>
     <string name="pref_appearance_title_change_theme">غير الخلفية</string>
     <string name="pref_appearance_theme_light">ضوء</string>
     <string name="pref_appearance_theme_dark">داكن</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">ليس عليك الضغط على الزر إذا كانت كلمة المرور الرئيسية صحيحة</string>
     <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
     <string name="pref_security_summary_auto_exit">عندما تنطفئ الشاشة</string>
+    <string name="pref_security_title_stay_awake">إبق متيقظا</string>
+    <string name="pref_security_summary_stay_awake">لن تنام الشاشة أبدًا أثناء عرض الإدخالات أو تحريرها</string>
     <string name="pref_security_title_allow_screenshots">السماح لقطات</string>
     <string name="pref_security_title_clipboard_clear">مسح الحافظة</string>
     <string name="pref_security_clipboard_clear_never">أبدا</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">مظهر خارجي</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>موضوع</string>
     <string name="pref_category_database">قاعدة البيانات</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>نسخ إحتياطي آلي</string>
+    <string name="pref_category_auto_backup">نسخ إحتياطي آلي</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">الأمان</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>الحافظة</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>التدمير الذاتي</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>بصمات</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>بصمة</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">افتح إدخالًا على هاتفك واضغط على رمز الساعة لإضافته هنا</string>
 
 </resources>

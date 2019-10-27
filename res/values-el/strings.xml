@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Οι Κωδικοί μου</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
     <string name="app_download_message">Κατεβάστε το τώρα δωρεάν από το Play Google store</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
     <string name="button_update">ΑΛΛΑΓΗ</string>
     <string name="button_exit">ΕΞΟΔΟΣ</string>
-    <string name="button_sure">ΒΕΒΑΙΩΣ</string>
     <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
-    <string name="button_labels">ΕΤΙΚΕΤΕΣ</string>
-    <string name="button_attach_image">ΕΠΙΣΥΝΑΨΗ ΕΙΚΟΝΑΣ</string>
-    <string name="button_new_field">ΠΡΟΣΘΗΚΗ ΠΕΔΙΟΥ</string>
     <string name="button_more">Περισσότερα</string>
     <string name="button_delete_field">Διαγραφή πεδίου</string>
     <string name="navigation_drawer_open">Άνοιγμα καρτέλας πλοήγησης</string>
@@ -60,7 +56,6 @@
     <!-- upgrade -->
     <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_feature_1">Εξαγωγή και εισαγωγή csv αρχείων</string>
-    <string name="upgrade_feature_2">Αυτόματο backup</string>
     <string name="upgrade_feature_3">Επιλογή θέματος</string>
     <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
     <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
-    <string name="toast_ask_for_rating">Τι θα λέγατε για μια αξιολόγηση στο Google Play store;</string>
-    <string name="toast_auto_backup_hint">Ενεργοποιήστε την αυτόματη δημιουργία αντιγράφων ασφαλείας για να προστατεύσετε τους κωδικούς σας</string>
     <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
     <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
     <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Διαγραφή πεδίου;</string>
     <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
-    <string name="dialog_msg_payload_failed">Επαλήθευση αγοράς απέτυχε.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
     <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
     <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
     <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
     <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
+    <string name="pref_appearance_title_list_subtitles">Υπότιτλοι κύριας λίστας</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Χωρίς υπότιτλους</string>
+    <string name="pref_appearance_list_subtitles_account">Λογαριασμός</string>
+    <string name="pref_appearance_list_subtitles_labels">Ετικέτες</string>
     <string name="pref_appearance_title_navibar_color">Χρώμα γραμμής πλοήγησης</string>
     <string name="pref_appearance_summary_navibar_color">Το πρωτεύον χρώμα θα εφαρμοστεί και στη γραμμή πλοήγησης επίσης (Android 5.0 και νεότερες εκδόσεις μόνο)</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
+    <string name="pref_appearance_title_open_label_list">Άνοιγμα λίστας ετικετών κατά την είσοδο</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
     <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
     <string name="pref_appearance_title_show_account">Εμφάνιση λογαρισμού</string>
     <string name="pref_appearance_summary_show_account">Το πεδίο του λογαριασμού θα εμφανίζεται στην κυρία λίστα εάν είναι διαθέσιμο</string>
-    <string name="pref_appearance_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
-    <string name="pref_appearance_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Δεν χρειάζεται να πατήσετε το κουμπί εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
     <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
     <string name="pref_security_summary_auto_exit">Όταν η οθόνη σβήσει</string>
+    <string name="pref_security_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
+    <string name="pref_security_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
     <string name="pref_security_title_allow_screenshots">Screenshots επιτρεπτά</string>
     <string name="pref_security_title_clipboard_clear">Καθαρισμός του πρόχειρου</string>
     <string name="pref_security_clipboard_clear_never">Ποτέ</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΘΕΜΑ</string>
     <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΜΑΤΟ BACKUP</string>
+    <string name="pref_category_auto_backup">ΑΥΤΟΜΑΤΟ BACKUP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΒΙΟΜΕΤΡΙΚA</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΔΑΚΤΥΛΙΚΟ ΑΠΟΤΥΠΩΜΑ</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Ανοίξτε μια καταχώρηση στο τηλέφωνό σας και πατήστε το εικονίδιο του ρολογιού για να προστεθεί εδώ</string>
 
 </resources>

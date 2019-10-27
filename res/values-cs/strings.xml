@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Moje hesla</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Bezpečný a snadno použitelný správce hesel pro zařízení Android</string>
     <string name="app_download_message">Získejte nyní zdarma z Obchodu Google Play!</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">VYLEPŠIT NYNÍ</string>
     <string name="button_update">AKTUALIZOVAT</string>
     <string name="button_exit">ODEJÍT</string>
-    <string name="button_sure">TAK URČITĚ</string>
     <string name="button_gotit">MÁM TO</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">PŘIPOJENÍ OBRAZU</string>
-    <string name="button_new_field">PŘIDAT FIELD</string>
     <string name="button_more">Více</string>
     <string name="button_delete_field">Odstranit pole</string>
     <string name="navigation_drawer_open">Otevřete navigační zásuvku</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Vítejte v My Passwords!</string>
+    <string name="welcome_info_title">Vítejte</string>
     <string name="welcome_info_content">Zaregistrujte prosím hlavní heslo pro spuštění aplikace. Všimněte si, že pokud je ztraceno hlavní heslo, uložená data nemohou být obnovena z důvodu chybějící synchronizace. Důrazně doporučujeme zálohovat data v pravidelných intervalech.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Děkujeme Vám za zakoupení PRO verze.</string>
     <string name="upgrade_feature_1">Export &amp; import csv souborů</string>
-    <string name="upgrade_feature_2">Automatické zálohování</string>
     <string name="upgrade_feature_3">Nastavení motivu</string>
     <string name="upgrade_feature_4">Automatické vyčištění Schránky</string>
     <string name="upgrade_feature_5">Sebedestrukce</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Služby Google Play nejsou k dispozici</string>
     <string name="toast_google_client_error">Nelze se připojit ke klientovi Google. Zkontrolujte síťové připojení</string>
     <string name="toast_storage_not_accessible">Externí úložiště není přístupné</string>
-    <string name="toast_ask_for_rating">Co o hodnocení v Obchodě Google Play?</string>
-    <string name="toast_auto_backup_hint">Chcete-li chránit hesla, povolte automatickou zálohu</string>
     <string name="toast_pro_feature">K dispozici pouze ve verzi PRO</string>
     <string name="toast_no_password_history">Není k dispozici žádná historie hesel</string>
     <string name="toast_password_history_cleared">Historie byla smazána</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Smazat pole?</string>
     <string name="dialog_msg_discard_changes">Zrušit změny?</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
-    <string name="dialog_msg_payload_failed">Payload ověření selhalo.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
     <string name="dialog_msg_db_not_valid">Zálohování databáze není platné.</string>
     <string name="dialog_msg_db_different_pass">Zálohování databáze bylo vytvořeno pomocí jiného hlavního hesla.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Abecedně</string>
     <string name="pref_appearance_sorting_choise_time">Podle data</string>
     <string name="pref_appearance_sorting_choise_color">Podle barvy</string>
+    <string name="pref_appearance_title_list_subtitles">Titulky hlavního seznamu</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Bez titulků</string>
+    <string name="pref_appearance_list_subtitles_account">Účet</string>
+    <string name="pref_appearance_list_subtitles_labels">Štítky</string>
     <string name="pref_appearance_title_navibar_color">Barva navigační lišty</string>
     <string name="pref_appearance_summary_navibar_color">Primární tmavá barva se použije také na navigační liště (Android 5.0 a novější)</string>
     <string name="pref_appearance_title_show_notification">Zobrazovat notifikační ikonu</string>
     <string name="pref_appearance_summary_show_notification">Notifikační ikona se bude zobrazovat pro určení zda je aplikace odemčená a spuštěná</string>
+    <string name="pref_appearance_title_open_label_list">Otevřete seznam štítků při přihlášení</string>
     <string name="pref_appearance_title_show_passwords">Zobrazit hesla</string>
     <string name="pref_appearance_summary_show_passwords">Není třeba stisknout ikonu oka</string>
     <string name="pref_appearance_title_show_account">Zobrazit účet</string>
     <string name="pref_appearance_summary_show_account">Pole účtu bude zobrazeno v hlavním zobrazení, pokud je k dispozici</string>
-    <string name="pref_appearance_title_stay_awake">Zůstaň vzhůru</string>
-    <string name="pref_appearance_summary_stay_awake">Při prohlížení nebo úpravách záznamů se obrazovka nikdy nespí</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Pokud je hlavní heslo správné, nemusíte tlačítko stisknout</string>
     <string name="pref_security_title_auto_exit">Automatické ukončení</string>
     <string name="pref_security_summary_auto_exit">Když se obrazovka vypne</string>
+    <string name="pref_security_title_stay_awake">Zůstaň vzhůru</string>
+    <string name="pref_security_summary_stay_awake">Při prohlížení nebo úpravách záznamů se obrazovka nikdy nespí</string>
     <string name="pref_security_title_allow_screenshots">Povolit snímky obrazovky</string>
     <string name="pref_security_title_clipboard_clear">Vyčistit schránku</string>
     <string name="pref_security_clipboard_clear_never">Nikdy</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">VZHLED</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TÉMA</string>
     <string name="pref_category_database">DATABÁZE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATICKÉ ZÁLOHOVÁNÍ</string>
+    <string name="pref_category_auto_backup">AUTOMATICKÉ ZÁLOHOVÁNÍ</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">ZABEZPEČENÍ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHRÁNKA</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SEBEDESTRUKCE</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIKA</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>OTISK PRSTU</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Otevřete záznam v telefonu a stiskněte ikonu hodinky a přidejte jej zde</string>
 
 </resources>

@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">我的密碼</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="app_download_message">前往 Google Play 商店免費下載</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">立即更新</string>
     <string name="button_update">更新</string>
     <string name="button_exit">出口</string>
-    <string name="button_sure">當然</string>
     <string name="button_gotit">得到它了</string>
-    <string name="button_labels">標籤</string>
-    <string name="button_attach_image">附著圖像</string>
-    <string name="button_new_field">添加字段</string>
     <string name="button_more">更多</string>
     <string name="button_delete_field">刪除字段</string>
     <string name="navigation_drawer_open">打開導航抽屜</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">歡迎使用 我的密碼</string>
+    <string name="welcome_info_title">歡迎</string>
     <string name="welcome_info_content">請註冊主密碼以開始使用該應用程序。 請注意，如果主密碼丟失，則由於缺少同步選項，無法恢復存儲的數據。 強烈建議您定期備份數據。</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感謝您購買專業版</string>
     <string name="upgrade_feature_1">CSV進出口</string>
-    <string name="upgrade_feature_2">自動備份</string>
     <string name="upgrade_feature_3">主題的選擇</string>
     <string name="upgrade_feature_4">剪貼板清晰</string>
     <string name="upgrade_feature_5">自我毀滅</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play 服務不可用</string>
     <string name="toast_google_client_error">無法連接 Google 客戶. 檢查網絡連接</string>
     <string name="toast_storage_not_accessible">外部存儲無法訪問</string>
-    <string name="toast_ask_for_rating">如何評價 Google Play store?</string>
-    <string name="toast_auto_backup_hint">啟用自動備份以保護您的密碼</string>
     <string name="toast_pro_feature">僅適用於PRO版本</string>
     <string name="toast_no_password_history">沒有密碼歷史記錄</string>
     <string name="toast_password_history_cleared">歷史記錄已刪除</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">刪除字段？</string>
     <string name="dialog_msg_discard_changes">放棄更改？</string>
     <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
-    <string name="dialog_msg_payload_failed">有效載荷驗證失敗。</string>
     <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
     <string name="dialog_msg_db_not_valid">數據庫備份無效。</string>
     <string name="dialog_msg_db_different_pass">使用不同的主密碼創建數據庫備份。</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
     <string name="pref_appearance_sorting_choise_time">按日期</string>
     <string name="pref_appearance_sorting_choise_color">按顏色</string>
+    <string name="pref_appearance_title_list_subtitles">主列表字幕</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">沒有字幕</string>
+    <string name="pref_appearance_list_subtitles_account">帳戶</string>
+    <string name="pref_appearance_list_subtitles_labels">標籤</string>
     <string name="pref_appearance_title_navibar_color">導航欄顏色</string>
     <string name="pref_appearance_summary_navibar_color">主要顏色也將應用於導航欄(Android 5.0及更高版本)</string>
     <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
     <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
+    <string name="pref_appearance_title_open_label_list">登錄時打開標籤列表</string>
     <string name="pref_appearance_title_show_passwords">顯示密碼</string>
     <string name="pref_appearance_summary_show_passwords">您無需按下眼睛圖標</string>
     <string name="pref_appearance_title_show_account">顯示帳戶</string>
     <string name="pref_appearance_summary_show_account">如果可用，帳戶字段將顯示在主列表視圖中</string>
-    <string name="pref_appearance_title_stay_awake">保持清醒</string>
-    <string name="pref_appearance_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
     <string name="pref_appearance_title_change_theme">更改主題</string>
     <string name="pref_appearance_theme_light">明亮</string>
     <string name="pref_appearance_theme_dark">黑暗</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">如果主密碼正確，則無需按按鈕</string>
     <string name="pref_security_title_auto_exit">自動離開</string>
     <string name="pref_security_summary_auto_exit">屏幕關閉時</string>
+    <string name="pref_security_title_stay_awake">保持清醒</string>
+    <string name="pref_security_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
     <string name="pref_security_title_allow_screenshots">允許截圖</string>
     <string name="pref_security_title_clipboard_clear">清除剪貼板</string>
     <string name="pref_security_clipboard_clear_never">決不</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">外觀</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[專業版]\u0020</xliff:g>主題</string>
     <string name="pref_category_database">資料庫</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[專業版]\u0020</xliff:g>自動備份</string>
+    <string name="pref_category_auto_backup">自動備份</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[專業版]\u0020</xliff:g>CSV 文件</string>
     <string name="pref_category_security">安全</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪貼板</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自毀</string>
     <string name="pref_category_biometric">"<xliff:g id="PRO">[PRO]\u0020</xliff:g>生物識別技術</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指紋</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">在手機上打開一個條目，然後按下手錶圖標將其添加到此處</string>
 
 </resources>

@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">मेरे पासवर्ड</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">एंड्रॉइड डिवाइस के लिए पासवर्ड मैनेजर का सुरक्षित और आसान उपयोग</string>
     <string name="app_download_message">अब इसे Google Play स्टोर से निःशुल्क प्राप्त करें</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">अभी अपग्रेड करें</string>
     <string name="button_update">अद्यतन करें</string>
     <string name="button_exit">बाहर निकलें</string>
-    <string name="button_sure">ज़रूर</string>
     <string name="button_gotit">समझ गया</string>
-    <string name="button_labels">लेबल</string>
-    <string name="button_attach_image">छवि संलग्न करें</string>
-    <string name="button_new_field">क्षेत्र जोड़ें</string>
     <string name="button_more">अधिक</string>
     <string name="button_delete_field">फ़ील्ड हटाएं</string>
     <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">मेरे पासवर्ड में आपका स्वागत है</string>
+    <string name="welcome_info_title">स्वागत हे</string>
     <string name="welcome_info_content">आवेदन का उपयोग शुरू करने के लिए कृपया एक मास्टर पासवर्ड पंजीकृत करें। ध्यान दें कि यदि मास्टर पासवर्ड खो जाता है तो संग्रहित डेटा अनुपलब्ध सिंक विकल्प के कारण पुनर्प्राप्त नहीं किया जा सकता। यह दृढ़ता से अनुशंसा की जाती है कि आप नियमित अंतराल पर अपने डेटा का बैकअप लें।</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">प्रो संस्करण खरीदने के लिए धन्यवाद।</string>
     <string name="upgrade_feature_1">सीएसवी फ़ाइलों को निर्यात और आयात करें</string>
-    <string name="upgrade_feature_2">ऑटो बैकअप</string>
     <string name="upgrade_feature_3">थीम चयन</string>
     <string name="upgrade_feature_4">स्वचालित रूप से क्लिप को हटा दें</string>
     <string name="upgrade_feature_5">आत्म विनाश</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play सेवाएं उपलब्ध नहीं हैं</string>
     <string name="toast_google_client_error">Google क्लाइंट से कनेक्ट नहीं किया जा सकता। नेटवर्क कनेक्टिविटी की जाँच करें</string>
     <string name="toast_storage_not_accessible">बाहरी भंडारण सुलभ नहीं है</string>
-    <string name="toast_ask_for_rating">Google Play स्टोर पर रेटिंग के बारे में कैसे?</string>
-    <string name="toast_auto_backup_hint">अपने पासवर्ड की सुरक्षा के लिए ऑटो बैकअप सक्षम करें</string>
     <string name="toast_pro_feature">केवल प्रो संस्करण में उपलब्ध है</string>
     <string name="toast_no_password_history">कोई पासवर्ड इतिहास उपलब्ध नहीं है</string>
     <string name="toast_password_history_cleared">इतिहास साफ हो गया</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">फ़ील्ड हटाएं?</string>
     <string name="dialog_msg_discard_changes">परिवर्तनों को निरस्त करें?</string>
     <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
-    <string name="dialog_msg_payload_failed">भुगतान सत्यापन विफल रहा।</string>
     <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
     <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
     <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">वर्णानुक्रम</string>
     <string name="pref_appearance_sorting_choise_time">आज तक</string>
     <string name="pref_appearance_sorting_choise_color">रंग से</string>
+    <string name="pref_appearance_title_list_subtitles">मुख्य सूची उपशीर्षक</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">बिना उपशीर्षक के</string>
+    <string name="pref_appearance_list_subtitles_account">लेखा</string>
+    <string name="pref_appearance_list_subtitles_labels">लेबल</string>
     <string name="pref_appearance_title_navibar_color">नेविगेशन बार का रंग</string>
     <string name="pref_appearance_summary_navibar_color">नेविगेशन बार पर प्राथमिक गहरा रंग भी लागू किया जाएगा (Android 5.0 और नया)</string>
     <string name="pref_appearance_title_show_notification">अधिसूचना</string>
     <string name="pref_appearance_summary_show_notification">यह पहचानना आसान है कि एप्लिकेशन अनलॉक और चल रहा है</string>
+    <string name="pref_appearance_title_open_label_list">लॉगिन पर लेबल सूची खोलें</string>
     <string name="pref_appearance_title_show_passwords">पासवर्ड दिखाएं</string>
     <string name="pref_appearance_summary_show_passwords">आपको आंख का आइकन नहीं दबाना है</string>
     <string name="pref_appearance_title_show_account">खाता दिखाओ</string>
     <string name="pref_appearance_summary_show_account">यदि उपलब्ध हो तो खाता फ़ील्ड को मुख्य सूची दृश्य में दिखाया जाएगा</string>
-    <string name="pref_appearance_title_stay_awake">जागते रहो</string>
-    <string name="pref_appearance_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
     <string name="pref_appearance_title_change_theme">थीम बदलें</string>
     <string name="pref_appearance_theme_light">रोशनी</string>
     <string name="pref_appearance_theme_dark">अंधेरा</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">मास्टर पासवर्ड सही होने पर आपको बटन दबाने की जरूरत नहीं है</string>
     <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
     <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है</string>
+    <string name="pref_security_title_stay_awake">जागते रहो</string>
+    <string name="pref_security_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
     <string name="pref_security_title_allow_screenshots">स्क्रीनशॉट की अनुमति दें</string>
     <string name="pref_security_title_clipboard_clear">क्लिपबोर्ड साफ़ करें</string>
     <string name="pref_security_clipboard_clear_never">कभी नहीँ</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">अपीयरेंस</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>थीम</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ऑटो बैकअप</string>
+    <string name="pref_category_auto_backup">ऑटो बैकअप</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>सीएसवी</string>
     <string name="pref_category_security">सुरक्षा</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>बॉयोमीट्रिक्स</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>फिंगरप्रिंट</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">अपने फोन पर एक प्रविष्टि खोलें और इसे जोड़ने के लिए घड़ी आइकन दबाएं</string>
 
 </resources>

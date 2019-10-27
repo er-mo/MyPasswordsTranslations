@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">AGGIORNA ORA</string>
     <string name="button_update">AGGIORNA</string>
     <string name="button_exit">ESCI</string>
-    <string name="button_sure">SICURO</string>
     <string name="button_gotit">FATTO</string>
-    <string name="button_labels">ETICHETTE</string>
-    <string name="button_attach_image">ATTACCARE L\'IMMAGINE</string>
-    <string name="button_new_field">AGGIUNGI CAMPO</string>
     <string name="button_more">Di Più</string>
     <string name="button_delete_field">Elimina campo</string>
     <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Benvenuto in My Passwords</string>
+    <string name="welcome_info_title">Benvenuto!</string>
     <string name="welcome_info_content">Per favore aggiungi una password principale per iniziare ad usare l\'applicazione. Ricorda che se la password principale verrà persa i dati memorizzati non potranno essere recuperati per l\'assenza di un opzione di sincronizzazione. Si raccomanda di creare dei backup ad intervalli regolari.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Grazie per aver acquistato la versione PRO.</string>
     <string name="upgrade_feature_1">Esporta e importa dei file csv</string>
-    <string name="upgrade_feature_2">Backup automatico</string>
     <string name="upgrade_feature_3">Seleziona tema</string>
     <string name="upgrade_feature_4">Pulizia automatica appunti</string>
     <string name="upgrade_feature_5">Autodistruzione</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
     <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
-    <string name="toast_ask_for_rating">Che ne dici di una valutazione su Google Play Store?</string>
-    <string name="toast_auto_backup_hint">Abilita il backup automatico per proteggere le tue password</string>
     <string name="toast_pro_feature">Disponibile solo nella versione PRO</string>
     <string name="toast_no_password_history">Nessuna cronologia delle password disponibile</string>
     <string name="toast_password_history_cleared">Cronologia delle password cancellata</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Elimina campo?</string>
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
-    <string name="dialog_msg_payload_failed">Verifica Payload fallita.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
     <string name="dialog_msg_db_not_valid">Il backup del database non è valido.</string>
     <string name="dialog_msg_db_different_pass">Il backup del database è stato creato utilizzando una password master diversa.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">In ordine alfabetico</string>
     <string name="pref_appearance_sorting_choise_time">Per data</string>
     <string name="pref_appearance_sorting_choise_color">Per colore</string>
+    <string name="pref_appearance_title_list_subtitles">Elenco principale sottotitoli</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Senza sottotitoli</string>
+    <string name="pref_appearance_list_subtitles_account">Account</string>
+    <string name="pref_appearance_list_subtitles_labels">Etichette</string>
     <string name="pref_appearance_title_navibar_color">Colore della barra di navigazione</string>
     <string name="pref_appearance_summary_navibar_color">Il colore scuro primario verrà applicato anche alla barra di navigazione (Android 5.0 e versioni successive)</string>
     <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
+    <string name="pref_appearance_title_open_label_list">Apri l\'elenco delle etichette al login</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
     <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
     <string name="pref_appearance_title_show_account">Mostra account</string>
     <string name="pref_appearance_summary_show_account">L\'account verrà mostrato nella lista principale se è disponibile</string>
-    <string name="pref_appearance_title_stay_awake">Rimani sveglio</string>
-    <string name="pref_appearance_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Non è necessario premere il pulsante se la password principale è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">Quando lo schermo si spegne</string>
+    <string name="pref_security_title_stay_awake">Rimani sveglio</string>
+    <string name="pref_security_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
     <string name="pref_security_title_allow_screenshots">Consenti schermate</string>
     <string name="pref_security_title_clipboard_clear">Pulisci gli appunti</string>
     <string name="pref_security_clipboard_clear_never">Mai</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">ASPETTO</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">BANCA DATI</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BACKUP AUTOMATICO</string>
+    <string name="pref_category_auto_backup">BACKUP AUTOMATICO</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SICUREZZA</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>APPUNTI</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODISTRUZIONE</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICA</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>IMPRONTA DIGITALE</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Apri una voce sul tuo telefono e premi l\'icona dell\'orologio per aggiungerla qui</string>
 
 </resources>

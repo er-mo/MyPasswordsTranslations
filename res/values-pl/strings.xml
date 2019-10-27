@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Moje Hasła</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
     <string name="app_download_message">Pobierz ze Sklepu Play.</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
     <string name="button_update">AKTUALIZUJ</string>
     <string name="button_exit">WYJDŹ</string>
-    <string name="button_sure">JASNE</string>
     <string name="button_gotit">JASNE</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">DOŁĄCZ OBRAZ</string>
-    <string name="button_new_field">DODAJ POLE</string>
     <string name="button_more">Więcej</string>
     <string name="button_delete_field">Usuń pole</string>
     <string name="navigation_drawer_open">Otwarta szuflada nawigacji</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Moje Hasła</string>
+    <string name="welcome_info_title">Witamy</string>
     <string name="welcome_info_content">Utwórz hasło główne by używać aplikacji. Jeśli zgubisz hasło dane będą nie do odzyskania! Dlatego rób częste kopie zapasowe.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
     <string name="upgrade_feature_1">Import &amp; eksport plików CSV</string>
-    <string name="upgrade_feature_2">Automatycznego tworzenia kopii zapasowych</string>
     <string name="upgrade_feature_3">Wybór tematu</string>
     <string name="upgrade_feature_4">Czyszczenie schowka</string>
     <string name="upgrade_feature_5">Autodestrukcja</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Usługi Google Play są niedostępne</string>
     <string name="toast_google_client_error">Nie można się połączyć z klientem Google. Sprawdź połączenie z internetem</string>
     <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
-    <string name="toast_ask_for_rating">Może ocenisz aplikację w Google Play?</string>
-    <string name="toast_auto_backup_hint">Włącz automatyczną kopię bezpieczeństwa dla lepszej ochrony haseł.</string>
     <string name="toast_pro_feature">Tylko w wersji PRO</string>
     <string name="toast_no_password_history">Brak historii haseł</string>
     <string name="toast_password_history_cleared">Historia została wyczyszczona</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Usunąć pole?</string>
     <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
-    <string name="dialog_msg_payload_failed">Niezweryfikowany pakiet.</string>
     <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
     <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
     <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
     <string name="pref_appearance_sorting_choise_time">Po dacie</string>
     <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
+    <string name="pref_appearance_title_list_subtitles">Główne listy napisów</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Bez napisów</string>
+    <string name="pref_appearance_list_subtitles_account">Konto</string>
+    <string name="pref_appearance_list_subtitles_labels">Etykiety</string>
     <string name="pref_appearance_title_navibar_color">kolor paska nawigacyjnego</string>
     <string name="pref_appearance_summary_navibar_color">Ciemny odcień głównego koloru będzie widoczny również na pasku nawigacyjnym (Android 5.0 i nowsze)</string>
     <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
     <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
+    <string name="pref_appearance_title_open_label_list">Otwórz listę etykiet przy logowaniu</string>
     <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
     <string name="pref_appearance_summary_show_passwords">Nie musisz klikać na ikonce oka</string>
     <string name="pref_appearance_title_show_account">Pokaż konto</string>
     <string name="pref_appearance_summary_show_account">Konto będzie widoczne w głównej liście (jesli dostępne)</string>
-    <string name="pref_appearance_title_stay_awake">Pozostaw włączony</string>
-    <string name="pref_appearance_summary_stay_awake">Ekran nigdy nie wygaśnie używając applikacji</string>
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Nie musisz naciskać przycisku, jeśli hasło główne jest poprawne</string>
     <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
     <string name="pref_security_summary_auto_exit">Gdy ekran się wyłączy</string>
+    <string name="pref_security_title_stay_awake">Pozostaw włączony</string>
+    <string name="pref_security_summary_stay_awake">Ekran nigdy nie wygaśnie używając applikacji</string>
     <string name="pref_security_title_allow_screenshots">Zezwalaj na zrzuty ekranu</string>
     <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
     <string name="pref_security_clipboard_clear_never">Nigdy</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">WYGLĄD</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>STYL</string>
     <string name="pref_category_database">BAZA DANYCH</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATYCZNA KOPIA ZAPASOWA</string>
+    <string name="pref_category_auto_backup">AUTOMATYCZNA KOPIA ZAPASOWA</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">BEZPIECZEŃSTWO</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIA</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ODCISK PALCA</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Otwórz wpis w telefonie i dotknij ikony zegara, aby dodać go tutaj</string>
 
 </resources>

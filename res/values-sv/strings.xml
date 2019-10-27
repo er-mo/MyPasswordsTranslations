@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Mina Lösenord</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">En säker och enkel lösenordshanterare för Androidenheter</string>
     <string name="app_download_message">Skaffa den gratis från Google Play</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">UPGRADERA NU</string>
     <string name="button_update">UPPDATERA</string>
     <string name="button_exit">UTGÅNG</string>
-    <string name="button_sure">SÄKER</string>
     <string name="button_gotit">JAG FATTAR</string>
-    <string name="button_labels">ETIKETTER</string>
-    <string name="button_attach_image">ATTACH BILD</string>
-    <string name="button_new_field">Lägg till fält</string>
     <string name="button_more">Mer</string>
     <string name="button_delete_field">Ta bort fält</string>
     <string name="navigation_drawer_open">Öppna navigationslåda</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Välkommen till Mina Lösenord</string>
+    <string name="welcome_info_title">Välkommen!</string>
     <string name="welcome_info_content">Ange ett huvudlösenord för att börja använda programmet. Observera att om huvudlösenordet försvinner kan de lagrade dataen inte återställas på grund av det saknade synkroniseringsalternativet. Det rekommenderas starkt att du regelbundet säkerhetskopierar dina data.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
     <string name="upgrade_feature_1">CSV import &amp; export</string>
-    <string name="upgrade_feature_2">Automatisk säkerhetskopiering</string>
     <string name="upgrade_feature_3">Temainställningar</string>
     <string name="upgrade_feature_4">Urklipp klart</string>
     <string name="upgrade_feature_5">Självförstörelse</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play-tjänster är inte tillgängliga</string>
     <string name="toast_google_client_error">Det går inte att ansluta till Google-klienten. Kontrollera nätverksanslutningen</string>
     <string name="toast_storage_not_accessible">Externt lagringsutrymme är inte tillgängligt</string>
-    <string name="toast_ask_for_rating">Vad sägs om en rating i Google Play Butik?</string>
-    <string name="toast_auto_backup_hint">Aktivera automatisk säkerhetskopiering för att skydda dina lösenord</string>
     <string name="toast_pro_feature">Finns endast i PRO-versionen</string>
     <string name="toast_no_password_history">Ingen lösenord historik tillgänglig</string>
     <string name="toast_password_history_cleared">Historik rensad</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Radera fält?</string>
     <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
-    <string name="dialog_msg_payload_failed">Payload verifiering misslyckades.</string>
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
     <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
     <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
     <string name="pref_appearance_sorting_choise_time">Efter datum</string>
     <string name="pref_appearance_sorting_choise_color">Efter färg</string>
+    <string name="pref_appearance_title_list_subtitles">Huvudlista undertexter</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Utan undertexter</string>
+    <string name="pref_appearance_list_subtitles_account">Konto</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
     <string name="pref_appearance_title_navibar_color">Navigationsfältet färg</string>
     <string name="pref_appearance_summary_navibar_color">Primär mörk färg kommer också att användas i navigeringsfältet (Android 5.0 och senare)</string>
     <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
     <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
+    <string name="pref_appearance_title_open_label_list">Öppna etikettlistan vid inloggning</string>
     <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
     <string name="pref_appearance_summary_show_passwords">Du behöver inte trycka på ögonikonen</string>
     <string name="pref_appearance_title_show_account">Visa konto</string>
     <string name="pref_appearance_summary_show_account">Kontofältet visas i huvudlistvy om det är tillgängligt</string>
-    <string name="pref_appearance_title_stay_awake">Hålla sig vaken</string>
-    <string name="pref_appearance_summary_stay_awake">Skärmen kommer aldrig att sova medan du tittar på eller redigerar poster</string>
     <string name="pref_appearance_title_change_theme">Ändra tema</string>
     <string name="pref_appearance_theme_light">Ljus</string>
     <string name="pref_appearance_theme_dark">Mörk</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Du behöver inte trycka på knappen om huvudlösenordet är korrekt</string>
     <string name="pref_security_title_auto_exit">Automatisk avslut</string>
     <string name="pref_security_summary_auto_exit">När skärmen stängs av</string>
+    <string name="pref_security_title_stay_awake">Hålla sig vaken</string>
+    <string name="pref_security_summary_stay_awake">Skärmen kommer aldrig att sova medan du tittar på eller redigerar poster</string>
     <string name="pref_security_title_allow_screenshots">Tillåt skärmdumpar</string>
     <string name="pref_security_title_clipboard_clear">Rensa Urklipp</string>
     <string name="pref_security_clipboard_clear_never">Aldrig</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">UTSEENDE</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">DATABAS</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTOMATISK SÄKERHETSKOPIERING</string>
+    <string name="pref_category_auto_backup">AUTOMATISK SÄKERHETSKOPIERING</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SÄKERHET</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SKRIVPLATTA </string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SJÄLVFÖRSTÖRELSE</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRISK</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERAVTRYCK</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Öppna en post på telefonen och tryck på klockikonen för att lägga till den här</string>
 
 </resources>

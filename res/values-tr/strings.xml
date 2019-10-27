@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Şifrelerim</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Android cihazlar için güvenli ve kullanımı kolay bir şifre yöneticisi</string>
     <string name="app_download_message">Google Play mağazasından hemen ücretsiz indirin</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">ŞİMDİ YÜKSELT</string>
     <string name="button_update">GÜNCELLEŞTİRME</string>
     <string name="button_exit">ÇIKIŞ</string>
-    <string name="button_sure">TAMAM</string>
     <string name="button_gotit">ANLADIM</string>
-    <string name="button_labels">ETİKETLER</string>
-    <string name="button_attach_image">RESİM İLİŞTİRMEK</string>
-    <string name="button_new_field">ALAN EKLE</string>
     <string name="button_more">Daha</string>
     <string name="button_delete_field">Alanı sil</string>
     <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
@@ -60,7 +56,6 @@
     <!-- upgrade -->
     <string name="upgrade_thank_you">Satın aldığınız için teşekkür ederiz.</string>
     <string name="upgrade_feature_1">İhracat ve ithalat CSV dosyalar</string>
-    <string name="upgrade_feature_2">Otomatik yedekleme</string>
     <string name="upgrade_feature_3">Tema seçimi</string>
     <string name="upgrade_feature_4">Pano otomatik temizleme</string>
     <string name="upgrade_feature_5">Kendini imha</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
     <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
-    <string name="toast_ask_for_rating">Google Play Store\'da değerlendirmeye ne dersiniz?</string>
-    <string name="toast_auto_backup_hint">Şifrelerinizi korumak için otomatik yedeklemeyi etkinleştirin</string>
     <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
     <string name="toast_no_password_history">Şifre geçmişi yok</string>
     <string name="toast_password_history_cleared">Şifre geçmişi temizlendi</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Alanı sil?</string>
     <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
-    <string name="dialog_msg_payload_failed">Yükünü doğrulanamadı.</string>
     <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
     <string name="dialog_msg_db_not_valid">Veritabanı yedeği geçerli değil.</string>
     <string name="dialog_msg_db_different_pass">Veritabanı yedeği farklı bir ana şifre kullanılarak oluşturuldu.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabetik</string>
     <string name="pref_appearance_sorting_choise_time">Tarihe göre</string>
     <string name="pref_appearance_sorting_choise_color">Renge göre</string>
+    <string name="pref_appearance_title_list_subtitles">Ana liste altyazıları</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Altyazısız</string>
+    <string name="pref_appearance_list_subtitles_account">Hesap</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiketler</string>
     <string name="pref_appearance_title_navibar_color">Gezinme çubuğu rengi</string>
     <string name="pref_appearance_summary_navibar_color">Gezinme çubuğuna da birincil koyu renk uygulanacaktır (Android 5.0 ve daha yenisi)</string>
     <string name="pref_appearance_title_show_notification">Bildirim</string>
     <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
+    <string name="pref_appearance_title_open_label_list">Giriş sırasında etiket listesini aç</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
     <string name="pref_appearance_summary_show_passwords">Göz simgesini basmanız gerekmiyor</string>
     <string name="pref_appearance_title_show_account">Hesabı göster</string>
     <string name="pref_appearance_summary_show_account">Hesap alanı, varsa, ana liste görünümünde gösterilir</string>
-    <string name="pref_appearance_title_stay_awake">Uyanık kal</string>
-    <string name="pref_appearance_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Ana parola doğru ise düğmeye basmanız gerekmez</string>
     <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
     <string name="pref_security_summary_auto_exit">Ekran kapandığında</string>
+    <string name="pref_security_title_stay_awake">Uyanık kal</string>
+    <string name="pref_security_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
     <string name="pref_security_title_allow_screenshots">Ekran görüntülerine izin ver</string>
     <string name="pref_security_title_clipboard_clear">Panoya temizle</string>
     <string name="pref_security_clipboard_clear_never">Hiç</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">GÖRÜNÜM</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">VERİTABANI</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>OTOMATİK YEDEKLEME</string>
+    <string name="pref_category_auto_backup">OTOMATİK YEDEKLEME</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">GÜVENLİK</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BİYOMETRİK</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PARMAK İZİ</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Telefonunuza bir kayıt açın ve buraya eklemek için saat simgesine basın</string>
 
 </resources>

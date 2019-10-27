@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">지금 업그레이드하십시오.</string>
     <string name="button_update">업데이트</string>
     <string name="button_exit">나가기</string>
-    <string name="button_sure">예</string>
     <string name="button_gotit">확인</string>
-    <string name="button_labels">레이블</string>
-    <string name="button_attach_image">이미지 첨부</string>
-    <string name="button_new_field">필드 추가</string>
     <string name="button_more">더</string>
     <string name="button_delete_field">필드 삭제</string>
     <string name="navigation_drawer_open">탐색 창 열기</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">My Passwords 이용을 환영합니다.</string>
+    <string name="welcome_info_title">어서 오십시오.</string>
     <string name="welcome_info_content">앱을 시작하려면 마스터 패스워드를 등록하십시오. 동기화 옵션이 없으므로 마스터 패스워드를 분실하면 저장된 데이터를 되살릴 수 없습니다. 주기적으로 데이터를 반드시 백업하시기 바랍니다.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">프로 버전을 구입해 주셔서 고맙습니다.</string>
     <string name="upgrade_feature_1">CSV 파일 내보내기 및 불러오기</string>
-    <string name="upgrade_feature_2">자동 백업</string>
     <string name="upgrade_feature_3">테마 선택</string>
     <string name="upgrade_feature_4">클립보드 자동으로 지우기</string>
     <string name="upgrade_feature_5">데이터 삭제</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">구글 플레이 스토어를 이용할 수 없음</string>
     <string name="toast_google_client_error">구글 클라이언트를 이용할 수 없으므로 네트워크를 확인할 것</string>
     <string name="toast_storage_not_accessible">외부저장장치에 접속할 수 없음</string>
-    <string name="toast_ask_for_rating">구글 플레이 스토어 등급을 매겨 주시겠습니까?</string>
-    <string name="toast_auto_backup_hint">패스워드 보호를 위한 자동 백업 켜기</string>
     <string name="toast_pro_feature">프로 버전에서만 사용 가능</string>
     <string name="toast_no_password_history">패스워드 이력 없음</string>
     <string name="toast_password_history_cleared">이력 삭제 성공</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">필드를 삭제하시겠습니까?</string>
     <string name="dialog_msg_discard_changes">변경으 취소하시겠습니까?</string>
     <string name="dialog_msg_cannot_open_folder">폴더를 읽을 수 없음</string>
-    <string name="dialog_msg_payload_failed">결제 인증 실패</string>
     <string name="dialog_msg_cannot_read_file">선택된 파일을 읽을 수 없음</string>
     <string name="dialog_msg_db_not_valid">데이터베이스 백업이 유효하지 않음</string>
     <string name="dialog_msg_db_different_pass">데이터베이스가 다른 마스터 패스워드로 백업되었음</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">알파벳</string>
     <string name="pref_appearance_sorting_choise_time">날짜</string>
     <string name="pref_appearance_sorting_choise_color">색깔</string>
+    <string name="pref_appearance_title_list_subtitles">메인리스트 자막</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">자막없이</string>
+    <string name="pref_appearance_list_subtitles_account">계정</string>
+    <string name="pref_appearance_list_subtitles_labels">라벨</string>
     <string name="pref_appearance_title_navibar_color">탐색 막대 색깔</string>
     <string name="pref_appearance_summary_navibar_color">기본 어두운 색깔이 탐색 막대에도 적용됨 (Android 5.0 이상)</string>
     <string name="pref_appearance_title_show_notification">알림</string>
     <string name="pref_appearance_summary_show_notification">앱의 잠금이 풀려 작동하고 있는지 쉽게 알 수 있음</string>
+    <string name="pref_appearance_title_open_label_list">로그인시 라벨 목록 열기</string>
     <string name="pref_appearance_title_show_passwords">패스워드 보이기</string>
     <string name="pref_appearance_summary_show_passwords">눈 아이콘을 터치하지 않아도 됨</string>
     <string name="pref_appearance_title_show_account">계정 보이기</string>
     <string name="pref_appearance_summary_show_account">가능하다면 메인 리스트 뷰에 계정 필드가 보임</string>
-    <string name="pref_appearance_title_stay_awake">항상 켜져 있음</string>
-    <string name="pref_appearance_summary_stay_awake">항목을 보거나 편집하는 동안에는 화면이 꺼지지 않음</string>
     <string name="pref_appearance_title_change_theme">테마 변경</string>
     <string name="pref_appearance_theme_light">밝음</string>
     <string name="pref_appearance_theme_dark">어두움</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">마스터 비밀번호가 맞으면 버튼을 누를 필요가 없습니다</string>
     <string name="pref_security_title_auto_exit">자동 종료</string>
     <string name="pref_security_summary_auto_exit">화면이 꺼지면</string>
+    <string name="pref_security_title_stay_awake">항상 켜져 있음</string>
+    <string name="pref_security_summary_stay_awake">항목을 보거나 편집하는 동안에는 화면이 꺼지지 않음</string>
     <string name="pref_security_title_allow_screenshots">스크린 샷 허용</string>
     <string name="pref_security_title_clipboard_clear">클립보드 지우기</string>
     <string name="pref_security_clipboard_clear_never">이용하지 않음</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">모양</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>테마</string>
     <string name="pref_category_database">데이터베이스</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>자동 백업</string>
+    <string name="pref_category_auto_backup">자동 백업</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">보안</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>클립보드</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>모두 지우기</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>생체인증</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>지문</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>웨어 OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">스마트폰으로 항목을 열고 시계 아이콘을 터치하여 여기에 추가</string>
 
 </resources>

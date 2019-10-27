@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Mis Contraseñas</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Un administrador de contraseñas seguro y fácil de usar para dispositivos Android</string>
     <string name="app_download_message">Obtenla ahora gratis en Google Play Store</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">MEJORAR AHORA</string>
     <string name="button_update">ACTUALIZAR</string>
     <string name="button_exit">SALIR</string>
-    <string name="button_sure">POR SUPUESTO</string>
     <string name="button_gotit">LO TENGO</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ADJUNTAR IMAGEN</string>
-    <string name="button_new_field">AGREGUE CAMPO</string>
     <string name="button_more">Más</string>
     <string name="button_delete_field">Eliminar campo</string>
     <string name="navigation_drawer_open">Cajón de navegación abierto.</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Bienvenido a Mis Contraseñas</string>
+    <string name="welcome_info_title">¡Sean bienvenidos!</string>
     <string name="welcome_info_content">Por favor registra una contraseña maestra para empezar a utilizar la aplicación. Ten en cuenta que si se pierde la contraseña maestra, los datos almacenados no pueden ser recuperados debido a la opción de sincronización faltante. Te recomendamos realizar respaldos de tus datos de manera regular.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Gracias por comprar la versión PRO.</string>
     <string name="upgrade_feature_1">Exportar e importar archivos CSV</string>
-    <string name="upgrade_feature_2">Respaldo automático</string>
     <string name="upgrade_feature_3">Selección de temas</string>
     <string name="upgrade_feature_4">Vaciado automático del portapapeles</string>
     <string name="upgrade_feature_5">Autodestrucción</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play Services no está disponible</string>
     <string name="toast_google_client_error">No se puede conectar al cliente de Google. Verifica la conectividad de red</string>
     <string name="toast_storage_not_accessible">Almacenamiento externo no accesible</string>
-    <string name="toast_ask_for_rating">¿Qué tal si nos calificas en Google Play Store?</string>
-    <string name="toast_auto_backup_hint">Habilite la copia de seguridad automática para proteger sus contraseñas</string>
     <string name="toast_pro_feature">Disponible sólo en la versión PRO</string>
     <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
     <string name="toast_password_history_cleared">Historial eliminado</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">¿Eliminar campo?</string>
     <string name="dialog_msg_discard_changes">¿Descartar los cambios?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
-    <string name="dialog_msg_payload_failed">Error de verificación de la carga.</string>
     <string name="dialog_msg_cannot_read_file">No se puede leer el archivo seleccionado.</string>
     <string name="dialog_msg_db_not_valid">La copia de seguridad de la base de datos no es válida.</string>
     <string name="dialog_msg_db_different_pass">La copia de seguridad de la base de datos se creó utilizando una contraseña maestra diferente.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alfabéticamente</string>
     <string name="pref_appearance_sorting_choise_time">Por fecha</string>
     <string name="pref_appearance_sorting_choise_color">Por color</string>
+    <string name="pref_appearance_title_list_subtitles">Subtítulos de la lista principal</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Sin subtítulos</string>
+    <string name="pref_appearance_list_subtitles_account">Cuenta</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiquetas</string>
     <string name="pref_appearance_title_navibar_color">Color de la barra de navegación</string>
     <string name="pref_appearance_summary_navibar_color">El color oscuro primario se aplicará a la barra de navegación también (Android 5.0 y versiones posteriores)</string>
     <string name="pref_appearance_title_show_notification">Notificación</string>
     <string name="pref_appearance_summary_show_notification">Fácil de identificar que la aplicación está desbloqueada y ejecutándose</string>
+    <string name="pref_appearance_title_open_label_list">Abrir lista de etiquetas al iniciar sesión</string>
     <string name="pref_appearance_title_show_passwords">Mostrar contraseñas</string>
     <string name="pref_appearance_summary_show_passwords">No debes pulsar el icono del ojo</string>
     <string name="pref_appearance_title_show_account">Mostrar cuenta</string>
     <string name="pref_appearance_summary_show_account">El campo de la cuenta se mostrará en la vista de la lista principal si está disponible</string>
-    <string name="pref_appearance_title_stay_awake">Permanecer encendida</string>
-    <string name="pref_appearance_summary_stay_awake">La pantalla nunca se apagará mientras visualices o edites entradas</string>
     <string name="pref_appearance_title_change_theme">Cambiar tema</string>
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">No tiene que presionar el botón si la contraseña maestra es correcta</string>
     <string name="pref_security_title_auto_exit">Salida automática</string>
     <string name="pref_security_summary_auto_exit">Cuando la pantalla se apague</string>
+    <string name="pref_security_title_stay_awake">Permanecer encendida</string>
+    <string name="pref_security_summary_stay_awake">La pantalla nunca se apagará mientras visualices o edites entradas</string>
     <string name="pref_security_title_allow_screenshots">Permitir capturas de pantalla</string>
     <string name="pref_security_title_clipboard_clear">Vaciar portapapeles</string>
     <string name="pref_security_clipboard_clear_never">Nunca</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">APARIENCIA</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">BASE DE DATOS</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>RESPALDO AUTOMÁTICO</string>
+    <string name="pref_category_auto_backup">RESPALDO AUTOMÁTICO</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SEGURIDAD</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PORTAPAPELES</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUCCIÓN</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMÉTRICA</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>HUELLA DACTILAR</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Abra una entrada en su teléfono y presione el icono del reloj para agregarla aquí</string>
 
 </resources>

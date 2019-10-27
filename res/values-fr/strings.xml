@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Mes codes</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Un gestionnaire de mot de passe sécurisé et facile à utiliser pour les appareils Android</string>
     <string name="app_download_message">Obtenez-le maintenant gratuitement sur Google Play Store</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">METTRE À JOUR MAINTENANT</string>
     <string name="button_update">METTRE À JOUR</string>
     <string name="button_exit">SORTIE</string>
-    <string name="button_sure">SÛR</string>
     <string name="button_gotit">je l\'ai</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">joindre une image</string>
-    <string name="button_new_field">Ajouter Le Champ</string>
     <string name="button_more">Plus</string>
     <string name="button_delete_field">Supprimer le champ</string>
     <string name="navigation_drawer_open">Ouvrir un tiroir de navigation</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Bienvenue dans mes mots de passe</string>
+    <string name="welcome_info_title">Soyez le bienvenu!</string>
     <string name="welcome_info_content">Veuillez enregistrer un mot de passe principal pour commencer à utiliser l\'application. Notez que si le mot de passe principal est perdu, les données stockées ne peuvent pas être récupérées à cause de l\'option de synchronisation manquante. Il est fortement recommandé de sauvegarder vos données à intervalles réguliers.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Merci d\'avoir acheté la version PRO.</string>
     <string name="upgrade_feature_1">Exporter &amp; importer des fichiers csv</string>
-    <string name="upgrade_feature_2">Sauvegarde automatique</string>
     <string name="upgrade_feature_3">Choix du thème</string>
     <string name="upgrade_feature_4">Supprimer automatiquement le brouillons</string>
     <string name="upgrade_feature_5">Auto Destruction</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Les services Google Play ne sont pas disponibles</string>
     <string name="toast_google_client_error">Impossible de se connecter au client Google. Vérifier la connectivité du réseau</string>
     <string name="toast_storage_not_accessible">Le stockage externe ñ\'est pas accessible</string>
-    <string name="toast_ask_for_rating">Que dites-vous d\'une critique dans le Google Play store?</string>
-    <string name="toast_auto_backup_hint">Activer la sauvegarde automatique pour protéger vos mots de passe</string>
     <string name="toast_pro_feature">Disponible uniquement en version PRO</string>
     <string name="toast_no_password_history">Pas d\'historique de mot de passe disponible</string>
     <string name="toast_password_history_cleared">Histoire effacée</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Supprimer le champ?</string>
     <string name="dialog_msg_discard_changes">Annuler les modifications?</string>
     <string name="dialog_msg_cannot_open_folder">Le dossier n\'est pas accessible.</string>
-    <string name="dialog_msg_payload_failed">échec de la vérification du paiement.</string>
     <string name="dialog_msg_cannot_read_file">Ne peut pas lire fichier sélectionné.</string>
     <string name="dialog_msg_db_not_valid">La sauvegarde de la base de données n\'est pas valide.</string>
     <string name="dialog_msg_db_different_pass">La sauvegarde de la base de données a été créée avec utilisant mot de passe principal différent.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alphabétiquement</string>
     <string name="pref_appearance_sorting_choise_time">Par date</string>
     <string name="pref_appearance_sorting_choise_color">Par couleur</string>
+    <string name="pref_appearance_title_list_subtitles">Liste principale sous-titres</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Sans sous-titres</string>
+    <string name="pref_appearance_list_subtitles_account">Compte</string>
+    <string name="pref_appearance_list_subtitles_labels">Étiquettes</string>
     <string name="pref_appearance_title_navibar_color">Couleur de ligne de navigation</string>
     <string name="pref_appearance_summary_navibar_color">La couleur foncée primaire sera également appliquée à la barre de navigation (Android 5.0 et versions ultérieures)</string>
     <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Facile à identifier que l\'application est déverrouillée et en cours d\'exécution</string>
+    <string name="pref_appearance_title_open_label_list">Ouvrir la liste des étiquettes lors de la connexion</string>
     <string name="pref_appearance_title_show_passwords">Afficher les mots de passe</string>
     <string name="pref_appearance_summary_show_passwords">Vous ne devez pas appuyer sur l\'icône d\'oeil</string>
     <string name="pref_appearance_title_show_account">Montrer le compte</string>
     <string name="pref_appearance_summary_show_account">Le champ du compte apparaîtra dans la vue de la liste principale, si disponible</string>
-    <string name="pref_appearance_title_stay_awake">Rester éveillé</string>
-    <string name="pref_appearance_summary_stay_awake">L\'écran ne dormira jamais lors de visualisation ou de la modification des entrées</string>
     <string name="pref_appearance_title_change_theme">Change le thème</string>
     <string name="pref_appearance_theme_light">Lumière</string>
     <string name="pref_appearance_theme_dark">Ténèbres</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Vous n\'êtes pas obligé d\'appuyer sur le bouton si le mot de passe principal est correct</string>
     <string name="pref_security_title_auto_exit">Sortie automatique</string>
     <string name="pref_security_summary_auto_exit">Quand l\'écran s\'éteint</string>
+    <string name="pref_security_title_stay_awake">Rester éveillé</string>
+    <string name="pref_security_summary_stay_awake">L\'écran ne dormira jamais lors de visualisation ou de la modification des entrées</string>
     <string name="pref_security_title_allow_screenshots">Autoriser les captures d\'écran</string>
     <string name="pref_security_title_clipboard_clear">Clair presse-papiers</string>
     <string name="pref_security_clipboard_clear_never">Jamais</string>
@@ -285,19 +282,17 @@
     <string name="pref_category_appearance">APPARENCE</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THÈME</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SAUVEGARDE AUTOMATIQUE</string>
+    <string name="pref_category_auto_backup">SAUVEGARDE AUTOMATIQUE</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SÉCURITÉ</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO-DESTRUCTION</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIQUE</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>EMPREINTE DIGITALE</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Ouvrez une entrée sur votre téléphone et appuyez sur l\'icône de la montre pour l\'ajouter ici.</string>
 
 </resources>
 

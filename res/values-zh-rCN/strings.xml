@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">我的密码簿</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">一个安全易用的安卓密码管理器</string>
     <string name="app_download_message">现在从 Google Play 应用商店下载</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">立刻升级</string>
     <string name="button_update">更新</string>
     <string name="button_exit">退出</string>
-    <string name="button_sure">确定</string>
     <string name="button_gotit">知道了</string>
-    <string name="button_labels">标签</string>
-    <string name="button_attach_image">附着图片</string>
-    <string name="button_new_field">添加字段</string>
     <string name="button_more">更多</string>
     <string name="button_delete_field">删除字段</string>
     <string name="navigation_drawer_open">开启侧边栏</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">欢迎使用我的密码簿</string>
+    <string name="welcome_info_title">欢迎</string>
     <string name="welcome_info_content">使用前请先设置一个主密码。如果主密码丢失，将无法恢复存储的数据，建议您定期备份数据。</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">感谢您购买专业版。</string>
     <string name="upgrade_feature_1">备份的导入导出</string>
-    <string name="upgrade_feature_2">数据库自动备份</string>
     <string name="upgrade_feature_3">可选不同的主题</string>
     <string name="upgrade_feature_4">剪贴板自动清除</string>
     <string name="upgrade_feature_5">数据库自毁功能</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
     <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
-    <string name="toast_ask_for_rating">应用在 Google Play 商店评分如何？</string>
-    <string name="toast_auto_backup_hint">开启自动备份保护你的密码</string>
     <string name="toast_pro_feature">仅在专业版中可用</string>
     <string name="toast_no_password_history">没有可用的密码记录</string>
     <string name="toast_password_history_cleared">历史记录已清除</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">删除字段？</string>
     <string name="dialog_msg_discard_changes">放弃更改？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
-    <string name="dialog_msg_payload_failed">有效载荷验证失败。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
     <string name="dialog_msg_db_not_valid">数据库备份无效。</string>
     <string name="dialog_msg_db_different_pass">这个数据库备份使用了不同的主密码创建。</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
+    <string name="pref_appearance_title_list_subtitles">主列表字幕</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">没有字幕</string>
+    <string name="pref_appearance_list_subtitles_account">帐户</string>
+    <string name="pref_appearance_list_subtitles_labels">标签</string>
     <string name="pref_appearance_title_navibar_color">沉浸模式</string>
     <string name="pref_appearance_summary_navibar_color">导航栏会随应用主体颜色变化（Android 5.0及更高版本）</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
+    <string name="pref_appearance_title_open_label_list">登录时打开标签列表</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
     <string name="pref_appearance_summary_show_passwords">密码框内的密码将以明文方式显示</string>
     <string name="pref_appearance_title_show_account">显示账户</string>
     <string name="pref_appearance_summary_show_account">如果可用，账户字段将显示在主列表视图中</string>
-    <string name="pref_appearance_title_stay_awake">保持亮屏</string>
-    <string name="pref_appearance_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">如果主密码正确，则无需按按钮</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭时</string>
+    <string name="pref_security_title_stay_awake">保持亮屏</string>
+    <string name="pref_security_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_security_title_allow_screenshots">允许截图</string>
     <string name="pref_security_title_clipboard_clear">清除剪贴板</string>
     <string name="pref_security_clipboard_clear_never">从不</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">外观</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>主题</string>
     <string name="pref_category_database">数据库</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自动备份</string>
+    <string name="pref_category_auto_backup">自动备份</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">安全</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪贴板</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>数据库自毁</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>生物识别技术</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>指纹登录</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>可穿戴系统</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">在手机上打开一个条目，然后按下手表图标将其添加到此处</string>
 
 </resources>

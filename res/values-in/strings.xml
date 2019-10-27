@@ -21,7 +21,7 @@
     <string name="password_strength_hint_very_strong">Sangat kuat!</string>
     <string name="required">Wajib</string>
     <string name="title">Judul</string>
-    <string name="account">Rekening</string>
+    <string name="account">Akun</string>
     <string name="password">Kata sandi</string>
     <string name="username">Nama pengguna</string>
     <string name="website">Situs web</string>
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">DIPERBARUI SEKARANG</string>
     <string name="button_update">MEMPERBARUI</string>
     <string name="button_exit">KELUAR</string>
-    <string name="button_sure">YAKIN</string>
     <string name="button_gotit">OKE</string>
-    <string name="button_labels">LABEL</string>
-    <string name="button_attach_image">lampirkan gambar</string>
-    <string name="button_new_field">tambahkan bidang</string>
     <string name="button_more">Lebih</string>
     <string name="button_delete_field">Hapus bidang</string>
     <string name="navigation_drawer_open">Buka laci navigasi</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Selamat datang di kode saya</string>
+    <string name="welcome_info_title">Selamat datang</string>
     <string name="welcome_info_content">Silakan daftarkan kata sandi utama untuk mulai menggunakan aplikasi. Perhatikan bahwa jika kata sandi utama hilang, data yang disimpan tidak dapat dipulihkan karena opsi sinkronisasi yang hilang. Sangat disarankan agar Anda membuat cadangan data Anda secara berkala.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Terima kasih telah membeli versi PRO.</string>
     <string name="upgrade_feature_1">Ekspor dan impor file csv</string>
-    <string name="upgrade_feature_2">Cadangan otomatis</string>
     <string name="upgrade_feature_3">Pemilihan tema</string>
     <string name="upgrade_feature_4">Papan klip otomatis dihapus</string>
     <string name="upgrade_feature_5">Penghancuran diri</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Layanan Google Play tidak tersedia</string>
     <string name="toast_google_client_error">Tidak dapat terhubung ke klien Google. Periksa konektivitas jaringan</string>
     <string name="toast_storage_not_accessible">Penyimpanan eksternal tidak dapat diakses</string>
-    <string name="toast_ask_for_rating">Bagaimana dengan penilaian di Google Play Store?</string>
-    <string name="toast_auto_backup_hint">Aktifkan cadangan otomatis untuk melindungi kata sandi Anda</string>
     <string name="toast_pro_feature">Hanya tersedia dalam versi PRO</string>
     <string name="toast_no_password_history">Tidak ada riwayat kata sandi</string>
     <string name="toast_password_history_cleared">Sejarah dihapus</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Hapus bidang?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
-    <string name="dialog_msg_payload_failed">Verifikasi pembayaran gagal.</string>
     <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
     <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
     <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Secara alfabet</string>
     <string name="pref_appearance_sorting_choise_time">Berdasarkan tanggal</string>
     <string name="pref_appearance_sorting_choise_color">Berdasarkan warna</string>
+    <string name="pref_appearance_title_list_subtitles">Subtitel daftar utama</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Tanpa teks terjemahan</string>
+    <string name="pref_appearance_list_subtitles_account">Akun</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Warna bilah navigasi</string>
     <string name="pref_appearance_summary_navibar_color">Warna gelap primer juga akan diterapkan ke bilah navigasi (Android 5.0 dan yang lebih baru)</string>
     <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
     <string name="pref_appearance_summary_show_notification">Mudah untuk mengidentifikasi bahwa aplikasi tidak dikunci dan berjalan</string>
+    <string name="pref_appearance_title_open_label_list">Buka daftar label saat masuk</string>
     <string name="pref_appearance_title_show_passwords">Tampilkan kata sandi</string>
     <string name="pref_appearance_summary_show_passwords">Anda tidak perlu menekan ikon mata</string>
     <string name="pref_appearance_title_show_account">Tampilkan akun</string>
     <string name="pref_appearance_summary_show_account">Bidang akun akan ditampilkan di tampilan daftar utama jika tersedia</string>
-    <string name="pref_appearance_title_stay_awake">Tetap bangun</string>
-    <string name="pref_appearance_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
     <string name="pref_appearance_title_change_theme">Ubah tema</string>
     <string name="pref_appearance_theme_light">Cahaya</string>
     <string name="pref_appearance_theme_dark">Gelap</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Anda tidak perlu menekan tombol jika kata sandi utama sudah benar</string>
     <string name="pref_security_title_auto_exit">Keluar otomatis</string>
     <string name="pref_security_summary_auto_exit">Saat layar mati</string>
+    <string name="pref_security_title_stay_awake">Tetap bangun</string>
+    <string name="pref_security_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
     <string name="pref_security_title_allow_screenshots">Izinkan tangkapan layar</string>
     <string name="pref_security_title_clipboard_clear">Bersihkan clipboard</string>
     <string name="pref_security_clipboard_clear_never">Tak pernah</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">PENAMPILAN</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">Basis data</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SALINAN KESELAMATAN OTOMATIS</string>
+    <string name="pref_category_auto_backup">SALINAN KESELAMATAN OTOMATIS</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">KEAMANAN</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIK</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SIDIK JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Buka entri di ponsel Anda dan tekan ikon arloji untuk menambahkannya di sini</string>
 
 </resources>

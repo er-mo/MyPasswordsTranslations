@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">Kata Laluan saya</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">Pengurus kata laluan yang selamat dan mudah untuk digunakan untuk peranti Android</string>
     <string name="app_download_message">Dapatkan sekarang secara percuma dari gedung Google Play</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">MENAIKTARAF SEKARANG</string>
     <string name="button_update">Kemas kini</string>
     <string name="button_exit">Keluar</string>
-    <string name="button_sure">Pasti</string>
     <string name="button_gotit">Saya faham</string>
-    <string name="button_labels">LABEL</string>
-    <string name="button_attach_image">melampirkan imej</string>
-    <string name="button_new_field">tambah medan</string>
     <string name="button_more">Lebih</string>
     <string name="button_delete_field">Padamkan medan</string>
     <string name="navigation_drawer_open">Buka laci navigasi</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Selamat datang ke Kata Laluan saya</string>
+    <string name="welcome_info_title">Selamat datang</string>
     <string name="welcome_info_content">Sila daftar kata laluan utama untuk mula menggunakan aplikasi. Ambil perhatian bahawa jika kata laluan induk hilang data yang disimpan tidak dapat dipulihkan kerana pilihan penyegerakan yang hilang. Adalah sangat disyorkan bahawa anda membuat sandaran data anda secara berkala.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Terima kasih kerana membeli versi PRO.</string>
     <string name="upgrade_feature_1">Eksport dan; import fail csv</string>
-    <string name="upgrade_feature_2">Sandaran automatik</string>
     <string name="upgrade_feature_3">Pemilihan tema</string>
     <string name="upgrade_feature_4">Clipboard auto jelas</string>
     <string name="upgrade_feature_5">Kemusnahan diri</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Perkhidmatan Google Play tidak tersedia</string>
     <string name="toast_google_client_error">Tidak dapat bersambung ke klien Google. Periksa sambungan rangkaian</string>
     <string name="toast_storage_not_accessible">Penyimpanan luaran tidak boleh diakses</string>
-    <string name="toast_ask_for_rating">Bagaimana pula penarafan di gedung Google Play?</string>
-    <string name="toast_auto_backup_hint">Dayakan sandaran automatik untuk melindungi kata laluan anda</string>
     <string name="toast_pro_feature">Hanya terdapat dalam versi PRO</string>
     <string name="toast_no_password_history">Tiada sejarah kata laluan tersedia</string>
     <string name="toast_password_history_cleared">Sejarah dibersihkan</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Padamkan medan?</string>
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
-    <string name="dialog_msg_payload_failed">Pengesahan pembayaran gagal.</string>
     <string name="dialog_msg_cannot_read_file">Fail yang dipilih tidak dapat dibaca.</string>
     <string name="dialog_msg_db_not_valid">Backup pangkalan data tidak sah.</string>
     <string name="dialog_msg_db_different_pass">Cadangan pangkalan data telah dibuat menggunakan kata laluan induk yang berbeza.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Berdasarkan abjad</string>
     <string name="pref_appearance_sorting_choise_time">Sehingga kini</string>
     <string name="pref_appearance_sorting_choise_color">Dengan warna</string>
+    <string name="pref_appearance_title_list_subtitles">Senarai sari utama</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Tanpa sari kata</string>
+    <string name="pref_appearance_list_subtitles_account">Akaun</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Warna bar navigasi</string>
     <string name="pref_appearance_summary_navibar_color">Warna gelap utama akan digunakan pada bar navigasi juga (Android 5.0 dan baru)</string>
     <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
     <string name="pref_appearance_summary_show_notification">Mudah untuk mengenal pasti bahawa aplikasi dibuka dan berjalan</string>
+    <string name="pref_appearance_title_open_label_list">Buka senarai label semasa log masuk</string>
     <string name="pref_appearance_title_show_passwords">Tunjukkan kata laluan</string>
     <string name="pref_appearance_summary_show_passwords">Anda tidak perlu menekan ikon mata</string>
     <string name="pref_appearance_title_show_account">Tunjukkan akaun</string>
     <string name="pref_appearance_summary_show_account">Medan akaun akan ditunjukkan dalam paparan senarai utama jika tersedia</string>
-    <string name="pref_appearance_title_stay_awake">Sentiasa berjaga</string>
-    <string name="pref_appearance_summary_stay_awake">Skrin tidak akan pernah tidur semasa melihat atau menyunting entri</string>
     <string name="pref_appearance_title_change_theme">Tukar tema</string>
     <string name="pref_appearance_theme_light">Cahaya</string>
     <string name="pref_appearance_theme_dark">Gelap</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">Anda tidak perlu menekan butang jika kata laluan induk betul</string>
     <string name="pref_security_title_auto_exit">Keluar keluar automatik</string>
     <string name="pref_security_summary_auto_exit">Apabila skrin dimatikan</string>
+    <string name="pref_security_title_stay_awake">Sentiasa berjaga</string>
+    <string name="pref_security_summary_stay_awake">Skrin tidak akan pernah tidur semasa melihat atau menyunting entri</string>
     <string name="pref_security_title_allow_screenshots">Benarkan tangkapan skrin</string>
     <string name="pref_security_title_clipboard_clear">Kosongkan papan klip</string>
     <string name="pref_security_clipboard_clear_never">Tidak pernah</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">PENERANGAN</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">PANGKALAN DATA</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SANDARAN AUTOMATIK</string>
+    <string name="pref_category_auto_backup">SANDARAN AUTOMATIK</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">KESELAMATAN</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PAPAN KLIP</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>HURAIAN SELF</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CAP JARI</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Buka entri pada telefon anda dan tekan ikon tontonan untuk menambahkannya di sini</string>
 
 </resources>

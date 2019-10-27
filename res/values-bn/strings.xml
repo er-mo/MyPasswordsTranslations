@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application ##################################################################### -->
-    <string name="app_name">আমার পাসওয়ার্ড</string>
+    <string name="app_name">My Passwords</string>
     <string name="app_description">অ্যান্ড্রয়েড ডিভাইসের জন্য একটি নিরাপদ এবং ব্যবহারযোগ্য পাসওয়ার্ড ম্যানেজার</string>
     <string name="app_download_message">এখন গুগল প্লে স্টোর থেকে বিনামূল্যে এটি পান</string>
     <!-- ################################################################################# -->
@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">এখন উন্নতি কর</string>
     <string name="button_update">হালনাগাদ</string>
     <string name="button_exit">প্রস্থান করুন</string>
-    <string name="button_sure">নিশ্চিত</string>
     <string name="button_gotit">বুঝেছি</string>
-    <string name="button_labels">লেবেল</string>
-    <string name="button_attach_image">ছবি সংযুক্ত করুন</string>
-    <string name="button_new_field">ক্ষেত্র যোগ করুন</string>
     <string name="button_more">অধিক</string>
     <string name="button_delete_field">ক্ষেত্র মুছে ফেলুন</string>
     <string name="navigation_drawer_open">ন্যাভিগেশন ড্রয়ার খুলুন</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">আমার পাসওয়ার্ড স্বাগতম</string>
+    <string name="welcome_info_title">স্বাগত</string>
     <string name="welcome_info_content">অ্যাপ্লিকেশন ব্যবহার শুরু করার জন্য একটি মাস্টার পাসওয়ার্ড নিবন্ধন করুন। মনে রাখবেন যে মাস্টার পাসওয়ার্ড হারিয়ে গেলে সঞ্চিত ডাটাটি হারিয়ে যাওয়া সিঙ্ক বিকল্পটি পুনরুদ্ধার করা যাবে না। এটি দৃঢ়ভাবে সুপারিশ করা হয় যে আপনি নিয়মিত বিরতিতে আপনার ডেটা ব্যাকআপ করেন।</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">PRO সংস্করণ ক্রয় করার জন্য আপনাকে ধন্যবাদ।</string>
     <string name="upgrade_feature_1">রপ্তানি এবং CSV ফাইল আমদানি</string>
-    <string name="upgrade_feature_2">অটো ব্যাকআপ</string>
     <string name="upgrade_feature_3">থিম নির্বাচন</string>
     <string name="upgrade_feature_4">ক্লিপবোর্ড স্বয়ংক্রিয় পরিষ্কার</string>
     <string name="upgrade_feature_5">স্বয়ং ধ্বংস</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">গুগল প্লে সেবা পাওয়া যায় না</string>
     <string name="toast_google_client_error">গুগল ক্লায়েন্ট সাথে সংযোগ করতে পারবেন না। নেটওয়ার্ক সংযোগ চেক করুন</string>
     <string name="toast_storage_not_accessible">বাহ্যিক স্টোরেজ অ্যাক্সেসযোগ্য নয়</string>
-    <string name="toast_ask_for_rating">কিভাবে গুগল প্লে স্টোর একটি রেটিং সম্পর্কে?</string>
-    <string name="toast_auto_backup_hint">আপনার পাসওয়ার্ড রক্ষা করতে স্বয়ংক্রিয় ব্যাকআপ সক্ষম করুন</string>
     <string name="toast_pro_feature">শুধুমাত্র PRO সংস্করণ পাওয়া যায়</string>
     <string name="toast_no_password_history">কোন পাসওয়ার্ড ইতিহাস উপলব্ধ</string>
     <string name="toast_password_history_cleared">ইতিহাস সাফ</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">ক্ষেত্র মুছে ফেলুন?</string>
     <string name="dialog_msg_discard_changes">পরিবর্তন বাতিল?</string>
     <string name="dialog_msg_cannot_open_folder">ফোল্ডার প্রবেশযোগ্য নয়।</string>
-    <string name="dialog_msg_payload_failed">পেমেন্ট যাচাই ব্যর্থ হয়েছে।</string>
     <string name="dialog_msg_cannot_read_file">নির্বাচিত ফাইল পড়া যাবে না।</string>
     <string name="dialog_msg_db_not_valid">ডাটাবেস ব্যাকআপ বৈধ নয়।</string>
     <string name="dialog_msg_db_different_pass">ডাটাবেস ব্যাকআপটি একটি ভিন্ন মাস্টার পাসওয়ার্ড ব্যবহার করে তৈরি করা হয়েছিল।</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">বর্ণানুক্রমে</string>
     <string name="pref_appearance_sorting_choise_time">তারিখ অনুসারে</string>
     <string name="pref_appearance_sorting_choise_color">রঙ দ্বারা</string>
+    <string name="pref_appearance_title_list_subtitles">প্রধান তালিকা সাবটাইটেল</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">সাবটাইটেলবিহীন</string>
+    <string name="pref_appearance_list_subtitles_account">হিসাব</string>
+    <string name="pref_appearance_list_subtitles_labels">লেবেল</string>
     <string name="pref_appearance_title_navibar_color">ন্যাভিগেশন বার রঙ</string>
     <string name="pref_appearance_summary_navibar_color">প্রাথমিক গাঢ় রঙটি ন্যাভিগেশন বারেও প্রয়োগ করা হবে (Android 5.0 এবং নতুন)</string>
     <string name="pref_appearance_title_show_notification">প্রজ্ঞাপন</string>
     <string name="pref_appearance_summary_show_notification">অ্যাপ্লিকেশন আনলক এবং চলমান সনাক্ত করা সহজ</string>
+    <string name="pref_appearance_title_open_label_list">লগইনে লেবেল তালিকা খুলুন</string>
     <string name="pref_appearance_title_show_passwords">পাসওয়ার্ড দেখান</string>
     <string name="pref_appearance_summary_show_passwords">আপনি চোখের আইকন টিপুন না</string>
     <string name="pref_appearance_title_show_account">অ্যাকাউন্ট দেখান</string>
     <string name="pref_appearance_summary_show_account">যদি পাওয়া যায় তবে প্রধান ক্ষেত্র ভিউতে অ্যাকাউন্ট ক্ষেত্র দেখানো হবে</string>
-    <string name="pref_appearance_title_stay_awake">জেগে থাক</string>
-    <string name="pref_appearance_summary_stay_awake">এন্ট্রি দেখতে বা সম্পাদনা করার সময় স্ক্রীন কখনই ঘুমাবে না</string>
     <string name="pref_appearance_title_change_theme">থিম পরিবর্তন করো</string>
     <string name="pref_appearance_theme_light">আলো</string>
     <string name="pref_appearance_theme_dark">অন্ধকার</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">মাস্টার পাসওয়ার্ড সঠিক হলে আপনাকে বোতাম টিপতে হবে না</string>
     <string name="pref_security_title_auto_exit">অটো প্রস্থান</string>
     <string name="pref_security_summary_auto_exit">স্ক্রিনটি বন্ধ হয়ে গেলে</string>
+    <string name="pref_security_title_stay_awake">জেগে থাক</string>
+    <string name="pref_security_summary_stay_awake">এন্ট্রি দেখতে বা সম্পাদনা করার সময় স্ক্রীন কখনই ঘুমাবে না</string>
     <string name="pref_security_title_allow_screenshots">স্ক্রিনশটগুলি অনুমতি দিন</string>
     <string name="pref_security_title_clipboard_clear">ক্লিপবোর্ড সাফ করুন</string>
     <string name="pref_security_clipboard_clear_never">না</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">চেহারা</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>থিম</string>
     <string name="pref_category_database">ডেটাবেস</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>স্বয়ংক্রিয় ব্যাকআপ</string>
+    <string name="pref_category_auto_backup">স্বয়ংক্রিয় ব্যাকআপ</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">নিরাপত্তা</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ক্লিপবোর্ড</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>স্ব ধ্বংস</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>বায়োমেট্রিক্স</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>অঙ্গুলাঙ্ক</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">আপনার ফোনে একটি এন্ট্রি খুলুন এবং এখানে যোগ করার জন্য ঘড়ির আইকন টিপুন</string>
 
 </resources>
