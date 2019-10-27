@@ -41,11 +41,7 @@
     <string name="button_upgrade_now">UPGRADE NOW</string>
     <string name="button_update">UPDATE</string>
     <string name="button_exit">EXIT</string>
-    <string name="button_sure">SURE</string>
     <string name="button_gotit">GOT IT</string>
-    <string name="button_labels">LABELS</string>
-    <string name="button_attach_image">ATTACH IMAGE</string>
-    <string name="button_new_field">ADD FIELD</string>
     <string name="button_more">More</string>
     <string name="button_delete_field">Delete field</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -55,12 +51,11 @@
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome to My Passwords</string>
+    <string name="welcome_info_title">Welcome</string>
     <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
     <!-- upgrade -->
     <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
     <string name="upgrade_feature_1">Export and import csv files</string>
-    <string name="upgrade_feature_2">Auto backup</string>
     <string name="upgrade_feature_3">Theme selection</string>
     <string name="upgrade_feature_4">Clipboard auto clear</string>
     <string name="upgrade_feature_5">Self destruction</string>
@@ -131,8 +126,6 @@
     <string name="toast_playstore_services_error">Google Play services are not available</string>
     <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_ask_for_rating">How about a rating on the Google Play store?</string>
-    <string name="toast_auto_backup_hint">Enable auto backup to protect your passwords</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
     <string name="toast_password_history_cleared">History cleared</string>
@@ -175,7 +168,6 @@
     <string name="dialog_msg_delete_field">Delete field?</string>
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
-    <string name="dialog_msg_payload_failed">Payload verification failed.</string>
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
     <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
     <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
@@ -209,16 +201,19 @@
     <string name="pref_appearance_sorting_choise_alpha">Alphabetically</string>
     <string name="pref_appearance_sorting_choise_time">By date</string>
     <string name="pref_appearance_sorting_choise_color">By color</string>
+    <string name="pref_appearance_title_list_subtitles">Main list subtitles</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">No subtitles</string>
+    <string name="pref_appearance_list_subtitles_account">Account</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
     <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
+    <string name="pref_appearance_title_open_label_list">Open label list at login</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
     <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
     <string name="pref_appearance_title_show_account">Show account</string>
     <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
-    <string name="pref_appearance_title_stay_awake">Stay awake</string>
-    <string name="pref_appearance_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_appearance_title_change_theme">Change theme</string>
     <string name="pref_appearance_theme_light">Light</string>
     <string name="pref_appearance_theme_dark">Dark</string>
@@ -245,6 +240,8 @@
     <string name="pref_security_summary_fast_enter">You don\'t have to press the button if the master password is correct</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
     <string name="pref_security_summary_auto_exit">When the screen turns off</string>
+    <string name="pref_security_title_stay_awake">Stay awake</string>
+    <string name="pref_security_summary_stay_awake">Screen will never sleep while viewing or editing entries</string>
     <string name="pref_security_title_allow_screenshots">Allow screenshots</string>
     <string name="pref_security_title_clipboard_clear">Clear clipboard</string>
     <string name="pref_security_clipboard_clear_never">Never</string>
@@ -285,18 +282,16 @@
     <string name="pref_category_appearance">APPEARANCE</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEME</string>
     <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTO BACKUP</string>
+    <string name="pref_category_auto_backup">AUTO BACKUP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SECURITY</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
     <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELF DESTRUCT</string>
     <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_fingerprint"><xliff:g id="PRO">[PRO]\u0020</xliff:g>FINGERPRINT</string>
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <!-- ################################################################################# -->
 
 
     <!-- Watch information -->
-    <string name="watch_empty_list_view_info">Open an entry on your phone and press the watch icon to add it here</string>
 
 </resources>
