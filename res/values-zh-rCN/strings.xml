@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
     <string name="dialog_msg_db_not_valid">数据库备份无效。</string>
     <string name="dialog_msg_db_different_pass">这个数据库备份使用了不同的主密码创建。</string>
+    <string name="dialog_msg_db_created_on_ios">数据库备份是在iOS上创建的，无法在Android上还原。 您可以改为使用csv文件传输数据。</string>
     <string name="dialog_msg_csv_format_invalid">CSV 格式无效。</string>
     <string name="dialog_msg_csv_no_data">CSV 文件没有数据。</string>
     <string name="dialog_msg_error_writing_file">写文件时出错。</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
     <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
+    <string name="dialog_msg_biometric_no_hardware">没有生物识别硬件。</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">生物识别硬件不可用。</string>
+    <string name="dialog_msg_biometric_none_enrolled">找不到注册的生物特征识别。 请在系统设置中至少设置一个。</string>
+    <string name="dialog_msg_biometric_keystore_error">密钥库错误。 使用主密码输入后，请重新启用生物特征认证。</string>
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>
     <string name="dialog_msg_attachments_warning">附件可能会增加数据库大小并降低应用程序的整体性能。</string>

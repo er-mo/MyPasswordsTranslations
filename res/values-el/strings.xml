@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
     <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
     <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_db_created_on_ios">Το αντίγραφο ασφαλείας της βάσης δεδομένων δημιουργήθηκε σε iOS και δεν μπορεί να αποκατασταθεί σε Android. Μπορείτε να μεταφέρετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.</string>
     <string name="dialog_msg_csv_format_invalid">Η μορφή του CSV αρχείου δεν είναι έγκυρη.</string>
     <string name="dialog_msg_csv_no_data">Το CSV αρχείο δεν διαθέτει δεδομένα.</string>
     <string name="dialog_msg_error_writing_file">Σφάλμα κατά την εγγραφή αρχείου.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
     <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_biometric_no_hardware">Δεν υπάρχει βιομετρικό hardware.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Το βιομετρικό hardware δεν είναι διαθέσιμο.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Δεν βρέθηκαν καταχωρημένα βιομετρικά στοιχεία. Ρυθμίστε τουλάχιστον ένα στις ρυθμίσεις συστήματος.</string>
+    <string name="dialog_msg_biometric_keystore_error">Σφάλμα Keystore. Ενεργοποιήστε ξανά τον βιομετρικό έλεγχο ταυτότητας μόλις εισέλθετε χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
     <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
     <string name="dialog_msg_attachments_warning">Οι εικόνες ενδέχεται να αυξήσουν το μέγεθος της βάσης δεδομένων και να μειώσουν τη συνολική απόδοση της εφαρμογής.</string>

@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Ne peut pas lire fichier sélectionné.</string>
     <string name="dialog_msg_db_not_valid">La sauvegarde de la base de données n\'est pas valide.</string>
     <string name="dialog_msg_db_different_pass">La sauvegarde de la base de données a été créée avec utilisant mot de passe principal différent.</string>
+    <string name="dialog_msg_db_created_on_ios">La sauvegarde de la base de données a été créée sur iOS et ne peut pas être restaurée sur Android. Vous pouvez transférer vos données en utilisant plutôt un fichier csv.</string>
     <string name="dialog_msg_csv_format_invalid">Le format CSV ñ\'est pas valide.</string>
     <string name="dialog_msg_csv_no_data">Le fichier CSV ne contient aucune donnée.</string>
     <string name="dialog_msg_error_writing_file">Erreur lors de l\'écriture du fichier.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Empreinte digitale reconnue. S\'il vous plaît, attendez<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Détecteur tactile</string>
     <string name="dialog_msg_fp_keystore_error">Erreur d\'empreinte digitale. Activer à nouveau l\'empreinte lorsque vous vous connectez à l\'aide du mot de passe principal.</string>
+    <string name="dialog_msg_biometric_no_hardware">Il n\'y a pas de matériel biométrique.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Le matériel biométrique est indisponible.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Aucune biométrie inscrite trouvée. Veuillez en configurer au moins un dans les paramètres système.</string>
+    <string name="dialog_msg_biometric_keystore_error">Erreur du magasin de clés. Veuillez réactiver l\'authentification biométrique une fois que vous avez entré votre mot de passe principal.</string>
     <string name="dialog_msg_pass_gen_trick">Appuyez plusieurs fois pour créer mots de passe de type et de longueur différents.</string>
     <string name="dialog_msg_remove_from_watch">Retirer du suivi</string>
     <string name="dialog_msg_attachments_warning">Les pièces jointes peuvent augmenter la taille de la base de données et réduire les performances globales de l\'application.</string>

@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">No se puede leer el archivo seleccionado.</string>
     <string name="dialog_msg_db_not_valid">La copia de seguridad de la base de datos no es válida.</string>
     <string name="dialog_msg_db_different_pass">La copia de seguridad de la base de datos se creó utilizando una contraseña maestra diferente.</string>
+    <string name="dialog_msg_db_created_on_ios">La copia de seguridad de la base de datos se creó en iOS y no se puede restaurar en Android. En su lugar, puede transferir sus datos utilizando un archivo csv.</string>
     <string name="dialog_msg_csv_format_invalid">El formato CSV no es válido.</string>
     <string name="dialog_msg_csv_no_data">El archivo CSV no tiene datos.</string>
     <string name="dialog_msg_error_writing_file">Error al escribir el archivo.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Huella dactilar reconocida. Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor táctil</string>
     <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
+    <string name="dialog_msg_biometric_no_hardware">No hay hardware biométrico.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">El hardware biométrico no está disponible.</string>
+    <string name="dialog_msg_biometric_none_enrolled">No se encontraron datos biométricos inscritos. Configure al menos uno en la configuración del sistema.</string>
+    <string name="dialog_msg_biometric_keystore_error">Error de almacén de claves. Vuelva a habilitar la autenticación biométrica una vez que ingrese con su contraseña maestra.</string>
     <string name="dialog_msg_pass_gen_trick">Toca varias veces para generar contraseñas de tipo y longitud diferente.</string>
     <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
     <string name="dialog_msg_attachments_warning">Los archivos adjuntos pueden aumentar el tamaño de la base de datos y disminuir el rendimiento general de la aplicación.</string>

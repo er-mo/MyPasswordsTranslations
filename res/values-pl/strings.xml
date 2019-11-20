@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
     <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
     <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
+    <string name="dialog_msg_db_created_on_ios">Kopia zapasowa bazy danych została utworzona w systemie iOS i nie można jej przywrócić w systemie Android. Zamiast tego możesz przesłać swoje dane za pomocą pliku csv.</string>
     <string name="dialog_msg_csv_format_invalid">Format CSV jest nieprawidłowy.</string>
     <string name="dialog_msg_csv_no_data">W pliku CSV nie ma danych.</string>
     <string name="dialog_msg_error_writing_file">Błąd podczas zapisywania pliku.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Rozpoznano odscisk. Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Dotknij czytnika</string>
     <string name="dialog_msg_fp_keystore_error">Błąd bazy danych odcisków palca. Użyj hasła głównego do otwarcia palikacji, następnie włącz ponownie logowanie odciskiem.</string>
+    <string name="dialog_msg_biometric_no_hardware">Nie ma sprzętu biometrycznego.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Sprzęt biometryczny jest niedostępny.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Nie znaleziono zapisanych danych biometrycznych. Ustaw przynajmniej jedną w ustawieniach systemu.</string>
+    <string name="dialog_msg_biometric_keystore_error">Błąd magazynu kluczy. Ponownie włącz uwierzytelnianie biometryczne po wprowadzeniu hasła głównego.</string>
     <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
     <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
     <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>

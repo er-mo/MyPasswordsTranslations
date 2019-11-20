@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
     <string name="dialog_msg_db_not_valid">Il backup del database non è valido.</string>
     <string name="dialog_msg_db_different_pass">Il backup del database è stato creato utilizzando una password master diversa.</string>
+    <string name="dialog_msg_db_created_on_ios">Il backup del database è stato creato su iOS e non può essere ripristinato su Android. Puoi invece trasferire i tuoi dati usando un file CSV.</string>
     <string name="dialog_msg_csv_format_invalid">Il formato CSV non è valido.</string>
     <string name="dialog_msg_csv_no_data">Il file CSV non ha dati.</string>
     <string name="dialog_msg_error_writing_file">Errore durante la scrittura del file.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Impronta Digitale</string>
     <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
+    <string name="dialog_msg_biometric_no_hardware">Non esiste hardware biometrico.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">L\'hardware biometrico non è disponibile.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Nessuna biometria registrata trovata. Si prega di impostare almeno uno nelle impostazioni di sistema.</string>
+    <string name="dialog_msg_biometric_keystore_error">Errore nel keystore. Riattivare l\'autenticazione biometrica dopo aver inserito la password principale.</string>
     <string name="dialog_msg_pass_gen_trick">Premi più volte per generare password di diverso tipo e lunghezza</string>
     <string name="dialog_msg_remove_from_watch">Rimuovere la voce dall\'orologio?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>

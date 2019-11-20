@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">O arquivo selecionado não pode ser lido.</string>
     <string name="dialog_msg_db_not_valid">O backup do banco de dados não é válido.</string>
     <string name="dialog_msg_db_different_pass">O backup do banco de dados foi criado usando uma senha mestra diferente.</string>
+    <string name="dialog_msg_db_created_on_ios">O backup do banco de dados foi criado no iOS e não pode ser restaurado no Android. Você pode transferir seus dados usando um arquivo csv.</string>
     <string name="dialog_msg_csv_format_invalid">O formato CSV não é válido.</string>
     <string name="dialog_msg_csv_no_data">O arquivo CSV não possui dados.</string>
     <string name="dialog_msg_error_writing_file">Erro ao gravar o arquivo.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Reconhecimento de impressões digitais reconhecido. Por favor aguarde<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor de toque</string>
     <string name="dialog_msg_fp_keystore_error">Erro de keystore de impressão digital. Por favor, reative a impressão digital depois de entrar usando sua senha mestra.</string>
+    <string name="dialog_msg_biometric_no_hardware">Não há hardware biométrico.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">O hardware biométrico está indisponível.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Nenhuma biometria registrada encontrada. Configure pelo menos um nas configurações do sistema.</string>
+    <string name="dialog_msg_biometric_keystore_error">Erro no armazenamento de chaves. Reative a autenticação biométrica depois de inserir usando sua senha mestra.</string>
     <string name="dialog_msg_pass_gen_trick">Toque várias vezes para gerar senhas de diferentes tipos e tamanhos.</string>
     <string name="dialog_msg_remove_from_watch">Remover entrada do relógio?</string>
     <string name="dialog_msg_attachments_warning">Anexos podem aumentar o tamanho do banco de dados e diminuir o desempenho geral do aplicativo.</string>

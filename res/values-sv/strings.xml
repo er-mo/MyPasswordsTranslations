@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
     <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
     <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
+    <string name="dialog_msg_db_created_on_ios">Databasbackupen skapades på iOS och kan inte återställas på Android. Du kan överföra dina data med en csv-fil istället.</string>
     <string name="dialog_msg_csv_format_invalid">CSV-formatet är inte giltigt.</string>
     <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
     <string name="dialog_msg_error_writing_file">Det gick inte att skriva en fil.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Fingeravtryck igenkänt. Vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch-sensor</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore fel. Vänligen aktivera fingeravtryck när du anger ditt huvudlösenord.</string>
+    <string name="dialog_msg_biometric_no_hardware">Det finns ingen biometrisk hårdvara.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Den biometriska hårdvaran är inte tillgänglig.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Inga registrerade biometri hittades. Ställ in minst en i systeminställningarna.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore-fel. Aktivera biometrisk autentisering igen när du anger ditt huvudlösenord.</string>
     <string name="dialog_msg_pass_gen_trick">Tryck flera gånger för att generera lösenord av olika typ och längd.</string>
     <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
     <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>

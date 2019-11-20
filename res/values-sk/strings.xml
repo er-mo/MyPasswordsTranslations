@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
     <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
     <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
+    <string name="dialog_msg_db_created_on_ios">The database backup was created on iOS and cannot be restored on Android. You can transfer your data using a csv file instead.</string>
     <string name="dialog_msg_csv_format_invalid">The CSV format is not valid.</string>
     <string name="dialog_msg_csv_no_data">The CSV file has no data.</string>
     <string name="dialog_msg_error_writing_file">Error writing file.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch sensor</string>
     <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
+    <string name="dialog_msg_biometric_no_hardware">There is no biometric hardware.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">The biometric hardware is unavailable.</string>
+    <string name="dialog_msg_biometric_none_enrolled">No enrolled biometrics found. Please set up at least one in system settings.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore error. Please re-enable the biometric once you enter using your master password.</string>
     <string name="dialog_msg_pass_gen_trick">Tap multiple times to generate passwords of different type and length.</string>
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>

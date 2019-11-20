@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">선택된 파일을 읽을 수 없음</string>
     <string name="dialog_msg_db_not_valid">데이터베이스 백업이 유효하지 않음</string>
     <string name="dialog_msg_db_different_pass">데이터베이스가 다른 마스터 패스워드로 백업되었음</string>
+    <string name="dialog_msg_db_created_on_ios">데이터베이스 백업은 iOS에서 작성되었으며 Android에서 복원 할 수 없습니다. 대신 CSV 파일을 사용하여 데이터를 전송할 수 있습니다.</string>
     <string name="dialog_msg_csv_format_invalid">CSV 파일 형식이 유효하지 않음</string>
     <string name="dialog_msg_csv_no_data">CSV 파일에 데이터가 없음</string>
     <string name="dialog_msg_error_writing_file">파일을 쓰는 중 오류가 발생했음</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">지문이 인식되었으니 잠시 기다려 주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">터치 센서</string>
     <string name="dialog_msg_fp_keystore_error">지문이 인식되지 않았으니 마스터 패스워드로 로그인하고 지문인식기능을 다시 활성화해야 함</string>
+    <string name="dialog_msg_biometric_no_hardware">생체 인식 하드웨어가 없습니다.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">생체 인식 하드웨어를 사용할 수 없습니다.</string>
+    <string name="dialog_msg_biometric_none_enrolled">등록 된 생체 인식이 없습니다. 시스템 설정에서 하나 이상을 설정하십시오.</string>
+    <string name="dialog_msg_biometric_keystore_error">키 스토어 에러. 마스터 비밀번호를 사용하여 입력 한 후에 생체 인증을 다시 활성화하십시오.</string>
     <string name="dialog_msg_pass_gen_trick">다른 형태/길이의 패스워드를 만들려면 계속 터치하십시오.</string>
     <string name="dialog_msg_remove_from_watch">시계에서 항목을 삭제하시겠습니까?</string>
     <string name="dialog_msg_attachments_warning">파일을 첨부하면 데이터베이스가 커져서 앱이 느려질 수 있음</string>

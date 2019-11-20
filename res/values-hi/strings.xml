@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
     <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
     <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
+    <string name="dialog_msg_db_created_on_ios">डेटाबेस बैकअप iOS पर बनाया गया था और इसे Android पर पुनर्स्थापित नहीं किया जा सकता है। आप इसके बजाय एक सीएसवी फ़ाइल का उपयोग करके अपने डेटा को स्थानांतरित कर सकते हैं।</string>
     <string name="dialog_msg_csv_format_invalid">CSV प्रारूप मान्य नहीं है।</string>
     <string name="dialog_msg_csv_no_data">CSV फ़ाइल में कोई डेटा नहीं है।</string>
     <string name="dialog_msg_error_writing_file">फ़ाइल लिखने में त्रुटि।</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">फिंगरप्रिंट पहचान लिया। कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">टच सेंसर</string>
     <string name="dialog_msg_fp_keystore_error">फ़िंगरप्रिंट त्रुटि। जब आप मास्टर पासवर्ड का उपयोग करके साइन इन करते हैं, तो फिंगरप्रिंट को फिर से सक्षम करें।</string>
+    <string name="dialog_msg_biometric_no_hardware">बायोमेट्रिक हार्डवेयर नहीं है।</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">बायोमेट्रिक हार्डवेयर अनुपलब्ध है।</string>
+    <string name="dialog_msg_biometric_none_enrolled">कोई नामांकित बायोमेट्रिक्स नहीं मिला। कृपया सिस्टम सेटिंग में कम से कम एक सेट करें।</string>
+    <string name="dialog_msg_biometric_keystore_error">कीस्टोर त्रुटि। कृपया अपने मास्टर पासवर्ड का उपयोग करते हुए बायोमेट्रिक प्रमाणीकरण को पुनः सक्षम करें।</string>
     <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
     <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
     <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>

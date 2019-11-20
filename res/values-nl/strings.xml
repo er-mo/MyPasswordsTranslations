@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
     <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
     <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
+    <string name="dialog_msg_db_created_on_ios">De databaseback-up is gemaakt op iOS en kan niet worden hersteld op Android. U kunt in plaats daarvan uw gegevens overbrengen met behulp van een CSV-bestand.</string>
     <string name="dialog_msg_csv_format_invalid">Het CSV-formaat is niet geldig.</string>
     <string name="dialog_msg_csv_no_data">Het CSV-bestand bevat geen gegevens.</string>
     <string name="dialog_msg_error_writing_file">Fout bij schrijven van bestand.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
     <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
+    <string name="dialog_msg_biometric_no_hardware">Er is geen biometrische hardware.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">De biometrische hardware is niet beschikbaar.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Geen geregistreerde biometrische gegevens gevonden. Stel ten minste één in systeeminstellingen in.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore-fout. Schakel de biometrische authenticatie opnieuw in zodra u deze invoert met uw hoofdwachtwoord.</string>
     <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
     <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
     <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>

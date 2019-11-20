@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
     <string name="dialog_msg_db_not_valid">Резервная копия базы данных недействительна.</string>
     <string name="dialog_msg_db_different_pass">Резервная копия базы данных была создана с использованием другого мастер-пароля.</string>
+    <string name="dialog_msg_db_created_on_ios">Резервная копия базы данных была создана на iOS и не может быть восстановлена на Android. Вы можете передать свои данные, используя CSV-файл.</string>
     <string name="dialog_msg_csv_format_invalid">Формат CSV недействителен.</string>
     <string name="dialog_msg_csv_no_data">Файл CSV не имеет данных.</string>
     <string name="dialog_msg_error_writing_file">Ошибка записи файла.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Отпечаток Ваш! Подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Коснитесь пальцем сенсора</string>
     <string name="dialog_msg_fp_keystore_error">Ошибка хранилища отпечатков пальцев. Пожалуйста, включите функцию отпечаток пальца. После того, как Вы \"Войдете\" в приложение, используйте Ваш \"Мастер-пароль\", для \"Входа\".</string>
+    <string name="dialog_msg_biometric_no_hardware">Здесь нет биометрического оборудования.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Биометрическое оборудование недоступно.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Зарегистрированные биометрические данные не найдены. Пожалуйста, установите хотя бы один в настройках системы.</string>
+    <string name="dialog_msg_biometric_keystore_error">Ошибка хранилища ключей. Пожалуйста, включите биометрическую аутентификацию, как только вы введете свой мастер-пароль.</string>
     <string name="dialog_msg_pass_gen_trick">Нажмите несколько раз, чтобы создать пароли различного типа и длины.</string>
     <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
     <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>

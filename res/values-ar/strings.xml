@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">لا يمكن قراءة الملف المحدد.</string>
     <string name="dialog_msg_db_not_valid">النسخة الاحتياطية من قاعدة البيانات غير صالحة.</string>
     <string name="dialog_msg_db_different_pass">تم إنشاء النسخ الاحتياطي لقاعدة البيانات باستخدام كلمة مرور رئيسية مختلفة.</string>
+    <string name="dialog_msg_db_created_on_ios">تم إنشاء نسخة احتياطية لقاعدة البيانات على نظام التشغيل iOS ولا يمكن استعادتها على نظام Android. يمكنك نقل بياناتك باستخدام ملف CSV بدلاً من ذلك.</string>
     <string name="dialog_msg_csv_format_invalid">تنسيق CSV غير صالح.</string>
     <string name="dialog_msg_csv_no_data">ملف CSV لا يحتوي على بيانات.</string>
     <string name="dialog_msg_error_writing_file">خطأ في كتابة الملف.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">بصمة معترف بها. ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">استشعار تعمل باللمس</string>
     <string name="dialog_msg_fp_keystore_error">خطأ بصمة. قم بتمكين البصمة مرة أخرى عند تسجيل الدخول باستخدام كلمة المرور الرئيسية.</string>
+    <string name="dialog_msg_biometric_no_hardware">لا يوجد أجهزة القياس الحيوي.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">الأجهزة البيومترية غير متوفرة.</string>
+    <string name="dialog_msg_biometric_none_enrolled">لم يتم العثور على القياسات الحيوية المسجلة. يرجى إعداد واحد على الأقل في إعدادات النظام.</string>
+    <string name="dialog_msg_biometric_keystore_error">خطأ في المفاتيح. يرجى إعادة تمكين القياس الحيوي بمجرد إدخال باستخدام كلمة المرور الرئيسية الخاصة بك.</string>
     <string name="dialog_msg_pass_gen_trick">اضغط عدة مرات لإنشاء كلمات مرور من نوع وطول مختلفين.</string>
     <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
     <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>

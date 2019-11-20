@@ -171,6 +171,7 @@
     <string name="dialog_msg_cannot_read_file">Fail yang dipilih tidak dapat dibaca.</string>
     <string name="dialog_msg_db_not_valid">Backup pangkalan data tidak sah.</string>
     <string name="dialog_msg_db_different_pass">Cadangan pangkalan data telah dibuat menggunakan kata laluan induk yang berbeza.</string>
+    <string name="dialog_msg_db_created_on_ios">Cadangan pangkalan data dicipta pada iOS dan tidak dapat dipulihkan pada Android. Anda boleh memindahkan data anda menggunakan fail csv sebaliknya.</string>
     <string name="dialog_msg_csv_format_invalid">Format CSV tidak sah.</string>
     <string name="dialog_msg_csv_no_data">Fail CSV tidak mempunyai data.</string>
     <string name="dialog_msg_error_writing_file">Ralat menulis fail.</string>
@@ -182,6 +183,10 @@
     <string name="dialog_msg_fp_success">Cap jari diiktiraf. Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sentuh sensor</string>
     <string name="dialog_msg_fp_keystore_error">Kesilapan keystore cap jari. Sila semak semula cap jari sebaik sahaja anda memasukkan kata laluan induk anda.</string>
+    <string name="dialog_msg_biometric_no_hardware">Tidak ada perkakasan biometrik.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Perkakasan biometrik tidak tersedia.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Tiada biometrik yang didaftarkan. Sila setkan sekurang-kurangnya satu dalam tetapan sistem.</string>
+    <string name="dialog_msg_biometric_keystore_error">Ralat papan kekunci. Sila semak semula pengesahan biometrik sebaik sahaja anda memasukkan kata laluan induk anda.</string>
     <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata laluan jenis dan panjang yang berlainan.</string>
     <string name="dialog_msg_remove_from_watch">Alih keluar kemasukan dari jam tangan?</string>
     <string name="dialog_msg_attachments_warning">Lampiran boleh meningkatkan saiz pangkalan data dan mengurangkan prestasi keseluruhan aplikasi.</string>
