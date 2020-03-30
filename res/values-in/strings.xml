@@ -28,7 +28,7 @@
     <string name="notes">Catatan</string>
     <string name="list_is_empty">Tidak ada entri</string>
     <string name="last_updated">Terakhir diperbarui</string>
-    <string name="copy">(salinan)</string>
+    <string name="copy_text">(salinan)</string>
     <string name="new_field_hint">Nama</string>
     <string name="add_new_label">Tambahkan label baru</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Pencarian</string>
     <string name="menu_settings">Pengaturan</string>
+    <string name="menu_exit">Keluar</string>
     <string name="menu_appearance">Penampilan</string>
     <string name="menu_database">Basis data</string>
     <string name="menu_security">Keamanan</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Disalin ke clipboard</string>
     <string name="toast_master_password_updated">Kata sandi master berhasil diperbarui</string>
     <string name="toast_master_password_not_updated">Gagal memperbarui kata sandi utama</string>
-    <string name="toast_storage_permission_granted">Izin diberikan</string>
     <string name="toast_storage_permission_denied">Izin ditolak. Tidak dapat membaca atau menulis file.</string>
     <string name="toast_camera_permission_denied">Izin ditolak. Tidak dapat mengambil gambar.</string>
     <string name="toast_no_file_selected">Tidak ada file yang dipilih</string>
+    <string name="toast_no_folder_selected">Tidak ada folder yang dipilih</string>
     <string name="toast_successful_backup">Dibuat cadangan dengan kesuksesan</string>
     <string name="toast_successful_restore">Database berhasil dipulihkan</string>
     <string name="toast_successful_csv_export">Berhasil mengekspor file csv</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Dihapus dari pemantauan</string>
     <string name="toast_playstore_error">Aplikasi Google Play store tidak diinstal</string>
     <string name="toast_playstore_services_error">Layanan Google Play tidak tersedia</string>
-    <string name="toast_google_client_error">Tidak dapat terhubung ke klien Google. Periksa konektivitas jaringan</string>
     <string name="toast_storage_not_accessible">Penyimpanan eksternal tidak dapat diakses</string>
     <string name="toast_pro_feature">Hanya tersedia dalam versi PRO</string>
     <string name="toast_no_password_history">Tidak ada riwayat kata sandi</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">File atau folder yang dipilih tidak dapat diakses.</string>
     <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
     <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
     <string name="dialog_msg_db_created_on_ios">Cadangan basis data dibuat di iOS dan tidak dapat dipulihkan di Android. Anda dapat mentransfer data menggunakan file csv.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Sidik jari tidak dikenali. Coba lagi</string>
     <string name="dialog_msg_fp_success">Sidik jari dikenali. Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor sentuh</string>
-    <string name="dialog_msg_fp_keystore_error">Kesalahan keystore sidik jari. Harap aktifkan kembali sidik jari setelah Anda memasukkan menggunakan kata sandi utama Anda.</string>
     <string name="dialog_msg_biometric_no_hardware">Tidak ada perangkat keras biometrik.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">Perangkat keras biometrik tidak tersedia.</string>
     <string name="dialog_msg_biometric_none_enrolled">Tidak ditemukan biometrik terdaftar. Harap atur setidaknya satu di pengaturan sistem.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Akun</string>
     <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Warna bilah navigasi</string>
-    <string name="pref_appearance_summary_navibar_color">Warna gelap primer juga akan diterapkan ke bilah navigasi (Android 5.0 dan yang lebih baru)</string>
     <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
     <string name="pref_appearance_summary_show_notification">Mudah untuk mengidentifikasi bahwa aplikasi tidak dikunci dan berjalan</string>
     <string name="pref_appearance_title_open_label_list">Buka daftar label saat masuk</string>
     <string name="pref_appearance_title_show_passwords">Tampilkan kata sandi</string>
-    <string name="pref_appearance_summary_show_passwords">Anda tidak perlu menekan ikon mata</string>
-    <string name="pref_appearance_title_show_account">Tampilkan akun</string>
-    <string name="pref_appearance_summary_show_account">Bidang akun akan ditampilkan di tampilan daftar utama jika tersedia</string>
     <string name="pref_appearance_title_change_theme">Ubah tema</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Cahaya</string>
     <string name="pref_appearance_theme_dark">Gelap</string>
     <string name="pref_appearance_theme_blue_gray">Biru abu-abu</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Buat cadangan dari basis data terenkripsi menggunakan kerangka kerja akses penyimpanan Android</string>
     <string name="pref_database_title_restore">Pulihkan basis data</string>
     <string name="pref_database_summary_restore">Pulihkan cadangan dari basis data terenkripsi</string>
-    <string name="pref_database_title_gd_auto_backup">Cadangan Google Drive</string>
-    <string name="pref_database_summary_gd_auto_backup">Buat cadangan otomatis di akun Google Drive pribadi Anda</string>
-    <string name="pref_database_title_sd_auto_backup">Cadangan Penyimpanan Eksternal</string>
-    <string name="pref_database_summary_sd_auto_backup">Buat cadangan otomatis di penyimpanan eksternal Anda (sd atau penyimpanan non-removable internal). Anda dapat mengakses penyimpanan eksternal menggunakan aplikasi pengelola file pihak ke-3</string>
+    <string name="pref_database_title_auto_backup">Cadangan otomatis</string>
+    <string name="pref_database_summary_auto_backup">Buat cadangan otomatis di penyimpanan eksternal Anda (sd atau penyimpanan non-removable internal). Anda dapat mengakses penyimpanan eksternal menggunakan aplikasi pengelola file pihak ke-3</string>
     <string name="pref_database_title_export">Ekspor file csv</string>
     <string name="pref_database_summary_export">Ekspor entri ke file csv yang tidak terenkripsi</string>
     <string name="pref_database_title_import">Impor file csv</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
     <string name="pref_security_title_fast_enter">Entri cepat</string>
-    <string name="pref_security_summary_fast_enter">Anda tidak perlu menekan tombol jika kata sandi utama sudah benar</string>
     <string name="pref_security_title_auto_exit">Keluar otomatis</string>
     <string name="pref_security_summary_auto_exit">Saat layar mati</string>
     <string name="pref_security_title_stay_awake">Tetap bangun</string>

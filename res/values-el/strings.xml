@@ -28,7 +28,7 @@
     <string name="notes">Σημειώσεις</string>
     <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
     <string name="last_updated">Τελευταία ενημέρωση</string>
-    <string name="copy">(αντίγραφο)</string>
+    <string name="copy_text">(αντίγραφο)</string>
     <string name="new_field_hint">Όνομα</string>
     <string name="add_new_label">Προσθέστε νέα ετικέτα</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Αναζήτηση</string>
     <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="menu_exit">Έξοδος</string>
     <string name="menu_appearance">Εμφάνιση</string>
     <string name="menu_database">Βάση δεδομένων</string>
     <string name="menu_security">Ασφάλεια</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="toast_master_password_updated">Ο κύριος κωδικός πρόσβασης ενημερώθηκε με επιτυχία</string>
     <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
-    <string name="toast_storage_permission_granted">Η άδεια παραχωρήθηκε</string>
     <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
     <string name="toast_camera_permission_denied">Η άδεια απορρίφθηκε. Δεν είναι δυνατή η επισύναψη εικόνων</string>
     <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
+    <string name="toast_no_folder_selected">Δεν επιλέχθηκε φάκελος</string>
     <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
     <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>
     <string name="toast_successful_csv_export">Το αρχείο csv έχει εξαχθεί με επιτυχία</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Αφαιρέθηκε από το ρολόι</string>
     <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
     <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
-    <string name="toast_google_client_error">Δεν είναι δυνατή η σύνδεση με το Google client. Παρακαλούμε ελέγξτε την διαθεσιμότητα του δικτύου</string>
     <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
     <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
     <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
     <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
     <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Δεν είναι δυνατή η πρόσβαση στο επιλεγμένο αρχείο ή φάκελο.</string>
     <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
     <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_db_created_on_ios">Το αντίγραφο ασφαλείας της βάσης δεδομένων δημιουργήθηκε σε iOS και δεν μπορεί να αποκατασταθεί σε Android. Μπορείτε να μεταφέρετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
     <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
-    <string name="dialog_msg_fp_keystore_error">Keystore σφάλμα. Παρακαλούμε ενεργοποιήστε ξανά το δακτυλικό αποτύπωμα μετά την είσοδο σας χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
     <string name="dialog_msg_biometric_no_hardware">Δεν υπάρχει βιομετρικό hardware.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">Το βιομετρικό hardware δεν είναι διαθέσιμο.</string>
     <string name="dialog_msg_biometric_none_enrolled">Δεν βρέθηκαν καταχωρημένα βιομετρικά στοιχεία. Ρυθμίστε τουλάχιστον ένα στις ρυθμίσεις συστήματος.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Λογαριασμός</string>
     <string name="pref_appearance_list_subtitles_labels">Ετικέτες</string>
     <string name="pref_appearance_title_navibar_color">Χρώμα γραμμής πλοήγησης</string>
-    <string name="pref_appearance_summary_navibar_color">Το πρωτεύον χρώμα θα εφαρμοστεί και στη γραμμή πλοήγησης επίσης (Android 5.0 και νεότερες εκδόσεις μόνο)</string>
     <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
     <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
     <string name="pref_appearance_title_open_label_list">Άνοιγμα λίστας ετικετών κατά την είσοδο</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
-    <string name="pref_appearance_summary_show_passwords">Δεν χρειάζεται να πατάτε το εικονίδιο</string>
-    <string name="pref_appearance_title_show_account">Εμφάνιση λογαρισμού</string>
-    <string name="pref_appearance_summary_show_account">Το πεδίο του λογαριασμού θα εμφανίζεται στην κυρία λίστα εάν είναι διαθέσιμο</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
     <string name="pref_appearance_theme_blue_gray">Μπλε Γκρι</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων χρησιμοποιώντας Android storage access framework</string>
     <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
     <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive</string>
-    <string name="pref_database_summary_gd_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον προσωπικό σας Google Drive λογαριασμό</string>
-    <string name="pref_database_title_sd_auto_backup">Εξωτερικός χώρος αποθήκευσης</string>
-    <string name="pref_database_summary_sd_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον εξωτερικό χώρο αποθήκευσης (sd-card η εσωτερική μη-αφαιρούμενη μνήμη)</string>
+    <string name="pref_database_title_auto_backup">Αυτόματο backup</string>
+    <string name="pref_database_summary_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον εξωτερικό χώρο αποθήκευσης (sd-card η εσωτερική μη-αφαιρούμενη μνήμη)</string>
     <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
     <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
     <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
     <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
-    <string name="pref_security_summary_fast_enter">Δεν χρειάζεται να πατήσετε το κουμπί εάν ο κύριος κωδικός πρόσβασης είναι σωστός</string>
     <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
     <string name="pref_security_summary_auto_exit">Όταν η οθόνη σβήσει</string>
     <string name="pref_security_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>

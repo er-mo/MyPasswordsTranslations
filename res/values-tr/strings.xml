@@ -28,7 +28,7 @@
     <string name="notes">Notlar</string>
     <string name="list_is_empty">Kayıt bulunmuyor</string>
     <string name="last_updated">Son güncelleme</string>
-    <string name="copy">(kopya)</string>
+    <string name="copy_text">(kopya)</string>
     <string name="new_field_hint">İsim</string>
     <string name="add_new_label">Yeni etiket ekle</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Arama</string>
     <string name="menu_settings">Ayarlar</string>
+    <string name="menu_exit">Çıkış</string>
     <string name="menu_appearance">Görünüm</string>
     <string name="menu_database">Veritabanı</string>
     <string name="menu_security">Güvenlik</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
     <string name="toast_master_password_updated">Ana parola başarıyla güncellendi</string>
     <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
-    <string name="toast_storage_permission_granted">İzin verildi</string>
     <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
     <string name="toast_camera_permission_denied">İzin reddedildi. Resimler yakalanamıyor.</string>
     <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
+    <string name="toast_no_folder_selected">Hiçbir klasör seçilmedi</string>
     <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
     <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>
     <string name="toast_successful_csv_export">Başarıyla ihraç csv dosyası</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Saatten kaldırıldı</string>
     <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
     <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
-    <string name="toast_google_client_error">Google istemciye bağlanamıyor. Ağ bağlantısını kontrol edin</string>
     <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
     <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
     <string name="toast_no_password_history">Şifre geçmişi yok</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
     <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
     <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Seçilen dosyaya veya klasöre erişilemiyor.</string>
     <string name="dialog_msg_db_not_valid">Veritabanı yedeği geçerli değil.</string>
     <string name="dialog_msg_db_different_pass">Veritabanı yedeği farklı bir ana şifre kullanılarak oluşturuldu.</string>
     <string name="dialog_msg_db_created_on_ios">Veritabanı yedeklemesi iOS\'ta oluşturuldu ve Android\'de geri yüklenemez. Verilerinizi bunun yerine bir csv dosyası kullanarak aktarabilirsiniz.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Parmak izi tanınmadı. Tekrar deneyin</string>
     <string name="dialog_msg_fp_success">Parmak izi tanıdı. Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
-    <string name="dialog_msg_fp_keystore_error">Parmak izi anahtar deposu hatası. Ana şifrenizi girdikten sonra lütfen parmak izini tekrar etkinleştirin.</string>
     <string name="dialog_msg_biometric_no_hardware">Biyometrik donanım yoktur.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">Biyometrik donanım mevcut değil.</string>
     <string name="dialog_msg_biometric_none_enrolled">Kayıtlı biyometri bulunamadı. Lütfen sistem ayarlarında en az bir tane kurun.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Hesap</string>
     <string name="pref_appearance_list_subtitles_labels">Etiketler</string>
     <string name="pref_appearance_title_navibar_color">Gezinme çubuğu rengi</string>
-    <string name="pref_appearance_summary_navibar_color">Gezinme çubuğuna da birincil koyu renk uygulanacaktır (Android 5.0 ve daha yenisi)</string>
     <string name="pref_appearance_title_show_notification">Bildirim</string>
     <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
     <string name="pref_appearance_title_open_label_list">Giriş sırasında etiket listesini aç</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
-    <string name="pref_appearance_summary_show_passwords">Göz simgesini basmanız gerekmiyor</string>
-    <string name="pref_appearance_title_show_account">Hesabı göster</string>
-    <string name="pref_appearance_summary_show_account">Hesap alanı, varsa, ana liste görünümünde gösterilir</string>
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
     <string name="pref_appearance_theme_blue_gray">Mavi gri</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Android storage access framework kullanarak şifrelenmiş veritabanının yedeğini oluşturun</string>
     <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
     <string name="pref_database_summary_restore">Şifrelenmiş veritabanının yedeğini geri yükleme</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive yedekleme</string>
-    <string name="pref_database_summary_gd_auto_backup">Kendi Google Drive hesabınızda otomatik yedekleri oluşturma</string>
-    <string name="pref_database_title_sd_auto_backup">Harici Depolama yedekleme</string>
-    <string name="pref_database_summary_sd_auto_backup">Harici depolama (SD kart veya dahili olmayan çıkarılabilir depolama) otomatik yedekleme oluşturun</string>
+    <string name="pref_database_title_auto_backup">Otomatik yedekleme</string>
+    <string name="pref_database_summary_auto_backup">Harici depolama (SD kart veya dahili olmayan çıkarılabilir depolama) otomatik yedekleme oluşturun</string>
     <string name="pref_database_title_export">İhracat CSV dosyası</string>
     <string name="pref_database_summary_export">Şifreli olmayan CSV dosyasına girişleri ihraç</string>
     <string name="pref_database_title_import">İthalat CSV dosyası</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
     <string name="pref_security_title_fast_enter">Hızlı giriş</string>
-    <string name="pref_security_summary_fast_enter">Ana parola doğru ise düğmeye basmanız gerekmez</string>
     <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
     <string name="pref_security_summary_auto_exit">Ekran kapandığında</string>
     <string name="pref_security_title_stay_awake">Uyanık kal</string>

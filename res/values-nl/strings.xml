@@ -28,7 +28,7 @@
     <string name="notes">Notities</string>
     <string name="list_is_empty">Er is niets ingevuld</string>
     <string name="last_updated">Laatst bijgewerkt op</string>
-    <string name="copy">(kopiëren)</string>
+    <string name="copy_text">(kopiëren)</string>
     <string name="new_field_hint">Naam</string>
     <string name="add_new_label">Voeg een nieuw label toe</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Zoeken</string>
     <string name="menu_settings">Instellingen</string>
+    <string name="menu_exit">Uitgang</string>
     <string name="menu_appearance">Weergave</string>
     <string name="menu_database">Database</string>
     <string name="menu_security">Beveiliging</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">naar klembord gekopiëerd</string>
     <string name="toast_master_password_updated">Hoofdwachtwoord succesvol gewijzigd</string>
     <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
-    <string name="toast_storage_permission_granted">Toestemming verleend</string>
     <string name="toast_storage_permission_denied">Toestemming geweigerd. Niet mogelijk om bestanden te lezen of op te slaan.</string>
     <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Er is geen bestand geselecteerd</string>
+    <string name="toast_no_folder_selected">Er is geen map geselecteerd</string>
     <string name="toast_successful_backup">Backup succesvol aangemaakt</string>
     <string name="toast_successful_restore">Terugzetten van database geslaagd</string>
     <string name="toast_successful_csv_export">Exporteren van csv bestand geslaagd</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">verwijdering van monitoring</string>
     <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
     <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
-    <string name="toast_google_client_error">Kan niet verbinden met Google client. Controleer de netwerkverbinding</string>
     <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
     <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
     <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Het geselecteerde bestand of de geselecteerde map is niet toegankelijk.</string>
     <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
     <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
     <string name="dialog_msg_db_created_on_ios">De databaseback-up is gemaakt op iOS en kan niet worden hersteld op Android. U kunt in plaats daarvan uw gegevens overbrengen met behulp van een CSV-bestand.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
     <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
-    <string name="dialog_msg_fp_keystore_error">Vingerscan keystore fout. Activeer de vingerafdruk opnieuw nadat u uw hoofdwachtwoord hebt ingevoerd.</string>
     <string name="dialog_msg_biometric_no_hardware">Er is geen biometrische hardware.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">De biometrische hardware is niet beschikbaar.</string>
     <string name="dialog_msg_biometric_none_enrolled">Geen geregistreerde biometrische gegevens gevonden. Stel ten minste één in systeeminstellingen in.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Account</string>
     <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
-    <string name="pref_appearance_summary_navibar_color"> De primaire donkere kleur wordt ook toegepast op de navigatiebalk (Android 5.0 en hoger)</string>
     <string name="pref_appearance_title_show_notification">Melding</string>
     <string name="pref_appearance_summary_show_notification">Icoon weergeven in meldingvenster dat de applicatie ontgrendeld en actief is</string>
     <string name="pref_appearance_title_open_label_list">Open labellijst bij inloggen</string>
     <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
-    <string name="pref_appearance_summary_show_passwords">Je hoeft niet op het oog icoon te tikken</string>
-    <string name="pref_appearance_title_show_account">Toon account</string>
-    <string name="pref_appearance_summary_show_account">De account naam is in de hoofdlijst te zien indien beschikbaar</string>
     <string name="pref_appearance_title_change_theme">Verander thema</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Licht</string>
     <string name="pref_appearance_theme_dark">Donker</string>
     <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Maak een backup van de versleutelde database door gebruik te maken van Android storage access framework</string>
     <string name="pref_database_title_restore">Database herstellen</string>
     <string name="pref_database_summary_restore">Herstel een back-up van een versleutelde database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Creëer auto-backups in je persoonlijke Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">Externe opslag backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Creëer auto-backups op je externe opslag (sd of interne niet-verplaatsbare opslag). Je krijgt toegang tot externe opslag door gebruik te maken van een 3rd party file manager app</string>
+    <string name="pref_database_title_auto_backup">Automatische back-up</string>
+    <string name="pref_database_summary_auto_backup">Creëer auto-backups op je externe opslag (sd of interne niet-verplaatsbare opslag). Je krijgt toegang tot externe opslag door gebruik te maken van een 3rd party file manager app</string>
     <string name="pref_database_title_export">Exporteer csv bestand</string>
     <string name="pref_database_summary_export">Exporteer de invoer naar een niet versleuteld csv bestand</string>
     <string name="pref_database_title_import">Importeer csv bestand</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
     <string name="pref_security_title_fast_enter">Snelle invoer</string>
-    <string name="pref_security_summary_fast_enter">U hoeft niet op de knop te drukken als het hoofdwachtwoord correct is</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
     <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld</string>
     <string name="pref_security_title_stay_awake">Blijf actief</string>

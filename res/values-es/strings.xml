@@ -28,7 +28,7 @@
     <string name="notes">Notas</string>
     <string name="list_is_empty">No hay entradas</string>
     <string name="last_updated">Última actualización</string>
-    <string name="copy">(copiar)</string>
+    <string name="copy_text">(copiar)</string>
     <string name="new_field_hint">Nombre</string>
     <string name="add_new_label">Añadir nueva etiqueta</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Buscar</string>
     <string name="menu_settings">Ajustes</string>
+    <string name="menu_exit">Salida</string>
     <string name="menu_appearance">Apariencia</string>
     <string name="menu_database">Base de datos</string>
     <string name="menu_security">Seguridad</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Copiado al portapapeles</string>
     <string name="toast_master_password_updated">Contraseña maestra actualizada correctamente</string>
     <string name="toast_master_password_not_updated">No se pudo actualizar la contraseña maestra</string>
-    <string name="toast_storage_permission_granted">Permiso concedido</string>
     <string name="toast_storage_permission_denied">Permiso denegado. No se puede leer o escribir archivos.</string>
     <string name="toast_camera_permission_denied">Permiso denegado. No se pueden capturar imágenes.</string>
     <string name="toast_no_file_selected">Ningún archivo seleccionado</string>
+    <string name="toast_no_folder_selected">No se seleccionó ninguna carpeta</string>
     <string name="toast_successful_backup">Respaldo creado correctamente</string>
     <string name="toast_successful_restore">Base de datos restaurada correctamente</string>
     <string name="toast_successful_csv_export">Archivo CSV exportado correctamente</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Eliminado del reloj</string>
     <string name="toast_playstore_error">La aplicación Google Play Store no está instalada</string>
     <string name="toast_playstore_services_error">Google Play Services no está disponible</string>
-    <string name="toast_google_client_error">No se puede conectar al cliente de Google. Verifica la conectividad de red</string>
     <string name="toast_storage_not_accessible">Almacenamiento externo no accesible</string>
     <string name="toast_pro_feature">Disponible sólo en la versión PRO</string>
     <string name="toast_no_password_history">No hay historial de contraseñas disponible</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">¿Descartar los cambios?</string>
     <string name="dialog_msg_cannot_open_folder">La carpeta no es accesible.</string>
     <string name="dialog_msg_cannot_read_file">No se puede leer el archivo seleccionado.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">No se puede acceder al archivo o carpeta seleccionados.</string>
     <string name="dialog_msg_db_not_valid">La copia de seguridad de la base de datos no es válida.</string>
     <string name="dialog_msg_db_different_pass">La copia de seguridad de la base de datos se creó utilizando una contraseña maestra diferente.</string>
     <string name="dialog_msg_db_created_on_ios">La copia de seguridad de la base de datos se creó en iOS y no se puede restaurar en Android. En su lugar, puede transferir sus datos utilizando un archivo csv.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Huella dactilar no reconocida. Inténtalo de nuevo</string>
     <string name="dialog_msg_fp_success">Huella dactilar reconocida. Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <string name="dialog_msg_fp_hint">Sensor táctil</string>
-    <string name="dialog_msg_fp_keystore_error">Error de depósito de claves de huella dactilar. Por favor vuelve a activar la huella dactilar una vez que entres utilizando tu contraseña maestra.</string>
     <string name="dialog_msg_biometric_no_hardware">No hay hardware biométrico.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">El hardware biométrico no está disponible.</string>
     <string name="dialog_msg_biometric_none_enrolled">No se encontraron datos biométricos inscritos. Configure al menos uno en la configuración del sistema.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Cuenta</string>
     <string name="pref_appearance_list_subtitles_labels">Etiquetas</string>
     <string name="pref_appearance_title_navibar_color">Color de la barra de navegación</string>
-    <string name="pref_appearance_summary_navibar_color">El color oscuro primario se aplicará a la barra de navegación también (Android 5.0 y versiones posteriores)</string>
     <string name="pref_appearance_title_show_notification">Notificación</string>
     <string name="pref_appearance_summary_show_notification">Fácil de identificar que la aplicación está desbloqueada y ejecutándose</string>
     <string name="pref_appearance_title_open_label_list">Abrir lista de etiquetas al iniciar sesión</string>
     <string name="pref_appearance_title_show_passwords">Mostrar contraseñas</string>
-    <string name="pref_appearance_summary_show_passwords">No debes pulsar el icono del ojo</string>
-    <string name="pref_appearance_title_show_account">Mostrar cuenta</string>
-    <string name="pref_appearance_summary_show_account">El campo de la cuenta se mostrará en la vista de la lista principal si está disponible</string>
     <string name="pref_appearance_title_change_theme">Cambiar tema</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
     <string name="pref_appearance_theme_blue_gray">Gris azulado</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Crea un respaldo de la base de datos cifrada utilizando el Android storage access framework</string>
     <string name="pref_database_title_restore">Restaurar la base de datos</string>
     <string name="pref_database_summary_restore">Restaura un respaldo de una base de datos cifrada</string>
-    <string name="pref_database_title_gd_auto_backup">Respaldo de Google Drive</string>
-    <string name="pref_database_summary_gd_auto_backup">Crea respaldos automáticos en tu cuenta personal de Google Drive</string>
-    <string name="pref_database_title_sd_auto_backup">Respaldo de almacenamiento externo</string>
-    <string name="pref_database_summary_sd_auto_backup">Crea respaldos automáticos en tu almacenamiento externo (SD o almacenamiento interno no extraíble). Puedes acceder al almacenamiento externo utilizando una aplicación de administración de archivos de terceros</string>
+    <string name="pref_database_title_auto_backup">Respaldo automático</string>
+    <string name="pref_database_summary_auto_backup">Crea respaldos automáticos en tu almacenamiento externo (SD o almacenamiento interno no extraíble). Puedes acceder al almacenamiento externo utilizando una aplicación de administración de archivos de terceros</string>
     <string name="pref_database_title_export">Exportar archivo CSV</string>
     <string name="pref_database_summary_export">Exporta las entradas de un archivo CSV no cifrado</string>
     <string name="pref_database_title_import">Importar archivo CSV</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambiar contraseña maestra</string>
     <string name="pref_security_title_fast_enter">Entrada rápida</string>
-    <string name="pref_security_summary_fast_enter">No tiene que presionar el botón si la contraseña maestra es correcta</string>
     <string name="pref_security_title_auto_exit">Salida automática</string>
     <string name="pref_security_summary_auto_exit">Cuando la pantalla se apague</string>
     <string name="pref_security_title_stay_awake">Permanecer encendida</string>

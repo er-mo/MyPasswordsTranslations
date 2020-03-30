@@ -28,7 +28,7 @@
     <string name="notes">Descrizione</string>
     <string name="list_is_empty">Non ci sono voci</string>
     <string name="last_updated">Ultimo Aggiornamento</string>
-    <string name="copy">(Copia)</string>
+    <string name="copy_text">(Copia)</string>
     <string name="new_field_hint">Nome</string>
     <string name="add_new_label">Aggiungi una nuova etichetta</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Cerca</string>
     <string name="menu_settings">Impostazioni</string>
+    <string name="menu_exit">Uscita</string>
     <string name="menu_appearance">Aspetto</string>
     <string name="menu_database">Banca dati</string>
     <string name="menu_security">Sicurezza</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Copiato negli appunti</string>
     <string name="toast_master_password_updated">Password principale aggiornata con successo</string>
     <string name="toast_master_password_not_updated">Aggiornamento della password principale fallito</string>
-    <string name="toast_storage_permission_granted">Permesso accordato</string>
     <string name="toast_storage_permission_denied">Permesso negato. Non è possibile leggere o scrivere i file.</string>
     <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">Nessun file è stato selezionato</string>
+    <string name="toast_no_folder_selected">Nessuna cartella selezionata</string>
     <string name="toast_successful_backup">Backup creato con successo</string>
     <string name="toast_successful_restore">Database ripristinato con successo</string>
     <string name="toast_successful_csv_export">File csv esportato con successo</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Rimosso dall\'orologio</string>
     <string name="toast_playstore_error">L\'applicazione Google Play Store non è installata</string>
     <string name="toast_playstore_services_error">I Google Play Services non sono disponibili</string>
-    <string name="toast_google_client_error">Impossibile connettersi al client di Google. Controllare la connettività di rete</string>
     <string name="toast_storage_not_accessible">La memoria esterna non è accessibile</string>
     <string name="toast_pro_feature">Disponibile solo nella versione PRO</string>
     <string name="toast_no_password_history">Nessuna cronologia delle password disponibile</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Scartare le modifiche?</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Non è possibile accedere al file o alla cartella selezionati.</string>
     <string name="dialog_msg_db_not_valid">Il backup del database non è valido.</string>
     <string name="dialog_msg_db_different_pass">Il backup del database è stato creato utilizzando una password master diversa.</string>
     <string name="dialog_msg_db_created_on_ios">Il backup del database è stato creato su iOS e non può essere ripristinato su Android. Puoi invece trasferire i tuoi dati usando un file CSV.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Impronta digitale non riconosciuta. Riprova</string>
     <string name="dialog_msg_fp_success">Impronta digitale riconosciuta. Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Impronta Digitale</string>
-    <string name="dialog_msg_fp_keystore_error">Errore di scrittura dell\'impronta digitale. Riabilita nuovamente l\'impronta digitale dopo aver inserito la password principale.</string>
     <string name="dialog_msg_biometric_no_hardware">Non esiste hardware biometrico.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">L\'hardware biometrico non è disponibile.</string>
     <string name="dialog_msg_biometric_none_enrolled">Nessuna biometria registrata trovata. Si prega di impostare almeno uno nelle impostazioni di sistema.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Account</string>
     <string name="pref_appearance_list_subtitles_labels">Etichette</string>
     <string name="pref_appearance_title_navibar_color">Colore della barra di navigazione</string>
-    <string name="pref_appearance_summary_navibar_color">Il colore scuro primario verrà applicato anche alla barra di navigazione (Android 5.0 e versioni successive)</string>
     <string name="pref_appearance_title_show_notification">Mostra l\'icona di notifica</string>
     <string name="pref_appearance_summary_show_notification">Permette di identificare facilmente che l\'applicazione è sbloccata e funzionante</string>
     <string name="pref_appearance_title_open_label_list">Apri l\'elenco delle etichette al login</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
-    <string name="pref_appearance_summary_show_passwords">Non è necessario premere l\'icona occhio</string>
-    <string name="pref_appearance_title_show_account">Mostra account</string>
-    <string name="pref_appearance_summary_show_account">L\'account verrà mostrato nella lista principale se è disponibile</string>
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <string name="pref_appearance_theme_blue_gray">Blu grigio</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Creare un backup della banca dati crittografato</string>
     <string name="pref_database_title_restore">Ripristino della banca dati</string>
     <string name="pref_database_summary_restore">Ripristinare un backup di una banca dati crittografata</string>
-    <string name="pref_database_title_gd_auto_backup">Backup di Google Drive</string>
-    <string name="pref_database_summary_gd_auto_backup">Crea un auto backup nel tuo account personale Google Drive</string>
-    <string name="pref_database_title_sd_auto_backup">Backup della memoria esterna</string>
-    <string name="pref_database_summary_sd_auto_backup">Creazione di un backup automatico nella memoria esterna (SD o memoria interna non rimovibile). È possibile accedere alla memoria esterna utilizzando un applicazione di terze parti</string>
+    <string name="pref_database_title_auto_backup">Automatico backup</string>
+    <string name="pref_database_summary_auto_backup">Creazione di un backup automatico nella memoria esterna (SD o memoria interna non rimovibile). È possibile accedere alla memoria esterna utilizzando un applicazione di terze parti</string>
     <string name="pref_database_title_export">Esporta un file csv</string>
     <string name="pref_database_summary_export">Esporta le voci da un file csv non-criptato</string>
     <string name="pref_database_title_import">Importa un file csv</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
-    <string name="pref_security_summary_fast_enter">Non è necessario premere il pulsante se la password principale è corretta</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
     <string name="pref_security_summary_auto_exit">Quando lo schermo si spegne</string>
     <string name="pref_security_title_stay_awake">Rimani sveglio</string>
@@ -287,7 +281,7 @@
     <string name="pref_category_appearance">ASPETTO</string>
     <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
     <string name="pref_category_database">BANCA DATI</string>
-    <string name="pref_category_auto_backup">BACKUP AUTOMATICO</string>
+    <string name="pref_category_auto_backup">AUTOMATICO BACKUP</string>
     <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
     <string name="pref_category_security">SICUREZZA</string>
     <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>APPUNTI</string>

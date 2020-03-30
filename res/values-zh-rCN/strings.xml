@@ -28,7 +28,7 @@
     <string name="notes">描述</string>
     <string name="list_is_empty">当前没有记录</string>
     <string name="last_updated">上次更新</string>
-    <string name="copy">(副本)</string>
+    <string name="copy_text">(副本)</string>
     <string name="new_field_hint">名称</string>
     <string name="add_new_label">添加新标签</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">搜索</string>
     <string name="menu_settings">设置</string>
+    <string name="menu_exit">出口</string>
     <string name="menu_appearance">外观</string>
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">复制到剪贴板</string>
     <string name="toast_master_password_updated">更改主密码成功</string>
     <string name="toast_master_password_not_updated">更改主密码失败</string>
-    <string name="toast_storage_permission_granted">授予许可</string>
     <string name="toast_storage_permission_denied">没有权限，无法读写文件</string>
     <string name="toast_camera_permission_denied">没有权限，无法捕捉图像。</string>
     <string name="toast_no_file_selected">未选择文件</string>
+    <string name="toast_no_folder_selected">未选择文件夹</string>
     <string name="toast_successful_backup">成功创建备份</string>
     <string name="toast_successful_restore">数据库恢复成功</string>
     <string name="toast_successful_csv_export">CSV 文件导出成功</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">从智能手表中移除</string>
     <string name="toast_playstore_error">Google Play 应用商店尚未安装</string>
     <string name="toast_playstore_services_error">Google Play 服务不可用</string>
-    <string name="toast_google_client_error">不能连接到 Google 服务器，请检查网络是否可用</string>
     <string name="toast_storage_not_accessible">不能访问扩展存储设备</string>
     <string name="toast_pro_feature">仅在专业版中可用</string>
     <string name="toast_no_password_history">没有可用的密码记录</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">放弃更改？</string>
     <string name="dialog_msg_cannot_open_folder">该文件夹无法访问。</string>
     <string name="dialog_msg_cannot_read_file">所选文件不可读。</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">无法访问所选的文件或文件夹。</string>
     <string name="dialog_msg_db_not_valid">数据库备份无效。</string>
     <string name="dialog_msg_db_different_pass">这个数据库备份使用了不同的主密码创建。</string>
     <string name="dialog_msg_db_created_on_ios">数据库备份是在iOS上创建的，无法在Android上还原。 您可以改为使用csv文件传输数据。</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">指纹未识别，请重试。</string>
     <string name="dialog_msg_fp_success">指纹已识别。请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">指纹传感器</string>
-    <string name="dialog_msg_fp_keystore_error">指纹密钥库错误。 输入您的主密码，重新启用指纹。</string>
     <string name="dialog_msg_biometric_no_hardware">没有生物识别硬件。</string>
     <string name="dialog_msg_biometric_hardware_unavailable">生物识别硬件不可用。</string>
     <string name="dialog_msg_biometric_none_enrolled">找不到注册的生物特征识别。 请在系统设置中至少设置一个。</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">帐户</string>
     <string name="pref_appearance_list_subtitles_labels">标签</string>
     <string name="pref_appearance_title_navibar_color">沉浸模式</string>
-    <string name="pref_appearance_summary_navibar_color">导航栏会随应用主体颜色变化（Android 5.0及更高版本）</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
     <string name="pref_appearance_title_open_label_list">登录时打开标签列表</string>
     <string name="pref_appearance_title_show_passwords">明文密码</string>
-    <string name="pref_appearance_summary_show_passwords">密码框内的密码将以明文方式显示</string>
-    <string name="pref_appearance_title_show_account">显示账户</string>
-    <string name="pref_appearance_summary_show_account">如果可用，账户字段将显示在主列表视图中</string>
     <string name="pref_appearance_title_change_theme">更改主题</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">浅色</string>
     <string name="pref_appearance_theme_dark">深色</string>
     <string name="pref_appearance_theme_blue_gray">蓝灰</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">创建加密数据库备份</string>
     <string name="pref_database_title_restore">恢复数据库</string>
     <string name="pref_database_summary_restore">从加密数据库恢复备份</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive 备份</string>
-    <string name="pref_database_summary_gd_auto_backup">使用 Google Drive 网盘自动创建备份</string>
-    <string name="pref_database_title_sd_auto_backup">扩展存储卡备份</string>
-    <string name="pref_database_summary_sd_auto_backup">使用扩展存储卡自动创建备份 (扩展存储卡不可移除)，同时确保第三方应用有访问扩展存储卡的权限。</string>
+    <string name="pref_database_title_auto_backup">自动备份</string>
+    <string name="pref_database_summary_auto_backup">使用扩展存储卡自动创建备份 (扩展存储卡不可移除)，同时确保第三方应用有访问扩展存储卡的权限。</string>
     <string name="pref_database_title_export">导出 CSV 文件</string>
     <string name="pref_database_summary_export">导出条目为非加密的 CSV 文件</string>
     <string name="pref_database_title_import">导入 CSV 文件</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速登录</string>
-    <string name="pref_security_summary_fast_enter">如果主密码正确，则无需按按钮</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
     <string name="pref_security_summary_auto_exit">屏幕关闭时</string>
     <string name="pref_security_title_stay_awake">保持亮屏</string>

@@ -28,7 +28,7 @@
     <string name="notes">Beskrivning</string>
     <string name="list_is_empty">Det finns inga poster</string>
     <string name="last_updated">Senast uppdaterad</string>
-    <string name="copy">(kopia)</string>
+    <string name="copy_text">(kopia)</string>
     <string name="new_field_hint">namn</string>
     <string name="add_new_label">Lägg till en ny etikett</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Sök</string>
     <string name="menu_settings">Inställningar</string>
+    <string name="menu_exit">Utgång</string>
     <string name="menu_appearance">Utseende</string>
     <string name="menu_database">Databas</string>
     <string name="menu_security">Säkerhet</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Kopierat till urklipp</string>
     <string name="toast_master_password_updated">Huvudlösenordet har uppdaterats</string>
     <string name="toast_master_password_not_updated">Det gick inte att uppdatera huvudlösenordet</string>
-    <string name="toast_storage_permission_granted">Tillstånd beviljat</string>
     <string name="toast_storage_permission_denied">Tillstånd inte beviljat. Kan inte läsa eller skriva filer.</string>
     <string name="toast_camera_permission_denied">Åtkomst nekad. Kan inte ta bilder.</string>
     <string name="toast_no_file_selected">Ingen fil är vald</string>
+    <string name="toast_no_folder_selected">Ingen mapp valdes</string>
     <string name="toast_successful_backup">Lyckades säkerhetskopiera</string>
     <string name="toast_successful_restore">Lyckades återställa databasen</string>
     <string name="toast_successful_csv_export">Lyckades exportera CSV fil</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">avlägsnande från övervakning</string>
     <string name="toast_playstore_error">Google Play Butik-appen är inte installerad</string>
     <string name="toast_playstore_services_error">Google Play-tjänster är inte tillgängliga</string>
-    <string name="toast_google_client_error">Det går inte att ansluta till Google-klienten. Kontrollera nätverksanslutningen</string>
     <string name="toast_storage_not_accessible">Externt lagringsutrymme är inte tillgängligt</string>
     <string name="toast_pro_feature">Finns endast i PRO-versionen</string>
     <string name="toast_no_password_history">Ingen lösenord historik tillgänglig</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Den valda filen eller mappen kan inte nås.</string>
     <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
     <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
     <string name="dialog_msg_db_created_on_ios">Databasbackupen skapades på iOS och kan inte återställas på Android. Du kan överföra dina data med en csv-fil istället.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Fingeravtryck inte erkänt. Försök igen</string>
     <string name="dialog_msg_fp_success">Fingeravtryck igenkänt. Vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch-sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore fel. Vänligen aktivera fingeravtryck när du anger ditt huvudlösenord.</string>
     <string name="dialog_msg_biometric_no_hardware">Det finns ingen biometrisk hårdvara.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">Den biometriska hårdvaran är inte tillgänglig.</string>
     <string name="dialog_msg_biometric_none_enrolled">Inga registrerade biometri hittades. Ställ in minst en i systeminställningarna.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Konto</string>
     <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
     <string name="pref_appearance_title_navibar_color">Navigationsfältet färg</string>
-    <string name="pref_appearance_summary_navibar_color">Primär mörk färg kommer också att användas i navigeringsfältet (Android 5.0 och senare)</string>
     <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
     <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
     <string name="pref_appearance_title_open_label_list">Öppna etikettlistan vid inloggning</string>
     <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
-    <string name="pref_appearance_summary_show_passwords">Du behöver inte trycka på ögonikonen</string>
-    <string name="pref_appearance_title_show_account">Visa konto</string>
-    <string name="pref_appearance_summary_show_account">Kontofältet visas i huvudlistvy om det är tillgängligt</string>
     <string name="pref_appearance_title_change_theme">Ändra tema</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Ljus</string>
     <string name="pref_appearance_theme_dark">Mörk</string>
     <string name="pref_appearance_theme_blue_gray">Blå grå</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Skapa en säkerhetskopia av den krypterade databasen</string>
     <string name="pref_database_title_restore">Återställ databasen</string>
     <string name="pref_database_summary_restore">Återställ en säkerhetskopierad krypterad databas</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive-säkerhetskopiering</string>
-    <string name="pref_database_summary_gd_auto_backup">Skapa automatisk säkerhetskopiering på ditt personliga Google Drive-konto</string>
-    <string name="pref_database_title_sd_auto_backup">Extern lagring backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Skapa automatisk säkerhetskopiering i ditt externa lagringsutrymme (sd eller internt ej flyttbart lagringsutrymme). Du kan komma åt extern lagring med hjälp av en tredje part filhanteringsapp</string>
+    <string name="pref_database_title_auto_backup">Automatisk säkerhetskopiering</string>
+    <string name="pref_database_summary_auto_backup">Skapa automatisk säkerhetskopiering i ditt externa lagringsutrymme (sd eller internt ej flyttbart lagringsutrymme). Du kan komma åt extern lagring med hjälp av en tredje part filhanteringsapp</string>
     <string name="pref_database_title_export">Exportering av CSV fil</string>
     <string name="pref_database_summary_export">Exportera posterna till en okrypterad CSV fil</string>
     <string name="pref_database_title_import">Importera CSV fil</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
     <string name="pref_security_title_fast_enter">Snabbinloggning</string>
-    <string name="pref_security_summary_fast_enter">Du behöver inte trycka på knappen om huvudlösenordet är korrekt</string>
     <string name="pref_security_title_auto_exit">Automatisk avslut</string>
     <string name="pref_security_summary_auto_exit">När skärmen stängs av</string>
     <string name="pref_security_title_stay_awake">Hålla sig vaken</string>

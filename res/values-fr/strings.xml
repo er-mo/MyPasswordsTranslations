@@ -28,7 +28,7 @@
     <string name="notes">Remarques</string>
     <string name="list_is_empty">Il n\'y a pas d\'entrées</string>
     <string name="last_updated">Dernière mise à jour</string>
-    <string name="copy">(copie)</string>
+    <string name="copy_text">(copie)</string>
     <string name="new_field_hint">prénom</string>
     <string name="add_new_label">Ajouter une nouvelle étiquette</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Recherche</string>
     <string name="menu_settings">Réglages</string>
+    <string name="menu_exit">Sortie</string>
     <string name="menu_appearance">Apparence</string>
     <string name="menu_database">Base de données</string>
     <string name="menu_security">Sécurité</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="toast_master_password_updated">Mot de passe principal mis à jour avec succès</string>
     <string name="toast_master_password_not_updated">Échec de la mise à jour du mot de passe principal</string>
-    <string name="toast_storage_permission_granted">Permission accordée</string>
     <string name="toast_storage_permission_denied">Permission refusée. Impossible de lire ou d\'écrire des fichiers.</string>
     <string name="toast_camera_permission_denied">Permission refusée. Impossible de capturer des images.</string>
     <string name="toast_no_file_selected">Non sélectionné pas de fichier</string>
+    <string name="toast_no_folder_selected">Aucun dossier n\'a été sélectionné</string>
     <string name="toast_successful_backup">Sauvegarde créée avec succès</string>
     <string name="toast_successful_restore">Réinitialiser base de données avec succès</string>
     <string name="toast_successful_csv_export">Extraire le fichier csv avec succès</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Enlevé a regarder</string>
     <string name="toast_playstore_error">L\'application Google Play Store n\'est pas installée</string>
     <string name="toast_playstore_services_error">Les services Google Play ne sont pas disponibles</string>
-    <string name="toast_google_client_error">Impossible de se connecter au client Google. Vérifier la connectivité du réseau</string>
     <string name="toast_storage_not_accessible">Le stockage externe ñ\'est pas accessible</string>
     <string name="toast_pro_feature">Disponible uniquement en version PRO</string>
     <string name="toast_no_password_history">Pas d\'historique de mot de passe disponible</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Annuler les modifications?</string>
     <string name="dialog_msg_cannot_open_folder">Le dossier n\'est pas accessible.</string>
     <string name="dialog_msg_cannot_read_file">Ne peut pas lire fichier sélectionné.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Le fichier ou dossier sélectionné n\'est pas accessible.</string>
     <string name="dialog_msg_db_not_valid">La sauvegarde de la base de données n\'est pas valide.</string>
     <string name="dialog_msg_db_different_pass">La sauvegarde de la base de données a été créée avec utilisant mot de passe principal différent.</string>
     <string name="dialog_msg_db_created_on_ios">La sauvegarde de la base de données a été créée sur iOS et ne peut pas être restaurée sur Android. Vous pouvez transférer vos données en utilisant plutôt un fichier csv.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">L\'empreinte digitale n\'a pas été reconnue. Essayez encore</string>
     <string name="dialog_msg_fp_success">Empreinte digitale reconnue. S\'il vous plaît, attendez<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Détecteur tactile</string>
-    <string name="dialog_msg_fp_keystore_error">Erreur d\'empreinte digitale. Activer à nouveau l\'empreinte lorsque vous vous connectez à l\'aide du mot de passe principal.</string>
     <string name="dialog_msg_biometric_no_hardware">Il n\'y a pas de matériel biométrique.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">Le matériel biométrique est indisponible.</string>
     <string name="dialog_msg_biometric_none_enrolled">Aucune biométrie inscrite trouvée. Veuillez en configurer au moins un dans les paramètres système.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">Compte</string>
     <string name="pref_appearance_list_subtitles_labels">Étiquettes</string>
     <string name="pref_appearance_title_navibar_color">Couleur de ligne de navigation</string>
-    <string name="pref_appearance_summary_navibar_color">La couleur foncée primaire sera également appliquée à la barre de navigation (Android 5.0 et versions ultérieures)</string>
     <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Facile à identifier que l\'application est déverrouillée et en cours d\'exécution</string>
     <string name="pref_appearance_title_open_label_list">Ouvrir la liste des étiquettes lors de la connexion</string>
     <string name="pref_appearance_title_show_passwords">Afficher les mots de passe</string>
-    <string name="pref_appearance_summary_show_passwords">Vous ne devez pas appuyer sur l\'icône d\'oeil</string>
-    <string name="pref_appearance_title_show_account">Montrer le compte</string>
-    <string name="pref_appearance_summary_show_account">Le champ du compte apparaîtra dans la vue de la liste principale, si disponible</string>
     <string name="pref_appearance_title_change_theme">Change le thème</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">Lumière</string>
     <string name="pref_appearance_theme_dark">Ténèbres</string>
     <string name="pref_appearance_theme_blue_gray">Bleu-gris</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Créer une sauvegarde de la base de données cryptée à l\'aide de la boîte de stockage Android</string>
     <string name="pref_database_title_restore">Restaurer la base de données</string>
     <string name="pref_database_summary_restore">Réinitialiser une sauvegarde d\'une base de données cryptée</string>
-    <string name="pref_database_title_gd_auto_backup">Sauvegarde Google Drive</string>
-    <string name="pref_database_summary_gd_auto_backup">Créer des sauvegardes automatiques sur votre compte personnel Google Drive</string>
-    <string name="pref_database_title_sd_auto_backup">Sauvegarde du stockage externe</string>
-    <string name="pref_database_summary_sd_auto_backup">Créez des sauvegardes automatiques sur votre stockage externe (sd ou stockage interne non amovible). Vous pouvez accéder au stockage externe à l\'aide d\'une application de gestion de fichiers tierce.</string>
+    <string name="pref_database_title_auto_backup">Sauvegarde automatique</string>
+    <string name="pref_database_summary_auto_backup">Créez des sauvegardes automatiques sur votre stockage externe (sd ou stockage interne non amovible). Vous pouvez accéder au stockage externe à l\'aide d\'une application de gestion de fichiers tierce.</string>
     <string name="pref_database_title_export">Exporter un fichier csv</string>
     <string name="pref_database_summary_export">Exporter les entrées dans un fichier CSV non crypté</string>
     <string name="pref_database_title_import">Importer un fichier csv</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Changer le mot de passe principal</string>
     <string name="pref_security_title_fast_enter">Entrée rapide</string>
-    <string name="pref_security_summary_fast_enter">Vous n\'êtes pas obligé d\'appuyer sur le bouton si le mot de passe principal est correct</string>
     <string name="pref_security_title_auto_exit">Sortie automatique</string>
     <string name="pref_security_summary_auto_exit">Quand l\'écran s\'éteint</string>
     <string name="pref_security_title_stay_awake">Rester éveillé</string>

@@ -28,7 +28,7 @@
     <string name="notes">ملاحظات</string>
     <string name="list_is_empty">لا توجد مداخل</string>
     <string name="last_updated">آخر تحديث</string>
-    <string name="copy">(نسخ)</string>
+    <string name="copy_text">(نسخ)</string>
     <string name="new_field_hint">اسم</string>
     <string name="add_new_label">إضافة تسمية جديدة</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">بحث</string>
     <string name="menu_settings">الإعدادات</string>
+    <string name="menu_exit">خروج</string>
     <string name="menu_appearance">مظهر خارجي</string>
     <string name="menu_database">قاعدة البيانات</string>
     <string name="menu_security">الأمان</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">نسخ إلى الحافظة</string>
     <string name="toast_master_password_updated">تم تحديث كلمة المرور الرئيسية بنجاح</string>
     <string name="toast_master_password_not_updated">فشل في تحديث كلمة المرور الرئيسية</string>
-    <string name="toast_storage_permission_granted">تم تأمين التصريح</string>
     <string name="toast_storage_permission_denied">طلب الاذن مرفوض. لا يمكن قراءة أو كتابة الملفات.</string>
     <string name="toast_camera_permission_denied">طلب الاذن مرفوض. لا يمكن التقاط الصور.</string>
     <string name="toast_no_file_selected">لم يتم تحديد أي ملف</string>
+    <string name="toast_no_folder_selected">لم يتم تحديد مجلد</string>
     <string name="toast_successful_backup">نجحت في إنشاء نسخة احتياطية</string>
     <string name="toast_successful_restore">تمت استعادة قاعدة البيانات بنجاح</string>
     <string name="toast_successful_csv_export">تم تصدير ملف csv بنجاح</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">طرح من الملاحظة</string>
     <string name="toast_playstore_error">تطبيق متجر Google Play غير مثبت</string>
     <string name="toast_playstore_services_error">خدمات Google Play غير متاحة</string>
-    <string name="toast_google_client_error">لا يمكن الاتصال بعميل Google. تحقق من اتصال الشبكة</string>
     <string name="toast_storage_not_accessible">وحدة التخزين الخارجية لا يمكن الوصول إليها</string>
     <string name="toast_pro_feature">متوفر فقط في إصدار المحترفين</string>
     <string name="toast_no_password_history">لا يوجد محفوظات كلمة المرور متوفرة</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
     <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
     <string name="dialog_msg_cannot_read_file">لا يمكن قراءة الملف المحدد.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">لا يمكن الوصول إلى الملف أو المجلد المحدد.</string>
     <string name="dialog_msg_db_not_valid">النسخة الاحتياطية من قاعدة البيانات غير صالحة.</string>
     <string name="dialog_msg_db_different_pass">تم إنشاء النسخ الاحتياطي لقاعدة البيانات باستخدام كلمة مرور رئيسية مختلفة.</string>
     <string name="dialog_msg_db_created_on_ios">تم إنشاء نسخة احتياطية لقاعدة البيانات على نظام التشغيل iOS ولا يمكن استعادتها على نظام Android. يمكنك نقل بياناتك باستخدام ملف CSV بدلاً من ذلك.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">بصمة غير معترف بها. حاول مرة أخري</string>
     <string name="dialog_msg_fp_success">بصمة معترف بها. ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">استشعار تعمل باللمس</string>
-    <string name="dialog_msg_fp_keystore_error">خطأ بصمة. قم بتمكين البصمة مرة أخرى عند تسجيل الدخول باستخدام كلمة المرور الرئيسية.</string>
     <string name="dialog_msg_biometric_no_hardware">لا يوجد أجهزة القياس الحيوي.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">الأجهزة البيومترية غير متوفرة.</string>
     <string name="dialog_msg_biometric_none_enrolled">لم يتم العثور على القياسات الحيوية المسجلة. يرجى إعداد واحد على الأقل في إعدادات النظام.</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">الحساب</string>
     <string name="pref_appearance_list_subtitles_labels">تسميات</string>
     <string name="pref_appearance_title_navibar_color">لون شريط التنقل</string>
-    <string name="pref_appearance_summary_navibar_color">سيتم تطبيق اللون الأساسي الغامق على شريط التنقل أيضًا (Android 5.0 والإصدارات الأحدث)</string>
     <string name="pref_appearance_title_show_notification">رمز التنبيه</string>
     <string name="pref_appearance_summary_show_notification">من السهل إدراك أن التطبيق يفتح ويعمل</string>
     <string name="pref_appearance_title_open_label_list">فتح قائمة التسمية عند تسجيل الدخول</string>
     <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
-    <string name="pref_appearance_summary_show_passwords">ليس عليك الضغط على أيقونة العين</string>
-    <string name="pref_appearance_title_show_account">عرض الحساب</string>
-    <string name="pref_appearance_summary_show_account">سيتم عرض حقل الحساب في عرض القائمة الرئيسية إذا كان متاحًا</string>
     <string name="pref_appearance_title_change_theme">غير الخلفية</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">ضوء</string>
     <string name="pref_appearance_theme_dark">داكن</string>
     <string name="pref_appearance_theme_blue_gray">ازرق رمادي</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">أنشئ نسخة احتياطية من قاعدة البيانات المشفرة باستخدام إطار الوصول إلى وحدة تخزين Android</string>
     <string name="pref_database_title_restore">استعادة قاعدة البيانات</string>
     <string name="pref_database_summary_restore">استعادة نسخة احتياطية من قاعدة بيانات مشفرة</string>
-    <string name="pref_database_title_gd_auto_backup">نسخة Google Drive الاحتياطية</string>
-    <string name="pref_database_summary_gd_auto_backup">إنشاء نسخ احتياطية تلقائية على حسابك الشخصي في Google Drive</string>
-    <string name="pref_database_title_sd_auto_backup">النسخ الاحتياطي التخزين الخارجية</string>
-    <string name="pref_database_summary_sd_auto_backup">نسخ احتياطي للتخزين الخارجي تلقائيًا (sd أو وحدة تخزين داخلية غير قابلة للإزالة). يمكنك الوصول إلى وحدة التخزين الخارجية باستخدام مدير ملفات لجهة خارجية</string>
+    <string name="pref_database_title_auto_backup">نسخ إحتياطي آلي</string>
+    <string name="pref_database_summary_auto_backup">نسخ احتياطي للتخزين الخارجي تلقائيًا (sd أو وحدة تخزين داخلية غير قابلة للإزالة). يمكنك الوصول إلى وحدة التخزين الخارجية باستخدام مدير ملفات لجهة خارجية</string>
     <string name="pref_database_title_export">تصدير ملف CSV</string>
     <string name="pref_database_summary_export">تصدير الإدخالات إلى ملف CSV غير المشفرة</string>
     <string name="pref_database_title_import">استيراد ملف CSV</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">تغيير كلمة المرور الرئيسية</string>
     <string name="pref_security_title_fast_enter">ادخل بسرعة</string>
-    <string name="pref_security_summary_fast_enter">ليس عليك الضغط على الزر إذا كانت كلمة المرور الرئيسية صحيحة</string>
     <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
     <string name="pref_security_summary_auto_exit">عندما تنطفئ الشاشة</string>
     <string name="pref_security_title_stay_awake">إبق متيقظا</string>

@@ -28,7 +28,7 @@
     <string name="notes">নোট</string>
     <string name="list_is_empty">কোন এন্ট্রি নেই</string>
     <string name="last_updated">সর্বশেষ সংষ্করণ</string>
-    <string name="copy">(কপি)</string>
+    <string name="copy_text">(কপি)</string>
     <string name="new_field_hint">নাম</string>
     <string name="add_new_label">নতুন লেবেল যোগ করুন</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">অনুসন্ধান</string>
     <string name="menu_settings">সেটিংস</string>
+    <string name="menu_exit">বাহির</string>
     <string name="menu_appearance">চেহারা</string>
     <string name="menu_database">ডেটাবেস</string>
     <string name="menu_security">নিরাপত্তা</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">ক্লিপবোর্ডে অনুলিপি করা হয়েছে</string>
     <string name="toast_master_password_updated">মাস্টার পাসওয়ার্ড সফলভাবে আপডেট করা হয়েছে</string>
     <string name="toast_master_password_not_updated">মাস্টার পাসওয়ার্ড আপডেট করতে ব্যর্থ হয়েছে</string>
-    <string name="toast_storage_permission_granted">অনুমতি দেওয়া</string>
     <string name="toast_storage_permission_denied">অনুমতি অস্বীকার করা হয়েছে। ফাইল পড়তে বা লিখতে পারবেন না।</string>
     <string name="toast_camera_permission_denied">অনুমতি অস্বীকার করা হয়েছে। ছবি ক্যাপচার করা যাবে না।</string>
     <string name="toast_no_file_selected">কোন ফাইল নির্বাচিত ছিল</string>
+    <string name="toast_no_folder_selected">কোনও ফোল্ডার নির্বাচন করা হয়নি</string>
     <string name="toast_successful_backup">সফলভাবে ব্যাকআপ তৈরি</string>
     <string name="toast_successful_restore">সফলভাবে ডাটাবেস পুনঃস্থাপন</string>
     <string name="toast_successful_csv_export">সফলভাবে CSV ফাইল এক্সপোর্ট</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">ট্র্যাকিং থেকে মুছে ফেলা হয়েছে</string>
     <string name="toast_playstore_error">গুগল প্লে দোকান অ্যাপ্লিকেশন ইনস্টল করা হয় না</string>
     <string name="toast_playstore_services_error">গুগল প্লে সেবা পাওয়া যায় না</string>
-    <string name="toast_google_client_error">গুগল ক্লায়েন্ট সাথে সংযোগ করতে পারবেন না। নেটওয়ার্ক সংযোগ চেক করুন</string>
     <string name="toast_storage_not_accessible">বাহ্যিক স্টোরেজ অ্যাক্সেসযোগ্য নয়</string>
     <string name="toast_pro_feature">শুধুমাত্র PRO সংস্করণ পাওয়া যায়</string>
     <string name="toast_no_password_history">কোন পাসওয়ার্ড ইতিহাস উপলব্ধ</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">পরিবর্তন বাতিল?</string>
     <string name="dialog_msg_cannot_open_folder">ফোল্ডার প্রবেশযোগ্য নয়।</string>
     <string name="dialog_msg_cannot_read_file">নির্বাচিত ফাইল পড়া যাবে না।</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">নির্বাচিত ফাইল বা ফোল্ডারটি অ্যাক্সেস করা যায় না।</string>
     <string name="dialog_msg_db_not_valid">ডাটাবেস ব্যাকআপ বৈধ নয়।</string>
     <string name="dialog_msg_db_different_pass">ডাটাবেস ব্যাকআপটি একটি ভিন্ন মাস্টার পাসওয়ার্ড ব্যবহার করে তৈরি করা হয়েছিল।</string>
     <string name="dialog_msg_db_created_on_ios">ডাটাবেস ব্যাকআপটি আইওএস-এ তৈরি হয়েছিল এবং অ্যান্ড্রয়েডে পুনরুদ্ধার করা যায় না। পরিবর্তে আপনি কোনও সিএসভি ফাইল ব্যবহার করে আপনার ডেটা স্থানান্তর করতে পারেন।</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">আঙ্গুলের ছাপ স্বীকৃত নয়। আবার চেষ্টা কর</string>
     <string name="dialog_msg_fp_success">আঙ্গুলের ছাপ সনাক্তকরণ স্বীকৃত। অনুগ্রহ করে অপেক্ষা করুন<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">স্পর্শ সেন্সর</string>
-    <string name="dialog_msg_fp_keystore_error">আঙ্গুলের ছাপ ত্রুটি। মাস্টার পাসওয়ার্ড ব্যবহার করে সাইন ইন করার সময় ফিঙ্গারপ্রিন্টটি আবার সক্ষম করুন।</string>
     <string name="dialog_msg_biometric_no_hardware">কোনও বায়োমেট্রিক হার্ডওয়্যার নেই।</string>
     <string name="dialog_msg_biometric_hardware_unavailable">বায়োমেট্রিক হার্ডওয়্যার অনুপলব্ধ।</string>
     <string name="dialog_msg_biometric_none_enrolled">কোনও নথিভুক্ত বায়োমেট্রিক্স পাওয়া যায় নি। সিস্টেম সেটিংসে কমপক্ষে একটি সেট আপ করুন।</string>
@@ -211,15 +211,12 @@
     <string name="pref_appearance_list_subtitles_account">হিসাব</string>
     <string name="pref_appearance_list_subtitles_labels">লেবেল</string>
     <string name="pref_appearance_title_navibar_color">ন্যাভিগেশন বার রঙ</string>
-    <string name="pref_appearance_summary_navibar_color">প্রাথমিক গাঢ় রঙটি ন্যাভিগেশন বারেও প্রয়োগ করা হবে (Android 5.0 এবং নতুন)</string>
     <string name="pref_appearance_title_show_notification">প্রজ্ঞাপন</string>
     <string name="pref_appearance_summary_show_notification">অ্যাপ্লিকেশন আনলক এবং চলমান সনাক্ত করা সহজ</string>
     <string name="pref_appearance_title_open_label_list">লগইনে লেবেল তালিকা খুলুন</string>
     <string name="pref_appearance_title_show_passwords">পাসওয়ার্ড দেখান</string>
-    <string name="pref_appearance_summary_show_passwords">আপনি চোখের আইকন টিপুন না</string>
-    <string name="pref_appearance_title_show_account">অ্যাকাউন্ট দেখান</string>
-    <string name="pref_appearance_summary_show_account">যদি পাওয়া যায় তবে প্রধান ক্ষেত্র ভিউতে অ্যাকাউন্ট ক্ষেত্র দেখানো হবে</string>
     <string name="pref_appearance_title_change_theme">থিম পরিবর্তন করো</string>
+    <string name="pref_appearance_theme_default">Default</string>
     <string name="pref_appearance_theme_light">আলো</string>
     <string name="pref_appearance_theme_dark">অন্ধকার</string>
     <string name="pref_appearance_theme_blue_gray">নীল ধূসর</string>
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Android স্টোরেজ অ্যাক্সেস ফ্রেমওয়ার্ক ব্যবহার করে এনক্রিপ্ট হওয়া ডাটাবেসের ব্যাকআপ তৈরি করুন</string>
     <string name="pref_database_title_restore">ডাটাবেস পুনরুদ্ধার করুন</string>
     <string name="pref_database_summary_restore">একটি এনক্রিপ্ট ডাটাবেসের একটি ব্যাকআপ পুনরুদ্ধার</string>
-    <string name="pref_database_title_gd_auto_backup">গুগল ড্রাইভ ব্যাকআপ</string>
-    <string name="pref_database_summary_gd_auto_backup">আপনার ব্যক্তিগত Google ড্রাইভ অ্যাকাউন্টে স্বয়ংক্রিয় ব্যাকআপ তৈরি করুন</string>
-    <string name="pref_database_title_sd_auto_backup">বাহ্যিক সংগ্রহস্থল ব্যাকআপ</string>
-    <string name="pref_database_summary_sd_auto_backup">আপনার বহিরাগত স্টোরেজ (sd বা অভ্যন্তরীণ নন-অপসারণযোগ্য সঞ্চয়স্থান) -এ স্বয়ংক্রিয় ব্যাকআপ তৈরি করুন। আপনি একটি তৃতীয় পক্ষের ফাইল ম্যানেজার অ্যাপ্লিকেশন ব্যবহার করে বহিরাগত স্টোরেজ অ্যাক্সেস করতে পারেন</string>
+    <string name="pref_database_title_auto_backup">অটো ব্যাকআপ</string>
+    <string name="pref_database_summary_auto_backup">আপনার বহিরাগত স্টোরেজ (sd বা অভ্যন্তরীণ নন-অপসারণযোগ্য সঞ্চয়স্থান) -এ স্বয়ংক্রিয় ব্যাকআপ তৈরি করুন। আপনি একটি তৃতীয় পক্ষের ফাইল ম্যানেজার অ্যাপ্লিকেশন ব্যবহার করে বহিরাগত স্টোরেজ অ্যাক্সেস করতে পারেন</string>
     <string name="pref_database_title_export">CSV ফাইল রপ্তানি করুন</string>
     <string name="pref_database_summary_export">একটি অ এনক্রিপ্ট করা সিএসভি ফাইল এন্ট্রি এক্সপোর্ট করুন</string>
     <string name="pref_database_title_import">সিএসভি ফাইল আমদানি করুন</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">মাস্টার পাসওয়ার্ড পরিবর্তন করুন</string>
     <string name="pref_security_title_fast_enter">দ্রুত প্রবেশ করুন</string>
-    <string name="pref_security_summary_fast_enter">মাস্টার পাসওয়ার্ড সঠিক হলে আপনাকে বোতাম টিপতে হবে না</string>
     <string name="pref_security_title_auto_exit">অটো প্রস্থান</string>
     <string name="pref_security_summary_auto_exit">স্ক্রিনটি বন্ধ হয়ে গেলে</string>
     <string name="pref_security_title_stay_awake">জেগে থাক</string>
