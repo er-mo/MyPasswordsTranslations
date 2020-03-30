@@ -28,7 +28,7 @@
     <string name="notes">Notes</string>
     <string name="list_is_empty">There are no entries</string>
     <string name="last_updated">Last updated</string>
-    <string name="copy">(copy)</string>
+    <string name="copy_text">(copy)</string>
     <string name="new_field_hint">Name</string>
     <string name="add_new_label">Add new label</string>
     <!-- ################################################################################# -->
@@ -76,6 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">Search</string>
     <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
     <string name="menu_appearance">Appearance</string>
     <string name="menu_database">Database</string>
     <string name="menu_security">Security</string>
@@ -111,10 +112,10 @@
     <string name="toast_copied_to_clipboard">Copied to clipboard</string>
     <string name="toast_master_password_updated">Successfully updated master password</string>
     <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_granted">Permission granted</string>
     <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
     <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
     <string name="toast_no_file_selected">No file was selected</string>
+    <string name="toast_no_folder_selected">No folder was selected</string>
     <string name="toast_successful_backup">Successfully created backup</string>
     <string name="toast_successful_restore">Successfully restored database</string>
     <string name="toast_successful_csv_export">Successfully exported csv file</string>
@@ -124,7 +125,6 @@
     <string name="toast_removed_from_watch">Removed from watch</string>
     <string name="toast_playstore_error">Google Play store app is not installed</string>
     <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_google_client_error">Cannot connect to Google client. Check network connectivity</string>
     <string name="toast_storage_not_accessible">External storage not accessible</string>
     <string name="toast_pro_feature">Available only in PRO version</string>
     <string name="toast_no_password_history">No password history available</string>
@@ -169,6 +169,7 @@
     <string name="dialog_msg_discard_changes">Discard changes?</string>
     <string name="dialog_msg_cannot_open_folder">The folder is not accessible.</string>
     <string name="dialog_msg_cannot_read_file">The selected file cannot be read.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">The selected file or folder cannot be accessed.</string>
     <string name="dialog_msg_db_not_valid">The database backup is not valid.</string>
     <string name="dialog_msg_db_different_pass">The database backup was created using a different master password.</string>
     <string name="dialog_msg_db_created_on_ios">The database backup was created on iOS and cannot be restored on Android. You can transfer your data using a csv file instead.</string>
@@ -182,7 +183,6 @@
     <string name="dialog_msg_fp_not_recognized">Fingerprint not recognized. Try again</string>
     <string name="dialog_msg_fp_success">Fingerprint recognized. Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <string name="dialog_msg_fp_hint">Touch sensor</string>
-    <string name="dialog_msg_fp_keystore_error">Fingerprint keystore error. Please re-enable the fingerprint once you enter using your master password.</string>
     <string name="dialog_msg_biometric_no_hardware">There is no biometric hardware.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">The biometric hardware is unavailable.</string>
     <string name="dialog_msg_biometric_none_enrolled">No enrolled biometrics found. Please set up at least one in system settings.</string>
@@ -211,17 +211,14 @@
     <string name="pref_appearance_list_subtitles_account">Account</string>
     <string name="pref_appearance_list_subtitles_labels">Labels</string>
     <string name="pref_appearance_title_navibar_color">Navigation bar color</string>
-    <string name="pref_appearance_summary_navibar_color">Primary dark color will be applied to navigation bar also (Android 5.0 and newer)</string>
     <string name="pref_appearance_title_show_notification">Notification</string>
     <string name="pref_appearance_summary_show_notification">Easy to identify that the application is unlocked and running</string>
     <string name="pref_appearance_title_open_label_list">Open label list at login</string>
     <string name="pref_appearance_title_show_passwords">Show passwords</string>
-    <string name="pref_appearance_summary_show_passwords">You don\'t have to press the eye icon</string>
-    <string name="pref_appearance_title_show_account">Show account</string>
-    <string name="pref_appearance_summary_show_account">Account field will be shown in main list view if available</string>
     <string name="pref_appearance_title_change_theme">Change theme</string>
-    <string name="pref_appearance_theme_light">Light</string>
-    <string name="pref_appearance_theme_dark">Dark</string>
+    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_light">Light Blue</string>
+    <string name="pref_appearance_theme_dark">Dark Blue</string>
     <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
     <string name="pref_appearance_theme_purple">Purple</string>
     <!-- database -->
@@ -231,10 +228,8 @@
     <string name="pref_database_summary_backup">Create a backup of the encrypted database using the Android storage access framework</string>
     <string name="pref_database_title_restore">Restore database</string>
     <string name="pref_database_summary_restore">Restore a backup of an encrypted database</string>
-    <string name="pref_database_title_gd_auto_backup">Google Drive backup</string>
-    <string name="pref_database_summary_gd_auto_backup">Create auto backups on your personal Google Drive account</string>
-    <string name="pref_database_title_sd_auto_backup">External Storage backup</string>
-    <string name="pref_database_summary_sd_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
+    <string name="pref_database_title_auto_backup">Auto backup</string>
+    <string name="pref_database_summary_auto_backup">Create auto backups on your external storage (sd or internal non-removable storage). You can access the external storage using a 3rd party file manager app</string>
     <string name="pref_database_title_export">Export csv file</string>
     <string name="pref_database_summary_export">Export the entries to a non-encrypted csv file</string>
     <string name="pref_database_title_import">Import csv file</string>
@@ -242,7 +237,6 @@
     <!-- security -->
     <string name="pref_security_title_change_password">Change master password</string>
     <string name="pref_security_title_fast_enter">Fast enter</string>
-    <string name="pref_security_summary_fast_enter">You don\'t have to press the button if the master password is correct</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
     <string name="pref_security_summary_auto_exit">When the screen turns off</string>
     <string name="pref_security_title_stay_awake">Stay awake</string>
