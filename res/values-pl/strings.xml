@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Otwórz listę etykiet przy logowaniu</string>
     <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
     <string name="pref_appearance_title_change_theme">Zmień styl</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Domyślna</string>
     <string name="pref_appearance_theme_light">Jasny</string>
     <string name="pref_appearance_theme_dark">Ciemny</string>
     <string name="pref_appearance_theme_blue_gray">Niebiesko szary</string>
