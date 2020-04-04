@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Buka senarai label semasa log masuk</string>
     <string name="pref_appearance_title_show_passwords">Tunjukkan kata laluan</string>
     <string name="pref_appearance_title_change_theme">Tukar tema</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Lalai</string>
     <string name="pref_appearance_theme_light">Cahaya</string>
     <string name="pref_appearance_theme_dark">Gelap</string>
     <string name="pref_appearance_theme_blue_gray">Blue Grey</string>
