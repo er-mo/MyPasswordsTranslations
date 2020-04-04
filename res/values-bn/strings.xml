@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">লগইনে লেবেল তালিকা খুলুন</string>
     <string name="pref_appearance_title_show_passwords">পাসওয়ার্ড দেখান</string>
     <string name="pref_appearance_title_change_theme">থিম পরিবর্তন করো</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">ডিফল্ট</string>
     <string name="pref_appearance_theme_light">আলো</string>
     <string name="pref_appearance_theme_dark">অন্ধকার</string>
     <string name="pref_appearance_theme_blue_gray">নীল ধূসর</string>
