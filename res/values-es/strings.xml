@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Abrir lista de etiquetas al iniciar sesión</string>
     <string name="pref_appearance_title_show_passwords">Mostrar contraseñas</string>
     <string name="pref_appearance_title_change_theme">Cambiar tema</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Defecto</string>
     <string name="pref_appearance_theme_light">Claro</string>
     <string name="pref_appearance_theme_dark">Oscuro</string>
     <string name="pref_appearance_theme_blue_gray">Gris azulado</string>
