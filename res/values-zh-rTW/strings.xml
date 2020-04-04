@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">登錄時打開標籤列表</string>
     <string name="pref_appearance_title_show_passwords">顯示密碼</string>
     <string name="pref_appearance_title_change_theme">更改主題</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">默認</string>
     <string name="pref_appearance_theme_light">明亮</string>
     <string name="pref_appearance_theme_dark">黑暗</string>
     <string name="pref_appearance_theme_blue_gray">藍灰色</string>
