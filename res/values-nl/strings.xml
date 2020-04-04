@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Open labellijst bij inloggen</string>
     <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
     <string name="pref_appearance_title_change_theme">Verander thema</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Standaard</string>
     <string name="pref_appearance_theme_light">Licht</string>
     <string name="pref_appearance_theme_dark">Donker</string>
     <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
