@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Etikettenliste öffnen bei dem Eingang</string>
     <string name="pref_appearance_title_show_passwords">Passwörter anzeigen</string>
     <string name="pref_appearance_title_change_theme">Thema ändern</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Standard</string>
     <string name="pref_appearance_theme_light">Hell</string>
     <string name="pref_appearance_theme_dark">Dunkel</string>
     <string name="pref_appearance_theme_blue_gray">Blaues Grau</string>
