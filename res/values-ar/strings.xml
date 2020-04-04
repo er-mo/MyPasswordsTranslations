@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">فتح قائمة التسمية عند تسجيل الدخول</string>
     <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
     <string name="pref_appearance_title_change_theme">غير الخلفية</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">إفتراضي</string>
     <string name="pref_appearance_theme_light">ضوء</string>
     <string name="pref_appearance_theme_dark">داكن</string>
     <string name="pref_appearance_theme_blue_gray">ازرق رمادي</string>
