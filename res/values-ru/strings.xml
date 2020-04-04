@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Открыть список ярлыков при входе</string>
     <string name="pref_appearance_title_show_passwords">Всегда показывать пароли</string>
     <string name="pref_appearance_title_change_theme">Сменить тему</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">По умолчанию</string>
     <string name="pref_appearance_theme_light">Светлая</string>
     <string name="pref_appearance_theme_dark">Темная</string>
     <string name="pref_appearance_theme_blue_gray">Серо-голубой</string>
