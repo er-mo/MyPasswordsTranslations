@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">로그인시 라벨 목록 열기</string>
     <string name="pref_appearance_title_show_passwords">패스워드 보이기</string>
     <string name="pref_appearance_title_change_theme">테마 변경</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">기본</string>
     <string name="pref_appearance_theme_light">밝음</string>
     <string name="pref_appearance_theme_dark">어두움</string>
     <string name="pref_appearance_theme_blue_gray">청회색</string>
