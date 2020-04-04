@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">लॉगिन पर लेबल सूची खोलें</string>
     <string name="pref_appearance_title_show_passwords">पासवर्ड दिखाएं</string>
     <string name="pref_appearance_title_change_theme">थीम बदलें</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">चूक</string>
     <string name="pref_appearance_theme_light">रोशनी</string>
     <string name="pref_appearance_theme_dark">अंधेरा</string>
     <string name="pref_appearance_theme_blue_gray">नीला स्लेटी</string>
