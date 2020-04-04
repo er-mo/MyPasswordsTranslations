@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Giriş sırasında etiket listesini aç</string>
     <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
     <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Varsayılan</string>
     <string name="pref_appearance_theme_light">Parlak</string>
     <string name="pref_appearance_theme_dark">Karanlık</string>
     <string name="pref_appearance_theme_blue_gray">Mavi gri</string>
