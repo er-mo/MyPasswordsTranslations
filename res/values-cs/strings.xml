@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Otevřete seznam štítků při přihlášení</string>
     <string name="pref_appearance_title_show_passwords">Zobrazit hesla</string>
     <string name="pref_appearance_title_change_theme">Změnit téma</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Výchozí</string>
     <string name="pref_appearance_theme_light">Světlé</string>
     <string name="pref_appearance_theme_dark">Tmavé</string>
     <string name="pref_appearance_theme_blue_gray">Modrá šedá</string>
