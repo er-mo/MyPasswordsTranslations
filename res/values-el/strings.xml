@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Άνοιγμα λίστας ετικετών κατά την είσοδο</string>
     <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
     <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Προκαθορισμένο</string>
     <string name="pref_appearance_theme_light">Φωτεινό</string>
     <string name="pref_appearance_theme_dark">Σκοτεινό</string>
     <string name="pref_appearance_theme_blue_gray">Μπλε Γκρι</string>
