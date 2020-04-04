@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Abrir lista de marcadores no login</string>
     <string name="pref_appearance_title_show_passwords">Mostrar senhas</string>
     <string name="pref_appearance_title_change_theme">Mudar tema</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Padrão</string>
     <string name="pref_appearance_theme_light">Leve</string>
     <string name="pref_appearance_theme_dark">Sombrio</string>
     <string name="pref_appearance_theme_blue_gray">Cinza azulado</string>
