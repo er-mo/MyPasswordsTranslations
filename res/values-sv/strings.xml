@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Öppna etikettlistan vid inloggning</string>
     <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
     <string name="pref_appearance_title_change_theme">Ändra tema</string>
-    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_default">Standard</string>
     <string name="pref_appearance_theme_light">Ljus</string>
     <string name="pref_appearance_theme_dark">Mörk</string>
     <string name="pref_appearance_theme_blue_gray">Blå grå</string>
