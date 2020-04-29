@@ -3,100 +3,100 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_description">Androidデバイス用の安全で使いやすいパスワードマネージャー</string>
+    <string name="app_download_message">Google Playストアから今すぐ無料で入手</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy_text">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="current_location_folder">ロケーション</string>
+    <string name="password_is_too_short">パスワードが短すぎます</string>
+    <string name="passwords_not_matching">パスワードが一致しません</string>
+    <string name="password_not_correct">パスワードが違います</string>
+    <string name="password_not_only_numbers">パスワードには数字だけではない</string>
+    <string name="password_strength_hint_very_weak">非常に弱い！</string>
+    <string name="password_strength_hint_weak">弱い！</string>
+    <string name="password_strength_hint_good">良い！</string>
+    <string name="password_strength_hint_strong">強い！</string>
+    <string name="password_strength_hint_very_strong">とても強い！</string>
+    <string name="required">必須</string>
+    <string name="title">題名</string>
+    <string name="account">アカウント</string>
+    <string name="password">パスワード</string>
+    <string name="username">ユーザー名</string>
+    <string name="website">ウェブサイト</string>
+    <string name="notes">ノート</string>
+    <string name="list_is_empty">エントリーはありません</string>
+    <string name="last_updated">最終更新</string>
+    <string name="copy_text">（コピー）</string>
+    <string name="new_field_hint">名前</string>
+    <string name="add_new_label">新しいラベルを追加</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
+    <string name="button_register">登録</string>
+    <string name="button_enter">入る</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_more">More</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_upgrade_now">今すぐアップグレード</string>
+    <string name="button_update">更新</string>
+    <string name="button_exit">出口</string>
+    <string name="button_gotit">とった</string>
+    <string name="button_more">もっと</string>
+    <string name="button_delete_field">フィールドを削除</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
     <!-- ################################################################################# -->
 
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">ようこそ</string>
+    <string name="welcome_info_content">アプリケーションの使用を開始するには、マスターパスワードを登録してください。 同期オプションがないため、マスターパスワードを紛失した場合、保存されたデータを回復できないことに注意してください。 定期的にデータをバックアップすることを強くお勧めします。</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export and import csv files</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">PROバージョンをお買い上げいただき誠にありがとうございます。</string>
+    <string name="upgrade_feature_1">csvファイルのエクスポートとインポート</string>
+    <string name="upgrade_feature_3">テーマ選択</string>
+    <string name="upgrade_feature_4">クリップボードの自動消去</string>
+    <string name="upgrade_feature_5">自己破壊</string>
+    <string name="upgrade_feature_6">指紋を使用して入力</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">パスワード履歴</string>
+    <string name="upgrade_feature_9">画像添付</string>
+    <string name="upgrade_feature_10">カスタムフィールド</string>
+    <string name="upgrade_feature_11">無制限のラベル</string>
+    <string name="upgrade_feature_12">生体認証認証</string>
+    <string name="upgrade_with_single_purchase">1回のアプリ内購入ですべての追加機能のロックを解除します。</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">以前のパスワード</string>
+    <string name="change_mp_new_master_password">新しいパスワード</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_exit">Exit</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">探す</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_exit">出口</string>
+    <string name="menu_appearance">外観</string>
+    <string name="menu_database">データベース</string>
+    <string name="menu_security">安全保障</string>
+    <string name="menu_about">約</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_set_labels">Set labels</string>
-    <string name="menu_attach_image">Attach image</string>
-    <string name="menu_add_field">Add field</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_select_all">Select all</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_upgrade">プロ仕様にアップグレードする</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_copy_entry">コピーを作成</string>
+    <string name="menu_edit">編集する</string>
+    <string name="menu_delete">削除する</string>
+    <string name="menu_save">セーブ</string>
+    <string name="menu_set_labels">ラベルを設定する</string>
+    <string name="menu_attach_image">画像を添付</string>
+    <string name="menu_add_field">フィールドを追加</string>
+    <string name="menu_keyboard">キーボード</string>
+    <string name="menu_add_to_watch">ウォッチに追加</string>
+    <string name="menu_clear_history">履歴をクリア</string>
+    <string name="menu_select_all">すべて選択</string>
+    <string name="menu_navigation_drawer_all_entries">すべて</string>
+    <string name="menu_navigation_drawer_edit_labels">ラベルを編集する</string>
     <!-- ################################################################################# -->
 
 
