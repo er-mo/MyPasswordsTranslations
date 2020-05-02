@@ -216,7 +216,7 @@
     <string name="pref_appearance_title_open_label_list">Apri l\'elenco delle etichette al login</string>
     <string name="pref_appearance_title_show_passwords">Mostra le password</string>
     <string name="pref_appearance_title_change_theme">Cambia il tema</string>
-    <string name="pref_appearance_theme_default">difetto</string>
+    <string name="pref_appearance_theme_default">Difetto</string>
     <string name="pref_appearance_theme_light">Chiaro</string>
     <string name="pref_appearance_theme_dark">Scuro</string>
     <string name="pref_appearance_theme_blue_gray">Blu grigio</string>
