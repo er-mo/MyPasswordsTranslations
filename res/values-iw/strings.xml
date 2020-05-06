@@ -3,136 +3,135 @@
 
     <!-- Application ##################################################################### -->
     <string name="app_name">My Passwords</string>
-    <string name="app_description">A secure and easy to use password manager for Android devices</string>
-    <string name="app_download_message">Get it now for free from Google Play store</string>
+    <string name="app_description">מנהל סיסמאות מאובטח וקל לשימוש למכשירי אנדרואיד</string>
+    <string name="app_download_message">השיג אותו בחינם מחנות Google Play</string>
     <!-- ################################################################################# -->
 
 
     <!-- General ######################################################################### -->
-    <string name="current_location_folder">Location</string>
-    <string name="password_is_too_short">Password is too short</string>
-    <string name="passwords_not_matching">Passwords are not matching</string>
-    <string name="password_not_correct">The password is not correct</string>
-    <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Very weak!</string>
-    <string name="password_strength_hint_weak">Weak!</string>
-    <string name="password_strength_hint_good">Good!</string>
-    <string name="password_strength_hint_strong">Strong!</string>
-    <string name="password_strength_hint_very_strong">Very strong!</string>
-    <string name="required">Required</string>
-    <string name="title">Title</string>
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="website">Website</string>
-    <string name="notes">Notes</string>
-    <string name="list_is_empty">There are no entries</string>
-    <string name="last_updated">Last updated</string>
-    <string name="copy_text">(copy)</string>
-    <string name="new_field_hint">Name</string>
-    <string name="add_new_label">Add new label</string>
+    <string name="current_location_folder">מקום</string>
+    <string name="password_is_too_short">סיסמה קצרה מדי</string>
+    <string name="passwords_not_matching">סיסמאות אינן תואמות</string>
+    <string name="password_not_correct">הסיסמה אינה נכונה</string>
+    <string name="password_not_only_numbers">הסיסמה מכילה לא רק מספרים</string>
+    <string name="password_strength_hint_very_weak">חלש מאוד!</string>
+    <string name="password_strength_hint_weak">חלש!</string>
+    <string name="password_strength_hint_good">טוב!</string>
+    <string name="password_strength_hint_strong">חזק!</string>
+    <string name="password_strength_hint_very_strong">חזק מאוד!</string>
+    <string name="required">נדרש</string>
+    <string name="title">כותרת</string>
+    <string name="account">חשבון</string>
+    <string name="password">סיסמה</string>
+    <string name="username">שם משתמש</string>
+    <string name="website">אתר אינטרנט</string>
+    <string name="notes">הערות</string>
+    <string name="list_is_empty">אין רשומות</string>
+    <string name="last_updated">עודכן לאחרונה</string>
+    <string name="copy_text">(עותק)</string>
+    <string name="new_field_hint">שם</string>
+    <string name="add_new_label">הוסף תווית חדשה</string>
     <!-- ################################################################################# -->
 
 
     <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTER</string>
-    <string name="button_enter">ENTER</string>
+    <string name="button_register">להירשם</string>
+    <string name="button_enter">להיכנס</string>
     <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADE NOW</string>
-    <string name="button_update">UPDATE</string>
-    <string name="button_exit">EXIT</string>
-    <string name="button_gotit">GOT IT</string>
-    <string name="button_more">More</string>
-    <string name="button_delete_field">Delete field</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_upgrade_now">שדרג עכשיו</string>
+    <string name="button_update">עדכון</string>
+    <string name="button_exit">יציאה</string>
+    <string name="button_gotit">הבנת</string>
+    <string name="button_more">יותר</string>
+    <string name="button_delete_field">מחק שדה</string>
+    <string name="navigation_drawer_open">פתח את מגירת הניווט</string>
+    <string name="navigation_drawer_close">סגור את מגירת הניווט</string>
     <!-- ################################################################################# -->
-
 
     <!-- Activities ###################################################################### -->
     <!-- welcome -->
-    <string name="welcome_info_title">Welcome</string>
-    <string name="welcome_info_content">Please register a master password to start using the application. Note that if the master password is lost the stored data cannot be recovered because of the missing sync option. It is strongly recommended that you backup your data at regular intervals.</string>
+    <string name="welcome_info_title">ברוך הבא</string>
+    <string name="welcome_info_content">אנא רשום סיסמת אב כדי להתחיל להשתמש ביישום. שים לב שאם סיסמת האב אבדה, לא ניתן לשחזר את הנתונים המאוחסנים בגלל אפשרות הסנכרון החסרה. מומלץ מאוד לגבות את הנתונים שלך בפרקי זמן קבועים.</string>
     <!-- upgrade -->
-    <string name="upgrade_thank_you">Thank you for purchasing the PRO version.</string>
-    <string name="upgrade_feature_1">Export and import csv files</string>
-    <string name="upgrade_feature_3">Theme selection</string>
-    <string name="upgrade_feature_4">Clipboard auto clear</string>
-    <string name="upgrade_feature_5">Self destruction</string>
-    <string name="upgrade_feature_6">Enter using fingerprint</string>
+    <string name="upgrade_thank_you">תודה שרכשת את גרסת ה- PRO.</string>
+    <string name="upgrade_feature_1">יצוא יבוא קובץ csv</string>
+    <string name="upgrade_feature_3">בחירת נושא</string>
+    <string name="upgrade_feature_4">הלוח נקה אוטומטית</string>
+    <string name="upgrade_feature_5">הרס עצמי</string>
+    <string name="upgrade_feature_6">הכנס באמצעות טביעת אצבע</string>
     <string name="upgrade_feature_7">Wear OS app</string>
-    <string name="upgrade_feature_8">Password history</string>
-    <string name="upgrade_feature_9">Image attachments</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Unlimited labels</string>
-    <string name="upgrade_feature_12">Biometric authentication</string>
-    <string name="upgrade_with_single_purchase">Unlock all the additional features with a single in-app purchase.</string>
+    <string name="upgrade_feature_8">היסטוריית סיסמאות</string>
+    <string name="upgrade_feature_9">קבצים מצורפים לתמונות</string>
+    <string name="upgrade_feature_10">שדות מותאמים אישית</string>
+    <string name="upgrade_feature_11">תוויות ללא הגבלה</string>
+    <string name="upgrade_feature_12">אימות ביומטרי</string>
+    <string name="upgrade_with_single_purchase">בטל את נעילת כל התכונות הנוספות באמצעות רכישה יחידה באפליקציה.</string>
     <!-- change master password -->
-    <string name="change_mp_old_master_password">old password</string>
-    <string name="change_mp_new_master_password">new password</string>
+    <string name="change_mp_old_master_password">סיסמה ישנה</string>
+    <string name="change_mp_new_master_password">סיסמה חדשה</string>
     <!-- ################################################################################# -->
 
 
     <!-- Menus ########################################################################### -->
-    <string name="menu_search">Search</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_exit">Exit</string>
-    <string name="menu_appearance">Appearance</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Security</string>
-    <string name="menu_about">About</string>
+    <string name="menu_search">לחפש</string>
+    <string name="menu_settings">הגדרות</string>
+    <string name="menu_exit">יציאה</string>
+    <string name="menu_appearance">מראה חיצוני</string>
+    <string name="menu_database">מאגר מידע</string>
+    <string name="menu_security">אבטחה</string>
+    <string name="menu_about">על אודות</string>
     <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade to PRO</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_copy_entry">Make a copy</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_save">SAVE</string>
-    <string name="menu_set_labels">Set labels</string>
-    <string name="menu_attach_image">Attach image</string>
-    <string name="menu_add_field">Add field</string>
-    <string name="menu_keyboard">Keyboard</string>
-    <string name="menu_add_to_watch">Add to watch</string>
-    <string name="menu_clear_history">Clear history</string>
-    <string name="menu_select_all">Select all</string>
-    <string name="menu_navigation_drawer_all_entries">All</string>
-    <string name="menu_navigation_drawer_edit_labels">Edit labels</string>
+    <string name="menu_upgrade">שדרוג לפרו</string>
+    <string name="menu_share">שתף</string>
+    <string name="menu_copy_entry">צור עותק</string>
+    <string name="menu_edit">ערוך</string>
+    <string name="menu_delete">מחק</string>
+    <string name="menu_save">לשמור</string>
+    <string name="menu_set_labels">הגדר תוויות</string>
+    <string name="menu_attach_image">צרף תמונה</string>
+    <string name="menu_add_field">הוסף שדה</string>
+    <string name="menu_keyboard">מקלדת</string>
+    <string name="menu_add_to_watch">הוסף לצפייה</string>
+    <string name="menu_clear_history">נקה היסטוריה</string>
+    <string name="menu_select_all">בחר הכל</string>
+    <string name="menu_navigation_drawer_all_entries">את כל</string>
+    <string name="menu_navigation_drawer_edit_labels">ערוך תוויות</string>
     <!-- ################################################################################# -->
 
 
     <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tap again to exit</string>
-    <string name="toast_entry_deleted">Entry deleted</string>
-    <string name="toast_entries_deleted">Entries deleted</string>
-    <string name="toast_entry_saved">Entry saved</string>
-    <string name="toast_try_again_shortly">Please try again in few seconds</string>
-    <string name="toast_no_browser">No web browser application found</string>
-    <string name="toast_no_playstore">Google Play store app is not installed</string>
-    <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
-    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
-    <string name="toast_master_password_updated">Successfully updated master password</string>
-    <string name="toast_master_password_not_updated">Failed to update master password</string>
-    <string name="toast_storage_permission_denied">Permission denied. Cannot read or write files.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">No file was selected</string>
-    <string name="toast_no_folder_selected">No folder was selected</string>
-    <string name="toast_successful_backup">Successfully created backup</string>
-    <string name="toast_successful_restore">Successfully restored database</string>
-    <string name="toast_successful_csv_export">Successfully exported csv file</string>
-    <string name="toast_successful_csv_import">Successfully imported csv file</string>
-    <string name="toast_database_server_error">The database is not available at the moment</string>
-    <string name="toast_added_to_watch">Added to watch</string>
-    <string name="toast_removed_from_watch">Removed from watch</string>
-    <string name="toast_playstore_error">Google Play store app is not installed</string>
-    <string name="toast_playstore_services_error">Google Play services are not available</string>
-    <string name="toast_storage_not_accessible">External storage not accessible</string>
-    <string name="toast_pro_feature">Available only in PRO version</string>
-    <string name="toast_no_password_history">No password history available</string>
-    <string name="toast_password_history_cleared">History cleared</string>
-    <string name="toast_remember_your_master_password">Make sure that you remember your master password</string>
-    <string name="toast_label_exists">Label already exists</string>
-    <string name="toast_pro_feature_unlimited_labels">More labels available only in PRO version</string>
-    <string name="toast_no_labels">No labels</string>
+    <string name="toast_tap_again_to_exit">הקש שוב כדי לצאת</string>
+    <string name="toast_entry_deleted">הכניסה נמחקה</string>
+    <string name="toast_entries_deleted">הרשומות נמחקו</string>
+    <string name="toast_entry_saved">הכניסה נשמרה</string>
+    <string name="toast_try_again_shortly">אנא נסה שוב בעוד מספר שניות</string>
+    <string name="toast_no_browser">לא נמצאה יישום דפדפן אינטרנט</string>
+    <string name="toast_no_playstore">אפליקציית חנות Google Play אינה מותקנת</string>
+    <string name="toast_tap_to_copy_text">הקש על תצוגת הטקסט כדי להעתיק את התוכן</string>
+    <string name="toast_copied_to_clipboard">הועתק ללוח</string>
+    <string name="toast_master_password_updated">סיסמת המאסטר עודכנה בהצלחה</string>
+    <string name="toast_master_password_not_updated">עדכון סיסמת האב נכשל</string>
+    <string name="toast_storage_permission_denied">ההרשאה נדחתה. לא ניתן לקרוא או לכתוב קבצים.</string>
+    <string name="toast_camera_permission_denied">ההרשאה נדחתה. לא ניתן לצלם תמונות.</string>
+    <string name="toast_no_file_selected">לא נבחר קובץ</string>
+    <string name="toast_no_folder_selected">לא נבחרה תיקיה</string>
+    <string name="toast_successful_backup">גיבוי נוצר בהצלחה</string>
+    <string name="toast_successful_restore">מסד הנתונים שוחזר בהצלחה</string>
+    <string name="toast_successful_csv_export">ייצוא קובץ ה- csv בהצלחה</string>
+    <string name="toast_successful_csv_import">קובץ ה- CSV המיובא בהצלחה</string>
+    <string name="toast_database_server_error">בסיס הנתונים אינו זמין כרגע</string>
+    <string name="toast_added_to_watch">נוסף לצפייה</string>
+    <string name="toast_removed_from_watch">הוסר מהשעון</string>
+    <string name="toast_playstore_error">אפליקציית חנות Google Play אינה מותקנת</string>
+    <string name="toast_playstore_services_error">שירותי Google Play אינם זמינים</string>
+    <string name="toast_storage_not_accessible">אחסון חיצוני לא נגיש</string>
+    <string name="toast_pro_feature">זמין רק בגרסת PRO</string>
+    <string name="toast_no_password_history">אין היסטוריית סיסמאות זמינה</string>
+    <string name="toast_password_history_cleared">ההיסטוריה התנקה</string>
+    <string name="toast_remember_your_master_password">וודא שאתה זוכר את סיסמת האב שלך</string>
+    <string name="toast_label_exists">התווית כבר קיימת</string>
+    <string name="toast_pro_feature_unlimited_labels">עוד תוויות זמינות רק בגירסת PRO</string>
+    <string name="toast_no_labels">אין תוויות</string>
     <!-- ################################################################################# -->
 
 
