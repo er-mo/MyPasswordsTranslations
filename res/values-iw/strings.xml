@@ -59,7 +59,7 @@
     <string name="upgrade_feature_4">הלוח נקה אוטומטית</string>
     <string name="upgrade_feature_5">הרס עצמי</string>
     <string name="upgrade_feature_6">הכנס באמצעות טביעת אצבע</string>
-    <string name="upgrade_feature_7">Wear OS app</string>
+    <string name="upgrade_feature_7">Wear OS</string>
     <string name="upgrade_feature_8">היסטוריית סיסמאות</string>
     <string name="upgrade_feature_9">קבצים מצורפים לתמונות</string>
     <string name="upgrade_feature_10">שדות מותאמים אישית</string>
@@ -256,7 +256,7 @@
     <string name="pref_security_self_destruct_fifteen">15</string>
     <string name="pref_security_self_destruct_twenty">20</string>
     <string name="pref_security_title_biometric">אימות ביומטרי</string>
-    <string name="pref_security_summary_biometric">דרוש התקן תואם לשימוש בתכונה זו. אתה יכול לציין את הביומטריה המועדפת עליך בהגדרות המערכת (טביעת אצבע, זיהוי פנים וכו ')</string>
+    <string name="pref_security_summary_biometric">דרוש התקן תואם לשימוש בתכונה זו. אתה יכול לציין את הביומטריה המועדפת עליך בהגדרות המערכת (טביעת אצבע, זיהוי פנים וכו \')</string>
     <string name="pref_security_title_fingerprint">הכנס באמצעות טביעת אצבע</string>
     <string name="pref_security_summary_fingerprint">דרושה חומרה תואמת לשימוש בתכונה זו</string>
     <!-- about -->
