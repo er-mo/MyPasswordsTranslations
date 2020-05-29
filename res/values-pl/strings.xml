@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Zmień hasło główne</string>
     <string name="pref_security_title_fast_enter">Szybkie otwarcie</string>
     <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
-    <string name="pref_security_summary_auto_exit">Gdy ekran się wyłączy</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
     <string name="pref_security_title_stay_awake">Pozostaw włączony</string>
     <string name="pref_security_summary_stay_awake">Ekran nigdy nie wygaśnie używając applikacji</string>
     <string name="pref_security_title_allow_screenshots">Zezwalaj na zrzuty ekranu</string>

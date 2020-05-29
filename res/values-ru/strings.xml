@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Изменить \"Мастер-пароль\"</string>
     <string name="pref_security_title_fast_enter">Быстрый \"Вход\"</string>
     <string name="pref_security_title_auto_exit">Автоматический \"Выход\"</string>
-    <string name="pref_security_summary_auto_exit">Когда экран выключается</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
     <string name="pref_security_title_stay_awake">Не отключать экран</string>
     <string name="pref_security_summary_stay_awake">Экран никогда не будет отключаться во время просмотра или редактирования записи</string>
     <string name="pref_security_title_allow_screenshots">Разрешить скриншоты</string>

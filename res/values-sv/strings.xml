@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
     <string name="pref_security_title_fast_enter">Snabbinloggning</string>
     <string name="pref_security_title_auto_exit">Automatisk avslut</string>
-    <string name="pref_security_summary_auto_exit">När skärmen stängs av</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
     <string name="pref_security_title_stay_awake">Hålla sig vaken</string>
     <string name="pref_security_summary_stay_awake">Skärmen kommer aldrig att sova medan du tittar på eller redigerar poster</string>
     <string name="pref_security_title_allow_screenshots">Tillåt skärmdumpar</string>

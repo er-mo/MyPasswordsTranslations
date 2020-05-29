@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Cambia la password principale</string>
     <string name="pref_security_title_fast_enter">Entrata veloce</string>
     <string name="pref_security_title_auto_exit">Uscita automatica</string>
-    <string name="pref_security_summary_auto_exit">Quando lo schermo si spegne</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
     <string name="pref_security_title_stay_awake">Rimani sveglio</string>
     <string name="pref_security_summary_stay_awake">Lo schermo non si spegnerà mai mentre stai guardando o modificando le tue voci</string>
     <string name="pref_security_title_allow_screenshots">Consenti schermate</string>

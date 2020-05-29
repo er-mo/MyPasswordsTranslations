@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
     <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
     <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
-    <string name="pref_security_summary_auto_exit">Όταν η οθόνη σβήσει</string>
+    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
     <string name="pref_security_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
     <string name="pref_security_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
     <string name="pref_security_title_allow_screenshots">Screenshots επιτρεπτά</string>
