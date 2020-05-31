@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
     <string name="pref_security_title_fast_enter">Snelle invoer</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld of na 30 seconden op de achtergrond is</string>
     <string name="pref_security_title_stay_awake">Blijf actief</string>
     <string name="pref_security_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
     <string name="pref_security_title_allow_screenshots">Schermafbeeldingen toestaan</string>
