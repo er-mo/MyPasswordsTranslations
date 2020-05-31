@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Cambiar contraseña maestra</string>
     <string name="pref_security_title_fast_enter">Entrada rápida</string>
     <string name="pref_security_title_auto_exit">Salida automática</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">Cuando la pantalla se apaga o después de 30 segundos de estar en segundo plano</string>
     <string name="pref_security_title_stay_awake">Permanecer encendida</string>
     <string name="pref_security_summary_stay_awake">La pantalla nunca se apagará mientras visualices o edites entradas</string>
     <string name="pref_security_title_allow_screenshots">Permitir capturas de pantalla</string>
