@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Master Passwort ändern</string>
     <string name="pref_security_title_fast_enter">Schnell eintreten</string>
     <string name="pref_security_title_auto_exit">Automatische Sperre</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">Wenn sich der Bildschirm ausschaltet oder nach 30 Sekunden im Hintergrund</string>
     <string name="pref_security_title_stay_awake">Wach bleiben</string>
     <string name="pref_security_summary_stay_awake">Der Bildschirm wird beim Betrachten oder Bearbeiten von Einträgen niemals im Standby</string>
     <string name="pref_security_title_allow_screenshots">Screenshots zulassen</string>
