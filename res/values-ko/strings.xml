@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">마스터 패스워드 변경</string>
     <string name="pref_security_title_fast_enter">빠른 이용</string>
     <string name="pref_security_title_auto_exit">자동 종료</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">화면이 꺼 지거나 백그라운드에서 30 초 후</string>
     <string name="pref_security_title_stay_awake">항상 켜져 있음</string>
     <string name="pref_security_summary_stay_awake">항목을 보거나 편집하는 동안에는 화면이 꺼지지 않음</string>
     <string name="pref_security_title_allow_screenshots">스크린 샷 허용</string>
