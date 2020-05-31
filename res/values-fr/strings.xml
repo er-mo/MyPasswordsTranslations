@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Changer le mot de passe principal</string>
     <string name="pref_security_title_fast_enter">Entrée rapide</string>
     <string name="pref_security_title_auto_exit">Sortie automatique</string>
-    <string name="pref_security_summary_auto_exit">Lorsque l'écran s'éteint ou après 30 secondes en arrière-plan</string>
+    <string name="pref_security_summary_auto_exit">Lorsque l\'écran s\'éteint ou après 30 secondes en arrière-plan</string>
     <string name="pref_security_title_stay_awake">Rester éveillé</string>
     <string name="pref_security_summary_stay_awake">L\'écran ne dormira jamais lors de visualisation ou de la modification des entrées</string>
     <string name="pref_security_title_allow_screenshots">Autoriser les captures d\'écran</string>
