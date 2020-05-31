@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Skift hovedadgangskode</string>
     <string name="pref_security_title_fast_enter">Hurtigt ind</string>
     <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">Når skærmen slukkes, eller efter 30 sekunder i baggrunden</string>
     <string name="pref_security_title_stay_awake">Hold dig vågen</string>
     <string name="pref_security_summary_stay_awake">Skærmen vil aldrig sove, mens du ser eller redigerer poster</string>
     <string name="pref_security_title_allow_screenshots">Tillad skærmbilleder</string>
