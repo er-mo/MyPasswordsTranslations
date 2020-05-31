@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">تغيير كلمة المرور الرئيسية</string>
     <string name="pref_security_title_fast_enter">ادخل بسرعة</string>
     <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">عند إيقاف تشغيل الشاشة أو بعد مرور 30 ثانية في الخلفية</string>
     <string name="pref_security_title_stay_awake">إبق متيقظا</string>
     <string name="pref_security_summary_stay_awake">لن تنام الشاشة أبدًا أثناء عرض الإدخالات أو تحريرها</string>
     <string name="pref_security_title_allow_screenshots">السماح لقطات</string>
