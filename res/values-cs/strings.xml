@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Změnit hlavní heslo</string>
     <string name="pref_security_title_fast_enter">Rychlý vstup</string>
     <string name="pref_security_title_auto_exit">Automatické ukončení</string>
-    <string name="pref_security_summary_auto_exit">When the screen turns off or after 30 seconds being in the background</string>
+    <string name="pref_security_summary_auto_exit">Když se obrazovka vypne nebo po 30 sekundách na pozadí</string>
     <string name="pref_security_title_stay_awake">Zůstaň vzhůru</string>
     <string name="pref_security_summary_stay_awake">Při prohlížení nebo úpravách záznamů se obrazovka nikdy nespí</string>
     <string name="pref_security_title_allow_screenshots">Povolit snímky obrazovky</string>
