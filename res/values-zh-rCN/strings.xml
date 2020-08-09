@@ -76,7 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">搜索</string>
     <string name="menu_settings">设置</string>
-    <string name="menu_exit">出口</string>
+    <string name="menu_exit">退出</string>
     <string name="menu_appearance">外观</string>
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
