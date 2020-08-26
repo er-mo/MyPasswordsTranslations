@@ -15,9 +15,9 @@
     <string name="password_not_correct">输入密码不正确</string>
     <string name="password_not_only_numbers">密码不能仅包含数字</string>
     <string name="password_strength_hint_very_weak">非常弱！</string>
-    <string name="password_strength_hint_weak">弱！</string>
-    <string name="password_strength_hint_good">良好！</string>
-    <string name="password_strength_hint_strong">强！</string>
+    <string name="password_strength_hint_weak">弱密码！</string>
+    <string name="password_strength_hint_good">密码良好！</string>
+    <string name="password_strength_hint_strong">强密码！</string>
     <string name="password_strength_hint_very_strong">非常强！</string>
     <string name="required">没有填写内容</string>
     <string name="title">标题</string>
@@ -76,7 +76,7 @@
     <!-- Menus ########################################################################### -->
     <string name="menu_search">搜索</string>
     <string name="menu_settings">设置</string>
-    <string name="menu_exit">出口</string>
+    <string name="menu_exit">退出</string>
     <string name="menu_appearance">外观</string>
     <string name="menu_database">数据库</string>
     <string name="menu_security">安全</string>
@@ -145,8 +145,8 @@
     <string name="dialog_button_discard">放弃</string>
     <string name="dialog_button_remove">移除</string>
     <string name="dialog_button_rate">给五颗星</string>
-    <string name="dialog_button_later">后来</string>
-    <string name="dialog_button_never">决不</string>
+    <string name="dialog_button_later">稍后</string>
+    <string name="dialog_button_never">暂不评价</string>
     <string name="dialog_title_restore_backup">恢复备份</string>
     <string name="dialog_title_import_csv">导入 CSV 文件</string>
     <string name="dialog_title_change_master_password">更改主密码</string>
@@ -206,10 +206,10 @@
     <string name="pref_appearance_sorting_choise_alpha">按字母排序</string>
     <string name="pref_appearance_sorting_choise_time">按日期排序</string>
     <string name="pref_appearance_sorting_choise_color">按颜色排序</string>
-    <string name="pref_appearance_title_list_subtitles">主列表字幕</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">没有字幕</string>
-    <string name="pref_appearance_list_subtitles_account">帐户</string>
-    <string name="pref_appearance_list_subtitles_labels">标签</string>
+    <string name="pref_appearance_title_list_subtitles">主列表样式</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">只展示标题</string>
+    <string name="pref_appearance_list_subtitles_account">展示标题和帐户</string>
+    <string name="pref_appearance_list_subtitles_labels">展示标题和标签</string>
     <string name="pref_appearance_title_navibar_color">沉浸模式</string>
     <string name="pref_appearance_title_show_notification">显示图标</string>
     <string name="pref_appearance_summary_show_notification">应用程序解锁后在通知栏显示图标</string>
