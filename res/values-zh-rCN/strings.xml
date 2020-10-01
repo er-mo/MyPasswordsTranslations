@@ -190,7 +190,7 @@
     <string name="dialog_msg_pass_gen_trick">点触多次可生成不同类型和长度的密码。</string>
     <string name="dialog_msg_remove_from_watch">从智能手表中移除条目？</string>
     <string name="dialog_msg_attachments_warning">附件可能会增加数据库大小并降低应用程序的整体性能。</string>
-    <string name="dialog_msg_rating">如果你喜欢这个应用程序，请给出五颗星评分，感谢您的支持！</string>
+    <string name="dialog_msg_rating">如果喜欢这个应用，请给出五颗星评分，感谢您的支持！</string>
     <string name="dialog_progress_please_wait">请等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
