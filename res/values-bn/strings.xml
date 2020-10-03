@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">মাস্টার পাসওয়ার্ড পরিবর্তন করুন</string>
     <string name="pref_security_title_fast_enter">দ্রুত প্রবেশ করুন</string>
     <string name="pref_security_title_auto_exit">অটো প্রস্থান</string>
-    <string name="pref_security_summary_auto_exit">যখন পর্দাটি বন্ধ হয়ে যায় বা 30 সেকেন্ড পরে পটভূমিতে থাকে</string>
+    <string name="pref_security_summary_auto_exit">যখন পর্দাটি বন্ধ হয়ে যায় বা 60 সেকেন্ড পরে পটভূমিতে থাকে</string>
     <string name="pref_security_title_stay_awake">জেগে থাক</string>
     <string name="pref_security_summary_stay_awake">এন্ট্রি দেখতে বা সম্পাদনা করার সময় স্ক্রীন কখনই ঘুমাবে না</string>
     <string name="pref_security_title_allow_screenshots">স্ক্রিনশটগুলি অনুমতি দিন</string>

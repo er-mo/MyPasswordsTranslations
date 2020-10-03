@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">マスターパスワードを変更する</string>
     <string name="pref_security_title_fast_enter">クイックエントリー</string>
     <string name="pref_security_title_auto_exit">自動出力</string>
-    <string name="pref_security_summary_auto_exit">画面がオフになったとき、または30秒後にバックグラウンドになったとき</string>
+    <string name="pref_security_summary_auto_exit">画面がオフになったとき、または60秒後にバックグラウンドになったとき</string>
     <string name="pref_security_title_stay_awake">起きている</string>
     <string name="pref_security_summary_stay_awake">エントリの表示または編集中に画面がスリープ状態になることはありません</string>
     <string name="pref_security_title_allow_screenshots">スクリーンショットを許可する</string>

@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">更改主密碼</string>
     <string name="pref_security_title_fast_enter">快速進入</string>
     <string name="pref_security_title_auto_exit">自動離開</string>
-    <string name="pref_security_summary_auto_exit">螢幕關閉時或在背景中停留30秒後</string>
+    <string name="pref_security_summary_auto_exit">螢幕關閉時或在背景中停留60秒後</string>
     <string name="pref_security_title_stay_awake">保持清醒</string>
     <string name="pref_security_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
     <string name="pref_security_title_allow_screenshots">允許截圖</string>

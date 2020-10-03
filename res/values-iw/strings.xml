@@ -237,7 +237,7 @@
     <string name="pref_security_title_change_password">שנה סיסמת אב</string>
     <string name="pref_security_title_fast_enter">כניסה מהירה</string>
     <string name="pref_security_title_auto_exit">יציאה אוטומטית</string>
-    <string name="pref_security_summary_auto_exit">כאשר המסך נכבה או לאחר 30 שניות ברקע</string>
+    <string name="pref_security_summary_auto_exit">כאשר המסך נכבה או לאחר 60 שניות ברקע</string>
     <string name="pref_security_title_stay_awake">הישאר ער</string>
     <string name="pref_security_summary_stay_awake">המסך לא יישן לעולם בזמן צפייה או עריכה של ערכים</string>
     <string name="pref_security_title_allow_screenshots">אפשר צילומי מסך</string>

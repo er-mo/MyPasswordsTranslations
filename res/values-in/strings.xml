@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
     <string name="pref_security_title_fast_enter">Entri cepat</string>
     <string name="pref_security_title_auto_exit">Keluar otomatis</string>
-    <string name="pref_security_summary_auto_exit">Ketika layar mati atau setelah 30 detik berada di latar belakang</string>
+    <string name="pref_security_summary_auto_exit">Ketika layar mati atau setelah 60 detik berada di latar belakang</string>
     <string name="pref_security_title_stay_awake">Tetap bangun</string>
     <string name="pref_security_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
     <string name="pref_security_title_allow_screenshots">Izinkan tangkapan layar</string>

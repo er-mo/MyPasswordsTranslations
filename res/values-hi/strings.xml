@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">मास्टर पासवर्ड बदलें</string>
     <string name="pref_security_title_fast_enter">तेजी से दर्ज करें</string>
     <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
-    <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है या पृष्ठभूमि में 30 सेकंड के बाद होती है</string>
+    <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है या पृष्ठभूमि में 60 सेकंड के बाद होती है</string>
     <string name="pref_security_title_stay_awake">जागते रहो</string>
     <string name="pref_security_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
     <string name="pref_security_title_allow_screenshots">स्क्रीनशॉट की अनुमति दें</string>

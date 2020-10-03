@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
     <string name="pref_security_title_fast_enter">Hızlı giriş</string>
     <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
-    <string name="pref_security_summary_auto_exit">Ekran kapandığında veya 30 saniye sonra arka planda kaldığında</string>
+    <string name="pref_security_summary_auto_exit">Ekran kapandığında veya 60 saniye sonra arka planda kaldığında</string>
     <string name="pref_security_title_stay_awake">Uyanık kal</string>
     <string name="pref_security_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
     <string name="pref_security_title_allow_screenshots">Ekran görüntülerine izin ver</string>

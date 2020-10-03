@@ -238,7 +238,7 @@
     <string name="pref_security_title_change_password">更改主密码</string>
     <string name="pref_security_title_fast_enter">快速登录</string>
     <string name="pref_security_title_auto_exit">自动退出</string>
-    <string name="pref_security_summary_auto_exit">当屏幕关闭或在30秒后进入后台时</string>
+    <string name="pref_security_summary_auto_exit">当屏幕关闭或在60秒后进入后台时</string>
     <string name="pref_security_title_stay_awake">保持亮屏</string>
     <string name="pref_security_summary_stay_awake">当浏览或编辑条目时屏幕不进入休眠状态</string>
     <string name="pref_security_title_allow_screenshots">允许截图</string>
