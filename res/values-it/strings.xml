@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Rimuovere la voce dall\'orologio?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
     <string name="dialog_msg_rating">Se ti piace usare quest\'app, ti dispiacerebbe trovare un momento per votarla? Non richiede più di un minuto. Grazie per il tuo supporto!</string>
+    <string name="dialog_msg_auto_backup_error">La memoria esterna non è accessibile. Riattiva l\'opzione di backup automatico.</string>
     <string name="dialog_progress_please_wait">Attendere prego<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

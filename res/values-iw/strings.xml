@@ -190,6 +190,7 @@
     <string name="dialog_msg_remove_from_watch">האם להסיר את הערך מהשעון?</string>
     <string name="dialog_msg_attachments_warning">קבצים מצורפים עשויים להגדיל את גודל מסד הנתונים ולהקטין את הביצועים הכוללים של היישום.</string>
     <string name="dialog_msg_rating">אם אתה נהנה להשתמש באפליקציה זו, אכפת לך שתקדיש רגע לדרג אותה? זה לא ייקח יותר מדקה. תודה על תמיכתך!</string>
+    <string name="dialog_msg_auto_backup_error">לא ניתן לגשת לאחסון חיצוני. אנא הפעל מחדש את אפשרות הגיבוי האוטומטי.</string>
     <string name="dialog_progress_please_wait">המתן בבקשה<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

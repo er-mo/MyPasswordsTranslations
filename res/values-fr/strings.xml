@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Retirer du suivi</string>
     <string name="dialog_msg_attachments_warning">Les pièces jointes peuvent augmenter la taille de la base de données et réduire les performances globales de l\'application.</string>
     <string name="dialog_msg_rating">Vous aimez notre application, voulez-vous prendre un moment pour l\'évaluer? Cela ne vous prendra pas plus d\'une minute. Merci de votre soutien!</string>
+    <string name="dialog_msg_auto_backup_error">Le stockage externe n'est pas accessible. Veuillez réactiver l'option de sauvegarde automatique.</string>
     <string name="dialog_progress_please_wait">S\'il vous plaît, attendez<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

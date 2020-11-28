@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
     <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>
     <string name="dialog_msg_rating">Als u tevreden bent over onze app dan stellen wij het op prijs als u dat met andere gebruikers wilt delen. Het beoordelen kost minder dan 1 minuut. Bedankt voor uw ondersteuning!</string>
+    <string name="dialog_msg_auto_backup_error">Externe opslag is niet toegankelijk. Schakel de automatische back-upoptie opnieuw in.</string>
     <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

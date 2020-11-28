@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Odstranit vstup hodin?</string>
     <string name="dialog_msg_attachments_warning">Přílohy mohou zvýšit velikost databáze a snížit celkový výkon aplikace.</string>
     <string name="dialog_msg_rating">Pokud se Vám aplikace líbí, rádi bychom Vás poprosili o její ohodnocení. Nezabere to více než minutu. Děkujeme za Vaši podporu!</string>
+    <string name="dialog_msg_auto_backup_error">Externí úložiště není přístupné. Znovu povolte možnost automatického zálohování.</string>
     <string name="dialog_progress_please_wait">Prosím čekejte<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

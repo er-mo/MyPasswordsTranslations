@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">ঘড়ি থেকে এন্ট্রি সরান?</string>
     <string name="dialog_msg_attachments_warning">সংযুক্তি ডাটাবেস আকার বৃদ্ধি এবং অ্যাপ্লিকেশন সামগ্রিক কর্মক্ষমতা হ্রাস হতে পারে।</string>
     <string name="dialog_msg_rating">এপ্লিকেশনটি আপনার ভালো লাগলে অনুগ্রহ করে রেটিং করুন। রেটিং করতে এক মিনিটের বেশী সময় লাগবে না। আপনার সহযোগিতার জন্য ধন্যবাদ!</string>
+    <string name="dialog_msg_auto_backup_error">বাহ্যিক স্টোরেজ অ্যাক্সেসযোগ্য নয়। দয়া করে অটো ব্যাকআপ বিকল্পটি পুনরায় সক্ষম করুন।</string>
     <string name="dialog_progress_please_wait">অনুগ্রহপূর্বক অপেক্ষা করুন<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">시계에서 항목을 삭제하시겠습니까?</string>
     <string name="dialog_msg_attachments_warning">파일을 첨부하면 데이터베이스가 커져서 앱이 느려질 수 있음</string>
     <string name="dialog_msg_rating">앱을 만족스럽게 이용하셨다면 앱 평가를 해 주시기 바랍니다. 1분 정도 걸립니다. 고맙습니다!</string>
+    <string name="dialog_msg_auto_backup_error">외부 저장소에 액세스 할 수 없습니다. 자동 백업 옵션을 다시 활성화하십시오.</string>
     <string name="dialog_progress_please_wait">잠시만 기다려 주세요.<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

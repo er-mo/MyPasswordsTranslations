@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">刪除時鐘條目？</string>
     <string name="dialog_msg_attachments_warning">附件可能會增加數據庫大小並降低應用程序的整體性能。</string>
     <string name="dialog_msg_rating">如果你喜歡這個應用程序，請你評價一下嗎？ 它不會超過一分鐘。 感謝您的支持！</string>
+    <string name="dialog_msg_auto_backup_error">無法訪問外部存儲。 請重新啟用自動備份選項。</string>
     <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

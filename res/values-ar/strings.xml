@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
     <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>
     <string name="dialog_msg_rating">إذا أعجبك هذا التطبيق ، هل يمكن أن تقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمكم!</string>
+    <string name="dialog_msg_auto_backup_error">لا يمكن الوصول إلى وحدة التخزين الخارجية. يرجى إعادة تمكين خيار النسخ الاحتياطي التلقائي.</string>
     <string name="dialog_progress_please_wait">ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

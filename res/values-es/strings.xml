@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">¿Eliminar la entrada del reloj?</string>
     <string name="dialog_msg_attachments_warning">Los archivos adjuntos pueden aumentar el tamaño de la base de datos y disminuir el rendimiento general de la aplicación.</string>
     <string name="dialog_msg_rating">Si te ha gustado la aplicación, ¿te importaría valorar la aplicación? No te llevará más de un minuto. ¡Gracias por tu apoyo!</string>
+    <string name="dialog_msg_auto_backup_error">No se puede acceder al almacenamiento externo. Vuelva a habilitar la opción de copia de seguridad automática.</string>
     <string name="dialog_progress_please_wait">Por favor espera<xliff:g id="THREE_DOTS">…</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Eintrag von Ihr Uhr entfernen?</string>
     <string name="dialog_msg_attachments_warning">Bildanhänge können die Datenbankgröße erhöhen und die Gesamtleistung der Anwendung verringern.</string>
     <string name="dialog_msg_rating">Falls Ihnen diese App gefällt, können Sie sich bitte einen Moment Zeit nehmen, sie zu bewerten? Es dauert nicht länger als eine Minute. Vielen Dank für Ihre Unterstützung!</string>
+    <string name="dialog_msg_auto_backup_error">Auf externen Speicher kann nicht zugegriffen werden. Bitte aktivieren Sie die automatische Sicherungsoption erneut.</string>
     <string name="dialog_progress_please_wait">Bitte warten Sie<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

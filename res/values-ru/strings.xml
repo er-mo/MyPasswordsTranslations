@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Удалить запись из часов?</string>
     <string name="dialog_msg_attachments_warning">Вложения могут увеличить размер базы данных и снизить общую производительность приложения.</string>
     <string name="dialog_msg_rating">Если Вам понравилось это приложение, то не забудьте оценить его, это потребует не более минуты. Спасибо за Вашу поддержку!</string>
+    <string name="dialog_msg_auto_backup_error">Внешнее хранилище недоступно. Пожалуйста, снова включите опцию автоматического резервного копирования.</string>
     <string name="dialog_progress_please_wait">Пожалуйста, подождите<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

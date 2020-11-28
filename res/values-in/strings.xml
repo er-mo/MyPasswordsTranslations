@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
     <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
     <string name="dialog_msg_rating">Jika kamu senang menggunakan aplikasi ini, maukah kamu meluangkan sedikit waktu untuk memberikan nilai? Memberikan nilai tidak akan lebih dari 1 menit. Terima kasih atas dukungannya!</string>
+    <string name="dialog_msg_auto_backup_error">Penyimpanan eksternal tidak dapat diakses. Harap aktifkan kembali opsi cadangan otomatis.</string>
     <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

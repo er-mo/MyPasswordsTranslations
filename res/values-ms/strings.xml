@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Alih keluar kemasukan dari jam tangan?</string>
     <string name="dialog_msg_attachments_warning">Lampiran boleh meningkatkan saiz pangkalan data dan mengurangkan prestasi keseluruhan aplikasi.</string>
     <string name="dialog_msg_rating">Jika anda menikmati menggunakan Aplikasi ini, sila ambil masa untuk menilainya. Terima kasih atas sokongan anda!</string>
+    <string name="dialog_msg_auto_backup_error">Storan luaran tidak dapat diakses. Sila aktifkan semula pilihan sandaran automatik.</string>
     <string name="dialog_progress_please_wait">Sila tunggu<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

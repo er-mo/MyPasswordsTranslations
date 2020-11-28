@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Vil du fjerne posten fra uret?</string>
     <string name="dialog_msg_attachments_warning">Vedhæftede filer kan øke databasestørrelsen og mindske den samlede ydeevne for applikationen.</string>
     <string name="dialog_msg_rating">Hvis du kan lide at bruge denne app, ville du være interesseret i at tage et øjeblik for at vurdere det? Det vil ikke tage mere end et minut. Tak for din støtte!</string>
+    <string name="dialog_msg_auto_backup_error">Eksternt lager er ikke tilgængeligt. Genaktiver indstillingen automatisk sikkerhedskopiering.</string>
     <string name="dialog_progress_please_wait">Vent venligst<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

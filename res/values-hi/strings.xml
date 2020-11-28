@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
     <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
     <string name="dialog_msg_rating">यदि आपको यह ऐप पसंद आया, तो क्या आप थोड़ा सा समय लेकर उसे रेट करेंगे? इसमें एक मिनट से अधिक नहीं लगेगा। आपके समर्थन के लिए आभार।</string>
+    <string name="dialog_msg_auto_backup_error">बाहरी भंडारण सुलभ नहीं है। कृपया ऑटो बैकअप विकल्प को पुनः सक्षम करें।</string>
     <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

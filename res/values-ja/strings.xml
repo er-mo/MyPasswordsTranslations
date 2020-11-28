@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">時計からエントリを削除しますか？</string>
     <string name="dialog_msg_attachments_warning">添付ファイルにより、データベースのサイズが増加し、アプリケーションの全体的なパフォーマンスが低下する場合があります。</string>
     <string name="dialog_msg_rating">このアプリをお楽しみいただけましたら、少し時間を割いて評価していただけませんか。 1分以上かかりません。 ご支援いただきありがとうございます！</string>
+    <string name="dialog_msg_auto_backup_error">外部ストレージにアクセスできません。 自動バックアップオプションを再度有効にしてください。</string>
     <string name="dialog_progress_please_wait">お待ちください<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

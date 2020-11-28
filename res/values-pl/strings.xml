@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
     <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
     <string name="dialog_msg_rating">Jeśli podoba Ci ta się aplikacja, to czy poświęcisz chwilę, aby ją ocenić? Nie zajmie Ci to dłużej niż minutę. Dziękujemy za Twoje wsparcie!</string>
+    <string name="dialog_msg_auto_backup_error">Pamięć zewnętrzna nie jest dostępna. Włącz ponownie opcję automatycznego tworzenia kopii zapasowych.</string>
     <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

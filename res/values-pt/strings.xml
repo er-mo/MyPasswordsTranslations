@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Remover entrada do relógio?</string>
     <string name="dialog_msg_attachments_warning">Anexos podem aumentar o tamanho do banco de dados e diminuir o desempenho geral do aplicativo.</string>
     <string name="dialog_msg_rating">Gosta da aplicação? Então não se importaria de a avaliar? Não demora mais do que um minuto. Obrigado pelo seu apoio!</string>
+    <string name="dialog_msg_auto_backup_error">O armazenamento externo não está acessível. Reative a opção de backup automático.</string>
     <string name="dialog_progress_please_wait">Por favor, espere<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

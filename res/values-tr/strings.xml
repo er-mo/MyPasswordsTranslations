@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
     <string name="dialog_msg_attachments_warning">Resimler veritabanı boyutunu artırabilir ve uygulamanın genel performansını azaltabilir.</string>
     <string name="dialog_msg_rating">Eğer bu uygulamayı beğendiyseniz birkaç dakikanızı ayırarak puan verir miydiniz? Bir dakikadan fazla sürmeyecek. Desteğiniz için teşekkür ederiz!</string>
+    <string name="dialog_msg_auto_backup_error">Harici depolamaya erişilemez. Lütfen otomatik yedekleme seçeneğini yeniden etkinleştirin.</string>
     <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

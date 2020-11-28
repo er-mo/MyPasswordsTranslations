@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
     <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>
     <string name="dialog_msg_rating">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
+    <string name="dialog_msg_auto_backup_error">Extern lagring är inte tillgänglig. Aktivera alternativet automatisk säkerhetskopiering igen.</string>
     <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 

@@ -191,6 +191,7 @@
     <string name="dialog_msg_remove_from_watch">Remove entry from watch?</string>
     <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
     <string name="dialog_msg_rating">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="dialog_msg_auto_backup_error">External storage is not accessible. Please re-enable the auto backup option.</string>
     <string name="dialog_progress_please_wait">Please wait<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
     <!-- ################################################################################# -->
 
