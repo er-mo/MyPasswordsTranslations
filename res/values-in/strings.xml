@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">Akun</string>
+    <string name="add_new_label">Tambahkan label baru</string>
     <string name="app_description">Pengelola kata sandi yang aman dan mudah digunakan untuk perangkat Android</string>
     <string name="app_download_message">Dapatkan sekarang secara gratis dari Google Play store</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Hapus bidang</string>
+    <string name="button_enter">MASUK</string>
+    <string name="button_exit">KELUAR</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">OKE</string>
+    <string name="button_more">Lebih</string>
+    <string name="button_register">DAFTAR</string>
+    <string name="button_update">MEMPERBARUI</string>
+    <string name="button_upgrade_now">DIPERBARUI SEKARANG</string>
+    <string name="change_mp_new_master_password">kata sandi baru</string>
+    <string name="change_mp_old_master_password">password lama</string>
+    <string name="copy_text">(salinan)</string>
     <string name="current_location_folder">Lokasi</string>
+    <string name="dialog_button_cancel">Membatalkan</string>
+    <string name="dialog_button_continue">Lanjutkan</string>
+    <string name="dialog_button_delete">Menghapus</string>
+    <string name="dialog_button_discard">Penolakan</string>
+    <string name="dialog_button_later">Kemudian</string>
+    <string name="dialog_button_learn_more">Belajarlah lagi</string>
+    <string name="dialog_button_never">Tak pernah</string>
+    <string name="dialog_button_ok">Baiklah</string>
+    <string name="dialog_button_rate">Berikan Nilai</string>
+    <string name="dialog_button_remove">Penghapusan</string>
+    <string name="dialog_msg_app_data_erased">Semua data dihapus secara permanen karena upaya yang gagal.</string>
+    <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
+    <string name="dialog_msg_auto_backup_error">Penyimpanan eksternal tidak dapat diakses. Harap aktifkan kembali opsi cadangan otomatis.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Perangkat keras biometrik tidak tersedia.</string>
+    <string name="dialog_msg_biometric_keystore_error">Kesalahan keystore. Harap aktifkan kembali otentikasi biometrik setelah Anda memasukkan menggunakan kata sandi utama Anda.</string>
+    <string name="dialog_msg_biometric_no_hardware">Tidak ada perangkat keras biometrik.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Tidak ditemukan biometrik terdaftar. Harap atur setidaknya satu di pengaturan sistem.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">File atau folder yang dipilih tidak dapat diakses.</string>
+    <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
+    <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
+    <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
+    <string name="dialog_msg_csv_format_invalid">Format CSV tidak valid.</string>
+    <string name="dialog_msg_csv_no_data">File CSV tidak memiliki data.</string>
+    <string name="dialog_msg_db_created_on_ios">Cadangan basis data dibuat di iOS dan tidak dapat dipulihkan di Android. Anda dapat mentransfer data menggunakan file csv.</string>
+    <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
+    <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
+    <string name="dialog_msg_delete_entry">Hapus Entri?</string>
+    <string name="dialog_msg_delete_field">Hapus bidang?</string>
+    <string name="dialog_msg_delete_label">Hapus label?</string>
+    <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
+    <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
+    <string name="dialog_msg_error_reading_file">Kesalahan membaca file.</string>
+    <string name="dialog_msg_error_writing_file">Kesalahan menulis file.</string>
+    <string name="dialog_msg_feature_shutdown">Fitur cadangan otomatis ini akan ditolak pada 6 Desember 2019. Anda sebaiknya menggunakan cadangan perangkat Android.</string>
+    <string name="dialog_msg_fp_hint">Sensor sentuh</string>
+    <string name="dialog_msg_fp_not_recognized">Sidik jari tidak dikenali. Coba lagi</string>
+    <string name="dialog_msg_fp_success">Sidik jari dikenali. Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Tidak ada sidik jari terdaftar yang ditemukan. Harap atur setidaknya satu sidik jari dalam pengaturan sistem.</string>
+    <string name="dialog_msg_no_fp_hardware">Perangkat keras sidik jari tidak ada atau tidak berfungsi.</string>
+    <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
+    <string name="dialog_msg_rating">Jika kamu senang menggunakan aplikasi ini, maukah kamu meluangkan sedikit waktu untuk memberikan nilai? Memberikan nilai tidak akan lebih dari 1 menit. Terima kasih atas dukungannya!</string>
+    <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
+    <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
+    <string name="dialog_title_authentication">Otentikasi</string>
+    <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
+    <string name="dialog_title_confirm_fp">Konfirmasikan sidik jari Anda</string>
+    <string name="dialog_title_feature_shutdown">Shutdown fitur</string>
+    <string name="dialog_title_history">Sejarah</string>
+    <string name="dialog_title_import_csv">Impor csv?</string>
+    <string name="dialog_title_new_field">Bidang baru</string>
+    <string name="dialog_title_rating">Nilai aplikasi ini</string>
+    <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
+    <string name="dialog_title_self_destruct">Penghancuran diri</string>
+    <string name="dialog_title_set_labels">Tetapkan label</string>
+    <string name="last_updated">Terakhir diperbarui</string>
+    <string name="list_is_empty">Tidak ada entri</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_add_field">Tambahkan bidang</string>
+    <string name="menu_add_to_watch">Tambahkan ke jam tangan pintar</string>
+    <string name="menu_appearance">Penampilan</string>
+    <string name="menu_attach_image">Lampirkan gambar</string>
+    <string name="menu_clear_history">Bersihkan riwayat</string>
+    <string name="menu_copy_entry">Buat salinan</string>
+    <string name="menu_database">Basis data</string>
+    <string name="menu_delete">Menghapus</string>
+    <string name="menu_edit">Mengedit</string>
+    <string name="menu_exit">Keluar</string>
+    <string name="menu_export_import">Ekspor Impor</string>
+    <string name="menu_export_to_pdf">Ekspor ke PDF - Cetak</string>
+    <string name="menu_keyboard">Papan tombol</string>
+    <string name="menu_navigation_drawer_all_entries">Semua</string>
+    <string name="menu_navigation_drawer_edit_labels">Mengedit label</string>
+    <string name="menu_remove_from_watch">Hapus dari jam tangan pintar</string>
+    <string name="menu_save">Menyimpan</string>
+    <string name="menu_search">Pencarian</string>
+    <string name="menu_security">Keamanan</string>
+    <string name="menu_select_all">Pilih Semua</string>
+    <string name="menu_set_labels">Tetapkan label</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_upgrade">Upgrade ke yang lebih baik</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="new_field_hint">Nama</string>
+    <string name="notes">Catatan</string>
+    <string name="notification_text_app_running">Aplikasi sedang berjalan</string>
+    <string name="password">Kata sandi</string>
     <string name="password_is_too_short">Kata sandi terlalu pendek</string>
-    <string name="passwords_not_matching">Kata sandi tidak cocok</string>
     <string name="password_not_correct">Kata sandi salah</string>
     <string name="password_not_only_numbers">Kata sandi tidak hanya berisi angka</string>
-    <string name="password_strength_hint_very_weak">Sangat lemah!</string>
-    <string name="password_strength_hint_weak">Lemah!</string>
     <string name="password_strength_hint_good">Bagus!</string>
     <string name="password_strength_hint_strong">Kuat!</string>
     <string name="password_strength_hint_very_strong">Sangat kuat!</string>
+    <string name="password_strength_hint_very_weak">Sangat lemah!</string>
+    <string name="password_strength_hint_weak">Lemah!</string>
+    <string name="passwords_not_matching">Kata sandi tidak cocok</string>
+    <string name="pref_about_title_build_version">Buat versi</string>
+    <string name="pref_about_title_contact">Laporkan bug</string>
+    <string name="pref_about_title_licenses">Lisensi Sumber Terbuka</string>
+    <string name="pref_about_title_more_apps">Aplikasi tambahan lainnya</string>
+    <string name="pref_about_title_share">Beri tahu temanmu</string>
+    <string name="pref_about_title_support">Beri peringkat dan ulasan</string>
+    <string name="pref_about_title_terms">Ketentuan dan Kebijakan Privasi</string>
+    <string name="pref_about_title_translations">Terjemahan</string>
+    <string name="pref_appearance_list_subtitles_account">Akun</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Tanpa teks terjemahan</string>
+    <string name="pref_appearance_sorting_choise_alpha">Secara alfabet</string>
+    <string name="pref_appearance_sorting_choise_color">Berdasarkan warna</string>
+    <string name="pref_appearance_sorting_choise_time">Berdasarkan tanggal</string>
+    <string name="pref_appearance_summary_show_notification">Mudah untuk mengidentifikasi bahwa aplikasi tidak dikunci dan berjalan</string>
+    <string name="pref_appearance_theme_blue_gray">Biru abu-abu</string>
+    <string name="pref_appearance_theme_dark">Gelap</string>
+    <string name="pref_appearance_theme_default">Default</string>
+    <string name="pref_appearance_theme_light">Cahaya</string>
+    <string name="pref_appearance_theme_purple">Ungu</string>
+    <string name="pref_appearance_title_change_theme">Ubah tema</string>
+    <string name="pref_appearance_title_list_subtitles">Subtitel daftar utama</string>
+    <string name="pref_appearance_title_navibar_color">Warna bilah navigasi</string>
+    <string name="pref_appearance_title_open_label_list">Buka daftar label saat masuk</string>
+    <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
+    <string name="pref_appearance_title_show_passwords">Tampilkan kata sandi</string>
+    <string name="pref_appearance_title_sort_entries">Sortir entri</string>
+    <string name="pref_category_appearance">PENAMPILAN</string>
+    <string name="pref_category_auto_backup">SALINAN KESELAMATAN OTOMATIS</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIK</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">Basis data</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">KEAMANAN</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Buat cadangan otomatis di penyimpanan eksternal Anda (sd atau penyimpanan non-removable internal). Anda dapat mengakses penyimpanan eksternal menggunakan aplikasi pengelola file pihak ke-3</string>
+    <string name="pref_database_summary_backup">Buat cadangan dari basis data terenkripsi menggunakan kerangka kerja akses penyimpanan Android</string>
+    <string name="pref_database_summary_backup_share">Buat dan bagikan cadangan dari basis data terenkripsi</string>
+    <string name="pref_database_summary_export">Ekspor entri ke file csv yang tidak terenkripsi</string>
+    <string name="pref_database_summary_import">Impor entri dari file csv yang tidak terenkripsi</string>
+    <string name="pref_database_summary_restore">Pulihkan cadangan dari basis data terenkripsi</string>
+    <string name="pref_database_title_auto_backup">Cadangan otomatis</string>
+    <string name="pref_database_title_backup">Buat cadangan basis data</string>
+    <string name="pref_database_title_backup_share">Bagikan basis data</string>
+    <string name="pref_database_title_export">Ekspor file csv</string>
+    <string name="pref_database_title_import">Impor file csv</string>
+    <string name="pref_database_title_restore">Pulihkan basis data</string>
+    <string name="pref_export_import_summary_export_csv">Ekspor ke file csv yang tidak dienkripsi menggunakan framework akses penyimpanan Android</string>
+    <string name="pref_export_import_summary_import_csv">Impor dari file csv yang tidak dienkripsi dengan format yang sesuai</string>
+    <string name="pref_export_import_summary_share_csv">Buat dan bagikan file csv yang tidak dienkripsi</string>
+    <string name="pref_export_import_title_export_csv">Ekspor file csv</string>
+    <string name="pref_export_import_title_export_pdf">Ekspor ke PDF - Cetak</string>
+    <string name="pref_export_import_title_import_csv">Impor file csv</string>
+    <string name="pref_export_import_title_share_csv">Bagikan file csv</string>
+    <string name="pref_security_clipboard_clear_five_min">lima menit</string>
+    <string name="pref_security_clipboard_clear_four_min">empat menit</string>
+    <string name="pref_security_clipboard_clear_never">Tak pernah</string>
+    <string name="pref_security_clipboard_clear_one_min">satu menit</string>
+    <string name="pref_security_clipboard_clear_three_min">tiga menit</string>
+    <string name="pref_security_clipboard_clear_two_min">dua menit</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Tak terbatas</string>
+    <string name="pref_security_summary_auto_exit">Ketika layar mati atau setelah 60 detik berada di latar belakang</string>
+    <string name="pref_security_summary_biometric">Perangkat yang kompatibel diperlukan untuk menggunakan fitur ini. Anda dapat menentukan biometrik pilihan Anda dalam pengaturan sistem (sidik jari, deteksi wajah dll.)</string>
+    <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
+    <string name="pref_security_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
+    <string name="pref_security_title_allow_screenshots">Izinkan tangkapan layar</string>
+    <string name="pref_security_title_auto_exit">Keluar otomatis</string>
+    <string name="pref_security_title_biometric">Otentikasi biometrik</string>
+    <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
+    <string name="pref_security_title_clipboard_clear">Bersihkan clipboard</string>
+    <string name="pref_security_title_fast_enter">Entri cepat</string>
+    <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
+    <string name="pref_security_title_self_destruct">Upaya kata sandi gagal</string>
+    <string name="pref_security_title_stay_awake">Tetap bangun</string>
+    <string name="pref_wear_os_summary_add_to_watch">Entri baru akan selalu ditambahkan ke arloji</string>
+    <string name="pref_wear_os_summary_password_enabled">Batasi akses di arloji Anda dengan menggunakan kata sandi</string>
+    <string name="pref_wear_os_title_add_to_watch">Masuk jam</string>
+    <string name="pref_wear_os_title_password_enabled">Pakai kata sandi</string>
     <string name="required">Wajib</string>
     <string name="title">Judul</string>
-    <string name="account">Akun</string>
-    <string name="password">Kata sandi</string>
-    <string name="username">Nama pengguna</string>
-    <string name="website">Situs web</string>
-    <string name="notes">Catatan</string>
-    <string name="list_is_empty">Tidak ada entri</string>
-    <string name="last_updated">Terakhir diperbarui</string>
-    <string name="copy_text">(salinan)</string>
-    <string name="new_field_hint">Nama</string>
-    <string name="add_new_label">Tambahkan label baru</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">DAFTAR</string>
-    <string name="button_enter">MASUK</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">DIPERBARUI SEKARANG</string>
-    <string name="button_update">MEMPERBARUI</string>
-    <string name="button_exit">KELUAR</string>
-    <string name="button_gotit">OKE</string>
-    <string name="button_more">Lebih</string>
-    <string name="button_delete_field">Hapus bidang</string>
-    <string name="navigation_drawer_open">Buka laci navigasi</string>
-    <string name="navigation_drawer_close">Tutup laci navigasi</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Selamat datang</string>
-    <string name="welcome_info_content">Silakan daftarkan kata sandi utama untuk mulai menggunakan aplikasi. Perhatikan bahwa jika kata sandi utama hilang, data yang disimpan tidak dapat dipulihkan karena opsi sinkronisasi yang hilang. Sangat disarankan agar Anda membuat cadangan data Anda secara berkala.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Terima kasih telah membeli versi PRO.</string>
+    <string name="toast_added_to_watch">Ditambahkan untuk menonton</string>
+    <string name="toast_camera_permission_denied">Izin ditolak. Tidak dapat mengambil gambar.</string>
+    <string name="toast_copied_to_clipboard">Disalin ke clipboard</string>
+    <string name="toast_copy_to_clipboard_failed">Gagal menyalin ke papan klip</string>
+    <string name="toast_database_server_error">Basis data tidak tersedia saat ini</string>
+    <string name="toast_entries_deleted">Entri dihapus</string>
+    <string name="toast_entry_deleted">Pintu masuk dihapus</string>
+    <string name="toast_entry_saved">Pintu masuk disimpan</string>
+    <string name="toast_label_exists">Label sudah ada</string>
+    <string name="toast_master_password_not_updated">Gagal memperbarui kata sandi utama</string>
+    <string name="toast_master_password_updated">Kata sandi master berhasil diperbarui</string>
+    <string name="toast_no_browser">Tidak ada aplikasi browser web yang ditemukan</string>
+    <string name="toast_no_file_selected">Tidak ada file yang dipilih</string>
+    <string name="toast_no_folder_selected">Tidak ada folder yang dipilih</string>
+    <string name="toast_no_labels">Tidak ada label</string>
+    <string name="toast_no_password_history">Tidak ada riwayat kata sandi</string>
+    <string name="toast_no_playstore">Aplikasi Google Play store tidak diinstal</string>
+    <string name="toast_password_history_cleared">Sejarah dihapus</string>
+    <string name="toast_playstore_error">Aplikasi Google Play store tidak diinstal</string>
+    <string name="toast_playstore_services_error">Layanan Google Play tidak tersedia</string>
+    <string name="toast_pro_feature">Hanya tersedia dalam versi PRO</string>
+    <string name="toast_pro_feature_unlimited_labels">Lebih banyak label yang tersedia hanya dalam versi PRO</string>
+    <string name="toast_remember_your_master_password">Pastikan Anda mengingat kata sandi utama Anda</string>
+    <string name="toast_removed_from_watch">Dihapus dari pemantauan</string>
+    <string name="toast_storage_not_accessible">Penyimpanan eksternal tidak dapat diakses</string>
+    <string name="toast_storage_permission_denied">Izin ditolak. Tidak dapat membaca atau menulis file.</string>
+    <string name="toast_successful_backup">Dibuat cadangan dengan kesuksesan</string>
+    <string name="toast_successful_csv_export">Berhasil mengekspor file csv</string>
+    <string name="toast_successful_csv_import">Berhasil mengimpor file csv</string>
+    <string name="toast_successful_restore">Database berhasil dipulihkan</string>
+    <string name="toast_tap_again_to_exit">Ketuk lagi untuk keluar</string>
+    <string name="toast_tap_to_copy_text">Ketuk pada tampilan teks untuk menyalin konten</string>
+    <string name="toast_try_again_shortly">Silakan coba lagi dalam beberapa detik</string>
     <string name="upgrade_feature_1">Ekspor dan impor file csv</string>
+    <string name="upgrade_feature_10">Disesuaikan bidang</string>
+    <string name="upgrade_feature_11">Tidak terbatas label</string>
+    <string name="upgrade_feature_12">Otentikasi biometrik</string>
     <string name="upgrade_feature_3">Pemilihan tema</string>
     <string name="upgrade_feature_4">Papan klip otomatis dihapus</string>
     <string name="upgrade_feature_5">Penghancuran diri</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS Aplikasi</string>
     <string name="upgrade_feature_8">Riwayat kata sandi</string>
     <string name="upgrade_feature_9">Lampiran gambar</string>
-    <string name="upgrade_feature_10">Disesuaikan bidang</string>
-    <string name="upgrade_feature_11">Tidak terbatas label</string>
-    <string name="upgrade_feature_12">Otentikasi biometrik</string>
+    <string name="upgrade_thank_you">Terima kasih telah membeli versi PRO.</string>
     <string name="upgrade_with_single_purchase">Buka kunci semua fitur tambahan dengan satu pembelian dalam aplikasi.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">password lama</string>
-    <string name="change_mp_new_master_password">kata sandi baru</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Pencarian</string>
-    <string name="menu_settings">Pengaturan</string>
-    <string name="menu_exit">Keluar</string>
-    <string name="menu_appearance">Penampilan</string>
-    <string name="menu_database">Basis data</string>
-    <string name="menu_security">Keamanan</string>
-    <string name="menu_about">Tentang</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade ke yang lebih baik</string>
-    <string name="menu_share">Bagikan</string>
-    <string name="menu_copy_entry">Buat salinan</string>
-    <string name="menu_edit">Mengedit</string>
-    <string name="menu_delete">Menghapus</string>
-    <string name="menu_save">Menyimpan</string>
-    <string name="menu_set_labels">Tetapkan label</string>
-    <string name="menu_attach_image">Lampirkan gambar</string>
-    <string name="menu_add_field">Tambahkan bidang</string>
-    <string name="menu_keyboard">Papan tombol</string>
-    <string name="menu_add_to_watch">Tambahkan untuk menonton</string>
-    <string name="menu_clear_history">Bersihkan riwayat</string>
-    <string name="menu_select_all">Pilih Semua</string>
-    <string name="menu_navigation_drawer_all_entries">Semua</string>
-    <string name="menu_navigation_drawer_edit_labels">Mengedit label</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Ketuk lagi untuk keluar</string>
-    <string name="toast_entry_deleted">Pintu masuk dihapus</string>
-    <string name="toast_entries_deleted">Entri dihapus</string>
-    <string name="toast_entry_saved">Pintu masuk disimpan</string>
-    <string name="toast_try_again_shortly">Silakan coba lagi dalam beberapa detik</string>
-    <string name="toast_no_browser">Tidak ada aplikasi browser web yang ditemukan</string>
-    <string name="toast_no_playstore">Aplikasi Google Play store tidak diinstal</string>
-    <string name="toast_tap_to_copy_text">Ketuk pada tampilan teks untuk menyalin konten</string>
-    <string name="toast_copied_to_clipboard">Disalin ke clipboard</string>
-    <string name="toast_master_password_updated">Kata sandi master berhasil diperbarui</string>
-    <string name="toast_master_password_not_updated">Gagal memperbarui kata sandi utama</string>
-    <string name="toast_storage_permission_denied">Izin ditolak. Tidak dapat membaca atau menulis file.</string>
-    <string name="toast_camera_permission_denied">Izin ditolak. Tidak dapat mengambil gambar.</string>
-    <string name="toast_no_file_selected">Tidak ada file yang dipilih</string>
-    <string name="toast_no_folder_selected">Tidak ada folder yang dipilih</string>
-    <string name="toast_successful_backup">Dibuat cadangan dengan kesuksesan</string>
-    <string name="toast_successful_restore">Database berhasil dipulihkan</string>
-    <string name="toast_successful_csv_export">Berhasil mengekspor file csv</string>
-    <string name="toast_successful_csv_import">Berhasil mengimpor file csv</string>
-    <string name="toast_database_server_error">Basis data tidak tersedia saat ini</string>
-    <string name="toast_added_to_watch">Ditambahkan untuk menonton</string>
-    <string name="toast_removed_from_watch">Dihapus dari pemantauan</string>
-    <string name="toast_playstore_error">Aplikasi Google Play store tidak diinstal</string>
-    <string name="toast_playstore_services_error">Layanan Google Play tidak tersedia</string>
-    <string name="toast_storage_not_accessible">Penyimpanan eksternal tidak dapat diakses</string>
-    <string name="toast_pro_feature">Hanya tersedia dalam versi PRO</string>
-    <string name="toast_no_password_history">Tidak ada riwayat kata sandi</string>
-    <string name="toast_password_history_cleared">Sejarah dihapus</string>
-    <string name="toast_remember_your_master_password">Pastikan Anda mengingat kata sandi utama Anda</string>
-    <string name="toast_label_exists">Label sudah ada</string>
-    <string name="toast_pro_feature_unlimited_labels">Lebih banyak label yang tersedia hanya dalam versi PRO</string>
-    <string name="toast_no_labels">Tidak ada label</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">Baiklah</string>
-    <string name="dialog_button_learn_more">Belajarlah lagi</string>
-    <string name="dialog_button_continue">Lanjutkan</string>
-    <string name="dialog_button_cancel">Membatalkan</string>
-    <string name="dialog_button_delete">Menghapus</string>
-    <string name="dialog_button_discard">Penolakan</string>
-    <string name="dialog_button_remove">Penghapusan</string>
-    <string name="dialog_button_rate">Berikan Nilai</string>
-    <string name="dialog_button_later">Kemudian</string>
-    <string name="dialog_button_never">Tak pernah</string>
-    <string name="dialog_title_restore_backup">Pulihkan cadangan?</string>
-    <string name="dialog_title_import_csv">Impor csv?</string>
-    <string name="dialog_title_change_master_password">Ubah kata sandi utama?</string>
-    <string name="dialog_title_self_destruct">Penghancuran diri</string>
-    <string name="dialog_title_authentication">Otentikasi</string>
-    <string name="dialog_title_confirm_fp">Konfirmasikan sidik jari Anda</string>
-    <string name="dialog_title_history">Sejarah</string>
-    <string name="dialog_title_attach_another_image">Lampirkan gambar lain?</string>
-    <string name="dialog_title_new_field">Bidang baru</string>
-    <string name="dialog_title_set_labels">Tetapkan label</string>
-    <string name="dialog_title_rating">Nilai aplikasi ini</string>
-    <string name="dialog_title_feature_shutdown">Shutdown fitur</string>
-    <string name="dialog_msg_feature_shutdown">Fitur cadangan otomatis ini akan ditolak pada 6 Desember 2019. Anda sebaiknya menggunakan cadangan perangkat Android.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Semua entri saat ini akan dihapus.</string>
-    <string name="dialog_msg_changing_master_password">Dengan mengubah kata sandi utama Anda, Anda tidak akan dapat memulihkan cadangan dari database yang dibuat dengan kata sandi utama saat ini.</string>
-    <string name="dialog_msg_delete_selected_entries">Hapus entri yang dipilih?</string>
-    <string name="dialog_msg_delete_entry">Hapus Entri?</string>
-    <string name="dialog_msg_delete_label">Hapus label?</string>
-    <string name="dialog_msg_delete_field">Hapus bidang?</string>
-    <string name="dialog_msg_discard_changes">Membuang perubahan?</string>
-    <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
-    <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">File atau folder yang dipilih tidak dapat diakses.</string>
-    <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
-    <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
-    <string name="dialog_msg_db_created_on_ios">Cadangan basis data dibuat di iOS dan tidak dapat dipulihkan di Android. Anda dapat mentransfer data menggunakan file csv.</string>
-    <string name="dialog_msg_csv_format_invalid">Format CSV tidak valid.</string>
-    <string name="dialog_msg_csv_no_data">File CSV tidak memiliki data.</string>
-    <string name="dialog_msg_error_writing_file">Kesalahan menulis file.</string>
-    <string name="dialog_msg_error_reading_file">Kesalahan membaca file.</string>
-    <string name="dialog_msg_app_data_erased">Semua data dihapus secara permanen karena upaya yang gagal.</string>
-    <string name="dialog_msg_no_fp_hardware">Perangkat keras sidik jari tidak ada atau tidak berfungsi.</string>
-    <string name="dialog_msg_no_fp_enrolled">Tidak ada sidik jari terdaftar yang ditemukan. Harap atur setidaknya satu sidik jari dalam pengaturan sistem.</string>
-    <string name="dialog_msg_fp_not_recognized">Sidik jari tidak dikenali. Coba lagi</string>
-    <string name="dialog_msg_fp_success">Sidik jari dikenali. Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Sensor sentuh</string>
-    <string name="dialog_msg_biometric_no_hardware">Tidak ada perangkat keras biometrik.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Perangkat keras biometrik tidak tersedia.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Tidak ditemukan biometrik terdaftar. Harap atur setidaknya satu di pengaturan sistem.</string>
-    <string name="dialog_msg_biometric_keystore_error">Kesalahan keystore. Harap aktifkan kembali otentikasi biometrik setelah Anda memasukkan menggunakan kata sandi utama Anda.</string>
-    <string name="dialog_msg_pass_gen_trick">Ketuk beberapa kali untuk menghasilkan kata sandi dengan jenis dan panjang yang berbeda.</string>
-    <string name="dialog_msg_remove_from_watch">Hapus input dari jam?</string>
-    <string name="dialog_msg_attachments_warning">Lampiran dapat meningkatkan ukuran basis data dan mengurangi kinerja aplikasi secara keseluruhan.</string>
-    <string name="dialog_msg_rating">Jika kamu senang menggunakan aplikasi ini, maukah kamu meluangkan sedikit waktu untuk memberikan nilai? Memberikan nilai tidak akan lebih dari 1 menit. Terima kasih atas dukungannya!</string>
-    <string name="dialog_msg_auto_backup_error">Penyimpanan eksternal tidak dapat diakses. Harap aktifkan kembali opsi cadangan otomatis.</string>
-    <string name="dialog_progress_please_wait">Tunggu sebentar<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Aplikasi sedang berjalan</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sortir entri</string>
-    <string name="pref_appearance_sorting_choise_alpha">Secara alfabet</string>
-    <string name="pref_appearance_sorting_choise_time">Berdasarkan tanggal</string>
-    <string name="pref_appearance_sorting_choise_color">Berdasarkan warna</string>
-    <string name="pref_appearance_title_list_subtitles">Subtitel daftar utama</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Tanpa teks terjemahan</string>
-    <string name="pref_appearance_list_subtitles_account">Akun</string>
-    <string name="pref_appearance_list_subtitles_labels">Labels</string>
-    <string name="pref_appearance_title_navibar_color">Warna bilah navigasi</string>
-    <string name="pref_appearance_title_show_notification">Pemberitahuan</string>
-    <string name="pref_appearance_summary_show_notification">Mudah untuk mengidentifikasi bahwa aplikasi tidak dikunci dan berjalan</string>
-    <string name="pref_appearance_title_open_label_list">Buka daftar label saat masuk</string>
-    <string name="pref_appearance_title_show_passwords">Tampilkan kata sandi</string>
-    <string name="pref_appearance_title_change_theme">Ubah tema</string>
-    <string name="pref_appearance_theme_default">Default</string>
-    <string name="pref_appearance_theme_light">Cahaya</string>
-    <string name="pref_appearance_theme_dark">Gelap</string>
-    <string name="pref_appearance_theme_blue_gray">Biru abu-abu</string>
-    <string name="pref_appearance_theme_purple">Ungu</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Bagikan basis data</string>
-    <string name="pref_database_summary_backup_share">Buat dan bagikan cadangan dari basis data terenkripsi</string>
-    <string name="pref_database_title_backup">Buat cadangan basis data</string>
-    <string name="pref_database_summary_backup">Buat cadangan dari basis data terenkripsi menggunakan kerangka kerja akses penyimpanan Android</string>
-    <string name="pref_database_title_restore">Pulihkan basis data</string>
-    <string name="pref_database_summary_restore">Pulihkan cadangan dari basis data terenkripsi</string>
-    <string name="pref_database_title_auto_backup">Cadangan otomatis</string>
-    <string name="pref_database_summary_auto_backup">Buat cadangan otomatis di penyimpanan eksternal Anda (sd atau penyimpanan non-removable internal). Anda dapat mengakses penyimpanan eksternal menggunakan aplikasi pengelola file pihak ke-3</string>
-    <string name="pref_database_title_export">Ekspor file csv</string>
-    <string name="pref_database_summary_export">Ekspor entri ke file csv yang tidak terenkripsi</string>
-    <string name="pref_database_title_import">Impor file csv</string>
-    <string name="pref_database_summary_import">Impor entri dari file csv yang tidak terenkripsi</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Ubah kata sandi utama</string>
-    <string name="pref_security_title_fast_enter">Entri cepat</string>
-    <string name="pref_security_title_auto_exit">Keluar otomatis</string>
-    <string name="pref_security_summary_auto_exit">Ketika layar mati atau setelah 60 detik berada di latar belakang</string>
-    <string name="pref_security_title_stay_awake">Tetap bangun</string>
-    <string name="pref_security_summary_stay_awake">Layar tidak akan pernah tidur saat melihat atau mengedit entri</string>
-    <string name="pref_security_title_allow_screenshots">Izinkan tangkapan layar</string>
-    <string name="pref_security_title_clipboard_clear">Bersihkan clipboard</string>
-    <string name="pref_security_clipboard_clear_never">Tak pernah</string>
-    <string name="pref_security_clipboard_clear_one_min">satu menit</string>
-    <string name="pref_security_clipboard_clear_two_min">dua menit</string>
-    <string name="pref_security_clipboard_clear_three_min">tiga menit</string>
-    <string name="pref_security_clipboard_clear_four_min">empat menit</string>
-    <string name="pref_security_clipboard_clear_five_min">lima menit</string>
-    <string name="pref_security_title_self_destruct">Upaya kata sandi gagal</string>
-    <string name="pref_security_self_destruct_unlimited">Tak terbatas</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Otentikasi biometrik</string>
-    <string name="pref_security_summary_biometric">Perangkat yang kompatibel diperlukan untuk menggunakan fitur ini. Anda dapat menentukan biometrik pilihan Anda dalam pengaturan sistem (sidik jari, deteksi wajah dll.)</string>
-    <string name="pref_security_title_fingerprint">Masukkan menggunakan sidik jari</string>
-    <string name="pref_security_summary_fingerprint">Android 6.0 atau yang lebih baru dan perangkat keras yang kompatibel diperlukan untuk menggunakan fitur ini</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Laporkan bug</string>
-    <string name="pref_about_title_support">Beri peringkat dan ulasan</string>
-    <string name="pref_about_title_more_apps">Aplikasi tambahan lainnya</string>
-    <string name="pref_about_title_share">Beri tahu temanmu</string>
-    <string name="pref_about_title_translations">Terjemahan</string>
-    <string name="pref_about_title_terms">Ketentuan dan Kebijakan Privasi</string>
-    <string name="pref_about_title_licenses">Lisensi Sumber Terbuka</string>
-    <string name="pref_about_title_build_version">Buat versi</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Pakai kata sandi</string>
-    <string name="pref_wear_os_summary_password_enabled">Batasi akses di arloji Anda dengan menggunakan kata sandi</string>
-    <string name="pref_wear_os_title_add_to_watch">Masuk jam</string>
-    <string name="pref_wear_os_summary_add_to_watch">Entri baru akan selalu ditambahkan ke arloji</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">PENAMPILAN</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
-    <string name="pref_category_database">Basis data</string>
-    <string name="pref_category_auto_backup">SALINAN KESELAMATAN OTOMATIS</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">KEAMANAN</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>papan klip</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PENGHANCURAN DIRI</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIK</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Nama pengguna</string>
+    <string name="website">Situs web</string>
+    <string name="welcome_info_content">Silakan daftarkan kata sandi utama untuk mulai menggunakan aplikasi. Perhatikan bahwa jika kata sandi utama hilang, data yang disimpan tidak dapat dipulihkan karena opsi sinkronisasi yang hilang. Sangat disarankan agar Anda membuat cadangan data Anda secara berkala.</string>
+    <string name="welcome_info_title">Selamat datang</string>
 </resources>

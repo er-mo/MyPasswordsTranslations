@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account">Λογαριασμός</string>
+    <string name="add_new_label">Προσθέστε νέα ετικέτα</string>
     <string name="app_description">Μια ασφαλής και εύχρηστη εφαρμογή για τη διαχείριση των κωδικών σας</string>
     <string name="app_download_message">Κατεβάστε το τώρα δωρεάν από το Play Google store</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Διαγραφή πεδίου</string>
+    <string name="button_enter">ΕΙΣΟΔΟΣ</string>
+    <string name="button_exit">ΕΞΟΔΟΣ</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
+    <string name="button_more">Περισσότερα</string>
+    <string name="button_register">ΚΑΤΑΧΩΡΗΣΗ</string>
+    <string name="button_update">ΑΛΛΑΓΗ</string>
+    <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
+    <string name="change_mp_new_master_password">νέος κωδικός πρόσβασης</string>
+    <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
+    <string name="copy_text">(αντίγραφο)</string>
     <string name="current_location_folder">Τοποθεσία</string>
+    <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
+    <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
+    <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
+    <string name="dialog_button_discard">ΑΠΟΡΡΙΨΗ</string>
+    <string name="dialog_button_later">ΑΡΓΟΤΕΡΑ</string>
+    <string name="dialog_button_learn_more">ΜΑΘΕ ΠΕΡΙΣΣΟΤΕΡΑ</string>
+    <string name="dialog_button_never">ΠΟΤΕ</string>
+    <string name="dialog_button_ok">ΕΝΤΑΞΕΙ</string>
+    <string name="dialog_button_rate">ΑΞΙΟΛΟΓΗΣΗ</string>
+    <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
+    <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
+    <string name="dialog_msg_attachments_warning">Οι εικόνες ενδέχεται να αυξήσουν το μέγεθος της βάσης δεδομένων και να μειώσουν τη συνολική απόδοση της εφαρμογής.</string>
+    <string name="dialog_msg_auto_backup_error">Ο εξωτερικός χώρος αποθήκευσης δεν είναι προσβάσιμος. Ενεργοποιήστε ξανά την επιλογή αυτόματης δημιουργίας αντιγράφων ασφαλείας.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Το βιομετρικό hardware δεν είναι διαθέσιμο.</string>
+    <string name="dialog_msg_biometric_keystore_error">Σφάλμα Keystore. Ενεργοποιήστε ξανά τον βιομετρικό έλεγχο ταυτότητας μόλις εισέλθετε χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_biometric_no_hardware">Δεν υπάρχει βιομετρικό hardware.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Δεν βρέθηκαν καταχωρημένα βιομετρικά στοιχεία. Ρυθμίστε τουλάχιστον ένα στις ρυθμίσεις συστήματος.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Δεν είναι δυνατή η πρόσβαση στο επιλεγμένο αρχείο ή φάκελο.</string>
+    <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
+    <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
+    <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_csv_format_invalid">Η μορφή του CSV αρχείου δεν είναι έγκυρη.</string>
+    <string name="dialog_msg_csv_no_data">Το CSV αρχείο δεν διαθέτει δεδομένα.</string>
+    <string name="dialog_msg_db_created_on_ios">Το αντίγραφο ασφαλείας της βάσης δεδομένων δημιουργήθηκε σε iOS και δεν μπορεί να αποκατασταθεί σε Android. Μπορείτε να μεταφέρετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.</string>
+    <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
+    <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
+    <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
+    <string name="dialog_msg_delete_field">Διαγραφή πεδίου;</string>
+    <string name="dialog_msg_delete_label">Διαγραφή ετικέτας;</string>
+    <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
+    <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
+    <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
+    <string name="dialog_msg_error_reading_file">Σφάλμα κατά την ανάγνωση αρχείου.</string>
+    <string name="dialog_msg_error_writing_file">Σφάλμα κατά την εγγραφή αρχείου.</string>
+    <string name="dialog_msg_feature_shutdown">Αυτή η λειτουργία αυτόματης δημιουργίας αντιγράφων ασφαλείας θα απενεργοποιηθεί στις 6 Δεκεμβρίου 2019. Θα πρέπει αντ\'αυτού να χρησιμοποιήσετε το αντίγραφο ασφαλείας της συσκευής Android.</string>
+    <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
+    <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
+    <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
+    <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
+    <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
+    <string name="dialog_msg_rating">Αν σας αρέσει αυτή η εφαρμογή, μπορείτε να την αξιολογήσετε; Δεν θα διαρκέσει περισσότερο από ένα λεπτό. Σας ευχαριστούμε για την υποστήριξή σας!</string>
+    <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
+    <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Επισύναψη επόμενης εικόνας;</string>
+    <string name="dialog_title_authentication">Αυθεντικοποίηση</string>
+    <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
+    <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
+    <string name="dialog_title_feature_shutdown">Τερματισμός Λειτουργίας</string>
+    <string name="dialog_title_history">Ιστορικό</string>
+    <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
+    <string name="dialog_title_new_field">Νέο πεδίο</string>
+    <string name="dialog_title_rating">Αξιολόγηση</string>
+    <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
+    <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
+    <string name="dialog_title_set_labels">Ορισμός ετικετών</string>
+    <string name="last_updated">Τελευταία ενημέρωση</string>
+    <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
+    <string name="menu_about">Σχετικά</string>
+    <string name="menu_add_field">Προσθήκη πεδίου</string>
+    <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
+    <string name="menu_appearance">Εμφάνιση</string>
+    <string name="menu_attach_image">Επισύναψη εικόνας</string>
+    <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>
+    <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
+    <string name="menu_database">Βάση δεδομένων</string>
+    <string name="menu_delete">Διαγραφή</string>
+    <string name="menu_edit">Επεξεργασία</string>
+    <string name="menu_exit">Έξοδος</string>
+    <string name="menu_export_import">Εξαγωγή εισαγωγή</string>
+    <string name="menu_export_to_pdf">Εξαγωγή σε PDF - Εκτύπωση</string>
+    <string name="menu_keyboard">Πληκτρολόγιο</string>
+    <string name="menu_navigation_drawer_all_entries">Όλα</string>
+    <string name="menu_navigation_drawer_edit_labels">Επεξεργασία ετικετών</string>
+    <string name="menu_remove_from_watch">Κατάργηση από το ρολόι</string>
+    <string name="menu_save">ΑΠΟΘΗΚΕΥΣΗ</string>
+    <string name="menu_search">Αναζήτηση</string>
+    <string name="menu_security">Ασφάλεια</string>
+    <string name="menu_select_all">Επιλογή όλων</string>
+    <string name="menu_set_labels">Ορισμός ετικετών</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="menu_share">Κοινοποίηση</string>
+    <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Κλείσιμο καρτέλας πλοήγησης</string>
+    <string name="navigation_drawer_open">Άνοιγμα καρτέλας πλοήγησης</string>
+    <string name="new_field_hint">Όνομα</string>
+    <string name="notes">Σημειώσεις</string>
+    <string name="notification_text_app_running">Η εφαρμογή εκτελείται</string>
+    <string name="password">Κωδικός πρόσβασης</string>
     <string name="password_is_too_short">Ο κωδικός είναι πολύ μικρός</string>
-    <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
     <string name="password_not_correct">Ο κωδικός δεν είναι σωστός</string>
     <string name="password_not_only_numbers">Ο κωδικός δεν περιέχει μόνο αριθμούς</string>
-    <string name="password_strength_hint_very_weak">Πολύ αδύναμος!</string>
-    <string name="password_strength_hint_weak">Απλός!</string>
     <string name="password_strength_hint_good">Καλός!</string>
     <string name="password_strength_hint_strong">Δυνατός!</string>
     <string name="password_strength_hint_very_strong">Πολύ δυνατός!</string>
+    <string name="password_strength_hint_very_weak">Πολύ αδύναμος!</string>
+    <string name="password_strength_hint_weak">Απλός!</string>
+    <string name="passwords_not_matching">Οι κωδικοί δεν ταιριάζουν</string>
+    <string name="pref_about_title_build_version">Έκδοση</string>
+    <string name="pref_about_title_contact">Αναφορά σφάλματος</string>
+    <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
+    <string name="pref_about_title_more_apps">Περισσότερες εφαρμογές</string>
+    <string name="pref_about_title_share">Πείτε το στους φίλους σας</string>
+    <string name="pref_about_title_support">Αξιολόγηση</string>
+    <string name="pref_about_title_terms">Όροι και Πολιτική Απορρήτου</string>
+    <string name="pref_about_title_translations">Μεταφράσεις</string>
+    <string name="pref_appearance_list_subtitles_account">Λογαριασμός</string>
+    <string name="pref_appearance_list_subtitles_labels">Ετικέτες</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Χωρίς υπότιτλους</string>
+    <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
+    <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
+    <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
+    <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
+    <string name="pref_appearance_theme_blue_gray">Μπλε Γκρι</string>
+    <string name="pref_appearance_theme_dark">Σκοτεινό</string>
+    <string name="pref_appearance_theme_default">Προκαθορισμένο</string>
+    <string name="pref_appearance_theme_light">Φωτεινό</string>
+    <string name="pref_appearance_theme_purple">Μωβ</string>
+    <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
+    <string name="pref_appearance_title_list_subtitles">Υπότιτλοι κύριας λίστας</string>
+    <string name="pref_appearance_title_navibar_color">Χρώμα γραμμής πλοήγησης</string>
+    <string name="pref_appearance_title_open_label_list">Άνοιγμα λίστας ετικετών κατά την είσοδο</string>
+    <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
+    <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
+    <string name="pref_appearance_title_sort_entries">Ταξινόμηση καταχωρήσεων</string>
+    <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
+    <string name="pref_category_auto_backup">ΑΥΤΟΜΑΤΟ BACKUP</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΒΙΟΜΕΤΡΙΚA</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΘΕΜΑ</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον εξωτερικό χώρο αποθήκευσης (sd-card η εσωτερική μη-αφαιρούμενη μνήμη)</string>
+    <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων χρησιμοποιώντας Android storage access framework</string>
+    <string name="pref_database_summary_backup_share">Δημιουργία και κοινοποίηση αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
+    <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
+    <string name="pref_database_summary_import">Εισαγωγή καταχωρήσεων από ένα μη-κρυπτογραφημένο αρχείο csv</string>
+    <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
+    <string name="pref_database_title_auto_backup">Αυτόματο backup</string>
+    <string name="pref_database_title_backup">Δημιουργία αντιγράφου ασφαλείας</string>
+    <string name="pref_database_title_backup_share">Κοινή χρήση βάσης δεδομένων</string>
+    <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
+    <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>
+    <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
+    <string name="pref_export_import_summary_export_csv">Εξαγωγή σε μη κρυπτογραφημένο αρχείο csv χρησιμοποιώντας Android storage access framework</string>
+    <string name="pref_export_import_summary_import_csv">Εισαγωγή από ένα μη κρυπτογραφημένο αρχείο csv με την κατάλληλη μορφή</string>
+    <string name="pref_export_import_summary_share_csv">Δημιουργήστε και μοιραστείτε ένα μη κρυπτογραφημένο αρχείο csv</string>
+    <string name="pref_export_import_title_export_csv">Εξαγωγή αρχείου csv</string>
+    <string name="pref_export_import_title_export_pdf">Εξαγωγή σε PDF - Εκτύπωση</string>
+    <string name="pref_export_import_title_import_csv">Εισαγωγή αρχείου csv</string>
+    <string name="pref_export_import_title_share_csv">Κοινή χρήση αρχείου csv</string>
+    <string name="pref_security_clipboard_clear_five_min">5 λεπ.</string>
+    <string name="pref_security_clipboard_clear_four_min">4 λεπ.</string>
+    <string name="pref_security_clipboard_clear_never">Ποτέ</string>
+    <string name="pref_security_clipboard_clear_one_min">1 λεπ.</string>
+    <string name="pref_security_clipboard_clear_three_min">3 λεπ.</string>
+    <string name="pref_security_clipboard_clear_two_min">2 λεπ.</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Απεριόριστες</string>
+    <string name="pref_security_summary_auto_exit">Όταν η οθόνη απενεργοποιείται ή μετά από 60 δευτερόλεπτα στο παρασκήνιο</string>
+    <string name="pref_security_summary_biometric">Απαιτείται συμβατή συσκευή για τη χρήση αυτής της λειτουργίας. Μπορείτε να καθορίσετε τον προτιμώμενο βιομετρικό έλεγχο στις ρυθμίσεις συστήματος (δακτυλικό αποτύπωμα, ανίχνευση προσώπου κ.λπ.)</string>
+    <string name="pref_security_summary_fingerprint">Απαιτείται έκδοση Android 6.0 ή νεότερη για τη χρήση αυτής της δυνατότητας</string>
+    <string name="pref_security_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
+    <string name="pref_security_title_allow_screenshots">Screenshots επιτρεπτά</string>
+    <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
+    <string name="pref_security_title_biometric">Βιομετρική αυθεντικοποίηση</string>
+    <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
+    <string name="pref_security_title_clipboard_clear">Καθαρισμός του πρόχειρου</string>
+    <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
+    <string name="pref_security_title_fingerprint">Είσοδος με δακτυλικό αποτύπωμα</string>
+    <string name="pref_security_title_self_destruct">Αποτυχημένες προσπάθειες</string>
+    <string name="pref_security_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
+    <string name="pref_wear_os_summary_add_to_watch">Νέες καταχωρήσεις θα προστίθενται αυτόματα στο ρολόι</string>
+    <string name="pref_wear_os_summary_password_enabled">Περιορίστε την πρόσβαση στο ρολόι με τη χρήση κωδικού</string>
+    <string name="pref_wear_os_title_add_to_watch">Προσθήκη στο ρολόι</string>
+    <string name="pref_wear_os_title_password_enabled">Κωδικός ρολογιού</string>
     <string name="required">Υποχρεωτικό</string>
     <string name="title">Τίτλος</string>
-    <string name="account">Λογαριασμός</string>
-    <string name="password">Κωδικός πρόσβασης</string>
-    <string name="username">Όνομα χρήστη</string>
-    <string name="website">Ιστοσελίδα</string>
-    <string name="notes">Σημειώσεις</string>
-    <string name="list_is_empty">Δεν υπάρχουν καταχωρήσεις</string>
-    <string name="last_updated">Τελευταία ενημέρωση</string>
-    <string name="copy_text">(αντίγραφο)</string>
-    <string name="new_field_hint">Όνομα</string>
-    <string name="add_new_label">Προσθέστε νέα ετικέτα</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">ΚΑΤΑΧΩΡΗΣΗ</string>
-    <string name="button_enter">ΕΙΣΟΔΟΣ</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">ΑΝΑΒΑΘΜΙΣΗ ΤΩΡΑ</string>
-    <string name="button_update">ΑΛΛΑΓΗ</string>
-    <string name="button_exit">ΕΞΟΔΟΣ</string>
-    <string name="button_gotit">ΕΝΤΑΞΕΙ</string>
-    <string name="button_more">Περισσότερα</string>
-    <string name="button_delete_field">Διαγραφή πεδίου</string>
-    <string name="navigation_drawer_open">Άνοιγμα καρτέλας πλοήγησης</string>
-    <string name="navigation_drawer_close">Κλείσιμο καρτέλας πλοήγησης</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Καλώς ήρθατε</string>
-    <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείται την εφαρμογή. Εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνιστάται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
+    <string name="toast_added_to_watch">Προστέθηκε στο ρολόι</string>
+    <string name="toast_camera_permission_denied">Η άδεια απορρίφθηκε. Δεν είναι δυνατή η επισύναψη εικόνων</string>
+    <string name="toast_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="toast_copy_to_clipboard_failed">Αποτυχία αντιγραφής στο πρόχειρο</string>
+    <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
+    <string name="toast_entries_deleted">Οι καταχωρήσεις διαγράφηκαν</string>
+    <string name="toast_entry_deleted">Η καταχώρηση διαγράφικε</string>
+    <string name="toast_entry_saved">Η καταχώρηση αποθηκεύτηκε</string>
+    <string name="toast_label_exists">Η ετικέτα υπάρχει ήδη</string>
+    <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
+    <string name="toast_master_password_updated">Ο κύριος κωδικός πρόσβασης ενημερώθηκε με επιτυχία</string>
+    <string name="toast_no_browser">Δεν βρέθηκε κάποιο πρόγραμμα περιήγησης</string>
+    <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
+    <string name="toast_no_folder_selected">Δεν επιλέχθηκε φάκελος</string>
+    <string name="toast_no_labels">Δεν υπάρχουν ετικέτες</string>
+    <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
+    <string name="toast_no_playstore">Η εφαρμογή Google Play δεν είναι εγκατεστημένη</string>
+    <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
+    <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
+    <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
+    <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
+    <string name="toast_pro_feature_unlimited_labels">Περισσότερες ετικέτες διατίθενται μόνο στην PRO έκδοση</string>
+    <string name="toast_remember_your_master_password">Να θυμάστε πάντα τον κύριο κωδικό πρόσβασης</string>
+    <string name="toast_removed_from_watch">Αφαιρέθηκε από το ρολόι</string>
+    <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
+    <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
+    <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
+    <string name="toast_successful_csv_export">Το αρχείο csv έχει εξαχθεί με επιτυχία</string>
+    <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
+    <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>
+    <string name="toast_tap_again_to_exit">Πατήστε ξανά για να βγείτε</string>
+    <string name="toast_tap_to_copy_text">Πατήστε στο κείμενο για να αντιγράψετε το περιεχόμενο</string>
+    <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
     <string name="upgrade_feature_1">Εξαγωγή και εισαγωγή csv αρχείων</string>
+    <string name="upgrade_feature_10">Προσαρμοσμένα πεδία</string>
+    <string name="upgrade_feature_11">Απεριόριστες ετικέτες</string>
+    <string name="upgrade_feature_12">Βιομετρική αυθεντικοποίηση</string>
     <string name="upgrade_feature_3">Επιλογή θέματος</string>
     <string name="upgrade_feature_4">Καθαρισμός του πρόχειρου</string>
     <string name="upgrade_feature_5">Αυτοκαταστροφή</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS εφαρμογή</string>
     <string name="upgrade_feature_8">Ιστορικό κωδικών</string>
     <string name="upgrade_feature_9">Επισύναψη εικόνων</string>
-    <string name="upgrade_feature_10">Προσαρμοσμένα πεδία</string>
-    <string name="upgrade_feature_11">Απεριόριστες ετικέτες</string>
-    <string name="upgrade_feature_12">Βιομετρική αυθεντικοποίηση</string>
+    <string name="upgrade_thank_you">Σας ευχαριστούμε για την αγορά σας.</string>
     <string name="upgrade_with_single_purchase">Ξεκλειδώστε όλες τις πρόσθετες λειτουργίες με μία μόνο αγορά εντός της εφαρμογής.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">παλιός κωδικός πρόσβασης</string>
-    <string name="change_mp_new_master_password">νέος κωδικός πρόσβασης</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Αναζήτηση</string>
-    <string name="menu_settings">Ρυθμίσεις</string>
-    <string name="menu_exit">Έξοδος</string>
-    <string name="menu_appearance">Εμφάνιση</string>
-    <string name="menu_database">Βάση δεδομένων</string>
-    <string name="menu_security">Ασφάλεια</string>
-    <string name="menu_about">Σχετικά</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Αναβάθμιση σε PRO</string>
-    <string name="menu_share">Κοινοποίηση</string>
-    <string name="menu_copy_entry">Δημιουργία αντιγράφου</string>
-    <string name="menu_edit">Επεξεργασία</string>
-    <string name="menu_delete">Διαγραφή</string>
-    <string name="menu_save">ΑΠΟΘΗΚΕΥΣΗ</string>
-    <string name="menu_set_labels">Ορισμός ετικετών</string>
-    <string name="menu_attach_image">Επισύναψη εικόνας</string>
-    <string name="menu_add_field">Προσθήκη πεδίου</string>
-    <string name="menu_keyboard">Πληκτρολόγιο</string>
-    <string name="menu_add_to_watch">Προσθήκη στο ρολόι</string>
-    <string name="menu_clear_history">Διαγραφή ιστορικού κωδικών</string>
-    <string name="menu_select_all">Επιλογή όλων</string>
-    <string name="menu_navigation_drawer_all_entries">Όλα</string>
-    <string name="menu_navigation_drawer_edit_labels">Επεξεργασία ετικετών</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Πατήστε ξανά για να βγείτε</string>
-    <string name="toast_entry_deleted">Η καταχώρηση διαγράφικε</string>
-    <string name="toast_entries_deleted">Οι καταχωρήσεις διαγράφηκαν</string>
-    <string name="toast_entry_saved">Η καταχώρηση αποθηκεύτηκε</string>
-    <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
-    <string name="toast_no_browser">Δεν βρέθηκε κάποιο πρόγραμμα περιήγησης</string>
-    <string name="toast_no_playstore">Η εφαρμογή Google Play δεν είναι εγκατεστημένη</string>
-    <string name="toast_tap_to_copy_text">Πατήστε στο κείμενο για να αντιγράψετε το περιεχόμενο</string>
-    <string name="toast_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
-    <string name="toast_master_password_updated">Ο κύριος κωδικός πρόσβασης ενημερώθηκε με επιτυχία</string>
-    <string name="toast_master_password_not_updated">Αποτυχία ενημέρωσης κύριου κωδικού πρόσβασης</string>
-    <string name="toast_storage_permission_denied">Η άδεια απορρίφθηκε. Η εγγραφή και ανάγνωση αρχείων δεν είναι δυνατή.</string>
-    <string name="toast_camera_permission_denied">Η άδεια απορρίφθηκε. Δεν είναι δυνατή η επισύναψη εικόνων</string>
-    <string name="toast_no_file_selected">Δεν επιλέχθηκε κάποιο αρχείο</string>
-    <string name="toast_no_folder_selected">Δεν επιλέχθηκε φάκελος</string>
-    <string name="toast_successful_backup">Το αντίγραφο ασφαλείας δημιουργήθηκε με επιτυχία</string>
-    <string name="toast_successful_restore">Η βάση δεδομένων αποκαταστάθηκε με επιτυχία</string>
-    <string name="toast_successful_csv_export">Το αρχείο csv έχει εξαχθεί με επιτυχία</string>
-    <string name="toast_successful_csv_import">Το αρχείο csv έχει εισαχθεί με επιτυχία</string>
-    <string name="toast_database_server_error">Η βάση δεδομένων δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
-    <string name="toast_added_to_watch">Προστέθηκε στο ρολόι</string>
-    <string name="toast_removed_from_watch">Αφαιρέθηκε από το ρολόι</string>
-    <string name="toast_playstore_error">Η εφαρμογή Google Play store δεν είναι εγκατεστημένη</string>
-    <string name="toast_playstore_services_error">Τα Google Play services δεν είναι διαθέσιμα</string>
-    <string name="toast_storage_not_accessible">Ο εξωτερικός χώρος αποθήκευσης δεν είναι διαθέσιμος</string>
-    <string name="toast_pro_feature">Διατίθεται μόνο στην PRO έκδοση</string>
-    <string name="toast_no_password_history">Δεν υπάρχει διαθέσιμο ιστορικό</string>
-    <string name="toast_password_history_cleared">Το ιστορικό διαγράφηκε</string>
-    <string name="toast_remember_your_master_password">Να θυμάστε πάντα τον κύριο κωδικό πρόσβασης</string>
-    <string name="toast_label_exists">Η ετικέτα υπάρχει ήδη</string>
-    <string name="toast_pro_feature_unlimited_labels">Περισσότερες ετικέτες διατίθενται μόνο στην PRO έκδοση</string>
-    <string name="toast_no_labels">Δεν υπάρχουν ετικέτες</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">ΕΝΤΑΞΕΙ</string>
-    <string name="dialog_button_learn_more">ΜΑΘΕ ΠΕΡΙΣΣΟΤΕΡΑ</string>
-    <string name="dialog_button_continue">ΣΥΝΕΧΕΙΑ</string>
-    <string name="dialog_button_cancel">ΑΚΥΡΩΣΗ</string>
-    <string name="dialog_button_delete">ΔΙΑΓΡΑΦΗ</string>
-    <string name="dialog_button_discard">ΑΠΟΡΡΙΨΗ</string>
-    <string name="dialog_button_remove">ΑΦΑΙΡΕΣΗ</string>
-    <string name="dialog_button_rate">ΑΞΙΟΛΟΓΗΣΗ</string>
-    <string name="dialog_button_later">ΑΡΓΟΤΕΡΑ</string>
-    <string name="dialog_button_never">ΠΟΤΕ</string>
-    <string name="dialog_title_restore_backup">Επαναφορά αντιγράφου ασφαλείας;</string>
-    <string name="dialog_title_import_csv">Εισαγωγή csv αρχείου;</string>
-    <string name="dialog_title_change_master_password">Αλλαγή κωδικού;</string>
-    <string name="dialog_title_self_destruct">Αυτοκαταστροφή</string>
-    <string name="dialog_title_authentication">Αυθεντικοποίηση</string>
-    <string name="dialog_title_confirm_fp">Δακτυλικό αποτύπωμα</string>
-    <string name="dialog_title_history">Ιστορικό</string>
-    <string name="dialog_title_attach_another_image">Επισύναψη επόμενης εικόνας;</string>
-    <string name="dialog_title_new_field">Νέο πεδίο</string>
-    <string name="dialog_title_set_labels">Ορισμός ετικετών</string>
-    <string name="dialog_title_rating">Αξιολόγηση</string>
-    <string name="dialog_title_feature_shutdown">Τερματισμός Λειτουργίας</string>
-    <string name="dialog_msg_feature_shutdown">Αυτή η λειτουργία αυτόματης δημιουργίας αντιγράφων ασφαλείας θα απενεργοποιηθεί στις 6 Δεκεμβρίου 2019. Θα πρέπει αντ\'αυτού να χρησιμοποιήσετε το αντίγραφο ασφαλείας της συσκευής Android.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Όλες οι τρέχουσες καταχωρήσεις θα διαγραφούν.</string>
-    <string name="dialog_msg_changing_master_password">Αλλάζοντας τον κύριο κωδικό πρόσβασης δεν θα μπορείται να επαναφέρετε αντίγραφα ασφαλείας τα οποία δημιουργήθηκαν με τον τρέχων κωδικό πρόσβασης.</string>
-    <string name="dialog_msg_delete_selected_entries">Διαγραφή επιλεγμένων καταχωρήσεων;</string>
-    <string name="dialog_msg_delete_entry">Διαγραφή καταχώρησης;</string>
-    <string name="dialog_msg_delete_label">Διαγραφή ετικέτας;</string>
-    <string name="dialog_msg_delete_field">Διαγραφή πεδίου;</string>
-    <string name="dialog_msg_discard_changes">Απόρριψη αλλαγών;</string>
-    <string name="dialog_msg_cannot_open_folder">Ο φάκελος δεν είναι προσβάσιμος.</string>
-    <string name="dialog_msg_cannot_read_file">Το επιλεγμένο αρχείο δεν μπορεί να διαβαστεί.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Δεν είναι δυνατή η πρόσβαση στο επιλεγμένο αρχείο ή φάκελο.</string>
-    <string name="dialog_msg_db_not_valid">Το επιλεγμένο αρχείο δεν είναι ένα έγκυρο αντίγραφο ασφαλείας βάσης δεδομένων.</string>
-    <string name="dialog_msg_db_different_pass">Το επιλεγμένο αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετικό κύριο κωδικό πρόσβασης.</string>
-    <string name="dialog_msg_db_created_on_ios">Το αντίγραφο ασφαλείας της βάσης δεδομένων δημιουργήθηκε σε iOS και δεν μπορεί να αποκατασταθεί σε Android. Μπορείτε να μεταφέρετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.</string>
-    <string name="dialog_msg_csv_format_invalid">Η μορφή του CSV αρχείου δεν είναι έγκυρη.</string>
-    <string name="dialog_msg_csv_no_data">Το CSV αρχείο δεν διαθέτει δεδομένα.</string>
-    <string name="dialog_msg_error_writing_file">Σφάλμα κατά την εγγραφή αρχείου.</string>
-    <string name="dialog_msg_error_reading_file">Σφάλμα κατά την ανάγνωση αρχείου.</string>
-    <string name="dialog_msg_app_data_erased">Όλα τα δεδομένα έχουν διαγραφεί οριστικά λόγω των αποτυχημένων προσπαθειών.</string>
-    <string name="dialog_msg_no_fp_hardware">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι διαθέσιμος</string>
-    <string name="dialog_msg_no_fp_enrolled">Δεν βρέθηκαν δακτυλικά αποτυπώματα. Παρακαλούμε να συστήσετε τουλάχιστον ένα δακτυλικό αποτύπωμα στις ρυθμίσεις συστήματος.</string>
-    <string name="dialog_msg_fp_not_recognized">Αποτυχία αναγνώρισης. Προσπαθήστε ξανά</string>
-    <string name="dialog_msg_fp_success">Αναγνώριση ολοκληρώθηκε. Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Τοποθετήστε το δάχτυλό σας στο αισθητήριο</string>
-    <string name="dialog_msg_biometric_no_hardware">Δεν υπάρχει βιομετρικό hardware.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Το βιομετρικό hardware δεν είναι διαθέσιμο.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Δεν βρέθηκαν καταχωρημένα βιομετρικά στοιχεία. Ρυθμίστε τουλάχιστον ένα στις ρυθμίσεις συστήματος.</string>
-    <string name="dialog_msg_biometric_keystore_error">Σφάλμα Keystore. Ενεργοποιήστε ξανά τον βιομετρικό έλεγχο ταυτότητας μόλις εισέλθετε χρησιμοποιώντας τον κύριο κωδικό πρόσβασης.</string>
-    <string name="dialog_msg_pass_gen_trick">Πατήστε αρκετές φορές για να δημιουργήσετε κωδικούς πρόσβασης διαφορετικού τύπου και μήκους.</string>
-    <string name="dialog_msg_remove_from_watch">Αφαίρεση της καταχώρησης από το ρολόι;</string>
-    <string name="dialog_msg_attachments_warning">Οι εικόνες ενδέχεται να αυξήσουν το μέγεθος της βάσης δεδομένων και να μειώσουν τη συνολική απόδοση της εφαρμογής.</string>
-    <string name="dialog_msg_rating">Αν σας αρέσει αυτή η εφαρμογή, μπορείτε να την αξιολογήσετε; Δεν θα διαρκέσει περισσότερο από ένα λεπτό. Σας ευχαριστούμε για την υποστήριξή σας!</string>
-    <string name="dialog_msg_auto_backup_error">Ο εξωτερικός χώρος αποθήκευσης δεν είναι προσβάσιμος. Ενεργοποιήστε ξανά την επιλογή αυτόματης δημιουργίας αντιγράφων ασφαλείας.</string>
-    <string name="dialog_progress_please_wait">Παρακαλώ περιμένετε<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Η εφαρμογή εκτελείται</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Ταξινόμηση καταχωρήσεων</string>
-    <string name="pref_appearance_sorting_choise_alpha">Αλφαβητικά</string>
-    <string name="pref_appearance_sorting_choise_time">Κατά ημερομηνία</string>
-    <string name="pref_appearance_sorting_choise_color">Κατά χρώμα</string>
-    <string name="pref_appearance_title_list_subtitles">Υπότιτλοι κύριας λίστας</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Χωρίς υπότιτλους</string>
-    <string name="pref_appearance_list_subtitles_account">Λογαριασμός</string>
-    <string name="pref_appearance_list_subtitles_labels">Ετικέτες</string>
-    <string name="pref_appearance_title_navibar_color">Χρώμα γραμμής πλοήγησης</string>
-    <string name="pref_appearance_title_show_notification">Εμφάνιση ειδοποίησης</string>
-    <string name="pref_appearance_summary_show_notification">Εμφάνιση του εικονιδίου στη μπάρα ειδοποίησης το οποίο προσδιορίζει ότι εφαρμογή εκτελείται</string>
-    <string name="pref_appearance_title_open_label_list">Άνοιγμα λίστας ετικετών κατά την είσοδο</string>
-    <string name="pref_appearance_title_show_passwords">Εμφάνιση κωδικών</string>
-    <string name="pref_appearance_title_change_theme">Αλλαγή θέματος</string>
-    <string name="pref_appearance_theme_default">Προκαθορισμένο</string>
-    <string name="pref_appearance_theme_light">Φωτεινό</string>
-    <string name="pref_appearance_theme_dark">Σκοτεινό</string>
-    <string name="pref_appearance_theme_blue_gray">Μπλε Γκρι</string>
-    <string name="pref_appearance_theme_purple">Μωβ</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Κοινή χρήση βάσης δεδομένων</string>
-    <string name="pref_database_summary_backup_share">Δημιουργία και κοινοποίηση αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων</string>
-    <string name="pref_database_title_backup">Δημιουργία αντιγράφου ασφαλείας</string>
-    <string name="pref_database_summary_backup">Δημιουργία αντιγράφου ασφαλείας της κρυπτογραφημένης βάσης δεδομένων χρησιμοποιώντας Android storage access framework</string>
-    <string name="pref_database_title_restore">Επαναφορά βάσης δεδομένων</string>
-    <string name="pref_database_summary_restore">Επαναφορά αντιγράφου ασφαλείας κρυπτογραφημένης βάσης δεδομένων</string>
-    <string name="pref_database_title_auto_backup">Αυτόματο backup</string>
-    <string name="pref_database_summary_auto_backup">Αυτόματη δημιουργία αντιγράφων ασφαλείας στον εξωτερικό χώρο αποθήκευσης (sd-card η εσωτερική μη-αφαιρούμενη μνήμη)</string>
-    <string name="pref_database_title_export">Εξαγωγή αρχείου csv</string>
-    <string name="pref_database_summary_export">Εξαγωγή καταχωρήσεων σε ένα μη-κρυπτογραφημένο αρχείο csv</string>
-    <string name="pref_database_title_import">Εισαγωγή αρχείου csv</string>
-    <string name="pref_database_summary_import">Εισαγωγή καταχωρήσεων από ένα μη-κρυπτογραφημένο αρχείο csv</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Αλλαγή κύριου κωδικού πρόσβασης</string>
-    <string name="pref_security_title_fast_enter">Γρήγορη είσοδος</string>
-    <string name="pref_security_title_auto_exit">Αυτόματη έξοδος</string>
-    <string name="pref_security_summary_auto_exit">Όταν η οθόνη απενεργοποιείται ή μετά από 60 δευτερόλεπτα στο παρασκήνιο</string>
-    <string name="pref_security_title_stay_awake">Παραμονή σε ενεργή κατάσταση</string>
-    <string name="pref_security_summary_stay_awake">Η οθόνη δεν μεταβαίνει σε αδράνεια κατά την εμφάνιση η επεξεργασία καταχωρήσεων</string>
-    <string name="pref_security_title_allow_screenshots">Screenshots επιτρεπτά</string>
-    <string name="pref_security_title_clipboard_clear">Καθαρισμός του πρόχειρου</string>
-    <string name="pref_security_clipboard_clear_never">Ποτέ</string>
-    <string name="pref_security_clipboard_clear_one_min">1 λεπ.</string>
-    <string name="pref_security_clipboard_clear_two_min">2 λεπ.</string>
-    <string name="pref_security_clipboard_clear_three_min">3 λεπ.</string>
-    <string name="pref_security_clipboard_clear_four_min">4 λεπ.</string>
-    <string name="pref_security_clipboard_clear_five_min">5 λεπ.</string>
-    <string name="pref_security_title_self_destruct">Αποτυχημένες προσπάθειες</string>
-    <string name="pref_security_self_destruct_unlimited">Απεριόριστες</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Βιομετρική αυθεντικοποίηση</string>
-    <string name="pref_security_summary_biometric">Απαιτείται συμβατή συσκευή για τη χρήση αυτής της λειτουργίας. Μπορείτε να καθορίσετε τον προτιμώμενο βιομετρικό έλεγχο στις ρυθμίσεις συστήματος (δακτυλικό αποτύπωμα, ανίχνευση προσώπου κ.λπ.)</string>
-    <string name="pref_security_title_fingerprint">Είσοδος με δακτυλικό αποτύπωμα</string>
-    <string name="pref_security_summary_fingerprint">Απαιτείται έκδοση Android 6.0 ή νεότερη για τη χρήση αυτής της δυνατότητας</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Αναφορά σφάλματος</string>
-    <string name="pref_about_title_support">Αξιολόγηση</string>
-    <string name="pref_about_title_more_apps">Περισσότερες εφαρμογές</string>
-    <string name="pref_about_title_share">Πείτε το στους φίλους σας</string>
-    <string name="pref_about_title_translations">Μεταφράσεις</string>
-    <string name="pref_about_title_terms">Όροι και Πολιτική Απορρήτου</string>
-    <string name="pref_about_title_licenses">Άδειες ανοιχτού λογισμικού</string>
-    <string name="pref_about_title_build_version">Έκδοση</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Κωδικός ρολογιού</string>
-    <string name="pref_wear_os_summary_password_enabled">Περιορίστε την πρόσβαση στο ρολόι με τη χρήση κωδικού</string>
-    <string name="pref_wear_os_title_add_to_watch">Προσθήκη στο ρολόι</string>
-    <string name="pref_wear_os_summary_add_to_watch">Νέες καταχωρήσεις θα προστίθενται αυτόματα στο ρολόι</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">ΕΜΦΑΝΙΣΗ</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΘΕΜΑ</string>
-    <string name="pref_category_database">ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ</string>
-    <string name="pref_category_auto_backup">ΑΥΤΟΜΑΤΟ BACKUP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">ΑΣΦΑΛΕΙΑ</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΠΡΟΧΕΙΡΟ</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΑΥΤΟΚΑΤΑΣΤΡΟΦΗ</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ΒΙΟΜΕΤΡΙΚA</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Όνομα χρήστη</string>
+    <string name="website">Ιστοσελίδα</string>
+    <string name="welcome_info_content">Παρακαλούμε καταχωρήστε έναν κύριο κωδικό πρόσβασης για να χρησιμοποιείται την εφαρμογή. Εάν ο κύριος κωδικός πρόσβασης χαθεί, η επαναφορά των δεδομένων είναι αδύνατη λόγω της έλειψης συγχρονισμού μέσω διαδικτύου. Συνιστάται η δημιουργία αντιγράφων ασφαλείας ανά τακτά χρονικά διαστήματα.</string>
+    <string name="welcome_info_title">Καλώς ήρθατε</string>
 </resources>

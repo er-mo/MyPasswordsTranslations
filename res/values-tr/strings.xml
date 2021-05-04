@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account">Hesap</string>
+    <string name="add_new_label">Yeni etiket ekle</string>
     <string name="app_description">Android cihazlar için güvenli ve kullanımı kolay bir şifre yöneticisi</string>
     <string name="app_download_message">Google Play mağazasından hemen ücretsiz indirin</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Alanı sil</string>
+    <string name="button_enter">GİRİŞ</string>
+    <string name="button_exit">ÇIKIŞ</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">ANLADIM</string>
+    <string name="button_more">Daha</string>
+    <string name="button_register">KAYIT</string>
+    <string name="button_update">GÜNCELLEŞTİRME</string>
+    <string name="button_upgrade_now">ŞİMDİ YÜKSELT</string>
+    <string name="change_mp_new_master_password">yeni şifre</string>
+    <string name="change_mp_old_master_password">eski şifre</string>
+    <string name="copy_text">(kopya)</string>
     <string name="current_location_folder">Yer</string>
+    <string name="dialog_button_cancel">İptal</string>
+    <string name="dialog_button_continue">Devam</string>
+    <string name="dialog_button_delete">Sil</string>
+    <string name="dialog_button_discard">ıskarta</string>
+    <string name="dialog_button_later">Sonra</string>
+    <string name="dialog_button_learn_more">Daha fazla bilgi edin</string>
+    <string name="dialog_button_never">Asla</string>
+    <string name="dialog_button_ok">Tamam</string>
+    <string name="dialog_button_rate">Oyla</string>
+    <string name="dialog_button_remove">Sil</string>
+    <string name="dialog_msg_app_data_erased">Başarısız girişim nedeniyle tüm veriler kalıcı olarak silinmiştir.</string>
+    <string name="dialog_msg_attachments_warning">Resimler veritabanı boyutunu artırabilir ve uygulamanın genel performansını azaltabilir.</string>
+    <string name="dialog_msg_auto_backup_error">Harici depolamaya erişilemez. Lütfen otomatik yedekleme seçeneğini yeniden etkinleştirin.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Biyometrik donanım mevcut değil.</string>
+    <string name="dialog_msg_biometric_keystore_error">Anahtar deposu hatası. Lütfen ana şifrenizi kullanarak girdikten sonra biyometrik kimlik doğrulamayı tekrar etkinleştirin.</string>
+    <string name="dialog_msg_biometric_no_hardware">Biyometrik donanım yoktur.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Kayıtlı biyometri bulunamadı. Lütfen sistem ayarlarında en az bir tane kurun.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Seçilen dosyaya veya klasöre erişilemiyor.</string>
+    <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
+    <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
+    <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
+    <string name="dialog_msg_csv_format_invalid">CSV formatı geçerli değil.</string>
+    <string name="dialog_msg_csv_no_data">CSV dosyasının veri yok.</string>
+    <string name="dialog_msg_db_created_on_ios">Veritabanı yedeklemesi iOS\'ta oluşturuldu ve Android\'de geri yüklenemez. Verilerinizi bunun yerine bir csv dosyası kullanarak aktarabilirsiniz.</string>
+    <string name="dialog_msg_db_different_pass">Veritabanı yedeği farklı bir ana şifre kullanılarak oluşturuldu.</string>
+    <string name="dialog_msg_db_not_valid">Veritabanı yedeği geçerli değil.</string>
+    <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
+    <string name="dialog_msg_delete_field">Alanı sil?</string>
+    <string name="dialog_msg_delete_label">Etiketi sil?</string>
+    <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
+    <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
+    <string name="dialog_msg_error_reading_file">Dosya okunurken hata oluştu.</string>
+    <string name="dialog_msg_error_writing_file">Dosya yazılırken hata oluştu.</string>
+    <string name="dialog_msg_feature_shutdown">Bu otomatik yedekleme özelliği 6 Aralık 2019\'da kapatılacak. Bunun yerine Android cihaz yedeklemesini kullanmalısınız.</string>
+    <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
+    <string name="dialog_msg_fp_not_recognized">Parmak izi tanınmadı. Tekrar deneyin</string>
+    <string name="dialog_msg_fp_success">Parmak izi tanıdı. Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Parmak izi bulunamadı. Lütfen sistem ayarlarında en azından bir parmak izi öneri edin.</string>
+    <string name="dialog_msg_no_fp_hardware">Parmak izi donanım mevcut değil.</string>
+    <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
+    <string name="dialog_msg_rating">Eğer bu uygulamayı beğendiyseniz birkaç dakikanızı ayırarak puan verir miydiniz? Bir dakikadan fazla sürmeyecek. Desteğiniz için teşekkür ederiz!</string>
+    <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
+    <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Başka bir resim ekle?</string>
+    <string name="dialog_title_authentication">Kullanıcı doğrulama</string>
+    <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
+    <string name="dialog_title_confirm_fp">Parmak izinizi onaylayın</string>
+    <string name="dialog_title_feature_shutdown">Özellik kapatma</string>
+    <string name="dialog_title_history">Geçmiş</string>
+    <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
+    <string name="dialog_title_new_field">Yeni alan</string>
+    <string name="dialog_title_rating">Bu uygulamayı oyla</string>
+    <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
+    <string name="dialog_title_self_destruct">Kendini imha</string>
+    <string name="dialog_title_set_labels">Etiketleri ayarla</string>
+    <string name="last_updated">Son güncelleme</string>
+    <string name="list_is_empty">Kayıt bulunmuyor</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_add_field">Alan ekle</string>
+    <string name="menu_add_to_watch">Saate ekle</string>
+    <string name="menu_appearance">Görünüm</string>
+    <string name="menu_attach_image">Resim ekle</string>
+    <string name="menu_clear_history">Şifre geçmişini temizle</string>
+    <string name="menu_copy_entry">Kopyala</string>
+    <string name="menu_database">Veritabanı</string>
+    <string name="menu_delete">Sil</string>
+    <string name="menu_edit">Düzenleme</string>
+    <string name="menu_exit">Çıkış</string>
+    <string name="menu_export_import">İthalat ihracat</string>
+    <string name="menu_export_to_pdf">PDF\'ye Aktar - Yazdır</string>
+    <string name="menu_keyboard">Klavye</string>
+    <string name="menu_navigation_drawer_all_entries">Herşey</string>
+    <string name="menu_navigation_drawer_edit_labels">Etiketleri düzenle</string>
+    <string name="menu_remove_from_watch">Saatten çıkar</string>
+    <string name="menu_save">KAYIT ETMEK</string>
+    <string name="menu_search">Arama</string>
+    <string name="menu_security">Güvenlik</string>
+    <string name="menu_select_all">Hepsini seç</string>
+    <string name="menu_set_labels">Etiketleri ayarla</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_upgrade">PRO yükseltme</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
+    <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
+    <string name="new_field_hint">İsim</string>
+    <string name="notes">Notlar</string>
+    <string name="notification_text_app_running">Uygulama çalışıyor</string>
+    <string name="password">Şifre</string>
     <string name="password_is_too_short">Şifre çok kısa</string>
-    <string name="passwords_not_matching">Şifreler eşleşmiyor</string>
     <string name="password_not_correct">Şifre doğru değil</string>
     <string name="password_not_only_numbers">Şifre yalnızca rakam içermez</string>
-    <string name="password_strength_hint_very_weak">Çok zayıf!</string>
-    <string name="password_strength_hint_weak">Zayıf!</string>
     <string name="password_strength_hint_good">İyi!</string>
     <string name="password_strength_hint_strong">Güçlü!</string>
     <string name="password_strength_hint_very_strong">Çok güçlü!</string>
+    <string name="password_strength_hint_very_weak">Çok zayıf!</string>
+    <string name="password_strength_hint_weak">Zayıf!</string>
+    <string name="passwords_not_matching">Şifreler eşleşmiyor</string>
+    <string name="pref_about_title_build_version">Sürümü kurmak</string>
+    <string name="pref_about_title_contact">Hata bildir</string>
+    <string name="pref_about_title_licenses">Açık kaynak lisansları</string>
+    <string name="pref_about_title_more_apps">Daha fazla uygulama</string>
+    <string name="pref_about_title_share">Arkadaşlarına söyleyin</string>
+    <string name="pref_about_title_support">Değerlendirme</string>
+    <string name="pref_about_title_terms">Şartlar ve Gizlilik Politikası</string>
+    <string name="pref_about_title_translations">Çeviriler</string>
+    <string name="pref_appearance_list_subtitles_account">Hesap</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiketler</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Altyazısız</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetik</string>
+    <string name="pref_appearance_sorting_choise_color">Renge göre</string>
+    <string name="pref_appearance_sorting_choise_time">Tarihe göre</string>
+    <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
+    <string name="pref_appearance_theme_blue_gray">Mavi gri</string>
+    <string name="pref_appearance_theme_dark">Karanlık</string>
+    <string name="pref_appearance_theme_default">Varsayılan</string>
+    <string name="pref_appearance_theme_light">Parlak</string>
+    <string name="pref_appearance_theme_purple">Mor</string>
+    <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
+    <string name="pref_appearance_title_list_subtitles">Ana liste altyazıları</string>
+    <string name="pref_appearance_title_navibar_color">Gezinme çubuğu rengi</string>
+    <string name="pref_appearance_title_open_label_list">Giriş sırasında etiket listesini aç</string>
+    <string name="pref_appearance_title_show_notification">Bildirim</string>
+    <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
+    <string name="pref_appearance_title_sort_entries">Sıralama kayıtlar</string>
+    <string name="pref_category_appearance">GÖRÜNÜM</string>
+    <string name="pref_category_auto_backup">OTOMATİK YEDEKLEME</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BİYOMETRİK</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">VERİTABANI</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">GÜVENLİK</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Harici depolama (SD kart veya dahili olmayan çıkarılabilir depolama) otomatik yedekleme oluşturun</string>
+    <string name="pref_database_summary_backup">Android storage access framework kullanarak şifrelenmiş veritabanının yedeğini oluşturun</string>
+    <string name="pref_database_summary_backup_share">Şifrelenmiş veritabanının yedeğini oluşturun ve paylaşın</string>
+    <string name="pref_database_summary_export">Şifreli olmayan CSV dosyasına girişleri ihraç</string>
+    <string name="pref_database_summary_import">Şifreli olmayan CSV dosyasına girişleri ithalat et</string>
+    <string name="pref_database_summary_restore">Şifrelenmiş veritabanının yedeğini geri yükleme</string>
+    <string name="pref_database_title_auto_backup">Otomatik yedekleme</string>
+    <string name="pref_database_title_backup">Yedek veritabanı</string>
+    <string name="pref_database_title_backup_share">Veritabanı paylaş</string>
+    <string name="pref_database_title_export">İhracat CSV dosyası</string>
+    <string name="pref_database_title_import">İthalat CSV dosyası</string>
+    <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
+    <string name="pref_export_import_summary_export_csv">Android depolama erişim çerçevesini kullanarak şifrelenmemiş bir csv dosyasına aktarın</string>
+    <string name="pref_export_import_summary_import_csv">Şifrelenmemiş bir csv dosyasından uygun formatta içe aktarın</string>
+    <string name="pref_export_import_summary_share_csv">Şifrelenmemiş bir csv dosyası oluşturun ve paylaşın</string>
+    <string name="pref_export_import_title_export_csv">Csv dosyasını dışa aktar</string>
+    <string name="pref_export_import_title_export_pdf">PDF\'ye Aktar - Yazdır</string>
+    <string name="pref_export_import_title_import_csv">CSV dosyasını içe aktar</string>
+    <string name="pref_export_import_title_share_csv">Csv dosyasını paylaşın</string>
+    <string name="pref_security_clipboard_clear_five_min">5 Dakika</string>
+    <string name="pref_security_clipboard_clear_four_min">4 Dakika</string>
+    <string name="pref_security_clipboard_clear_never">Hiç</string>
+    <string name="pref_security_clipboard_clear_one_min">1 Dakika</string>
+    <string name="pref_security_clipboard_clear_three_min">3 Dakika</string>
+    <string name="pref_security_clipboard_clear_two_min">2 Dakika</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Sınırsız</string>
+    <string name="pref_security_summary_auto_exit">Ekran kapandığında veya 60 saniye sonra arka planda kaldığında</string>
+    <string name="pref_security_summary_biometric">Bu özelliği kullanmak için uyumlu bir cihaz gerekir. Tercih ettiğiniz biyometrik bilgisini sistem ayarlarında belirleyebilirsiniz (parmak izi, yüz tanıma vb.)</string>
+    <string name="pref_security_summary_fingerprint">Android sürümü 6.0 veya daha yüksek gereklidir bu özelliği kullanmak için</string>
+    <string name="pref_security_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
+    <string name="pref_security_title_allow_screenshots">Ekran görüntülerine izin ver</string>
+    <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
+    <string name="pref_security_title_biometric">Biyometrik kimlik doğrulama</string>
+    <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
+    <string name="pref_security_title_clipboard_clear">Panoya temizle</string>
+    <string name="pref_security_title_fast_enter">Hızlı giriş</string>
+    <string name="pref_security_title_fingerprint">Parmak izi ile giriş</string>
+    <string name="pref_security_title_self_destruct">Başarısız girişim</string>
+    <string name="pref_security_title_stay_awake">Uyanık kal</string>
+    <string name="pref_wear_os_summary_add_to_watch">Yeni kayıtlar otomatik olarak saatinize eklenecek</string>
+    <string name="pref_wear_os_summary_password_enabled">Bir şifre kullanarak saatinizdeki erişimi kısıtlayın</string>
+    <string name="pref_wear_os_title_add_to_watch">Saati ekle</string>
+    <string name="pref_wear_os_title_password_enabled">Saat şifresi</string>
     <string name="required">Gerekli</string>
     <string name="title">Başlık</string>
-    <string name="account">Hesap</string>
-    <string name="password">Şifre</string>
-    <string name="username">Kullanıcı adı</string>
-    <string name="website">Web sitesi</string>
-    <string name="notes">Notlar</string>
-    <string name="list_is_empty">Kayıt bulunmuyor</string>
-    <string name="last_updated">Son güncelleme</string>
-    <string name="copy_text">(kopya)</string>
-    <string name="new_field_hint">İsim</string>
-    <string name="add_new_label">Yeni etiket ekle</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">KAYIT</string>
-    <string name="button_enter">GİRİŞ</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">ŞİMDİ YÜKSELT</string>
-    <string name="button_update">GÜNCELLEŞTİRME</string>
-    <string name="button_exit">ÇIKIŞ</string>
-    <string name="button_gotit">ANLADIM</string>
-    <string name="button_more">Daha</string>
-    <string name="button_delete_field">Alanı sil</string>
-    <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
-    <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Hoşgeldiniz</string>
-    <string name="welcome_info_content">Uygulamayı kullanmaya başlamak için bir ana parola lütfen kayıt olun. Ana şifre kaybedilirse, internet senkronizasyon eksikliği nedeniyle veri geri yükleme mümkün değildir. Son derece düzenli aralıklarla yedekleme tavsiye edilir.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Satın aldığınız için teşekkür ederiz.</string>
+    <string name="toast_added_to_watch">Saate eklendi</string>
+    <string name="toast_camera_permission_denied">İzin reddedildi. Resimler yakalanamıyor.</string>
+    <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="toast_copy_to_clipboard_failed">Panoya kopyalanamadı</string>
+    <string name="toast_database_server_error">Veritabanı şu anda mevcut değildir</string>
+    <string name="toast_entries_deleted">Kayıtlar silindi</string>
+    <string name="toast_entry_deleted">Kayıt silindi</string>
+    <string name="toast_entry_saved">Kayıt kaydedildi</string>
+    <string name="toast_label_exists">Etiket zaten var</string>
+    <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
+    <string name="toast_master_password_updated">Ana parola başarıyla güncellendi</string>
+    <string name="toast_no_browser">Herhangi bir web tarayıcı bulunamadı</string>
+    <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
+    <string name="toast_no_folder_selected">Hiçbir klasör seçilmedi</string>
+    <string name="toast_no_labels">Etiket yok</string>
+    <string name="toast_no_password_history">Şifre geçmişi yok</string>
+    <string name="toast_no_playstore">Google Play store uygulaması yüklü değil</string>
+    <string name="toast_password_history_cleared">Şifre geçmişi temizlendi</string>
+    <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
+    <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
+    <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
+    <string name="toast_pro_feature_unlimited_labels">Yalnızca PRO sürümünde daha fazla etiket mevcut</string>
+    <string name="toast_remember_your_master_password">Ana şifrenizi hatırladığınızdan emin olun</string>
+    <string name="toast_removed_from_watch">Saatten kaldırıldı</string>
+    <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
+    <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
+    <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
+    <string name="toast_successful_csv_export">Başarıyla ihraç csv dosyası</string>
+    <string name="toast_successful_csv_import">Başarıyla ithal csv dosyası</string>
+    <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>
+    <string name="toast_tap_again_to_exit">Çıkmak için tekrar basın</string>
+    <string name="toast_tap_to_copy_text">İçeriği kopyalamak için metne tıklayın</string>
+    <string name="toast_try_again_shortly">Lütfen kısa süre sonra tekrar deneyin</string>
     <string name="upgrade_feature_1">İhracat ve ithalat CSV dosyalar</string>
+    <string name="upgrade_feature_10">Özel Alanlar</string>
+    <string name="upgrade_feature_11">Sınırsız etiketler</string>
+    <string name="upgrade_feature_12">Biyometrik kimlik doğrulama</string>
     <string name="upgrade_feature_3">Tema seçimi</string>
     <string name="upgrade_feature_4">Pano otomatik temizleme</string>
     <string name="upgrade_feature_5">Kendini imha</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS uygulama</string>
     <string name="upgrade_feature_8">Kod geçmişi</string>
     <string name="upgrade_feature_9">Resim ekleri</string>
-    <string name="upgrade_feature_10">Özel Alanlar</string>
-    <string name="upgrade_feature_11">Sınırsız etiketler</string>
-    <string name="upgrade_feature_12">Biyometrik kimlik doğrulama</string>
+    <string name="upgrade_thank_you">Satın aldığınız için teşekkür ederiz.</string>
     <string name="upgrade_with_single_purchase">Tek bir uygulama içi satın alma ile tüm ek özelliklerin kilidini açın.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">eski şifre</string>
-    <string name="change_mp_new_master_password">yeni şifre</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Arama</string>
-    <string name="menu_settings">Ayarlar</string>
-    <string name="menu_exit">Çıkış</string>
-    <string name="menu_appearance">Görünüm</string>
-    <string name="menu_database">Veritabanı</string>
-    <string name="menu_security">Güvenlik</string>
-    <string name="menu_about">Hakkında</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">PRO yükseltme</string>
-    <string name="menu_share">Paylaş</string>
-    <string name="menu_copy_entry">Kopyala</string>
-    <string name="menu_edit">Düzenleme</string>
-    <string name="menu_delete">Sil</string>
-    <string name="menu_save">KAYIT ETMEK</string>
-    <string name="menu_set_labels">Etiketleri ayarla</string>
-    <string name="menu_attach_image">Resim ekle</string>
-    <string name="menu_add_field">Alan ekle</string>
-    <string name="menu_keyboard">Klavye</string>
-    <string name="menu_add_to_watch">Saate ekle</string>
-    <string name="menu_clear_history">Şifre geçmişini temizle</string>
-    <string name="menu_select_all">Hepsini seç</string>
-    <string name="menu_navigation_drawer_all_entries">Herşey</string>
-    <string name="menu_navigation_drawer_edit_labels">Etiketleri düzenle</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Çıkmak için tekrar basın</string>
-    <string name="toast_entry_deleted">Kayıt silindi</string>
-    <string name="toast_entries_deleted">Kayıtlar silindi</string>
-    <string name="toast_entry_saved">Kayıt kaydedildi</string>
-    <string name="toast_try_again_shortly">Lütfen kısa süre sonra tekrar deneyin</string>
-    <string name="toast_no_browser">Herhangi bir web tarayıcı bulunamadı</string>
-    <string name="toast_no_playstore">Google Play store uygulaması yüklü değil</string>
-    <string name="toast_tap_to_copy_text">İçeriği kopyalamak için metne tıklayın</string>
-    <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
-    <string name="toast_master_password_updated">Ana parola başarıyla güncellendi</string>
-    <string name="toast_master_password_not_updated">Ana parolayı güncellenemedi</string>
-    <string name="toast_storage_permission_denied">İzin reddedildi. Kayıt ve okuma dosyaları mümkün değil.</string>
-    <string name="toast_camera_permission_denied">İzin reddedildi. Resimler yakalanamıyor.</string>
-    <string name="toast_no_file_selected">Hiçbir dosya seçilmedi</string>
-    <string name="toast_no_folder_selected">Hiçbir klasör seçilmedi</string>
-    <string name="toast_successful_backup">Yedekleme başarıyla oluşturuldu</string>
-    <string name="toast_successful_restore">Veritabanı başarıyla kuruldu</string>
-    <string name="toast_successful_csv_export">Başarıyla ihraç csv dosyası</string>
-    <string name="toast_successful_csv_import">Başarıyla ithal csv dosyası</string>
-    <string name="toast_database_server_error">Veritabanı şu anda mevcut değildir</string>
-    <string name="toast_added_to_watch">Saate eklendi</string>
-    <string name="toast_removed_from_watch">Saatten kaldırıldı</string>
-    <string name="toast_playstore_error">Google Play store uygulaması yüklü değil</string>
-    <string name="toast_playstore_services_error">Google Play hizmetleri mevcut değildir</string>
-    <string name="toast_storage_not_accessible">Harici depolama erişilebilir değil</string>
-    <string name="toast_pro_feature">Yalnızca PRO sürümünde kullanılabilir</string>
-    <string name="toast_no_password_history">Şifre geçmişi yok</string>
-    <string name="toast_password_history_cleared">Şifre geçmişi temizlendi</string>
-    <string name="toast_remember_your_master_password">Ana şifrenizi hatırladığınızdan emin olun</string>
-    <string name="toast_label_exists">Etiket zaten var</string>
-    <string name="toast_pro_feature_unlimited_labels">Yalnızca PRO sürümünde daha fazla etiket mevcut</string>
-    <string name="toast_no_labels">Etiket yok</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">Tamam</string>
-    <string name="dialog_button_learn_more">Daha fazla bilgi edin</string>
-    <string name="dialog_button_continue">Devam</string>
-    <string name="dialog_button_cancel">İptal</string>
-    <string name="dialog_button_delete">Sil</string>
-    <string name="dialog_button_discard">ıskarta</string>
-    <string name="dialog_button_remove">Sil</string>
-    <string name="dialog_button_rate">Oyla</string>
-    <string name="dialog_button_later">Sonra</string>
-    <string name="dialog_button_never">Asla</string>
-    <string name="dialog_title_restore_backup">Yedeğini geri yükleyin?</string>
-    <string name="dialog_title_import_csv">İthalat CSV dosya?</string>
-    <string name="dialog_title_change_master_password">Ana şifre değiştirme?</string>
-    <string name="dialog_title_self_destruct">Kendini imha</string>
-    <string name="dialog_title_authentication">Kullanıcı doğrulama</string>
-    <string name="dialog_title_confirm_fp">Parmak izinizi onaylayın</string>
-    <string name="dialog_title_history">Geçmiş</string>
-    <string name="dialog_title_attach_another_image">Başka bir resim ekle?</string>
-    <string name="dialog_title_new_field">Yeni alan</string>
-    <string name="dialog_title_set_labels">Etiketleri ayarla</string>
-    <string name="dialog_title_rating">Bu uygulamayı oyla</string>
-    <string name="dialog_title_feature_shutdown">Özellik kapatma</string>
-    <string name="dialog_msg_feature_shutdown">Bu otomatik yedekleme özelliği 6 Aralık 2019\'da kapatılacak. Bunun yerine Android cihaz yedeklemesini kullanmalısınız.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Tüm akım kayıtlar silinecektir.</string>
-    <string name="dialog_msg_changing_master_password">Ana şifreyi değiştirerek mevcut ana şifre ile oluşturulan veritabanı yedekleri geri getirilmeli mümkün değildir.</string>
-    <string name="dialog_msg_delete_selected_entries">Seçilen kayıtlar silin?</string>
-    <string name="dialog_msg_delete_entry">Kayıtı sil?</string>
-    <string name="dialog_msg_delete_label">Etiketi sil?</string>
-    <string name="dialog_msg_delete_field">Alanı sil?</string>
-    <string name="dialog_msg_discard_changes">Değişiklikleri gözardı et?</string>
-    <string name="dialog_msg_cannot_open_folder">Dosya erişilebilir değil.</string>
-    <string name="dialog_msg_cannot_read_file">Seçilen dosya okunamıyor.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Seçilen dosyaya veya klasöre erişilemiyor.</string>
-    <string name="dialog_msg_db_not_valid">Veritabanı yedeği geçerli değil.</string>
-    <string name="dialog_msg_db_different_pass">Veritabanı yedeği farklı bir ana şifre kullanılarak oluşturuldu.</string>
-    <string name="dialog_msg_db_created_on_ios">Veritabanı yedeklemesi iOS\'ta oluşturuldu ve Android\'de geri yüklenemez. Verilerinizi bunun yerine bir csv dosyası kullanarak aktarabilirsiniz.</string>
-    <string name="dialog_msg_csv_format_invalid">CSV formatı geçerli değil.</string>
-    <string name="dialog_msg_csv_no_data">CSV dosyasının veri yok.</string>
-    <string name="dialog_msg_error_writing_file">Dosya yazılırken hata oluştu.</string>
-    <string name="dialog_msg_error_reading_file">Dosya okunurken hata oluştu.</string>
-    <string name="dialog_msg_app_data_erased">Başarısız girişim nedeniyle tüm veriler kalıcı olarak silinmiştir.</string>
-    <string name="dialog_msg_no_fp_hardware">Parmak izi donanım mevcut değil.</string>
-    <string name="dialog_msg_no_fp_enrolled">Parmak izi bulunamadı. Lütfen sistem ayarlarında en azından bir parmak izi öneri edin.</string>
-    <string name="dialog_msg_fp_not_recognized">Parmak izi tanınmadı. Tekrar deneyin</string>
-    <string name="dialog_msg_fp_success">Parmak izi tanıdı. Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Sensör üzerine parmağınızı koyun</string>
-    <string name="dialog_msg_biometric_no_hardware">Biyometrik donanım yoktur.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Biyometrik donanım mevcut değil.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Kayıtlı biyometri bulunamadı. Lütfen sistem ayarlarında en az bir tane kurun.</string>
-    <string name="dialog_msg_biometric_keystore_error">Anahtar deposu hatası. Lütfen ana şifrenizi kullanarak girdikten sonra biyometrik kimlik doğrulamayı tekrar etkinleştirin.</string>
-    <string name="dialog_msg_pass_gen_trick">Farklı tür ve uzunlukta şifreler oluşturmak için birden çok kez basın.</string>
-    <string name="dialog_msg_remove_from_watch">Kayıtı saatten sil?</string>
-    <string name="dialog_msg_attachments_warning">Resimler veritabanı boyutunu artırabilir ve uygulamanın genel performansını azaltabilir.</string>
-    <string name="dialog_msg_rating">Eğer bu uygulamayı beğendiyseniz birkaç dakikanızı ayırarak puan verir miydiniz? Bir dakikadan fazla sürmeyecek. Desteğiniz için teşekkür ederiz!</string>
-    <string name="dialog_msg_auto_backup_error">Harici depolamaya erişilemez. Lütfen otomatik yedekleme seçeneğini yeniden etkinleştirin.</string>
-    <string name="dialog_progress_please_wait">Lütfen bekleyin<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Uygulama çalışıyor</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sıralama kayıtlar</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alfabetik</string>
-    <string name="pref_appearance_sorting_choise_time">Tarihe göre</string>
-    <string name="pref_appearance_sorting_choise_color">Renge göre</string>
-    <string name="pref_appearance_title_list_subtitles">Ana liste altyazıları</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Altyazısız</string>
-    <string name="pref_appearance_list_subtitles_account">Hesap</string>
-    <string name="pref_appearance_list_subtitles_labels">Etiketler</string>
-    <string name="pref_appearance_title_navibar_color">Gezinme çubuğu rengi</string>
-    <string name="pref_appearance_title_show_notification">Bildirim</string>
-    <string name="pref_appearance_summary_show_notification">Kolay uygulama kilidi ve çalışan olduğunu belirlemek için</string>
-    <string name="pref_appearance_title_open_label_list">Giriş sırasında etiket listesini aç</string>
-    <string name="pref_appearance_title_show_passwords">Göster şifreleri</string>
-    <string name="pref_appearance_title_change_theme">Temayı değiştir</string>
-    <string name="pref_appearance_theme_default">Varsayılan</string>
-    <string name="pref_appearance_theme_light">Parlak</string>
-    <string name="pref_appearance_theme_dark">Karanlık</string>
-    <string name="pref_appearance_theme_blue_gray">Mavi gri</string>
-    <string name="pref_appearance_theme_purple">Mor</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Veritabanı paylaş</string>
-    <string name="pref_database_summary_backup_share">Şifrelenmiş veritabanının yedeğini oluşturun ve paylaşın</string>
-    <string name="pref_database_title_backup">Yedek veritabanı</string>
-    <string name="pref_database_summary_backup">Android storage access framework kullanarak şifrelenmiş veritabanının yedeğini oluşturun</string>
-    <string name="pref_database_title_restore">Veritabanını geri yükleme</string>
-    <string name="pref_database_summary_restore">Şifrelenmiş veritabanının yedeğini geri yükleme</string>
-    <string name="pref_database_title_auto_backup">Otomatik yedekleme</string>
-    <string name="pref_database_summary_auto_backup">Harici depolama (SD kart veya dahili olmayan çıkarılabilir depolama) otomatik yedekleme oluşturun</string>
-    <string name="pref_database_title_export">İhracat CSV dosyası</string>
-    <string name="pref_database_summary_export">Şifreli olmayan CSV dosyasına girişleri ihraç</string>
-    <string name="pref_database_title_import">İthalat CSV dosyası</string>
-    <string name="pref_database_summary_import">Şifreli olmayan CSV dosyasına girişleri ithalat et</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Ana şifreyi değiştir</string>
-    <string name="pref_security_title_fast_enter">Hızlı giriş</string>
-    <string name="pref_security_title_auto_exit">Otomatik çıkış</string>
-    <string name="pref_security_summary_auto_exit">Ekran kapandığında veya 60 saniye sonra arka planda kaldığında</string>
-    <string name="pref_security_title_stay_awake">Uyanık kal</string>
-    <string name="pref_security_summary_stay_awake">Kayıt bakarken ya da düzenleme girişlerini uyku asla</string>
-    <string name="pref_security_title_allow_screenshots">Ekran görüntülerine izin ver</string>
-    <string name="pref_security_title_clipboard_clear">Panoya temizle</string>
-    <string name="pref_security_clipboard_clear_never">Hiç</string>
-    <string name="pref_security_clipboard_clear_one_min">1 Dakika</string>
-    <string name="pref_security_clipboard_clear_two_min">2 Dakika</string>
-    <string name="pref_security_clipboard_clear_three_min">3 Dakika</string>
-    <string name="pref_security_clipboard_clear_four_min">4 Dakika</string>
-    <string name="pref_security_clipboard_clear_five_min">5 Dakika</string>
-    <string name="pref_security_title_self_destruct">Başarısız girişim</string>
-    <string name="pref_security_self_destruct_unlimited">Sınırsız</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biyometrik kimlik doğrulama</string>
-    <string name="pref_security_summary_biometric">Bu özelliği kullanmak için uyumlu bir cihaz gerekir. Tercih ettiğiniz biyometrik bilgisini sistem ayarlarında belirleyebilirsiniz (parmak izi, yüz tanıma vb.)</string>
-    <string name="pref_security_title_fingerprint">Parmak izi ile giriş</string>
-    <string name="pref_security_summary_fingerprint">Android sürümü 6.0 veya daha yüksek gereklidir bu özelliği kullanmak için</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Hata bildir</string>
-    <string name="pref_about_title_support">Değerlendirme</string>
-    <string name="pref_about_title_more_apps">Daha fazla uygulama</string>
-    <string name="pref_about_title_share">Arkadaşlarına söyleyin</string>
-    <string name="pref_about_title_translations">Çeviriler</string>
-    <string name="pref_about_title_terms">Şartlar ve Gizlilik Politikası</string>
-    <string name="pref_about_title_licenses">Açık kaynak lisansları</string>
-    <string name="pref_about_title_build_version">Sürümü kurmak</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Saat şifresi</string>
-    <string name="pref_wear_os_summary_password_enabled">Bir şifre kullanarak saatinizdeki erişimi kısıtlayın</string>
-    <string name="pref_wear_os_title_add_to_watch">Saati ekle</string>
-    <string name="pref_wear_os_summary_add_to_watch">Yeni kayıtlar otomatik olarak saatinize eklenecek</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">GÖRÜNÜM</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
-    <string name="pref_category_database">VERİTABANI</string>
-    <string name="pref_category_auto_backup">OTOMATİK YEDEKLEME</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">GÜVENLİK</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PANO</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KENDİNİ İMHA</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BİYOMETRİK</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Kullanıcı adı</string>
+    <string name="website">Web sitesi</string>
+    <string name="welcome_info_content">Uygulamayı kullanmaya başlamak için bir ana parola lütfen kayıt olun. Ana şifre kaybedilirse, internet senkronizasyon eksikliği nedeniyle veri geri yükleme mümkün değildir. Son derece düzenli aralıklarla yedekleme tavsiye edilir.</string>
+    <string name="welcome_info_title">Hoşgeldiniz</string>
 </resources>

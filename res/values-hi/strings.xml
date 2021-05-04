@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">लेखा</string>
+    <string name="add_new_label">नया लेबल जोड़ें</string>
     <string name="app_description">एंड्रॉइड डिवाइस के लिए पासवर्ड मैनेजर का सुरक्षित और आसान उपयोग</string>
     <string name="app_download_message">अब इसे Google Play स्टोर से निःशुल्क प्राप्त करें</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">फ़ील्ड हटाएं</string>
+    <string name="button_enter">दर्ज</string>
+    <string name="button_exit">बाहर निकलें</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">समझ गया</string>
+    <string name="button_more">अधिक</string>
+    <string name="button_register">रजिस्टर</string>
+    <string name="button_update">अद्यतन करें</string>
+    <string name="button_upgrade_now">अभी अपग्रेड करें</string>
+    <string name="change_mp_new_master_password">नया पासवर्ड</string>
+    <string name="change_mp_old_master_password">पुराने कोड</string>
+    <string name="copy_text">(कॉपी)</string>
     <string name="current_location_folder">स्थान</string>
+    <string name="dialog_button_cancel">रद्द करना</string>
+    <string name="dialog_button_continue">जारी रहना</string>
+    <string name="dialog_button_delete">मैं हटाता हूं</string>
+    <string name="dialog_button_discard">मैं अस्वीकार करता हूं</string>
+    <string name="dialog_button_later">बाद में</string>
+    <string name="dialog_button_learn_more">और अधिक जानें</string>
+    <string name="dialog_button_never">कभी नहीँ</string>
+    <string name="dialog_button_ok">ठीक</string>
+    <string name="dialog_button_rate">अभी रेट करें</string>
+    <string name="dialog_button_remove">हटाना</string>
+    <string name="dialog_msg_app_data_erased">विफल प्रयासों के कारण सभी डेटा स्थायी रूप से हटा दिए गए हैं।</string>
+    <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
+    <string name="dialog_msg_auto_backup_error">बाहरी भंडारण सुलभ नहीं है। कृपया ऑटो बैकअप विकल्प को पुनः सक्षम करें।</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">बायोमेट्रिक हार्डवेयर अनुपलब्ध है।</string>
+    <string name="dialog_msg_biometric_keystore_error">कीस्टोर त्रुटि। कृपया अपने मास्टर पासवर्ड का उपयोग करते हुए बायोमेट्रिक प्रमाणीकरण को पुनः सक्षम करें।</string>
+    <string name="dialog_msg_biometric_no_hardware">बायोमेट्रिक हार्डवेयर नहीं है।</string>
+    <string name="dialog_msg_biometric_none_enrolled">कोई नामांकित बायोमेट्रिक्स नहीं मिला। कृपया सिस्टम सेटिंग में कम से कम एक सेट करें।</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">चयनित फ़ाइल या फ़ोल्डर तक पहुँचा नहीं जा सकता।</string>
+    <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
+    <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
+    <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
+    <string name="dialog_msg_csv_format_invalid">CSV प्रारूप मान्य नहीं है।</string>
+    <string name="dialog_msg_csv_no_data">CSV फ़ाइल में कोई डेटा नहीं है।</string>
+    <string name="dialog_msg_db_created_on_ios">डेटाबेस बैकअप iOS पर बनाया गया था और इसे Android पर पुनर्स्थापित नहीं किया जा सकता है। आप इसके बजाय एक सीएसवी फ़ाइल का उपयोग करके अपने डेटा को स्थानांतरित कर सकते हैं।</string>
+    <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
+    <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
+    <string name="dialog_msg_delete_entry">प्रविष्टि हटाएं?</string>
+    <string name="dialog_msg_delete_field">फ़ील्ड हटाएं?</string>
+    <string name="dialog_msg_delete_label">लेबल हटाएं?</string>
+    <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
+    <string name="dialog_msg_discard_changes">परिवर्तनों को निरस्त करें?</string>
+    <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
+    <string name="dialog_msg_error_reading_file">फ़ाइल पढ़ने में त्रुटि।</string>
+    <string name="dialog_msg_error_writing_file">फ़ाइल लिखने में त्रुटि।</string>
+    <string name="dialog_msg_feature_shutdown">यह ऑटो बैकअप सुविधा 6 दिसंबर, 2019 को बंद कर दी जाएगी। आपको इसके बजाय एंड्रॉइड डिवाइस बैकअप का उपयोग करना चाहिए।</string>
+    <string name="dialog_msg_fp_hint">टच सेंसर</string>
+    <string name="dialog_msg_fp_not_recognized">फ़िंगरप्रिंट नहीं पहचाना गया। पुनः प्रयास करें</string>
+    <string name="dialog_msg_fp_success">फिंगरप्रिंट पहचान लिया। कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">कोई नामांकित फिंगरप्रिंट नहीं मिला। कृपया सिस्टम सेटिंग्स में कम से कम एक फिंगरप्रिंट सेट करें।</string>
+    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
+    <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
+    <string name="dialog_msg_rating">यदि आपको यह ऐप पसंद आया, तो क्या आप थोड़ा सा समय लेकर उसे रेट करेंगे? इसमें एक मिनट से अधिक नहीं लगेगा। आपके समर्थन के लिए आभार।</string>
+    <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
+    <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
+    <string name="dialog_title_authentication">प्रयोक्ता प्रमाणीकरण</string>
+    <string name="dialog_title_change_master_password">मास्टर पासवर्ड बदलें?</string>
+    <string name="dialog_title_confirm_fp">अपने फिंगरप्रिंट की पुष्टि करें</string>
+    <string name="dialog_title_feature_shutdown">सुविधा बंद</string>
+    <string name="dialog_title_history">इतिहास</string>
+    <string name="dialog_title_import_csv">सीएसवी आयात करें?</string>
+    <string name="dialog_title_new_field">नया क्षेत्र</string>
+    <string name="dialog_title_rating">इस ऐप को रेट करें</string>
+    <string name="dialog_title_restore_backup">बैकअप बहाल?</string>
+    <string name="dialog_title_self_destruct">आत्म विनाश</string>
+    <string name="dialog_title_set_labels">लेबल सेट करें</string>
+    <string name="last_updated">आखरी अपडेट</string>
+    <string name="list_is_empty">कोई प्रविष्टि नहीं है</string>
+    <string name="menu_about">के बारे में</string>
+    <string name="menu_add_field">क्षेत्र जोड़ें</string>
+    <string name="menu_add_to_watch">स्मार्टवॉच में जोड़ेंं</string>
+    <string name="menu_appearance">दिखावट</string>
+    <string name="menu_attach_image">छवि संलग्न करें</string>
+    <string name="menu_clear_history">इतिहास मिटा दें</string>
+    <string name="menu_copy_entry">एक प्रति बनाओ</string>
+    <string name="menu_database">डेटाबेस</string>
+    <string name="menu_delete">मैं हटाता हूं</string>
+    <string name="menu_edit">संपादित करें</string>
+    <string name="menu_exit">बाहर जाएं</string>
+    <string name="menu_export_import">निर्यात आयात</string>
+    <string name="menu_export_to_pdf">पीडीएफ में निर्यात करें - प्रिंट करें</string>
+    <string name="menu_keyboard">कीबोर्ड</string>
+    <string name="menu_navigation_drawer_all_entries">सब</string>
+    <string name="menu_navigation_drawer_edit_labels">लेबल संपादित करें</string>
+    <string name="menu_remove_from_watch">स्मार्टवॉच से निकालें</string>
+    <string name="menu_save">बचाना</string>
+    <string name="menu_search">खोज</string>
+    <string name="menu_security">सुरक्षा</string>
+    <string name="menu_select_all">सभी का चयन करे</string>
+    <string name="menu_set_labels">लेबल सेट करें</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_upgrade">प्रो में अपग्रेड</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="new_field_hint">नाम</string>
+    <string name="notes">नोट्स</string>
+    <string name="notification_text_app_running">एप्लिकेशन चल रहा है</string>
+    <string name="password">पासवर्ड</string>
     <string name="password_is_too_short">पासवर्ड बहुत छोटा है</string>
-    <string name="passwords_not_matching">पासवर्ड मेल नहीं खा रहे हैं</string>
     <string name="password_not_correct">पासवर्ड सही नहीं है</string>
     <string name="password_not_only_numbers">पासवर्ड में केवल नंबर नहीं होते हैं</string>
-    <string name="password_strength_hint_very_weak">बहुत कमजोर!</string>
-    <string name="password_strength_hint_weak">कमजोर!</string>
     <string name="password_strength_hint_good">अच्छा!</string>
     <string name="password_strength_hint_strong">बलवान!</string>
     <string name="password_strength_hint_very_strong">बहुत ताकतवर!</string>
+    <string name="password_strength_hint_very_weak">बहुत कमजोर!</string>
+    <string name="password_strength_hint_weak">कमजोर!</string>
+    <string name="passwords_not_matching">पासवर्ड मेल नहीं खा रहे हैं</string>
+    <string name="pref_about_title_build_version">एक संस्करण बनाना</string>
+    <string name="pref_about_title_contact">त्रुटि की रिपोर्ट करें</string>
+    <string name="pref_about_title_licenses">ओपन सोर्स लाइसेंस</string>
+    <string name="pref_about_title_more_apps">और ऐप</string>
+    <string name="pref_about_title_share">अपने दोस्तों को बताएँ</string>
+    <string name="pref_about_title_support">दर नियत करें और समीक्षा करें</string>
+    <string name="pref_about_title_terms">शर्तें और गोपनीयता नीति</string>
+    <string name="pref_about_title_translations">अनुवाद</string>
+    <string name="pref_appearance_list_subtitles_account">लेखा</string>
+    <string name="pref_appearance_list_subtitles_labels">लेबल</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">बिना उपशीर्षक के</string>
+    <string name="pref_appearance_sorting_choise_alpha">वर्णानुक्रम</string>
+    <string name="pref_appearance_sorting_choise_color">रंग से</string>
+    <string name="pref_appearance_sorting_choise_time">आज तक</string>
+    <string name="pref_appearance_summary_show_notification">यह पहचानना आसान है कि एप्लिकेशन अनलॉक और चल रहा है</string>
+    <string name="pref_appearance_theme_blue_gray">नीला स्लेटी</string>
+    <string name="pref_appearance_theme_dark">अंधेरा</string>
+    <string name="pref_appearance_theme_default">चूक</string>
+    <string name="pref_appearance_theme_light">रोशनी</string>
+    <string name="pref_appearance_theme_purple">बैंगनी</string>
+    <string name="pref_appearance_title_change_theme">थीम बदलें</string>
+    <string name="pref_appearance_title_list_subtitles">मुख्य सूची उपशीर्षक</string>
+    <string name="pref_appearance_title_navibar_color">नेविगेशन बार का रंग</string>
+    <string name="pref_appearance_title_open_label_list">लॉगिन पर लेबल सूची खोलें</string>
+    <string name="pref_appearance_title_show_notification">अधिसूचना</string>
+    <string name="pref_appearance_title_show_passwords">पासवर्ड दिखाएं</string>
+    <string name="pref_appearance_title_sort_entries">प्रविष्टियों को क्रमबद्ध करें</string>
+    <string name="pref_category_appearance">अपीयरेंस</string>
+    <string name="pref_category_auto_backup">ऑटो बैकअप</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>बॉयोमीट्रिक्स</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>सीएसवी</string>
+    <string name="pref_category_database">डेटाबेस</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">सुरक्षा</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>थीम</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">अपने बाहरी भंडारण (एसडी या आंतरिक गैर-हटाने योग्य भंडारण) पर ऑटो बैकअप बनाएं। आप 3rd पार्टी फ़ाइल मैनेजर ऐप का उपयोग करके बाहरी संग्रहण तक पहुंच सकते हैं</string>
+    <string name="pref_database_summary_backup">एंड्रॉइड स्टोरेज बॉक्स का उपयोग करके एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं</string>
+    <string name="pref_database_summary_backup_share">एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं और साझा करें</string>
+    <string name="pref_database_summary_export">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल में प्रविष्टियों को निर्यात करें</string>
+    <string name="pref_database_summary_import">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल से प्रविष्टियों को आयात करें</string>
+    <string name="pref_database_summary_restore">किसी एन्क्रिप्टेड डेटाबेस के बैकअप को पुनर्स्थापित करें</string>
+    <string name="pref_database_title_auto_backup">ऑटो बैकअप</string>
+    <string name="pref_database_title_backup">बैकअप डेटाबेस</string>
+    <string name="pref_database_title_backup_share">डेटाबेस साझा करें</string>
+    <string name="pref_database_title_export">सीएसवी फ़ाइल निर्यात करें</string>
+    <string name="pref_database_title_import">सीएसवी फ़ाइल आयात करें</string>
+    <string name="pref_database_title_restore">डेटाबेस पुनर्स्थापित करें</string>
+    <string name="pref_export_import_summary_export_csv">एंड्रॉइड स्टोरेज एक्सेस फ्रेमवर्क का उपयोग करके गैर-एन्क्रिप्टेड सीएसवी फ़ाइल को निर्यात करें</string>
+    <string name="pref_export_import_summary_import_csv">एक गैर-एन्क्रिप्टेड सीएसवी फ़ाइल से उचित प्रारूप के साथ आयात करें</string>
+    <string name="pref_export_import_summary_share_csv">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल बनाएं और साझा करें</string>
+    <string name="pref_export_import_title_export_csv">सीएसवी फ़ाइल निर्यात करें</string>
+    <string name="pref_export_import_title_export_pdf">पीडीएफ में निर्यात करें - प्रिंट करें</string>
+    <string name="pref_export_import_title_import_csv">सीएसवी फ़ाइल आयात करें</string>
+    <string name="pref_export_import_title_share_csv">सीएसवी फ़ाइल साझा करें</string>
+    <string name="pref_security_clipboard_clear_five_min">5 मिनट</string>
+    <string name="pref_security_clipboard_clear_four_min">4 मिनट</string>
+    <string name="pref_security_clipboard_clear_never">कभी नहीँ</string>
+    <string name="pref_security_clipboard_clear_one_min">1 मिनट</string>
+    <string name="pref_security_clipboard_clear_three_min">3 मिनट</string>
+    <string name="pref_security_clipboard_clear_two_min">2 मिनट</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">असीमित</string>
+    <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है या पृष्ठभूमि में 60 सेकंड के बाद होती है</string>
+    <string name="pref_security_summary_biometric">इस सुविधा का उपयोग करने के लिए संगत डिवाइस की आवश्यकता होती है। आप सिस्टम सेटिंग्स (फिंगरप्रिंट, फेस डिटेक्शन आदि) में अपना पसंदीदा बायोमेट्रिक निर्दिष्ट कर सकते हैं</string>
+    <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
+    <string name="pref_security_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
+    <string name="pref_security_title_allow_screenshots">स्क्रीनशॉट की अनुमति दें</string>
+    <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
+    <string name="pref_security_title_biometric">बॉयोमीट्रिक प्रमाणीकरण</string>
+    <string name="pref_security_title_change_password">मास्टर पासवर्ड बदलें</string>
+    <string name="pref_security_title_clipboard_clear">क्लिपबोर्ड साफ़ करें</string>
+    <string name="pref_security_title_fast_enter">तेजी से दर्ज करें</string>
+    <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
+    <string name="pref_security_title_self_destruct">विफल पासवर्ड प्रयास</string>
+    <string name="pref_security_title_stay_awake">जागते रहो</string>
+    <string name="pref_wear_os_summary_add_to_watch">नई प्रविष्टियों को हमेशा घड़ी में जोड़ा जाएगा</string>
+    <string name="pref_wear_os_summary_password_enabled">पासवर्ड का उपयोग करके अपनी घड़ी पर पहुंच को प्रतिबंधित करें</string>
+    <string name="pref_wear_os_title_add_to_watch">देखने के लिए जोड़ें</string>
+    <string name="pref_wear_os_title_password_enabled">पासवर्ड पहनें</string>
     <string name="required">की आवश्यकता है</string>
     <string name="title">शीर्षक</string>
-    <string name="account">लेखा</string>
-    <string name="password">पासवर्ड</string>
-    <string name="username">उपयोगकर्ता नाम</string>
-    <string name="website">वेबसाइट</string>
-    <string name="notes">नोट्स</string>
-    <string name="list_is_empty">कोई प्रविष्टि नहीं है</string>
-    <string name="last_updated">आखरी अपडेट</string>
-    <string name="copy_text">(कॉपी)</string>
-    <string name="new_field_hint">नाम</string>
-    <string name="add_new_label">नया लेबल जोड़ें</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">रजिस्टर</string>
-    <string name="button_enter">दर्ज</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">अभी अपग्रेड करें</string>
-    <string name="button_update">अद्यतन करें</string>
-    <string name="button_exit">बाहर निकलें</string>
-    <string name="button_gotit">समझ गया</string>
-    <string name="button_more">अधिक</string>
-    <string name="button_delete_field">फ़ील्ड हटाएं</string>
-    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
-    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">स्वागत हे</string>
-    <string name="welcome_info_content">आवेदन का उपयोग शुरू करने के लिए कृपया एक मास्टर पासवर्ड पंजीकृत करें। ध्यान दें कि यदि मास्टर पासवर्ड खो जाता है तो संग्रहित डेटा अनुपलब्ध सिंक विकल्प के कारण पुनर्प्राप्त नहीं किया जा सकता। यह दृढ़ता से अनुशंसा की जाती है कि आप नियमित अंतराल पर अपने डेटा का बैकअप लें।</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">प्रो संस्करण खरीदने के लिए धन्यवाद।</string>
+    <string name="toast_added_to_watch">देखने के लिए जोड़ा गया</string>
+    <string name="toast_camera_permission_denied">अनुमति नहीं मिली। छवियों पर कब्जा नहीं कर सकता।</string>
+    <string name="toast_copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
+    <string name="toast_copy_to_clipboard_failed">क्लिपबोर्ड पर कॉपी करने में विफल</string>
+    <string name="toast_database_server_error">फिलहाल डेटाबेस उपलब्ध नहीं है</string>
+    <string name="toast_entries_deleted">प्रविष्टियां हटा दी गईं</string>
+    <string name="toast_entry_deleted">प्रविष्टि हटाई गई</string>
+    <string name="toast_entry_saved">एंट्री बचाई गई</string>
+    <string name="toast_label_exists">लेबल पहले से मौजूद है</string>
+    <string name="toast_master_password_not_updated">मास्टर पासवर्ड अपडेट करने में विफल</string>
+    <string name="toast_master_password_updated">सफलतापूर्वक मास्टर पासवर्ड अपडेट किया गया</string>
+    <string name="toast_no_browser">कोई वेब ब्राउज़र एप्लिकेशन नहीं मिला</string>
+    <string name="toast_no_file_selected">कोई फ़ाइल चयनित नहीं थी</string>
+    <string name="toast_no_folder_selected">कोई फ़ोल्डर नहीं चुना गया था</string>
+    <string name="toast_no_labels">कोई लेबल नहीं</string>
+    <string name="toast_no_password_history">कोई पासवर्ड इतिहास उपलब्ध नहीं है</string>
+    <string name="toast_no_playstore">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
+    <string name="toast_password_history_cleared">इतिहास साफ हो गया</string>
+    <string name="toast_playstore_error">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
+    <string name="toast_playstore_services_error">Google Play सेवाएं उपलब्ध नहीं हैं</string>
+    <string name="toast_pro_feature">केवल प्रो संस्करण में उपलब्ध है</string>
+    <string name="toast_pro_feature_unlimited_labels">केवल प्रो संस्करण में उपलब्ध अधिक लेबल</string>
+    <string name="toast_remember_your_master_password">सुनिश्चित करें कि आपको अपना मास्टर पासवर्ड याद है</string>
+    <string name="toast_removed_from_watch">देखने से हटा दिया गया</string>
+    <string name="toast_storage_not_accessible">बाहरी भंडारण सुलभ नहीं है</string>
+    <string name="toast_storage_permission_denied">लाइसेंस से इनकार कर दिया। फाइलें पढ़ या लिख नहीं सकते।</string>
+    <string name="toast_successful_backup">सफलतापूर्वक बैकअप बनाया गया</string>
+    <string name="toast_successful_csv_export">सफलतापूर्वक csv फ़ाइल निर्यात की गई</string>
+    <string name="toast_successful_csv_import">सफलतापूर्वक CSV फ़ाइल आयात की गई</string>
+    <string name="toast_successful_restore">डेटाबेस को सफलतापूर्वक पुनर्स्थापित किया गया</string>
+    <string name="toast_tap_again_to_exit">बाहर निकलने के लिए फिर से टैप करें</string>
+    <string name="toast_tap_to_copy_text">सामग्री को कॉपी करने के लिए टेक्स्ट दृश्य पर टैप करें</string>
+    <string name="toast_try_again_shortly">कृपया कुछ सेकंड में पुनः प्रयास करें</string>
     <string name="upgrade_feature_1">सीएसवी फ़ाइलों को निर्यात और आयात करें</string>
+    <string name="upgrade_feature_10">कस्टम फील्ड्स</string>
+    <string name="upgrade_feature_11">असीमित लेबल</string>
+    <string name="upgrade_feature_12">बॉयोमीट्रिक प्रमाणीकरण</string>
     <string name="upgrade_feature_3">थीम चयन</string>
     <string name="upgrade_feature_4">स्वचालित रूप से क्लिप को हटा दें</string>
     <string name="upgrade_feature_5">आत्म विनाश</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">पासवर्ड इतिहास</string>
     <string name="upgrade_feature_9">छवि संलग्नक</string>
-    <string name="upgrade_feature_10">कस्टम फील्ड्स</string>
-    <string name="upgrade_feature_11">असीमित लेबल</string>
-    <string name="upgrade_feature_12">बॉयोमीट्रिक प्रमाणीकरण</string>
+    <string name="upgrade_thank_you">प्रो संस्करण खरीदने के लिए धन्यवाद।</string>
     <string name="upgrade_with_single_purchase">एकल इन-ऐप खरीदारी के साथ सभी अतिरिक्त सुविधाएँ अनलॉक करें</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">पुराने कोड</string>
-    <string name="change_mp_new_master_password">नया पासवर्ड</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">खोज</string>
-    <string name="menu_settings">सेटिंग्स</string>
-    <string name="menu_exit">बाहर जाएं</string>
-    <string name="menu_appearance">दिखावट</string>
-    <string name="menu_database">डेटाबेस</string>
-    <string name="menu_security">सुरक्षा</string>
-    <string name="menu_about">के बारे में</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">प्रो में अपग्रेड</string>
-    <string name="menu_share">शेयर</string>
-    <string name="menu_copy_entry">एक प्रति बनाओ</string>
-    <string name="menu_edit">संपादित करें</string>
-    <string name="menu_delete">मैं हटाता हूं</string>
-    <string name="menu_save">बचाना</string>
-    <string name="menu_set_labels">लेबल सेट करें</string>
-    <string name="menu_attach_image">छवि संलग्न करें</string>
-    <string name="menu_add_field">क्षेत्र जोड़ें</string>
-    <string name="menu_keyboard">कीबोर्ड</string>
-    <string name="menu_add_to_watch">देखने के लिए जोड़ें</string>
-    <string name="menu_clear_history">इतिहास मिटा दें</string>
-    <string name="menu_select_all">सभी का चयन करे</string>
-    <string name="menu_navigation_drawer_all_entries">सब</string>
-    <string name="menu_navigation_drawer_edit_labels">लेबल संपादित करें</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">बाहर निकलने के लिए फिर से टैप करें</string>
-    <string name="toast_entry_deleted">प्रविष्टि हटाई गई</string>
-    <string name="toast_entries_deleted">प्रविष्टियां हटा दी गईं</string>
-    <string name="toast_entry_saved">एंट्री बचाई गई</string>
-    <string name="toast_try_again_shortly">कृपया कुछ सेकंड में पुनः प्रयास करें</string>
-    <string name="toast_no_browser">कोई वेब ब्राउज़र एप्लिकेशन नहीं मिला</string>
-    <string name="toast_no_playstore">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
-    <string name="toast_tap_to_copy_text">सामग्री को कॉपी करने के लिए टेक्स्ट दृश्य पर टैप करें</string>
-    <string name="toast_copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
-    <string name="toast_master_password_updated">सफलतापूर्वक मास्टर पासवर्ड अपडेट किया गया</string>
-    <string name="toast_master_password_not_updated">मास्टर पासवर्ड अपडेट करने में विफल</string>
-    <string name="toast_storage_permission_denied">लाइसेंस से इनकार कर दिया। फाइलें पढ़ या लिख नहीं सकते।</string>
-    <string name="toast_camera_permission_denied">अनुमति नहीं मिली। छवियों पर कब्जा नहीं कर सकता।</string>
-    <string name="toast_no_file_selected">कोई फ़ाइल चयनित नहीं थी</string>
-    <string name="toast_no_folder_selected">कोई फ़ोल्डर नहीं चुना गया था</string>
-    <string name="toast_successful_backup">सफलतापूर्वक बैकअप बनाया गया</string>
-    <string name="toast_successful_restore">डेटाबेस को सफलतापूर्वक पुनर्स्थापित किया गया</string>
-    <string name="toast_successful_csv_export">सफलतापूर्वक csv फ़ाइल निर्यात की गई</string>
-    <string name="toast_successful_csv_import">सफलतापूर्वक CSV फ़ाइल आयात की गई</string>
-    <string name="toast_database_server_error">फिलहाल डेटाबेस उपलब्ध नहीं है</string>
-    <string name="toast_added_to_watch">देखने के लिए जोड़ा गया</string>
-    <string name="toast_removed_from_watch">देखने से हटा दिया गया</string>
-    <string name="toast_playstore_error">Google Play store ऐप इंस्टॉल नहीं हुआ है</string>
-    <string name="toast_playstore_services_error">Google Play सेवाएं उपलब्ध नहीं हैं</string>
-    <string name="toast_storage_not_accessible">बाहरी भंडारण सुलभ नहीं है</string>
-    <string name="toast_pro_feature">केवल प्रो संस्करण में उपलब्ध है</string>
-    <string name="toast_no_password_history">कोई पासवर्ड इतिहास उपलब्ध नहीं है</string>
-    <string name="toast_password_history_cleared">इतिहास साफ हो गया</string>
-    <string name="toast_remember_your_master_password">सुनिश्चित करें कि आपको अपना मास्टर पासवर्ड याद है</string>
-    <string name="toast_label_exists">लेबल पहले से मौजूद है</string>
-    <string name="toast_pro_feature_unlimited_labels">केवल प्रो संस्करण में उपलब्ध अधिक लेबल</string>
-    <string name="toast_no_labels">कोई लेबल नहीं</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">ठीक</string>
-    <string name="dialog_button_learn_more">और अधिक जानें</string>
-    <string name="dialog_button_continue">जारी रहना</string>
-    <string name="dialog_button_cancel">रद्द करना</string>
-    <string name="dialog_button_delete">मैं हटाता हूं</string>
-    <string name="dialog_button_discard">मैं अस्वीकार करता हूं</string>
-    <string name="dialog_button_remove">हटाना</string>
-    <string name="dialog_button_rate">अभी रेट करें</string>
-    <string name="dialog_button_later">बाद में</string>
-    <string name="dialog_button_never">कभी नहीँ</string>
-    <string name="dialog_title_restore_backup">बैकअप बहाल?</string>
-    <string name="dialog_title_import_csv">सीएसवी आयात करें?</string>
-    <string name="dialog_title_change_master_password">मास्टर पासवर्ड बदलें?</string>
-    <string name="dialog_title_self_destruct">आत्म विनाश</string>
-    <string name="dialog_title_authentication">प्रयोक्ता प्रमाणीकरण</string>
-    <string name="dialog_title_confirm_fp">अपने फिंगरप्रिंट की पुष्टि करें</string>
-    <string name="dialog_title_history">इतिहास</string>
-    <string name="dialog_title_attach_another_image">एक और छवि संलग्न करें?</string>
-    <string name="dialog_title_new_field">नया क्षेत्र</string>
-    <string name="dialog_title_set_labels">लेबल सेट करें</string>
-    <string name="dialog_title_rating">इस ऐप को रेट करें</string>
-    <string name="dialog_title_feature_shutdown">सुविधा बंद</string>
-    <string name="dialog_msg_feature_shutdown">यह ऑटो बैकअप सुविधा 6 दिसंबर, 2019 को बंद कर दी जाएगी। आपको इसके बजाय एंड्रॉइड डिवाइस बैकअप का उपयोग करना चाहिए।</string>
-    <string name="dialog_msg_entries_will_be_deleted">सभी वर्तमान प्रविष्टियां हटा दी जाएंगी।</string>
-    <string name="dialog_msg_changing_master_password">मास्टर पासवर्ड को बदलकर आप वर्तमान मास्टर पासवर्ड के साथ बनाए गए डेटाबेस बैकअप को पुनर्स्थापित करने में सक्षम नहीं होंगे।</string>
-    <string name="dialog_msg_delete_selected_entries">चयनित प्रविष्टियों को हटाएं?</string>
-    <string name="dialog_msg_delete_entry">प्रविष्टि हटाएं?</string>
-    <string name="dialog_msg_delete_label">लेबल हटाएं?</string>
-    <string name="dialog_msg_delete_field">फ़ील्ड हटाएं?</string>
-    <string name="dialog_msg_discard_changes">परिवर्तनों को निरस्त करें?</string>
-    <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
-    <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">चयनित फ़ाइल या फ़ोल्डर तक पहुँचा नहीं जा सकता।</string>
-    <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
-    <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
-    <string name="dialog_msg_db_created_on_ios">डेटाबेस बैकअप iOS पर बनाया गया था और इसे Android पर पुनर्स्थापित नहीं किया जा सकता है। आप इसके बजाय एक सीएसवी फ़ाइल का उपयोग करके अपने डेटा को स्थानांतरित कर सकते हैं।</string>
-    <string name="dialog_msg_csv_format_invalid">CSV प्रारूप मान्य नहीं है।</string>
-    <string name="dialog_msg_csv_no_data">CSV फ़ाइल में कोई डेटा नहीं है।</string>
-    <string name="dialog_msg_error_writing_file">फ़ाइल लिखने में त्रुटि।</string>
-    <string name="dialog_msg_error_reading_file">फ़ाइल पढ़ने में त्रुटि।</string>
-    <string name="dialog_msg_app_data_erased">विफल प्रयासों के कारण सभी डेटा स्थायी रूप से हटा दिए गए हैं।</string>
-    <string name="dialog_msg_no_fp_hardware">Fingerprint hardware is not present or not functional.</string>
-    <string name="dialog_msg_no_fp_enrolled">कोई नामांकित फिंगरप्रिंट नहीं मिला। कृपया सिस्टम सेटिंग्स में कम से कम एक फिंगरप्रिंट सेट करें।</string>
-    <string name="dialog_msg_fp_not_recognized">फ़िंगरप्रिंट नहीं पहचाना गया। पुनः प्रयास करें</string>
-    <string name="dialog_msg_fp_success">फिंगरप्रिंट पहचान लिया। कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">टच सेंसर</string>
-    <string name="dialog_msg_biometric_no_hardware">बायोमेट्रिक हार्डवेयर नहीं है।</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">बायोमेट्रिक हार्डवेयर अनुपलब्ध है।</string>
-    <string name="dialog_msg_biometric_none_enrolled">कोई नामांकित बायोमेट्रिक्स नहीं मिला। कृपया सिस्टम सेटिंग में कम से कम एक सेट करें।</string>
-    <string name="dialog_msg_biometric_keystore_error">कीस्टोर त्रुटि। कृपया अपने मास्टर पासवर्ड का उपयोग करते हुए बायोमेट्रिक प्रमाणीकरण को पुनः सक्षम करें।</string>
-    <string name="dialog_msg_pass_gen_trick">विभिन्न प्रकार और लंबाई के पासवर्ड उत्पन्न करने के लिए कई बार टैप करें।</string>
-    <string name="dialog_msg_remove_from_watch">घड़ी से प्रविष्टि निकालें?</string>
-    <string name="dialog_msg_attachments_warning">अनुलग्नक डेटाबेस का आकार बढ़ा सकते हैं और आवेदन के समग्र प्रदर्शन को कम कर सकते हैं।</string>
-    <string name="dialog_msg_rating">यदि आपको यह ऐप पसंद आया, तो क्या आप थोड़ा सा समय लेकर उसे रेट करेंगे? इसमें एक मिनट से अधिक नहीं लगेगा। आपके समर्थन के लिए आभार।</string>
-    <string name="dialog_msg_auto_backup_error">बाहरी भंडारण सुलभ नहीं है। कृपया ऑटो बैकअप विकल्प को पुनः सक्षम करें।</string>
-    <string name="dialog_progress_please_wait">कृपया प्रतीक्षा करें<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">एप्लिकेशन चल रहा है</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">प्रविष्टियों को क्रमबद्ध करें</string>
-    <string name="pref_appearance_sorting_choise_alpha">वर्णानुक्रम</string>
-    <string name="pref_appearance_sorting_choise_time">आज तक</string>
-    <string name="pref_appearance_sorting_choise_color">रंग से</string>
-    <string name="pref_appearance_title_list_subtitles">मुख्य सूची उपशीर्षक</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">बिना उपशीर्षक के</string>
-    <string name="pref_appearance_list_subtitles_account">लेखा</string>
-    <string name="pref_appearance_list_subtitles_labels">लेबल</string>
-    <string name="pref_appearance_title_navibar_color">नेविगेशन बार का रंग</string>
-    <string name="pref_appearance_title_show_notification">अधिसूचना</string>
-    <string name="pref_appearance_summary_show_notification">यह पहचानना आसान है कि एप्लिकेशन अनलॉक और चल रहा है</string>
-    <string name="pref_appearance_title_open_label_list">लॉगिन पर लेबल सूची खोलें</string>
-    <string name="pref_appearance_title_show_passwords">पासवर्ड दिखाएं</string>
-    <string name="pref_appearance_title_change_theme">थीम बदलें</string>
-    <string name="pref_appearance_theme_default">चूक</string>
-    <string name="pref_appearance_theme_light">रोशनी</string>
-    <string name="pref_appearance_theme_dark">अंधेरा</string>
-    <string name="pref_appearance_theme_blue_gray">नीला स्लेटी</string>
-    <string name="pref_appearance_theme_purple">बैंगनी</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">डेटाबेस साझा करें</string>
-    <string name="pref_database_summary_backup_share">एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं और साझा करें</string>
-    <string name="pref_database_title_backup">बैकअप डेटाबेस</string>
-    <string name="pref_database_summary_backup">एंड्रॉइड स्टोरेज बॉक्स का उपयोग करके एन्क्रिप्टेड डेटाबेस का बैकअप बनाएं</string>
-    <string name="pref_database_title_restore">डेटाबेस पुनर्स्थापित करें</string>
-    <string name="pref_database_summary_restore">किसी एन्क्रिप्टेड डेटाबेस के बैकअप को पुनर्स्थापित करें</string>
-    <string name="pref_database_title_auto_backup">ऑटो बैकअप</string>
-    <string name="pref_database_summary_auto_backup">अपने बाहरी भंडारण (एसडी या आंतरिक गैर-हटाने योग्य भंडारण) पर ऑटो बैकअप बनाएं। आप 3rd पार्टी फ़ाइल मैनेजर ऐप का उपयोग करके बाहरी संग्रहण तक पहुंच सकते हैं</string>
-    <string name="pref_database_title_export">सीएसवी फ़ाइल निर्यात करें</string>
-    <string name="pref_database_summary_export">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल में प्रविष्टियों को निर्यात करें</string>
-    <string name="pref_database_title_import">सीएसवी फ़ाइल आयात करें</string>
-    <string name="pref_database_summary_import">गैर-एन्क्रिप्टेड सीएसवी फ़ाइल से प्रविष्टियों को आयात करें</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">मास्टर पासवर्ड बदलें</string>
-    <string name="pref_security_title_fast_enter">तेजी से दर्ज करें</string>
-    <string name="pref_security_title_auto_exit">ऑटो से बाहर निकलना</string>
-    <string name="pref_security_summary_auto_exit">जब स्क्रीन बंद हो जाती है या पृष्ठभूमि में 60 सेकंड के बाद होती है</string>
-    <string name="pref_security_title_stay_awake">जागते रहो</string>
-    <string name="pref_security_summary_stay_awake">प्रविष्टियों को देखने या संपादित करते समय स्क्रीन कभी नहीं सोएगी</string>
-    <string name="pref_security_title_allow_screenshots">स्क्रीनशॉट की अनुमति दें</string>
-    <string name="pref_security_title_clipboard_clear">क्लिपबोर्ड साफ़ करें</string>
-    <string name="pref_security_clipboard_clear_never">कभी नहीँ</string>
-    <string name="pref_security_clipboard_clear_one_min">1 मिनट</string>
-    <string name="pref_security_clipboard_clear_two_min">2 मिनट</string>
-    <string name="pref_security_clipboard_clear_three_min">3 मिनट</string>
-    <string name="pref_security_clipboard_clear_four_min">4 मिनट</string>
-    <string name="pref_security_clipboard_clear_five_min">5 मिनट</string>
-    <string name="pref_security_title_self_destruct">विफल पासवर्ड प्रयास</string>
-    <string name="pref_security_self_destruct_unlimited">असीमित</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">बॉयोमीट्रिक प्रमाणीकरण</string>
-    <string name="pref_security_summary_biometric">इस सुविधा का उपयोग करने के लिए संगत डिवाइस की आवश्यकता होती है। आप सिस्टम सेटिंग्स (फिंगरप्रिंट, फेस डिटेक्शन आदि) में अपना पसंदीदा बायोमेट्रिक निर्दिष्ट कर सकते हैं</string>
-    <string name="pref_security_title_fingerprint">फिंगरप्रिंट का उपयोग कर दर्ज करें</string>
-    <string name="pref_security_summary_fingerprint">इस सुविधा का उपयोग करने के लिए Android 6.0 या नए और संगत हार्डवेयर की आवश्यकता है</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">त्रुटि की रिपोर्ट करें</string>
-    <string name="pref_about_title_support">दर नियत करें और समीक्षा करें</string>
-    <string name="pref_about_title_more_apps">और ऐप</string>
-    <string name="pref_about_title_share">अपने दोस्तों को बताएँ</string>
-    <string name="pref_about_title_translations">अनुवाद</string>
-    <string name="pref_about_title_terms">शर्तें और गोपनीयता नीति</string>
-    <string name="pref_about_title_licenses">ओपन सोर्स लाइसेंस</string>
-    <string name="pref_about_title_build_version">एक संस्करण बनाना</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">पासवर्ड पहनें</string>
-    <string name="pref_wear_os_summary_password_enabled">पासवर्ड का उपयोग करके अपनी घड़ी पर पहुंच को प्रतिबंधित करें</string>
-    <string name="pref_wear_os_title_add_to_watch">देखने के लिए जोड़ें</string>
-    <string name="pref_wear_os_summary_add_to_watch">नई प्रविष्टियों को हमेशा घड़ी में जोड़ा जाएगा</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">अपीयरेंस</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>थीम</string>
-    <string name="pref_category_database">डेटाबेस</string>
-    <string name="pref_category_auto_backup">ऑटो बैकअप</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>सीएसवी</string>
-    <string name="pref_category_security">सुरक्षा</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>क्लिपबोर्ड</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>आत्म विनाश</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>बॉयोमीट्रिक्स</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="website">वेबसाइट</string>
+    <string name="welcome_info_content">आवेदन का उपयोग शुरू करने के लिए कृपया एक मास्टर पासवर्ड पंजीकृत करें। ध्यान दें कि यदि मास्टर पासवर्ड खो जाता है तो संग्रहित डेटा अनुपलब्ध सिंक विकल्प के कारण पुनर्प्राप्त नहीं किया जा सकता। यह दृढ़ता से अनुशंसा की जाती है कि आप नियमित अंतराल पर अपने डेटा का बैकअप लें।</string>
+    <string name="welcome_info_title">स्वागत हे</string>
 </resources>

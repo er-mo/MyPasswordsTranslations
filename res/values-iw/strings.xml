@@ -1,60 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">חשבון</string>
+    <string name="add_new_label">הוסף תווית חדשה</string>
     <string name="app_description">מנהל סיסמאות מאובטח וקל לשימוש למכשירי אנדרואיד</string>
     <string name="app_download_message">השיג אותו בחינם מחנות Google Play</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">מחק שדה</string>
+    <string name="button_enter">להיכנס</string>
+    <string name="button_exit">יציאה</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">הבנת</string>
+    <string name="button_more">יותר</string>
+    <string name="button_register">להירשם</string>
+    <string name="button_update">עדכון</string>
+    <string name="button_upgrade_now">שדרג עכשיו</string>
+    <string name="change_mp_new_master_password">סיסמה חדשה</string>
+    <string name="change_mp_old_master_password">סיסמה ישנה</string>
+    <string name="copy_text">(עותק)</string>
     <string name="current_location_folder">מקום</string>
+    <string name="dialog_button_cancel">ביטול</string>
+    <string name="dialog_button_continue">המשך</string>
+    <string name="dialog_button_delete">מחק</string>
+    <string name="dialog_button_discard">להשליך</string>
+    <string name="dialog_button_later">מאוחר יותר</string>
+    <string name="dialog_button_learn_more">למד עוד</string>
+    <string name="dialog_button_never">לעולם לא</string>
+    <string name="dialog_button_ok">בסדר</string>
+    <string name="dialog_button_rate">ציון</string>
+    <string name="dialog_button_remove">הסר</string>
+    <string name="dialog_msg_app_data_erased">כל הנתונים נמחקו לצמיתות בגלל הניסיונות הכושלים.</string>
+    <string name="dialog_msg_attachments_warning">קבצים מצורפים עשויים להגדיל את גודל מסד הנתונים ולהקטין את הביצועים הכוללים של היישום.</string>
+    <string name="dialog_msg_auto_backup_error">לא ניתן לגשת לאחסון חיצוני. אנא הפעל מחדש את אפשרות הגיבוי האוטומטי.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">החומרה הביומטרית אינה זמינה.</string>
+    <string name="dialog_msg_biometric_keystore_error">שגיאת מקשים. אנא הפעל מחדש את הביומטרי ברגע שתזין באמצעות סיסמת המאסטר שלך.</string>
+    <string name="dialog_msg_biometric_no_hardware">אין חומרה ביומטרית.</string>
+    <string name="dialog_msg_biometric_none_enrolled">לא נמצאו ביומטריה רשומה. אנא הגדר לפחות אחת בהגדרות המערכת.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">לא ניתן לגשת לקובץ או לתיקיה שנבחרו.</string>
+    <string name="dialog_msg_cannot_open_folder">התיקיה אינה נגישה.</string>
+    <string name="dialog_msg_cannot_read_file">לא ניתן לקרוא את הקובץ שנבחר.</string>
+    <string name="dialog_msg_changing_master_password">על ידי שינוי סיסמת המאסטר לא תוכל לשחזר גיבוי בסיס נתונים שנוצר באמצעות סיסמת האב הנוכחית.</string>
+    <string name="dialog_msg_csv_format_invalid">פורמט ה- CSV אינו תקף.</string>
+    <string name="dialog_msg_csv_no_data">לקובץ ה- CSV אין נתונים.</string>
+    <string name="dialog_msg_db_created_on_ios">גיבוי בסיס הנתונים נוצר ב- iOS ולא ניתן לשחזר אותו ב- Android. אתה יכול להעביר את הנתונים שלך באמצעות קובץ csv במקום זאת.</string>
+    <string name="dialog_msg_db_different_pass">גיבוי בסיס הנתונים נוצר באמצעות סיסמת אב אחרת.</string>
+    <string name="dialog_msg_db_not_valid">גיבוי בסיס הנתונים אינו תקף.</string>
+    <string name="dialog_msg_delete_entry">מחק רשומה?</string>
+    <string name="dialog_msg_delete_field">למחוק שדה?</string>
+    <string name="dialog_msg_delete_label">למחוק תווית?</string>
+    <string name="dialog_msg_delete_selected_entries">למחוק רשומות שנבחרו?</string>
+    <string name="dialog_msg_discard_changes">בטל שינויים?</string>
+    <string name="dialog_msg_entries_will_be_deleted">כל הערכים הנוכחיים יימחקו.</string>
+    <string name="dialog_msg_error_reading_file">שגיאה בקריאת הקובץ.</string>
+    <string name="dialog_msg_error_writing_file">שגיאה בכתיבת הקובץ.</string>
+    <string name="dialog_msg_feature_shutdown">תכונה זו של גיבוי אוטומטי תידחה ב- 6 בדצמבר 2019. במקום זאת עליך להשתמש בגיבוי מכשיר אנדרואיד.</string>
+    <string name="dialog_msg_fp_hint">גע בחיישן</string>
+    <string name="dialog_msg_fp_not_recognized">טביעת אצבע לא מוכרת. נסה שוב</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized. המתן בבקשה<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">לא נמצאו טביעות אצבע רשומות. אנא הגדר לפחות טביעת אצבע אחת בהגדרות המערכת.</string>
+    <string name="dialog_msg_no_fp_hardware">חומרת טביעות אצבע אינה קיימת או אינה מתפקדת.</string>
+    <string name="dialog_msg_pass_gen_trick">הקש מספר פעמים על מנת ליצור סיסמאות מסוג שונה ואורך שונה.</string>
+    <string name="dialog_msg_rating">אם אתה נהנה להשתמש באפליקציה זו, אכפת לך שתקדיש רגע לדרג אותה? זה לא ייקח יותר מדקה. תודה על תמיכתך!</string>
+    <string name="dialog_msg_remove_from_watch">האם להסיר את הערך מהשעון?</string>
+    <string name="dialog_progress_please_wait">המתן בבקשה<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">מצרף תמונה נוספת?</string>
+    <string name="dialog_title_authentication">אימות</string>
+    <string name="dialog_title_change_master_password">לשנות סיסמת אב?</string>
+    <string name="dialog_title_confirm_fp">אשר את טביעת האצבע שלך</string>
+    <string name="dialog_title_feature_shutdown">כיבוי תכונה</string>
+    <string name="dialog_title_history">היסטוריה</string>
+    <string name="dialog_title_import_csv">ייבא csv?</string>
+    <string name="dialog_title_new_field">תחום חדש</string>
+    <string name="dialog_title_rating">דרג את האפליקציה הזו</string>
+    <string name="dialog_title_restore_backup">שחזור גיבוי?</string>
+    <string name="dialog_title_self_destruct">השמדה עצמית</string>
+    <string name="dialog_title_set_labels">הגדר תוויות</string>
+    <string name="last_updated">עודכן לאחרונה</string>
+    <string name="list_is_empty">אין רשומות</string>
+    <string name="menu_about">על אודות</string>
+    <string name="menu_add_field">הוסף שדה</string>
+    <string name="menu_add_to_watch">הוסף לצפייה</string>
+    <string name="menu_appearance">מראה חיצוני</string>
+    <string name="menu_attach_image">צרף תמונה</string>
+    <string name="menu_clear_history">נקה היסטוריה</string>
+    <string name="menu_copy_entry">צור עותק</string>
+    <string name="menu_database">מאגר מידע</string>
+    <string name="menu_delete">מחק</string>
+    <string name="menu_edit">ערוך</string>
+    <string name="menu_exit">יציאה</string>
+    <string name="menu_export_import">ייצוא ייבוא</string>
+    <string name="menu_export_to_pdf">ייצא ל- PDF - הדפס</string>
+    <string name="menu_keyboard">מקלדת</string>
+    <string name="menu_navigation_drawer_all_entries">את כל</string>
+    <string name="menu_navigation_drawer_edit_labels">ערוך תוויות</string>
+    <string name="menu_remove_from_watch">הסר מהשעון</string>
+    <string name="menu_save">לשמור</string>
+    <string name="menu_search">לחפש</string>
+    <string name="menu_security">אבטחה</string>
+    <string name="menu_select_all">בחר הכל</string>
+    <string name="menu_set_labels">הגדר תוויות</string>
+    <string name="menu_settings">הגדרות</string>
+    <string name="menu_share">שתף</string>
+    <string name="menu_upgrade">שדרוג לפרו</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">סגור את מגירת הניווט</string>
+    <string name="navigation_drawer_open">פתח את מגירת הניווט</string>
+    <string name="new_field_hint">שם</string>
+    <string name="notes">הערות</string>
+    <string name="notification_text_app_running">היישום פועל</string>
+    <string name="password">סיסמה</string>
     <string name="password_is_too_short">סיסמה קצרה מדי</string>
-    <string name="passwords_not_matching">סיסמאות אינן תואמות</string>
     <string name="password_not_correct">הסיסמה אינה נכונה</string>
     <string name="password_not_only_numbers">הסיסמה מכילה לא רק מספרים</string>
-    <string name="password_strength_hint_very_weak">חלש מאוד!</string>
-    <string name="password_strength_hint_weak">חלש!</string>
     <string name="password_strength_hint_good">טוב!</string>
     <string name="password_strength_hint_strong">חזק!</string>
     <string name="password_strength_hint_very_strong">חזק מאוד!</string>
+    <string name="password_strength_hint_very_weak">חלש מאוד!</string>
+    <string name="password_strength_hint_weak">חלש!</string>
+    <string name="passwords_not_matching">סיסמאות אינן תואמות</string>
+    <string name="pref_about_title_build_version">בנה גרסה</string>
+    <string name="pref_about_title_contact">דווח על באג</string>
+    <string name="pref_about_title_licenses">רישיונות קוד פתוח</string>
+    <string name="pref_about_title_more_apps">עוד אפליקציות</string>
+    <string name="pref_about_title_share">ספר לחבריך</string>
+    <string name="pref_about_title_support">דרג ובדוק</string>
+    <string name="pref_about_title_terms">תנאים ומדיניות פרטיות</string>
+    <string name="pref_about_title_translations">תרגומים</string>
+    <string name="pref_appearance_list_subtitles_account">חשבון</string>
+    <string name="pref_appearance_list_subtitles_labels">תוויות</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">אין כתוביות</string>
+    <string name="pref_appearance_sorting_choise_alpha">אלפביתית</string>
+    <string name="pref_appearance_sorting_choise_color">לפי צבע</string>
+    <string name="pref_appearance_sorting_choise_time">לפי תאריך</string>
+    <string name="pref_appearance_summary_show_notification">קל לזהות שהיישום אינו נעול ופועל</string>
+    <string name="pref_appearance_theme_blue_gray">כחול אפור</string>
+    <string name="pref_appearance_theme_dark">כחול כהה</string>
+    <string name="pref_appearance_theme_default">ברירת מחדל</string>
+    <string name="pref_appearance_theme_light">כחול בהיר</string>
+    <string name="pref_appearance_theme_purple">סגול</string>
+    <string name="pref_appearance_title_change_theme">לשנות נושא</string>
+    <string name="pref_appearance_title_list_subtitles">כתוביות ברשימה הראשית</string>
+    <string name="pref_appearance_title_navibar_color">צבע סרגל הניווט</string>
+    <string name="pref_appearance_title_open_label_list">פתח רשימת תוויות בכניסה</string>
+    <string name="pref_appearance_title_show_notification">הודעה</string>
+    <string name="pref_appearance_title_show_passwords">הצג סיסמאות</string>
+    <string name="pref_appearance_title_sort_entries">סיווג הרשומות</string>
+    <string name="pref_category_appearance">מראה חיצוני</string>
+    <string name="pref_category_auto_backup">גיבוי אוטומטי</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ביומטריה</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">מאגר מידע</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">אבטחה</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>הלוח</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>נושא</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">צור גיבויים אוטומטיים באחסון החיצוני שלך (sd או אחסון פנימי שאינו ניתן להסרה). אתה יכול לגשת לאחסון החיצוני באמצעות אפליקציית ניהול קבצים של צד שלישי</string>
+    <string name="pref_database_summary_backup">צור גיבוי של מסד הנתונים המוצפן באמצעות מסגרת הגישה לאחסון אנדרואיד</string>
+    <string name="pref_database_summary_backup_share">צור ושתף גיבוי של בסיס הנתונים המוצפן</string>
+    <string name="pref_database_summary_export">ייצא את הערכים לקובץ csv שאינו מוצפן</string>
+    <string name="pref_database_summary_import">ייבא ערכים מקובץ csv שאינו מוצפן</string>
+    <string name="pref_database_summary_restore">שחזר גיבוי של בסיס נתונים מוצפן</string>
+    <string name="pref_database_title_auto_backup">גיבוי אוטומטי</string>
+    <string name="pref_database_title_backup">מסד נתונים לגיבוי</string>
+    <string name="pref_database_title_backup_share">שתף מסד נתונים</string>
+    <string name="pref_database_title_export">ייצא קובץ csv</string>
+    <string name="pref_database_title_import">ייבא קובץ csv</string>
+    <string name="pref_database_title_restore">שחזר את מסד הנתונים</string>
+    <string name="pref_export_import_summary_export_csv">ייצא לקובץ csv לא מוצפן באמצעות מסגרת הגישה לאחסון אנדרואיד</string>
+    <string name="pref_export_import_summary_import_csv">ייבא מקובץ csv לא מוצפן בפורמט המתאים</string>
+    <string name="pref_export_import_summary_share_csv">צור ושתף קובץ csv לא מוצפן</string>
+    <string name="pref_export_import_title_export_csv">ייצא קובץ csv</string>
+    <string name="pref_export_import_title_export_pdf">ייצא ל- PDF - הדפס</string>
+    <string name="pref_export_import_title_import_csv">ייבא קובץ csv</string>
+    <string name="pref_export_import_title_share_csv">שתף קובץ csv</string>
+    <string name="pref_security_clipboard_clear_five_min">5 דקות</string>
+    <string name="pref_security_clipboard_clear_four_min">4 דקות</string>
+    <string name="pref_security_clipboard_clear_never">לעולם לא</string>
+    <string name="pref_security_clipboard_clear_one_min">דקה 1</string>
+    <string name="pref_security_clipboard_clear_three_min">3 דקות</string>
+    <string name="pref_security_clipboard_clear_two_min">2 דקות</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">ללא הגבלה</string>
+    <string name="pref_security_summary_auto_exit">כאשר המסך נכבה או לאחר 60 שניות ברקע</string>
+    <string name="pref_security_summary_biometric">דרוש התקן תואם לשימוש בתכונה זו. אתה יכול לציין את הביומטריה המועדפת עליך בהגדרות המערכת (טביעת אצבע, זיהוי פנים וכו \')</string>
+    <string name="pref_security_summary_fingerprint">דרושה חומרה תואמת לשימוש בתכונה זו</string>
+    <string name="pref_security_summary_stay_awake">המסך לא יישן לעולם בזמן צפייה או עריכה של ערכים</string>
+    <string name="pref_security_title_allow_screenshots">אפשר צילומי מסך</string>
+    <string name="pref_security_title_auto_exit">יציאה אוטומטית</string>
+    <string name="pref_security_title_biometric">אימות ביומטרי</string>
+    <string name="pref_security_title_change_password">שנה סיסמת אב</string>
+    <string name="pref_security_title_clipboard_clear">לוח קליפים ברור</string>
+    <string name="pref_security_title_fast_enter">כניסה מהירה</string>
+    <string name="pref_security_title_fingerprint">הכנס באמצעות טביעת אצבע</string>
+    <string name="pref_security_title_self_destruct">ניסיונות סיסמא נכשלים</string>
+    <string name="pref_security_title_stay_awake">הישאר ער</string>
+    <string name="pref_wear_os_summary_add_to_watch">ערכים חדשים יתווספו תמיד לשעון</string>
+    <string name="pref_wear_os_summary_password_enabled">הגבל את הגישה בשעון באמצעות סיסמה</string>
+    <string name="pref_wear_os_title_add_to_watch">הוסף לצפייה</string>
+    <string name="pref_wear_os_title_password_enabled">ללבוש סיסמא</string>
     <string name="required">נדרש</string>
     <string name="title">כותרת</string>
-    <string name="account">חשבון</string>
-    <string name="password">סיסמה</string>
-    <string name="username">שם משתמש</string>
-    <string name="website">אתר אינטרנט</string>
-    <string name="notes">הערות</string>
-    <string name="list_is_empty">אין רשומות</string>
-    <string name="last_updated">עודכן לאחרונה</string>
-    <string name="copy_text">(עותק)</string>
-    <string name="new_field_hint">שם</string>
-    <string name="add_new_label">הוסף תווית חדשה</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">להירשם</string>
-    <string name="button_enter">להיכנס</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">שדרג עכשיו</string>
-    <string name="button_update">עדכון</string>
-    <string name="button_exit">יציאה</string>
-    <string name="button_gotit">הבנת</string>
-    <string name="button_more">יותר</string>
-    <string name="button_delete_field">מחק שדה</string>
-    <string name="navigation_drawer_open">פתח את מגירת הניווט</string>
-    <string name="navigation_drawer_close">סגור את מגירת הניווט</string>
-    <!-- ################################################################################# -->
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">ברוך הבא</string>
-    <string name="welcome_info_content">אנא רשום סיסמת אב כדי להתחיל להשתמש ביישום. שים לב שאם סיסמת האב אבדה, לא ניתן לשחזר את הנתונים המאוחסנים בגלל אפשרות הסנכרון החסרה. מומלץ מאוד לגבות את הנתונים שלך בפרקי זמן קבועים.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">תודה שרכשת את גרסת ה- PRO.</string>
+    <string name="toast_added_to_watch">נוסף לצפייה</string>
+    <string name="toast_camera_permission_denied">ההרשאה נדחתה. לא ניתן לצלם תמונות.</string>
+    <string name="toast_copied_to_clipboard">הועתק ללוח</string>
+    <string name="toast_copy_to_clipboard_failed">ההעתקה נכנסה ללוח</string>
+    <string name="toast_database_server_error">בסיס הנתונים אינו זמין כרגע</string>
+    <string name="toast_entries_deleted">הרשומות נמחקו</string>
+    <string name="toast_entry_deleted">הכניסה נמחקה</string>
+    <string name="toast_entry_saved">הכניסה נשמרה</string>
+    <string name="toast_label_exists">התווית כבר קיימת</string>
+    <string name="toast_master_password_not_updated">עדכון סיסמת האב נכשל</string>
+    <string name="toast_master_password_updated">סיסמת המאסטר עודכנה בהצלחה</string>
+    <string name="toast_no_browser">לא נמצאה יישום דפדפן אינטרנט</string>
+    <string name="toast_no_file_selected">לא נבחר קובץ</string>
+    <string name="toast_no_folder_selected">לא נבחרה תיקיה</string>
+    <string name="toast_no_labels">אין תוויות</string>
+    <string name="toast_no_password_history">אין היסטוריית סיסמאות זמינה</string>
+    <string name="toast_no_playstore">אפליקציית חנות Google Play אינה מותקנת</string>
+    <string name="toast_password_history_cleared">ההיסטוריה התנקה</string>
+    <string name="toast_playstore_error">אפליקציית חנות Google Play אינה מותקנת</string>
+    <string name="toast_playstore_services_error">שירותי Google Play אינם זמינים</string>
+    <string name="toast_pro_feature">זמין רק בגרסת PRO</string>
+    <string name="toast_pro_feature_unlimited_labels">עוד תוויות זמינות רק בגירסת PRO</string>
+    <string name="toast_remember_your_master_password">וודא שאתה זוכר את סיסמת האב שלך</string>
+    <string name="toast_removed_from_watch">הוסר מהשעון</string>
+    <string name="toast_storage_not_accessible">אחסון חיצוני לא נגיש</string>
+    <string name="toast_storage_permission_denied">ההרשאה נדחתה. לא ניתן לקרוא או לכתוב קבצים.</string>
+    <string name="toast_successful_backup">גיבוי נוצר בהצלחה</string>
+    <string name="toast_successful_csv_export">ייצוא קובץ ה- csv בהצלחה</string>
+    <string name="toast_successful_csv_import">קובץ ה- CSV המיובא בהצלחה</string>
+    <string name="toast_successful_restore">מסד הנתונים שוחזר בהצלחה</string>
+    <string name="toast_tap_again_to_exit">הקש שוב כדי לצאת</string>
+    <string name="toast_tap_to_copy_text">הקש על תצוגת הטקסט כדי להעתיק את התוכן</string>
+    <string name="toast_try_again_shortly">אנא נסה שוב בעוד מספר שניות</string>
     <string name="upgrade_feature_1">יצוא יבוא קובץ csv</string>
+    <string name="upgrade_feature_10">שדות מותאמים אישית</string>
+    <string name="upgrade_feature_11">תוויות ללא הגבלה</string>
+    <string name="upgrade_feature_12">אימות ביומטרי</string>
     <string name="upgrade_feature_3">בחירת נושא</string>
     <string name="upgrade_feature_4">הלוח נקה אוטומטית</string>
     <string name="upgrade_feature_5">הרס עצמי</string>
@@ -62,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS</string>
     <string name="upgrade_feature_8">היסטוריית סיסמאות</string>
     <string name="upgrade_feature_9">קבצים מצורפים לתמונות</string>
-    <string name="upgrade_feature_10">שדות מותאמים אישית</string>
-    <string name="upgrade_feature_11">תוויות ללא הגבלה</string>
-    <string name="upgrade_feature_12">אימות ביומטרי</string>
+    <string name="upgrade_thank_you">תודה שרכשת את גרסת ה- PRO.</string>
     <string name="upgrade_with_single_purchase">בטל את נעילת כל התכונות הנוספות באמצעות רכישה יחידה באפליקציה.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">סיסמה ישנה</string>
-    <string name="change_mp_new_master_password">סיסמה חדשה</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">לחפש</string>
-    <string name="menu_settings">הגדרות</string>
-    <string name="menu_exit">יציאה</string>
-    <string name="menu_appearance">מראה חיצוני</string>
-    <string name="menu_database">מאגר מידע</string>
-    <string name="menu_security">אבטחה</string>
-    <string name="menu_about">על אודות</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">שדרוג לפרו</string>
-    <string name="menu_share">שתף</string>
-    <string name="menu_copy_entry">צור עותק</string>
-    <string name="menu_edit">ערוך</string>
-    <string name="menu_delete">מחק</string>
-    <string name="menu_save">לשמור</string>
-    <string name="menu_set_labels">הגדר תוויות</string>
-    <string name="menu_attach_image">צרף תמונה</string>
-    <string name="menu_add_field">הוסף שדה</string>
-    <string name="menu_keyboard">מקלדת</string>
-    <string name="menu_add_to_watch">הוסף לצפייה</string>
-    <string name="menu_clear_history">נקה היסטוריה</string>
-    <string name="menu_select_all">בחר הכל</string>
-    <string name="menu_navigation_drawer_all_entries">את כל</string>
-    <string name="menu_navigation_drawer_edit_labels">ערוך תוויות</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">הקש שוב כדי לצאת</string>
-    <string name="toast_entry_deleted">הכניסה נמחקה</string>
-    <string name="toast_entries_deleted">הרשומות נמחקו</string>
-    <string name="toast_entry_saved">הכניסה נשמרה</string>
-    <string name="toast_try_again_shortly">אנא נסה שוב בעוד מספר שניות</string>
-    <string name="toast_no_browser">לא נמצאה יישום דפדפן אינטרנט</string>
-    <string name="toast_no_playstore">אפליקציית חנות Google Play אינה מותקנת</string>
-    <string name="toast_tap_to_copy_text">הקש על תצוגת הטקסט כדי להעתיק את התוכן</string>
-    <string name="toast_copied_to_clipboard">הועתק ללוח</string>
-    <string name="toast_master_password_updated">סיסמת המאסטר עודכנה בהצלחה</string>
-    <string name="toast_master_password_not_updated">עדכון סיסמת האב נכשל</string>
-    <string name="toast_storage_permission_denied">ההרשאה נדחתה. לא ניתן לקרוא או לכתוב קבצים.</string>
-    <string name="toast_camera_permission_denied">ההרשאה נדחתה. לא ניתן לצלם תמונות.</string>
-    <string name="toast_no_file_selected">לא נבחר קובץ</string>
-    <string name="toast_no_folder_selected">לא נבחרה תיקיה</string>
-    <string name="toast_successful_backup">גיבוי נוצר בהצלחה</string>
-    <string name="toast_successful_restore">מסד הנתונים שוחזר בהצלחה</string>
-    <string name="toast_successful_csv_export">ייצוא קובץ ה- csv בהצלחה</string>
-    <string name="toast_successful_csv_import">קובץ ה- CSV המיובא בהצלחה</string>
-    <string name="toast_database_server_error">בסיס הנתונים אינו זמין כרגע</string>
-    <string name="toast_added_to_watch">נוסף לצפייה</string>
-    <string name="toast_removed_from_watch">הוסר מהשעון</string>
-    <string name="toast_playstore_error">אפליקציית חנות Google Play אינה מותקנת</string>
-    <string name="toast_playstore_services_error">שירותי Google Play אינם זמינים</string>
-    <string name="toast_storage_not_accessible">אחסון חיצוני לא נגיש</string>
-    <string name="toast_pro_feature">זמין רק בגרסת PRO</string>
-    <string name="toast_no_password_history">אין היסטוריית סיסמאות זמינה</string>
-    <string name="toast_password_history_cleared">ההיסטוריה התנקה</string>
-    <string name="toast_remember_your_master_password">וודא שאתה זוכר את סיסמת האב שלך</string>
-    <string name="toast_label_exists">התווית כבר קיימת</string>
-    <string name="toast_pro_feature_unlimited_labels">עוד תוויות זמינות רק בגירסת PRO</string>
-    <string name="toast_no_labels">אין תוויות</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">בסדר</string>
-    <string name="dialog_button_learn_more">למד עוד</string>
-    <string name="dialog_button_continue">המשך</string>
-    <string name="dialog_button_cancel">ביטול</string>
-    <string name="dialog_button_delete">מחק</string>
-    <string name="dialog_button_discard">להשליך</string>
-    <string name="dialog_button_remove">הסר</string>
-    <string name="dialog_button_rate">ציון</string>
-    <string name="dialog_button_later">מאוחר יותר</string>
-    <string name="dialog_button_never">לעולם לא</string>
-    <string name="dialog_title_restore_backup">שחזור גיבוי?</string>
-    <string name="dialog_title_import_csv">ייבא csv?</string>
-    <string name="dialog_title_change_master_password">לשנות סיסמת אב?</string>
-    <string name="dialog_title_self_destruct">השמדה עצמית</string>
-    <string name="dialog_title_authentication">אימות</string>
-    <string name="dialog_title_confirm_fp">אשר את טביעת האצבע שלך</string>
-    <string name="dialog_title_history">היסטוריה</string>
-    <string name="dialog_title_attach_another_image">מצרף תמונה נוספת?</string>
-    <string name="dialog_title_new_field">תחום חדש</string>
-    <string name="dialog_title_set_labels">הגדר תוויות</string>
-    <string name="dialog_title_rating">דרג את האפליקציה הזו</string>
-    <string name="dialog_title_feature_shutdown">כיבוי תכונה</string>
-    <string name="dialog_msg_feature_shutdown">תכונה זו של גיבוי אוטומטי תידחה ב- 6 בדצמבר 2019. במקום זאת עליך להשתמש בגיבוי מכשיר אנדרואיד.</string>
-    <string name="dialog_msg_entries_will_be_deleted">כל הערכים הנוכחיים יימחקו.</string>
-    <string name="dialog_msg_changing_master_password">על ידי שינוי סיסמת המאסטר לא תוכל לשחזר גיבוי בסיס נתונים שנוצר באמצעות סיסמת האב הנוכחית.</string>
-    <string name="dialog_msg_delete_selected_entries">למחוק רשומות שנבחרו?</string>
-    <string name="dialog_msg_delete_entry">מחק רשומה?</string>
-    <string name="dialog_msg_delete_label">למחוק תווית?</string>
-    <string name="dialog_msg_delete_field">למחוק שדה?</string>
-    <string name="dialog_msg_discard_changes">בטל שינויים?</string>
-    <string name="dialog_msg_cannot_open_folder">התיקיה אינה נגישה.</string>
-    <string name="dialog_msg_cannot_read_file">לא ניתן לקרוא את הקובץ שנבחר.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">לא ניתן לגשת לקובץ או לתיקיה שנבחרו.</string>
-    <string name="dialog_msg_db_not_valid">גיבוי בסיס הנתונים אינו תקף.</string>
-    <string name="dialog_msg_db_different_pass">גיבוי בסיס הנתונים נוצר באמצעות סיסמת אב אחרת.</string>
-    <string name="dialog_msg_db_created_on_ios">גיבוי בסיס הנתונים נוצר ב- iOS ולא ניתן לשחזר אותו ב- Android. אתה יכול להעביר את הנתונים שלך באמצעות קובץ csv במקום זאת.</string>
-    <string name="dialog_msg_csv_format_invalid">פורמט ה- CSV אינו תקף.</string>
-    <string name="dialog_msg_csv_no_data">לקובץ ה- CSV אין נתונים.</string>
-    <string name="dialog_msg_error_writing_file">שגיאה בכתיבת הקובץ.</string>
-    <string name="dialog_msg_error_reading_file">שגיאה בקריאת הקובץ.</string>
-    <string name="dialog_msg_app_data_erased">כל הנתונים נמחקו לצמיתות בגלל הניסיונות הכושלים.</string>
-    <string name="dialog_msg_no_fp_hardware">חומרת טביעות אצבע אינה קיימת או אינה מתפקדת.</string>
-    <string name="dialog_msg_no_fp_enrolled">לא נמצאו טביעות אצבע רשומות. אנא הגדר לפחות טביעת אצבע אחת בהגדרות המערכת.</string>
-    <string name="dialog_msg_fp_not_recognized">טביעת אצבע לא מוכרת. נסה שוב</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. המתן בבקשה<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">גע בחיישן</string>
-    <string name="dialog_msg_biometric_no_hardware">אין חומרה ביומטרית.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">החומרה הביומטרית אינה זמינה.</string>
-    <string name="dialog_msg_biometric_none_enrolled">לא נמצאו ביומטריה רשומה. אנא הגדר לפחות אחת בהגדרות המערכת.</string>
-    <string name="dialog_msg_biometric_keystore_error">שגיאת מקשים. אנא הפעל מחדש את הביומטרי ברגע שתזין באמצעות סיסמת המאסטר שלך.</string>
-    <string name="dialog_msg_pass_gen_trick">הקש מספר פעמים על מנת ליצור סיסמאות מסוג שונה ואורך שונה.</string>
-    <string name="dialog_msg_remove_from_watch">האם להסיר את הערך מהשעון?</string>
-    <string name="dialog_msg_attachments_warning">קבצים מצורפים עשויים להגדיל את גודל מסד הנתונים ולהקטין את הביצועים הכוללים של היישום.</string>
-    <string name="dialog_msg_rating">אם אתה נהנה להשתמש באפליקציה זו, אכפת לך שתקדיש רגע לדרג אותה? זה לא ייקח יותר מדקה. תודה על תמיכתך!</string>
-    <string name="dialog_msg_auto_backup_error">לא ניתן לגשת לאחסון חיצוני. אנא הפעל מחדש את אפשרות הגיבוי האוטומטי.</string>
-    <string name="dialog_progress_please_wait">המתן בבקשה<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">היישום פועל</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">סיווג הרשומות</string>
-    <string name="pref_appearance_sorting_choise_alpha">אלפביתית</string>
-    <string name="pref_appearance_sorting_choise_time">לפי תאריך</string>
-    <string name="pref_appearance_sorting_choise_color">לפי צבע</string>
-    <string name="pref_appearance_title_list_subtitles">כתוביות ברשימה הראשית</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">אין כתוביות</string>
-    <string name="pref_appearance_list_subtitles_account">חשבון</string>
-    <string name="pref_appearance_list_subtitles_labels">תוויות</string>
-    <string name="pref_appearance_title_navibar_color">צבע סרגל הניווט</string>
-    <string name="pref_appearance_title_show_notification">הודעה</string>
-    <string name="pref_appearance_summary_show_notification">קל לזהות שהיישום אינו נעול ופועל</string>
-    <string name="pref_appearance_title_open_label_list">פתח רשימת תוויות בכניסה</string>
-    <string name="pref_appearance_title_show_passwords">הצג סיסמאות</string>
-    <string name="pref_appearance_title_change_theme">לשנות נושא</string>
-    <string name="pref_appearance_theme_default">ברירת מחדל</string>
-    <string name="pref_appearance_theme_light">כחול בהיר</string>
-    <string name="pref_appearance_theme_dark">כחול כהה</string>
-    <string name="pref_appearance_theme_blue_gray">כחול אפור</string>
-    <string name="pref_appearance_theme_purple">סגול</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">שתף מסד נתונים</string>
-    <string name="pref_database_summary_backup_share">צור ושתף גיבוי של בסיס הנתונים המוצפן</string>
-    <string name="pref_database_title_backup">מסד נתונים לגיבוי</string>
-    <string name="pref_database_summary_backup">צור גיבוי של מסד הנתונים המוצפן באמצעות מסגרת הגישה לאחסון אנדרואיד</string>
-    <string name="pref_database_title_restore">שחזר את מסד הנתונים</string>
-    <string name="pref_database_summary_restore">שחזר גיבוי של בסיס נתונים מוצפן</string>
-    <string name="pref_database_title_auto_backup">גיבוי אוטומטי</string>
-    <string name="pref_database_summary_auto_backup">צור גיבויים אוטומטיים באחסון החיצוני שלך (sd או אחסון פנימי שאינו ניתן להסרה). אתה יכול לגשת לאחסון החיצוני באמצעות אפליקציית ניהול קבצים של צד שלישי</string>
-    <string name="pref_database_title_export">ייצא קובץ csv</string>
-    <string name="pref_database_summary_export">ייצא את הערכים לקובץ csv שאינו מוצפן</string>
-    <string name="pref_database_title_import">ייבא קובץ csv</string>
-    <string name="pref_database_summary_import">ייבא ערכים מקובץ csv שאינו מוצפן</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">שנה סיסמת אב</string>
-    <string name="pref_security_title_fast_enter">כניסה מהירה</string>
-    <string name="pref_security_title_auto_exit">יציאה אוטומטית</string>
-    <string name="pref_security_summary_auto_exit">כאשר המסך נכבה או לאחר 60 שניות ברקע</string>
-    <string name="pref_security_title_stay_awake">הישאר ער</string>
-    <string name="pref_security_summary_stay_awake">המסך לא יישן לעולם בזמן צפייה או עריכה של ערכים</string>
-    <string name="pref_security_title_allow_screenshots">אפשר צילומי מסך</string>
-    <string name="pref_security_title_clipboard_clear">לוח קליפים ברור</string>
-    <string name="pref_security_clipboard_clear_never">לעולם לא</string>
-    <string name="pref_security_clipboard_clear_one_min">דקה 1</string>
-    <string name="pref_security_clipboard_clear_two_min">2 דקות</string>
-    <string name="pref_security_clipboard_clear_three_min">3 דקות</string>
-    <string name="pref_security_clipboard_clear_four_min">4 דקות</string>
-    <string name="pref_security_clipboard_clear_five_min">5 דקות</string>
-    <string name="pref_security_title_self_destruct">ניסיונות סיסמא נכשלים</string>
-    <string name="pref_security_self_destruct_unlimited">ללא הגבלה</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">אימות ביומטרי</string>
-    <string name="pref_security_summary_biometric">דרוש התקן תואם לשימוש בתכונה זו. אתה יכול לציין את הביומטריה המועדפת עליך בהגדרות המערכת (טביעת אצבע, זיהוי פנים וכו \')</string>
-    <string name="pref_security_title_fingerprint">הכנס באמצעות טביעת אצבע</string>
-    <string name="pref_security_summary_fingerprint">דרושה חומרה תואמת לשימוש בתכונה זו</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">דווח על באג</string>
-    <string name="pref_about_title_support">דרג ובדוק</string>
-    <string name="pref_about_title_more_apps">עוד אפליקציות</string>
-    <string name="pref_about_title_share">ספר לחבריך</string>
-    <string name="pref_about_title_translations">תרגומים</string>
-    <string name="pref_about_title_terms">תנאים ומדיניות פרטיות</string>
-    <string name="pref_about_title_licenses">רישיונות קוד פתוח</string>
-    <string name="pref_about_title_build_version">בנה גרסה</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">ללבוש סיסמא</string>
-    <string name="pref_wear_os_summary_password_enabled">הגבל את הגישה בשעון באמצעות סיסמה</string>
-    <string name="pref_wear_os_title_add_to_watch">הוסף לצפייה</string>
-    <string name="pref_wear_os_summary_add_to_watch">ערכים חדשים יתווספו תמיד לשעון</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">מראה חיצוני</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>נושא</string>
-    <string name="pref_category_database">מאגר מידע</string>
-    <string name="pref_category_auto_backup">גיבוי אוטומטי</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">אבטחה</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CLIPBOARD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>הלוח</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ביומטריה</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">שם משתמש</string>
+    <string name="website">אתר אינטרנט</string>
+    <string name="welcome_info_content">אנא רשום סיסמת אב כדי להתחיל להשתמש ביישום. שים לב שאם סיסמת האב אבדה, לא ניתן לשחזר את הנתונים המאוחסנים בגלל אפשרות הסנכרון החסרה. מומלץ מאוד לגבות את הנתונים שלך בפרקי זמן קבועים.</string>
+    <string name="welcome_info_title">ברוך הבא</string>
 </resources>

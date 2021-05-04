@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">Konto</string>
+    <string name="add_new_label">Tilføj ny etiket</string>
     <string name="app_description">En sikker og let at bruge adgangskode manager til Android-enheder</string>
     <string name="app_download_message">Hent det nu gratis fra Google Play-butik</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Slet felt</string>
+    <string name="button_enter">GÅ IND</string>
+    <string name="button_exit">AFSLUT</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">FORSTÅET</string>
+    <string name="button_more">Mere</string>
+    <string name="button_register">TILMELD</string>
+    <string name="button_update">OPDATERING</string>
+    <string name="button_upgrade_now">OPGRADER NU</string>
+    <string name="change_mp_new_master_password">nyt kodeord</string>
+    <string name="change_mp_old_master_password">gammelt kodeord</string>
+    <string name="copy_text">(kopi)</string>
     <string name="current_location_folder">Beliggenhed</string>
+    <string name="dialog_button_cancel">Afbestille</string>
+    <string name="dialog_button_continue">Blive ved</string>
+    <string name="dialog_button_delete">Slet</string>
+    <string name="dialog_button_discard">Kassér</string>
+    <string name="dialog_button_later">Senere</string>
+    <string name="dialog_button_learn_more">Lær mere</string>
+    <string name="dialog_button_never">Aldrig</string>
+    <string name="dialog_button_ok">Okay</string>
+    <string name="dialog_button_rate">Sats</string>
+    <string name="dialog_button_remove">Fjerne</string>
+    <string name="dialog_msg_app_data_erased">Alle data permanent slettet på grund af de mislykkede forsøg.</string>
+    <string name="dialog_msg_attachments_warning">Vedhæftede filer kan øke databasestørrelsen og mindske den samlede ydeevne for applikationen.</string>
+    <string name="dialog_msg_auto_backup_error">Eksternt lager er ikke tilgængeligt. Genaktiver indstillingen automatisk sikkerhedskopiering.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Den biometriske hardware er ikke tilgængelig.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore error. Aktiver venligst biometrikken igen, når du har indtastet din hovedadgangskode.</string>
+    <string name="dialog_msg_biometric_no_hardware">Der er ingen biometrisk hardware.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Ingen registrerede biometri fundet. Indstil venligst ved udlejning en i systemindstillingerne.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Den valgte fil eller mappe er ikke tilgængelig.</string>
+    <string name="dialog_msg_cannot_open_folder">Mappen er ikke tilgængelig.</string>
+    <string name="dialog_msg_cannot_read_file">Den valgte fil kan ikke læses.</string>
+    <string name="dialog_msg_changing_master_password">Ved at ændre hovedadgangskoden vil du ikke være i stand til at gendanne databasesikkerhedskopier, der blev oprettet med den aktuelle hovedadgangskode.</string>
+    <string name="dialog_msg_csv_format_invalid">CSV-formatet er ikke gyldigt.</string>
+    <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
+    <string name="dialog_msg_db_created_on_ios">Databasens sikkerhedskopi blev oprettet på iOS og kan ikke gendannes på Android. Du kan overføre dine data ved hjælp af en csv-fil i stedet.</string>
+    <string name="dialog_msg_db_different_pass">Databasens sikkerhedskopi blev oprettet ved hjælp af en anden hovedadgangskode.</string>
+    <string name="dialog_msg_db_not_valid">Databasens sikkerhedskopi er ikke gyldig.</string>
+    <string name="dialog_msg_delete_entry">Slet indgang?</string>
+    <string name="dialog_msg_delete_field">Slet felt?</string>
+    <string name="dialog_msg_delete_label">Slet etiket?</string>
+    <string name="dialog_msg_delete_selected_entries">Slet valgte poster?</string>
+    <string name="dialog_msg_discard_changes">Vil du kassere ændringer?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alle aktuelle poster vil blive slettet.</string>
+    <string name="dialog_msg_error_reading_file">Fejl ved læsning af fil.</string>
+    <string name="dialog_msg_error_writing_file">Fejl ved skrivning af fil.</string>
+    <string name="dialog_msg_feature_shutdown">Denne auto backup-funktion bliver afvist den 6. december 2019. Du skal i stedet bruge Android-enhedens sikkerhedskopi.</string>
+    <string name="dialog_msg_fp_hint">Berøringssensor</string>
+    <string name="dialog_msg_fp_not_recognized">Fingeraftryk genkendes ikke. Prøv igen</string>
+    <string name="dialog_msg_fp_success">Fingerprint recognized. Vent venligst<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Ingen registrerede fingeraftryk fundet. Indstil mindst et fingeraftryk i systemindstillingerne.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingeraftryks Hardware er ikke til stede eller fungerer ikke.</string>
+    <string name="dialog_msg_pass_gen_trick">Tryk på flere gange for at generere adgangskoder af forskellig type og længde.</string>
+    <string name="dialog_msg_rating">Hvis du kan lide at bruge denne app, ville du være interesseret i at tage et øjeblik for at vurdere det? Det vil ikke tage mere end et minut. Tak for din støtte!</string>
+    <string name="dialog_msg_remove_from_watch">Vil du fjerne posten fra uret?</string>
+    <string name="dialog_progress_please_wait">Vent venligst<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Vedhæfte et andet billede?</string>
+    <string name="dialog_title_authentication">Godkendelse</string>
+    <string name="dialog_title_change_master_password">Skift hovedadgangskode?</string>
+    <string name="dialog_title_confirm_fp">Bekræft dit fingeraftryk</string>
+    <string name="dialog_title_feature_shutdown">Funktionsstop</string>
+    <string name="dialog_title_history">Historie</string>
+    <string name="dialog_title_import_csv">Importer csv?</string>
+    <string name="dialog_title_new_field">Nyt felt</string>
+    <string name="dialog_title_rating">Bedøm denne app</string>
+    <string name="dialog_title_restore_backup">Gendan sikkerhedskopi?</string>
+    <string name="dialog_title_self_destruct">Selvdestruere</string>
+    <string name="dialog_title_set_labels">Indstil etiketter</string>
+    <string name="last_updated">Sidst opdateret</string>
+    <string name="list_is_empty">Der er ingen poster</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_add_field">Tilføj felt</string>
+    <string name="menu_add_to_watch">Føj til uret</string>
+    <string name="menu_appearance">Udseende</string>
+    <string name="menu_attach_image">Vedhæft billede</string>
+    <string name="menu_clear_history">Ryd historie</string>
+    <string name="menu_copy_entry">Lav en kopi</string>
+    <string name="menu_database">Database</string>
+    <string name="menu_delete">Slet</string>
+    <string name="menu_edit">Redigere</string>
+    <string name="menu_exit">Afslut</string>
+    <string name="menu_export_import">Eksport / Import</string>
+    <string name="menu_export_to_pdf">Eksporter til PDF - Udskriv</string>
+    <string name="menu_keyboard">Tastatur</string>
+    <string name="menu_navigation_drawer_all_entries">Alle</string>
+    <string name="menu_navigation_drawer_edit_labels">Rediger etiketter</string>
+    <string name="menu_remove_from_watch">Fjern fra uret</string>
+    <string name="menu_save">GEMME</string>
+    <string name="menu_search">Søg</string>
+    <string name="menu_security">Sikkerhed</string>
+    <string name="menu_select_all">Vælg alle</string>
+    <string name="menu_set_labels">Indstil etiketter</string>
+    <string name="menu_settings">Indstillinger</string>
+    <string name="menu_share">Del</string>
+    <string name="menu_upgrade">Opgrader til Pro</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Luk navigationsskuffen</string>
+    <string name="navigation_drawer_open">Åbn navigationsskuffen</string>
+    <string name="new_field_hint">Navn</string>
+    <string name="notes">Noter</string>
+    <string name="notification_text_app_running">Ansøgningen kører</string>
+    <string name="password">Adgangskode</string>
     <string name="password_is_too_short">Adgangskoden er for kort</string>
-    <string name="passwords_not_matching">Adgangskoder stemmer ikke overens</string>
     <string name="password_not_correct">Adgangskoden er ikke korrekt</string>
     <string name="password_not_only_numbers">Adgangskode indeholder ikke kun tal</string>
-    <string name="password_strength_hint_very_weak">Meget svag!</string>
-    <string name="password_strength_hint_weak">Svag!</string>
     <string name="password_strength_hint_good">Godt!</string>
     <string name="password_strength_hint_strong">Stærk!</string>
     <string name="password_strength_hint_very_strong">Meget stærk!</string>
+    <string name="password_strength_hint_very_weak">Meget svag!</string>
+    <string name="password_strength_hint_weak">Svag!</string>
+    <string name="passwords_not_matching">Adgangskoder stemmer ikke overens</string>
+    <string name="pref_about_title_build_version">Build version</string>
+    <string name="pref_about_title_contact">Anmeld en fejl</string>
+    <string name="pref_about_title_licenses">Open source-licenser</string>
+    <string name="pref_about_title_more_apps">Flere apps</string>
+    <string name="pref_about_title_share">Fortæl dine venner</string>
+    <string name="pref_about_title_support">Bedøm og anmeld</string>
+    <string name="pref_about_title_terms">Betingelser og fortrolighedspolitik</string>
+    <string name="pref_about_title_translations">Oversættelser</string>
+    <string name="pref_appearance_list_subtitles_account">Konto</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Ingen undertekster</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
+    <string name="pref_appearance_sorting_choise_color">Efter farve</string>
+    <string name="pref_appearance_sorting_choise_time">Efter dato</string>
+    <string name="pref_appearance_summary_show_notification">Let at identificere, at applikationen er ulåst og kører</string>
+    <string name="pref_appearance_theme_blue_gray">Blå grå</string>
+    <string name="pref_appearance_theme_dark">Mørkeblå</string>
+    <string name="pref_appearance_theme_default">Standard</string>
+    <string name="pref_appearance_theme_light">Lyseblå</string>
+    <string name="pref_appearance_theme_purple">Lilla</string>
+    <string name="pref_appearance_title_change_theme">Skift tema</string>
+    <string name="pref_appearance_title_list_subtitles">Hovedliste undertekster</string>
+    <string name="pref_appearance_title_navibar_color">Navigationslinje Farve</string>
+    <string name="pref_appearance_title_open_label_list">Åbn etiketteliste ved login</string>
+    <string name="pref_appearance_title_show_notification">Notifikation</string>
+    <string name="pref_appearance_title_show_passwords">Vis adgangskoder</string>
+    <string name="pref_appearance_title_sort_entries">Sorter poster</string>
+    <string name="pref_category_appearance">UDSEENDE</string>
+    <string name="pref_category_auto_backup">AUTOMATISK BACKUP</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRI</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>UDKLIPSHOLDER</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">DATABASE</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">SIKKERHED</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELVDESTRUERE</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Opret automatiske sikkerhedskopier på dit eksterne lager (sd eller internt ikke-aftageligt lager). Du kan få adgang til det eksterne lager ved hjælp af en tredjeparts filhåndteringsapp</string>
+    <string name="pref_database_summary_backup">Opret en sikkerhedskopi af den krypterede database ved hjælp af Android-lageradgangsrammen</string>
+    <string name="pref_database_summary_backup_share">Opret og del en sikkerhedskopi af den krypterede database</string>
+    <string name="pref_database_summary_export">Eksporter posterne til en ikke-krypteret csv-fil</string>
+    <string name="pref_database_summary_import">Importer poster fra en ikke-krypteret csv-fil</string>
+    <string name="pref_database_summary_restore">Gendan en sikkerhedskopi af en krypteret database</string>
+    <string name="pref_database_title_auto_backup">Automatisk backup</string>
+    <string name="pref_database_title_backup">Sikkerhedskopidatabase</string>
+    <string name="pref_database_title_backup_share">Del databasen</string>
+    <string name="pref_database_title_export">Eksporter csv-fil</string>
+    <string name="pref_database_title_import">Importer csv-fil</string>
+    <string name="pref_database_title_restore">Gendan database</string>
+    <string name="pref_export_import_summary_export_csv">Eksporter til en ikke-krypteret csv-fil ved hjælp af Android-lagringsadgangsrammen</string>
+    <string name="pref_export_import_summary_import_csv">Importer fra en ikke-krypteret csv-fil med det relevante format</string>
+    <string name="pref_export_import_summary_share_csv">Opret og del en ikke-krypteret csv-fil</string>
+    <string name="pref_export_import_title_export_csv">Eksporter csv-fil</string>
+    <string name="pref_export_import_title_export_pdf">Eksporter til PDF - Udskriv</string>
+    <string name="pref_export_import_title_import_csv">Importer csv-fil</string>
+    <string name="pref_export_import_title_share_csv">Del csv-fil</string>
+    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_clipboard_clear_four_min">4 min</string>
+    <string name="pref_security_clipboard_clear_never">Aldrig</string>
+    <string name="pref_security_clipboard_clear_one_min">1 min</string>
+    <string name="pref_security_clipboard_clear_three_min">3 min</string>
+    <string name="pref_security_clipboard_clear_two_min">2 min</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Ubegrænset</string>
+    <string name="pref_security_summary_auto_exit">Når skærmen slukkes, eller efter 60 sekunder i baggrunden</string>
+    <string name="pref_security_summary_biometric">Kompatibel enhed er påkrævet for at bruge denne funktion. Du kan specificere din foretrukne biometriske i systemindstillinger (fingeraftryk, ansigtsregistrering osv.)</string>
+    <string name="pref_security_summary_fingerprint">Kompatibel hardware kræves for at bruge denne funktion</string>
+    <string name="pref_security_summary_stay_awake">Skærmen vil aldrig sove, mens du ser eller redigerer poster</string>
+    <string name="pref_security_title_allow_screenshots">Tillad skærmbilleder</string>
+    <string name="pref_security_title_auto_exit">Auto exit</string>
+    <string name="pref_security_title_biometric">Biometrisk godkendelse</string>
+    <string name="pref_security_title_change_password">Skift hovedadgangskode</string>
+    <string name="pref_security_title_clipboard_clear">Ryd udklipsholder</string>
+    <string name="pref_security_title_fast_enter">Hurtigt ind</string>
+    <string name="pref_security_title_fingerprint">Indtast ved hjælp af fingeraftryk</string>
+    <string name="pref_security_title_self_destruct">Mislykkede adgangskodeforsøg</string>
+    <string name="pref_security_title_stay_awake">Hold dig vågen</string>
+    <string name="pref_wear_os_summary_add_to_watch">Nye poster tilføjes altid uret</string>
+    <string name="pref_wear_os_summary_password_enabled">Begræns adgangen på dit ur ved hjælp af en adgangskode</string>
+    <string name="pref_wear_os_title_add_to_watch">Føj til ur</string>
+    <string name="pref_wear_os_title_password_enabled">Bære adgangskode</string>
     <string name="required">Nødvendig</string>
     <string name="title">Titel</string>
-    <string name="account">Konto</string>
-    <string name="password">Adgangskode</string>
-    <string name="username">Brugernavn</string>
-    <string name="website">Internet side</string>
-    <string name="notes">Noter</string>
-    <string name="list_is_empty">Der er ingen poster</string>
-    <string name="last_updated">Sidst opdateret</string>
-    <string name="copy_text">(kopi)</string>
-    <string name="new_field_hint">Navn</string>
-    <string name="add_new_label">Tilføj ny etiket</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">TILMELD</string>
-    <string name="button_enter">GÅ IND</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">OPGRADER NU</string>
-    <string name="button_update">OPDATERING</string>
-    <string name="button_exit">AFSLUT</string>
-    <string name="button_gotit">FORSTÅET</string>
-    <string name="button_more">Mere</string>
-    <string name="button_delete_field">Slet felt</string>
-    <string name="navigation_drawer_open">Åbn navigationsskuffen</string>
-    <string name="navigation_drawer_close">Luk navigationsskuffen</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Velkommen</string>
-    <string name="welcome_info_content">Registrer venligst et hovedadgangskode for at begynde at bruge applikationen. Bemærk, at hvis hovedadgangskoden mistes, kan de lagrede data ikke gendannes på grund af den manglende synkroniseringsmulighed. Det anbefales kraftigt, at du sikkerhedskopierer dine data med regelmæssige intervaller.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Tak, fordi du købte PRO-versionen.</string>
+    <string name="toast_added_to_watch">Føjet til at se</string>
+    <string name="toast_camera_permission_denied">Adgang nægtet. Kan ikke optage billeder.</string>
+    <string name="toast_copied_to_clipboard">Kopieret til udklipsholder</string>
+    <string name="toast_copy_to_clipboard_failed">Kunne ikke kopiere til udklipsholder</string>
+    <string name="toast_database_server_error">Databasen er ikke tilgængelig i øjeblikket</string>
+    <string name="toast_entries_deleted">Indlæg slettet</string>
+    <string name="toast_entry_deleted">Indgang sletted</string>
+    <string name="toast_entry_saved">Indtastning gemt</string>
+    <string name="toast_label_exists">Label findes allerede</string>
+    <string name="toast_master_password_not_updated">Kunne ikke opdatere hovedadgangskoden</string>
+    <string name="toast_master_password_updated">Masteradgangskoden er opdateret</string>
+    <string name="toast_no_browser">Der blev ikke fundet nogen webbrowser-applikation</string>
+    <string name="toast_no_file_selected">Ingen fil blev valgt</string>
+    <string name="toast_no_folder_selected">Ingen mappe blev valgt</string>
+    <string name="toast_no_labels">Ingen etiketter</string>
+    <string name="toast_no_password_history">Ingen adgangskodehistorik tilgængelig</string>
+    <string name="toast_no_playstore">Google Play-butik-appen er ikke installeret</string>
+    <string name="toast_password_history_cleared">Historien ryddet</string>
+    <string name="toast_playstore_error">Google Play-butik-appen er ikke installeret</string>
+    <string name="toast_playstore_services_error">Google Play-tjenester er ikke tilgængelige</string>
+    <string name="toast_pro_feature">Kun tilgængelig i PRO-version</string>
+    <string name="toast_pro_feature_unlimited_labels">Flere labels findes kun i PRO-version</string>
+    <string name="toast_remember_your_master_password">Sørg for, at du husker din hovedadgangskode</string>
+    <string name="toast_removed_from_watch">Fjernet fra uret</string>
+    <string name="toast_storage_not_accessible">Ekstern lagerplads er ikke tilgængelig</string>
+    <string name="toast_storage_permission_denied">Adgang nægtet. Kan ikke læse eller skrive filer.</string>
+    <string name="toast_successful_backup">Oprettet backup</string>
+    <string name="toast_successful_csv_export">Eksporteret csv-fil blev succesrig</string>
+    <string name="toast_successful_csv_import">Importeret csv-fil er vellykket</string>
+    <string name="toast_successful_restore">Gendannet database</string>
+    <string name="toast_tap_again_to_exit">Tryk igen for at afslutte</string>
+    <string name="toast_tap_to_copy_text">Tryk på tekstvisningen for at kopiere indholdet</string>
+    <string name="toast_try_again_shortly">Prøv igen om få sekunder</string>
     <string name="upgrade_feature_1">Eksport og import csv-filer</string>
+    <string name="upgrade_feature_10">Tilpassede felter</string>
+    <string name="upgrade_feature_11">Ubegrænset etiketter</string>
+    <string name="upgrade_feature_12">Biometrisk godkendelse</string>
     <string name="upgrade_feature_3">Valg af emne</string>
     <string name="upgrade_feature_4">Klippebord automatisk ryddet</string>
     <string name="upgrade_feature_5">Selv destruktion</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Kodeords Historie</string>
     <string name="upgrade_feature_9">Billedvedhæftede filer</string>
-    <string name="upgrade_feature_10">Tilpassede felter</string>
-    <string name="upgrade_feature_11">Ubegrænset etiketter</string>
-    <string name="upgrade_feature_12">Biometrisk godkendelse</string>
+    <string name="upgrade_thank_you">Tak, fordi du købte PRO-versionen.</string>
     <string name="upgrade_with_single_purchase">Lås op for alle de ekstra funktioner med et enkelt køb i appen.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">gammelt kodeord</string>
-    <string name="change_mp_new_master_password">nyt kodeord</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Søg</string>
-    <string name="menu_settings">Indstillinger</string>
-    <string name="menu_exit">Afslut</string>
-    <string name="menu_appearance">Udseende</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Sikkerhed</string>
-    <string name="menu_about">Om</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Opgrader til Pro</string>
-    <string name="menu_share">Del</string>
-    <string name="menu_copy_entry">Lav en kopi</string>
-    <string name="menu_edit">Redigere</string>
-    <string name="menu_delete">Slet</string>
-    <string name="menu_save">GEMME</string>
-    <string name="menu_set_labels">Indstil etiketter</string>
-    <string name="menu_attach_image">Vedhæft billede</string>
-    <string name="menu_add_field">Tilføj felt</string>
-    <string name="menu_keyboard">Tastatur</string>
-    <string name="menu_add_to_watch">Føj til ur</string>
-    <string name="menu_clear_history">Ryd historie</string>
-    <string name="menu_select_all">Vælg alle</string>
-    <string name="menu_navigation_drawer_all_entries">Alle</string>
-    <string name="menu_navigation_drawer_edit_labels">Rediger etiketter</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tryk igen for at afslutte</string>
-    <string name="toast_entry_deleted">Indgang sletted</string>
-    <string name="toast_entries_deleted">Indlæg slettet</string>
-    <string name="toast_entry_saved">Indtastning gemt</string>
-    <string name="toast_try_again_shortly">Prøv igen om få sekunder</string>
-    <string name="toast_no_browser">Der blev ikke fundet nogen webbrowser-applikation</string>
-    <string name="toast_no_playstore">Google Play-butik-appen er ikke installeret</string>
-    <string name="toast_tap_to_copy_text">Tryk på tekstvisningen for at kopiere indholdet</string>
-    <string name="toast_copied_to_clipboard">Kopieret til udklipsholder</string>
-    <string name="toast_master_password_updated">Masteradgangskoden er opdateret</string>
-    <string name="toast_master_password_not_updated">Kunne ikke opdatere hovedadgangskoden</string>
-    <string name="toast_storage_permission_denied">Adgang nægtet. Kan ikke læse eller skrive filer.</string>
-    <string name="toast_camera_permission_denied">Adgang nægtet. Kan ikke optage billeder.</string>
-    <string name="toast_no_file_selected">Ingen fil blev valgt</string>
-    <string name="toast_no_folder_selected">Ingen mappe blev valgt</string>
-    <string name="toast_successful_backup">Oprettet backup</string>
-    <string name="toast_successful_restore">Gendannet database</string>
-    <string name="toast_successful_csv_export">Eksporteret csv-fil blev succesrig</string>
-    <string name="toast_successful_csv_import">Importeret csv-fil er vellykket</string>
-    <string name="toast_database_server_error">Databasen er ikke tilgængelig i øjeblikket</string>
-    <string name="toast_added_to_watch">Føjet til at se</string>
-    <string name="toast_removed_from_watch">Fjernet fra uret</string>
-    <string name="toast_playstore_error">Google Play-butik-appen er ikke installeret</string>
-    <string name="toast_playstore_services_error">Google Play-tjenester er ikke tilgængelige</string>
-    <string name="toast_storage_not_accessible">Ekstern lagerplads er ikke tilgængelig</string>
-    <string name="toast_pro_feature">Kun tilgængelig i PRO-version</string>
-    <string name="toast_no_password_history">Ingen adgangskodehistorik tilgængelig</string>
-    <string name="toast_password_history_cleared">Historien ryddet</string>
-    <string name="toast_remember_your_master_password">Sørg for, at du husker din hovedadgangskode</string>
-    <string name="toast_label_exists">Label findes allerede</string>
-    <string name="toast_pro_feature_unlimited_labels">Flere labels findes kun i PRO-version</string>
-    <string name="toast_no_labels">Ingen etiketter</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">Okay</string>
-    <string name="dialog_button_learn_more">Lær mere</string>
-    <string name="dialog_button_continue">Blive ved</string>
-    <string name="dialog_button_cancel">Afbestille</string>
-    <string name="dialog_button_delete">Slet</string>
-    <string name="dialog_button_discard">Kassér</string>
-    <string name="dialog_button_remove">Fjerne</string>
-    <string name="dialog_button_rate">Sats</string>
-    <string name="dialog_button_later">Senere</string>
-    <string name="dialog_button_never">Aldrig</string>
-    <string name="dialog_title_restore_backup">Gendan sikkerhedskopi?</string>
-    <string name="dialog_title_import_csv">Importer csv?</string>
-    <string name="dialog_title_change_master_password">Skift hovedadgangskode?</string>
-    <string name="dialog_title_self_destruct">Selvdestruere</string>
-    <string name="dialog_title_authentication">Godkendelse</string>
-    <string name="dialog_title_confirm_fp">Bekræft dit fingeraftryk</string>
-    <string name="dialog_title_history">Historie</string>
-    <string name="dialog_title_attach_another_image">Vedhæfte et andet billede?</string>
-    <string name="dialog_title_new_field">Nyt felt</string>
-    <string name="dialog_title_set_labels">Indstil etiketter</string>
-    <string name="dialog_title_rating">Bedøm denne app</string>
-    <string name="dialog_title_feature_shutdown">Funktionsstop</string>
-    <string name="dialog_msg_feature_shutdown">Denne auto backup-funktion bliver afvist den 6. december 2019. Du skal i stedet bruge Android-enhedens sikkerhedskopi.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Alle aktuelle poster vil blive slettet.</string>
-    <string name="dialog_msg_changing_master_password">Ved at ændre hovedadgangskoden vil du ikke være i stand til at gendanne databasesikkerhedskopier, der blev oprettet med den aktuelle hovedadgangskode.</string>
-    <string name="dialog_msg_delete_selected_entries">Slet valgte poster?</string>
-    <string name="dialog_msg_delete_entry">Slet indgang?</string>
-    <string name="dialog_msg_delete_label">Slet etiket?</string>
-    <string name="dialog_msg_delete_field">Slet felt?</string>
-    <string name="dialog_msg_discard_changes">Vil du kassere ændringer?</string>
-    <string name="dialog_msg_cannot_open_folder">Mappen er ikke tilgængelig.</string>
-    <string name="dialog_msg_cannot_read_file">Den valgte fil kan ikke læses.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Den valgte fil eller mappe er ikke tilgængelig.</string>
-    <string name="dialog_msg_db_not_valid">Databasens sikkerhedskopi er ikke gyldig.</string>
-    <string name="dialog_msg_db_different_pass">Databasens sikkerhedskopi blev oprettet ved hjælp af en anden hovedadgangskode.</string>
-    <string name="dialog_msg_db_created_on_ios">Databasens sikkerhedskopi blev oprettet på iOS og kan ikke gendannes på Android. Du kan overføre dine data ved hjælp af en csv-fil i stedet.</string>
-    <string name="dialog_msg_csv_format_invalid">CSV-formatet er ikke gyldigt.</string>
-    <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
-    <string name="dialog_msg_error_writing_file">Fejl ved skrivning af fil.</string>
-    <string name="dialog_msg_error_reading_file">Fejl ved læsning af fil.</string>
-    <string name="dialog_msg_app_data_erased">Alle data permanent slettet på grund af de mislykkede forsøg.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingeraftryks Hardware er ikke til stede eller fungerer ikke.</string>
-    <string name="dialog_msg_no_fp_enrolled">Ingen registrerede fingeraftryk fundet. Indstil mindst et fingeraftryk i systemindstillingerne.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingeraftryk genkendes ikke. Prøv igen</string>
-    <string name="dialog_msg_fp_success">Fingerprint recognized. Vent venligst<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Berøringssensor</string>
-    <string name="dialog_msg_biometric_no_hardware">Der er ingen biometrisk hardware.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Den biometriske hardware er ikke tilgængelig.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Ingen registrerede biometri fundet. Indstil venligst ved udlejning en i systemindstillingerne.</string>
-    <string name="dialog_msg_biometric_keystore_error">Keystore error. Aktiver venligst biometrikken igen, når du har indtastet din hovedadgangskode.</string>
-    <string name="dialog_msg_pass_gen_trick">Tryk på flere gange for at generere adgangskoder af forskellig type og længde.</string>
-    <string name="dialog_msg_remove_from_watch">Vil du fjerne posten fra uret?</string>
-    <string name="dialog_msg_attachments_warning">Vedhæftede filer kan øke databasestørrelsen og mindske den samlede ydeevne for applikationen.</string>
-    <string name="dialog_msg_rating">Hvis du kan lide at bruge denne app, ville du være interesseret i at tage et øjeblik for at vurdere det? Det vil ikke tage mere end et minut. Tak for din støtte!</string>
-    <string name="dialog_msg_auto_backup_error">Eksternt lager er ikke tilgængeligt. Genaktiver indstillingen automatisk sikkerhedskopiering.</string>
-    <string name="dialog_progress_please_wait">Vent venligst<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Ansøgningen kører</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sorter poster</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
-    <string name="pref_appearance_sorting_choise_time">Efter dato</string>
-    <string name="pref_appearance_sorting_choise_color">Efter farve</string>
-    <string name="pref_appearance_title_list_subtitles">Hovedliste undertekster</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Ingen undertekster</string>
-    <string name="pref_appearance_list_subtitles_account">Konto</string>
-    <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
-    <string name="pref_appearance_title_navibar_color">Navigationslinje Farve</string>
-    <string name="pref_appearance_title_show_notification">Notifikation</string>
-    <string name="pref_appearance_summary_show_notification">Let at identificere, at applikationen er ulåst og kører</string>
-    <string name="pref_appearance_title_open_label_list">Åbn etiketteliste ved login</string>
-    <string name="pref_appearance_title_show_passwords">Vis adgangskoder</string>
-    <string name="pref_appearance_title_change_theme">Skift tema</string>
-    <string name="pref_appearance_theme_default">Standard</string>
-    <string name="pref_appearance_theme_light">Lyseblå</string>
-    <string name="pref_appearance_theme_dark">Mørkeblå</string>
-    <string name="pref_appearance_theme_blue_gray">Blå grå</string>
-    <string name="pref_appearance_theme_purple">Lilla</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Del databasen</string>
-    <string name="pref_database_summary_backup_share">Opret og del en sikkerhedskopi af den krypterede database</string>
-    <string name="pref_database_title_backup">Sikkerhedskopidatabase</string>
-    <string name="pref_database_summary_backup">Opret en sikkerhedskopi af den krypterede database ved hjælp af Android-lageradgangsrammen</string>
-    <string name="pref_database_title_restore">Gendan database</string>
-    <string name="pref_database_summary_restore">Gendan en sikkerhedskopi af en krypteret database</string>
-    <string name="pref_database_title_auto_backup">Automatisk backup</string>
-    <string name="pref_database_summary_auto_backup">Opret automatiske sikkerhedskopier på dit eksterne lager (sd eller internt ikke-aftageligt lager). Du kan få adgang til det eksterne lager ved hjælp af en tredjeparts filhåndteringsapp</string>
-    <string name="pref_database_title_export">Eksporter csv-fil</string>
-    <string name="pref_database_summary_export">Eksporter posterne til en ikke-krypteret csv-fil</string>
-    <string name="pref_database_title_import">Importer csv-fil</string>
-    <string name="pref_database_summary_import">Importer poster fra en ikke-krypteret csv-fil</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Skift hovedadgangskode</string>
-    <string name="pref_security_title_fast_enter">Hurtigt ind</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">Når skærmen slukkes, eller efter 60 sekunder i baggrunden</string>
-    <string name="pref_security_title_stay_awake">Hold dig vågen</string>
-    <string name="pref_security_summary_stay_awake">Skærmen vil aldrig sove, mens du ser eller redigerer poster</string>
-    <string name="pref_security_title_allow_screenshots">Tillad skærmbilleder</string>
-    <string name="pref_security_title_clipboard_clear">Ryd udklipsholder</string>
-    <string name="pref_security_clipboard_clear_never">Aldrig</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Mislykkede adgangskodeforsøg</string>
-    <string name="pref_security_self_destruct_unlimited">Ubegrænset</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biometrisk godkendelse</string>
-    <string name="pref_security_summary_biometric">Kompatibel enhed er påkrævet for at bruge denne funktion. Du kan specificere din foretrukne biometriske i systemindstillinger (fingeraftryk, ansigtsregistrering osv.)</string>
-    <string name="pref_security_title_fingerprint">Indtast ved hjælp af fingeraftryk</string>
-    <string name="pref_security_summary_fingerprint">Kompatibel hardware kræves for at bruge denne funktion</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Anmeld en fejl</string>
-    <string name="pref_about_title_support">Bedøm og anmeld</string>
-    <string name="pref_about_title_more_apps">Flere apps</string>
-    <string name="pref_about_title_share">Fortæl dine venner</string>
-    <string name="pref_about_title_translations">Oversættelser</string>
-    <string name="pref_about_title_terms">Betingelser og fortrolighedspolitik</string>
-    <string name="pref_about_title_licenses">Open source-licenser</string>
-    <string name="pref_about_title_build_version">Build version</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Bære adgangskode</string>
-    <string name="pref_wear_os_summary_password_enabled">Begræns adgangen på dit ur ved hjælp af en adgangskode</string>
-    <string name="pref_wear_os_title_add_to_watch">Føj til ur</string>
-    <string name="pref_wear_os_summary_add_to_watch">Nye poster tilføjes altid uret</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">UDSEENDE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup">AUTOMATISK BACKUP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SIKKERHED</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>UDKLIPSHOLDER</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SELVDESTRUERE</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRI</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Brugernavn</string>
+    <string name="website">Internet side</string>
+    <string name="welcome_info_content">Registrer venligst et hovedadgangskode for at begynde at bruge applikationen. Bemærk, at hvis hovedadgangskoden mistes, kan de lagrede data ikke gendannes på grund af den manglende synkroniseringsmulighed. Det anbefales kraftigt, at du sikkerhedskopierer dine data med regelmæssige intervaller.</string>
+    <string name="welcome_info_title">Velkommen</string>
 </resources>

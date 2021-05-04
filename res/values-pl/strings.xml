@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account">Konto</string>
+    <string name="add_new_label">Dodaj nową etykietę</string>
     <string name="app_description">Bezpieczny i prosty w obsłudze menadżer haseł.</string>
     <string name="app_download_message">Pobierz ze Sklepu Play.</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Usuń pole</string>
+    <string name="button_enter">WEJDŹ</string>
+    <string name="button_exit">WYJDŹ</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">JASNE</string>
+    <string name="button_more">Więcej</string>
+    <string name="button_register">ZAREJESTRUJ</string>
+    <string name="button_update">AKTUALIZUJ</string>
+    <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
+    <string name="change_mp_new_master_password">nowe hasło główne</string>
+    <string name="change_mp_old_master_password">stare hasło główne</string>
+    <string name="copy_text">(kopia)</string>
     <string name="current_location_folder">Lokacja</string>
+    <string name="dialog_button_cancel">Anuluj</string>
+    <string name="dialog_button_continue">Dalej</string>
+    <string name="dialog_button_delete">Usuń</string>
+    <string name="dialog_button_discard">Odzruć</string>
+    <string name="dialog_button_later">Później</string>
+    <string name="dialog_button_learn_more">Ucz się więcej</string>
+    <string name="dialog_button_never">Nigdy</string>
+    <string name="dialog_button_ok">dobrze</string>
+    <string name="dialog_button_rate">Oceń teraz</string>
+    <string name="dialog_button_remove">Usuń</string>
+    <string name="dialog_msg_app_data_erased">Zbyt wiele prób. Wszystkie dane zostały usunięte!</string>
+    <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
+    <string name="dialog_msg_auto_backup_error">Pamięć zewnętrzna nie jest dostępna. Włącz ponownie opcję automatycznego tworzenia kopii zapasowych.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Sprzęt biometryczny jest niedostępny.</string>
+    <string name="dialog_msg_biometric_keystore_error">Błąd magazynu kluczy. Ponownie włącz uwierzytelnianie biometryczne po wprowadzeniu hasła głównego.</string>
+    <string name="dialog_msg_biometric_no_hardware">Nie ma sprzętu biometrycznego.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Nie znaleziono zapisanych danych biometrycznych. Ustaw przynajmniej jedną w ustawieniach systemu.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Nie można uzyskać dostępu do wybranego pliku lub folderu.</string>
+    <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
+    <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
+    <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
+    <string name="dialog_msg_csv_format_invalid">Format CSV jest nieprawidłowy.</string>
+    <string name="dialog_msg_csv_no_data">W pliku CSV nie ma danych.</string>
+    <string name="dialog_msg_db_created_on_ios">Kopia zapasowa bazy danych została utworzona w systemie iOS i nie można jej przywrócić w systemie Android. Zamiast tego możesz przesłać swoje dane za pomocą pliku csv.</string>
+    <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
+    <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
+    <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
+    <string name="dialog_msg_delete_field">Usunąć pole?</string>
+    <string name="dialog_msg_delete_label">Usunąć etykietę?</string>
+    <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
+    <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
+    <string name="dialog_msg_error_reading_file">Błąd odczytu pliku.</string>
+    <string name="dialog_msg_error_writing_file">Błąd podczas zapisywania pliku.</string>
+    <string name="dialog_msg_feature_shutdown">Ta funkcja automatycznej kopii zapasowej zostanie wyłączona 6 grudnia 2019 r. Zamiast tego należy użyć kopii zapasowej urządzenia z systemem Android.</string>
+    <string name="dialog_msg_fp_hint">Dotknij czytnika</string>
+    <string name="dialog_msg_fp_not_recognized">Nie rozpoznano odcisku. Spróbuj ponownie</string>
+    <string name="dialog_msg_fp_success">Rozpoznano odscisk. Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Brak zarejstrowanych odcisków. Dodaj przynajmniej jeden w ustawieniach systemu</string>
+    <string name="dialog_msg_no_fp_hardware">Brak czytnika odcisków lub nie działa on prawidłowo.</string>
+    <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
+    <string name="dialog_msg_rating">Jeśli podoba Ci ta się aplikacja, to czy poświęcisz chwilę, aby ją ocenić? Nie zajmie Ci to dłużej niż minutę. Dziękujemy za Twoje wsparcie!</string>
+    <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
+    <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
+    <string name="dialog_title_authentication">Poświadczenie</string>
+    <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
+    <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
+    <string name="dialog_title_feature_shutdown">Wyłączenie funkcji</string>
+    <string name="dialog_title_history">Historia</string>
+    <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
+    <string name="dialog_title_new_field">Nowe pole</string>
+    <string name="dialog_title_rating">Oceń aplikację</string>
+    <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
+    <string name="dialog_title_self_destruct">Autodestrukcja</string>
+    <string name="dialog_title_set_labels">Ustaw etykiety</string>
+    <string name="last_updated">Aktualizacja</string>
+    <string name="list_is_empty">Nie ma wpisów!</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="menu_add_field">Dodaj pole</string>
+    <string name="menu_add_to_watch">Do zegarka</string>
+    <string name="menu_appearance">Wygląd</string>
+    <string name="menu_attach_image">Dołącz obraz</string>
+    <string name="menu_clear_history">Czysta historia</string>
+    <string name="menu_copy_entry">Kopiuj</string>
+    <string name="menu_database">Baza danych</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="menu_edit">Edytuj</string>
+    <string name="menu_exit">Wyjście</string>
+    <string name="menu_export_import">Eksport / Import</string>
+    <string name="menu_export_to_pdf">Eksportuj do PDF - Drukuj</string>
+    <string name="menu_keyboard">Klawiatura</string>
+    <string name="menu_navigation_drawer_all_entries">Wszystko</string>
+    <string name="menu_navigation_drawer_edit_labels">Edytuj etykiety</string>
+    <string name="menu_remove_from_watch">Usuń z zegarka</string>
+    <string name="menu_save">Zapisz</string>
+    <string name="menu_search">Szukaj</string>
+    <string name="menu_security">Bezpieczeństwo</string>
+    <string name="menu_select_all">Zaznacz wszystko</string>
+    <string name="menu_set_labels">Ustaw etykiety</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_upgrade">Przejdź na PRO</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Zamknij szufladę nawigacji</string>
+    <string name="navigation_drawer_open">Otwarta szuflada nawigacji</string>
+    <string name="new_field_hint">Imię</string>
+    <string name="notes">Opis</string>
+    <string name="notification_text_app_running">Aplikacja uruchomiona</string>
+    <string name="password">Hasło</string>
     <string name="password_is_too_short">Zakrótkie hasło!</string>
-    <string name="passwords_not_matching">Hasła się różnią</string>
     <string name="password_not_correct">Hasło jest niepoprawne!</string>
     <string name="password_not_only_numbers">Hasło zawiera nie tylko cyfry</string>
-    <string name="password_strength_hint_very_weak">Bardzo słaby!</string>
-    <string name="password_strength_hint_weak">Słaby!</string>
     <string name="password_strength_hint_good">Dobry!</string>
     <string name="password_strength_hint_strong">Silny!</string>
     <string name="password_strength_hint_very_strong">Bardzo silny!</string>
+    <string name="password_strength_hint_very_weak">Bardzo słaby!</string>
+    <string name="password_strength_hint_weak">Słaby!</string>
+    <string name="passwords_not_matching">Hasła się różnią</string>
+    <string name="pref_about_title_build_version">Build</string>
+    <string name="pref_about_title_contact">Zgłoś błąd</string>
+    <string name="pref_about_title_licenses">Licencje open source</string>
+    <string name="pref_about_title_more_apps">Więcej aplikacji</string>
+    <string name="pref_about_title_share">Poleć znajomym</string>
+    <string name="pref_about_title_support">Oceń</string>
+    <string name="pref_about_title_terms">Warunki i polityka prywatności</string>
+    <string name="pref_about_title_translations">Tłumaczenia</string>
+    <string name="pref_appearance_list_subtitles_account">Konto</string>
+    <string name="pref_appearance_list_subtitles_labels">Etykiety</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Bez napisów</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
+    <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
+    <string name="pref_appearance_sorting_choise_time">Po dacie</string>
+    <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
+    <string name="pref_appearance_theme_blue_gray">Niebiesko szary</string>
+    <string name="pref_appearance_theme_dark">Ciemny</string>
+    <string name="pref_appearance_theme_default">Domyślna</string>
+    <string name="pref_appearance_theme_light">Jasny</string>
+    <string name="pref_appearance_theme_purple">Fioletowy</string>
+    <string name="pref_appearance_title_change_theme">Zmień styl</string>
+    <string name="pref_appearance_title_list_subtitles">Główne listy napisów</string>
+    <string name="pref_appearance_title_navibar_color">kolor paska nawigacyjnego</string>
+    <string name="pref_appearance_title_open_label_list">Otwórz listę etykiet przy logowaniu</string>
+    <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
+    <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
+    <string name="pref_appearance_title_sort_entries">Sortuj wpisy</string>
+    <string name="pref_category_appearance">WYGLĄD</string>
+    <string name="pref_category_auto_backup">AUTOMATYCZNEGO TWORZENIA KOPII ZAPASOWYCH</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIA</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">BAZA DANYCH</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">BEZPIECZEŃSTWO</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>STYL</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Twórz automatyczne kopie zapasowe w pamięci zewnętrznej (karta sd lub pamięć urządzenia). Pamięć zewnętrzną możesz przeglądać przy użyciu dowolnego managera plików</string>
+    <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
+    <string name="pref_database_summary_backup_share">Utwórz i udostępnij zaszyfrowaną bazę danych</string>
+    <string name="pref_database_summary_export">Eksportuj dane do niezaszyfrowanego pliku CSV</string>
+    <string name="pref_database_summary_import">Importuje dane z pliku CSV</string>
+    <string name="pref_database_summary_restore">Przywraca kopię zapasową bazy danych</string>
+    <string name="pref_database_title_auto_backup">Automatycznego tworzenia kopii zapasowych</string>
+    <string name="pref_database_title_backup">Kopia zapasowa bazy danych.</string>
+    <string name="pref_database_title_backup_share">Udostępnij bazę danych</string>
+    <string name="pref_database_title_export">Eksportuj plik CSV</string>
+    <string name="pref_database_title_import">Importuj plik CSV</string>
+    <string name="pref_database_title_restore">Przywróć bazę danych</string>
+    <string name="pref_export_import_summary_export_csv">Eksportuj do niezaszyfrowanego pliku CSV przy użyciu struktury dostępu do magazynu systemu Android</string>
+    <string name="pref_export_import_summary_import_csv">Importuj z niezaszyfrowanego pliku CSV w odpowiednim formacie</string>
+    <string name="pref_export_import_summary_share_csv">Utwórz i udostępnij niezaszyfrowany plik CSV</string>
+    <string name="pref_export_import_title_export_csv">Eksportuj plik CSV</string>
+    <string name="pref_export_import_title_export_pdf">Eksportuj do PDF - Drukuj</string>
+    <string name="pref_export_import_title_import_csv">Importuj plik CSV</string>
+    <string name="pref_export_import_title_share_csv">Udostępnij plik CSV</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minuta</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minuta</string>
+    <string name="pref_security_clipboard_clear_never">Nigdy</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minuta</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minuta</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minuta</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Bez ograniczeń</string>
+    <string name="pref_security_summary_auto_exit">Gdy ekran się wyłączy lub po 60 sekundach będzie w tle</string>
+    <string name="pref_security_summary_biometric">Do korzystania z tej funkcji wymagane jest zgodne urządzenie. Możesz określić preferowany biometryczny w ustawieniach systemu (odcisk palca, wykrywanie twarzy itp.)</string>
+    <string name="pref_security_summary_fingerprint">Do tego potrzebny jest Android 6.0 lub nowszy</string>
+    <string name="pref_security_summary_stay_awake">Ekran nigdy nie wygaśnie używając applikacji</string>
+    <string name="pref_security_title_allow_screenshots">Zezwalaj na zrzuty ekranu</string>
+    <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
+    <string name="pref_security_title_biometric">Uwierzytelnianie biometryczne</string>
+    <string name="pref_security_title_change_password">Zmień hasło główne</string>
+    <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
+    <string name="pref_security_title_fast_enter">Szybkie otwarcie</string>
+    <string name="pref_security_title_fingerprint">Loguj odciskiem palca</string>
+    <string name="pref_security_title_self_destruct">Liczba błędnych logowań</string>
+    <string name="pref_security_title_stay_awake">Pozostaw włączony</string>
+    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
+    <string name="pref_wear_os_summary_password_enabled">Chroń dostęp na zegarku hasłem</string>
+    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
+    <string name="pref_wear_os_title_password_enabled">Hasło Android Wear</string>
     <string name="required">Wymagane</string>
     <string name="title">Nazwa</string>
-    <string name="account">Konto</string>
-    <string name="password">Hasło</string>
-    <string name="username">Użytkownik</string>
-    <string name="website">Strona WWW</string>
-    <string name="notes">Opis</string>
-    <string name="list_is_empty">Nie ma wpisów!</string>
-    <string name="last_updated">Aktualizacja</string>
-    <string name="copy_text">(kopia)</string>
-    <string name="new_field_hint">Imię</string>
-    <string name="add_new_label">Dodaj nową etykietę</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">ZAREJESTRUJ</string>
-    <string name="button_enter">WEJDŹ</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">PRZEJDŹ NA PRO</string>
-    <string name="button_update">AKTUALIZUJ</string>
-    <string name="button_exit">WYJDŹ</string>
-    <string name="button_gotit">JASNE</string>
-    <string name="button_more">Więcej</string>
-    <string name="button_delete_field">Usuń pole</string>
-    <string name="navigation_drawer_open">Otwarta szuflada nawigacji</string>
-    <string name="navigation_drawer_close">Zamknij szufladę nawigacji</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Witamy</string>
-    <string name="welcome_info_content">Utwórz hasło główne by używać aplikacji. Jeśli zgubisz hasło dane będą nie do odzyskania! Dlatego rób częste kopie zapasowe.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
+    <string name="toast_added_to_watch">Dodano do zegarka</string>
+    <string name="toast_camera_permission_denied">Odmowa dostępu. NIe można zrobić zdjęcia.</string>
+    <string name="toast_copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="toast_copy_to_clipboard_failed">Nie udało się skopiować do schowka</string>
+    <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
+    <string name="toast_entries_deleted">Wpisy usunięte</string>
+    <string name="toast_entry_deleted">Wpis usunięty</string>
+    <string name="toast_entry_saved">Zapisano</string>
+    <string name="toast_label_exists">Etykieta już istnieje</string>
+    <string name="toast_master_password_not_updated">Nie udało się zaktualizować hasła głównego</string>
+    <string name="toast_master_password_updated">Uaktualniono hasło główne</string>
+    <string name="toast_no_browser">Nie znaleziono przeglądarki</string>
+    <string name="toast_no_file_selected">Nie wybrano pliku.</string>
+    <string name="toast_no_folder_selected">Nie wybrano żadnego folderu</string>
+    <string name="toast_no_labels">Brak etykiet</string>
+    <string name="toast_no_password_history">Brak historii haseł</string>
+    <string name="toast_no_playstore">Sklep Google Play jest niezainstalowany</string>
+    <string name="toast_password_history_cleared">Historia została wyczyszczona</string>
+    <string name="toast_playstore_error">Sklep Google Play jest nie zainstalowany</string>
+    <string name="toast_playstore_services_error">Usługi Google Play są niedostępne</string>
+    <string name="toast_pro_feature">Tylko w wersji PRO</string>
+    <string name="toast_pro_feature_unlimited_labels">Więcej etykiet dostępnych tylko w wersji PRO</string>
+    <string name="toast_remember_your_master_password">Upewnij się, że pamiętasz swoje główne hasło</string>
+    <string name="toast_removed_from_watch">Usunięto z zegarka</string>
+    <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
+    <string name="toast_storage_permission_denied">Odmowa dostępu. Nie będzie można zapisywać i odczytywać plików.</string>
+    <string name="toast_successful_backup">Utworzono kopię zapasową</string>
+    <string name="toast_successful_csv_export">Wyeksportowano plik CSV</string>
+    <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
+    <string name="toast_successful_restore">Przywrócono bazę danych</string>
+    <string name="toast_tap_again_to_exit">Dotknij ponownie by wyjść</string>
+    <string name="toast_tap_to_copy_text">Dotknij tekstu aby go skopiować</string>
+    <string name="toast_try_again_shortly">Spróbuj ponownie za kilka sekund </string>
     <string name="upgrade_feature_1">Import &amp; eksport plików CSV</string>
+    <string name="upgrade_feature_10">Custom fields</string>
+    <string name="upgrade_feature_11">Nieograniczone etykiety</string>
+    <string name="upgrade_feature_12">Uwierzytelnianie biometryczne</string>
     <string name="upgrade_feature_3">Wybór tematu</string>
     <string name="upgrade_feature_4">Czyszczenie schowka</string>
     <string name="upgrade_feature_5">Autodestrukcja</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Apka Wear OS</string>
     <string name="upgrade_feature_8">Historia haseł</string>
     <string name="upgrade_feature_9">Załączniki</string>
-    <string name="upgrade_feature_10">Custom fields</string>
-    <string name="upgrade_feature_11">Nieograniczone etykiety</string>
-    <string name="upgrade_feature_12">Uwierzytelnianie biometryczne</string>
+    <string name="upgrade_thank_you">Dziękuję za zakup wersji PRO.</string>
     <string name="upgrade_with_single_purchase">Odblokuj wszystkie dodatkowe funkcje jednym zamówieniem.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">stare hasło główne</string>
-    <string name="change_mp_new_master_password">nowe hasło główne</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Szukaj</string>
-    <string name="menu_settings">Ustawienia</string>
-    <string name="menu_exit">Wyjście</string>
-    <string name="menu_appearance">Wygląd</string>
-    <string name="menu_database">Baza danych</string>
-    <string name="menu_security">Bezpieczeństwo</string>
-    <string name="menu_about">O aplikacji</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Przejdź na PRO</string>
-    <string name="menu_share">Udostępnij</string>
-    <string name="menu_copy_entry">Kopiuj</string>
-    <string name="menu_edit">Edytuj</string>
-    <string name="menu_delete">Usuń</string>
-    <string name="menu_save">Zapisz</string>
-    <string name="menu_set_labels">Ustaw etykiety</string>
-    <string name="menu_attach_image">Dołącz obraz</string>
-    <string name="menu_add_field">Dodaj pole</string>
-    <string name="menu_keyboard">Klawiatura</string>
-    <string name="menu_add_to_watch">Do zegarka</string>
-    <string name="menu_clear_history">Czysta historia</string>
-    <string name="menu_select_all">Zaznacz wszystko</string>
-    <string name="menu_navigation_drawer_all_entries">Wszystko</string>
-    <string name="menu_navigation_drawer_edit_labels">Edytuj etykiety</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Dotknij ponownie by wyjść</string>
-    <string name="toast_entry_deleted">Wpis usunięty</string>
-    <string name="toast_entries_deleted">Wpisy usunięte</string>
-    <string name="toast_entry_saved">Zapisano</string>
-    <string name="toast_try_again_shortly">Spróbuj ponownie za kilka sekund </string>
-    <string name="toast_no_browser">Nie znaleziono przeglądarki</string>
-    <string name="toast_no_playstore">Sklep Google Play jest niezainstalowany</string>
-    <string name="toast_tap_to_copy_text">Dotknij tekstu aby go skopiować</string>
-    <string name="toast_copied_to_clipboard">Skopiowano do schowka</string>
-    <string name="toast_master_password_updated">Uaktualniono hasło główne</string>
-    <string name="toast_master_password_not_updated">Nie udało się zaktualizować hasła głównego</string>
-    <string name="toast_storage_permission_denied">Odmowa dostępu. Nie będzie można zapisywać i odczytywać plików.</string>
-    <string name="toast_camera_permission_denied">Odmowa dostępu. NIe można zrobić zdjęcia.</string>
-    <string name="toast_no_file_selected">Nie wybrano pliku.</string>
-    <string name="toast_no_folder_selected">Nie wybrano żadnego folderu</string>
-    <string name="toast_successful_backup">Utworzono kopię zapasową</string>
-    <string name="toast_successful_restore">Przywrócono bazę danych</string>
-    <string name="toast_successful_csv_export">Wyeksportowano plik CSV</string>
-    <string name="toast_successful_csv_import">Przywrócono dane z pliku CSV</string>
-    <string name="toast_database_server_error">Baza danych jest nie dostępna.</string>
-    <string name="toast_added_to_watch">Dodano do zegarka</string>
-    <string name="toast_removed_from_watch">Usunięto z zegarka</string>
-    <string name="toast_playstore_error">Sklep Google Play jest nie zainstalowany</string>
-    <string name="toast_playstore_services_error">Usługi Google Play są niedostępne</string>
-    <string name="toast_storage_not_accessible">Pamięć zewnętrzna niedostępna</string>
-    <string name="toast_pro_feature">Tylko w wersji PRO</string>
-    <string name="toast_no_password_history">Brak historii haseł</string>
-    <string name="toast_password_history_cleared">Historia została wyczyszczona</string>
-    <string name="toast_remember_your_master_password">Upewnij się, że pamiętasz swoje główne hasło</string>
-    <string name="toast_label_exists">Etykieta już istnieje</string>
-    <string name="toast_pro_feature_unlimited_labels">Więcej etykiet dostępnych tylko w wersji PRO</string>
-    <string name="toast_no_labels">Brak etykiet</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">dobrze</string>
-    <string name="dialog_button_learn_more">Ucz się więcej</string>
-    <string name="dialog_button_continue">Dalej</string>
-    <string name="dialog_button_cancel">Anuluj</string>
-    <string name="dialog_button_delete">Usuń</string>
-    <string name="dialog_button_discard">Odzruć</string>
-    <string name="dialog_button_remove">Usuń</string>
-    <string name="dialog_button_rate">Oceń teraz</string>
-    <string name="dialog_button_later">Później</string>
-    <string name="dialog_button_never">Nigdy</string>
-    <string name="dialog_title_restore_backup">Przywrócić kopię zapasową?</string>
-    <string name="dialog_title_import_csv">Zaimportować plik CSV?</string>
-    <string name="dialog_title_change_master_password">Zmienić hasło główne?</string>
-    <string name="dialog_title_self_destruct">Autodestrukcja</string>
-    <string name="dialog_title_authentication">Poświadczenie</string>
-    <string name="dialog_title_confirm_fp">Potwierdź odcisk palca</string>
-    <string name="dialog_title_history">Historia</string>
-    <string name="dialog_title_attach_another_image">Dodać kolejny obraz?</string>
-    <string name="dialog_title_new_field">Nowe pole</string>
-    <string name="dialog_title_set_labels">Ustaw etykiety</string>
-    <string name="dialog_title_rating">Oceń aplikację</string>
-    <string name="dialog_title_feature_shutdown">Wyłączenie funkcji</string>
-    <string name="dialog_msg_feature_shutdown">Ta funkcja automatycznej kopii zapasowej zostanie wyłączona 6 grudnia 2019 r. Zamiast tego należy użyć kopii zapasowej urządzenia z systemem Android.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Wszystkie wpisy zostaną usunięte.</string>
-    <string name="dialog_msg_changing_master_password">Zmieniając hasło główne nie będzie możliwe przywrócenie kopii zapasowych zapisanych ze starym hasłem.</string>
-    <string name="dialog_msg_delete_selected_entries">Usunąć wybrane wpisy?</string>
-    <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
-    <string name="dialog_msg_delete_label">Usunąć etykietę?</string>
-    <string name="dialog_msg_delete_field">Usunąć pole?</string>
-    <string name="dialog_msg_discard_changes">Odrzucić zmiany?</string>
-    <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
-    <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Nie można uzyskać dostępu do wybranego pliku lub folderu.</string>
-    <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
-    <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
-    <string name="dialog_msg_db_created_on_ios">Kopia zapasowa bazy danych została utworzona w systemie iOS i nie można jej przywrócić w systemie Android. Zamiast tego możesz przesłać swoje dane za pomocą pliku csv.</string>
-    <string name="dialog_msg_csv_format_invalid">Format CSV jest nieprawidłowy.</string>
-    <string name="dialog_msg_csv_no_data">W pliku CSV nie ma danych.</string>
-    <string name="dialog_msg_error_writing_file">Błąd podczas zapisywania pliku.</string>
-    <string name="dialog_msg_error_reading_file">Błąd odczytu pliku.</string>
-    <string name="dialog_msg_app_data_erased">Zbyt wiele prób. Wszystkie dane zostały usunięte!</string>
-    <string name="dialog_msg_no_fp_hardware">Brak czytnika odcisków lub nie działa on prawidłowo.</string>
-    <string name="dialog_msg_no_fp_enrolled">Brak zarejstrowanych odcisków. Dodaj przynajmniej jeden w ustawieniach systemu</string>
-    <string name="dialog_msg_fp_not_recognized">Nie rozpoznano odcisku. Spróbuj ponownie</string>
-    <string name="dialog_msg_fp_success">Rozpoznano odscisk. Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Dotknij czytnika</string>
-    <string name="dialog_msg_biometric_no_hardware">Nie ma sprzętu biometrycznego.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Sprzęt biometryczny jest niedostępny.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Nie znaleziono zapisanych danych biometrycznych. Ustaw przynajmniej jedną w ustawieniach systemu.</string>
-    <string name="dialog_msg_biometric_keystore_error">Błąd magazynu kluczy. Ponownie włącz uwierzytelnianie biometryczne po wprowadzeniu hasła głównego.</string>
-    <string name="dialog_msg_pass_gen_trick">Dotknij wiele razy aby generować różne hasła o różnej długości.</string>
-    <string name="dialog_msg_remove_from_watch">Usunąć z zegraka?</string>
-    <string name="dialog_msg_attachments_warning">Załącznik zwiększają rozmiar bazy danych i mogą spowolnić aplikację.</string>
-    <string name="dialog_msg_rating">Jeśli podoba Ci ta się aplikacja, to czy poświęcisz chwilę, aby ją ocenić? Nie zajmie Ci to dłużej niż minutę. Dziękujemy za Twoje wsparcie!</string>
-    <string name="dialog_msg_auto_backup_error">Pamięć zewnętrzna nie jest dostępna. Włącz ponownie opcję automatycznego tworzenia kopii zapasowych.</string>
-    <string name="dialog_progress_please_wait">Proszę czekać<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Aplikacja uruchomiona</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sortuj wpisy</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alfabetycznie</string>
-    <string name="pref_appearance_sorting_choise_time">Po dacie</string>
-    <string name="pref_appearance_sorting_choise_color">Po kolorze</string>
-    <string name="pref_appearance_title_list_subtitles">Główne listy napisów</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Bez napisów</string>
-    <string name="pref_appearance_list_subtitles_account">Konto</string>
-    <string name="pref_appearance_list_subtitles_labels">Etykiety</string>
-    <string name="pref_appearance_title_navibar_color">kolor paska nawigacyjnego</string>
-    <string name="pref_appearance_title_show_notification">Pokaż ikonę na pasku powiadomień.</string>
-    <string name="pref_appearance_summary_show_notification">Ikona informuje o uruchommieniu i odblokowaniu aplikacji</string>
-    <string name="pref_appearance_title_open_label_list">Otwórz listę etykiet przy logowaniu</string>
-    <string name="pref_appearance_title_show_passwords">Pokaż hasła</string>
-    <string name="pref_appearance_title_change_theme">Zmień styl</string>
-    <string name="pref_appearance_theme_default">Domyślna</string>
-    <string name="pref_appearance_theme_light">Jasny</string>
-    <string name="pref_appearance_theme_dark">Ciemny</string>
-    <string name="pref_appearance_theme_blue_gray">Niebiesko szary</string>
-    <string name="pref_appearance_theme_purple">Fioletowy</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Udostępnij bazę danych</string>
-    <string name="pref_database_summary_backup_share">Utwórz i udostępnij zaszyfrowaną bazę danych</string>
-    <string name="pref_database_title_backup">Kopia zapasowa bazy danych.</string>
-    <string name="pref_database_summary_backup">Tworzy zaszyfrowaną kopię bazy danych</string>
-    <string name="pref_database_title_restore">Przywróć bazę danych</string>
-    <string name="pref_database_summary_restore">Przywraca kopię zapasową bazy danych</string>
-    <string name="pref_database_title_auto_backup">Automatycznego tworzenia kopii zapasowych</string>
-    <string name="pref_database_summary_auto_backup">Twórz automatyczne kopie zapasowe w pamięci zewnętrznej (karta sd lub pamięć urządzenia). Pamięć zewnętrzną możesz przeglądać przy użyciu dowolnego managera plików</string>
-    <string name="pref_database_title_export">Eksportuj plik CSV</string>
-    <string name="pref_database_summary_export">Eksportuj dane do niezaszyfrowanego pliku CSV</string>
-    <string name="pref_database_title_import">Importuj plik CSV</string>
-    <string name="pref_database_summary_import">Importuje dane z pliku CSV</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Zmień hasło główne</string>
-    <string name="pref_security_title_fast_enter">Szybkie otwarcie</string>
-    <string name="pref_security_title_auto_exit">Automatyczne wyjście</string>
-    <string name="pref_security_summary_auto_exit">Gdy ekran się wyłączy lub po 60 sekundach będzie w tle</string>
-    <string name="pref_security_title_stay_awake">Pozostaw włączony</string>
-    <string name="pref_security_summary_stay_awake">Ekran nigdy nie wygaśnie używając applikacji</string>
-    <string name="pref_security_title_allow_screenshots">Zezwalaj na zrzuty ekranu</string>
-    <string name="pref_security_title_clipboard_clear">Czyść schowek</string>
-    <string name="pref_security_clipboard_clear_never">Nigdy</string>
-    <string name="pref_security_clipboard_clear_one_min">1 minuta</string>
-    <string name="pref_security_clipboard_clear_two_min">2 minuta</string>
-    <string name="pref_security_clipboard_clear_three_min">3 minuta</string>
-    <string name="pref_security_clipboard_clear_four_min">4 minuta</string>
-    <string name="pref_security_clipboard_clear_five_min">5 minuta</string>
-    <string name="pref_security_title_self_destruct">Liczba błędnych logowań</string>
-    <string name="pref_security_self_destruct_unlimited">Bez ograniczeń</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Uwierzytelnianie biometryczne</string>
-    <string name="pref_security_summary_biometric">Do korzystania z tej funkcji wymagane jest zgodne urządzenie. Możesz określić preferowany biometryczny w ustawieniach systemu (odcisk palca, wykrywanie twarzy itp.)</string>
-    <string name="pref_security_title_fingerprint">Loguj odciskiem palca</string>
-    <string name="pref_security_summary_fingerprint">Do tego potrzebny jest Android 6.0 lub nowszy</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Zgłoś błąd</string>
-    <string name="pref_about_title_support">Oceń</string>
-    <string name="pref_about_title_more_apps">Więcej aplikacji</string>
-    <string name="pref_about_title_share">Poleć znajomym</string>
-    <string name="pref_about_title_translations">Tłumaczenia</string>
-    <string name="pref_about_title_terms">Warunki i polityka prywatności</string>
-    <string name="pref_about_title_licenses">Licencje open source</string>
-    <string name="pref_about_title_build_version">Build</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Hasło Android Wear</string>
-    <string name="pref_wear_os_summary_password_enabled">Chroń dostęp na zegarku hasłem</string>
-    <string name="pref_wear_os_title_add_to_watch">Add to watch</string>
-    <string name="pref_wear_os_summary_add_to_watch">New entries will be always added to the watch</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">WYGLĄD</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>STYL</string>
-    <string name="pref_category_database">BAZA DANYCH</string>
-    <string name="pref_category_auto_backup">AUTOMATYCZNEGO TWORZENIA KOPII ZAPASOWYCH</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">BEZPIECZEŃSTWO</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SCHOWEK</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>AUTODESTRUKCJA</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRIA</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Użytkownik</string>
+    <string name="website">Strona WWW</string>
+    <string name="welcome_info_content">Utwórz hasło główne by używać aplikacji. Jeśli zgubisz hasło dane będą nie do odzyskania! Dlatego rób częste kopie zapasowe.</string>
+    <string name="welcome_info_title">Witamy</string>
 </resources>

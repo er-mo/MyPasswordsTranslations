@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">الحساب</string>
+    <string name="add_new_label">إضافة تسمية جديدة</string>
     <string name="app_description">آمن وسهل الاستخدام مدير كلمة المرور</string>
     <string name="app_download_message">احصل عليه الآن مجانًا من متجر Google Play</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">حذف الحقل</string>
+    <string name="button_enter">أدخل</string>
+    <string name="button_exit">ىخرج</string>
+    <string name="button_faq">التعليمات</string>
+    <string name="button_gotit">فهمتك</string>
+    <string name="button_more">إضافي</string>
+    <string name="button_register">تسجيل</string>
+    <string name="button_update">تحديث</string>
+    <string name="button_upgrade_now">تحديث الآن</string>
+    <string name="change_mp_new_master_password">كلمة السر الجديدة</string>
+    <string name="change_mp_old_master_password">كلمة المرور القديمة</string>
+    <string name="copy_text">(نسخ)</string>
     <string name="current_location_folder">موقعك</string>
+    <string name="dialog_button_cancel">إلغاء</string>
+    <string name="dialog_button_continue">استمر</string>
+    <string name="dialog_button_delete">حذف</string>
+    <string name="dialog_button_discard">تجاهل</string>
+    <string name="dialog_button_later">في وقت لاحق</string>
+    <string name="dialog_button_learn_more">أعرف أكثر</string>
+    <string name="dialog_button_never">أبدا</string>
+    <string name="dialog_button_ok">حسنا</string>
+    <string name="dialog_button_rate">قيّمه الآن</string>
+    <string name="dialog_button_remove">إزالة</string>
+    <string name="dialog_msg_app_data_erased">تم حذف جميع البيانات نهائيًا بسبب المحاولات الفاشلة.</string>
+    <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>
+    <string name="dialog_msg_auto_backup_error">لا يمكن الوصول إلى وحدة التخزين الخارجية. يرجى إعادة تمكين خيار النسخ الاحتياطي التلقائي.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">الأجهزة البيومترية غير متوفرة.</string>
+    <string name="dialog_msg_biometric_keystore_error">خطأ في المفاتيح. يرجى إعادة تمكين القياس الحيوي بمجرد إدخال باستخدام كلمة المرور الرئيسية الخاصة بك.</string>
+    <string name="dialog_msg_biometric_no_hardware">لا يوجد أجهزة القياس الحيوي.</string>
+    <string name="dialog_msg_biometric_none_enrolled">لم يتم العثور على القياسات الحيوية المسجلة. يرجى إعداد واحد على الأقل في إعدادات النظام.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">لا يمكن الوصول إلى الملف أو المجلد المحدد.</string>
+    <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
+    <string name="dialog_msg_cannot_read_file">لا يمكن قراءة الملف المحدد.</string>
+    <string name="dialog_msg_changing_master_password">عن طريق تغيير كلمة المرور الرئيسية ، لن تتمكن من استعادة النسخ الاحتياطية لقاعدة البيانات التي تم إنشاؤها باستخدام كلمة المرور الرئيسية الحالية.</string>
+    <string name="dialog_msg_csv_format_invalid">تنسيق CSV غير صالح.</string>
+    <string name="dialog_msg_csv_no_data">ملف CSV لا يحتوي على بيانات.</string>
+    <string name="dialog_msg_db_created_on_ios">تم إنشاء نسخة احتياطية لقاعدة البيانات على نظام التشغيل iOS ولا يمكن استعادتها على نظام Android. يمكنك نقل بياناتك باستخدام ملف CSV بدلاً من ذلك.</string>
+    <string name="dialog_msg_db_different_pass">تم إنشاء النسخ الاحتياطي لقاعدة البيانات باستخدام كلمة مرور رئيسية مختلفة.</string>
+    <string name="dialog_msg_db_not_valid">النسخة الاحتياطية من قاعدة البيانات غير صالحة.</string>
+    <string name="dialog_msg_delete_entry">حذف المدخلات؟</string>
+    <string name="dialog_msg_delete_field">حذف المجال؟</string>
+    <string name="dialog_msg_delete_label">حذف التسمية؟</string>
+    <string name="dialog_msg_delete_selected_entries">حذف الإدخالات المحددة؟</string>
+    <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
+    <string name="dialog_msg_entries_will_be_deleted">سيتم حذف جميع الإدخالات الحالية.</string>
+    <string name="dialog_msg_error_reading_file">خطأ في قراءة الملف</string>
+    <string name="dialog_msg_error_writing_file">خطأ في كتابة الملف.</string>
+    <string name="dialog_msg_feature_shutdown">سيتم إيقاف ميزة النسخ الاحتياطي التلقائي هذه في 6 ديسمبر 2019. يجب عليك بدلاً من ذلك استخدام نسخة احتياطية لجهاز Android.</string>
+    <string name="dialog_msg_fp_hint">استشعار تعمل باللمس</string>
+    <string name="dialog_msg_fp_not_recognized">بصمة غير معترف بها. حاول مرة أخري</string>
+    <string name="dialog_msg_fp_success">بصمة معترف بها. ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">لم يتم العثور على بصمات تسجيل. يرجى إعداد بصمة واحدة على الأقل في إعدادات النظام.</string>
+    <string name="dialog_msg_no_fp_hardware">أجهزة بصمات الأصابع غير موجودة أو لا تعمل.</string>
+    <string name="dialog_msg_pass_gen_trick">اضغط عدة مرات لإنشاء كلمات مرور من نوع وطول مختلفين.</string>
+    <string name="dialog_msg_rating">إذا أعجبك هذا التطبيق ، هل يمكن أن تقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمكم!</string>
+    <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
+    <string name="dialog_progress_please_wait">ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">إرفاق صورة أخرى؟</string>
+    <string name="dialog_title_authentication">المصادقة</string>
+    <string name="dialog_title_change_master_password">تغيير كلمة المرور الرئيسية؟</string>
+    <string name="dialog_title_confirm_fp">تأكد من بصمتك</string>
+    <string name="dialog_title_feature_shutdown">ميزة الاغلاق</string>
+    <string name="dialog_title_history">التاريخ</string>
+    <string name="dialog_title_import_csv">استيراد ملف CSV؟</string>
+    <string name="dialog_title_new_field">حقل جديد</string>
+    <string name="dialog_title_rating">قيم هذا التطبيق</string>
+    <string name="dialog_title_restore_backup">استرجاع النسخة الاحتياطية</string>
+    <string name="dialog_title_self_destruct">تدمير الذات</string>
+    <string name="dialog_title_set_labels">مجموعة العلامات</string>
+    <string name="last_updated">آخر تحديث</string>
+    <string name="list_is_empty">لا توجد مداخل</string>
+    <string name="menu_about">حول</string>
+    <string name="menu_add_field">إضافة حقل</string>
+    <string name="menu_add_to_watch">أضف للمشاهدة</string>
+    <string name="menu_appearance">مظهر خارجي</string>
+    <string name="menu_attach_image">إرفاق الصورة</string>
+    <string name="menu_clear_history">تاريخ واضح</string>
+    <string name="menu_copy_entry">اعمل نسخة</string>
+    <string name="menu_database">قاعدة البيانات</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_edit">تصحيح</string>
+    <string name="menu_exit">خروج</string>
+    <string name="menu_export_import">الاستيراد والتصدير</string>
+    <string name="menu_export_to_pdf">تصدير إلى PDF - طباعة</string>
+    <string name="menu_keyboard">لوحة المفاتيح</string>
+    <string name="menu_navigation_drawer_all_entries">الكل</string>
+    <string name="menu_navigation_drawer_edit_labels">تحرير التسميات</string>
+    <string name="menu_remove_from_watch">إزالة من الساعة</string>
+    <string name="menu_save">حفظ</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_security">الأمان</string>
+    <string name="menu_select_all">اختر الكل</string>
+    <string name="menu_set_labels">مجموعة العلامات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_share">شارك</string>
+    <string name="menu_upgrade">الترقية إلى PRO</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+    <string name="navigation_drawer_open">افتح درج التنقل</string>
+    <string name="new_field_hint">اسم</string>
+    <string name="notes">ملاحظات</string>
+    <string name="notification_text_app_running">التطبيق قيد التشغيل</string>
+    <string name="password">كلمه السر</string>
     <string name="password_is_too_short">كلمة المرور قصيرة جدا</string>
-    <string name="passwords_not_matching">كلمات المرور غير متطابقة</string>
     <string name="password_not_correct">كلمة المرور غير صحيحة</string>
     <string name="password_not_only_numbers">كلمة المرور لا تحتوي على أرقام فقط</string>
-    <string name="password_strength_hint_very_weak">قوي جدا</string>
-    <string name="password_strength_hint_weak">ضعيف</string>
     <string name="password_strength_hint_good">حسن</string>
     <string name="password_strength_hint_strong">قوي</string>
     <string name="password_strength_hint_very_strong">قوي جدا</string>
+    <string name="password_strength_hint_very_weak">قوي جدا</string>
+    <string name="password_strength_hint_weak">ضعيف</string>
+    <string name="passwords_not_matching">كلمات المرور غير متطابقة</string>
+    <string name="pref_about_title_build_version">بناء الإصدار</string>
+    <string name="pref_about_title_contact">الإبلاغ عن خطأ</string>
+    <string name="pref_about_title_licenses">تراخيص مفتوحة المصدر</string>
+    <string name="pref_about_title_more_apps">تطبيقات أكثر</string>
+    <string name="pref_about_title_share">أخبر أصدقائك</string>
+    <string name="pref_about_title_support">معدل ومراجعة</string>
+    <string name="pref_about_title_terms">الشروط وسياسة الخصوصية</string>
+    <string name="pref_about_title_translations">ترجمة</string>
+    <string name="pref_appearance_list_subtitles_account">الحساب</string>
+    <string name="pref_appearance_list_subtitles_labels">تسميات</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">بدون ترجمات</string>
+    <string name="pref_appearance_sorting_choise_alpha">أبجديا</string>
+    <string name="pref_appearance_sorting_choise_color">حسب اللون</string>
+    <string name="pref_appearance_sorting_choise_time">حسب التاريخ</string>
+    <string name="pref_appearance_summary_show_notification">من السهل إدراك أن التطبيق يفتح ويعمل</string>
+    <string name="pref_appearance_theme_blue_gray">ازرق رمادي</string>
+    <string name="pref_appearance_theme_dark">داكن</string>
+    <string name="pref_appearance_theme_default">إفتراضي</string>
+    <string name="pref_appearance_theme_light">ضوء</string>
+    <string name="pref_appearance_theme_purple">أرجواني</string>
+    <string name="pref_appearance_title_change_theme">غير الخلفية</string>
+    <string name="pref_appearance_title_list_subtitles">ترجمات القائمة الرئيسية</string>
+    <string name="pref_appearance_title_navibar_color">لون شريط التنقل</string>
+    <string name="pref_appearance_title_open_label_list">فتح قائمة التسمية عند تسجيل الدخول</string>
+    <string name="pref_appearance_title_show_notification">رمز التنبيه</string>
+    <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
+    <string name="pref_appearance_title_sort_entries">إدخالات الفرز</string>
+    <string name="pref_category_appearance">مظهر خارجي</string>
+    <string name="pref_category_auto_backup">نسخ إحتياطي آلي</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>بصمات</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>الحافظة</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">قاعدة البيانات</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">الأمان</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>التدمير الذاتي</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>موضوع</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">نسخ احتياطي للتخزين الخارجي تلقائيًا (sd أو وحدة تخزين داخلية غير قابلة للإزالة). يمكنك الوصول إلى وحدة التخزين الخارجية باستخدام مدير ملفات لجهة خارجية</string>
+    <string name="pref_database_summary_backup">أنشئ نسخة احتياطية من قاعدة البيانات المشفرة باستخدام إطار الوصول إلى وحدة تخزين Android</string>
+    <string name="pref_database_summary_backup_share">إنشاء ومشاركة نسخة احتياطية من قاعدة البيانات المشفرة</string>
+    <string name="pref_database_summary_export">تصدير الإدخالات إلى ملف CSV غير المشفرة</string>
+    <string name="pref_database_summary_import">استيراد الإدخالات من ملف csv غير المشفر</string>
+    <string name="pref_database_summary_restore">استعادة نسخة احتياطية من قاعدة بيانات مشفرة</string>
+    <string name="pref_database_title_auto_backup">نسخ إحتياطي آلي</string>
+    <string name="pref_database_title_backup">قاعدة بيانات النسخ الاحتياطي</string>
+    <string name="pref_database_title_backup_share">تقاسم قاعدة البيانات</string>
+    <string name="pref_database_title_export">تصدير ملف CSV</string>
+    <string name="pref_database_title_import">استيراد ملف CSV</string>
+    <string name="pref_database_title_restore">استعادة قاعدة البيانات</string>
+    <string name="pref_export_import_summary_export_csv">تصدير إلى ملف csv غير مشفر باستخدام إطار عمل الوصول إلى مساحة تخزين Android</string>
+    <string name="pref_export_import_summary_import_csv">الاستيراد من ملف csv غير مشفر بالتنسيق المناسب</string>
+    <string name="pref_export_import_summary_share_csv">قم بإنشاء ومشاركة ملف csv غير مشفر</string>
+    <string name="pref_export_import_title_export_csv">تصدير ملف CSV</string>
+    <string name="pref_export_import_title_export_pdf">تصدير إلى PDF - طباعة</string>
+    <string name="pref_export_import_title_import_csv">استيراد ملف csv</string>
+    <string name="pref_export_import_title_share_csv">مشاركة ملف csv</string>
+    <string name="pref_security_clipboard_clear_five_min">خمس دقائق</string>
+    <string name="pref_security_clipboard_clear_four_min">أربع دقائق</string>
+    <string name="pref_security_clipboard_clear_never">أبدا</string>
+    <string name="pref_security_clipboard_clear_one_min">دقيقة واحدة</string>
+    <string name="pref_security_clipboard_clear_three_min">ثلاث دقائق</string>
+    <string name="pref_security_clipboard_clear_two_min">دقيقتين</string>
+    <string name="pref_security_self_destruct_fifteen">١٥</string>
+    <string name="pref_security_self_destruct_five">٥</string>
+    <string name="pref_security_self_destruct_ten">١٠</string>
+    <string name="pref_security_self_destruct_three">٣</string>
+    <string name="pref_security_self_destruct_twenty">٢٠</string>
+    <string name="pref_security_self_destruct_unlimited">غير محدود</string>
+    <string name="pref_security_summary_auto_exit">عند إيقاف تشغيل الشاشة أو بعد مرور 60 ثانية في الخلفية</string>
+    <string name="pref_security_summary_biometric">مطلوب جهاز متوافق لاستخدام هذه الميزة. يمكنك تحديد البيومترية المفضلة لديك في إعدادات النظام (بصمة ، اكتشاف الوجه ، إلخ.)</string>
+    <string name="pref_security_summary_fingerprint">يلزم توفر الإصدار 6.0 من نظام التشغيل Android والإصدارات الأحدث والأجهزة المتوافقة لاستخدام هذه الميزة</string>
+    <string name="pref_security_summary_stay_awake">لن تنام الشاشة أبدًا أثناء عرض الإدخالات أو تحريرها</string>
+    <string name="pref_security_title_allow_screenshots">السماح لقطات</string>
+    <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
+    <string name="pref_security_title_biometric">المصادقة البيومترية</string>
+    <string name="pref_security_title_change_password">تغيير كلمة المرور الرئيسية</string>
+    <string name="pref_security_title_clipboard_clear">مسح الحافظة</string>
+    <string name="pref_security_title_fast_enter">ادخل بسرعة</string>
+    <string name="pref_security_title_fingerprint">أدخل باستخدام بصمة</string>
+    <string name="pref_security_title_self_destruct">فشل محاولات كلمة المرور</string>
+    <string name="pref_security_title_stay_awake">إبق متيقظا</string>
+    <string name="pref_wear_os_summary_add_to_watch">سيتم إضافة الإدخالات الجديدة دائمًا إلى الساعة</string>
+    <string name="pref_wear_os_summary_password_enabled">تقييد الوصول على ساعتك باستخدام كلمة مرور</string>
+    <string name="pref_wear_os_title_add_to_watch">أضف للمشاهدة</string>
+    <string name="pref_wear_os_title_password_enabled">ارتداء كلمة المرور</string>
     <string name="required">مطلوب</string>
     <string name="title">عنوان</string>
-    <string name="account">الحساب</string>
-    <string name="password">كلمه السر</string>
-    <string name="username">اسم المستخدم</string>
-    <string name="website">موقع الكتروني</string>
-    <string name="notes">ملاحظات</string>
-    <string name="list_is_empty">لا توجد مداخل</string>
-    <string name="last_updated">آخر تحديث</string>
-    <string name="copy_text">(نسخ)</string>
-    <string name="new_field_hint">اسم</string>
-    <string name="add_new_label">إضافة تسمية جديدة</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">تسجيل</string>
-    <string name="button_enter">أدخل</string>
-    <string name="button_faq">التعليمات</string>
-    <string name="button_upgrade_now">تحديث الآن</string>
-    <string name="button_update">تحديث</string>
-    <string name="button_exit">ىخرج</string>
-    <string name="button_gotit">فهمتك</string>
-    <string name="button_more">إضافي</string>
-    <string name="button_delete_field">حذف الحقل</string>
-    <string name="navigation_drawer_open">افتح درج التنقل</string>
-    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">أهلا بك</string>
-    <string name="welcome_info_content">يرجى تسجيل كلمة مرور رئيسية لبدء استخدام التطبيق. لاحظ أنه في حالة فقدان كلمة المرور الرئيسية ، لا يمكن استرداد البيانات المخزنة بسبب خيار المزامنة المفقود. يوصى بشدة بنسخ بياناتك احتياطيًا على فترات منتظمة.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">شكرا لك على شراء نسخة PRO</string>
+    <string name="toast_added_to_watch">يضاف إلى المشاهدة</string>
+    <string name="toast_camera_permission_denied">طلب الاذن مرفوض. لا يمكن التقاط الصور.</string>
+    <string name="toast_copied_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="toast_copy_to_clipboard_failed">فشل النسخ إلى الحافظة</string>
+    <string name="toast_database_server_error">قاعدة البيانات غير متوفرة في الوقت الحالي</string>
+    <string name="toast_entries_deleted">تم حذف المدخلات</string>
+    <string name="toast_entry_deleted">تم حذف الإدخال</string>
+    <string name="toast_entry_saved">المدخل حفظ</string>
+    <string name="toast_label_exists">التسمية موجودة بالفعتجاهلل</string>
+    <string name="toast_master_password_not_updated">فشل في تحديث كلمة المرور الرئيسية</string>
+    <string name="toast_master_password_updated">تم تحديث كلمة المرور الرئيسية بنجاح</string>
+    <string name="toast_no_browser">لم يتم العثور على تطبيق متصفح الويب</string>
+    <string name="toast_no_file_selected">لم يتم تحديد أي ملف</string>
+    <string name="toast_no_folder_selected">لم يتم تحديد مجلد</string>
+    <string name="toast_no_labels">لا تسميات</string>
+    <string name="toast_no_password_history">لا يوجد محفوظات كلمة المرور متوفرة</string>
+    <string name="toast_no_playstore">تطبيق متجر Google Play غير مثبت</string>
+    <string name="toast_password_history_cleared">مسح التاريخ</string>
+    <string name="toast_playstore_error">تطبيق متجر Google Play غير مثبت</string>
+    <string name="toast_playstore_services_error">خدمات Google Play غير متاحة</string>
+    <string name="toast_pro_feature">متوفر فقط في إصدار المحترفين</string>
+    <string name="toast_pro_feature_unlimited_labels">مزيد من التسميات متوفرة فقط في إصدار المحترفين</string>
+    <string name="toast_remember_your_master_password">تأكد من تذكر كلمة المرور الرئيسية الخاصة بك</string>
+    <string name="toast_removed_from_watch">طرح من الملاحظة</string>
+    <string name="toast_storage_not_accessible">وحدة التخزين الخارجية لا يمكن الوصول إليها</string>
+    <string name="toast_storage_permission_denied">طلب الاذن مرفوض. لا يمكن قراءة أو كتابة الملفات.</string>
+    <string name="toast_successful_backup">نجحت في إنشاء نسخة احتياطية</string>
+    <string name="toast_successful_csv_export">تم تصدير ملف csv بنجاح</string>
+    <string name="toast_successful_csv_import">تم بنجاح استيراد ملف csv</string>
+    <string name="toast_successful_restore">تمت استعادة قاعدة البيانات بنجاح</string>
+    <string name="toast_tap_again_to_exit">انقر مرة أخرى للخروج</string>
+    <string name="toast_tap_to_copy_text">اضغط على عرض النص لنسخ المحتوى</string>
+    <string name="toast_try_again_shortly">يرجى المحاولة مرة أخرى في بضع ثوان</string>
     <string name="upgrade_feature_1">تصدير واستيراد ملفات CSV</string>
+    <string name="upgrade_feature_10">الحقول المخصصة</string>
+    <string name="upgrade_feature_11">تسميات غير محدودة</string>
+    <string name="upgrade_feature_12">المصادقة البيومترية</string>
     <string name="upgrade_feature_3">اختيار الموضوع</string>
     <string name="upgrade_feature_4">الحذف التلقائي من القصاصة</string>
     <string name="upgrade_feature_5">التدمير الذاتي</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS الوضعية</string>
     <string name="upgrade_feature_8">كلمه السر التاريخ</string>
     <string name="upgrade_feature_9">مرفقات الصور</string>
-    <string name="upgrade_feature_10">الحقول المخصصة</string>
-    <string name="upgrade_feature_11">تسميات غير محدودة</string>
-    <string name="upgrade_feature_12">المصادقة البيومترية</string>
+    <string name="upgrade_thank_you">شكرا لك على شراء نسخة PRO</string>
     <string name="upgrade_with_single_purchase">ألغِ تأمين جميع الميزات الإضافية من خلال عملية شراء واحدة داخل التطبيق.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">كلمة المرور القديمة</string>
-    <string name="change_mp_new_master_password">كلمة السر الجديدة</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">بحث</string>
-    <string name="menu_settings">الإعدادات</string>
-    <string name="menu_exit">خروج</string>
-    <string name="menu_appearance">مظهر خارجي</string>
-    <string name="menu_database">قاعدة البيانات</string>
-    <string name="menu_security">الأمان</string>
-    <string name="menu_about">حول</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">الترقية إلى PRO</string>
-    <string name="menu_share">شارك</string>
-    <string name="menu_copy_entry">اعمل نسخة</string>
-    <string name="menu_edit">تصحيح</string>
-    <string name="menu_delete">حذف</string>
-    <string name="menu_save">حفظ</string>
-    <string name="menu_set_labels">مجموعة العلامات</string>
-    <string name="menu_attach_image">إرفاق الصورة</string>
-    <string name="menu_add_field">إضافة حقل</string>
-    <string name="menu_keyboard">لوحة المفاتيح</string>
-    <string name="menu_add_to_watch">أضف للمشاهدة</string>
-    <string name="menu_clear_history">تاريخ واضح</string>
-    <string name="menu_select_all">اختر الكل</string>
-    <string name="menu_navigation_drawer_all_entries">الكل</string>
-    <string name="menu_navigation_drawer_edit_labels">تحرير التسميات</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">انقر مرة أخرى للخروج</string>
-    <string name="toast_entry_deleted">تم حذف الإدخال</string>
-    <string name="toast_entries_deleted">تم حذف المدخلات</string>
-    <string name="toast_entry_saved">المدخل حفظ</string>
-    <string name="toast_try_again_shortly">يرجى المحاولة مرة أخرى في بضع ثوان</string>
-    <string name="toast_no_browser">لم يتم العثور على تطبيق متصفح الويب</string>
-    <string name="toast_no_playstore">تطبيق متجر Google Play غير مثبت</string>
-    <string name="toast_tap_to_copy_text">اضغط على عرض النص لنسخ المحتوى</string>
-    <string name="toast_copied_to_clipboard">نسخ إلى الحافظة</string>
-    <string name="toast_master_password_updated">تم تحديث كلمة المرور الرئيسية بنجاح</string>
-    <string name="toast_master_password_not_updated">فشل في تحديث كلمة المرور الرئيسية</string>
-    <string name="toast_storage_permission_denied">طلب الاذن مرفوض. لا يمكن قراءة أو كتابة الملفات.</string>
-    <string name="toast_camera_permission_denied">طلب الاذن مرفوض. لا يمكن التقاط الصور.</string>
-    <string name="toast_no_file_selected">لم يتم تحديد أي ملف</string>
-    <string name="toast_no_folder_selected">لم يتم تحديد مجلد</string>
-    <string name="toast_successful_backup">نجحت في إنشاء نسخة احتياطية</string>
-    <string name="toast_successful_restore">تمت استعادة قاعدة البيانات بنجاح</string>
-    <string name="toast_successful_csv_export">تم تصدير ملف csv بنجاح</string>
-    <string name="toast_successful_csv_import">تم بنجاح استيراد ملف csv</string>
-    <string name="toast_database_server_error">قاعدة البيانات غير متوفرة في الوقت الحالي</string>
-    <string name="toast_added_to_watch">يضاف إلى المشاهدة</string>
-    <string name="toast_removed_from_watch">طرح من الملاحظة</string>
-    <string name="toast_playstore_error">تطبيق متجر Google Play غير مثبت</string>
-    <string name="toast_playstore_services_error">خدمات Google Play غير متاحة</string>
-    <string name="toast_storage_not_accessible">وحدة التخزين الخارجية لا يمكن الوصول إليها</string>
-    <string name="toast_pro_feature">متوفر فقط في إصدار المحترفين</string>
-    <string name="toast_no_password_history">لا يوجد محفوظات كلمة المرور متوفرة</string>
-    <string name="toast_password_history_cleared">مسح التاريخ</string>
-    <string name="toast_remember_your_master_password">تأكد من تذكر كلمة المرور الرئيسية الخاصة بك</string>
-    <string name="toast_label_exists">التسمية موجودة بالفعتجاهلل</string>
-    <string name="toast_pro_feature_unlimited_labels">مزيد من التسميات متوفرة فقط في إصدار المحترفين</string>
-    <string name="toast_no_labels">لا تسميات</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">حسنا</string>
-    <string name="dialog_button_learn_more">أعرف أكثر</string>
-    <string name="dialog_button_continue">استمر</string>
-    <string name="dialog_button_cancel">إلغاء</string>
-    <string name="dialog_button_delete">حذف</string>
-    <string name="dialog_button_discard">تجاهل</string>
-    <string name="dialog_button_remove">إزالة</string>
-    <string name="dialog_button_rate">قيّمه الآن</string>
-    <string name="dialog_button_later">في وقت لاحق</string>
-    <string name="dialog_button_never">أبدا</string>
-    <string name="dialog_title_restore_backup">استرجاع النسخة الاحتياطية</string>
-    <string name="dialog_title_import_csv">استيراد ملف CSV؟</string>
-    <string name="dialog_title_change_master_password">تغيير كلمة المرور الرئيسية؟</string>
-    <string name="dialog_title_self_destruct">تدمير الذات</string>
-    <string name="dialog_title_authentication">المصادقة</string>
-    <string name="dialog_title_confirm_fp">تأكد من بصمتك</string>
-    <string name="dialog_title_history">التاريخ</string>
-    <string name="dialog_title_attach_another_image">إرفاق صورة أخرى؟</string>
-    <string name="dialog_title_new_field">حقل جديد</string>
-    <string name="dialog_title_set_labels">مجموعة العلامات</string>
-    <string name="dialog_title_rating">قيم هذا التطبيق</string>
-    <string name="dialog_title_feature_shutdown">ميزة الاغلاق</string>
-    <string name="dialog_msg_feature_shutdown">سيتم إيقاف ميزة النسخ الاحتياطي التلقائي هذه في 6 ديسمبر 2019. يجب عليك بدلاً من ذلك استخدام نسخة احتياطية لجهاز Android.</string>
-    <string name="dialog_msg_entries_will_be_deleted">سيتم حذف جميع الإدخالات الحالية.</string>
-    <string name="dialog_msg_changing_master_password">عن طريق تغيير كلمة المرور الرئيسية ، لن تتمكن من استعادة النسخ الاحتياطية لقاعدة البيانات التي تم إنشاؤها باستخدام كلمة المرور الرئيسية الحالية.</string>
-    <string name="dialog_msg_delete_selected_entries">حذف الإدخالات المحددة؟</string>
-    <string name="dialog_msg_delete_entry">حذف المدخلات؟</string>
-    <string name="dialog_msg_delete_label">حذف التسمية؟</string>
-    <string name="dialog_msg_delete_field">حذف المجال؟</string>
-    <string name="dialog_msg_discard_changes">تجاهل التغييرات؟</string>
-    <string name="dialog_msg_cannot_open_folder">المجلد غير قابل للوصول.</string>
-    <string name="dialog_msg_cannot_read_file">لا يمكن قراءة الملف المحدد.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">لا يمكن الوصول إلى الملف أو المجلد المحدد.</string>
-    <string name="dialog_msg_db_not_valid">النسخة الاحتياطية من قاعدة البيانات غير صالحة.</string>
-    <string name="dialog_msg_db_different_pass">تم إنشاء النسخ الاحتياطي لقاعدة البيانات باستخدام كلمة مرور رئيسية مختلفة.</string>
-    <string name="dialog_msg_db_created_on_ios">تم إنشاء نسخة احتياطية لقاعدة البيانات على نظام التشغيل iOS ولا يمكن استعادتها على نظام Android. يمكنك نقل بياناتك باستخدام ملف CSV بدلاً من ذلك.</string>
-    <string name="dialog_msg_csv_format_invalid">تنسيق CSV غير صالح.</string>
-    <string name="dialog_msg_csv_no_data">ملف CSV لا يحتوي على بيانات.</string>
-    <string name="dialog_msg_error_writing_file">خطأ في كتابة الملف.</string>
-    <string name="dialog_msg_error_reading_file">خطأ في قراءة الملف</string>
-    <string name="dialog_msg_app_data_erased">تم حذف جميع البيانات نهائيًا بسبب المحاولات الفاشلة.</string>
-    <string name="dialog_msg_no_fp_hardware">أجهزة بصمات الأصابع غير موجودة أو لا تعمل.</string>
-    <string name="dialog_msg_no_fp_enrolled">لم يتم العثور على بصمات تسجيل. يرجى إعداد بصمة واحدة على الأقل في إعدادات النظام.</string>
-    <string name="dialog_msg_fp_not_recognized">بصمة غير معترف بها. حاول مرة أخري</string>
-    <string name="dialog_msg_fp_success">بصمة معترف بها. ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">استشعار تعمل باللمس</string>
-    <string name="dialog_msg_biometric_no_hardware">لا يوجد أجهزة القياس الحيوي.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">الأجهزة البيومترية غير متوفرة.</string>
-    <string name="dialog_msg_biometric_none_enrolled">لم يتم العثور على القياسات الحيوية المسجلة. يرجى إعداد واحد على الأقل في إعدادات النظام.</string>
-    <string name="dialog_msg_biometric_keystore_error">خطأ في المفاتيح. يرجى إعادة تمكين القياس الحيوي بمجرد إدخال باستخدام كلمة المرور الرئيسية الخاصة بك.</string>
-    <string name="dialog_msg_pass_gen_trick">اضغط عدة مرات لإنشاء كلمات مرور من نوع وطول مختلفين.</string>
-    <string name="dialog_msg_remove_from_watch">هل تريد إزالة الإدخال من الساعة؟</string>
-    <string name="dialog_msg_attachments_warning">قد تزيد المرفقات حجم قاعدة البيانات وتقليل الأداء الكلي للتطبيق.</string>
-    <string name="dialog_msg_rating">إذا أعجبك هذا التطبيق ، هل يمكن أن تقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمكم!</string>
-    <string name="dialog_msg_auto_backup_error">لا يمكن الوصول إلى وحدة التخزين الخارجية. يرجى إعادة تمكين خيار النسخ الاحتياطي التلقائي.</string>
-    <string name="dialog_progress_please_wait">ارجوك انتظر<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">التطبيق قيد التشغيل</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">إدخالات الفرز</string>
-    <string name="pref_appearance_sorting_choise_alpha">أبجديا</string>
-    <string name="pref_appearance_sorting_choise_time">حسب التاريخ</string>
-    <string name="pref_appearance_sorting_choise_color">حسب اللون</string>
-    <string name="pref_appearance_title_list_subtitles">ترجمات القائمة الرئيسية</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">بدون ترجمات</string>
-    <string name="pref_appearance_list_subtitles_account">الحساب</string>
-    <string name="pref_appearance_list_subtitles_labels">تسميات</string>
-    <string name="pref_appearance_title_navibar_color">لون شريط التنقل</string>
-    <string name="pref_appearance_title_show_notification">رمز التنبيه</string>
-    <string name="pref_appearance_summary_show_notification">من السهل إدراك أن التطبيق يفتح ويعمل</string>
-    <string name="pref_appearance_title_open_label_list">فتح قائمة التسمية عند تسجيل الدخول</string>
-    <string name="pref_appearance_title_show_passwords">عرض كلمات المرور</string>
-    <string name="pref_appearance_title_change_theme">غير الخلفية</string>
-    <string name="pref_appearance_theme_default">إفتراضي</string>
-    <string name="pref_appearance_theme_light">ضوء</string>
-    <string name="pref_appearance_theme_dark">داكن</string>
-    <string name="pref_appearance_theme_blue_gray">ازرق رمادي</string>
-    <string name="pref_appearance_theme_purple">أرجواني</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">تقاسم قاعدة البيانات</string>
-    <string name="pref_database_summary_backup_share">إنشاء ومشاركة نسخة احتياطية من قاعدة البيانات المشفرة</string>
-    <string name="pref_database_title_backup">قاعدة بيانات النسخ الاحتياطي</string>
-    <string name="pref_database_summary_backup">أنشئ نسخة احتياطية من قاعدة البيانات المشفرة باستخدام إطار الوصول إلى وحدة تخزين Android</string>
-    <string name="pref_database_title_restore">استعادة قاعدة البيانات</string>
-    <string name="pref_database_summary_restore">استعادة نسخة احتياطية من قاعدة بيانات مشفرة</string>
-    <string name="pref_database_title_auto_backup">نسخ إحتياطي آلي</string>
-    <string name="pref_database_summary_auto_backup">نسخ احتياطي للتخزين الخارجي تلقائيًا (sd أو وحدة تخزين داخلية غير قابلة للإزالة). يمكنك الوصول إلى وحدة التخزين الخارجية باستخدام مدير ملفات لجهة خارجية</string>
-    <string name="pref_database_title_export">تصدير ملف CSV</string>
-    <string name="pref_database_summary_export">تصدير الإدخالات إلى ملف CSV غير المشفرة</string>
-    <string name="pref_database_title_import">استيراد ملف CSV</string>
-    <string name="pref_database_summary_import">استيراد الإدخالات من ملف csv غير المشفر</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">تغيير كلمة المرور الرئيسية</string>
-    <string name="pref_security_title_fast_enter">ادخل بسرعة</string>
-    <string name="pref_security_title_auto_exit">الإخراج التلقائي</string>
-    <string name="pref_security_summary_auto_exit">عند إيقاف تشغيل الشاشة أو بعد مرور 60 ثانية في الخلفية</string>
-    <string name="pref_security_title_stay_awake">إبق متيقظا</string>
-    <string name="pref_security_summary_stay_awake">لن تنام الشاشة أبدًا أثناء عرض الإدخالات أو تحريرها</string>
-    <string name="pref_security_title_allow_screenshots">السماح لقطات</string>
-    <string name="pref_security_title_clipboard_clear">مسح الحافظة</string>
-    <string name="pref_security_clipboard_clear_never">أبدا</string>
-    <string name="pref_security_clipboard_clear_one_min">دقيقة واحدة</string>
-    <string name="pref_security_clipboard_clear_two_min">دقيقتين</string>
-    <string name="pref_security_clipboard_clear_three_min">ثلاث دقائق</string>
-    <string name="pref_security_clipboard_clear_four_min">أربع دقائق</string>
-    <string name="pref_security_clipboard_clear_five_min">خمس دقائق</string>
-    <string name="pref_security_title_self_destruct">فشل محاولات كلمة المرور</string>
-    <string name="pref_security_self_destruct_unlimited">غير محدود</string>
-    <string name="pref_security_self_destruct_three">٣</string>
-    <string name="pref_security_self_destruct_five">٥</string>
-    <string name="pref_security_self_destruct_ten">١٠</string>
-    <string name="pref_security_self_destruct_fifteen">١٥</string>
-    <string name="pref_security_self_destruct_twenty">٢٠</string>
-    <string name="pref_security_title_biometric">المصادقة البيومترية</string>
-    <string name="pref_security_summary_biometric">مطلوب جهاز متوافق لاستخدام هذه الميزة. يمكنك تحديد البيومترية المفضلة لديك في إعدادات النظام (بصمة ، اكتشاف الوجه ، إلخ.)</string>
-    <string name="pref_security_title_fingerprint">أدخل باستخدام بصمة</string>
-    <string name="pref_security_summary_fingerprint">يلزم توفر الإصدار 6.0 من نظام التشغيل Android والإصدارات الأحدث والأجهزة المتوافقة لاستخدام هذه الميزة</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">الإبلاغ عن خطأ</string>
-    <string name="pref_about_title_support">معدل ومراجعة</string>
-    <string name="pref_about_title_more_apps">تطبيقات أكثر</string>
-    <string name="pref_about_title_share">أخبر أصدقائك</string>
-    <string name="pref_about_title_translations">ترجمة</string>
-    <string name="pref_about_title_terms">الشروط وسياسة الخصوصية</string>
-    <string name="pref_about_title_licenses">تراخيص مفتوحة المصدر</string>
-    <string name="pref_about_title_build_version">بناء الإصدار</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">ارتداء كلمة المرور</string>
-    <string name="pref_wear_os_summary_password_enabled">تقييد الوصول على ساعتك باستخدام كلمة مرور</string>
-    <string name="pref_wear_os_title_add_to_watch">أضف للمشاهدة</string>
-    <string name="pref_wear_os_summary_add_to_watch">سيتم إضافة الإدخالات الجديدة دائمًا إلى الساعة</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">مظهر خارجي</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>موضوع</string>
-    <string name="pref_category_database">قاعدة البيانات</string>
-    <string name="pref_category_auto_backup">نسخ إحتياطي آلي</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">الأمان</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>الحافظة</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>التدمير الذاتي</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>بصمات</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">اسم المستخدم</string>
+    <string name="website">موقع الكتروني</string>
+    <string name="welcome_info_content">يرجى تسجيل كلمة مرور رئيسية لبدء استخدام التطبيق. لاحظ أنه في حالة فقدان كلمة المرور الرئيسية ، لا يمكن استرداد البيانات المخزنة بسبب خيار المزامنة المفقود. يوصى بشدة بنسخ بياناتك احتياطيًا على فترات منتظمة.</string>
+    <string name="welcome_info_title">أهلا بك</string>
 </resources>

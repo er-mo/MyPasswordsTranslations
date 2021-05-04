@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">アカウント</string>
+    <string name="add_new_label">新しいラベルを追加</string>
     <string name="app_description">Androidデバイス用の安全で使いやすいパスワードマネージャー</string>
     <string name="app_download_message">Google Playストアから今すぐ無料で入手</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">フィールドを削除</string>
+    <string name="button_enter">入る</string>
+    <string name="button_exit">出口</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">とった</string>
+    <string name="button_more">もっと</string>
+    <string name="button_register">登録</string>
+    <string name="button_update">更新</string>
+    <string name="button_upgrade_now">今すぐアップグレード</string>
+    <string name="change_mp_new_master_password">新しいパスワード</string>
+    <string name="change_mp_old_master_password">以前のパスワード</string>
+    <string name="copy_text">（コピー）</string>
     <string name="current_location_folder">ロケーション</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+    <string name="dialog_button_continue">継続する</string>
+    <string name="dialog_button_delete">削除する</string>
+    <string name="dialog_button_discard">拒否する</string>
+    <string name="dialog_button_later">後で</string>
+    <string name="dialog_button_learn_more">もっと詳しく知る</string>
+    <string name="dialog_button_never">決して</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_rate">割合</string>
+    <string name="dialog_button_remove">削除する</string>
+    <string name="dialog_msg_app_data_erased">試行が失敗したため、すべてのデータが完全に削除されました。</string>
+    <string name="dialog_msg_attachments_warning">添付ファイルにより、データベースのサイズが増加し、アプリケーションの全体的なパフォーマンスが低下する場合があります。</string>
+    <string name="dialog_msg_auto_backup_error">外部ストレージにアクセスできません。 自動バックアップオプションを再度有効にしてください。</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">生体認証ハードウェアは利用できません.</string>
+    <string name="dialog_msg_biometric_keystore_error">キーストアエラー。 マスターパスワードを使用して入力したら、生体認証を再度有効にしてください</string>
+    <string name="dialog_msg_biometric_no_hardware">生体認証ハードウェアはありません.</string>
+    <string name="dialog_msg_biometric_none_enrolled">登録済みの生体認証は見つかりませんでした。 システム設定で少なくとも1つ設定してください.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">選択したファイルまたはフォルダにアクセスできません。</string>
+    <string name="dialog_msg_cannot_open_folder">フォルダにアクセスできません。</string>
+    <string name="dialog_msg_cannot_read_file">選択したファイルを読み取ることができません。</string>
+    <string name="dialog_msg_changing_master_password">マスターパスワードを変更すると、現在のマスターパスワードで作成されたデータベースのバックアップを復元できなくなります。</string>
+    <string name="dialog_msg_csv_format_invalid">CSV形式が無効です。</string>
+    <string name="dialog_msg_csv_no_data">CSVファイルにデータがありません。</string>
+    <string name="dialog_msg_db_created_on_ios">データベースのバックアップはiOSで作成され、Androidでは復元できません。 代わりにcsvファイルを使用してデータを転送できます。</string>
+    <string name="dialog_msg_db_different_pass">データベースのバックアップは、別のマスターパスワードを使用して作成されました。</string>
+    <string name="dialog_msg_db_not_valid">データベースのバックアップが無効です。</string>
+    <string name="dialog_msg_delete_entry">記入を消す？</string>
+    <string name="dialog_msg_delete_field">フィールドを削除しますか？</string>
+    <string name="dialog_msg_delete_label">ラベルを削除しますか？</string>
+    <string name="dialog_msg_delete_selected_entries">選択したエントリを削除しますか？</string>
+    <string name="dialog_msg_discard_changes">変更を破棄？</string>
+    <string name="dialog_msg_entries_will_be_deleted">現在のエントリはすべて削除されます。</string>
+    <string name="dialog_msg_error_reading_file">ファイルの読み取りエラー。</string>
+    <string name="dialog_msg_error_writing_file">ファイルの書き込みエラー。</string>
+    <string name="dialog_msg_feature_shutdown">この自動バックアップ機能は2019年12月6日に廃止されます。代わりにAndroidデバイスのバックアップを使用してください。</string>
+    <string name="dialog_msg_fp_hint">タッチセンサー</string>
+    <string name="dialog_msg_fp_not_recognized">指紋が認識されません。 再試行</string>
+    <string name="dialog_msg_fp_success">指紋が認識されました。 お待ちください<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">登録済みの指紋は見つかりませんでした。 システム設定で少なくとも1つの指紋を設定してください.</string>
+    <string name="dialog_msg_no_fp_hardware">指紋ハードウェアが存在しないか機能していない.</string>
+    <string name="dialog_msg_pass_gen_trick">複数回タップして、種類と長さの異なるパスワードを生成します.</string>
+    <string name="dialog_msg_rating">このアプリをお楽しみいただけましたら、少し時間を割いて評価していただけませんか。 1分以上かかりません。 ご支援いただきありがとうございます！</string>
+    <string name="dialog_msg_remove_from_watch">時計からエントリを削除しますか？</string>
+    <string name="dialog_progress_please_wait">お待ちください<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">別の画像を添付しますか？</string>
+    <string name="dialog_title_authentication">認証</string>
+    <string name="dialog_title_change_master_password">マスターパスワードを変更しますか？</string>
+    <string name="dialog_title_confirm_fp">指紋を確認してください</string>
+    <string name="dialog_title_feature_shutdown">機能のシャットダウン</string>
+    <string name="dialog_title_history">歴史</string>
+    <string name="dialog_title_import_csv">csvをインポートしますか？</string>
+    <string name="dialog_title_new_field">新しいフィールド</string>
+    <string name="dialog_title_rating">このアプリを評価</string>
+    <string name="dialog_title_restore_backup">バックアップを復元？</string>
+    <string name="dialog_title_self_destruct">自己破壊</string>
+    <string name="dialog_title_set_labels">ラベルを設定する</string>
+    <string name="last_updated">最終更新</string>
+    <string name="list_is_empty">エントリーはありません</string>
+    <string name="menu_about">約</string>
+    <string name="menu_add_field">フィールドを追加</string>
+    <string name="menu_add_to_watch">ウォッチに追加</string>
+    <string name="menu_appearance">外観</string>
+    <string name="menu_attach_image">画像を添付</string>
+    <string name="menu_clear_history">履歴をクリア</string>
+    <string name="menu_copy_entry">コピーを作成</string>
+    <string name="menu_database">データベース</string>
+    <string name="menu_delete">削除する</string>
+    <string name="menu_edit">編集する</string>
+    <string name="menu_exit">出口</string>
+    <string name="menu_export_import">輸出入</string>
+    <string name="menu_export_to_pdf">PDFにエクスポート-印刷</string>
+    <string name="menu_keyboard">キーボード</string>
+    <string name="menu_navigation_drawer_all_entries">すべて</string>
+    <string name="menu_navigation_drawer_edit_labels">ラベルを編集する</string>
+    <string name="menu_remove_from_watch">時計から外す</string>
+    <string name="menu_save">セーブ</string>
+    <string name="menu_search">探す</string>
+    <string name="menu_security">安全保障</string>
+    <string name="menu_select_all">すべて選択</string>
+    <string name="menu_set_labels">ラベルを設定する</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_upgrade">プロ仕様にアップグレードする</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="new_field_hint">名前</string>
+    <string name="notes">ノート</string>
+    <string name="notification_text_app_running">アプリケーションは実行中です</string>
+    <string name="password">パスワード</string>
     <string name="password_is_too_short">パスワードが短すぎます</string>
-    <string name="passwords_not_matching">パスワードが一致しません</string>
     <string name="password_not_correct">パスワードが違います</string>
     <string name="password_not_only_numbers">パスワードには数字だけではない</string>
-    <string name="password_strength_hint_very_weak">非常に弱い！</string>
-    <string name="password_strength_hint_weak">弱い！</string>
     <string name="password_strength_hint_good">良い！</string>
     <string name="password_strength_hint_strong">強い！</string>
     <string name="password_strength_hint_very_strong">とても強い！</string>
+    <string name="password_strength_hint_very_weak">非常に弱い！</string>
+    <string name="password_strength_hint_weak">弱い！</string>
+    <string name="passwords_not_matching">パスワードが一致しません</string>
+    <string name="pref_about_title_build_version">ビルドバージョン</string>
+    <string name="pref_about_title_contact">バグを報告</string>
+    <string name="pref_about_title_licenses">オープンソースライセンス</string>
+    <string name="pref_about_title_more_apps">より多くのアプリケーション</string>
+    <string name="pref_about_title_share">友達に教えて</string>
+    <string name="pref_about_title_support">評価と批評</string>
+    <string name="pref_about_title_terms">利用規約とプライバシーポリシー</string>
+    <string name="pref_about_title_translations">翻訳</string>
+    <string name="pref_appearance_list_subtitles_account">アカウント</string>
+    <string name="pref_appearance_list_subtitles_labels">ラベル</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">字幕なし</string>
+    <string name="pref_appearance_sorting_choise_alpha">アルファベット順</string>
+    <string name="pref_appearance_sorting_choise_color">色で</string>
+    <string name="pref_appearance_sorting_choise_time">日付順</string>
+    <string name="pref_appearance_summary_show_notification">アプリケーションがロック解除されて実行されていることを簡単に識別</string>
+    <string name="pref_appearance_theme_blue_gray">ブルーグレイ</string>
+    <string name="pref_appearance_theme_dark">濃紺</string>
+    <string name="pref_appearance_theme_default">デフォルト</string>
+    <string name="pref_appearance_theme_light">ライトブルー</string>
+    <string name="pref_appearance_theme_purple">紫の</string>
+    <string name="pref_appearance_title_change_theme">テーマを変更</string>
+    <string name="pref_appearance_title_list_subtitles">メインリストの字幕</string>
+    <string name="pref_appearance_title_navibar_color">ナビゲーションバーの色</string>
+    <string name="pref_appearance_title_open_label_list">ログイン時にラベルリストを開く</string>
+    <string name="pref_appearance_title_show_notification">通知</string>
+    <string name="pref_appearance_title_show_passwords">パスワードを表示</string>
+    <string name="pref_appearance_title_sort_entries">エントリを並べ替える</string>
+    <string name="pref_category_appearance">外観</string>
+    <string name="pref_category_auto_backup">自動バックアップ</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>バイオメトリックス</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>クリップボード</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">データベース</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">セキュリティ</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自己破壊</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>テーマ</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">外部ストレージ（SDまたは内部リムーバブルストレージ）に自動バックアップを作成する. サードパーティのファイルマネージャーアプリを使用して外部ストレージにアクセスできます</string>
+    <string name="pref_database_summary_backup">Androidストレージアクセスフレームワークを使用して暗号化されたデータベースのバックアップを作成する</string>
+    <string name="pref_database_summary_backup_share">暗号化されたデータベースのバックアップを作成して共有する</string>
+    <string name="pref_database_summary_export">エントリを暗号化されていないcsvファイルにエクスポートする</string>
+    <string name="pref_database_summary_import">暗号化されていないcsvファイルからエントリをインポートする</string>
+    <string name="pref_database_summary_restore">暗号化されたデータベースのバックアップを復元する</string>
+    <string name="pref_database_title_auto_backup">自動バックアップ</string>
+    <string name="pref_database_title_backup">データベースのバックアップ</string>
+    <string name="pref_database_title_backup_share">データベースを共有する</string>
+    <string name="pref_database_title_export">CSVファイルをエクスポート</string>
+    <string name="pref_database_title_import">csvファイルをインポート</string>
+    <string name="pref_database_title_restore">データベースを復元する</string>
+    <string name="pref_export_import_summary_export_csv">Androidストレージアクセスフレームワークを使用して、暗号化されていないcsvファイルにエクスポートします</string>
+    <string name="pref_export_import_summary_import_csv">暗号化されていないcsvファイルから適切な形式でインポートする</string>
+    <string name="pref_export_import_summary_share_csv">暗号化されていないcsvファイルを作成して共有する</string>
+    <string name="pref_export_import_title_export_csv">csvファイルをエクスポートする</string>
+    <string name="pref_export_import_title_export_pdf">PDFにエクスポート-印刷</string>
+    <string name="pref_export_import_title_import_csv">csvファイルをインポートする</string>
+    <string name="pref_export_import_title_share_csv">csvファイルを共有する</string>
+    <string name="pref_security_clipboard_clear_five_min">5分</string>
+    <string name="pref_security_clipboard_clear_four_min">4分</string>
+    <string name="pref_security_clipboard_clear_never">決して</string>
+    <string name="pref_security_clipboard_clear_one_min">1分</string>
+    <string name="pref_security_clipboard_clear_three_min">3分</string>
+    <string name="pref_security_clipboard_clear_two_min">2分</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">無制限</string>
+    <string name="pref_security_summary_auto_exit">画面がオフになったとき、または60秒後にバックグラウンドになったとき</string>
+    <string name="pref_security_summary_biometric">この機能を使用するには、互換性のあるデバイスが必要です。 システム設定（指紋、顔検出など）で好みの生体認証を指定できます。</string>
+    <string name="pref_security_summary_fingerprint">この機能を使用するには互換性のあるハードウェアが必要です</string>
+    <string name="pref_security_summary_stay_awake">エントリの表示または編集中に画面がスリープ状態になることはありません</string>
+    <string name="pref_security_title_allow_screenshots">スクリーンショットを許可する</string>
+    <string name="pref_security_title_auto_exit">自動出力</string>
+    <string name="pref_security_title_biometric">生体認証</string>
+    <string name="pref_security_title_change_password">マスターパスワードを変更する</string>
+    <string name="pref_security_title_clipboard_clear">クリップボードをクリア</string>
+    <string name="pref_security_title_fast_enter">クイックエントリー</string>
+    <string name="pref_security_title_fingerprint">指紋を使用して入力</string>
+    <string name="pref_security_title_self_destruct">失敗したパスワードの試行</string>
+    <string name="pref_security_title_stay_awake">起きている</string>
+    <string name="pref_wear_os_summary_add_to_watch">新しいエントリは常に時計に追加されます</string>
+    <string name="pref_wear_os_summary_password_enabled">パスワードを使用して時計へのアクセスを制限する</string>
+    <string name="pref_wear_os_title_add_to_watch">ウォッチに追加</string>
+    <string name="pref_wear_os_title_password_enabled">パスワードを着用</string>
     <string name="required">必須</string>
     <string name="title">題名</string>
-    <string name="account">アカウント</string>
-    <string name="password">パスワード</string>
-    <string name="username">ユーザー名</string>
-    <string name="website">ウェブサイト</string>
-    <string name="notes">ノート</string>
-    <string name="list_is_empty">エントリーはありません</string>
-    <string name="last_updated">最終更新</string>
-    <string name="copy_text">（コピー）</string>
-    <string name="new_field_hint">名前</string>
-    <string name="add_new_label">新しいラベルを追加</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">登録</string>
-    <string name="button_enter">入る</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">今すぐアップグレード</string>
-    <string name="button_update">更新</string>
-    <string name="button_exit">出口</string>
-    <string name="button_gotit">とった</string>
-    <string name="button_more">もっと</string>
-    <string name="button_delete_field">フィールドを削除</string>
-    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
-    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">ようこそ</string>
-    <string name="welcome_info_content">アプリケーションの使用を開始するには、マスターパスワードを登録してください。 同期オプションがないため、マスターパスワードを紛失した場合、保存されたデータを回復できないことに注意してください。 定期的にデータをバックアップすることを強くお勧めします。</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">PROバージョンをお買い上げいただき誠にありがとうございます。</string>
+    <string name="toast_added_to_watch">ウォッチに追加しました</string>
+    <string name="toast_camera_permission_denied">アクセス拒否。 画像をキャプチャできません。</string>
+    <string name="toast_copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="toast_copy_to_clipboard_failed">クリップボードへのコピーに失敗しました</string>
+    <string name="toast_database_server_error">データベースは現在利用できません</string>
+    <string name="toast_entries_deleted">エントリー削除された</string>
+    <string name="toast_entry_deleted">エントリを削除しました</string>
+    <string name="toast_entry_saved">Entry 保存した</string>
+    <string name="toast_label_exists">ラベルはすでに存在します</string>
+    <string name="toast_master_password_not_updated">マスターパスワードの更新に失敗しました</string>
+    <string name="toast_master_password_updated">マスターパスワードが正常に更新されました</string>
+    <string name="toast_no_browser">Webブラウザアプリケーションが見つかりません</string>
+    <string name="toast_no_file_selected">ファイルが選択されていません</string>
+    <string name="toast_no_folder_selected">フォルダが選択されていません</string>
+    <string name="toast_no_labels">ラベルなし</string>
+    <string name="toast_no_password_history">利用可能なパスワード履歴がありません</string>
+    <string name="toast_no_playstore">Google Playストアアプリがインストールされていません</string>
+    <string name="toast_password_history_cleared">履歴がクリアされました</string>
+    <string name="toast_playstore_error">Google Playストアアプリがインストールされていません</string>
+    <string name="toast_playstore_services_error">Google Playサービスは利用できません</string>
+    <string name="toast_pro_feature">PROバージョンでのみ利用可能</string>
+    <string name="toast_pro_feature_unlimited_labels">PROバージョンでのみ使用可能なその他のラベル</string>
+    <string name="toast_remember_your_master_password">マスターパスワードを忘れないようにしてください</string>
+    <string name="toast_removed_from_watch">時計から削除しました</string>
+    <string name="toast_storage_not_accessible">外部ストレージにアクセスできません</string>
+    <string name="toast_storage_permission_denied">アクセス拒否。 ファイルを読み書きできません。</string>
+    <string name="toast_successful_backup">バックアップが正常に作成されました</string>
+    <string name="toast_successful_csv_export">csvファイルが正常にエクスポートされました</string>
+    <string name="toast_successful_csv_import">csvファイルが正常にインポートされました</string>
+    <string name="toast_successful_restore">データベースが正常に復元されました</string>
+    <string name="toast_tap_again_to_exit">もう一度タップしし出口</string>
+    <string name="toast_tap_to_copy_text">コンテンツをコピーするには、テキストビューをタップします</string>
+    <string name="toast_try_again_shortly">数秒後にもう一度お試しください</string>
     <string name="upgrade_feature_1">csvファイルのエクスポートとインポート</string>
+    <string name="upgrade_feature_10">カスタムフィールド</string>
+    <string name="upgrade_feature_11">無制限のラベル</string>
+    <string name="upgrade_feature_12">生体認証認証</string>
     <string name="upgrade_feature_3">テーマ選択</string>
     <string name="upgrade_feature_4">クリップボードの自動消去</string>
     <string name="upgrade_feature_5">自己破壊</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">パスワード履歴</string>
     <string name="upgrade_feature_9">画像添付</string>
-    <string name="upgrade_feature_10">カスタムフィールド</string>
-    <string name="upgrade_feature_11">無制限のラベル</string>
-    <string name="upgrade_feature_12">生体認証認証</string>
+    <string name="upgrade_thank_you">PROバージョンをお買い上げいただき誠にありがとうございます。</string>
     <string name="upgrade_with_single_purchase">1回のアプリ内購入ですべての追加機能のロックを解除します。</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">以前のパスワード</string>
-    <string name="change_mp_new_master_password">新しいパスワード</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">探す</string>
-    <string name="menu_settings">設定</string>
-    <string name="menu_exit">出口</string>
-    <string name="menu_appearance">外観</string>
-    <string name="menu_database">データベース</string>
-    <string name="menu_security">安全保障</string>
-    <string name="menu_about">約</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">プロ仕様にアップグレードする</string>
-    <string name="menu_share">共有</string>
-    <string name="menu_copy_entry">コピーを作成</string>
-    <string name="menu_edit">編集する</string>
-    <string name="menu_delete">削除する</string>
-    <string name="menu_save">セーブ</string>
-    <string name="menu_set_labels">ラベルを設定する</string>
-    <string name="menu_attach_image">画像を添付</string>
-    <string name="menu_add_field">フィールドを追加</string>
-    <string name="menu_keyboard">キーボード</string>
-    <string name="menu_add_to_watch">ウォッチに追加</string>
-    <string name="menu_clear_history">履歴をクリア</string>
-    <string name="menu_select_all">すべて選択</string>
-    <string name="menu_navigation_drawer_all_entries">すべて</string>
-    <string name="menu_navigation_drawer_edit_labels">ラベルを編集する</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">もう一度タップしし出口</string>
-    <string name="toast_entry_deleted">エントリを削除しました</string>
-    <string name="toast_entries_deleted">エントリー削除された</string>
-    <string name="toast_entry_saved">Entry 保存した</string>
-    <string name="toast_try_again_shortly">数秒後にもう一度お試しください</string>
-    <string name="toast_no_browser">Webブラウザアプリケーションが見つかりません</string>
-    <string name="toast_no_playstore">Google Playストアアプリがインストールされていません</string>
-    <string name="toast_tap_to_copy_text">コンテンツをコピーするには、テキストビューをタップします</string>
-    <string name="toast_copied_to_clipboard">クリップボードにコピーしました</string>
-    <string name="toast_master_password_updated">マスターパスワードが正常に更新されました</string>
-    <string name="toast_master_password_not_updated">マスターパスワードの更新に失敗しました</string>
-    <string name="toast_storage_permission_denied">アクセス拒否。 ファイルを読み書きできません。</string>
-    <string name="toast_camera_permission_denied">アクセス拒否。 画像をキャプチャできません。</string>
-    <string name="toast_no_file_selected">ファイルが選択されていません</string>
-    <string name="toast_no_folder_selected">フォルダが選択されていません</string>
-    <string name="toast_successful_backup">バックアップが正常に作成されました</string>
-    <string name="toast_successful_restore">データベースが正常に復元されました</string>
-    <string name="toast_successful_csv_export">csvファイルが正常にエクスポートされました</string>
-    <string name="toast_successful_csv_import">csvファイルが正常にインポートされました</string>
-    <string name="toast_database_server_error">データベースは現在利用できません</string>
-    <string name="toast_added_to_watch">ウォッチに追加しました</string>
-    <string name="toast_removed_from_watch">時計から削除しました</string>
-    <string name="toast_playstore_error">Google Playストアアプリがインストールされていません</string>
-    <string name="toast_playstore_services_error">Google Playサービスは利用できません</string>
-    <string name="toast_storage_not_accessible">外部ストレージにアクセスできません</string>
-    <string name="toast_pro_feature">PROバージョンでのみ利用可能</string>
-    <string name="toast_no_password_history">利用可能なパスワード履歴がありません</string>
-    <string name="toast_password_history_cleared">履歴がクリアされました</string>
-    <string name="toast_remember_your_master_password">マスターパスワードを忘れないようにしてください</string>
-    <string name="toast_label_exists">ラベルはすでに存在します</string>
-    <string name="toast_pro_feature_unlimited_labels">PROバージョンでのみ使用可能なその他のラベル</string>
-    <string name="toast_no_labels">ラベルなし</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_learn_more">もっと詳しく知る</string>
-    <string name="dialog_button_continue">継続する</string>
-    <string name="dialog_button_cancel">キャンセル</string>
-    <string name="dialog_button_delete">削除する</string>
-    <string name="dialog_button_discard">拒否する</string>
-    <string name="dialog_button_remove">削除する</string>
-    <string name="dialog_button_rate">割合</string>
-    <string name="dialog_button_later">後で</string>
-    <string name="dialog_button_never">決して</string>
-    <string name="dialog_title_restore_backup">バックアップを復元？</string>
-    <string name="dialog_title_import_csv">csvをインポートしますか？</string>
-    <string name="dialog_title_change_master_password">マスターパスワードを変更しますか？</string>
-    <string name="dialog_title_self_destruct">自己破壊</string>
-    <string name="dialog_title_authentication">認証</string>
-    <string name="dialog_title_confirm_fp">指紋を確認してください</string>
-    <string name="dialog_title_history">歴史</string>
-    <string name="dialog_title_attach_another_image">別の画像を添付しますか？</string>
-    <string name="dialog_title_new_field">新しいフィールド</string>
-    <string name="dialog_title_set_labels">ラベルを設定する</string>
-    <string name="dialog_title_rating">このアプリを評価</string>
-    <string name="dialog_title_feature_shutdown">機能のシャットダウン</string>
-    <string name="dialog_msg_feature_shutdown">この自動バックアップ機能は2019年12月6日に廃止されます。代わりにAndroidデバイスのバックアップを使用してください。</string>
-    <string name="dialog_msg_entries_will_be_deleted">現在のエントリはすべて削除されます。</string>
-    <string name="dialog_msg_changing_master_password">マスターパスワードを変更すると、現在のマスターパスワードで作成されたデータベースのバックアップを復元できなくなります。</string>
-    <string name="dialog_msg_delete_selected_entries">選択したエントリを削除しますか？</string>
-    <string name="dialog_msg_delete_entry">記入を消す？</string>
-    <string name="dialog_msg_delete_label">ラベルを削除しますか？</string>
-    <string name="dialog_msg_delete_field">フィールドを削除しますか？</string>
-    <string name="dialog_msg_discard_changes">変更を破棄？</string>
-    <string name="dialog_msg_cannot_open_folder">フォルダにアクセスできません。</string>
-    <string name="dialog_msg_cannot_read_file">選択したファイルを読み取ることができません。</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">選択したファイルまたはフォルダにアクセスできません。</string>
-    <string name="dialog_msg_db_not_valid">データベースのバックアップが無効です。</string>
-    <string name="dialog_msg_db_different_pass">データベースのバックアップは、別のマスターパスワードを使用して作成されました。</string>
-    <string name="dialog_msg_db_created_on_ios">データベースのバックアップはiOSで作成され、Androidでは復元できません。 代わりにcsvファイルを使用してデータを転送できます。</string>
-    <string name="dialog_msg_csv_format_invalid">CSV形式が無効です。</string>
-    <string name="dialog_msg_csv_no_data">CSVファイルにデータがありません。</string>
-    <string name="dialog_msg_error_writing_file">ファイルの書き込みエラー。</string>
-    <string name="dialog_msg_error_reading_file">ファイルの読み取りエラー。</string>
-    <string name="dialog_msg_app_data_erased">試行が失敗したため、すべてのデータが完全に削除されました。</string>
-    <string name="dialog_msg_no_fp_hardware">指紋ハードウェアが存在しないか機能していない.</string>
-    <string name="dialog_msg_no_fp_enrolled">登録済みの指紋は見つかりませんでした。 システム設定で少なくとも1つの指紋を設定してください.</string>
-    <string name="dialog_msg_fp_not_recognized">指紋が認識されません。 再試行</string>
-    <string name="dialog_msg_fp_success">指紋が認識されました。 お待ちください<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">タッチセンサー</string>
-    <string name="dialog_msg_biometric_no_hardware">生体認証ハードウェアはありません.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">生体認証ハードウェアは利用できません.</string>
-    <string name="dialog_msg_biometric_none_enrolled">登録済みの生体認証は見つかりませんでした。 システム設定で少なくとも1つ設定してください.</string>
-    <string name="dialog_msg_biometric_keystore_error">キーストアエラー。 マスターパスワードを使用して入力したら、生体認証を再度有効にしてください</string>
-    <string name="dialog_msg_pass_gen_trick">複数回タップして、種類と長さの異なるパスワードを生成します.</string>
-    <string name="dialog_msg_remove_from_watch">時計からエントリを削除しますか？</string>
-    <string name="dialog_msg_attachments_warning">添付ファイルにより、データベースのサイズが増加し、アプリケーションの全体的なパフォーマンスが低下する場合があります。</string>
-    <string name="dialog_msg_rating">このアプリをお楽しみいただけましたら、少し時間を割いて評価していただけませんか。 1分以上かかりません。 ご支援いただきありがとうございます！</string>
-    <string name="dialog_msg_auto_backup_error">外部ストレージにアクセスできません。 自動バックアップオプションを再度有効にしてください。</string>
-    <string name="dialog_progress_please_wait">お待ちください<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">アプリケーションは実行中です</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">エントリを並べ替える</string>
-    <string name="pref_appearance_sorting_choise_alpha">アルファベット順</string>
-    <string name="pref_appearance_sorting_choise_time">日付順</string>
-    <string name="pref_appearance_sorting_choise_color">色で</string>
-    <string name="pref_appearance_title_list_subtitles">メインリストの字幕</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">字幕なし</string>
-    <string name="pref_appearance_list_subtitles_account">アカウント</string>
-    <string name="pref_appearance_list_subtitles_labels">ラベル</string>
-    <string name="pref_appearance_title_navibar_color">ナビゲーションバーの色</string>
-    <string name="pref_appearance_title_show_notification">通知</string>
-    <string name="pref_appearance_summary_show_notification">アプリケーションがロック解除されて実行されていることを簡単に識別</string>
-    <string name="pref_appearance_title_open_label_list">ログイン時にラベルリストを開く</string>
-    <string name="pref_appearance_title_show_passwords">パスワードを表示</string>
-    <string name="pref_appearance_title_change_theme">テーマを変更</string>
-    <string name="pref_appearance_theme_default">デフォルト</string>
-    <string name="pref_appearance_theme_light">ライトブルー</string>
-    <string name="pref_appearance_theme_dark">濃紺</string>
-    <string name="pref_appearance_theme_blue_gray">ブルーグレイ</string>
-    <string name="pref_appearance_theme_purple">紫の</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">データベースを共有する</string>
-    <string name="pref_database_summary_backup_share">暗号化されたデータベースのバックアップを作成して共有する</string>
-    <string name="pref_database_title_backup">データベースのバックアップ</string>
-    <string name="pref_database_summary_backup">Androidストレージアクセスフレームワークを使用して暗号化されたデータベースのバックアップを作成する</string>
-    <string name="pref_database_title_restore">データベースを復元する</string>
-    <string name="pref_database_summary_restore">暗号化されたデータベースのバックアップを復元する</string>
-    <string name="pref_database_title_auto_backup">自動バックアップ</string>
-    <string name="pref_database_summary_auto_backup">外部ストレージ（SDまたは内部リムーバブルストレージ）に自動バックアップを作成する. サードパーティのファイルマネージャーアプリを使用して外部ストレージにアクセスできます</string>
-    <string name="pref_database_title_export">CSVファイルをエクスポート</string>
-    <string name="pref_database_summary_export">エントリを暗号化されていないcsvファイルにエクスポートする</string>
-    <string name="pref_database_title_import">csvファイルをインポート</string>
-    <string name="pref_database_summary_import">暗号化されていないcsvファイルからエントリをインポートする</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">マスターパスワードを変更する</string>
-    <string name="pref_security_title_fast_enter">クイックエントリー</string>
-    <string name="pref_security_title_auto_exit">自動出力</string>
-    <string name="pref_security_summary_auto_exit">画面がオフになったとき、または60秒後にバックグラウンドになったとき</string>
-    <string name="pref_security_title_stay_awake">起きている</string>
-    <string name="pref_security_summary_stay_awake">エントリの表示または編集中に画面がスリープ状態になることはありません</string>
-    <string name="pref_security_title_allow_screenshots">スクリーンショットを許可する</string>
-    <string name="pref_security_title_clipboard_clear">クリップボードをクリア</string>
-    <string name="pref_security_clipboard_clear_never">決して</string>
-    <string name="pref_security_clipboard_clear_one_min">1分</string>
-    <string name="pref_security_clipboard_clear_two_min">2分</string>
-    <string name="pref_security_clipboard_clear_three_min">3分</string>
-    <string name="pref_security_clipboard_clear_four_min">4分</string>
-    <string name="pref_security_clipboard_clear_five_min">5分</string>
-    <string name="pref_security_title_self_destruct">失敗したパスワードの試行</string>
-    <string name="pref_security_self_destruct_unlimited">無制限</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">生体認証</string>
-    <string name="pref_security_summary_biometric">この機能を使用するには、互換性のあるデバイスが必要です。 システム設定（指紋、顔検出など）で好みの生体認証を指定できます。</string>
-    <string name="pref_security_title_fingerprint">指紋を使用して入力</string>
-    <string name="pref_security_summary_fingerprint">この機能を使用するには互換性のあるハードウェアが必要です</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">バグを報告</string>
-    <string name="pref_about_title_support">評価と批評</string>
-    <string name="pref_about_title_more_apps">より多くのアプリケーション</string>
-    <string name="pref_about_title_share">友達に教えて</string>
-    <string name="pref_about_title_translations">翻訳</string>
-    <string name="pref_about_title_terms">利用規約とプライバシーポリシー</string>
-    <string name="pref_about_title_licenses">オープンソースライセンス</string>
-    <string name="pref_about_title_build_version">ビルドバージョン</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">パスワードを着用</string>
-    <string name="pref_wear_os_summary_password_enabled">パスワードを使用して時計へのアクセスを制限する</string>
-    <string name="pref_wear_os_title_add_to_watch">ウォッチに追加</string>
-    <string name="pref_wear_os_summary_add_to_watch">新しいエントリは常に時計に追加されます</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">外観</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>テーマ</string>
-    <string name="pref_category_database">データベース</string>
-    <string name="pref_category_auto_backup">自動バックアップ</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">セキュリティ</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>クリップボード</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自己破壊</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>バイオメトリックス</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">ユーザー名</string>
+    <string name="website">ウェブサイト</string>
+    <string name="welcome_info_content">アプリケーションの使用を開始するには、マスターパスワードを登録してください。 同期オプションがないため、マスターパスワードを紛失した場合、保存されたデータを回復できないことに注意してください。 定期的にデータをバックアップすることを強くお勧めします。</string>
+    <string name="welcome_info_title">ようこそ</string>
 </resources>

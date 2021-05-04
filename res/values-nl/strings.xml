@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">Account naam</string>
+    <string name="add_new_label">Voeg een nieuw label toe</string>
     <string name="app_description">Een veilig en makkelijk gebruik van een password manager voor alle Android apparaten</string>
     <string name="app_download_message">Download het nu gratis uit Google Play Store</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Veld verwijderen</string>
+    <string name="button_enter">ENTER</string>
+    <string name="button_exit">UITGANG</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">BEGREPEN</string>
+    <string name="button_more">Meer</string>
+    <string name="button_register">REGISTREER</string>
+    <string name="button_update">BIJWERKEN</string>
+    <string name="button_upgrade_now">NU UPGRADEN</string>
+    <string name="change_mp_new_master_password">nieuwe wachtwoord</string>
+    <string name="change_mp_old_master_password">oude wachtwoord</string>
+    <string name="copy_text">(kopiëren)</string>
     <string name="current_location_folder">Locatie</string>
+    <string name="dialog_button_cancel">Afbreken</string>
+    <string name="dialog_button_continue">Doorgaan</string>
+    <string name="dialog_button_delete">Wis</string>
+    <string name="dialog_button_discard">Afdanken</string>
+    <string name="dialog_button_later">Later</string>
+    <string name="dialog_button_learn_more">Kom meer te weten</string>
+    <string name="dialog_button_never">Nooit</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_rate">Beoordeel</string>
+    <string name="dialog_button_remove">Verwijder</string>
+    <string name="dialog_msg_app_data_erased">Alle data is gewist door het aantal mislukte pogingen.</string>
+    <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>
+    <string name="dialog_msg_auto_backup_error">Externe opslag is niet toegankelijk. Schakel de automatische back-upoptie opnieuw in.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">De biometrische hardware is niet beschikbaar.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore-fout. Schakel de biometrische authenticatie opnieuw in zodra u deze invoert met uw hoofdwachtwoord.</string>
+    <string name="dialog_msg_biometric_no_hardware">Er is geen biometrische hardware.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Geen geregistreerde biometrische gegevens gevonden. Stel ten minste één in systeeminstellingen in.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Het geselecteerde bestand of de geselecteerde map is niet toegankelijk.</string>
+    <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
+    <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
+    <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
+    <string name="dialog_msg_csv_format_invalid">Het CSV-formaat is niet geldig.</string>
+    <string name="dialog_msg_csv_no_data">Het CSV-bestand bevat geen gegevens.</string>
+    <string name="dialog_msg_db_created_on_ios">De databaseback-up is gemaakt op iOS en kan niet worden hersteld op Android. U kunt in plaats daarvan uw gegevens overbrengen met behulp van een CSV-bestand.</string>
+    <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
+    <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
+    <string name="dialog_msg_delete_entry">Invoer wissen?</string>
+    <string name="dialog_msg_delete_field">Veld verwijderen?</string>
+    <string name="dialog_msg_delete_label">Label verwijderen?</string>
+    <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
+    <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
+    <string name="dialog_msg_error_reading_file">Fout bij lezen van bestand.</string>
+    <string name="dialog_msg_error_writing_file">Fout bij schrijven van bestand.</string>
+    <string name="dialog_msg_feature_shutdown">Deze automatische back-upfunctie wordt op 6 december 2019 afgewezen. Gebruik in plaats daarvan de back-up van het Android-apparaat.</string>
+    <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
+    <string name="dialog_msg_fp_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
+    <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Geen geregistreerde vingerafdrukken gevonden. Stel via systeeminstellingen ten minste één vingerafdruk in.</string>
+    <string name="dialog_msg_no_fp_hardware">De vingerscanner is niet aanwezig of niet functioneel.</string>
+    <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
+    <string name="dialog_msg_rating">Als u tevreden bent over onze app dan stellen wij het op prijs als u dat met andere gebruikers wilt delen. Het beoordelen kost minder dan 1 minuut. Bedankt voor uw ondersteuning!</string>
+    <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
+    <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Een andere afbeelding bijvoegen?</string>
+    <string name="dialog_title_authentication">Gebruikersverificatie</string>
+    <string name="dialog_title_change_master_password">Hoofdwachtwoord veranderen?</string>
+    <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
+    <string name="dialog_title_feature_shutdown">Functie uitgeschakeld</string>
+    <string name="dialog_title_history">Geschiedenis</string>
+    <string name="dialog_title_import_csv">csv importeren?</string>
+    <string name="dialog_title_new_field">Nieuw veld</string>
+    <string name="dialog_title_rating">Beoordeel de app</string>
+    <string name="dialog_title_restore_backup">Backup terugzetten?</string>
+    <string name="dialog_title_self_destruct">Zelfvernietiging</string>
+    <string name="dialog_title_set_labels">Labels instellen</string>
+    <string name="last_updated">Laatst bijgewerkt op</string>
+    <string name="list_is_empty">Er is niets ingevuld</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_add_field">Voeg veld toe</string>
+    <string name="menu_add_to_watch">Toevoegen aan smartwatch</string>
+    <string name="menu_appearance">Weergave</string>
+    <string name="menu_attach_image">Bevestig afbeelding</string>
+    <string name="menu_clear_history">Geschiedenis wissen</string>
+    <string name="menu_copy_entry">Maak een kopie</string>
+    <string name="menu_database">Database</string>
+    <string name="menu_delete">Wis</string>
+    <string name="menu_edit">Wijzig</string>
+    <string name="menu_exit">Uitgang</string>
+    <string name="menu_export_import">Exporteren / importeren</string>
+    <string name="menu_export_to_pdf">Exporteren naar PDF - Afdrukken</string>
+    <string name="menu_keyboard">Toetsenbord</string>
+    <string name="menu_navigation_drawer_all_entries">Alle</string>
+    <string name="menu_navigation_drawer_edit_labels">Bewerk labels</string>
+    <string name="menu_remove_from_watch">Verwijderen van de smartwatch</string>
+    <string name="menu_save">Opslaan</string>
+    <string name="menu_search">Zoeken</string>
+    <string name="menu_security">Beveiliging</string>
+    <string name="menu_select_all">Selecteer alles</string>
+    <string name="menu_set_labels">Labels instellen</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_share">Delen</string>
+    <string name="menu_upgrade">Upgrade naar PRO</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Sluit de navigatielade</string>
+    <string name="navigation_drawer_open">Open de navigatielade</string>
+    <string name="new_field_hint">Naam</string>
+    <string name="notes">Notities</string>
+    <string name="notification_text_app_running">Applicatie is bezig</string>
+    <string name="password">Wachtwoord</string>
     <string name="password_is_too_short">Wachtwoord is te kort</string>
-    <string name="passwords_not_matching">Wachtwoorden komen niet overeen</string>
     <string name="password_not_correct">Het wachtwoord is niet correct</string>
     <string name="password_not_only_numbers">Wachtwoord bevat niet alleen cijfers</string>
-    <string name="password_strength_hint_very_weak">Erg zwak!</string>
-    <string name="password_strength_hint_weak">Zwak!</string>
     <string name="password_strength_hint_good">Goed!</string>
     <string name="password_strength_hint_strong">Sterk!</string>
     <string name="password_strength_hint_very_strong">Heel sterk!</string>
+    <string name="password_strength_hint_very_weak">Erg zwak!</string>
+    <string name="password_strength_hint_weak">Zwak!</string>
+    <string name="passwords_not_matching">Wachtwoorden komen niet overeen</string>
+    <string name="pref_about_title_build_version">Build versie</string>
+    <string name="pref_about_title_contact">Meld een bug</string>
+    <string name="pref_about_title_licenses">Open source licenties</string>
+    <string name="pref_about_title_more_apps">Meer apps</string>
+    <string name="pref_about_title_share">Bent u tevreden? Vertel het door!</string>
+    <string name="pref_about_title_support">Beoordeel en schrijf een recensie</string>
+    <string name="pref_about_title_terms">Voorwaarden en privacybeleid</string>
+    <string name="pref_about_title_translations">Vertalingen</string>
+    <string name="pref_appearance_list_subtitles_account">Account</string>
+    <string name="pref_appearance_list_subtitles_labels">Labels</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Zonder ondertitels</string>
+    <string name="pref_appearance_sorting_choise_alpha">Op alfabet</string>
+    <string name="pref_appearance_sorting_choise_color">Op kleur</string>
+    <string name="pref_appearance_sorting_choise_time">Op datum</string>
+    <string name="pref_appearance_summary_show_notification">Icoon weergeven in meldingvenster dat de applicatie ontgrendeld en actief is</string>
+    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
+    <string name="pref_appearance_theme_dark">Donker</string>
+    <string name="pref_appearance_theme_default">Standaard</string>
+    <string name="pref_appearance_theme_light">Licht</string>
+    <string name="pref_appearance_theme_purple">Purple</string>
+    <string name="pref_appearance_title_change_theme">Verander thema</string>
+    <string name="pref_appearance_title_list_subtitles">Hoofdlijst ondertitels</string>
+    <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
+    <string name="pref_appearance_title_open_label_list">Open labellijst bij inloggen</string>
+    <string name="pref_appearance_title_show_notification">Melding</string>
+    <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
+    <string name="pref_appearance_title_sort_entries">Invoer sorteren</string>
+    <string name="pref_category_appearance">WEERGAVEN</string>
+    <string name="pref_category_auto_backup">AUTOMATISCHE BACK-UP</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">DATABASE</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">BEVEILIGING</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Creëer auto-backups op je externe opslag (sd of interne niet-verplaatsbare opslag). Je krijgt toegang tot externe opslag door gebruik te maken van een 3rd party file manager app</string>
+    <string name="pref_database_summary_backup">Maak een backup van de versleutelde database door gebruik te maken van Android storage access framework</string>
+    <string name="pref_database_summary_backup_share">Maak en deel een backup van de versleutelde database</string>
+    <string name="pref_database_summary_export">Exporteer de invoer naar een niet versleuteld csv bestand</string>
+    <string name="pref_database_summary_import">Importeer de invoer van een niet versleuteld csv bestand</string>
+    <string name="pref_database_summary_restore">Herstel een back-up van een versleutelde database</string>
+    <string name="pref_database_title_auto_backup">Automatische back-up</string>
+    <string name="pref_database_title_backup">Backup database</string>
+    <string name="pref_database_title_backup_share">Database delen</string>
+    <string name="pref_database_title_export">Exporteer csv bestand</string>
+    <string name="pref_database_title_import">Importeer csv bestand</string>
+    <string name="pref_database_title_restore">Database herstellen</string>
+    <string name="pref_export_import_summary_export_csv">Exporteer naar een niet-gecodeerd csv-bestand met behulp van het Android-opslagtoegangsframework</string>
+    <string name="pref_export_import_summary_import_csv">Importeer vanuit een niet-gecodeerd csv-bestand met de juiste indeling</string>
+    <string name="pref_export_import_summary_share_csv">Maak en deel een niet-gecodeerd csv-bestand</string>
+    <string name="pref_export_import_title_export_csv">Exporteer csv-bestand</string>
+    <string name="pref_export_import_title_export_pdf">Exporteren naar PDF - Afdrukken</string>
+    <string name="pref_export_import_title_import_csv">Importeer csv-bestand</string>
+    <string name="pref_export_import_title_share_csv">Deel csv-bestand</string>
+    <string name="pref_security_clipboard_clear_five_min">5 min</string>
+    <string name="pref_security_clipboard_clear_four_min">4 min</string>
+    <string name="pref_security_clipboard_clear_never">Nooit</string>
+    <string name="pref_security_clipboard_clear_one_min">1 min</string>
+    <string name="pref_security_clipboard_clear_three_min">3 min</string>
+    <string name="pref_security_clipboard_clear_two_min">2 min</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Oneindig</string>
+    <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld of na 60 seconden op de achtergrond is</string>
+    <string name="pref_security_summary_biometric">Compatibel apparaat is vereist voor het gebruik van deze functie. U kunt uw voorkeur biometrisch specificeren in systeeminstellingen (vingerafdruk, gezichtsherkenning etc.)</string>
+    <string name="pref_security_summary_fingerprint">Voor deze optie is Android 6.0 of hoger en compatible hardware nodig</string>
+    <string name="pref_security_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
+    <string name="pref_security_title_allow_screenshots">Schermafbeeldingen toestaan</string>
+    <string name="pref_security_title_auto_exit">Auto exit</string>
+    <string name="pref_security_title_biometric">Biometrische authenticatie</string>
+    <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
+    <string name="pref_security_title_clipboard_clear">Wis klembord geheugen</string>
+    <string name="pref_security_title_fast_enter">Snelle invoer</string>
+    <string name="pref_security_title_fingerprint">Toegang door vingerafdruk</string>
+    <string name="pref_security_title_self_destruct">Mislukte wachtwoord invoer pogingen</string>
+    <string name="pref_security_title_stay_awake">Blijf actief</string>
+    <string name="pref_wear_os_summary_add_to_watch">Nieuwe items worden altijd toegevoegd aan het horloge</string>
+    <string name="pref_wear_os_summary_password_enabled">Beperk de toegang tot uw horloge door een wachtwoord te gebruiken</string>
+    <string name="pref_wear_os_title_add_to_watch">Toevoegen om te bekijken</string>
+    <string name="pref_wear_os_title_password_enabled">Draag wachtwoord</string>
     <string name="required">Verplicht</string>
     <string name="title">Titel</string>
-    <string name="account">Account naam</string>
-    <string name="password">Wachtwoord</string>
-    <string name="username">Gebruikersnaam</string>
-    <string name="website">Website</string>
-    <string name="notes">Notities</string>
-    <string name="list_is_empty">Er is niets ingevuld</string>
-    <string name="last_updated">Laatst bijgewerkt op</string>
-    <string name="copy_text">(kopiëren)</string>
-    <string name="new_field_hint">Naam</string>
-    <string name="add_new_label">Voeg een nieuw label toe</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTREER</string>
-    <string name="button_enter">ENTER</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">NU UPGRADEN</string>
-    <string name="button_update">BIJWERKEN</string>
-    <string name="button_exit">UITGANG</string>
-    <string name="button_gotit">BEGREPEN</string>
-    <string name="button_more">Meer</string>
-    <string name="button_delete_field">Veld verwijderen</string>
-    <string name="navigation_drawer_open">Open de navigatielade</string>
-    <string name="navigation_drawer_close">Sluit de navigatielade</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Welkom</string>
-    <string name="welcome_info_content">Kies een hoofdwachtwoord om de applicatie te starten. Bij het kwijtraken van het hoofdwachtwoord is het niet meer mogelijk opgeslagen data te herstellen doordat de sync-optie wegvalt. Er wordt ten zeerste aangeraden om op regelmatige basis een backup te maken.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Dank voor de aankoop van de PRO versie.</string>
+    <string name="toast_added_to_watch">Toegevoegd om te kijken</string>
+    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_copied_to_clipboard">naar klembord gekopiëerd</string>
+    <string name="toast_copy_to_clipboard_failed">Kopiëren naar klembord is mislukt</string>
+    <string name="toast_database_server_error">De database is momenteel niet beschikbaar</string>
+    <string name="toast_entries_deleted">Invoeren gewist</string>
+    <string name="toast_entry_deleted">Invoer gewist</string>
+    <string name="toast_entry_saved">Invoer opgeslagen</string>
+    <string name="toast_label_exists">Label bestaat al</string>
+    <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
+    <string name="toast_master_password_updated">Hoofdwachtwoord succesvol gewijzigd</string>
+    <string name="toast_no_browser">Geen web browser applicatie gevonden</string>
+    <string name="toast_no_file_selected">Er is geen bestand geselecteerd</string>
+    <string name="toast_no_folder_selected">Er is geen map geselecteerd</string>
+    <string name="toast_no_labels">Geen labels</string>
+    <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
+    <string name="toast_no_playstore">Google Play store app is niet geïnstalleerd</string>
+    <string name="toast_password_history_cleared">Geschiedenis gewist</string>
+    <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
+    <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
+    <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
+    <string name="toast_pro_feature_unlimited_labels">Meer labels alleen beschikbaar in PRO-versie</string>
+    <string name="toast_remember_your_master_password">Zorg ervoor dat u uw hoofdwachtwoord onthoudt</string>
+    <string name="toast_removed_from_watch">verwijdering van monitoring</string>
+    <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
+    <string name="toast_storage_permission_denied">Toestemming geweigerd. Niet mogelijk om bestanden te lezen of op te slaan.</string>
+    <string name="toast_successful_backup">Backup succesvol aangemaakt</string>
+    <string name="toast_successful_csv_export">Exporteren van csv bestand geslaagd</string>
+    <string name="toast_successful_csv_import">Importeren van csv bestand geslaagd</string>
+    <string name="toast_successful_restore">Terugzetten van database geslaagd</string>
+    <string name="toast_tap_again_to_exit">Tik nogmaals op het scherm om de app te verlaten</string>
+    <string name="toast_tap_to_copy_text">Tik op de tekst om de inhoud te kopiëren</string>
+    <string name="toast_try_again_shortly">Probeer opnieuw over een paar seconden</string>
     <string name="upgrade_feature_1">Exporteren &amp; importen van csv bestanden</string>
+    <string name="upgrade_feature_10">Aangepaste velden</string>
+    <string name="upgrade_feature_11">Onbeperkte labels</string>
+    <string name="upgrade_feature_12">Biometrische authenticatie</string>
     <string name="upgrade_feature_3">Thema keuze</string>
     <string name="upgrade_feature_4">Automatisch klembord wissen</string>
     <string name="upgrade_feature_5">Zelfdestructie</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Wachtwoord geschiedenis</string>
     <string name="upgrade_feature_9">Beeld Bijlagen</string>
-    <string name="upgrade_feature_10">Aangepaste velden</string>
-    <string name="upgrade_feature_11">Onbeperkte labels</string>
-    <string name="upgrade_feature_12">Biometrische authenticatie</string>
+    <string name="upgrade_thank_you">Dank voor de aankoop van de PRO versie.</string>
     <string name="upgrade_with_single_purchase">Ontgrendel alle extra opties door een eenmalige aankoop in deze app.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">oude wachtwoord</string>
-    <string name="change_mp_new_master_password">nieuwe wachtwoord</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Zoeken</string>
-    <string name="menu_settings">Instellingen</string>
-    <string name="menu_exit">Uitgang</string>
-    <string name="menu_appearance">Weergave</string>
-    <string name="menu_database">Database</string>
-    <string name="menu_security">Beveiliging</string>
-    <string name="menu_about">Info</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Upgrade naar PRO</string>
-    <string name="menu_share">Delen</string>
-    <string name="menu_copy_entry">Maak een kopie</string>
-    <string name="menu_edit">Wijzig</string>
-    <string name="menu_delete">Wis</string>
-    <string name="menu_save">Opslaan</string>
-    <string name="menu_set_labels">Labels instellen</string>
-    <string name="menu_attach_image">Bevestig afbeelding</string>
-    <string name="menu_add_field">Voeg veld toe</string>
-    <string name="menu_keyboard">Toetsenbord</string>
-    <string name="menu_add_to_watch">Toevoegen om te bekijken</string>
-    <string name="menu_clear_history">Geschiedenis wissen</string>
-    <string name="menu_select_all">Selecteer alles</string>
-    <string name="menu_navigation_drawer_all_entries">Alle</string>
-    <string name="menu_navigation_drawer_edit_labels">Bewerk labels</string>
-    <!-- #######################################################Permission granted########################## -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tik nogmaals op het scherm om de app te verlaten</string>
-    <string name="toast_entry_deleted">Invoer gewist</string>
-    <string name="toast_entries_deleted">Invoeren gewist</string>
-    <string name="toast_entry_saved">Invoer opgeslagen</string>
-    <string name="toast_try_again_shortly">Probeer opnieuw over een paar seconden</string>
-    <string name="toast_no_browser">Geen web browser applicatie gevonden</string>
-    <string name="toast_no_playstore">Google Play store app is niet geïnstalleerd</string>
-    <string name="toast_tap_to_copy_text">Tik op de tekst om de inhoud te kopiëren</string>
-    <string name="toast_copied_to_clipboard">naar klembord gekopiëerd</string>
-    <string name="toast_master_password_updated">Hoofdwachtwoord succesvol gewijzigd</string>
-    <string name="toast_master_password_not_updated">Hoofdwachtwoord niet gewijzigd</string>
-    <string name="toast_storage_permission_denied">Toestemming geweigerd. Niet mogelijk om bestanden te lezen of op te slaan.</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
-    <string name="toast_no_file_selected">Er is geen bestand geselecteerd</string>
-    <string name="toast_no_folder_selected">Er is geen map geselecteerd</string>
-    <string name="toast_successful_backup">Backup succesvol aangemaakt</string>
-    <string name="toast_successful_restore">Terugzetten van database geslaagd</string>
-    <string name="toast_successful_csv_export">Exporteren van csv bestand geslaagd</string>
-    <string name="toast_successful_csv_import">Importeren van csv bestand geslaagd</string>
-    <string name="toast_database_server_error">De database is momenteel niet beschikbaar</string>
-    <string name="toast_added_to_watch">Toegevoegd om te kijken</string>
-    <string name="toast_removed_from_watch">verwijdering van monitoring</string>
-    <string name="toast_playstore_error">Google Play store app is niet geïnstalleerd</string>
-    <string name="toast_playstore_services_error">Google Play services zijn niet beschikbaar</string>
-    <string name="toast_storage_not_accessible">Externe opslag is niet beschikbaar</string>
-    <string name="toast_pro_feature">Alleen beschikbaar in de PRO versie</string>
-    <string name="toast_no_password_history">Geen wachtwoord geschiedenis beschikbaar</string>
-    <string name="toast_password_history_cleared">Geschiedenis gewist</string>
-    <string name="toast_remember_your_master_password">Zorg ervoor dat u uw hoofdwachtwoord onthoudt</string>
-    <string name="toast_label_exists">Label bestaat al</string>
-    <string name="toast_pro_feature_unlimited_labels">Meer labels alleen beschikbaar in PRO-versie</string>
-    <string name="toast_no_labels">Geen labels</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_learn_more">Kom meer te weten</string>
-    <string name="dialog_button_continue">Doorgaan</string>
-    <string name="dialog_button_cancel">Afbreken</string>
-    <string name="dialog_button_delete">Wis</string>
-    <string name="dialog_button_discard">Afdanken</string>
-    <string name="dialog_button_remove">Verwijder</string>
-    <string name="dialog_button_rate">Beoordeel</string>
-    <string name="dialog_button_later">Later</string>
-    <string name="dialog_button_never">Nooit</string>
-    <string name="dialog_title_restore_backup">Backup terugzetten?</string>
-    <string name="dialog_title_import_csv">csv importeren?</string>
-    <string name="dialog_title_change_master_password">Hoofdwachtwoord veranderen?</string>
-    <string name="dialog_title_self_destruct">Zelfvernietiging</string>
-    <string name="dialog_title_authentication">Gebruikersverificatie</string>
-    <string name="dialog_title_confirm_fp">Bevestig je vingadruk</string>
-    <string name="dialog_title_history">Geschiedenis</string>
-    <string name="dialog_title_attach_another_image">Een andere afbeelding bijvoegen?</string>
-    <string name="dialog_title_new_field">Nieuw veld</string>
-    <string name="dialog_title_set_labels">Labels instellen</string>
-    <string name="dialog_title_rating">Beoordeel de app</string>
-    <string name="dialog_title_feature_shutdown">Functie uitgeschakeld</string>
-    <string name="dialog_msg_feature_shutdown">Deze automatische back-upfunctie wordt op 6 december 2019 afgewezen. Gebruik in plaats daarvan de back-up van het Android-apparaat.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Alle huidige invoeren worden gewist.</string>
-    <string name="dialog_msg_changing_master_password">Bij het veranderen van het hoofdwachtwoord is het niet meer mogelijk om de database backups die gekoppeld zijn aan je huidige wachtwoord terug te zetten.</string>
-    <string name="dialog_msg_delete_selected_entries">De geselecteerde invoer wissen?</string>
-    <string name="dialog_msg_delete_entry">Invoer wissen?</string>
-    <string name="dialog_msg_delete_label">Label verwijderen?</string>
-    <string name="dialog_msg_delete_field">Veld verwijderen?</string>
-    <string name="dialog_msg_discard_changes">Veranderingen ongedaan maken?</string>
-    <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
-    <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Het geselecteerde bestand of de geselecteerde map is niet toegankelijk.</string>
-    <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
-    <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
-    <string name="dialog_msg_db_created_on_ios">De databaseback-up is gemaakt op iOS en kan niet worden hersteld op Android. U kunt in plaats daarvan uw gegevens overbrengen met behulp van een CSV-bestand.</string>
-    <string name="dialog_msg_csv_format_invalid">Het CSV-formaat is niet geldig.</string>
-    <string name="dialog_msg_csv_no_data">Het CSV-bestand bevat geen gegevens.</string>
-    <string name="dialog_msg_error_writing_file">Fout bij schrijven van bestand.</string>
-    <string name="dialog_msg_error_reading_file">Fout bij lezen van bestand.</string>
-    <string name="dialog_msg_app_data_erased">Alle data is gewist door het aantal mislukte pogingen.</string>
-    <string name="dialog_msg_no_fp_hardware">De vingerscanner is niet aanwezig of niet functioneel.</string>
-    <string name="dialog_msg_no_fp_enrolled">Geen geregistreerde vingerafdrukken gevonden. Stel via systeeminstellingen ten minste één vingerafdruk in.</string>
-    <string name="dialog_msg_fp_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
-    <string name="dialog_msg_fp_success">Vingerafdruk herkend. Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Leg je vinger op de vingerscanner</string>
-    <string name="dialog_msg_biometric_no_hardware">Er is geen biometrische hardware.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">De biometrische hardware is niet beschikbaar.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Geen geregistreerde biometrische gegevens gevonden. Stel ten minste één in systeeminstellingen in.</string>
-    <string name="dialog_msg_biometric_keystore_error">Keystore-fout. Schakel de biometrische authenticatie opnieuw in zodra u deze invoert met uw hoofdwachtwoord.</string>
-    <string name="dialog_msg_pass_gen_trick">Tik achter elkaar op het scherm om verschillende wachtwoorden te genereren.</string>
-    <string name="dialog_msg_remove_from_watch">Ingang van horloge verwijderen?</string>
-    <string name="dialog_msg_attachments_warning">Bijlagen kunnen de databasegrootte vergroten en de algehele prestaties van de toepassing verminderen.</string>
-    <string name="dialog_msg_rating">Als u tevreden bent over onze app dan stellen wij het op prijs als u dat met andere gebruikers wilt delen. Het beoordelen kost minder dan 1 minuut. Bedankt voor uw ondersteuning!</string>
-    <string name="dialog_msg_auto_backup_error">Externe opslag is niet toegankelijk. Schakel de automatische back-upoptie opnieuw in.</string>
-    <string name="dialog_progress_please_wait">Even geduld<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Applicatie is bezig</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Invoer sorteren</string>
-    <string name="pref_appearance_sorting_choise_alpha">Op alfabet</string>
-    <string name="pref_appearance_sorting_choise_time">Op datum</string>
-    <string name="pref_appearance_sorting_choise_color">Op kleur</string>
-    <string name="pref_appearance_title_list_subtitles">Hoofdlijst ondertitels</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Zonder ondertitels</string>
-    <string name="pref_appearance_list_subtitles_account">Account</string>
-    <string name="pref_appearance_list_subtitles_labels">Labels</string>
-    <string name="pref_appearance_title_navibar_color">Navigatiebalk kleur</string>
-    <string name="pref_appearance_title_show_notification">Melding</string>
-    <string name="pref_appearance_summary_show_notification">Icoon weergeven in meldingvenster dat de applicatie ontgrendeld en actief is</string>
-    <string name="pref_appearance_title_open_label_list">Open labellijst bij inloggen</string>
-    <string name="pref_appearance_title_show_passwords">Laat wachtwoord direct zien. Je hoeft niet meer op het weergave icoontje te tikken om het wachtwoord zichtbaar te maken</string>
-    <string name="pref_appearance_title_change_theme">Verander thema</string>
-    <string name="pref_appearance_theme_default">Standaard</string>
-    <string name="pref_appearance_theme_light">Licht</string>
-    <string name="pref_appearance_theme_dark">Donker</string>
-    <string name="pref_appearance_theme_blue_gray">Blue Gray</string>
-    <string name="pref_appearance_theme_purple">Purple</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Database delen</string>
-    <string name="pref_database_summary_backup_share">Maak en deel een backup van de versleutelde database</string>
-    <string name="pref_database_title_backup">Backup database</string>
-    <string name="pref_database_summary_backup">Maak een backup van de versleutelde database door gebruik te maken van Android storage access framework</string>
-    <string name="pref_database_title_restore">Database herstellen</string>
-    <string name="pref_database_summary_restore">Herstel een back-up van een versleutelde database</string>
-    <string name="pref_database_title_auto_backup">Automatische back-up</string>
-    <string name="pref_database_summary_auto_backup">Creëer auto-backups op je externe opslag (sd of interne niet-verplaatsbare opslag). Je krijgt toegang tot externe opslag door gebruik te maken van een 3rd party file manager app</string>
-    <string name="pref_database_title_export">Exporteer csv bestand</string>
-    <string name="pref_database_summary_export">Exporteer de invoer naar een niet versleuteld csv bestand</string>
-    <string name="pref_database_title_import">Importeer csv bestand</string>
-    <string name="pref_database_summary_import">Importeer de invoer van een niet versleuteld csv bestand</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Wijzig hoofdwachtwoord</string>
-    <string name="pref_security_title_fast_enter">Snelle invoer</string>
-    <string name="pref_security_title_auto_exit">Auto exit</string>
-    <string name="pref_security_summary_auto_exit">Wanneer het scherm wordt uitgeschakeld of na 60 seconden op de achtergrond is</string>
-    <string name="pref_security_title_stay_awake">Blijf actief</string>
-    <string name="pref_security_summary_stay_awake">Scherm gaat niet in time-out stand tijdens het opzoeken of aanpassen van gegevens</string>
-    <string name="pref_security_title_allow_screenshots">Schermafbeeldingen toestaan</string>
-    <string name="pref_security_title_clipboard_clear">Wis klembord geheugen</string>
-    <string name="pref_security_clipboard_clear_never">Nooit</string>
-    <string name="pref_security_clipboard_clear_one_min">1 min</string>
-    <string name="pref_security_clipboard_clear_two_min">2 min</string>
-    <string name="pref_security_clipboard_clear_three_min">3 min</string>
-    <string name="pref_security_clipboard_clear_four_min">4 min</string>
-    <string name="pref_security_clipboard_clear_five_min">5 min</string>
-    <string name="pref_security_title_self_destruct">Mislukte wachtwoord invoer pogingen</string>
-    <string name="pref_security_self_destruct_unlimited">Oneindig</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biometrische authenticatie</string>
-    <string name="pref_security_summary_biometric">Compatibel apparaat is vereist voor het gebruik van deze functie. U kunt uw voorkeur biometrisch specificeren in systeeminstellingen (vingerafdruk, gezichtsherkenning etc.)</string>
-    <string name="pref_security_title_fingerprint">Toegang door vingerafdruk</string>
-    <string name="pref_security_summary_fingerprint">Voor deze optie is Android 6.0 of hoger en compatible hardware nodig</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Meld een bug</string>
-    <string name="pref_about_title_support">Beoordeel en schrijf een recensie</string>
-    <string name="pref_about_title_more_apps">Meer apps</string>
-    <string name="pref_about_title_share">Bent u tevreden? Vertel het door!</string>
-    <string name="pref_about_title_translations">Vertalingen</string>
-    <string name="pref_about_title_terms">Voorwaarden en privacybeleid</string>
-    <string name="pref_about_title_licenses">Open source licenties</string>
-    <string name="pref_about_title_build_version">Build versie</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Draag wachtwoord</string>
-    <string name="pref_wear_os_summary_password_enabled">Beperk de toegang tot uw horloge door een wachtwoord te gebruiken</string>
-    <string name="pref_wear_os_title_add_to_watch">Toevoegen om te bekijken</string>
-    <string name="pref_wear_os_summary_add_to_watch">Nieuwe items worden altijd toegevoegd aan het horloge</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">WEERGAVEN</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>THEMA</string>
-    <string name="pref_category_database">DATABASE</string>
-    <string name="pref_category_auto_backup">AUTOMATISCHE BACK-UP</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">BEVEILIGING</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>KLEMBORD</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>ZELFVERNIETIGING</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRICS</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Gebruikersnaam</string>
+    <string name="website">Website</string>
+    <string name="welcome_info_content">Kies een hoofdwachtwoord om de applicatie te starten. Bij het kwijtraken van het hoofdwachtwoord is het niet meer mogelijk opgeslagen data te herstellen doordat de sync-optie wegvalt. Er wordt ten zeerste aangeraden om op regelmatige basis een backup te maken.</string>
+    <string name="welcome_info_title">Welkom</string>
 </resources>

@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+    <string name="account">帳號</string>
+    <string name="add_new_label">添加新標籤</string>
     <string name="app_description">一個為您的 Android 裝置安全與簡單的儲存密碼的管理程式</string>
     <string name="app_download_message">前往 Google Play 商店免費下載</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">刪除字段</string>
+    <string name="button_enter">輸入</string>
+    <string name="button_exit">出口</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">得到它了</string>
+    <string name="button_more">更多</string>
+    <string name="button_register">註冊</string>
+    <string name="button_update">更新</string>
+    <string name="button_upgrade_now">立即更新</string>
+    <string name="change_mp_new_master_password">新主密碼</string>
+    <string name="change_mp_old_master_password">舊主密碼</string>
+    <string name="copy_text">（複製）</string>
     <string name="current_location_folder">位置</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_button_continue">繼續</string>
+    <string name="dialog_button_delete">刪除</string>
+    <string name="dialog_button_discard">丟棄</string>
+    <string name="dialog_button_later">後來</string>
+    <string name="dialog_button_learn_more">學到更多</string>
+    <string name="dialog_button_never">決不</string>
+    <string name="dialog_button_ok">確定</string>
+    <string name="dialog_button_rate">給五顆星</string>
+    <string name="dialog_button_remove">去掉</string>
+    <string name="dialog_msg_app_data_erased">由於嘗試失敗，所有數據都被永久刪除。</string>
+    <string name="dialog_msg_attachments_warning">附件可能會增加數據庫大小並降低應用程序的整體性能。</string>
+    <string name="dialog_msg_auto_backup_error">無法訪問外部存儲。 請重新啟用自動備份選項。</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">生物識別硬件不可用。</string>
+    <string name="dialog_msg_biometric_keystore_error">密鑰庫錯誤。 使用主密碼輸入後，請重新啟用生物特徵認證。</string>
+    <string name="dialog_msg_biometric_no_hardware">沒有生物識別硬件。</string>
+    <string name="dialog_msg_biometric_none_enrolled">找不到註冊的生物特徵識別。 請在系統設置中至少設置一個。</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">無法訪問所選的文件或文件夾。</string>
+    <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
+    <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
+    <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
+    <string name="dialog_msg_csv_format_invalid">CSV格式無效。</string>
+    <string name="dialog_msg_csv_no_data">CSV文件沒有數據。</string>
+    <string name="dialog_msg_db_created_on_ios">數據庫備份是在iOS上創建的，無法在Android上還原。 您可以改為使用csv文件傳輸數據。</string>
+    <string name="dialog_msg_db_different_pass">使用不同的主密碼創建數據庫備份。</string>
+    <string name="dialog_msg_db_not_valid">數據庫備份無效。</string>
+    <string name="dialog_msg_delete_entry">是否刪除條目？</string>
+    <string name="dialog_msg_delete_field">刪除字段？</string>
+    <string name="dialog_msg_delete_label">刪除標籤？</string>
+    <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
+    <string name="dialog_msg_discard_changes">放棄更改？</string>
+    <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
+    <string name="dialog_msg_error_reading_file">讀取文件時出錯。</string>
+    <string name="dialog_msg_error_writing_file">寫文件時出錯。</string>
+    <string name="dialog_msg_feature_shutdown">此自動備份功能將於2019年12月6日被拒絕。您應該使用Android設備備份。</string>
+    <string name="dialog_msg_fp_hint">觸摸傳感器</string>
+    <string name="dialog_msg_fp_not_recognized">指紋無法識別。 再試一次</string>
+    <string name="dialog_msg_fp_success">指紋識別。 請耐心等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">沒有找到登記的指紋。 請在系統設置中設置至少一個指紋。</string>
+    <string name="dialog_msg_no_fp_hardware">指紋硬件不存在或不起作用。</string>
+    <string name="dialog_msg_pass_gen_trick">點擊多次以生成不同類型和長度的密碼。</string>
+    <string name="dialog_msg_rating">如果你喜歡這個應用程序，請你評價一下嗎？ 它不會超過一分鐘。 感謝您的支持！</string>
+    <string name="dialog_msg_remove_from_watch">刪除時鐘條目？</string>
+    <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">附上另一張圖片？</string>
+    <string name="dialog_title_authentication">用戶認證</string>
+    <string name="dialog_title_change_master_password">是否更改主密碼？</string>
+    <string name="dialog_title_confirm_fp">確認您的指紋</string>
+    <string name="dialog_title_feature_shutdown">功能關閉</string>
+    <string name="dialog_title_history">歷史</string>
+    <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
+    <string name="dialog_title_new_field">新領域</string>
+    <string name="dialog_title_rating">為這個應用軟件評分</string>
+    <string name="dialog_title_restore_backup">是否還原備份？</string>
+    <string name="dialog_title_self_destruct">自毀</string>
+    <string name="dialog_title_set_labels">設置標籤</string>
+    <string name="last_updated">最新更新</string>
+    <string name="list_is_empty">沒有任何條目</string>
+    <string name="menu_about">關於</string>
+    <string name="menu_add_field">添加字段</string>
+    <string name="menu_add_to_watch">加入觀看</string>
+    <string name="menu_appearance">外觀</string>
+    <string name="menu_attach_image">附上圖片</string>
+    <string name="menu_clear_history">清除歷史記錄</string>
+    <string name="menu_copy_entry">複製一份</string>
+    <string name="menu_database">資料庫</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_edit">編輯</string>
+    <string name="menu_exit">出口</string>
+    <string name="menu_export_import">出口進口</string>
+    <string name="menu_export_to_pdf">導出為PDF-打印</string>
+    <string name="menu_keyboard">鍵盤</string>
+    <string name="menu_navigation_drawer_all_entries">所有</string>
+    <string name="menu_navigation_drawer_edit_labels">編輯標籤</string>
+    <string name="menu_remove_from_watch">從手錶中取出</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_search">搜尋</string>
+    <string name="menu_security">安全</string>
+    <string name="menu_select_all">全選</string>
+    <string name="menu_set_labels">設置標籤</string>
+    <string name="menu_settings">設置</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_upgrade">升級至專業版</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">關閉導航抽屜</string>
+    <string name="navigation_drawer_open">打開導航抽屜</string>
+    <string name="new_field_hint">名稱</string>
+    <string name="notes">描述</string>
+    <string name="notification_text_app_running">應用程式運行中</string>
+    <string name="password">密碼</string>
     <string name="password_is_too_short">密碼太短</string>
-    <string name="passwords_not_matching">密碼不相符</string>
     <string name="password_not_correct">密碼不正確</string>
     <string name="password_not_only_numbers">密碼不僅包含數字</string>
-    <string name="password_strength_hint_very_weak">非常弱！</string>
-    <string name="password_strength_hint_weak">弱！</string>
     <string name="password_strength_hint_good">好！</string>
     <string name="password_strength_hint_strong">強大！</string>
     <string name="password_strength_hint_very_strong">非常強壯！</string>
+    <string name="password_strength_hint_very_weak">非常弱！</string>
+    <string name="password_strength_hint_weak">弱！</string>
+    <string name="passwords_not_matching">密碼不相符</string>
+    <string name="pref_about_title_build_version">組建版本</string>
+    <string name="pref_about_title_contact">回報錯誤</string>
+    <string name="pref_about_title_licenses">開放原始碼許可證</string>
+    <string name="pref_about_title_more_apps">更多程式</string>
+    <string name="pref_about_title_share">告訴您的朋友</string>
+    <string name="pref_about_title_support">評分與回饋</string>
+    <string name="pref_about_title_terms">條款和隱私政策</string>
+    <string name="pref_about_title_translations">翻譯人員</string>
+    <string name="pref_appearance_list_subtitles_account">帳戶</string>
+    <string name="pref_appearance_list_subtitles_labels">標籤</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">沒有字幕</string>
+    <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
+    <string name="pref_appearance_sorting_choise_color">按顏色</string>
+    <string name="pref_appearance_sorting_choise_time">按日期</string>
+    <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
+    <string name="pref_appearance_theme_blue_gray">藍灰色</string>
+    <string name="pref_appearance_theme_dark">黑暗</string>
+    <string name="pref_appearance_theme_default">默認</string>
+    <string name="pref_appearance_theme_light">明亮</string>
+    <string name="pref_appearance_theme_purple">紫色</string>
+    <string name="pref_appearance_title_change_theme">更改主題</string>
+    <string name="pref_appearance_title_list_subtitles">主列表字幕</string>
+    <string name="pref_appearance_title_navibar_color">導航欄顏色</string>
+    <string name="pref_appearance_title_open_label_list">登錄時打開標籤列表</string>
+    <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
+    <string name="pref_appearance_title_show_passwords">顯示密碼</string>
+    <string name="pref_appearance_title_sort_entries">排序條目</string>
+    <string name="pref_category_appearance">外觀</string>
+    <string name="pref_category_auto_backup">自動備份</string>
+    <string name="pref_category_biometric">"<xliff:g id="PRO">[PRO]\u0020</xliff:g>生物識別技術</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪貼板</string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[專業版]\u0020</xliff:g>CSV 文件</string>
+    <string name="pref_category_database">資料庫</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">安全</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自毀</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[專業版]\u0020</xliff:g>主題</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">在外部存儲（sd或內部不可移動存儲）上創建自動備份。 您可以使用第三方文件管理器應用程序訪問外部存儲</string>
+    <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
+    <string name="pref_database_summary_backup_share">創建並共享加密數據庫的備份</string>
+    <string name="pref_database_summary_export">從未加密的 csv 文件中匯出條目</string>
+    <string name="pref_database_summary_import">從未加密的 csv 文件中匯入條目</string>
+    <string name="pref_database_summary_restore">還原加密的資料庫備份</string>
+    <string name="pref_database_title_auto_backup">自動備份</string>
+    <string name="pref_database_title_backup">備份資料庫</string>
+    <string name="pref_database_title_backup_share">共享數據庫</string>
+    <string name="pref_database_title_export">匯出 csv 文件</string>
+    <string name="pref_database_title_import">匯入 csv 文件</string>
+    <string name="pref_database_title_restore">還原資料庫</string>
+    <string name="pref_export_import_summary_export_csv">使用Android存儲訪問框架導出到未加密的csv文件</string>
+    <string name="pref_export_import_summary_import_csv">以適當的格式從未加密的csv文件導入</string>
+    <string name="pref_export_import_summary_share_csv">創建並共享未加密的csv文件</string>
+    <string name="pref_export_import_title_export_csv">導出CSV文件</string>
+    <string name="pref_export_import_title_export_pdf">導出為PDF-打印</string>
+    <string name="pref_export_import_title_import_csv">導入CSV文件</string>
+    <string name="pref_export_import_title_share_csv">共享CSV文件</string>
+    <string name="pref_security_clipboard_clear_five_min">5分鐘</string>
+    <string name="pref_security_clipboard_clear_four_min">4分鐘</string>
+    <string name="pref_security_clipboard_clear_never">決不</string>
+    <string name="pref_security_clipboard_clear_one_min">1分鐘</string>
+    <string name="pref_security_clipboard_clear_three_min">3分鐘</string>
+    <string name="pref_security_clipboard_clear_two_min">2分鐘</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">無限</string>
+    <string name="pref_security_summary_auto_exit">螢幕關閉時或在背景中停留60秒後</string>
+    <string name="pref_security_summary_biometric">使用此功能需要兼容設備。 您可以在系統設置中指定首選生物識別（指紋，面部檢測等）</string>
+    <string name="pref_security_summary_fingerprint">使用此功能需要Android 6.0或更高版本</string>
+    <string name="pref_security_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
+    <string name="pref_security_title_allow_screenshots">允許截圖</string>
+    <string name="pref_security_title_auto_exit">自動離開</string>
+    <string name="pref_security_title_biometric">生物認證</string>
+    <string name="pref_security_title_change_password">更改主密碼</string>
+    <string name="pref_security_title_clipboard_clear">清除剪貼板</string>
+    <string name="pref_security_title_fast_enter">快速進入</string>
+    <string name="pref_security_title_fingerprint">使用指紋輸入</string>
+    <string name="pref_security_title_self_destruct">密碼嘗試失敗</string>
+    <string name="pref_security_title_stay_awake">保持清醒</string>
+    <string name="pref_wear_os_summary_add_to_watch">新的條目將始終添加到手錶中</string>
+    <string name="pref_wear_os_summary_password_enabled">使用密碼限製手表的訪問權限</string>
+    <string name="pref_wear_os_title_add_to_watch">加入觀看</string>
+    <string name="pref_wear_os_title_password_enabled">穿密碼</string>
     <string name="required">需要</string>
     <string name="title">標題</string>
-    <string name="account">帳號</string>
-    <string name="password">密碼</string>
-    <string name="username">使用者名稱</string>
-    <string name="website">網頁</string>
-    <string name="notes">描述</string>
-    <string name="list_is_empty">沒有任何條目</string>
-    <string name="last_updated">最新更新</string>
-    <string name="copy_text">（複製）</string>
-    <string name="new_field_hint">名稱</string>
-    <string name="add_new_label">添加新標籤</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">註冊</string>
-    <string name="button_enter">輸入</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">立即更新</string>
-    <string name="button_update">更新</string>
-    <string name="button_exit">出口</string>
-    <string name="button_gotit">得到它了</string>
-    <string name="button_more">更多</string>
-    <string name="button_delete_field">刪除字段</string>
-    <string name="navigation_drawer_open">打開導航抽屜</string>
-    <string name="navigation_drawer_close">關閉導航抽屜</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">歡迎</string>
-    <string name="welcome_info_content">請註冊主密碼以開始使用該應用程序。 請注意，如果主密碼丟失，則由於缺少同步選項，無法恢復存儲的數據。 強烈建議您定期備份數據。</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">感謝您購買專業版</string>
+    <string name="toast_added_to_watch">添加用於跟踪</string>
+    <string name="toast_camera_permission_denied">沒有權限。 無法捕捉圖像。</string>
+    <string name="toast_copied_to_clipboard">複製到剪貼版</string>
+    <string name="toast_copy_to_clipboard_failed">無法複製到剪貼板</string>
+    <string name="toast_database_server_error">當前資料不可用</string>
+    <string name="toast_entries_deleted">條目已刪除</string>
+    <string name="toast_entry_deleted">條目已刪除</string>
+    <string name="toast_entry_saved">條目已儲存</string>
+    <string name="toast_label_exists">標籤已經存在</string>
+    <string name="toast_master_password_not_updated">更新主密碼失敗</string>
+    <string name="toast_master_password_updated">更新主密碼成功</string>
+    <string name="toast_no_browser">沒有找到瀏覽器程式</string>
+    <string name="toast_no_file_selected">沒有檔案被選中</string>
+    <string name="toast_no_folder_selected">未選擇文件夾</string>
+    <string name="toast_no_labels">沒有標籤</string>
+    <string name="toast_no_password_history">沒有密碼歷史記錄</string>
+    <string name="toast_no_playstore">Google Play 商店程式未安裝</string>
+    <string name="toast_password_history_cleared">歷史記錄已刪除</string>
+    <string name="toast_playstore_error">Google Play store 應用程序未安裝</string>
+    <string name="toast_playstore_services_error">Google Play 服務不可用</string>
+    <string name="toast_pro_feature">僅適用於PRO版本</string>
+    <string name="toast_pro_feature_unlimited_labels">更多標籤僅在PRO版本中可用</string>
+    <string name="toast_remember_your_master_password">確保記住您的主密碼</string>
+    <string name="toast_removed_from_watch">從跟踪中刪除</string>
+    <string name="toast_storage_not_accessible">外部存儲無法訪問</string>
+    <string name="toast_storage_permission_denied">沒有權限。無法讀取或寫入檔案。</string>
+    <string name="toast_successful_backup">建立備份成功</string>
+    <string name="toast_successful_csv_export">匯出 csv 文件成功</string>
+    <string name="toast_successful_csv_import">匯入 csv 文件成功</string>
+    <string name="toast_successful_restore">還原資料庫成功</string>
+    <string name="toast_tap_again_to_exit">再次輕觸離開</string>
+    <string name="toast_tap_to_copy_text">輕觸文字檢視來複製內容</string>
+    <string name="toast_try_again_shortly">請在幾秒後重試</string>
     <string name="upgrade_feature_1">CSV進出口</string>
+    <string name="upgrade_feature_10">自定義字段</string>
+    <string name="upgrade_feature_11">無限標籤</string>
+    <string name="upgrade_feature_12">生物認證</string>
     <string name="upgrade_feature_3">主題的選擇</string>
     <string name="upgrade_feature_4">剪貼板清晰</string>
     <string name="upgrade_feature_5">自我毀滅</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS 應用</string>
     <string name="upgrade_feature_8">密碼歷史記錄</string>
     <string name="upgrade_feature_9">圖像附件</string>
-    <string name="upgrade_feature_10">自定義字段</string>
-    <string name="upgrade_feature_11">無限標籤</string>
-    <string name="upgrade_feature_12">生物認證</string>
+    <string name="upgrade_thank_you">感謝您購買專業版</string>
     <string name="upgrade_with_single_purchase">通過單次應用內購買解鎖所有附加功能。</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">舊主密碼</string>
-    <string name="change_mp_new_master_password">新主密碼</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">搜尋</string>
-    <string name="menu_settings">設置</string>
-    <string name="menu_exit">出口</string>
-    <string name="menu_appearance">外觀</string>
-    <string name="menu_database">資料庫</string>
-    <string name="menu_security">安全</string>
-    <string name="menu_about">關於</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">升級至專業版</string>
-    <string name="menu_share">分享</string>
-    <string name="menu_copy_entry">複製一份</string>
-    <string name="menu_edit">編輯</string>
-    <string name="menu_delete">刪除</string>
-    <string name="menu_save">保存</string>
-    <string name="menu_set_labels">設置標籤</string>
-    <string name="menu_attach_image">附上圖片</string>
-    <string name="menu_add_field">添加字段</string>
-    <string name="menu_keyboard">鍵盤</string>
-    <string name="menu_add_to_watch">加入觀看</string>
-    <string name="menu_clear_history">清除歷史記錄</string>
-    <string name="menu_select_all">全選</string>
-    <string name="menu_navigation_drawer_all_entries">所有</string>
-    <string name="menu_navigation_drawer_edit_labels">編輯標籤</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">再次輕觸離開</string>
-    <string name="toast_entry_deleted">條目已刪除</string>
-    <string name="toast_entries_deleted">條目已刪除</string>
-    <string name="toast_entry_saved">條目已儲存</string>
-    <string name="toast_try_again_shortly">請在幾秒後重試</string>
-    <string name="toast_no_browser">沒有找到瀏覽器程式</string>
-    <string name="toast_no_playstore">Google Play 商店程式未安裝</string>
-    <string name="toast_tap_to_copy_text">輕觸文字檢視來複製內容</string>
-    <string name="toast_copied_to_clipboard">複製到剪貼版</string>
-    <string name="toast_master_password_updated">更新主密碼成功</string>
-    <string name="toast_master_password_not_updated">更新主密碼失敗</string>
-    <string name="toast_storage_permission_denied">沒有權限。無法讀取或寫入檔案。</string>
-    <string name="toast_camera_permission_denied">沒有權限。 無法捕捉圖像。</string>
-    <string name="toast_no_file_selected">沒有檔案被選中</string>
-    <string name="toast_no_folder_selected">未選擇文件夾</string>
-    <string name="toast_successful_backup">建立備份成功</string>
-    <string name="toast_successful_restore">還原資料庫成功</string>
-    <string name="toast_successful_csv_export">匯出 csv 文件成功</string>
-    <string name="toast_successful_csv_import">匯入 csv 文件成功</string>
-    <string name="toast_database_server_error">當前資料不可用</string>
-    <string name="toast_added_to_watch">添加用於跟踪</string>
-    <string name="toast_removed_from_watch">從跟踪中刪除</string>
-    <string name="toast_playstore_error">Google Play store 應用程序未安裝</string>
-    <string name="toast_playstore_services_error">Google Play 服務不可用</string>
-    <string name="toast_storage_not_accessible">外部存儲無法訪問</string>
-    <string name="toast_pro_feature">僅適用於PRO版本</string>
-    <string name="toast_no_password_history">沒有密碼歷史記錄</string>
-    <string name="toast_password_history_cleared">歷史記錄已刪除</string>
-    <string name="toast_remember_your_master_password">確保記住您的主密碼</string>
-    <string name="toast_label_exists">標籤已經存在</string>
-    <string name="toast_pro_feature_unlimited_labels">更多標籤僅在PRO版本中可用</string>
-    <string name="toast_no_labels">沒有標籤</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">確定</string>
-    <string name="dialog_button_learn_more">學到更多</string>
-    <string name="dialog_button_continue">繼續</string>
-    <string name="dialog_button_cancel">取消</string>
-    <string name="dialog_button_delete">刪除</string>
-    <string name="dialog_button_discard">丟棄</string>
-    <string name="dialog_button_remove">去掉</string>
-    <string name="dialog_button_rate">給五顆星</string>
-    <string name="dialog_button_later">後來</string>
-    <string name="dialog_button_never">決不</string>
-    <string name="dialog_title_restore_backup">是否還原備份？</string>
-    <string name="dialog_title_import_csv">是否匯入 csv 文件？</string>
-    <string name="dialog_title_change_master_password">是否更改主密碼？</string>
-    <string name="dialog_title_self_destruct">自毀</string>
-    <string name="dialog_title_authentication">用戶認證</string>
-    <string name="dialog_title_confirm_fp">確認您的指紋</string>
-    <string name="dialog_title_history">歷史</string>
-    <string name="dialog_title_attach_another_image">附上另一張圖片？</string>
-    <string name="dialog_title_new_field">新領域</string>
-    <string name="dialog_title_set_labels">設置標籤</string>
-    <string name="dialog_title_rating">為這個應用軟件評分</string>
-    <string name="dialog_title_feature_shutdown">功能關閉</string>
-    <string name="dialog_msg_feature_shutdown">此自動備份功能將於2019年12月6日被拒絕。您應該使用Android設備備份。</string>
-    <string name="dialog_msg_entries_will_be_deleted">所有當前的條目將被刪除。</string>
-    <string name="dialog_msg_changing_master_password">如果您更改了主密碼，您將無法復原用舊主密碼所建立的資料庫。</string>
-    <string name="dialog_msg_delete_selected_entries">是否刪除已選中的條目？</string>
-    <string name="dialog_msg_delete_entry">是否刪除條目？</string>
-    <string name="dialog_msg_delete_label">刪除標籤？</string>
-    <string name="dialog_msg_delete_field">刪除字段？</string>
-    <string name="dialog_msg_discard_changes">放棄更改？</string>
-    <string name="dialog_msg_cannot_open_folder">此資料夾無法存取。</string>
-    <string name="dialog_msg_cannot_read_file">已選中的檔案無法讀取。</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">無法訪問所選的文件或文件夾。</string>
-    <string name="dialog_msg_db_not_valid">數據庫備份無效。</string>
-    <string name="dialog_msg_db_different_pass">使用不同的主密碼創建數據庫備份。</string>
-    <string name="dialog_msg_db_created_on_ios">數據庫備份是在iOS上創建的，無法在Android上還原。 您可以改為使用csv文件傳輸數據。</string>
-    <string name="dialog_msg_csv_format_invalid">CSV格式無效。</string>
-    <string name="dialog_msg_csv_no_data">CSV文件沒有數據。</string>
-    <string name="dialog_msg_error_writing_file">寫文件時出錯。</string>
-    <string name="dialog_msg_error_reading_file">讀取文件時出錯。</string>
-    <string name="dialog_msg_app_data_erased">由於嘗試失敗，所有數據都被永久刪除。</string>
-    <string name="dialog_msg_no_fp_hardware">指紋硬件不存在或不起作用。</string>
-    <string name="dialog_msg_no_fp_enrolled">沒有找到登記的指紋。 請在系統設置中設置至少一個指紋。</string>
-    <string name="dialog_msg_fp_not_recognized">指紋無法識別。 再試一次</string>
-    <string name="dialog_msg_fp_success">指紋識別。 請耐心等待<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">觸摸傳感器</string>
-    <string name="dialog_msg_biometric_no_hardware">沒有生物識別硬件。</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">生物識別硬件不可用。</string>
-    <string name="dialog_msg_biometric_none_enrolled">找不到註冊的生物特徵識別。 請在系統設置中至少設置一個。</string>
-    <string name="dialog_msg_biometric_keystore_error">密鑰庫錯誤。 使用主密碼輸入後，請重新啟用生物特徵認證。</string>
-    <string name="dialog_msg_pass_gen_trick">點擊多次以生成不同類型和長度的密碼。</string>
-    <string name="dialog_msg_remove_from_watch">刪除時鐘條目？</string>
-    <string name="dialog_msg_attachments_warning">附件可能會增加數據庫大小並降低應用程序的整體性能。</string>
-    <string name="dialog_msg_rating">如果你喜歡這個應用程序，請你評價一下嗎？ 它不會超過一分鐘。 感謝您的支持！</string>
-    <string name="dialog_msg_auto_backup_error">無法訪問外部存儲。 請重新啟用自動備份選項。</string>
-    <string name="dialog_progress_please_wait">請稍候<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">應用程式運行中</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">排序條目</string>
-    <string name="pref_appearance_sorting_choise_alpha">按字母順序</string>
-    <string name="pref_appearance_sorting_choise_time">按日期</string>
-    <string name="pref_appearance_sorting_choise_color">按顏色</string>
-    <string name="pref_appearance_title_list_subtitles">主列表字幕</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">沒有字幕</string>
-    <string name="pref_appearance_list_subtitles_account">帳戶</string>
-    <string name="pref_appearance_list_subtitles_labels">標籤</string>
-    <string name="pref_appearance_title_navibar_color">導航欄顏色</string>
-    <string name="pref_appearance_title_show_notification">顯示通知圖示</string>
-    <string name="pref_appearance_summary_show_notification">通知圖示將持續存在，以顯示應用程式已被解鎖並運行中</string>
-    <string name="pref_appearance_title_open_label_list">登錄時打開標籤列表</string>
-    <string name="pref_appearance_title_show_passwords">顯示密碼</string>
-    <string name="pref_appearance_title_change_theme">更改主題</string>
-    <string name="pref_appearance_theme_default">默認</string>
-    <string name="pref_appearance_theme_light">明亮</string>
-    <string name="pref_appearance_theme_dark">黑暗</string>
-    <string name="pref_appearance_theme_blue_gray">藍灰色</string>
-    <string name="pref_appearance_theme_purple">紫色</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">共享數據庫</string>
-    <string name="pref_database_summary_backup_share">創建並共享加密數據庫的備份</string>
-    <string name="pref_database_title_backup">備份資料庫</string>
-    <string name="pref_database_summary_backup">建立加密的資料庫備份</string>
-    <string name="pref_database_title_restore">還原資料庫</string>
-    <string name="pref_database_summary_restore">還原加密的資料庫備份</string>
-    <string name="pref_database_title_auto_backup">自動備份</string>
-    <string name="pref_database_summary_auto_backup">在外部存儲（sd或內部不可移動存儲）上創建自動備份。 您可以使用第三方文件管理器應用程序訪問外部存儲</string>
-    <string name="pref_database_title_export">匯出 csv 文件</string>
-    <string name="pref_database_summary_export">從未加密的 csv 文件中匯出條目</string>
-    <string name="pref_database_title_import">匯入 csv 文件</string>
-    <string name="pref_database_summary_import">從未加密的 csv 文件中匯入條目</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">更改主密碼</string>
-    <string name="pref_security_title_fast_enter">快速進入</string>
-    <string name="pref_security_title_auto_exit">自動離開</string>
-    <string name="pref_security_summary_auto_exit">螢幕關閉時或在背景中停留60秒後</string>
-    <string name="pref_security_title_stay_awake">保持清醒</string>
-    <string name="pref_security_summary_stay_awake">在查看或編輯條目時,螢幕永遠不會睡眠</string>
-    <string name="pref_security_title_allow_screenshots">允許截圖</string>
-    <string name="pref_security_title_clipboard_clear">清除剪貼板</string>
-    <string name="pref_security_clipboard_clear_never">決不</string>
-    <string name="pref_security_clipboard_clear_one_min">1分鐘</string>
-    <string name="pref_security_clipboard_clear_two_min">2分鐘</string>
-    <string name="pref_security_clipboard_clear_three_min">3分鐘</string>
-    <string name="pref_security_clipboard_clear_four_min">4分鐘</string>
-    <string name="pref_security_clipboard_clear_five_min">5分鐘</string>
-    <string name="pref_security_title_self_destruct">密碼嘗試失敗</string>
-    <string name="pref_security_self_destruct_unlimited">無限</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">生物認證</string>
-    <string name="pref_security_summary_biometric">使用此功能需要兼容設備。 您可以在系統設置中指定首選生物識別（指紋，面部檢測等）</string>
-    <string name="pref_security_title_fingerprint">使用指紋輸入</string>
-    <string name="pref_security_summary_fingerprint">使用此功能需要Android 6.0或更高版本</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">回報錯誤</string>
-    <string name="pref_about_title_support">評分與回饋</string>
-    <string name="pref_about_title_more_apps">更多程式</string>
-    <string name="pref_about_title_share">告訴您的朋友</string>
-    <string name="pref_about_title_translations">翻譯人員</string>
-    <string name="pref_about_title_terms">條款和隱私政策</string>
-    <string name="pref_about_title_licenses">開放原始碼許可證</string>
-    <string name="pref_about_title_build_version">組建版本</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">穿密碼</string>
-    <string name="pref_wear_os_summary_password_enabled">使用密碼限製手表的訪問權限</string>
-    <string name="pref_wear_os_title_add_to_watch">加入觀看</string>
-    <string name="pref_wear_os_summary_add_to_watch">新的條目將始終添加到手錶中</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">外觀</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[專業版]\u0020</xliff:g>主題</string>
-    <string name="pref_category_database">資料庫</string>
-    <string name="pref_category_auto_backup">自動備份</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[專業版]\u0020</xliff:g>CSV 文件</string>
-    <string name="pref_category_security">安全</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>剪貼板</string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>自毀</string>
-    <string name="pref_category_biometric">"<xliff:g id="PRO">[PRO]\u0020</xliff:g>生物識別技術</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">使用者名稱</string>
+    <string name="website">網頁</string>
+    <string name="welcome_info_content">請註冊主密碼以開始使用該應用程序。 請注意，如果主密碼丟失，則由於缺少同步選項，無法恢復存儲的數據。 強烈建議您定期備份數據。</string>
+    <string name="welcome_info_title">歡迎</string>
 </resources>

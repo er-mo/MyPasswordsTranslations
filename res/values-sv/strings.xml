@@ -1,61 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Application ##################################################################### -->
-    <string name="app_name">My Passwords</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account">Konto</string>
+    <string name="add_new_label">Lägg till en ny etikett</string>
     <string name="app_description">En säker och enkel lösenordshanterare för Androidenheter</string>
     <string name="app_download_message">Skaffa den gratis från Google Play</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- General ######################################################################### -->
+    <string name="app_name">My Passwords</string>
+    <string name="button_delete_field">Ta bort fält</string>
+    <string name="button_enter">LOGGA IN</string>
+    <string name="button_exit">UTGÅNG</string>
+    <string name="button_faq">FAQ</string>
+    <string name="button_gotit">JAG FATTAR</string>
+    <string name="button_more">Mer</string>
+    <string name="button_register">REGISTRERA</string>
+    <string name="button_update">UPPDATERA</string>
+    <string name="button_upgrade_now">UPGRADERA NU</string>
+    <string name="change_mp_new_master_password">nytt huvudlösenord</string>
+    <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
+    <string name="copy_text">(kopia)</string>
     <string name="current_location_folder">Plats</string>
+    <string name="dialog_button_cancel">Avbryt</string>
+    <string name="dialog_button_continue">Fortsätt</string>
+    <string name="dialog_button_delete">Radera</string>
+    <string name="dialog_button_discard">Kassera</string>
+    <string name="dialog_button_later">Senare</string>
+    <string name="dialog_button_learn_more">Läs mer</string>
+    <string name="dialog_button_never">Aldrig</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_rate">Betygsätt</string>
+    <string name="dialog_button_remove">Ta bort</string>
+    <string name="dialog_msg_app_data_erased">Alla data raderas permanent på grund av de misslyckade försöken.</string>
+    <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>
+    <string name="dialog_msg_auto_backup_error">Extern lagring är inte tillgänglig. Aktivera alternativet automatisk säkerhetskopiering igen.</string>
+    <string name="dialog_msg_biometric_hardware_unavailable">Den biometriska hårdvaran är inte tillgänglig.</string>
+    <string name="dialog_msg_biometric_keystore_error">Keystore-fel. Aktivera biometrisk autentisering igen när du anger ditt huvudlösenord.</string>
+    <string name="dialog_msg_biometric_no_hardware">Det finns ingen biometrisk hårdvara.</string>
+    <string name="dialog_msg_biometric_none_enrolled">Inga registrerade biometri hittades. Ställ in minst en i systeminställningarna.</string>
+    <string name="dialog_msg_cannot_access_file_or_folder">Den valda filen eller mappen kan inte nås.</string>
+    <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
+    <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
+    <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
+    <string name="dialog_msg_csv_format_invalid">CSV-formatet är inte giltigt.</string>
+    <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
+    <string name="dialog_msg_db_created_on_ios">Databasbackupen skapades på iOS och kan inte återställas på Android. Du kan överföra dina data med en csv-fil istället.</string>
+    <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
+    <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
+    <string name="dialog_msg_delete_entry">Radera post?</string>
+    <string name="dialog_msg_delete_field">Radera fält?</string>
+    <string name="dialog_msg_delete_label">Radera etikett?</string>
+    <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
+    <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
+    <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
+    <string name="dialog_msg_error_reading_file">Fel vid läsning av fil.</string>
+    <string name="dialog_msg_error_writing_file">Det gick inte att skriva en fil.</string>
+    <string name="dialog_msg_feature_shutdown">Den här funktionen för automatisk säkerhetskopiering avvisas den 6 december 2019. Du bör istället använda Android-enhetens säkerhetskopia.</string>
+    <string name="dialog_msg_fp_hint">Touch-sensor</string>
+    <string name="dialog_msg_fp_not_recognized">Fingeravtryck inte erkänt. Försök igen</string>
+    <string name="dialog_msg_fp_success">Fingeravtryck igenkänt. Vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_msg_no_fp_enrolled">Inga inskrivna fingeravtryck hittades. Ställ in minst ett fingeravtryck i systeminställningarna.</string>
+    <string name="dialog_msg_no_fp_hardware">Fingeravtryckshårdvaran är inte närvarande eller inte funktionell.</string>
+    <string name="dialog_msg_pass_gen_trick">Tryck flera gånger för att generera lösenord av olika typ och längd.</string>
+    <string name="dialog_msg_rating">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
+    <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
+    <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
+    <string name="dialog_title_attach_another_image">Bifoga en annan bild?</string>
+    <string name="dialog_title_authentication">Användarautentisering</string>
+    <string name="dialog_title_change_master_password">Ändra huvudlösenordet?</string>
+    <string name="dialog_title_confirm_fp">Bekräfta ditt fingeravtryck</string>
+    <string name="dialog_title_feature_shutdown">Avstängning av funktionen</string>
+    <string name="dialog_title_history">Historia</string>
+    <string name="dialog_title_import_csv">Importera CSV?</string>
+    <string name="dialog_title_new_field">Nytt fält</string>
+    <string name="dialog_title_rating">Betygsätt appen</string>
+    <string name="dialog_title_restore_backup">Återställa säkerhetskopiering?</string>
+    <string name="dialog_title_self_destruct">Självförstörelse</string>
+    <string name="dialog_title_set_labels">Ange etiketter</string>
+    <string name="last_updated">Senast uppdaterad</string>
+    <string name="list_is_empty">Det finns inga poster</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_add_field">Lägg till fält</string>
+    <string name="menu_add_to_watch">Lägg till i klockan</string>
+    <string name="menu_appearance">Utseende</string>
+    <string name="menu_attach_image">Bifoga bild</string>
+    <string name="menu_clear_history">Rensa historik</string>
+    <string name="menu_copy_entry">Göra en kopia</string>
+    <string name="menu_database">Databas</string>
+    <string name="menu_delete">Radera</string>
+    <string name="menu_edit">Redigera</string>
+    <string name="menu_exit">Utgång</string>
+    <string name="menu_export_import">Export Import</string>
+    <string name="menu_export_to_pdf">Exportera till PDF - Skriv ut</string>
+    <string name="menu_keyboard">Tangentbord</string>
+    <string name="menu_navigation_drawer_all_entries">Allt</string>
+    <string name="menu_navigation_drawer_edit_labels">Redigera etiketter</string>
+    <string name="menu_remove_from_watch">Ta bort från klockan</string>
+    <string name="menu_save">Spara</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_security">Säkerhet</string>
+    <string name="menu_select_all">Välj alla</string>
+    <string name="menu_set_labels">Ange etiketter</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_share">Dela med sig</string>
+    <string name="menu_upgrade">Uppgradera till PRO</string>
+    <string name="menu_wear_os">Wear OS</string>
+    <string name="navigation_drawer_close">Stäng navigationslåda</string>
+    <string name="navigation_drawer_open">Öppna navigationslåda</string>
+    <string name="new_field_hint">namn</string>
+    <string name="notes">Beskrivning</string>
+    <string name="notification_text_app_running">Applikationen körs</string>
+    <string name="password">Lösenord</string>
     <string name="password_is_too_short">Lösenordet är för kort</string>
-    <string name="passwords_not_matching">Lösenorden matchar inte</string>
     <string name="password_not_correct">Lösenordet är felaktigt</string>
     <string name="password_not_only_numbers">Password contains not only numbers</string>
-    <string name="password_strength_hint_very_weak">Väldigt svag!</string>
-    <string name="password_strength_hint_weak">Svag!</string>
     <string name="password_strength_hint_good">Bra!</string>
     <string name="password_strength_hint_strong">Stark!</string>
     <string name="password_strength_hint_very_strong">Väldigt stark!</string>
+    <string name="password_strength_hint_very_weak">Väldigt svag!</string>
+    <string name="password_strength_hint_weak">Svag!</string>
+    <string name="passwords_not_matching">Lösenorden matchar inte</string>
+    <string name="pref_about_title_build_version">Version</string>
+    <string name="pref_about_title_contact">Rapportera en bugg</string>
+    <string name="pref_about_title_licenses">Open Source-licens</string>
+    <string name="pref_about_title_more_apps">Fler appar</string>
+    <string name="pref_about_title_share">Tipsa dina vänner</string>
+    <string name="pref_about_title_support">Betygsätt och recensera </string>
+    <string name="pref_about_title_terms">Villkor och sekretesspolicy</string>
+    <string name="pref_about_title_translations">Översättningar</string>
+    <string name="pref_appearance_list_subtitles_account">Konto</string>
+    <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
+    <string name="pref_appearance_list_subtitles_no_subtitles">Utan undertexter</string>
+    <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
+    <string name="pref_appearance_sorting_choise_color">Efter färg</string>
+    <string name="pref_appearance_sorting_choise_time">Efter datum</string>
+    <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
+    <string name="pref_appearance_theme_blue_gray">Blå grå</string>
+    <string name="pref_appearance_theme_dark">Mörk</string>
+    <string name="pref_appearance_theme_default">Standard</string>
+    <string name="pref_appearance_theme_light">Ljus</string>
+    <string name="pref_appearance_theme_purple">Lila</string>
+    <string name="pref_appearance_title_change_theme">Ändra tema</string>
+    <string name="pref_appearance_title_list_subtitles">Huvudlista undertexter</string>
+    <string name="pref_appearance_title_navibar_color">Navigationsfältet färg</string>
+    <string name="pref_appearance_title_open_label_list">Öppna etikettlistan vid inloggning</string>
+    <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
+    <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
+    <string name="pref_appearance_title_sort_entries">Sortera poster</string>
+    <string name="pref_category_appearance">UTSEENDE</string>
+    <string name="pref_category_auto_backup">AUTOMATISK SÄKERHETSKOPIERING</string>
+    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRISK</string>
+    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SKRIVPLATTA </string>
+    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
+    <string name="pref_category_database">DATABAS</string>
+    <string name="pref_category_pdf"><xliff:g id="PRO">[PRO]\u0020</xliff:g>PDF</string>
+    <string name="pref_category_security">SÄKERHET</string>
+    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SJÄLVFÖRSTÖRELSE</string>
+    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
+    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
+    <string name="pref_database_summary_auto_backup">Skapa automatisk säkerhetskopiering i ditt externa lagringsutrymme (sd eller internt ej flyttbart lagringsutrymme). Du kan komma åt extern lagring med hjälp av en tredje part filhanteringsapp</string>
+    <string name="pref_database_summary_backup">Skapa en säkerhetskopia av den krypterade databasen</string>
+    <string name="pref_database_summary_backup_share">Skapa och dela en säkerhetskopia av den krypterade databaser</string>
+    <string name="pref_database_summary_export">Exportera posterna till en okrypterad CSV fil</string>
+    <string name="pref_database_summary_import">Importera poster från en okrypterad CSV fil</string>
+    <string name="pref_database_summary_restore">Återställ en säkerhetskopierad krypterad databas</string>
+    <string name="pref_database_title_auto_backup">Automatisk säkerhetskopiering</string>
+    <string name="pref_database_title_backup">Säkerhetskopiera databasen</string>
+    <string name="pref_database_title_backup_share">Dela databas</string>
+    <string name="pref_database_title_export">Exportering av CSV fil</string>
+    <string name="pref_database_title_import">Importera CSV fil</string>
+    <string name="pref_database_title_restore">Återställ databasen</string>
+    <string name="pref_export_import_summary_export_csv">Exportera till en icke-krypterad csv-fil med åtkomstramen för Android-lagring</string>
+    <string name="pref_export_import_summary_import_csv">Importera från en icke-krypterad csv-fil med lämpligt format</string>
+    <string name="pref_export_import_summary_share_csv">Skapa och dela en icke-krypterad csv-fil</string>
+    <string name="pref_export_import_title_export_csv">Exportera csv-fil</string>
+    <string name="pref_export_import_title_export_pdf">Exportera till PDF - Skriv ut</string>
+    <string name="pref_export_import_title_import_csv">Importera csv-fil</string>
+    <string name="pref_export_import_title_share_csv">Dela csv-fil</string>
+    <string name="pref_security_clipboard_clear_five_min">5 minut</string>
+    <string name="pref_security_clipboard_clear_four_min">4 minut</string>
+    <string name="pref_security_clipboard_clear_never">Aldrig</string>
+    <string name="pref_security_clipboard_clear_one_min">1 minut</string>
+    <string name="pref_security_clipboard_clear_three_min">3 minut</string>
+    <string name="pref_security_clipboard_clear_two_min">2 minut</string>
+    <string name="pref_security_self_destruct_fifteen">15</string>
+    <string name="pref_security_self_destruct_five">5</string>
+    <string name="pref_security_self_destruct_ten">10</string>
+    <string name="pref_security_self_destruct_three">3</string>
+    <string name="pref_security_self_destruct_twenty">20</string>
+    <string name="pref_security_self_destruct_unlimited">Obegränsat</string>
+    <string name="pref_security_summary_auto_exit">När skärmen stängs av eller efter 60 sekunder i bakgrunden</string>
+    <string name="pref_security_summary_biometric">Kompatibel enhet krävs för att använda den här funktionen. Du kan ange dina önskade biometriska systeminställningar (fingeravtryck, ansiktsigenkänning etc.)</string>
+    <string name="pref_security_summary_fingerprint">Du behöver Android 6.0 eller senare för att använda den här funktionen</string>
+    <string name="pref_security_summary_stay_awake">Skärmen kommer aldrig att sova medan du tittar på eller redigerar poster</string>
+    <string name="pref_security_title_allow_screenshots">Tillåt skärmdumpar</string>
+    <string name="pref_security_title_auto_exit">Automatisk avslut</string>
+    <string name="pref_security_title_biometric">Biometrisk autentisering</string>
+    <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
+    <string name="pref_security_title_clipboard_clear">Rensa Urklipp</string>
+    <string name="pref_security_title_fast_enter">Snabbinloggning</string>
+    <string name="pref_security_title_fingerprint">Ange med fingeravtryck</string>
+    <string name="pref_security_title_self_destruct">Felaktigt lösenord försök</string>
+    <string name="pref_security_title_stay_awake">Hålla sig vaken</string>
+    <string name="pref_wear_os_summary_add_to_watch">Nya poster läggs alltid till i klockan</string>
+    <string name="pref_wear_os_summary_password_enabled">Begränsa åtkomsten till din klocka med hjälp av ett lösenord</string>
+    <string name="pref_wear_os_title_add_to_watch">Lägg till i klockan</string>
+    <string name="pref_wear_os_title_password_enabled">Använd lösenord</string>
     <string name="required">Nödvändig</string>
     <string name="title">Titel</string>
-    <string name="account">Konto</string>
-    <string name="password">Lösenord</string>
-    <string name="username">Användarnamn</string>
-    <string name="website">Webbsida</string>
-    <string name="notes">Beskrivning</string>
-    <string name="list_is_empty">Det finns inga poster</string>
-    <string name="last_updated">Senast uppdaterad</string>
-    <string name="copy_text">(kopia)</string>
-    <string name="new_field_hint">namn</string>
-    <string name="add_new_label">Lägg till en ny etikett</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Buttons ######################################################################### -->
-    <string name="button_register">REGISTRERA</string>
-    <string name="button_enter">LOGGA IN</string>
-    <string name="button_faq">FAQ</string>
-    <string name="button_upgrade_now">UPGRADERA NU</string>
-    <string name="button_update">UPPDATERA</string>
-    <string name="button_exit">UTGÅNG</string>
-    <string name="button_gotit">JAG FATTAR</string>
-    <string name="button_more">Mer</string>
-    <string name="button_delete_field">Ta bort fält</string>
-    <string name="navigation_drawer_open">Öppna navigationslåda</string>
-    <string name="navigation_drawer_close">Stäng navigationslåda</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Activities ###################################################################### -->
-    <!-- welcome -->
-    <string name="welcome_info_title">Välkommen!</string>
-    <string name="welcome_info_content">Ange ett huvudlösenord för att börja använda programmet. Observera att om huvudlösenordet försvinner kan de lagrade dataen inte återställas på grund av det saknade synkroniseringsalternativet. Det rekommenderas starkt att du regelbundet säkerhetskopierar dina data.</string>
-    <!-- upgrade -->
-    <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
+    <string name="toast_added_to_watch">Tillagt att titta på</string>
+    <string name="toast_camera_permission_denied">Åtkomst nekad. Kan inte ta bilder.</string>
+    <string name="toast_copied_to_clipboard">Kopierat till urklipp</string>
+    <string name="toast_copy_to_clipboard_failed">Det gick inte att kopiera till Urklipp</string>
+    <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
+    <string name="toast_entries_deleted">Poster raderade</string>
+    <string name="toast_entry_deleted">Post raderad</string>
+    <string name="toast_entry_saved">Post sparad</string>
+    <string name="toast_label_exists">Etiketten finns redan</string>
+    <string name="toast_master_password_not_updated">Det gick inte att uppdatera huvudlösenordet</string>
+    <string name="toast_master_password_updated">Huvudlösenordet har uppdaterats</string>
+    <string name="toast_no_browser">Webbläsartillägg hittades inte</string>
+    <string name="toast_no_file_selected">Ingen fil är vald</string>
+    <string name="toast_no_folder_selected">Ingen mapp valdes</string>
+    <string name="toast_no_labels">Inga etiketter</string>
+    <string name="toast_no_password_history">Ingen lösenord historik tillgänglig</string>
+    <string name="toast_no_playstore">Google Play appen är inte installerad</string>
+    <string name="toast_password_history_cleared">Historik rensad</string>
+    <string name="toast_playstore_error">Google Play Butik-appen är inte installerad</string>
+    <string name="toast_playstore_services_error">Google Play-tjänster är inte tillgängliga</string>
+    <string name="toast_pro_feature">Finns endast i PRO-versionen</string>
+    <string name="toast_pro_feature_unlimited_labels">Fler etiketter är bara tillgängliga i PRO-versionen</string>
+    <string name="toast_remember_your_master_password">Se till att du kommer ihåg ditt huvudlösenord</string>
+    <string name="toast_removed_from_watch">avlägsnande från övervakning</string>
+    <string name="toast_storage_not_accessible">Externt lagringsutrymme är inte tillgängligt</string>
+    <string name="toast_storage_permission_denied">Tillstånd inte beviljat. Kan inte läsa eller skriva filer.</string>
+    <string name="toast_successful_backup">Lyckades säkerhetskopiera</string>
+    <string name="toast_successful_csv_export">Lyckades exportera CSV fil</string>
+    <string name="toast_successful_csv_import">Lyckades importera CSV fil</string>
+    <string name="toast_successful_restore">Lyckades återställa databasen</string>
+    <string name="toast_tap_again_to_exit">Tryck igen för att avsluta</string>
+    <string name="toast_tap_to_copy_text">Tryck på texten för att kopiera innehållet</string>
+    <string name="toast_try_again_shortly">Försök igen om några få sekunder</string>
     <string name="upgrade_feature_1">CSV import &amp; export</string>
+    <string name="upgrade_feature_10">Anpassade fält</string>
+    <string name="upgrade_feature_11">Obegränsade etiketter</string>
+    <string name="upgrade_feature_12">Biometrisk autentisering</string>
     <string name="upgrade_feature_3">Temainställningar</string>
     <string name="upgrade_feature_4">Urklipp klart</string>
     <string name="upgrade_feature_5">Självförstörelse</string>
@@ -63,235 +249,10 @@
     <string name="upgrade_feature_7">Wear OS app</string>
     <string name="upgrade_feature_8">Lösenord Historia</string>
     <string name="upgrade_feature_9">Bildbilagor</string>
-    <string name="upgrade_feature_10">Anpassade fält</string>
-    <string name="upgrade_feature_11">Obegränsade etiketter</string>
-    <string name="upgrade_feature_12">Biometrisk autentisering</string>
+    <string name="upgrade_thank_you">Tack för att du köper PRO versionen.</string>
     <string name="upgrade_with_single_purchase">Lås upp alla ytterligare funktioner med ett enda inköp i app.</string>
-    <!-- change master password -->
-    <string name="change_mp_old_master_password">nuvarande huvudlösenord</string>
-    <string name="change_mp_new_master_password">nytt huvudlösenord</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Menus ########################################################################### -->
-    <string name="menu_search">Sök</string>
-    <string name="menu_settings">Inställningar</string>
-    <string name="menu_exit">Utgång</string>
-    <string name="menu_appearance">Utseende</string>
-    <string name="menu_database">Databas</string>
-    <string name="menu_security">Säkerhet</string>
-    <string name="menu_about">Om</string>
-    <string name="menu_wear_os">Wear OS</string>
-    <string name="menu_upgrade">Uppgradera till PRO</string>
-    <string name="menu_share">Dela med sig</string>
-    <string name="menu_copy_entry">Göra en kopia</string>
-    <string name="menu_edit">Redigera</string>
-    <string name="menu_delete">Radera</string>
-    <string name="menu_save">Spara</string>
-    <string name="menu_set_labels">Ange etiketter</string>
-    <string name="menu_attach_image">Bifoga bild</string>
-    <string name="menu_add_field">Lägg till fält</string>
-    <string name="menu_keyboard">Tangentbord</string>
-    <string name="menu_add_to_watch">Lägg till i klockan</string>
-    <string name="menu_clear_history">Rensa historik</string>
-    <string name="menu_select_all">Välj alla</string>
-    <string name="menu_navigation_drawer_all_entries">Allt</string>
-    <string name="menu_navigation_drawer_edit_labels">Redigera etiketter</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Toasts ########################################################################## -->
-    <string name="toast_tap_again_to_exit">Tryck igen för att avsluta</string>
-    <string name="toast_entry_deleted">Post raderad</string>
-    <string name="toast_entries_deleted">Poster raderade</string>
-    <string name="toast_entry_saved">Post sparad</string>
-    <string name="toast_try_again_shortly">Försök igen om några få sekunder</string>
-    <string name="toast_no_browser">Webbläsartillägg hittades inte</string>
-    <string name="toast_no_playstore">Google Play appen är inte installerad</string>
-    <string name="toast_tap_to_copy_text">Tryck på texten för att kopiera innehållet</string>
-    <string name="toast_copied_to_clipboard">Kopierat till urklipp</string>
-    <string name="toast_master_password_updated">Huvudlösenordet har uppdaterats</string>
-    <string name="toast_master_password_not_updated">Det gick inte att uppdatera huvudlösenordet</string>
-    <string name="toast_storage_permission_denied">Tillstånd inte beviljat. Kan inte läsa eller skriva filer.</string>
-    <string name="toast_camera_permission_denied">Åtkomst nekad. Kan inte ta bilder.</string>
-    <string name="toast_no_file_selected">Ingen fil är vald</string>
-    <string name="toast_no_folder_selected">Ingen mapp valdes</string>
-    <string name="toast_successful_backup">Lyckades säkerhetskopiera</string>
-    <string name="toast_successful_restore">Lyckades återställa databasen</string>
-    <string name="toast_successful_csv_export">Lyckades exportera CSV fil</string>
-    <string name="toast_successful_csv_import">Lyckades importera CSV fil</string>
-    <string name="toast_database_server_error">Databasen är inte tillgänglig just nu.</string>
-    <string name="toast_added_to_watch">Tillagt att titta på</string>
-    <string name="toast_removed_from_watch">avlägsnande från övervakning</string>
-    <string name="toast_playstore_error">Google Play Butik-appen är inte installerad</string>
-    <string name="toast_playstore_services_error">Google Play-tjänster är inte tillgängliga</string>
-    <string name="toast_storage_not_accessible">Externt lagringsutrymme är inte tillgängligt</string>
-    <string name="toast_pro_feature">Finns endast i PRO-versionen</string>
-    <string name="toast_no_password_history">Ingen lösenord historik tillgänglig</string>
-    <string name="toast_password_history_cleared">Historik rensad</string>
-    <string name="toast_remember_your_master_password">Se till att du kommer ihåg ditt huvudlösenord</string>
-    <string name="toast_label_exists">Etiketten finns redan</string>
-    <string name="toast_pro_feature_unlimited_labels">Fler etiketter är bara tillgängliga i PRO-versionen</string>
-    <string name="toast_no_labels">Inga etiketter</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Dialogs ######################################################################### -->
-    <string name="dialog_button_ok">OK</string>
-    <string name="dialog_button_learn_more">Läs mer</string>
-    <string name="dialog_button_continue">Fortsätt</string>
-    <string name="dialog_button_cancel">Avbryt</string>
-    <string name="dialog_button_delete">Radera</string>
-    <string name="dialog_button_discard">Kassera</string>
-    <string name="dialog_button_remove">Ta bort</string>
-    <string name="dialog_button_rate">Betygsätt</string>
-    <string name="dialog_button_later">Senare</string>
-    <string name="dialog_button_never">Aldrig</string>
-    <string name="dialog_title_restore_backup">Återställa säkerhetskopiering?</string>
-    <string name="dialog_title_import_csv">Importera CSV?</string>
-    <string name="dialog_title_change_master_password">Ändra huvudlösenordet?</string>
-    <string name="dialog_title_self_destruct">Självförstörelse</string>
-    <string name="dialog_title_authentication">Användarautentisering</string>
-    <string name="dialog_title_confirm_fp">Bekräfta ditt fingeravtryck</string>
-    <string name="dialog_title_history">Historia</string>
-    <string name="dialog_title_attach_another_image">Bifoga en annan bild?</string>
-    <string name="dialog_title_new_field">Nytt fält</string>
-    <string name="dialog_title_set_labels">Ange etiketter</string>
-    <string name="dialog_title_rating">Betygsätt appen</string>
-    <string name="dialog_title_feature_shutdown">Avstängning av funktionen</string>
-    <string name="dialog_msg_feature_shutdown">Den här funktionen för automatisk säkerhetskopiering avvisas den 6 december 2019. Du bör istället använda Android-enhetens säkerhetskopia.</string>
-    <string name="dialog_msg_entries_will_be_deleted">Alla nuvarande poster kommer att raderas.</string>
-    <string name="dialog_msg_changing_master_password">Om du ändrar huvudlösenordet kommer du inte kunna återställa tidigare säkerhetskopieringar som använt det nuvarande huvudlösenordet.</string>
-    <string name="dialog_msg_delete_selected_entries">Radera valda poster?</string>
-    <string name="dialog_msg_delete_entry">Radera post?</string>
-    <string name="dialog_msg_delete_label">Radera etikett?</string>
-    <string name="dialog_msg_delete_field">Radera fält?</string>
-    <string name="dialog_msg_discard_changes">Ignorera ändringar?</string>
-    <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
-    <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
-    <string name="dialog_msg_cannot_access_file_or_folder">Den valda filen eller mappen kan inte nås.</string>
-    <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
-    <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
-    <string name="dialog_msg_db_created_on_ios">Databasbackupen skapades på iOS och kan inte återställas på Android. Du kan överföra dina data med en csv-fil istället.</string>
-    <string name="dialog_msg_csv_format_invalid">CSV-formatet är inte giltigt.</string>
-    <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
-    <string name="dialog_msg_error_writing_file">Det gick inte att skriva en fil.</string>
-    <string name="dialog_msg_error_reading_file">Fel vid läsning av fil.</string>
-    <string name="dialog_msg_app_data_erased">Alla data raderas permanent på grund av de misslyckade försöken.</string>
-    <string name="dialog_msg_no_fp_hardware">Fingeravtryckshårdvaran är inte närvarande eller inte funktionell.</string>
-    <string name="dialog_msg_no_fp_enrolled">Inga inskrivna fingeravtryck hittades. Ställ in minst ett fingeravtryck i systeminställningarna.</string>
-    <string name="dialog_msg_fp_not_recognized">Fingeravtryck inte erkänt. Försök igen</string>
-    <string name="dialog_msg_fp_success">Fingeravtryck igenkänt. Vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <string name="dialog_msg_fp_hint">Touch-sensor</string>
-    <string name="dialog_msg_biometric_no_hardware">Det finns ingen biometrisk hårdvara.</string>
-    <string name="dialog_msg_biometric_hardware_unavailable">Den biometriska hårdvaran är inte tillgänglig.</string>
-    <string name="dialog_msg_biometric_none_enrolled">Inga registrerade biometri hittades. Ställ in minst en i systeminställningarna.</string>
-    <string name="dialog_msg_biometric_keystore_error">Keystore-fel. Aktivera biometrisk autentisering igen när du anger ditt huvudlösenord.</string>
-    <string name="dialog_msg_pass_gen_trick">Tryck flera gånger för att generera lösenord av olika typ och längd.</string>
-    <string name="dialog_msg_remove_from_watch">Ta bort post från klockan?</string>
-    <string name="dialog_msg_attachments_warning">Bilagor kan öka databasstorleken och minska programmets totala prestanda.</string>
-    <string name="dialog_msg_rating">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
-    <string name="dialog_msg_auto_backup_error">Extern lagring är inte tillgänglig. Aktivera alternativet automatisk säkerhetskopiering igen.</string>
-    <string name="dialog_progress_please_wait">Vänligen vänta<xliff:g id="THREE_DOTS">&#8230;</xliff:g></string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Notifications ################################################################### -->
-    <string name="notification_text_app_running">Applikationen körs</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preferences ##################################################################### -->
-    <!-- appearance -->
-    <string name="pref_appearance_title_sort_entries">Sortera poster</string>
-    <string name="pref_appearance_sorting_choise_alpha">Alfabetisk</string>
-    <string name="pref_appearance_sorting_choise_time">Efter datum</string>
-    <string name="pref_appearance_sorting_choise_color">Efter färg</string>
-    <string name="pref_appearance_title_list_subtitles">Huvudlista undertexter</string>
-    <string name="pref_appearance_list_subtitles_no_subtitles">Utan undertexter</string>
-    <string name="pref_appearance_list_subtitles_account">Konto</string>
-    <string name="pref_appearance_list_subtitles_labels">Etiketter</string>
-    <string name="pref_appearance_title_navibar_color">Navigationsfältet färg</string>
-    <string name="pref_appearance_title_show_notification">Visa notifieringsikon</string>
-    <string name="pref_appearance_summary_show_notification">Notifieringsikonen syns för att indikera att appen är olåst och att den körs</string>
-    <string name="pref_appearance_title_open_label_list">Öppna etikettlistan vid inloggning</string>
-    <string name="pref_appearance_title_show_passwords">Visa lösenord</string>
-    <string name="pref_appearance_title_change_theme">Ändra tema</string>
-    <string name="pref_appearance_theme_default">Standard</string>
-    <string name="pref_appearance_theme_light">Ljus</string>
-    <string name="pref_appearance_theme_dark">Mörk</string>
-    <string name="pref_appearance_theme_blue_gray">Blå grå</string>
-    <string name="pref_appearance_theme_purple">Lila</string>
-    <!-- database -->
-    <string name="pref_database_title_backup_share">Dela databas</string>
-    <string name="pref_database_summary_backup_share">Skapa och dela en säkerhetskopia av den krypterade databaser</string>
-    <string name="pref_database_title_backup">Säkerhetskopiera databasen</string>
-    <string name="pref_database_summary_backup">Skapa en säkerhetskopia av den krypterade databasen</string>
-    <string name="pref_database_title_restore">Återställ databasen</string>
-    <string name="pref_database_summary_restore">Återställ en säkerhetskopierad krypterad databas</string>
-    <string name="pref_database_title_auto_backup">Automatisk säkerhetskopiering</string>
-    <string name="pref_database_summary_auto_backup">Skapa automatisk säkerhetskopiering i ditt externa lagringsutrymme (sd eller internt ej flyttbart lagringsutrymme). Du kan komma åt extern lagring med hjälp av en tredje part filhanteringsapp</string>
-    <string name="pref_database_title_export">Exportering av CSV fil</string>
-    <string name="pref_database_summary_export">Exportera posterna till en okrypterad CSV fil</string>
-    <string name="pref_database_title_import">Importera CSV fil</string>
-    <string name="pref_database_summary_import">Importera poster från en okrypterad CSV fil</string>
-    <!-- security -->
-    <string name="pref_security_title_change_password">Ändra huvudlösenord</string>
-    <string name="pref_security_title_fast_enter">Snabbinloggning</string>
-    <string name="pref_security_title_auto_exit">Automatisk avslut</string>
-    <string name="pref_security_summary_auto_exit">När skärmen stängs av eller efter 60 sekunder i bakgrunden</string>
-    <string name="pref_security_title_stay_awake">Hålla sig vaken</string>
-    <string name="pref_security_summary_stay_awake">Skärmen kommer aldrig att sova medan du tittar på eller redigerar poster</string>
-    <string name="pref_security_title_allow_screenshots">Tillåt skärmdumpar</string>
-    <string name="pref_security_title_clipboard_clear">Rensa Urklipp</string>
-    <string name="pref_security_clipboard_clear_never">Aldrig</string>
-    <string name="pref_security_clipboard_clear_one_min">1 minut</string>
-    <string name="pref_security_clipboard_clear_two_min">2 minut</string>
-    <string name="pref_security_clipboard_clear_three_min">3 minut</string>
-    <string name="pref_security_clipboard_clear_four_min">4 minut</string>
-    <string name="pref_security_clipboard_clear_five_min">5 minut</string>
-    <string name="pref_security_title_self_destruct">Felaktigt lösenord försök</string>
-    <string name="pref_security_self_destruct_unlimited">Obegränsat</string>
-    <string name="pref_security_self_destruct_three">3</string>
-    <string name="pref_security_self_destruct_five">5</string>
-    <string name="pref_security_self_destruct_ten">10</string>
-    <string name="pref_security_self_destruct_fifteen">15</string>
-    <string name="pref_security_self_destruct_twenty">20</string>
-    <string name="pref_security_title_biometric">Biometrisk autentisering</string>
-    <string name="pref_security_summary_biometric">Kompatibel enhet krävs för att använda den här funktionen. Du kan ange dina önskade biometriska systeminställningar (fingeravtryck, ansiktsigenkänning etc.)</string>
-    <string name="pref_security_title_fingerprint">Ange med fingeravtryck</string>
-    <string name="pref_security_summary_fingerprint">Du behöver Android 6.0 eller senare för att använda den här funktionen</string>
-    <!-- about -->
-    <string name="pref_about_title_contact">Rapportera en bugg</string>
-    <string name="pref_about_title_support">Betygsätt och recensera </string>
-    <string name="pref_about_title_more_apps">Fler appar</string>
-    <string name="pref_about_title_share">Tipsa dina vänner</string>
-    <string name="pref_about_title_translations">Översättningar</string>
-    <string name="pref_about_title_terms">Villkor och sekretesspolicy</string>
-    <string name="pref_about_title_licenses">Open Source-licens</string>
-    <string name="pref_about_title_build_version">Version</string>
-    <!-- wear os -->
-    <string name="pref_wear_os_title_password_enabled">Använd lösenord</string>
-    <string name="pref_wear_os_summary_password_enabled">Begränsa åtkomsten till din klocka med hjälp av ett lösenord</string>
-    <string name="pref_wear_os_title_add_to_watch">Lägg till i klockan</string>
-    <string name="pref_wear_os_summary_add_to_watch">Nya poster läggs alltid till i klockan</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Preference Categories ########################################################### -->
-    <string name="pref_category_appearance">UTSEENDE</string>
-    <string name="pref_category_theme"><xliff:g id="PRO">[PRO]\u0020</xliff:g>TEMA</string>
-    <string name="pref_category_database">DATABAS</string>
-    <string name="pref_category_auto_backup">AUTOMATISK SÄKERHETSKOPIERING</string>
-    <string name="pref_category_csv"><xliff:g id="PRO">[PRO]\u0020</xliff:g>CSV</string>
-    <string name="pref_category_security">SÄKERHET</string>
-    <string name="pref_category_clipboard"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SKRIVPLATTA </string>
-    <string name="pref_category_self_destruct"><xliff:g id="PRO">[PRO]\u0020</xliff:g>SJÄLVFÖRSTÖRELSE</string>
-    <string name="pref_category_biometric"><xliff:g id="PRO">[PRO]\u0020</xliff:g>BIOMETRISK</string>
-    <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
-    <!-- ################################################################################# -->
-
-
-    <!-- Watch information -->
-
+    <string name="username">Användarnamn</string>
+    <string name="website">Webbsida</string>
+    <string name="welcome_info_content">Ange ett huvudlösenord för att börja använda programmet. Observera att om huvudlösenordet försvinner kan de lagrade dataen inte återställas på grund av det saknade synkroniseringsalternativet. Det rekommenderas starkt att du regelbundet säkerhetskopierar dina data.</string>
+    <string name="welcome_info_title">Välkommen!</string>
 </resources>
