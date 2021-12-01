@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Errore nel keystore. Riattivare l\'autenticazione biometrica dopo aver inserito la password principale.</string>
     <string name="dialog_msg_biometric_no_hardware">Non esiste hardware biometrico.</string>
     <string name="dialog_msg_biometric_none_enrolled">Nessuna biometria registrata trovata. Si prega di impostare almeno uno nelle impostazioni di sistema.</string>
+    <string name="dialog_msg_biometric_security_update_required">È necessario un aggiornamento di sicurezza per l\'utilizzo dei sensori biometrici.</string>
+    <string name="dialog_msg_biometric_unknown_error">I sensori biometrici non possono essere utilizzati a causa di un errore sconosciuto.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Non è possibile accedere al file o alla cartella selezionati.</string>
     <string name="dialog_msg_cannot_open_folder">La cartella non è accessibile.</string>
     <string name="dialog_msg_cannot_read_file">Il file selezionato non può essere letto.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Il file CSV non ha dati.</string>
     <string name="dialog_msg_db_created_on_ios">Il backup del database è stato creato su iOS e non può essere ripristinato su Android. Puoi invece trasferire i tuoi dati usando un file CSV.</string>
     <string name="dialog_msg_db_different_pass">Il backup del database è stato creato utilizzando una password master diversa.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Il backup del database è stato creato con una versione recente dell\'app. Aggiorna l\'app all\'ultima versione e riprova.</string>
     <string name="dialog_msg_db_not_valid">Il backup del database non è valido.</string>
     <string name="dialog_msg_delete_entry">Eliminare la seguente voce?</string>
     <string name="dialog_msg_delete_field">Elimina campo?</string>

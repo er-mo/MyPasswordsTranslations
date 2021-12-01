@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Keystore-fout. Schakel de biometrische authenticatie opnieuw in zodra u deze invoert met uw hoofdwachtwoord.</string>
     <string name="dialog_msg_biometric_no_hardware">Er is geen biometrische hardware.</string>
     <string name="dialog_msg_biometric_none_enrolled">Geen geregistreerde biometrische gegevens gevonden. Stel ten minste één in systeeminstellingen in.</string>
+    <string name="dialog_msg_biometric_security_update_required">Voor het gebruik van de biometrische sensoren is een beveiligingsupdate vereist.</string>
+    <string name="dialog_msg_biometric_unknown_error">De biometrische sensoren kunnen niet worden gebruikt vanwege een onbekende fout.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Het geselecteerde bestand of de geselecteerde map is niet toegankelijk.</string>
     <string name="dialog_msg_cannot_open_folder">Deze map is niet beschikbaar.</string>
     <string name="dialog_msg_cannot_read_file">Het geselecteerde bestand kan niet worden gelezen.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Het CSV-bestand bevat geen gegevens.</string>
     <string name="dialog_msg_db_created_on_ios">De databaseback-up is gemaakt op iOS en kan niet worden hersteld op Android. U kunt in plaats daarvan uw gegevens overbrengen met behulp van een CSV-bestand.</string>
     <string name="dialog_msg_db_different_pass">De databaseback-up is gemaakt met een ander hoofdwachtwoord.</string>
+    <string name="dialog_msg_db_update_to_latest_version">De databaseback-up is gemaakt met een recente app-versie. Werk de app bij naar de nieuwste versie en probeer het opnieuw.</string>
     <string name="dialog_msg_db_not_valid">De databaseback-up is niet geldig.</string>
     <string name="dialog_msg_delete_entry">Invoer wissen?</string>
     <string name="dialog_msg_delete_field">Veld verwijderen?</string>

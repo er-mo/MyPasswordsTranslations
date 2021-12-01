@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Erreur du magasin de clés. Veuillez réactiver l\'authentification biométrique une fois que vous avez entré votre mot de passe principal.</string>
     <string name="dialog_msg_biometric_no_hardware">Il n\'y a pas de matériel biométrique.</string>
     <string name="dialog_msg_biometric_none_enrolled">Aucune biométrie inscrite trouvée. Veuillez en configurer au moins un dans les paramètres système.</string>
+    <string name="dialog_msg_biometric_security_update_required">Une mise à jour de sécurité est requise pour l\'utilisation des capteurs biométriques.</string>
+    <string name="dialog_msg_biometric_unknown_error">Les capteurs biométriques ne peuvent pas être utilisés en raison d\'une erreur inconnue.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Le fichier ou dossier sélectionné n\'est pas accessible.</string>
     <string name="dialog_msg_cannot_open_folder">Le dossier n\'est pas accessible.</string>
     <string name="dialog_msg_cannot_read_file">Ne peut pas lire fichier sélectionné.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Le fichier CSV ne contient aucune donnée.</string>
     <string name="dialog_msg_db_created_on_ios">La sauvegarde de la base de données a été créée sur iOS et ne peut pas être restaurée sur Android. Vous pouvez transférer vos données en utilisant plutôt un fichier csv.</string>
     <string name="dialog_msg_db_different_pass">La sauvegarde de la base de données a été créée avec utilisant mot de passe principal différent.</string>
+    <string name="dialog_msg_db_update_to_latest_version">La sauvegarde de la base de données a été créée avec une version récente de l\'application. Veuillez mettre à jour l\'application vers la dernière version et réessayer.</string>
     <string name="dialog_msg_db_not_valid">La sauvegarde de la base de données n\'est pas valide.</string>
     <string name="dialog_msg_delete_entry">Supprimer l\'entrée?</string>
     <string name="dialog_msg_delete_field">Supprimer le champ?</string>

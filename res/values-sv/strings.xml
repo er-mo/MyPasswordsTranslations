@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Keystore-fel. Aktivera biometrisk autentisering igen när du anger ditt huvudlösenord.</string>
     <string name="dialog_msg_biometric_no_hardware">Det finns ingen biometrisk hårdvara.</string>
     <string name="dialog_msg_biometric_none_enrolled">Inga registrerade biometri hittades. Ställ in minst en i systeminställningarna.</string>
+    <string name="dialog_msg_biometric_security_update_required">En säkerhetsuppdatering krävs för att använda de biometriska sensorerna.</string>
+    <string name="dialog_msg_biometric_unknown_error">De biometriska sensorerna kan inte användas på grund av okänt fel.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Den valda filen eller mappen kan inte nås.</string>
     <string name="dialog_msg_cannot_open_folder">Mappen är inte tillgänglig.</string>
     <string name="dialog_msg_cannot_read_file">Valda filer kan inte läsas.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
     <string name="dialog_msg_db_created_on_ios">Databasbackupen skapades på iOS och kan inte återställas på Android. Du kan överföra dina data med en csv-fil istället.</string>
     <string name="dialog_msg_db_different_pass">Databasbackupen skapades med ett annat huvudlösenord.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Databassäkerhetskopian skapades med en ny appversion. Uppdatera appen till den senaste versionen och försök igen.</string>
     <string name="dialog_msg_db_not_valid">Databasbackuper är inte giltig.</string>
     <string name="dialog_msg_delete_entry">Radera post?</string>
     <string name="dialog_msg_delete_field">Radera fält?</string>

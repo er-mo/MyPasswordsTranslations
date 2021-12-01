@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Erro no armazenamento de chaves. Reative a autenticação biométrica depois de inserir usando sua senha mestra.</string>
     <string name="dialog_msg_biometric_no_hardware">Não há hardware biométrico.</string>
     <string name="dialog_msg_biometric_none_enrolled">Nenhuma biometria registrada encontrada. Configure pelo menos um nas configurações do sistema.</string>
+    <string name="dialog_msg_biometric_security_update_required">Uma atualização de segurança é necessária para usar os sensores biométricos.</string>
+    <string name="dialog_msg_biometric_unknown_error">Os sensores biométricos não podem ser usados devido a um erro desconhecido.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">O arquivo ou pasta selecionado não pode ser acessado.</string>
     <string name="dialog_msg_cannot_open_folder">A pasta não está acessível.</string>
     <string name="dialog_msg_cannot_read_file">O arquivo selecionado não pode ser lido.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">O arquivo CSV não possui dados.</string>
     <string name="dialog_msg_db_created_on_ios">O backup do banco de dados foi criado no iOS e não pode ser restaurado no Android. Você pode transferir seus dados usando um arquivo csv.</string>
     <string name="dialog_msg_db_different_pass">O backup do banco de dados foi criado usando uma senha mestra diferente.</string>
+    <string name="dialog_msg_db_update_to_latest_version">O backup do banco de dados foi criado com uma versão recente do aplicativo. Atualize o aplicativo para a versão mais recente e tente novamente.</string>
     <string name="dialog_msg_db_not_valid">O backup do banco de dados não é válido.</string>
     <string name="dialog_msg_delete_entry">Excluir entrada?</string>
     <string name="dialog_msg_delete_field">Excluir campo?</string>

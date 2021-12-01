@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">কীস্টোর ত্রুটি। আপনি একবার নিজের মাস্টার পাসওয়ার্ড ব্যবহার করে বায়োমেট্রিক পুনরায় সক্ষম করুন।</string>
     <string name="dialog_msg_biometric_no_hardware">কোনও বায়োমেট্রিক হার্ডওয়্যার নেই।</string>
     <string name="dialog_msg_biometric_none_enrolled">কোনও নথিভুক্ত বায়োমেট্রিক্স পাওয়া যায় নি। সিস্টেম সেটিংসে কমপক্ষে একটি সেট আপ করুন।</string>
+    <string name="dialog_msg_biometric_security_update_required">বায়োমেট্রিক সেন্সর ব্যবহার করার জন্য একটি নিরাপত্তা আপডেট প্রয়োজন।</string>
+    <string name="dialog_msg_biometric_unknown_error">অজানা ত্রুটির কারণে বায়োমেট্রিক সেন্সর ব্যবহার করা যাবে না।</string>
     <string name="dialog_msg_cannot_access_file_or_folder">নির্বাচিত ফাইল বা ফোল্ডারটি অ্যাক্সেস করা যায় না।</string>
     <string name="dialog_msg_cannot_open_folder">ফোল্ডার প্রবেশযোগ্য নয়।</string>
     <string name="dialog_msg_cannot_read_file">নির্বাচিত ফাইল পড়া যাবে না।</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">CSV ফাইলের কোন তথ্য নেই।</string>
     <string name="dialog_msg_db_created_on_ios">ডাটাবেস ব্যাকআপটি আইওএস-এ তৈরি হয়েছিল এবং অ্যান্ড্রয়েডে পুনরুদ্ধার করা যায় না। পরিবর্তে আপনি কোনও সিএসভি ফাইল ব্যবহার করে আপনার ডেটা স্থানান্তর করতে পারেন।</string>
     <string name="dialog_msg_db_different_pass">ডাটাবেস ব্যাকআপটি একটি ভিন্ন মাস্টার পাসওয়ার্ড ব্যবহার করে তৈরি করা হয়েছিল।</string>
+    <string name="dialog_msg_db_update_to_latest_version">ডেটাবেস ব্যাকআপ একটি সাম্প্রতিক অ্যাপ সংস্করণ দিয়ে তৈরি করা হয়েছিল। অনুগ্রহ করে অ্যাপটিকে সর্বশেষ সংস্করণে আপডেট করুন এবং আবার চেষ্টা করুন।</string>
     <string name="dialog_msg_db_not_valid">ডাটাবেস ব্যাকআপ বৈধ নয়।</string>
     <string name="dialog_msg_delete_entry">এন্ট্রি মুছবেন?</string>
     <string name="dialog_msg_delete_field">ক্ষেত্র মুছে ফেলুন?</string>

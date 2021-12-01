@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Keystore-Fehler. Bitte aktivieren Sie die biometrische Authentifizierung erneut, sobald Sie sie mit Ihrem Master-Passwort eingegeben haben.</string>
     <string name="dialog_msg_biometric_no_hardware">Es gibt keine biometrische Hardware.</string>
     <string name="dialog_msg_biometric_none_enrolled">Keine registrierten biometrischen Daten gefunden. Bitte richten Sie mindestens eine in den Systemeinstellungen ein.</string>
+    <string name="dialog_msg_biometric_security_update_required">Für die Verwendung der biometrischen Sensoren ist ein Sicherheitsupdate erforderlich.</string>
+    <string name="dialog_msg_biometric_unknown_error">Die biometrischen Sensoren können aufgrund eines unbekannten Fehlers nicht verwendet werden.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Auf die ausgewählte Datei oder den ausgewählten Ordner kann nicht zugegriffen werden.</string>
     <string name="dialog_msg_cannot_open_folder">Der Ordner ist nicht zugänglich.</string>
     <string name="dialog_msg_cannot_read_file">Die ausgewählte Datei kann nicht gelesen werden.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Die CSV-Datei enthält keine Daten.</string>
     <string name="dialog_msg_db_created_on_ios">Die Datenbanksicherung wurde unter iOS erstellt und kann unter Android nicht wiederhergestellt werden. Sie können Ihre Daten stattdessen mit einer CSV-Datei übertragen.</string>
     <string name="dialog_msg_db_different_pass">Die Datenbanksicherung wurde mit einem anderen Master-Passwort erstellt.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Die Datenbanksicherung wurde mit einer aktuellen App-Version erstellt. Bitte aktualisieren Sie die App auf die neueste Version und versuchen Sie es erneut.</string>
     <string name="dialog_msg_db_not_valid">Die Datenbanksicherung ist nicht gültig.</string>
     <string name="dialog_msg_delete_entry">Eintrag löschen?</string>
     <string name="dialog_msg_delete_field">Feld löschen?</string>

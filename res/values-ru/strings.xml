@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Ошибка хранилища ключей. Пожалуйста, включите биометрическую аутентификацию, как только вы введете свой мастер-пароль.</string>
     <string name="dialog_msg_biometric_no_hardware">Здесь нет биометрического оборудования.</string>
     <string name="dialog_msg_biometric_none_enrolled">Зарегистрированные биометрические данные не найдены. Пожалуйста, установите хотя бы один в настройках системы.</string>
+    <string name="dialog_msg_biometric_security_update_required">Для использования биометрических датчиков требуется обновление безопасности.</string>
+    <string name="dialog_msg_biometric_unknown_error">Биометрические датчики нельзя использовать из-за неизвестной ошибки.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Выбранный файл или папка недоступны.</string>
     <string name="dialog_msg_cannot_open_folder">Папка недоступна.</string>
     <string name="dialog_msg_cannot_read_file">Выбранный файл не может быть прочитан.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Файл CSV не имеет данных.</string>
     <string name="dialog_msg_db_created_on_ios">Резервная копия базы данных была создана на iOS и не может быть восстановлена на Android. Вы можете передать свои данные, используя CSV-файл.</string>
     <string name="dialog_msg_db_different_pass">Резервная копия базы данных была создана с использованием другого мастер-пароля.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Резервная копия базы данных была создана с использованием последней версии приложения. Обновите приложение до последней версии и попробуйте еще раз.</string>
     <string name="dialog_msg_db_not_valid">Резервная копия базы данных недействительна.</string>
     <string name="dialog_msg_delete_entry">Удалить запись?</string>
     <string name="dialog_msg_delete_field">Удалить поле?</string>

@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Chyba úložiště klíčů. Po zadání pomocí hlavního hesla znovu aktivujte biometrické údaje.</string>
     <string name="dialog_msg_biometric_no_hardware">Neexistuje žádný biometrický hardware.</string>
     <string name="dialog_msg_biometric_none_enrolled">Nebyla nalezena žádná zapsaná biometrie. Nastavte alespoň jedno v nastavení systému.</string>
+    <string name="dialog_msg_biometric_security_update_required">Pro používání biometrických senzorů je vyžadována aktualizace zabezpečení.</string>
+    <string name="dialog_msg_biometric_unknown_error">Biometrické senzory nelze použít kvůli neznámé chybě.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">K vybranému souboru nebo složce nelze přistupovat.</string>
     <string name="dialog_msg_cannot_open_folder">Složka není přístupná.</string>
     <string name="dialog_msg_cannot_read_file">Vybraný soubor nelze přečíst.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">Soubor CSV nemá žádné údaje.</string>
     <string name="dialog_msg_db_created_on_ios">Záloha databáze byla vytvořena v systému iOS a nelze ji v systému Android obnovit. Místo toho můžete svá data přenést pomocí souboru csv.</string>
     <string name="dialog_msg_db_different_pass">Zálohování databáze bylo vytvořeno pomocí jiného hlavního hesla.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Záloha databáze byla vytvořena s nejnovější verzí aplikace. Aktualizujte aplikaci na nejnovější verzi a zkuste to znovu.</string>
     <string name="dialog_msg_db_not_valid">Zálohování databáze není platné.</string>
     <string name="dialog_msg_delete_entry">Smazat záznam?</string>
     <string name="dialog_msg_delete_field">Smazat pole?</string>

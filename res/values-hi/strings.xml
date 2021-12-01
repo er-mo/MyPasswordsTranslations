@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">कीस्टोर त्रुटि। कृपया अपने मास्टर पासवर्ड का उपयोग करते हुए बायोमेट्रिक प्रमाणीकरण को पुनः सक्षम करें।</string>
     <string name="dialog_msg_biometric_no_hardware">बायोमेट्रिक हार्डवेयर नहीं है।</string>
     <string name="dialog_msg_biometric_none_enrolled">कोई नामांकित बायोमेट्रिक्स नहीं मिला। कृपया सिस्टम सेटिंग में कम से कम एक सेट करें।</string>
+    <string name="dialog_msg_biometric_security_update_required">बायोमेट्रिक सेंसर का उपयोग करने के लिए एक सुरक्षा अद्यतन की आवश्यकता है।</string>
+    <string name="dialog_msg_biometric_unknown_error">अज्ञात त्रुटि के कारण बायोमेट्रिक सेंसर का उपयोग नहीं किया जा सकता है।</string>
     <string name="dialog_msg_cannot_access_file_or_folder">चयनित फ़ाइल या फ़ोल्डर तक पहुँचा नहीं जा सकता।</string>
     <string name="dialog_msg_cannot_open_folder">फ़ोल्डर पहुँच योग्य नहीं है।</string>
     <string name="dialog_msg_cannot_read_file">चयनित फ़ाइल को पढ़ा नहीं जा सकता है।</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">CSV फ़ाइल में कोई डेटा नहीं है।</string>
     <string name="dialog_msg_db_created_on_ios">डेटाबेस बैकअप iOS पर बनाया गया था और इसे Android पर पुनर्स्थापित नहीं किया जा सकता है। आप इसके बजाय एक सीएसवी फ़ाइल का उपयोग करके अपने डेटा को स्थानांतरित कर सकते हैं।</string>
     <string name="dialog_msg_db_different_pass">डेटाबेस बैकअप एक अलग मास्टर पासवर्ड का उपयोग करके बनाया गया था।</string>
+    <string name="dialog_msg_db_update_to_latest_version">डेटाबेस बैकअप हाल ही के ऐप संस्करण के साथ बनाया गया था। कृपया ऐप को नवीनतम संस्करण में अपडेट करें और पुनः प्रयास करें।</string>
     <string name="dialog_msg_db_not_valid">डेटाबेस बैकअप मान्य नहीं है।</string>
     <string name="dialog_msg_delete_entry">प्रविष्टि हटाएं?</string>
     <string name="dialog_msg_delete_field">फ़ील्ड हटाएं?</string>

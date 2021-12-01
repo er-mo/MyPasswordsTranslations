@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Kesalahan keystore. Harap aktifkan kembali otentikasi biometrik setelah Anda memasukkan menggunakan kata sandi utama Anda.</string>
     <string name="dialog_msg_biometric_no_hardware">Tidak ada perangkat keras biometrik.</string>
     <string name="dialog_msg_biometric_none_enrolled">Tidak ditemukan biometrik terdaftar. Harap atur setidaknya satu di pengaturan sistem.</string>
+    <string name="dialog_msg_biometric_security_update_required">Pembaruan keamanan diperlukan untuk menggunakan sensor biometrik.</string>
+    <string name="dialog_msg_biometric_unknown_error">Sensor biometrik tidak dapat digunakan karena kesalahan yang tidak diketahui.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">File atau folder yang dipilih tidak dapat diakses.</string>
     <string name="dialog_msg_cannot_open_folder">Folder tidak dapat diakses.</string>
     <string name="dialog_msg_cannot_read_file">File yang dipilih tidak dapat dibaca.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">File CSV tidak memiliki data.</string>
     <string name="dialog_msg_db_created_on_ios">Cadangan basis data dibuat di iOS dan tidak dapat dipulihkan di Android. Anda dapat mentransfer data menggunakan file csv.</string>
     <string name="dialog_msg_db_different_pass">Cadangan database dibuat menggunakan kata sandi master yang berbeda.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Cadangan basis data dibuat dengan versi aplikasi terbaru. Harap perbarui aplikasi ke versi terbaru dan coba lagi.</string>
     <string name="dialog_msg_db_not_valid">Cadangan database tidak valid.</string>
     <string name="dialog_msg_delete_entry">Hapus Entri?</string>
     <string name="dialog_msg_delete_field">Hapus bidang?</string>

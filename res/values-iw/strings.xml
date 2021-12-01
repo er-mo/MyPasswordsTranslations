@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">שגיאת מקשים. אנא הפעל מחדש את הביומטרי ברגע שתזין באמצעות סיסמת המאסטר שלך.</string>
     <string name="dialog_msg_biometric_no_hardware">אין חומרה ביומטרית.</string>
     <string name="dialog_msg_biometric_none_enrolled">לא נמצאו ביומטריה רשומה. אנא הגדר לפחות אחת בהגדרות המערכת.</string>
+    <string name="dialog_msg_biometric_security_update_required">נדרש עדכון אבטחה לשימוש בחיישנים הביומטריים.</string>
+    <string name="dialog_msg_biometric_unknown_error">לא ניתן להשתמש בחיישנים הביומטריים עקב שגיאה לא ידועה.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">לא ניתן לגשת לקובץ או לתיקיה שנבחרו.</string>
     <string name="dialog_msg_cannot_open_folder">התיקיה אינה נגישה.</string>
     <string name="dialog_msg_cannot_read_file">לא ניתן לקרוא את הקובץ שנבחר.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">לקובץ ה- CSV אין נתונים.</string>
     <string name="dialog_msg_db_created_on_ios">גיבוי בסיס הנתונים נוצר ב- iOS ולא ניתן לשחזר אותו ב- Android. אתה יכול להעביר את הנתונים שלך באמצעות קובץ csv במקום זאת.</string>
     <string name="dialog_msg_db_different_pass">גיבוי בסיס הנתונים נוצר באמצעות סיסמת אב אחרת.</string>
+    <string name="dialog_msg_db_update_to_latest_version">הגיבוי של מסד הנתונים נוצר עם גרסת אפליקציה עדכנית. אנא עדכן את האפליקציה לגרסה העדכנית ביותר ונסה שוב.</string>
     <string name="dialog_msg_db_not_valid">גיבוי בסיס הנתונים אינו תקף.</string>
     <string name="dialog_msg_delete_entry">מחק רשומה?</string>
     <string name="dialog_msg_delete_field">למחוק שדה?</string>

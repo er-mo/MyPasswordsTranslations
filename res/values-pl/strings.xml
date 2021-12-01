@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Błąd magazynu kluczy. Ponownie włącz uwierzytelnianie biometryczne po wprowadzeniu hasła głównego.</string>
     <string name="dialog_msg_biometric_no_hardware">Nie ma sprzętu biometrycznego.</string>
     <string name="dialog_msg_biometric_none_enrolled">Nie znaleziono zapisanych danych biometrycznych. Ustaw przynajmniej jedną w ustawieniach systemu.</string>
+    <string name="dialog_msg_biometric_security_update_required">Do korzystania z czujników biometrycznych wymagana jest aktualizacja zabezpieczeń.</string>
+    <string name="dialog_msg_biometric_unknown_error">Czujniki biometryczne nie mogą być używane z powodu nieznanego błędu.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Nie można uzyskać dostępu do wybranego pliku lub folderu.</string>
     <string name="dialog_msg_cannot_open_folder">Katalog niejest dostępny.</string>
     <string name="dialog_msg_cannot_read_file">Nie można odczytać wybranego pliku.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">W pliku CSV nie ma danych.</string>
     <string name="dialog_msg_db_created_on_ios">Kopia zapasowa bazy danych została utworzona w systemie iOS i nie można jej przywrócić w systemie Android. Zamiast tego możesz przesłać swoje dane za pomocą pliku csv.</string>
     <string name="dialog_msg_db_different_pass">Kopia zapasowa bazy danych została utworzona przy użyciu innego hasła głównego.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Kopia zapasowa bazy danych została utworzona w najnowszej wersji aplikacji. Zaktualizuj aplikację do najnowszej wersji i spróbuj ponownie.</string>
     <string name="dialog_msg_db_not_valid">Kopia zapasowa bazy danych jest nieprawidłowa.</string>
     <string name="dialog_msg_delete_entry">Usunąć wpis?</string>
     <string name="dialog_msg_delete_field">Usunąć pole?</string>

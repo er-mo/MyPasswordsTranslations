@@ -35,6 +35,8 @@
     <string name="dialog_msg_biometric_keystore_error">Keystore error. Aktiver venligst biometrikken igen, når du har indtastet din hovedadgangskode.</string>
     <string name="dialog_msg_biometric_no_hardware">Der er ingen biometrisk hardware.</string>
     <string name="dialog_msg_biometric_none_enrolled">Ingen registrerede biometri fundet. Indstil venligst ved udlejning en i systemindstillingerne.</string>
+    <string name="dialog_msg_biometric_security_update_required">En sikkerhedsopdatering er påkrævet for at bruge de biometriske sensorer.</string>
+    <string name="dialog_msg_biometric_unknown_error">De biometriske sensorer kan ikke bruges på grund af ukendt fejl.</string>
     <string name="dialog_msg_cannot_access_file_or_folder">Den valgte fil eller mappe er ikke tilgængelig.</string>
     <string name="dialog_msg_cannot_open_folder">Mappen er ikke tilgængelig.</string>
     <string name="dialog_msg_cannot_read_file">Den valgte fil kan ikke læses.</string>
@@ -43,6 +45,7 @@
     <string name="dialog_msg_csv_no_data">CSV-filen har ingen data.</string>
     <string name="dialog_msg_db_created_on_ios">Databasens sikkerhedskopi blev oprettet på iOS og kan ikke gendannes på Android. Du kan overføre dine data ved hjælp af en csv-fil i stedet.</string>
     <string name="dialog_msg_db_different_pass">Databasens sikkerhedskopi blev oprettet ved hjælp af en anden hovedadgangskode.</string>
+    <string name="dialog_msg_db_update_to_latest_version">Databasesikkerhedskopieringen blev oprettet med en nylig appversion. Opdater venligst appen til den nyeste version, og prøv igen.</string>
     <string name="dialog_msg_db_not_valid">Databasens sikkerhedskopi er ikke gyldig.</string>
     <string name="dialog_msg_delete_entry">Slet indgang?</string>
     <string name="dialog_msg_delete_field">Slet felt?</string>
