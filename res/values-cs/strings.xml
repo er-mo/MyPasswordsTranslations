@@ -95,6 +95,7 @@
     <string name="menu_edit">Upravit</string>
     <string name="menu_exit">Výstup</string>
     <string name="menu_export_import">Vyvoz dovoz</string>
+    <string name="menu_export_to_csv">Export do csv</string>
     <string name="menu_keyboard">Klávesnice</string>
     <string name="menu_navigation_drawer_all_entries">Všechno</string>
     <string name="menu_navigation_drawer_edit_labels">Upravit štítky</string>

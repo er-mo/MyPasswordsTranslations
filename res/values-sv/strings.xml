@@ -95,6 +95,7 @@
     <string name="menu_edit">Redigera</string>
     <string name="menu_exit">Utgång</string>
     <string name="menu_export_import">Export Import</string>
+    <string name="menu_export_to_csv">Exportera till csv</string>
     <string name="menu_keyboard">Tangentbord</string>
     <string name="menu_navigation_drawer_all_entries">Allt</string>
     <string name="menu_navigation_drawer_edit_labels">Redigera etiketter</string>

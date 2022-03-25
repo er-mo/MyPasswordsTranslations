@@ -95,6 +95,7 @@
     <string name="menu_edit">편집</string>
     <string name="menu_exit">나가기</string>
     <string name="menu_export_import">수출 수입</string>
+    <string name="menu_export_to_csv">CSV로 내보내기</string>
     <string name="menu_keyboard">키보드</string>
     <string name="menu_navigation_drawer_all_entries">모두</string>
     <string name="menu_navigation_drawer_edit_labels">레이블 편집</string>

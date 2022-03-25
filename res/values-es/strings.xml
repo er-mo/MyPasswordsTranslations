@@ -95,11 +95,12 @@
     <string name="menu_edit">Editar</string>
     <string name="menu_exit">Salida</string>
     <string name="menu_export_import">Exportar importar</string>
+    <string name="menu_export_to_csv">Exportar a csv</string>
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_navigation_drawer_all_entries">Todos</string>
     <string name="menu_navigation_drawer_edit_labels">Editar etiquetas</string>
     <string name="menu_navigation_drawer_archived">Archivado</string>
-    <string name="menu_navigation_drawer_trash">Basura</string>
+    <string name="menu_navigation_drawer_trash">Papelera</string>
     <string name="menu_remove_from_watch">Quitar del reloj</string>
     <string name="menu_save">GUARDAR</string>
     <string name="menu_search">Buscar</string>

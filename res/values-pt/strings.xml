@@ -95,6 +95,7 @@
     <string name="menu_edit">Editar</string>
     <string name="menu_exit">Saída</string>
     <string name="menu_export_import">Exportar importar</string>
+    <string name="menu_export_to_csv">Exportar para csv</string>
     <string name="menu_keyboard">Teclado</string>
     <string name="menu_navigation_drawer_all_entries">Todos</string>
     <string name="menu_navigation_drawer_edit_labels">Editar rótulos</string>

@@ -95,6 +95,7 @@
     <string name="menu_edit">Éditer</string>
     <string name="menu_exit">Sortie</string>
     <string name="menu_export_import">Exporter / importer</string>
+    <string name="menu_export_to_csv">Exporter vers csv</string>
     <string name="menu_keyboard">Clavier</string>
     <string name="menu_navigation_drawer_all_entries">Tous</string>
     <string name="menu_navigation_drawer_edit_labels">Modifier les étiquettes</string>
@@ -193,7 +194,7 @@
     <string name="pref_security_summary_auto_exit">Lorsque l\'écran s\'éteint ou après 60 secondes en arrière-plan</string>
     <string name="pref_security_summary_biometric">Un appareil compatible est requis pour utiliser cette fonction. Vous pouvez spécifier votre biométrie préférée dans les paramètres système (empreinte digitale, détection de visage, etc.)</string>
     <string name="pref_security_summary_fingerprint">Nécessite Android 6.0 ou version ultérieure et du matériel compatible pour utiliser cette fonctionnalité</string>
-    <string name="pref_security_summary_stay_awake">L\'écran ne s'éteindra jamais lors de visualisation ou de la modification des entrées</string>
+    <string name="pref_security_summary_stay_awake">L\'écran ne s\'éteindra jamais lors de visualisation ou de la modification des entrées</string>
     <string name="pref_security_title_allow_screenshots">Autoriser les captures d\'écran</string>
     <string name="pref_security_title_auto_exit">Sortie automatique</string>
     <string name="pref_security_title_biometric">Authentification biométrique</string>
@@ -214,20 +215,20 @@
     <string name="toast_copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="toast_copy_to_clipboard_failed">Échec de la copie dans le presse-papiers</string>
     <string name="toast_database_server_error">La base de données n\'est pas disponible pour le moment</string>
-    <string name="toast_label_exists">L'étiquette existe déjà</string>
+    <string name="toast_label_exists">L\'étiquette existe déjà</string>
     <string name="toast_master_password_not_updated">Échec de la mise à jour du mot de passe principal</string>
     <string name="toast_master_password_updated">Mot de passe principal mis à jour avec succès</string>
     <string name="toast_no_browser">Aucune application de navigateur Web trouvée</string>
     <string name="toast_no_file_selected">Aucun fichier sélectionné</string>
     <string name="toast_no_folder_selected">Aucun dossier sélectionné</string>
-    <string name="toast_no_labels"Aucune étiquette</string>
+    <string name="toast_no_labels">Aucune étiquette</string>
     <string name="toast_no_password_history">Pas d\'historique de mot de passe disponible</string>
     <string name="toast_no_playstore">L\'application Google Play Store n\'est pas installée</string>
     <string name="toast_password_history_cleared">Historique effacé</string>
     <string name="toast_playstore_error">L\'application Google Play Store n\'est pas installée</string>
     <string name="toast_playstore_services_error">Les services Google Play ne sont pas disponibles</string>
     <string name="toast_pro_feature">Disponible uniquement en version PRO</string>
-    <string name="toast_pro_feature_unlimited_labels">Plus d'étiquettes disponibles dans la version PRO</string>
+    <string name="toast_pro_feature_unlimited_labels">Plus d\'étiquettes disponibles dans la version PRO</string>
     <string name="toast_remember_your_master_password">Assurez-vous de vous souvenir de votre mot de passe principal</string>
     <string name="toast_removed_from_watch">Retiré de la montre</string>
     <string name="toast_storage_not_accessible">Le stockage externe n\'est pas accessible</string>
@@ -256,6 +257,6 @@
     <string name="upgrade_with_single_purchase">Débloquer toutes les autres fonctionnalités avec un seul achat in-app.</string>
     <string name="username">Nom d\'utilisateur</string>
     <string name="website">Site Internet</string>
-    <string name="welcome_info_content">Veuillez enregistrer un mot de passe principal pour commencer à utiliser l\'application. Notez que si le mot de passe principal est perdu, les données stockées ne pourront pas être récupérées puisqu'il n'y a pas de synchronisation. Il est fortement recommandé de sauvegarder vos données à intervalles réguliers.</string>
-    <string name="welcome_info_title">Bienvenue !</string>
+    <string name="welcome_info_content">Veuillez enregistrer un mot de passe principal pour commencer à utiliser l\'application. Notez que si le mot de passe principal est perdu, les données stockées ne pourront pas être récupérées puisqu\'il n\'y a pas de synchronisation. Il est fortement recommandé de sauvegarder vos données à intervalles réguliers.</string>
+    <string name="welcome_info_title">Bienvenue!</string>
 </resources>

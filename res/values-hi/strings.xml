@@ -95,6 +95,7 @@
     <string name="menu_edit">संपादित करें</string>
     <string name="menu_exit">बाहर जाएं</string>
     <string name="menu_export_import">निर्यात आयात</string>
+    <string name="menu_export_to_csv">csv . में निर्यात करें</string>
     <string name="menu_keyboard">कीबोर्ड</string>
     <string name="menu_navigation_drawer_all_entries">सब</string>
     <string name="menu_navigation_drawer_edit_labels">लेबल संपादित करें</string>

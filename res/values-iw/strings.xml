@@ -95,6 +95,7 @@
     <string name="menu_edit">ערוך</string>
     <string name="menu_exit">יציאה</string>
     <string name="menu_export_import">ייצוא ייבוא</string>
+    <string name="menu_export_to_csv">ייצוא ל-csv</string>
     <string name="menu_keyboard">מקלדת</string>
     <string name="menu_navigation_drawer_all_entries">את כל</string>
     <string name="menu_navigation_drawer_edit_labels">ערוך תוויות</string>

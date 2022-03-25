@@ -95,6 +95,7 @@
     <string name="menu_edit">編集する</string>
     <string name="menu_exit">出口</string>
     <string name="menu_export_import">輸出入</string>
+    <string name="menu_export_to_csv">csvにエクスポート</string>
     <string name="menu_keyboard">キーボード</string>
     <string name="menu_navigation_drawer_all_entries">すべて</string>
     <string name="menu_navigation_drawer_edit_labels">ラベルを編集する</string>

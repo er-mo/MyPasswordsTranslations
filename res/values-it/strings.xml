@@ -95,6 +95,7 @@
     <string name="menu_edit">Modifica</string>
     <string name="menu_exit">Uscita</string>
     <string name="menu_export_import">Esportazione importazione</string>
+    <string name="menu_export_to_csv">Esporta in csv</string>
     <string name="menu_keyboard">Tastiera</string>
     <string name="menu_navigation_drawer_all_entries">Tutti</string>
     <string name="menu_navigation_drawer_edit_labels">Modifica etichette</string>

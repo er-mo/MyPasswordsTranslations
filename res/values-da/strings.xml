@@ -95,6 +95,7 @@
     <string name="menu_edit">Redigere</string>
     <string name="menu_exit">Afslut</string>
     <string name="menu_export_import">Eksport / Import</string>
+    <string name="menu_export_to_csv">Eksporter til csv</string>
     <string name="menu_keyboard">Tastatur</string>
     <string name="menu_navigation_drawer_all_entries">Alle</string>
     <string name="menu_navigation_drawer_edit_labels">Rediger etiketter</string>

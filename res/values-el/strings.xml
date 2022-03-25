@@ -95,6 +95,7 @@
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_exit">Έξοδος</string>
     <string name="menu_export_import">Εξαγωγή εισαγωγή</string>
+    <string name="menu_export_to_csv">Εξαγωγή σε csv</string>
     <string name="menu_keyboard">Πληκτρολόγιο</string>
     <string name="menu_navigation_drawer_all_entries">Όλα</string>
     <string name="menu_navigation_drawer_edit_labels">Επεξεργασία ετικετών</string>

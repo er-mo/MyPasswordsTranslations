@@ -95,6 +95,7 @@
     <string name="menu_edit">Mengedit</string>
     <string name="menu_exit">Keluar</string>
     <string name="menu_export_import">Ekspor Impor</string>
+    <string name="menu_export_to_csv">Ekspor ke csv</string>
     <string name="menu_keyboard">Papan tombol</string>
     <string name="menu_navigation_drawer_all_entries">Semua</string>
     <string name="menu_navigation_drawer_edit_labels">Mengedit label</string>
