@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Koppintson újra a kilépéshez</string>
     <string name="toast_tap_to_copy_text">Koppintson a szöveges nézetre a tartalom másolásához</string>
     <string name="toast_try_again_shortly">Kérjük, próbálja meg újra néhány másodperccel később</string>
+    <string name="toast_notification_permission_denied">Permission denied. Cannot show notifications.</string>
     <string name="upgrade_feature_1">Csv-fájlok exportálása és importálása</string>
     <string name="upgrade_feature_10">Korlátlan címkék</string>
     <string name="upgrade_feature_11">Exportálás PDF-be és a fájl nyomtatása</string>
