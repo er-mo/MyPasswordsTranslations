@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">প্রস্থান করার জন্য আবার আলতো চাপুন</string>
     <string name="toast_tap_to_copy_text">সামগ্রী অনুলিপি করতে পাঠ্য ভিউতে আলতো চাপুন</string>
     <string name="toast_try_again_shortly">কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন</string>
+    <string name="toast_notification_permission_denied">অনুমতি অস্বীকার করা হয়েছে। বিজ্ঞপ্তি দেখাতে পারে না।</string>
     <string name="upgrade_feature_1">রপ্তানি এবং CSV ফাইল আমদানি</string>
     <string name="upgrade_feature_10">আনলিমিটেড লেবেল</string>
     <string name="upgrade_feature_11">পিডিএফ রফতানি করুন - মুদ্রণ</string>

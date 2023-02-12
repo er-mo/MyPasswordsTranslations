@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">종료하려면 다시 터치</string>
     <string name="toast_tap_to_copy_text">텍스트 뷰를 터치하면 내용이 복사됨</string>
     <string name="toast_try_again_shortly">잠시 뒤 다시 시도하십시오.</string>
+    <string name="toast_notification_permission_denied">권한이 거부되었습니다. 알림을 표시할 수 없습니다.</string>
     <string name="upgrade_feature_1">CSV 파일 내보내기 및 불러오기</string>
     <string name="upgrade_feature_10">무제한 레이블</string>
     <string name="upgrade_feature_11">PDF로 내보내기-인쇄</string>

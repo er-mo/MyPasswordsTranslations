@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">再次輕觸離開</string>
     <string name="toast_tap_to_copy_text">輕觸文字檢視來複製內容</string>
     <string name="toast_try_again_shortly">請在幾秒後重試</string>
+    <string name="toast_notification_permission_denied">沒有權限。 無法顯示通知。</string>
     <string name="upgrade_feature_1">CSV進出口</string>
     <string name="upgrade_feature_10">無限標籤</string>
     <string name="upgrade_feature_11">導出為PDF-打印</string>

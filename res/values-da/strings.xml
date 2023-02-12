@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Tryk igen for at afslutte</string>
     <string name="toast_tap_to_copy_text">Tryk på tekstvisningen for at kopiere indholdet</string>
     <string name="toast_try_again_shortly">Prøv igen om få sekunder</string>
+    <string name="toast_notification_permission_denied">Adgang nægtet. Kan ikke vise notifikationer.</string>
     <string name="upgrade_feature_1">Eksport og import csv-filer</string>
     <string name="upgrade_feature_10">Ubegrænset etiketter</string>
     <string name="upgrade_feature_11">Eksporter til PDF - Udskriv</string>

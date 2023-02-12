@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Πατήστε ξανά για να βγείτε</string>
     <string name="toast_tap_to_copy_text">Πατήστε στο κείμενο για να αντιγράψετε το περιεχόμενο</string>
     <string name="toast_try_again_shortly">Παρακαλώ δοκιμάστε ξανά σε λίγο</string>
+    <string name="toast_notification_permission_denied">Η άδεια απορρίφθηκε. Δεν είναι δυνατή η εμφάνιση ειδοποιήσεων.</string>
     <string name="upgrade_feature_1">Εξαγωγή και εισαγωγή csv αρχείων</string>
     <string name="upgrade_feature_10">Απεριόριστες ετικέτες</string>
     <string name="upgrade_feature_11">Εξαγωγή σε PDF - Εκτύπωση</string>

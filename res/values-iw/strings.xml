@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">הקש שוב כדי לצאת</string>
     <string name="toast_tap_to_copy_text">הקש על תצוגת הטקסט כדי להעתיק את התוכן</string>
     <string name="toast_try_again_shortly">אנא נסה שוב בעוד מספר שניות</string>
+    <string name="toast_notification_permission_denied">ההרשאה נדחתה. לא ניתן להציג התראות.</string>
     <string name="upgrade_feature_1">יצוא יבוא קובץ csv</string>
     <string name="upgrade_feature_10">תוויות ללא הגבלה</string>
     <string name="upgrade_feature_11">ייצא ל- PDF - הדפס</string>

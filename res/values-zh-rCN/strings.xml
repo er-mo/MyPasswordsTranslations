@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">再次点击退出</string>
     <string name="toast_tap_to_copy_text">点击文本视图复制内容</string>
     <string name="toast_try_again_shortly">请稍后再试</string>
+    <string name="toast_notification_permission_denied">没有权限。 无法显示通知。</string>
     <string name="upgrade_feature_1">备份的导入导出</string>
     <string name="upgrade_feature_10">无限标签</string>
     <string name="upgrade_feature_11">"导出为PDF-打印 "</string>

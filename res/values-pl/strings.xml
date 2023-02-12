@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Dotknij ponownie by wyjść</string>
     <string name="toast_tap_to_copy_text">Dotknij tekstu aby go skopiować</string>
     <string name="toast_try_again_shortly">Spróbuj ponownie za kilka sekund </string>
+    <string name="toast_notification_permission_denied">Odmowa pozwolenia. Nie można wyświetlić powiadomień.</string>
     <string name="upgrade_feature_1">Import &amp; eksport plików CSV</string>
     <string name="upgrade_feature_10">Nieograniczone etykiety</string>
     <string name="upgrade_feature_11">Eksportuj do PDF - Drukuj</string>

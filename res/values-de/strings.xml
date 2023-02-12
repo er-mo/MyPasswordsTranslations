@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Erneut drücken, um das Programm zu beenden</string>
     <string name="toast_tap_to_copy_text">Drücken Sie auf die Textansicht, um den Inhalt zu kopieren</string>
     <string name="toast_try_again_shortly">Bitte versuchen Sie es in einigen Sekunden noch einmal</string>
+    <string name="toast_notification_permission_denied">Erlaubnis verweigert. Benachrichtigungen können nicht angezeigt werden.</string>
     <string name="upgrade_feature_1">CSV dateien exportieren und importieren</string>
     <string name="upgrade_feature_10">Unbegrenzte Etiketten</string>
     <string name="upgrade_feature_11">In PDF exportieren - Drucken</string>

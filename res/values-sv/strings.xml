@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Tryck igen för att avsluta</string>
     <string name="toast_tap_to_copy_text">Tryck på texten för att kopiera innehållet</string>
     <string name="toast_try_again_shortly">Försök igen om några få sekunder</string>
+    <string name="toast_notification_permission_denied">Åtkomst nekad. Kan inte visa aviseringar.</string>
     <string name="upgrade_feature_1">CSV import &amp; export</string>
     <string name="upgrade_feature_10">Obegränsade etiketter</string>
     <string name="upgrade_feature_11">Exportera till PDF - Skriv ut</string>

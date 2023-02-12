@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Нажмите еще раз, чтобы выйти.</string>
     <string name="toast_tap_to_copy_text">Нажмите на текст, чтобы скопировать его в буфер обмена.</string>
     <string name="toast_try_again_shortly">Пожалуйста, попробуйте еще раз, через несколько секунд.</string>
+    <string name="toast_notification_permission_denied">Доступ запрещен. Не могу показать уведомления.</string>
     <string name="upgrade_feature_1">Экспорт и импорт CSV-файлов</string>
     <string name="upgrade_feature_10">Неограниченное количество ярлыков</string>
     <string name="upgrade_feature_11">Экспорт в PDF - Печать</string>

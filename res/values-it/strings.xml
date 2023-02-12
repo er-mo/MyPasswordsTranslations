@@ -29,7 +29,7 @@
     <string name="dialog_button_rate">Votala</string>
     <string name="dialog_button_remove">Rimuovere</string>
     <string name="dialog_msg_app_data_erased">Tutti i dati sono stati eliminati in modo permanente a causa dei tentativi falliti.</string>
-    <string name="dialog_msg_attachments_warning">Attachments may increase the database size and decrease the overall performance of the application.</string>
+    <string name="dialog_msg_attachments_warning">Gli allegati possono aumentare le dimensioni del database e ridurre le prestazioni complessive dell\'applicazione.</string>
     <string name="dialog_msg_auto_backup_error">La memoria esterna non è accessibile. Riattiva l\'opzione di backup automatico.</string>
     <string name="dialog_msg_biometric_hardware_unavailable">L\'hardware biometrico non è disponibile.</string>
     <string name="dialog_msg_biometric_keystore_error">Errore nel keystore. Riattivare l\'autenticazione biometrica dopo aver inserito la password principale.</string>
@@ -166,7 +166,7 @@
     <string name="pref_category_wear_os"><xliff:g id="PRO">[PRO]\u0020</xliff:g>WEAR OS</string>
     <string name="pref_database_summary_auto_backup">Creazione di un backup automatico nella memoria esterna (SD o memoria interna non rimovibile). È possibile accedere alla memoria esterna utilizzando un applicazione di terze parti</string>
     <string name="pref_database_summary_backup">Creare un backup della banca dati crittografato</string>
-    <string name="pref_database_summary_backup_share">Create and share a backup of the encrypted database</string>
+    <string name="pref_database_summary_backup_share">Crea e condividi un backup del database crittografato</string>
     <string name="pref_database_summary_restore">Ripristinare un backup di una banca dati crittografata</string>
     <string name="pref_database_title_auto_backup">Automatico backup</string>
     <string name="pref_database_title_backup">Backup della banca dati</string>
@@ -211,7 +211,7 @@
     <string name="required">Richiesto</string>
     <string name="title">Titolo</string>
     <string name="toast_added_to_watch">Aggiunto all\'orologio</string>
-    <string name="toast_camera_permission_denied">Permission denied. Cannot capture images.</string>
+    <string name="toast_camera_permission_denied">Permesso negato. Impossibile acquisire immagini.</string>
     <string name="toast_copied_to_clipboard">Copiato negli appunti</string>
     <string name="toast_copy_to_clipboard_failed">Impossibile copiare negli appunti</string>
     <string name="toast_database_server_error">La banca dati non è disponibile al momento</string>
@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Premi ancora per uscire</string>
     <string name="toast_tap_to_copy_text">Tocca nel testo per copiare il contenuto</string>
     <string name="toast_try_again_shortly">Riprova ancora dopo pochi secondi</string>
+    <string name="toast_notification_permission_denied">Permesso negato. Impossibile mostrare le notifiche.</string>
     <string name="upgrade_feature_1">Esporta e importa dei file csv</string>
     <string name="upgrade_feature_10">Etichette illimitate</string>
     <string name="upgrade_feature_11">Esporta in PDF - Stampa</string>

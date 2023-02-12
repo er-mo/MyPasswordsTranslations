@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Ketuk sekali lagi untuk keluar</string>
     <string name="toast_tap_to_copy_text">Ketik pada paparan teks untuk menyalin kandungan</string>
     <string name="toast_try_again_shortly">Sila cuba lagi dalam beberapa saat</string>
+    <string name="toast_notification_permission_denied">Kebenaran ditolak. Tidak dapat menunjukkan pemberitahuan.</string>
     <string name="upgrade_feature_1">Eksport dan; import fail csv</string>
     <string name="upgrade_feature_10">Label tanpa had</string>
     <string name="upgrade_feature_11">Eksport ke PDF - Cetak</string>
