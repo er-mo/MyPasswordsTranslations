@@ -240,6 +240,7 @@
     <string name="toast_tap_again_to_exit">Tap again to exit</string>
     <string name="toast_tap_to_copy_text">Tap on the text view to copy the content</string>
     <string name="toast_try_again_shortly">Please try again in few seconds</string>
+    <string name="toast_notification_permission_denied">Permission denied. Cannot show notifications.</string>
     <string name="upgrade_feature_1">Export and import csv files</string>
     <string name="upgrade_feature_10">Unlimited labels</string>
     <string name="upgrade_feature_11">Export to PDF - Print</string>
